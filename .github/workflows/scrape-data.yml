@@ -1,8 +1,7 @@
 name: Scrape new data
 on:
-  push:
-    branches:
-      - mastera
+  schedule:
+    - cron:  '0 1 * * *'
 jobs:
   scrape-data:
     name: Scraping data
@@ -31,10 +30,10 @@ jobs:
       - name: Scrape courses
         run: python3 scraper/sis_scraper/main.py
 
-      # - name: Scrape prerequisites
-      #   run: |
-      #     cp courses.json scraper/prerequisites_scraper
-      #     python3 scraper/prerequisites_scraper/main.py
+      - name: Scrape prerequisites
+        run: |
+          cp courses.json scraper/prerequisites_scraper
+          python3 scraper/prerequisites_scraper/main.py
 
       - name: Checkout data
         uses: actions/checkout@v2
@@ -44,10 +43,10 @@ jobs:
       - name: Commit new data
         run: |
           cp courses.json parsed.rs data
-          # cp prerequisites.json data
+          cp prerequisites.json data
           cd data
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
           git add courses.json parsed.rs
-          # git add prerequisites.json
+          git add prerequisites.json
           git commit -m "$(date -u)"
           git push --force
