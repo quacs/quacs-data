@@ -1,0 +1,52 @@
+name: Scrape new data
+on:
+  schedule:
+    - cron:  '0 1 * * *'
+jobs:
+  scrape-data:
+    name: Scraping data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scrapers
+        uses: actions/checkout@v2
+        with:
+          path: 'scraper'
+          repository: 'quacs/scraper'
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install pip requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+          ls
+
+      - name: Populate env
+        run: printf "RIN=${{ secrets.RIN }}\nPASSWORD=${{ secrets.PASSWORD }}\nCURRENT_TERM=${{ secrets.CURRENT_TERM }}" > scraper/sis_scraper/.env
+
+      - name: Scrape courses
+        run: python3 scraper/sis_scraper/main.py
+
+      - name: Scrape prerequisites
+        run: |
+          cp courses.json scraper/prerequisites_scraper
+          python3 scraper/prerequisites_scraper/main.py
+
+      - name: Checkout data
+        uses: actions/checkout@v2
+        with:
+          path: 'data'
+
+      - name: Commit new data
+        run: |
+          cp courses.json parsed.rs data
+          cp prerequisites.json data
+          cd data
+          git config user.name "QuACS" && git config user.email "eli@elischiff.org"
+          git add courses.json parsed.rs
+          git add prerequisites.json
+          git commit -m "$(date -u)"
+          git push --force
