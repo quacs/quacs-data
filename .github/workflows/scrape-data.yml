@@ -38,14 +38,13 @@ jobs:
         run: |
           ls
           ls prerequisites_scraper
-          cp sis_scraper/courses.json prerequisites_scraper
+          cp courses.json prerequisites_scraper
           python3 prerequisites_scraper/main.py
           ls
 
       - name: Commit new data
         run: |
           git status
-          cp sis_scraper/courses.json ./
-          cp sis_scraper/parsed.rs ./
-          cp prerequisites_scraper/prerequisites.json ./
           git add courses.json parsed.rs prerequisites.json
+          git status
+          git commit -m "test test"
