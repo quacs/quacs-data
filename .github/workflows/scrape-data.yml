@@ -2,7 +2,7 @@ name: Scrape new data
 on:
   push:
     branches:
-      - master
+      - mastera
 jobs:
   scrape-data:
     name: Scraping data
