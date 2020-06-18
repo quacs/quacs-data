@@ -22,22 +22,30 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          ls
 
       - name: Populate env
         run: printf "RIN=${{ secrets.RIN }}\nPASSWORD=${{ secrets.PASSWORD }}\nCURRENT_TERM=${{ secrets.CURRENT_TERM }}" > sis_scraper/.env
 
       - name: Scrape courses
-        run: python3 sis_scraper/main.py
+        run: |
+          ls
+          ls sis_scraper
+          python3 sis_scraper/main.py
+          ls sis_scraper
 
       - name: Scrape prerequisites
         run: |
-          cp sis_scraper/courses.json prerequisites_scraper &&
+          ls
+          ls prerequisites_scraper
+          cp sis_scraper/courses.json prerequisites_scraper
           python3 prerequisites_scraper/main.py
+          ls
 
       - name: Commit new data
         run: |
-          git status;
-          cp sis_scraper/courses.json ./ &&
-          cp sis_scraper/parsed.rs ./ &&
-          cp prerequisites_scraper/prerequisites.json ./ &&
-          git add courses.json parsed.rs prerequisites.json &&
+          git status
+          cp sis_scraper/courses.json ./
+          cp sis_scraper/parsed.rs ./
+          cp prerequisites_scraper/prerequisites.json ./
+          git add courses.json parsed.rs prerequisites.json
