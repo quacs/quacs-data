@@ -12,6 +12,9 @@ jobs:
         with:
           repository: 'quacs/scraper'
 
+      - name: test output
+        run: ls && ls -al && ls scraper
+
       - name: Setup python
         run: pip install -r scraper/requirements.txt
 
