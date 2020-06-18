@@ -1,7 +1,7 @@
 name: Scrape new data
 on:
   schedule:
-    - cron:  '0 1 * * *'
+    - cron:  '0 5 * * *'
 jobs:
   scrape-data:
     name: Scraping data
