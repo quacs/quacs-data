@@ -1,7 +1,7 @@
 name: Scrape new data
 on:
   schedule:
-    - cron:  '45 22 * * *'
+    - cron:  '*/5 * * * *'
 jobs:
   scrape-data:
     name: Scraping data
@@ -33,5 +33,3 @@ jobs:
           cp scraper/sis_scraper/parsed.rs ./ &&
           cp scraper/prerequisites_scraper/prerequisites.json ./ &&
           git add courses.json parsed.rs prerequisites.json &&
-          git commit -m "$(date -u)" &&
-          git push
