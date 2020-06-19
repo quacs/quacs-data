@@ -42,11 +42,11 @@ jobs:
 
       - name: Commit new data
         run: |
-          cp courses.json parsed.rs data
+          cp courses.json mod.rs data
           cp prerequisites.json data
           cd data
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
-          git add courses.json parsed.rs
+          git add courses.json mod.rs
           git add prerequisites.json
           git commit -m "$(date -u)"
           git push --force
