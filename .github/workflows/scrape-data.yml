@@ -38,6 +38,9 @@ jobs:
       - name: Scrape rmp
         run: python3 scraper/rmp_scraper/main.py
 
+      - name: Scrape faculty
+        run: python3 scraper/faculty_directory_scraper/main.py
+
       - name: Checkout data
         uses: actions/checkout@v2
         with:
@@ -48,10 +51,12 @@ jobs:
           cp courses.json mod.rs data
           cp prerequisites.json data
           cp rmp.json data
+          cp faculty.json data
           cd data
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
           git add courses.json mod.rs
           git add prerequisites.json
           git add rmp.json
+          git add faculty.json
           git commit -m "$(date -u)"
           git push --force
