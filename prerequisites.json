@@ -1563,8 +1563,24 @@
             "BIOL-1010"
         ]
     },
-    "28109": {},
-    "28541": {},
+    "28109": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "28541": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "30220": {
         "cross_list_courses": [
             "ERTH-2160"
@@ -3912,6 +3928,15 @@
             ]
         }
     },
+    "30421": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "CHEM 2250"
+            ],
+            "nested": []
+        }
+    },
     "26073": {
         "prerequisites": {
             "type": "solo",
@@ -3962,6 +3987,16 @@
             "type": "solo",
             "solo": [
                 "CHEM 2250"
+            ],
+            "nested": []
+        }
+    },
+    "30422": {
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "CHEM 2230",
+                "CHEM 2260"
             ],
             "nested": []
         }
@@ -13217,7 +13252,19 @@
             "nested": []
         }
     },
+    "28847": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ENGR 2600"
+            ],
+            "nested": []
+        }
+    },
     "28054": {
+        "cross_list_courses": [
+            "ISYE-6600"
+        ],
         "prerequisites": {
             "type": "and",
             "solo": [],
@@ -13398,6 +13445,9 @@
         }
     },
     "30413": {
+        "cross_list_courses": [
+            "ISYE-6190"
+        ],
         "prerequisites": {
             "type": "and",
             "solo": [
@@ -13429,11 +13479,6 @@
             "nested": []
         }
     },
-    "29689": {
-        "cross_list_courses": [
-            "ISYE-6190"
-        ]
-    },
     "27556": {
         "restrictions": {
             "level": {
@@ -13445,7 +13490,7 @@
     },
     "29691": {
         "cross_list_courses": [
-            "ISYE-4961"
+            "ISYE-4360"
         ],
         "restrictions": {
             "level": {
@@ -13456,6 +13501,9 @@
         }
     },
     "28055": {
+        "cross_list_courses": [
+            "ISYE-4210"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -19795,6 +19843,7 @@
     },
     "27252": {},
     "25981": {},
+    "30417": {},
     "29159": {
         "prerequisites": {
             "type": "solo",
@@ -19805,6 +19854,24 @@
                     "solo": [
                         "PHYS 2220",
                         "MATH 4600"
+                    ],
+                    "nested": []
+                }
+            ]
+        }
+    },
+    "30418": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [],
+            "nested": [
+                {
+                    "type": "and",
+                    "solo": [
+                        "PHYS 1200",
+                        "PHYS 1250",
+                        "MATH 2400",
+                        "MATH 2010"
                     ],
                     "nested": []
                 }
@@ -19837,6 +19904,8 @@
     "28129": {},
     "28350": {},
     "28353": {},
+    "29146": {},
+    "29683": {},
     "30397": {
         "cross_list_courses": [
             "ASTR-4961",
