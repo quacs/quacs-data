@@ -1572,7 +1572,52 @@
             }
         }
     },
+    "28110": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "28541": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29269": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "30424": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "30425": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "30426": {
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -5079,6 +5124,60 @@
                     "Freshman"
                 ]
             }
+        }
+    },
+    "30427": {
+        "cross_list_courses": [
+            "COGS-4330",
+            "PSYC-4330"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "solo": [
+                "PSYC 1200"
+            ],
+            "nested": [
+                {
+                    "type": "or",
+                    "solo": [
+                        "PHIL 2120",
+                        "PSYC 2120",
+                        "COGS 2120"
+                    ],
+                    "nested": []
+                }
+            ]
+        }
+    },
+    "30428": {
+        "cross_list_courses": [
+            "COGS-4330",
+            "PSYC-4330"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "solo": [
+                "PSYC 1200"
+            ],
+            "nested": [
+                {
+                    "type": "or",
+                    "solo": [
+                        "PHIL 2120",
+                        "PSYC 2120",
+                        "COGS 2120"
+                    ],
+                    "nested": []
+                }
+            ]
         }
     },
     "28013": {
@@ -13182,6 +13281,37 @@
         }
     },
     "30321": {},
+    "30429": {
+        "cross_list_courses": [
+            "GSAS-4963"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "CSCI 2300"
+            ],
+            "nested": []
+        }
+    },
+    "30430": {
+        "cross_list_courses": [
+            "GSAS-4963"
+        ],
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "CSCI 2300"
+            ],
+            "nested": []
+        }
+    },
     "30293": {
         "restrictions": {
             "level": {
@@ -14157,6 +14287,15 @@
     "29772": {},
     "29788": {},
     "28881": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "30431": {
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -16251,6 +16390,21 @@
     },
     "26519": {},
     "25712": {},
+    "30423": {
+        "restrictions": {
+            "major": {
+                "may_not_be": [
+                    "Mathematics"
+                ]
+            },
+            "classification": {
+                "may_not_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        }
+    },
     "25634": {
         "prerequisites": {
             "type": "solo",
@@ -20279,6 +20433,60 @@
             "nested": []
         }
     },
+    "30432": {
+        "cross_list_courses": [
+            "COGS-4330",
+            "PSYC-4330"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "PSYC 1200"
+            ],
+            "nested": [
+                {
+                    "type": "or",
+                    "solo": [
+                        "PSYC 2120",
+                        "PHIL 2120",
+                        "COGS 2120"
+                    ],
+                    "nested": []
+                }
+            ]
+        }
+    },
+    "30433": {
+        "cross_list_courses": [
+            "COGS-4330",
+            "PSYC-4330"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "PSYC 1200"
+            ],
+            "nested": [
+                {
+                    "type": "or",
+                    "solo": [
+                        "PSYC 2120",
+                        "PHIL 2120",
+                        "COGS 2120"
+                    ],
+                    "nested": []
+                }
+            ]
+        }
+    },
     "26507": {
         "prerequisites": {
             "type": "or",
@@ -20547,6 +20755,19 @@
     "30216": {
         "prerequisites": {
             "type": "or",
+            "solo": [
+                "STSS 1110",
+                "STSH 1110",
+                "STSS 1200",
+                "STSH 1200",
+                "IHSS 1110"
+            ],
+            "nested": []
+        }
+    },
+    "30434": {
+        "prerequisites": {
+            "type": "and",
             "solo": [
                 "STSS 1110",
                 "STSH 1110",
