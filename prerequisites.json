@@ -5721,6 +5721,16 @@
     },
     "26767": {},
     "29587": {},
+    "29588": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication",
+                    "Elect Media, Arts, & Comm"
+                ]
+            }
+        }
+    },
     "28019": {
         "restrictions": {
             "major": {
@@ -15679,7 +15689,11 @@
         }
     },
     "26797": {},
-    "25807": {},
+    "25807": {
+        "cross_list_courses": [
+            "MTLE-6050"
+        ]
+    },
     "29594": {},
     "30147": {
         "cross_list_courses": [
@@ -15816,6 +15830,9 @@
         }
     },
     "29947": {
+        "cross_list_courses": [
+            "MTLE-4050"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -16650,6 +16667,26 @@
             "nested": []
         }
     },
+    "28808": {},
+    "28809": {},
+    "30440": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MATH 1020"
+            ],
+            "nested": []
+        }
+    },
+    "30441": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MATH 1020"
+            ],
+            "nested": []
+        }
+    },
     "26030": {
         "prerequisites": {
             "type": "solo",
@@ -16850,6 +16887,26 @@
         }
     },
     "28580": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MATH 1020"
+            ],
+            "nested": []
+        }
+    },
+    "28810": {},
+    "28811": {},
+    "30442": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MATH 1020"
+            ],
+            "nested": []
+        }
+    },
+    "30443": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -19675,9 +19732,36 @@
     "28362": {},
     "28609": {},
     "28671": {},
-    "27014": {},
-    "27015": {},
-    "28680": {},
+    "27014": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Physics",
+                    "Physics"
+                ]
+            }
+        }
+    },
+    "27015": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Physics",
+                    "Physics"
+                ]
+            }
+        }
+    },
+    "28680": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Physics",
+                    "Physics"
+                ]
+            }
+        }
+    },
     "25581": {
         "prerequisites": {
             "type": "solo",
@@ -20378,7 +20462,6 @@
         }
     },
     "25986": {},
-    "25617": {},
     "29501": {
         "restrictions": {
             "major": {
