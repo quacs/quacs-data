@@ -1,5 +1,7 @@
 name: Scrape new data
 on:
+  repository_dispatch:
+    types: rescrape
   schedule:
     - cron:  '0 11 * * *'
 jobs:
