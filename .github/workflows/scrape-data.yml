@@ -1,7 +1,7 @@
 name: Scrape new data
 on:
   schedule:
-    - cron:  '0 5 * * *'
+    - cron:  '0 11 * * *'
 jobs:
   scrape-data:
     name: Scraping data
@@ -81,12 +81,17 @@ jobs:
           git submodule update --remote --recursive
 
       - name: Clean install quacs dependencies
-        run: yarn install --frozen-lockfile
+        run: |
+          cd quacs
+          yarn install --frozen-lockfile
 
       - name: Install wasm-pack
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+        run: |
+          cd quacs
+          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
       - name: Run quacs deploy script
         run: |
+          cd quacs
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
           yarn gh-pages-deploy
