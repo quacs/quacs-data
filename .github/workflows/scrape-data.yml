@@ -51,7 +51,6 @@ jobs:
           clean: true
 
       - name: Commit new data
-        continue-on-error: true
         run: |
           cp courses.json mod.rs data
           cp prerequisites.json data
@@ -66,32 +65,11 @@ jobs:
           git commit -m "$(date -u)"
           git push --force
 
-      - name: Setup Node.js for use with actions
-        uses: actions/setup-node@v1.1.0
-        with:
-          version:  12.x
-
-      - name: Checkout quacs
-        uses: actions/checkout@v2
-        with:
-          path: 'quacs'
-          repository: 'quacs/quacs'
-          submodules: 'recursive'
-
-      - name: Update quacs submodules
-        working-directory: ./quacs
-        run: git submodule update --remote --recursive
-
-      - name: Clean install quacs dependencies
-        working-directory: ./quacs
-        run: yarn install --frozen-lockfile
-
-      - name: Install wasm-pack
-        working-directory: ./quacs
-        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
-
-      - name: Run quacs deploy script
-        working-directory: ./quacs
+      - name: Deploy updated website
+        if: ${{ success() }}
         run: |
-          git config user.name "QuACS" && git config user.email "eli@elischiff.org"
-          yarn gh-pages-deploy
+          curl -H "Accept: application/vnd.github.everest-preview+json" \
+              -H "Authorization: token ${{ secrets.GITHUBTOKEN }}" \
+              --request POST \
+              --data '{"event_type": "deploy"}' \
+              https://api.github.com/repos/quacs/quacs/dispatches
