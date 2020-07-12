@@ -51,6 +51,7 @@ jobs:
           clean: true
 
       - name: Commit new data
+        continue-on-error: true
         run: |
           cp courses.json mod.rs data
           cp prerequisites.json data
@@ -78,22 +79,19 @@ jobs:
           submodules: 'recursive'
 
       - name: Update quacs submodules
-        run: |
-          cd quacs
-          git submodule update --remote --recursive
+        working-directory: ./quacs
+        run: git submodule update --remote --recursive
 
       - name: Clean install quacs dependencies
-        run: |
-          cd quacs
-          yarn install --frozen-lockfile
+        working-directory: ./quacs
+        run: yarn install --frozen-lockfile
 
       - name: Install wasm-pack
-        run: |
-          cd quacs
-          curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+        working-directory: ./quacs
+        run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
 
       - name: Run quacs deploy script
+        working-directory: ./quacs
         run: |
-          cd quacs
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
           yarn gh-pages-deploy
