@@ -4,9 +4,10 @@ on:
     types: rescrape
   schedule:
     - cron:  '0 11 * * *'
+
 jobs:
-  scrape-data:
-    name: Scraping data
+  scrape-courses-and-prerequisites:
+    name: Scrape courses and prerequisites
     runs-on: ubuntu-latest
     steps:
       - name: Checkout scrapers
@@ -37,12 +38,81 @@ jobs:
           cp courses.json scraper/prerequisites_scraper
           python3 scraper/prerequisites_scraper/main.py
 
+      - name: Upload data
+        uses: actions/upload-artifact@v1
+        with:
+          name: courses
+          path: |
+            courses.json
+            mod.rs
+            prerequisites.json
+
+
+  scrape-faculty:
+    name: Scrape faculty
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scrapers
+        uses: actions/checkout@v2
+        with:
+          path: 'scraper'
+          repository: 'quacs/scraper'
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install pip requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+          ls
+
       - name: Scrape faculty
         run: python3 scraper/faculty_directory_scraper/main.py
+
+      - name: Upload data
+        uses: actions/upload-artifact@v1
+        with:
+          name: faculty
+          path: faculty.json
+
+  scrape-catalog:
+    name: Scrape catalog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout scrapers
+        uses: actions/checkout@v2
+        with:
+          path: 'scraper'
+          repository: 'quacs/scraper'
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install pip requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+          ls
 
       - name: Scrape catalog
         run: python3 scraper/catalog_scraper/main.py
 
+      - name: Upload data
+        uses: actions/upload-artifact@v1
+        with:
+          name: catalog
+          path: catalog.json
+
+  commit-data:
+    name: Commit changes
+    runs-on: ubuntu-latest
+    needs: [scrape-courses-and-prerequisites, scrape-faculty, scrape-catalog]
+    steps:
       - name: Checkout data
         uses: actions/checkout@v2
         with:
@@ -50,12 +120,15 @@ jobs:
           repository: 'quacs/quacs-data'
           clean: true
 
+      - name: Get scraped data
+        uses: actions/download-artifact@v2
+
       - name: Commit new data
         run: |
-          cp courses.json mod.rs data
-          cp prerequisites.json data
-          cp faculty.json data
-          cp catalog.json data
+          cp courses/courses.json courses/mod.rs data
+          cp courses/prerequisites.json data
+          cp faculty/faculty.json data
+          cp catalog/catalog.json data
           cd data
           git config user.name "QuACS" && git config user.email "eli@elischiff.org"
           git add courses.json mod.rs
@@ -73,3 +146,7 @@ jobs:
               --request POST \
               --data '{"event_type": "deploy"}' \
               https://api.github.com/repos/quacs/quacs/dispatches
+
+      - name: Nothing to deploy
+        if: ${{ failure() }}
+        run: echo "Nothing to deploy"
