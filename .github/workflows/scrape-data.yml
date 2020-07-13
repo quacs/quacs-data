@@ -110,6 +110,7 @@ jobs:
 
   commit-data:
     name: Commit changes
+    continue-on-error: true
     runs-on: ubuntu-latest
     needs: [scrape-courses-and-prerequisites, scrape-faculty, scrape-catalog]
     steps:
@@ -146,7 +147,3 @@ jobs:
               --request POST \
               --data '{"event_type": "deploy"}' \
               https://api.github.com/repos/quacs/quacs/dispatches
-
-      - name: Nothing to deploy
-        if: ${{ failure() }}
-        run: echo "Nothing to deploy"
