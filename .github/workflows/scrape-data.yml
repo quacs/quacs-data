@@ -39,7 +39,7 @@ jobs:
           python3 scraper/prerequisites_scraper/main.py
 
       - name: Upload data
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: courses
           path: |
@@ -73,7 +73,7 @@ jobs:
         run: python3 scraper/faculty_directory_scraper/main.py
 
       - name: Upload data
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: faculty
           path: faculty.json
@@ -103,7 +103,7 @@ jobs:
         run: python3 scraper/catalog_scraper/main.py
 
       - name: Upload data
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: catalog
           path: catalog.json
