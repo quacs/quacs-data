@@ -124,6 +124,9 @@ jobs:
       - name: Get scraped data
         uses: actions/download-artifact@v2
 
+      - name: Generate meta json file
+        run: echo {\"last_updated\":\"$(date --iso-8601=seconds -u)\"} > data/meta.json
+
       - name: Commit new data
         run: |
           cp courses/courses.json courses/mod.rs data
@@ -136,12 +139,15 @@ jobs:
           git add prerequisites.json
           git add faculty.json
           git add catalog.json
-          git commit -m "$(date -u)"
-          git push --force
+          git ls-files -m | wc -l | grep -v '^0$'
 
       - name: Deploy updated website
         if: ${{ success() }}
         run: |
+          cd data
+          git add meta.json
+          git commit -m "$(date -u)"
+          git push --force
           curl -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Authorization: token ${{ secrets.GITHUBTOKEN }}" \
               --request POST \
