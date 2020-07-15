@@ -139,7 +139,6 @@ jobs:
           git add prerequisites.json
           git add faculty.json
           git add catalog.json
-          git ls-files -m | wc -l | grep -v '^0$'
 
       - name: Deploy updated website
         if: ${{ success() }}
