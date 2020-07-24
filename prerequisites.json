@@ -131,8 +131,28 @@
         }
     },
     "28046": {},
+    "30490": {},
     "28101": {},
+    "30486": {},
     "28292": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ARCH 2530"
+            ],
+            "nested": []
+        }
+    },
+    "30484": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ARCH 2530"
+            ],
+            "nested": []
+        }
+    },
+    "30485": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -242,7 +262,11 @@
             ]
         }
     },
-    "29198": {},
+    "29198": {
+        "cross_list_courses": [
+            "ARCH-6380"
+        ]
+    },
     "28589": {
         "prerequisites": {
             "type": "solo",
@@ -378,7 +402,11 @@
     "29236": {},
     "30374": {},
     "29204": {},
-    "29677": {},
+    "29677": {
+        "cross_list_courses": [
+            "ARCH-6963"
+        ]
+    },
     "28600": {
         "restrictions": {
             "major": {
@@ -388,18 +416,10 @@
             }
         }
     },
-    "30375": {},
     "29605": {},
     "28844": {},
     "29203": {},
-    "29205": {},
-    "30376": {},
     "28601": {},
-    "29330": {},
-    "30377": {},
-    "29607": {},
-    "29608": {},
-    "29609": {},
     "29675": {},
     "28311": {
         "restrictions": {
@@ -500,6 +520,9 @@
         }
     },
     "28848": {
+        "cross_list_courses": [
+            "ARCH-4170"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -515,22 +538,6 @@
                     "Graduate"
                 ]
             }
-        }
-    },
-    "29827": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "ARCH 5210"
-            ],
-            "nested": []
         }
     },
     "28603": {
@@ -665,11 +672,43 @@
             }
         }
     },
+    "30487": {
+        "cross_list_courses": [
+            "ARCH-4959"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "28070": {
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "30488": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "30489": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
@@ -6489,20 +6528,6 @@
             "nested": []
         }
     },
-    "30167": {
-        "cross_list_courses": [
-            "CSCI-6500"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "solo": [
-                "CSCI 4430",
-                "CSCI 4210",
-                "CSCI 4220"
-            ],
-            "nested": []
-        }
-    },
     "28879": {
         "cross_list_courses": [
             "CSCI-6510"
@@ -6632,20 +6657,6 @@
             "type": "solo",
             "solo": [
                 "CSCI 2300"
-            ],
-            "nested": []
-        }
-    },
-    "29656": {
-        "cross_list_courses": [
-            "CSCI-6963"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "CSCI 2200",
-                "CSCI 2300",
-                "MATH 2010"
             ],
             "nested": []
         }
@@ -6817,34 +6828,6 @@
             }
         }
     },
-    "30168": {
-        "cross_list_courses": [
-            "CSCI-4500"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "CSCI 4430"
-            ],
-            "nested": [
-                {
-                    "type": "or",
-                    "solo": [
-                        "CSCI 4220",
-                        "CSCI 4210"
-                    ],
-                    "nested": []
-                }
-            ]
-        }
-    },
     "28880": {
         "cross_list_courses": [
             "CSCI-4510"
@@ -6927,26 +6910,6 @@
                     "Graduate"
                 ]
             }
-        }
-    },
-    "29657": {
-        "cross_list_courses": [
-            "CSCI-4963"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "solo": [
-                "CSCI 4020",
-                "CSCI 6020"
-            ],
-            "nested": []
         }
     },
     "28106": {
