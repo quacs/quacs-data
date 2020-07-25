@@ -267,6 +267,24 @@
             "ARCH-6380"
         ]
     },
+    "30493": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ARCH 2830"
+            ],
+            "nested": []
+        }
+    },
+    "30494": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ARCH 2830"
+            ],
+            "nested": []
+        }
+    },
     "28589": {
         "prerequisites": {
             "type": "solo",
@@ -287,21 +305,6 @@
     "28300": {},
     "28590": {},
     "29199": {},
-    "29200": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [],
-            "nested": [
-                {
-                    "type": "solo",
-                    "solo": [
-                        "ARCH 4740"
-                    ],
-                    "nested": []
-                }
-            ]
-        }
-    },
     "28302": {},
     "28301": {},
     "28639": {},
@@ -416,11 +419,18 @@
             }
         }
     },
-    "29605": {},
-    "28844": {},
+    "29605": {
+        "cross_list_courses": [
+            "ARCH-6965"
+        ]
+    },
+    "28844": {
+        "cross_list_courses": [
+            "ARCH-6964"
+        ]
+    },
     "29203": {},
     "28601": {},
-    "29675": {},
     "28311": {
         "restrictions": {
             "level": {
@@ -675,6 +685,30 @@
     "30487": {
         "cross_list_courses": [
             "ARCH-4959"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "30491": {
+        "cross_list_courses": [
+            "ARCH-4964"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "30492": {
+        "cross_list_courses": [
+            "ARCH-4963"
         ],
         "restrictions": {
             "level": {
@@ -4880,7 +4914,6 @@
             }
         }
     },
-    "30123": {},
     "30131": {
         "restrictions": {
             "level": {
