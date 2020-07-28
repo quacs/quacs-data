@@ -430,6 +430,7 @@
         ]
     },
     "29203": {},
+    "30499": {},
     "28601": {},
     "28311": {
         "restrictions": {
@@ -4808,6 +4809,15 @@
                 "ENGR 2250",
                 "ENGR 2530",
                 "ECSE 4160"
+            ],
+            "nested": []
+        }
+    },
+    "30498": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "CIVL 2670"
             ],
             "nested": []
         }
@@ -10151,6 +10161,18 @@
         }
     },
     "29599": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -19011,6 +19033,24 @@
         }
     },
     "27881": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MANE 4030"
+            ],
+            "nested": []
+        }
+    },
+    "30500": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "MANE 4030"
+            ],
+            "nested": []
+        }
+    },
+    "30501": {
         "prerequisites": {
             "type": "solo",
             "solo": [
