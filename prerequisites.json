@@ -403,13 +403,13 @@
     "28598": {},
     "28599": {},
     "29236": {},
-    "30374": {},
     "29204": {},
     "29677": {
         "cross_list_courses": [
             "ARCH-6963"
         ]
     },
+    "30505": {},
     "28600": {
         "restrictions": {
             "major": {
@@ -430,8 +430,17 @@
         ]
     },
     "29203": {},
-    "30499": {},
+    "30499": {
+        "cross_list_courses": [
+            "ARCH-6962"
+        ]
+    },
     "28601": {},
+    "30504": {
+        "cross_list_courses": [
+            "ARCH-6961"
+        ]
+    },
     "28311": {
         "restrictions": {
             "level": {
@@ -658,6 +667,9 @@
         }
     },
     "29692": {
+        "cross_list_courses": [
+            "ARCH-4969"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -674,6 +686,9 @@
         }
     },
     "29725": {
+        "cross_list_courses": [
+            "ARCH-4967"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -5811,42 +5826,9 @@
         }
     },
     "30408": {},
-    "29456": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "29457": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "29458": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
+    "29456": {},
+    "29457": {},
+    "29458": {},
     "29459": {},
     "29460": {},
     "29461": {
@@ -10182,6 +10164,18 @@
         }
     },
     "30325": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -14171,15 +14165,6 @@
             }
         }
     },
-    "29534": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "29149": {
         "restrictions": {
             "level": {
@@ -15838,6 +15823,7 @@
             },
             "classification": {
                 "must_be": [
+                    "Junior",
                     "Senior"
                 ]
             }
@@ -18320,6 +18306,12 @@
         }
     },
     "28607": {},
+    "30503": {
+        "cross_list_courses": [
+            "PHIL-4140",
+            "PHIL-4961"
+        ]
+    },
     "30135": {
         "restrictions": {
             "classification": {
@@ -20886,6 +20878,19 @@
     "27020": {},
     "29493": {},
     "26799": {},
+    "30502": {
+        "cross_list_courses": [
+            "MATH-4961",
+            "PHIL-4961"
+        ],
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "PHIL 2140"
+            ],
+            "nested": []
+        }
+    },
     "29142": {},
     "28888": {
         "restrictions": {
@@ -20954,6 +20959,10 @@
     },
     "26800": {},
     "30404": {
+        "cross_list_courses": [
+            "MATH-4961",
+            "PHIL-4140"
+        ],
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -22446,7 +22455,7 @@
             "STSS-2100"
         ],
         "prerequisites": {
-            "type": "and",
+            "type": "or",
             "solo": [
                 "STSS 1110",
                 "STSH 1110",
