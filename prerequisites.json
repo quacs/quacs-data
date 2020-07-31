@@ -309,9 +309,7 @@
     "28301": {},
     "28639": {},
     "28640": {},
-    "28837": {},
-    "29201": {},
-    "30378": {
+    "30509": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -320,13 +318,13 @@
             "nested": []
         }
     },
+    "28837": {},
+    "29201": {},
     "28591": {},
     "28592": {},
     "28593": {},
     "28641": {},
-    "28838": {},
-    "29202": {},
-    "30379": {
+    "30510": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -335,6 +333,8 @@
             "nested": []
         }
     },
+    "28838": {},
+    "29202": {},
     "28839": {},
     "28840": {},
     "28841": {},
@@ -435,7 +435,6 @@
             "ARCH-6962"
         ]
     },
-    "28601": {},
     "30504": {
         "cross_list_courses": [
             "ARCH-6961"
@@ -905,30 +904,8 @@
     },
     "30144": {},
     "28787": {},
-    "25818": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "26023": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
+    "25818": {},
+    "26023": {},
     "29453": {},
     "29248": {
         "prerequisites": {
@@ -1873,6 +1850,9 @@
         }
     },
     "29720": {
+        "cross_list_courses": [
+            "BIOL-6220"
+        ],
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -2020,6 +2000,22 @@
             ]
         }
     },
+    "30507": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [],
+            "nested": [
+                {
+                    "type": "and",
+                    "solo": [
+                        "BIOL 2120",
+                        "BIOL 4620"
+                    ],
+                    "nested": []
+                }
+            ]
+        }
+    },
     "29235": {
         "prerequisites": {
             "type": "and",
@@ -2071,6 +2067,9 @@
     "26515": {},
     "28713": {},
     "29721": {
+        "cross_list_courses": [
+            "BIOL-4220"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18630,6 +18629,7 @@
             }
         }
     },
+    "30506": {},
     "29566": {
         "prerequisites": {
             "type": "or",
@@ -18946,6 +18946,9 @@
         }
     },
     "30495": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ],
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -18955,6 +18958,9 @@
         }
     },
     "30496": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ],
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -19771,6 +19777,34 @@
             "nested": []
         }
     },
+    "30348": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "MANE 2710",
+                "MANE 2720",
+                "MANE 4730"
+            ],
+            "nested": []
+        }
+    },
+    "30508": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "MANE 2710",
+                "MANE 2720",
+                "MANE 4730"
+            ],
+            "nested": []
+        }
+    },
     "27418": {
         "prerequisites": {
             "type": "or",
@@ -20084,6 +20118,11 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "campus": {
+                "must_be": [
+                    "Hartford"
                 ]
             }
         }
@@ -21409,16 +21448,6 @@
             "nested": []
         }
     },
-    "30462": {
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1100",
-                "MATH 1020"
-            ],
-            "nested": []
-        }
-    },
     "30463": {
         "prerequisites": {
             "type": "and",
@@ -21430,16 +21459,6 @@
         }
     },
     "30464": {
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1100",
-                "MATH 1020"
-            ],
-            "nested": []
-        }
-    },
-    "30465": {
         "prerequisites": {
             "type": "and",
             "solo": [
@@ -22305,6 +22324,9 @@
     "26040": {},
     "26663": {},
     "25563": {
+        "cross_list_courses": [
+            "STSS-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -22314,6 +22336,9 @@
         }
     },
     "27006": {
+        "cross_list_courses": [
+            "STSS-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -22323,6 +22348,9 @@
         }
     },
     "28025": {
+        "cross_list_courses": [
+            "STSS-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -22392,6 +22420,9 @@
         }
     },
     "25685": {
+        "cross_list_courses": [
+            "STSH-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -22401,6 +22432,9 @@
         }
     },
     "27005": {
+        "cross_list_courses": [
+            "STSH-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -22410,6 +22444,9 @@
         }
     },
     "29815": {
+        "cross_list_courses": [
+            "STSH-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
