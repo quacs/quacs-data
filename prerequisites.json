@@ -1031,6 +1031,7 @@
     "30365": {},
     "26746": {},
     "30468": {},
+    "30518": {},
     "30153": {
         "prerequisites": {
             "type": "solo",
@@ -4086,6 +4087,7 @@
     "27703": {},
     "27755": {},
     "27756": {},
+    "27757": {},
     "27017": {},
     "27018": {},
     "27019": {},
@@ -4280,25 +4282,29 @@
             "nested": []
         }
     },
+    "30516": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "solo": [
+                "CHEM 4010",
+                "CHEM 4410"
+            ],
+            "nested": []
+        }
+    },
     "30230": {
         "prerequisites": {
             "type": "and",
             "solo": [
                 "CHEM 2110",
                 "CHEM 2120"
-            ],
-            "nested": []
-        }
-    },
-    "30319": {
-        "cross_list_courses": [
-            "CHEM-6130"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1200",
-                "MATH 1020"
             ],
             "nested": []
         }
@@ -4358,6 +4364,15 @@
             "nested": []
         }
     },
+    "30517": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "CHEM 2250"
+            ],
+            "nested": []
+        }
+    },
     "30391": {
         "cross_list_courses": [
             "CHEM-6710"
@@ -4400,18 +4415,6 @@
     "26986": {},
     "26987": {},
     "27420": {},
-    "30320": {
-        "cross_list_courses": [
-            "CHEM-4130"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "29553": {
         "restrictions": {
             "level": {
@@ -14396,7 +14399,6 @@
         }
     },
     "29774": {},
-    "29776": {},
     "29772": {},
     "29788": {},
     "28881": {
@@ -15497,7 +15499,9 @@
             },
             "major": {
                 "must_be": [
-                    "Management"
+                    "Business Analytics",
+                    "Management",
+                    "Supply Chain Management"
                 ]
             }
         }
@@ -21421,36 +21425,6 @@
         }
     },
     "30460": {
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1100",
-                "MATH 1020"
-            ],
-            "nested": []
-        }
-    },
-    "30461": {
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1100",
-                "MATH 1020"
-            ],
-            "nested": []
-        }
-    },
-    "30463": {
-        "prerequisites": {
-            "type": "and",
-            "solo": [
-                "PHYS 1100",
-                "MATH 1020"
-            ],
-            "nested": []
-        }
-    },
-    "30464": {
         "prerequisites": {
             "type": "and",
             "solo": [
