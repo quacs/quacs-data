@@ -2216,6 +2216,12 @@
         }
     },
     "30210": {
+        "cross_list_courses": [
+            "BMED-6966",
+            "CHEM-6966",
+            "CHME-6966",
+            "LGHT-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -2241,6 +2247,11 @@
         }
     },
     "29308": {
+        "cross_list_courses": [
+            "BMED-6966",
+            "CHEM-6966",
+            "CHME-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3001,6 +3012,11 @@
         }
     },
     "29309": {
+        "cross_list_courses": [
+            "BIOL-6966",
+            "CHEM-6966",
+            "CHME-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3010,6 +3026,12 @@
         }
     },
     "29313": {
+        "cross_list_courses": [
+            "BIOL-6964",
+            "CHEM-6966",
+            "CHME-6966",
+            "LGHT-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3717,6 +3739,11 @@
         ]
     },
     "29310": {
+        "cross_list_courses": [
+            "BIOL-6966",
+            "BMED-6966",
+            "CHEM-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3726,6 +3753,12 @@
         }
     },
     "29314": {
+        "cross_list_courses": [
+            "BIOL-6964",
+            "BMED-6966",
+            "CHEM-6966",
+            "LGHT-6966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4512,8 +4545,21 @@
         }
     },
     "29372": {},
-    "29311": {},
-    "29315": {},
+    "29311": {
+        "cross_list_courses": [
+            "BIOL-6966",
+            "BMED-6966",
+            "CHME-6966"
+        ]
+    },
+    "29315": {
+        "cross_list_courses": [
+            "BIOL-6964",
+            "BMED-6966",
+            "CHME-6966",
+            "LGHT-6966"
+        ]
+    },
     "27713": {
         "restrictions": {
             "level": {
@@ -10292,22 +10338,6 @@
             "BIOL-2160"
         ]
     },
-    "26989": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [],
-            "nested": [
-                {
-                    "type": "or",
-                    "solo": [
-                        "ERTH 1100",
-                        "ERTH 1200"
-                    ],
-                    "nested": []
-                }
-            ]
-        }
-    },
     "30221": {
         "cross_list_courses": [
             "ERTH-6200"
@@ -14718,7 +14748,14 @@
     },
     "29811": {},
     "29812": {},
-    "29813": {},
+    "29813": {
+        "cross_list_courses": [
+            "BIOL-6964",
+            "BMED-6966",
+            "CHEM-6966",
+            "CHME-6966"
+        ]
+    },
     "29611": {},
     "28023": {},
     "29538": {
