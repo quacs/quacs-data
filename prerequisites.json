@@ -189,15 +189,6 @@
     "28295": {},
     "28296": {},
     "28346": {},
-    "30473": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "ARCH 2810"
-            ],
-            "nested": []
-        }
-    },
     "28588": {},
     "28041": {
         "cross_list_courses": [
@@ -276,15 +267,6 @@
             "nested": []
         }
     },
-    "30494": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "ARCH 2830"
-            ],
-            "nested": []
-        }
-    },
     "28589": {
         "prerequisites": {
             "type": "solo",
@@ -318,12 +300,10 @@
             "nested": []
         }
     },
-    "28837": {},
     "29201": {},
     "28591": {},
     "28592": {},
     "28593": {},
-    "28641": {},
     "30510": {
         "prerequisites": {
             "type": "solo",
@@ -333,13 +313,20 @@
             "nested": []
         }
     },
-    "28838": {},
     "29202": {},
     "28839": {},
     "28840": {},
     "28841": {},
-    "28842": {},
     "30474": {
+        "prerequisites": {
+            "type": "solo",
+            "solo": [
+                "ARCH 4780"
+            ],
+            "nested": []
+        }
+    },
+    "30519": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -351,24 +338,6 @@
     "28594": {},
     "28595": {},
     "29324": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "ARCH 2830"
-            ],
-            "nested": []
-        }
-    },
-    "29825": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "ARCH 2830"
-            ],
-            "nested": []
-        }
-    },
-    "29826": {
         "prerequisites": {
             "type": "solo",
             "solo": [
@@ -8854,65 +8823,6 @@
                     "Mechanical Engineering",
                     "Industrial & Management Engr",
                     "Nuclear Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "solo": [],
-            "nested": [
-                {
-                    "type": "or",
-                    "solo": [
-                        "ENGR 1100",
-                        "ECSE 1010"
-                    ],
-                    "nested": []
-                },
-                {
-                    "type": "or",
-                    "solo": [
-                        "ENGR 1200",
-                        "ENGR 1400",
-                        "CIVL 1200"
-                    ],
-                    "nested": []
-                },
-                {
-                    "type": "or",
-                    "solo": [
-                        "PHYS 1200",
-                        "PHYS 1250"
-                    ],
-                    "nested": []
-                }
-            ]
-        }
-    },
-    "28552": {
-        "restrictions": {
-            "field_of_study": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electric Power Engr",
-                    "Electrical Engineering",
-                    "Engineering Science",
-                    "Engr Principles in Tech. Educ.",
-                    "Environmental Engineering",
-                    "Industrial & Management Engr",
-                    "Information Technology",
-                    "Manufacturing Systems Engr",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering",
-                    "Undeclared Engineering"
                 ]
             }
         },
@@ -22660,5 +22570,32 @@
     },
     "28793": {},
     "29541": {},
-    "30241": {}
+    "30241": {},
+    "29704": {
+        "cross_list_courses": [
+            "WRIT-6960"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "solo": [
+                "WRIT 1110",
+                "WRIT 2110",
+                "COMM 2520",
+                "COMM 1510"
+            ],
+            "nested": []
+        }
+    },
+    "29828": {
+        "cross_list_courses": [
+            "WRIT-4550"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    }
 }
