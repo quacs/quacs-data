@@ -144,8 +144,9 @@ jobs:
         if: ${{ success() }}
         run: |
           cd data
+          git commit -m "$(date -u)" || exit 0
           git add meta.json
-          git commit -m "$(date -u)"
+          git commit -a --amend --no-edit
           git push --force
           curl -H "Accept: application/vnd.github.everest-preview+json" \
               -H "Authorization: token ${{ secrets.GITHUBTOKEN }}" \
