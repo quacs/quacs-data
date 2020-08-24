@@ -1476,7 +1476,15 @@
             ]
         }
     },
-    "29701": {},
+    "29701": {
+        "cross_list_courses": [
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ]
+    },
     "29765": {
         "cross_list_courses": [
             "BCBP-6961",
@@ -1495,10 +1503,18 @@
         }
     },
     "29928": {},
-    "29932": {},
+    "29932": {
+        "cross_list_courses": [
+            "BCBP-6968",
+            "BIOL-4968",
+            "BIOL-6968"
+        ]
+    },
     "29936": {
         "cross_list_courses": [
-            "BCBP-6962"
+            "BCBP-6962",
+            "BIOL-4969",
+            "BIOL-6969"
         ]
     },
     "25755": {},
@@ -1592,7 +1608,9 @@
     },
     "30211": {
         "cross_list_courses": [
-            "BCBP-4969"
+            "BCBP-4969",
+            "BIOL-4969",
+            "BIOL-6969"
         ],
         "restrictions": {
             "level": {
@@ -1612,6 +1630,11 @@
         }
     },
     "29933": {
+        "cross_list_courses": [
+            "BCBP-4968",
+            "BIOL-4968",
+            "BIOL-6968"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -2106,8 +2129,20 @@
         }
     },
     "29926": {},
-    "29931": {},
-    "29934": {},
+    "29931": {
+        "cross_list_courses": [
+            "BCBP-4968",
+            "BCBP-6968",
+            "BIOL-6968"
+        ]
+    },
+    "29934": {
+        "cross_list_courses": [
+            "BCBP-4969",
+            "BCBP-6962",
+            "BIOL-6969"
+        ]
+    },
     "27394": {},
     "27949": {},
     "27954": {},
@@ -2347,6 +2382,11 @@
         }
     },
     "29930": {
+        "cross_list_courses": [
+            "BCBP-4968",
+            "BCBP-6968",
+            "BIOL-4968"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -2356,6 +2396,11 @@
         }
     },
     "29935": {
+        "cross_list_courses": [
+            "BCBP-4969",
+            "BCBP-6962",
+            "BIOL-4969"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3821,7 +3866,6 @@
             }
         }
     },
-    "29343": {},
     "30291": {
         "cross_list_courses": [
             "CHME-4965"
@@ -6851,6 +6895,13 @@
         }
     },
     "27711": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ],
         "prerequisites": {
             "type": "or",
             "solo": [
@@ -6964,6 +7015,7 @@
     },
     "30521": {
         "cross_list_courses": [
+            "CSCI-6973",
             "MTLE-4960",
             "MTLE-6960"
         ]
@@ -7188,6 +7240,13 @@
                 ]
             }
         }
+    },
+    "30527": {
+        "cross_list_courses": [
+            "CSCI-4973",
+            "MTLE-4960",
+            "MTLE-6960"
+        ]
     },
     "28392": {
         "restrictions": {
@@ -14250,6 +14309,13 @@
         }
     },
     "29148": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-6600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ],
         "prerequisites": {
             "type": "solo",
             "solo": [],
@@ -14267,6 +14333,9 @@
         }
     },
     "29535": {
+        "cross_list_courses": [
+            "ITWS-6600"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -14291,7 +14360,11 @@
             ]
         }
     },
-    "28543": {},
+    "28543": {
+        "cross_list_courses": [
+            "ITWS-6700"
+        ]
+    },
     "30513": {
         "cross_list_courses": [
             "CSCI-4370",
@@ -14364,6 +14437,13 @@
         }
     },
     "29149": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-4600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14373,6 +14453,9 @@
         }
     },
     "29552": {
+        "cross_list_courses": [
+            "ITWS-4600"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14388,6 +14471,9 @@
         }
     },
     "28542": {
+        "cross_list_courses": [
+            "ITWS-4700"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -15348,6 +15434,10 @@
     "28894": {},
     "29702": {
         "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
             "MGMT-6962"
         ],
         "restrictions": {
@@ -15708,6 +15798,10 @@
     },
     "29703": {
         "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
             "MGMT-4962"
         ],
         "restrictions": {
@@ -16169,6 +16263,7 @@
     "29214": {
         "cross_list_courses": [
             "CSCI-4973",
+            "CSCI-6973",
             "MTLE-6960"
         ],
         "prerequisites": {
@@ -16240,6 +16335,7 @@
     "29215": {
         "cross_list_courses": [
             "CSCI-4973",
+            "CSCI-6973",
             "MTLE-4960"
         ],
         "restrictions": {
@@ -19550,15 +19646,6 @@
                     "nested": []
                 }
             ]
-        }
-    },
-    "30187": {
-        "prerequisites": {
-            "type": "solo",
-            "solo": [
-                "MANE 2830"
-            ],
-            "nested": []
         }
     },
     "25957": {
