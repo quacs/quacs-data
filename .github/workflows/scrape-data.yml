@@ -134,7 +134,7 @@ jobs:
           cp faculty/faculty.json data
           cp catalog/catalog.json data
           cd data
-          git config user.name "QuACS" && git config user.email "eli@elischiff.org"
+          git config user.name "QuACS" && git config user.email "github@quacs.org"
           git add courses.json mod.rs
           git add prerequisites.json
           git add faculty.json
