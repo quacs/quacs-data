@@ -133,7 +133,6 @@
     "28293": {},
     "28294": {},
     "28295": {},
-    "28296": {},
     "28346": {},
     "30473": {
         "prerequisites": {
@@ -275,6 +274,12 @@
     "28594": {},
     "28595": {},
     "29324": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2830"
+        }
+    },
+    "29825": {
         "prerequisites": {
             "type": "course",
             "course": "ARCH 2830"
@@ -10382,7 +10387,13 @@
             }
         }
     },
-    "26026": {},
+    "26026": {
+        "cross_list_courses": [
+            "ENGR-6100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ]
+    },
     "28781": {
         "restrictions": {
             "major": {
@@ -10468,6 +10479,11 @@
         }
     },
     "26027": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13870,6 +13886,37 @@
             ]
         }
     },
+    "30532": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ARTS 1040"
+                        },
+                        {
+                            "type": "course",
+                            "course": "GSAS 1040"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "ARTS 1020"
+                }
+            ]
+        }
+    },
     "29151": {
         "restrictions": {
             "major": {
@@ -14528,7 +14575,13 @@
             "course": "CSCI 2300"
         }
     },
-    "26093": {},
+    "26093": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ENGR-6100",
+            "ITWS-6300"
+        ]
+    },
     "25870": {
         "restrictions": {
             "major": {
@@ -14680,6 +14733,11 @@
         }
     },
     "26094": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ENGR-6100",
+            "ITWS-4300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -23461,7 +23519,11 @@
             }
         }
     },
-    "30313": {},
+    "30313": {
+        "cross_list_courses": [
+            "STSS-4800"
+        ]
+    },
     "26804": {},
     "29697": {
         "prerequisites": {
@@ -23603,6 +23665,9 @@
     "29664": {},
     "29638": {},
     "30315": {
+        "cross_list_courses": [
+            "STSH-4800"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
