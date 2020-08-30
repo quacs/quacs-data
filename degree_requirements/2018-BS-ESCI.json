@@ -1,0 +1,780 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS CORE REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 2,
+          "rules": [
+            {
+              "label": "HASS-Humanity electives",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 2,
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "HASS-Social Science electives",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 2,
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Chemistry I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "CHEM",
+              "crse": "1100",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Introduction to Engineering Analysis",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ENGR",
+              "crse": "1100",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Engineering Graphics and CAD or Engineering Communications",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ENGR",
+              "crse": "1200",
+              "restriction": []
+            },
+            {
+              "dept": "ENGR",
+              "crse": "1400",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Calculus I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1010",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "major",
+                                  "operator": "equal",
+                                  "major": "AERO"
+                                },
+                                "right_condition": {
+                                  "type": "major",
+                                  "operator": "equal",
+                                  "major": "BMED"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "major",
+                                "operator": "equal",
+                                "major": "CHEG"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "CIVL"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "CSYS"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "ELEC"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "ENGR"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "ENVE"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "MGTE"
+                  }
+                },
+                "right_condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MATL"
+                }
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "MECL"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "NUCL"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Calculus II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1020",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MGTE"
+                },
+                "if_branch": [
+                  {
+                    "label": "Engineering Processes or Introduction to Industrial and Systems Engineering",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "ENGR",
+                          "crse": "1300",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ISYE",
+                          "crse": "1100",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "Engineering Processes",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "ENGR",
+                          "crse": "1300",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Physics I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1100",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "CSYS"
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "ELEC"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Computer Science I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "CHEG"
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "MATL"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Beginning Programming for Engineers",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "1190",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "MGTE"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Introduction to Computer Programming or Computer Science I",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CSCI",
+                                "crse": "1010",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CSCI",
+                                "crse": "1100",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "Computer Science I or Beginning Programming for Engineers",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CSCI",
+                                "crse": "1100",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CSCI",
+                                "crse": "1190",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Introduction to Differential Equations",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "2400",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Physics II",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1200",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Introduction to Engineering Design",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ENGR",
+              "crse": "2050",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Engineering Electives",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 3,
+          "courses": [
+            {
+              "dept": "BMED",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "CHME",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "CIVL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECSE",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ENGR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ENVE",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ESCI",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ISYE",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "MANE",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "MTLE",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "ENVE"
+          },
+          "if_branch": [
+            {
+              "label": "Science elective",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CHEM",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MGTE"
+                },
+                "if_branch": [
+                  {
+                    "label": "Science Elective",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "ASTR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BCBP",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ERTH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHYS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "Science Elective",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "ASTR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BCBP",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CISH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ISCI",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ERTH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHYS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 12,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "DO NOT USE  Engineering Core Requirements"
+  }
+]

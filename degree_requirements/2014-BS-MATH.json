@@ -1,0 +1,610 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 5,
+          "rules": [
+            {
+              "label": "Multivariable Calculus & Matrix Algebra",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 1,
+                "rules": [
+                  {
+                    "label": "Multivariable Calculus and Matrix Algebra",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "2010",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Multivariable Calculus & Matrix Algebra",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 2,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "2011",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "2012",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Foundation of Analysis",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "4090",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Linear Algebra",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "4100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "MATHEMATICS CAPSTONE TOPIC AREAS",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 1,
+                "rules": [
+                  {
+                    "label": "Mathematics: Capstone I, II and III",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "4010",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4020",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4040",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4120",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4200",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4210",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4300",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4950",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Applied Mathematics: Capstone I, II and III",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "4300",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4500",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4600",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4700",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4720",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4950",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Mathematics of Computation: Capstone I, II and III",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "4800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4820",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4840",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4950",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4820",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Mathematics of Operations Research: Capstone I, II and III",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "4950",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4600",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4620",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4700",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "4820",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Math Options",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "4000",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "4000",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 44,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Mathematics Major Requirements"
+  }
+]

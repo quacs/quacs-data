@@ -1,0 +1,693 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 15,
+          "rules": [
+            {
+              "label": "Introduction to Biology",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "1010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Introduction to Biology Laboratory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "1015",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Introduction to Cell and Molecular Biology",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "2120",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Genetics and Evolution",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "2500",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry Laboratory I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2230",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2250",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry Laboratory II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2240",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2260",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Molecular Biology",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4620",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Molecular Biochemistry I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4760",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4760",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CHEM",
+                    "crse": "4760",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Biostatistics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Biology Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "6@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "6@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Biology Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "6@",
+                    "restriction": []
+                  }
+                ],
+                "except": [
+                  {
+                    "dept": "BCBP",
+                    "crse": "4@",
+                    "restriction": []
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Biology Advanced Lab",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 6,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4320",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4710",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4720",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4740",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4710",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Culminating Experience",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "BIOL",
+                    "crse": "4100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4150",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4250",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4260",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4270",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4310",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4350",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4540",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4550",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4630",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4660",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4860",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4870",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4880",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4990",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4310",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4800",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4870",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 26,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Biology Major Requirements"
+  }
+]

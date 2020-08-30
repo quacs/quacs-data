@@ -1,0 +1,698 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 14,
+          "rules": [
+            {
+              "label": "Introduction to Differential Equations",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2400",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Equilibrium Chemistry and Quantitative Analysis",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2110",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Experimental Chemistry I: Analytical Techniques",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2120",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2250",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Inorganic Chemistry I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2030",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Organic Chemistry II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2260",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Experimental Chemistry II: Synthesis and Characterization",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "2290",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Macroscopic Physical Chemistry",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4410",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Molecular Biochemistry I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4760",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "4760",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "4760",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Instrumental Methods of Analysis",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4110",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Experimental Chemistry IV: Physical and Instrumental Methods",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4120",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Microscopic Physical Chemistry",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4420",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Professional Development Seminar ",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4900",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Senior Experience",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "4950",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "OTHER REQUIRED COURSES DEPENDING ON TRACK- CHOOSE ONE TRACK",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 1,
+          "rules": [
+            {
+              "label": "Other Required Chemistry Courses- Regular Track",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 5,
+                "rules": [
+                  {
+                    "label": "Inorganic Chemistry II",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "4010",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Experimental Chemistry III: Inorganic and Physical Methods",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "4020",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Intro to Polymer Chemistry",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "4620",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Intro to Cell and Molecular Biology",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 2,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "1010",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "1015",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Free Electives",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 29,
+                      "courses": [
+                        {
+                          "dept": "@",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Other Required Chemistry/Biology Courses- Chemical Biology Track",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 6,
+                "rules": [
+                  {
+                    "label": "Introduction to Cell and Molecular Biology",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "2120",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Genetics and Evolution",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "2500",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Molecular Biology",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "4620",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Biochemistry Laboratory",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "4710",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BCBP",
+                          "crse": "4710",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Molecular Biochmistry II",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "4770",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BCBP",
+                          "crse": "4770",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "4770",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Free Electives",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 21,
+                      "courses": [
+                        {
+                          "dept": "@",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Chemistry Major Requirements"
+  }
+]

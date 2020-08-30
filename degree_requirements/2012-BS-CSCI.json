@@ -1,0 +1,1185 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 9,
+          "rules": [
+            {
+              "label": "Data Structures",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Foundations of Computer Science",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Computer Organization",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2500",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECSE",
+                    "crse": "2660",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Introduction to Algorithms",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2300",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Principles of Software",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2600",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Programming Languages",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "4430",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Operating Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "4210",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Mathematics Options I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4030",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4040",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4140",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "4600",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Mathematics Options II",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "6@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "2@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "6@",
+                    "restriction": []
+                  }
+                ],
+                "except": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2940",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4940",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "6940",
+                    "restriction": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "CSCI OPTIONS/CAPSTONE",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 1,
+          "rules": [
+            {
+              "label": "RESEARCH-FOCUSED CAPSTONE/URP OPTION",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 2,
+                "rules": [
+                  {
+                    "label": "Undergraduate Research Project",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 4,
+                      "courses": [
+                        {
+                          "dept": "ADV_APPR",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Three Required- CSCI Option Courses",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 11,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "494@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "694@",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "THEORY & ALGORITHMS CONCENTRATION",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 2,
+                "rules": [
+                  {
+                    "label": "Computer Science Options: Theory & Algorithms/Capstone",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4020",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4050",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4110",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4120",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4150",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4230",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4240",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4260",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4820",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6050",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6110",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6120",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6210",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6220",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6230",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6240",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4150",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "4820",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "6800",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "6640",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Fourth CSCI Option Course",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "494@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "694@",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "SYSTEMS & SOFTWARE CONCENTRATION",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 2,
+                "rules": [
+                  {
+                    "label": "Computer Science Options: Systems & Software/Capstone",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4220",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4320",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4380",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4440",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4460",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4650",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4660",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4670",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4680",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6140",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6360",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6500",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECSE",
+                          "crse": "6780",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Fourth CSCI Option Course",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "494@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "694@",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "AI & DATA CONCENTRATION",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 2,
+                "rules": [
+                  {
+                    "label": "Computer Science Options: AI & Data/Capstone",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4110",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4130",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4150",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4270",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4370",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4380",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4390",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4480",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4490",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4968",
+                          "restriction": [
+                            {
+                              "type": "attribute",
+                              "operator": "equal",
+                              "connector": "none",
+                              "attribute": {
+                                "RequiredSemester": {
+                                  "sem": "fall",
+                                  "year": 2019
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6110",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6130",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6370",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6490",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "4210",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "4420",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "4640",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "6210",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "6640",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Fourth CSCI Option Course",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "494@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "694@",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "VISION, GRAPHICS, ROBOTICS & GAMES CONCENTRATION",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 2,
+                "rules": [
+                  {
+                    "label": "Computer Science Options: Vision, Graphics, Robotics & Games/Capstone",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "COGS",
+                          "crse": "4520",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "4540",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4270",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4320",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4480",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4490",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4520",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4530",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4540",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "4550",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6360",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6490",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6530",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECSE",
+                          "crse": "4750",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Fourth CSCI Option Course",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 3,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "4@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "6@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "494@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "694@",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "extra_text": "Students are required to take 4 CS option courses.  To fulfill the capstone requirement in CSCI, students need to either take 3 of these CS options in the same concentration area (from one below) OR complete a 4-credit URP. The URP must be a research-focused capstone supervised by a CSCI or CSCI-affiliated faculty member.  Students must complete a formal, written research project or paper approved by the faculty supervisor."
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 29,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Computer Science Major Requirements"
+  }
+]

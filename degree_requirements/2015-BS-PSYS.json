@@ -1,0 +1,192 @@
+[
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 6,
+          "rules": [
+            {
+              "label": "General Psychology",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PSYC",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Research Methods and Statistics I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PSYC",
+                    "crse": "2310",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Research Methods and Statistics II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PSYC",
+                    "crse": "4310",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Mathematical Methods in Psychological Science",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ADV_APPR",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Core Content Courses",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 4,
+                "courses": [
+                  {
+                    "dept": "PSYC",
+                    "crse": "2730",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "4320",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "4330",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "4370",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "4410",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "4450",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Advanced Seminar or Research",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "ADV_APPR",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 40,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Psychological Science Major Requirements"
+  }
+]

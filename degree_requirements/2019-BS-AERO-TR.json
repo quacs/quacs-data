@@ -1,0 +1,2728 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS Communication Intensive",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "AERO"
+          },
+          "if_branch": [
+            {
+              "label": "Major Communication Intensive",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "@",
+                    "restriction": [
+                      {
+                        "type": "attribute",
+                        "operator": "equal",
+                        "connector": "none",
+                        "attribute": "CommunicationIntensive"
+                      }
+                    ]
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "CHEG"
+                },
+                "if_branch": [
+                  {
+                    "label": "Major Communication Intensive",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHME",
+                          "crse": "@",
+                          "restriction": [
+                            {
+                              "type": "attribute",
+                              "operator": "equal",
+                              "connector": "none",
+                              "attribute": "CommunicationIntensive"
+                            }
+                          ]
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "BMED"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Major Communication Intensive",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "BMED",
+                                "crse": "@",
+                                "restriction": [
+                                  {
+                                    "type": "attribute",
+                                    "operator": "equal",
+                                    "connector": "none",
+                                    "attribute": "CommunicationIntensive"
+                                  }
+                                ]
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "IF Statement",
+                          "rule_data": {
+                            "type": "if",
+                            "condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "CIVL"
+                            },
+                            "if_branch": [
+                              {
+                                "label": "Major Communication Intensive",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_courses_needed": 1,
+                                  "courses": [
+                                    {
+                                      "dept": "CIVL",
+                                      "crse": "@",
+                                      "restriction": [
+                                        {
+                                          "type": "attribute",
+                                          "operator": "equal",
+                                          "connector": "none",
+                                          "attribute": "CommunicationIntensive"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              }
+                            ],
+                            "else_branch": [
+                              {
+                                "label": "IF Statement",
+                                "rule_data": {
+                                  "type": "if",
+                                  "condition": {
+                                    "type": "major",
+                                    "operator": "equal",
+                                    "major": "CSYS"
+                                  },
+                                  "if_branch": [
+                                    {
+                                      "label": "Major Communication Intensive",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 1,
+                                        "courses": [
+                                          {
+                                            "dept": "ECSE",
+                                            "crse": "@",
+                                            "restriction": [
+                                              {
+                                                "type": "attribute",
+                                                "operator": "equal",
+                                                "connector": "none",
+                                                "attribute": "CommunicationIntensive"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "dept": "MANE",
+                                            "crse": "4220",
+                                            "restriction": [
+                                              {
+                                                "type": "attribute",
+                                                "operator": "equal",
+                                                "connector": "none",
+                                                "attribute": "CommunicationIntensive"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    }
+                                  ],
+                                  "else_branch": [
+                                    {
+                                      "label": "IF Statement",
+                                      "rule_data": {
+                                        "type": "if",
+                                        "condition": {
+                                          "type": "major",
+                                          "operator": "equal",
+                                          "major": "ELEC"
+                                        },
+                                        "if_branch": [
+                                          {
+                                            "label": "Major Communication Intensive",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "ECSE",
+                                                  "crse": "@",
+                                                  "restriction": [
+                                                    {
+                                                      "type": "attribute",
+                                                      "operator": "equal",
+                                                      "connector": "none",
+                                                      "attribute": "CommunicationIntensive"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "dept": "MANE",
+                                                  "crse": "4220",
+                                                  "restriction": [
+                                                    {
+                                                      "type": "attribute",
+                                                      "operator": "equal",
+                                                      "connector": "none",
+                                                      "attribute": "CommunicationIntensive"
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          }
+                                        ],
+                                        "else_branch": [
+                                          {
+                                            "label": "IF Statement",
+                                            "rule_data": {
+                                              "type": "if",
+                                              "condition": {
+                                                "type": "major",
+                                                "operator": "equal",
+                                                "major": "ENVE"
+                                              },
+                                              "if_branch": [
+                                                {
+                                                  "label": "Major Communication Intensive",
+                                                  "rule_data": {
+                                                    "type": "course",
+                                                    "num_courses_needed": 1,
+                                                    "courses": [
+                                                      {
+                                                        "dept": "ENVE",
+                                                        "crse": "@",
+                                                        "restriction": [
+                                                          {
+                                                            "type": "attribute",
+                                                            "operator": "equal",
+                                                            "connector": "none",
+                                                            "attribute": "CommunicationIntensive"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "except": []
+                                                  }
+                                                }
+                                              ],
+                                              "else_branch": [
+                                                {
+                                                  "label": "IF Statement",
+                                                  "rule_data": {
+                                                    "type": "if",
+                                                    "condition": {
+                                                      "type": "major",
+                                                      "operator": "equal",
+                                                      "major": "MGTE"
+                                                    },
+                                                    "if_branch": [
+                                                      {
+                                                        "label": "Major Communication Intensive",
+                                                        "rule_data": {
+                                                          "type": "course",
+                                                          "num_courses_needed": 1,
+                                                          "courses": [
+                                                            {
+                                                              "dept": "ISYE",
+                                                              "crse": "@",
+                                                              "restriction": [
+                                                                {
+                                                                  "type": "attribute",
+                                                                  "operator": "equal",
+                                                                  "connector": "none",
+                                                                  "attribute": "CommunicationIntensive"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "except": []
+                                                        }
+                                                      }
+                                                    ],
+                                                    "else_branch": [
+                                                      {
+                                                        "label": "IF Statement",
+                                                        "rule_data": {
+                                                          "type": "if",
+                                                          "condition": {
+                                                            "type": "major",
+                                                            "operator": "equal",
+                                                            "major": "MATL"
+                                                          },
+                                                          "if_branch": [
+                                                            {
+                                                              "label": "Major Communication Intensive",
+                                                              "rule_data": {
+                                                                "type": "course",
+                                                                "num_courses_needed": 1,
+                                                                "courses": [
+                                                                  {
+                                                                    "dept": "MTLE",
+                                                                    "crse": "@",
+                                                                    "restriction": [
+                                                                      {
+                                                                        "type": "attribute",
+                                                                        "operator": "equal",
+                                                                        "connector": "none",
+                                                                        "attribute": "CommunicationIntensive"
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "except": []
+                                                              }
+                                                            }
+                                                          ],
+                                                          "else_branch": [
+                                                            {
+                                                              "label": "IF Statement",
+                                                              "rule_data": {
+                                                                "type": "if",
+                                                                "condition": {
+                                                                  "type": "major",
+                                                                  "operator": "equal",
+                                                                  "major": "MECL"
+                                                                },
+                                                                "if_branch": [
+                                                                  {
+                                                                    "label": "Major Communication Intensive",
+                                                                    "rule_data": {
+                                                                      "type": "course",
+                                                                      "num_courses_needed": 1,
+                                                                      "courses": [
+                                                                        {
+                                                                          "dept": "MANE",
+                                                                          "crse": "@",
+                                                                          "restriction": [
+                                                                            {
+                                                                              "type": "attribute",
+                                                                              "operator": "equal",
+                                                                              "connector": "none",
+                                                                              "attribute": "CommunicationIntensive"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "except": []
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "else_branch": [
+                                                                  {
+                                                                    "label": "IF Statement",
+                                                                    "rule_data": {
+                                                                      "type": "if",
+                                                                      "condition": {
+                                                                        "type": "major",
+                                                                        "operator": "equal",
+                                                                        "major": "NUCL"
+                                                                      },
+                                                                      "if_branch": [
+                                                                        {
+                                                                          "label": "Major Communication Intensive",
+                                                                          "rule_data": {
+                                                                            "type": "course",
+                                                                            "num_courses_needed": 1,
+                                                                            "courses": [
+                                                                              {
+                                                                                "dept": "MANE",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ],
+                                                                            "except": []
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "else_branch": []
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Communication-Intensive Requirements"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "first-major",
+            "operator": "equal",
+            "major": "CSYS"
+          },
+          "if_branch": [
+            {
+              "label": "Multivariable Calculus & Matrix Algebra",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "first-major",
+                  "operator": "equal",
+                  "major": "ELEC"
+                },
+                "if_branch": [
+                  {
+                    "label": "Multivariable Calculus & Matrix Algebra",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "2010",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "Chemistry I",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "1100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "1110",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Calculus I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1010",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Calculus II",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1020",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Intro to Differential Equations",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "2400",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Physics I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1100",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "1150",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Physics II",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1200",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "1250",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Math/Science Core"
+  },
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "and",
+                  "attribute": {
+                    "Credits": 2
+                  }
+                },
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "and",
+                  "attribute": "PD2"
+                }
+              ]
+            }
+          ]
+        },
+        "extra_text": "2 and 4-credit PD 2 courses cannot be used to satisfy both the HASS 4000 and PD 2 areas."
+      },
+      {
+        "label": "Professional Development II",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 2,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "PD2"
+                }
+              ]
+            }
+          ],
+          "except": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": {
+                    "Grade": "P"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "extra_text": "No more than 12 credits at the 1000 level can be applied to the HASS Core."
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "nested",
+                                      "connector": "or",
+                                      "left_condition": {
+                                        "type": "nested",
+                                        "connector": "or",
+                                        "left_condition": {
+                                          "type": "nested",
+                                          "connector": "or",
+                                          "left_condition": {
+                                            "type": "degree",
+                                            "operator": "equal",
+                                            "degree": "BS-AEME"
+                                          },
+                                          "right_condition": {
+                                            "type": "degree",
+                                            "operator": "equal",
+                                            "degree": "BS-AERO"
+                                          }
+                                        },
+                                        "right_condition": {
+                                          "type": "degree",
+                                          "operator": "equal",
+                                          "degree": "BS-BMED"
+                                        }
+                                      },
+                                      "right_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-BMED-PRMD"
+                                      }
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-CHEG"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-CIVL"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-CSYS"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-CSCS"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-ELCS"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-ELEC"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-ENVE"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-MATL"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-MEBM"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-MECL"
+                  }
+                },
+                "right_condition": {
+                  "type": "degree",
+                  "operator": "equal",
+                  "degree": "BS-MENU"
+                }
+              },
+              "right_condition": {
+                "type": "degree",
+                "operator": "equal",
+                "degree": "BS-MGTE"
+              }
+            },
+            "right_condition": {
+              "type": "degree",
+              "operator": "equal",
+              "degree": "BS-NUCL"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "nested",
+                                      "connector": "or",
+                                      "left_condition": {
+                                        "type": "nested",
+                                        "connector": "or",
+                                        "left_condition": {
+                                          "type": "nested",
+                                          "connector": "or",
+                                          "left_condition": {
+                                            "type": "nested",
+                                            "connector": "or",
+                                            "left_condition": {
+                                              "type": "nested",
+                                              "connector": "or",
+                                              "left_condition": {
+                                                "type": "degree",
+                                                "operator": "equal",
+                                                "degree": "BS-AEME-TR"
+                                              },
+                                              "right_condition": {
+                                                "type": "degree",
+                                                "operator": "equal",
+                                                "degree": "BS-AERO-TR"
+                                              }
+                                            },
+                                            "right_condition": {
+                                              "type": "degree",
+                                              "operator": "equal",
+                                              "degree": "BS-BMED-TR"
+                                            }
+                                          },
+                                          "right_condition": {
+                                            "type": "degree",
+                                            "operator": "equal",
+                                            "degree": "BS-CHEG-TR"
+                                          }
+                                        },
+                                        "right_condition": {
+                                          "type": "degree",
+                                          "operator": "equal",
+                                          "degree": "BS-CIVL-TR"
+                                        }
+                                      },
+                                      "right_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-CSYS-TR"
+                                      }
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-CSCS-TR"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-ELCS-TR"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-ELEC-TR"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-ENVE-TR"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-MATL-TR"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-MEBM-TR"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-MECL-TR"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-MENU-TR"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-MGTE-TR"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-NUCL-TR"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 7,
+                      "courses": [
+                        {
+                          "dept": "ARTS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COMM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LANG",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LITR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHIL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "WRIT",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IHSS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECON",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PSYC",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Depth Requirement"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "CSYS"
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "ELEC"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Intro to Electrical, Computer & Syst Engr or Intro to Engr Analysis",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECSE",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ENGR",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "Intro to Engineering Analysis",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "AERO"
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "CIVL"
+                  }
+                },
+                "right_condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MECL"
+                }
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "NUCL"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "ENVE"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Engineering Graphics & CAD",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CIVL",
+                    "crse": "1200",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ENGR",
+                    "crse": "1200",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ENGR",
+                    "crse": "1400",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "Engineering Graphics & CAD",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "1200",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ENGR",
+                    "crse": "1400",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "AERO"
+                          },
+                          "right_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "BMED"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "CHEG"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "CIVL"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "ENVE"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "MATL"
+                  }
+                },
+                "right_condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MECL"
+                }
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "MGTE"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "NUCL"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "1-Credit Engineering Introductory Course",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "1300",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CHME",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CIVL",
+                    "crse": "1100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ISYE",
+                    "crse": "1100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "1100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MTLE",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "CHEG"
+          },
+          "if_branch": [
+            {
+              "label": "Professional Development",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 1,
+                "rules": [
+                  {
+                    "label": "Energy, Entropy & Equil. + PD I",
+                    "rule_data": {
+                      "type": "group",
+                      "num_needed": 2,
+                      "rules": [
+                        {
+                          "label": "Energy, Entropy & Equilibrium",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CHME",
+                                "crse": "2020",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Professional Development I",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "ENGR",
+                                "crse": "1010",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "AERO"
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "CSYS"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "ELEC"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "MECL"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "NUCL"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Inventor's Studio I or Intro to Engineering Design",
+                    "rule_data": {
+                      "type": "group",
+                      "num_needed": 1,
+                      "rules": [
+                        {
+                          "label": "Inventor's Studio I",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 4,
+                            "courses": [
+                              {
+                                "dept": "MANE",
+                                "crse": "2220",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Intro to Engineering Design",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 4,
+                            "courses": [
+                              {
+                                "dept": "ENGR",
+                                "crse": "2050",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Intro to Engineering Design & Prof Development I  - THIS OPTION FOR THOSE WHO ENTERED INTO RPI AS TRANSFER STUDENTS ONLY",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 4,
+                            "courses": [
+                              {
+                                "dept": "ENGR",
+                                "crse": "2050",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ENGR",
+                                "crse": "1010",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "major",
+                                "operator": "equal",
+                                "major": "BMED"
+                              },
+                              "right_condition": {
+                                "type": "major",
+                                "operator": "equal",
+                                "major": "CIVL"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "ENVE"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "MATL"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "MGTE"
+                        }
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Intro to Engineering Design",
+                          "rule_data": {
+                            "type": "group",
+                            "num_needed": 1,
+                            "rules": [
+                              {
+                                "label": "Intro to Engineering Design",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 4,
+                                  "courses": [
+                                    {
+                                      "dept": "ENGR",
+                                      "crse": "2050",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              },
+                              {
+                                "label": "Intro to Engineering Design & Prof Development I",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 4,
+                                  "courses": [
+                                    {
+                                      "dept": "ENGR",
+                                      "crse": "2050",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ENGR",
+                                      "crse": "1010",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "else_branch": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "AERO"
+                          },
+                          "right_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "BMED"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "CHEG"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "CIVL"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "ENVE"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "MATL"
+                  }
+                },
+                "right_condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "MECL"
+                }
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "MGTE"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "NUCL"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Modeling and Analysis of Uncertainty",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "2600",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": []
+        }
+      },
+      {
+        "label": "Professional Development III",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ENGR",
+              "crse": "4010",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "CSYS"
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "ELEC"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "MGTE"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Computer Science I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "BMED"
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "CIVL"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "MATL"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Beginning Programming for Engineering or Comp Sci I",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CSCI",
+                          "crse": "1190",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "1100",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "ENVE"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Begin Program for Engineer or Intro to Comptr Progr or Comp Sci I",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CSCI",
+                                "crse": "1190",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CSCI",
+                                "crse": "1010",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CSCI",
+                                "crse": "1100",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ],
+                      "else_branch": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Engineering Core Requirements"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 19,
+          "rules": [
+            {
+              "label": "Strength of Materials",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "2530",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Engineering Dynamics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ENGR",
+                    "crse": "2090",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Fundamentals of Flight",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "1060",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Numerical Methods and Programming for Engineers",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "2110",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Thermodynamics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "2710",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "2960",
+                    "restriction": [
+                      {
+                        "type": "attribute",
+                        "operator": "equal",
+                        "connector": "none",
+                        "attribute": {
+                          "RequiredSemester": {
+                            "sem": "fall",
+                            "year": 2018
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Fluid Mechanics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "2720",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Aerospace Structures and Materials",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4060",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Aerodynamics I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4070",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Propulsion Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4080",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Aeroelasticity and Structural Vibrations",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4900",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Fluid Dynamics Laboratory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4910",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Aerospace Structures and Control Laboratory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4920",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Computation Intensive Elective",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4140",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4240",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4280",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Flight Mechanics Elective",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4090",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Capstone Design Elective",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4230",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4850",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MANE",
+                    "crse": "4860",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Modeling and Control of Dynamic Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4500",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Control Systems Laboratory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4510",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Aerospace Technical Elective",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 3,
+                "courses": [
+                  {
+                    "dept": "MANE",
+                    "crse": "4@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Multivariable Calculus and Matrix Algebra",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Aeronautical Engineering Major Req (TRANSFER)"
+  },
+  {
+    "rules": [
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 12,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "not-equal",
+                  "connector": "and",
+                  "attribute": {
+                    "Disciplines": [
+                      "ENGR",
+                      "MANE",
+                      "CHME",
+                      "BMED",
+                      "CIVL",
+                      "ECSE",
+                      "ENVE",
+                      "ISYE",
+                      "MTLE"
+                    ]
+                  }
+                },
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "and",
+                  "attribute": {
+                    "Credits": 1
+                  }
+                },
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "and",
+                  "attribute": {
+                    "Grade": "S"
+                  }
+                }
+              ]
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4063",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        },
+        "extra_text": "No more than 6 ROTC credits may contribute toward fulfillment of degree requirements for engineering majors."
+      }
+    ],
+    "title": "Free Electives"
+  }
+]

@@ -1,0 +1,1987 @@
+[
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "COGS"
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "ECON"
+              }
+            },
+            "right_condition": {
+              "type": "degree",
+              "operator": "equal",
+              "degree": "BS-BECO"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Calculus I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "Calculus I or Calculus for Architecture, Management and HASS",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "1500",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "COGS"
+          },
+          "if_branch": [
+            {
+              "label": "Calculus II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1020",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Computer Science I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Data Structures",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Foundations of Computer Science",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Introduction to Algorithms",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "2300",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "COMM"
+                },
+                "if_branch": [
+                  {
+                    "label": "Calculus II or Math Methods in Mgt and Econ or Contemp Math Ideas in Society",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "1020",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "1520",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "1620",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Intro to Biology and Lab",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 2,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "1010",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "1015",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Science Electives",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 12,
+                      "courses": [
+                        {
+                          "dept": "ASTR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BCBP",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CSCI",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ERTH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IENV",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ISCI",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATP",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHYS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "1900",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHYS",
+                          "crse": "1010",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "DSIS"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Calculus II or Math Methods in Mgt and Econ or Contemp Math Ideas in Society",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "MATH",
+                                "crse": "1020",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "MATH",
+                                "crse": "1520",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "MATH",
+                                "crse": "1620",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Science Electives",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 16,
+                            "courses": [
+                              {
+                                "dept": "ASTR",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "BCBP",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "BIOL",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CHEM",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CSCI",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ERTH",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "IENV",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ISCI",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "MATH",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "MATP",
+                                "crse": "@",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "PHYS",
+                                "crse": "@",
+                                "restriction": []
+                              }
+                            ],
+                            "except": [
+                              {
+                                "dept": "CHEM",
+                                "crse": "1900",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "PHYS",
+                                "crse": "1010",
+                                "restriction": []
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "IF Statement",
+                          "rule_data": {
+                            "type": "if",
+                            "condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "ECON"
+                            },
+                            "if_branch": [
+                              {
+                                "label": "Calculus II",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_courses_needed": 1,
+                                  "courses": [
+                                    {
+                                      "dept": "MATH",
+                                      "crse": "1020",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              },
+                              {
+                                "label": "Multivariable Calculus and Matrix Algebra",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_courses_needed": 1,
+                                  "courses": [
+                                    {
+                                      "dept": "MATH",
+                                      "crse": "2010",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              },
+                              {
+                                "label": "Science Electives",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 8,
+                                  "courses": [
+                                    {
+                                      "dept": "ASTR",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BCBP",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CSCI",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ERTH",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "IENV",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ISCI",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "MATH",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "MATP",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "@",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": [
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "1900",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "1010",
+                                      "restriction": []
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "label": "Statistics Option or Science Elective",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 4,
+                                  "courses": [
+                                    {
+                                      "dept": "MATP",
+                                      "crse": "4600",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ENGR",
+                                      "crse": "2600",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ASTR",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BCBP",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CSCI",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ERTH",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "IENV",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ISCI",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "MATH",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "MATP",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "@",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": [
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "1900",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "1010",
+                                      "restriction": []
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "else_branch": [
+                              {
+                                "label": "IF Statement",
+                                "rule_data": {
+                                  "type": "if",
+                                  "condition": {
+                                    "type": "major",
+                                    "operator": "equal",
+                                    "major": "EART"
+                                  },
+                                  "if_branch": [
+                                    {
+                                      "label": "Calculus II or Math Methods in Mgt and Econ or Contemp Math Ideas in Society",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 1,
+                                        "courses": [
+                                          {
+                                            "dept": "MATH",
+                                            "crse": "1020",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "MATH",
+                                            "crse": "1520",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "MATH",
+                                            "crse": "1620",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    },
+                                    {
+                                      "label": "Computer Science I or Intro to Computer Programming",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 1,
+                                        "courses": [
+                                          {
+                                            "dept": "CSCI",
+                                            "crse": "1100",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "CSCI",
+                                            "crse": "1010",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    },
+                                    {
+                                      "label": "Science Electives",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_credits_needed": 12,
+                                        "courses": [
+                                          {
+                                            "dept": "ASTR",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "BCBP",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "BIOL",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "CHEM",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "CSCI",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "ERTH",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "IENV",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "ISCI",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "MATH",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "MATP",
+                                            "crse": "@",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "PHYS",
+                                            "crse": "@",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": [
+                                          {
+                                            "dept": "CHEM",
+                                            "crse": "1900",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "PHYS",
+                                            "crse": "1010",
+                                            "restriction": []
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ],
+                                  "else_branch": [
+                                    {
+                                      "label": "IF Statement",
+                                      "rule_data": {
+                                        "type": "if",
+                                        "condition": {
+                                          "type": "major",
+                                          "operator": "equal",
+                                          "major": "EMAC"
+                                        },
+                                        "if_branch": [
+                                          {
+                                            "label": "Contemp Math Ideas in Society or Calculus II or Math Meth in Mgmt and Econ",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "MATH",
+                                                  "crse": "1620",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "MATH",
+                                                  "crse": "1020",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "MATH",
+                                                  "crse": "1520",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          },
+                                          {
+                                            "label": "Computer Science I or Intro to Computer Programming",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "CSCI",
+                                                  "crse": "1100",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "CSCI",
+                                                  "crse": "1010",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          },
+                                          {
+                                            "label": "Science Electives",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_credits_needed": 12,
+                                              "courses": [
+                                                {
+                                                  "dept": "ASTR",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "BCBP",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "BIOL",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "CHEM",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "CSCI",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "ERTH",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "IENV",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "ISCI",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "MATH",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "MATP",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "PHYS",
+                                                  "crse": "@",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": [
+                                                {
+                                                  "dept": "CHEM",
+                                                  "crse": "1900",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "PHYS",
+                                                  "crse": "1010",
+                                                  "restriction": []
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ],
+                                        "else_branch": [
+                                          {
+                                            "label": "IF Statement",
+                                            "rule_data": {
+                                              "type": "if",
+                                              "condition": {
+                                                "type": "major",
+                                                "operator": "equal",
+                                                "major": "PHIL"
+                                              },
+                                              "if_branch": [
+                                                {
+                                                  "label": "Calculus II or Contemp Math Ideas in Society or Math Mtds in Mgt and Econ",
+                                                  "rule_data": {
+                                                    "type": "course",
+                                                    "num_courses_needed": 1,
+                                                    "courses": [
+                                                      {
+                                                        "dept": "MATH",
+                                                        "crse": "1020",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "MATH",
+                                                        "crse": "1620",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "MATH",
+                                                        "crse": "1520",
+                                                        "restriction": []
+                                                      }
+                                                    ],
+                                                    "except": []
+                                                  }
+                                                },
+                                                {
+                                                  "label": "Science Electives",
+                                                  "rule_data": {
+                                                    "type": "course",
+                                                    "num_credits_needed": 16,
+                                                    "courses": [
+                                                      {
+                                                        "dept": "ASTR",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "BCBP",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "BIOL",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "CHEM",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "CSCI",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "ERTH",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "IENV",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "ISCI",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "MATH",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "MATP",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "PHYS",
+                                                        "crse": "@",
+                                                        "restriction": []
+                                                      }
+                                                    ],
+                                                    "except": [
+                                                      {
+                                                        "dept": "CHEM",
+                                                        "crse": "1900",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "PHYS",
+                                                        "crse": "1010",
+                                                        "restriction": []
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ],
+                                              "else_branch": [
+                                                {
+                                                  "label": "IF Statement",
+                                                  "rule_data": {
+                                                    "type": "if",
+                                                    "condition": {
+                                                      "type": "major",
+                                                      "operator": "equal",
+                                                      "major": "PSYC"
+                                                    },
+                                                    "if_branch": [
+                                                      {
+                                                        "label": "Calculus II or Math Mthds in Mgt and Econ or Contemp Math Ideas in Society",
+                                                        "rule_data": {
+                                                          "type": "course",
+                                                          "num_courses_needed": 1,
+                                                          "courses": [
+                                                            {
+                                                              "dept": "MATH",
+                                                              "crse": "1020",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "MATH",
+                                                              "crse": "1520",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "MATH",
+                                                              "crse": "1620",
+                                                              "restriction": []
+                                                            }
+                                                          ],
+                                                          "except": []
+                                                        }
+                                                      },
+                                                      {
+                                                        "label": "Intro to Biology and Lab",
+                                                        "rule_data": {
+                                                          "type": "course",
+                                                          "num_courses_needed": 2,
+                                                          "courses": [
+                                                            {
+                                                              "dept": "BIOL",
+                                                              "crse": "1010",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "BIOL",
+                                                              "crse": "1015",
+                                                              "restriction": []
+                                                            }
+                                                          ],
+                                                          "except": []
+                                                        }
+                                                      },
+                                                      {
+                                                        "label": "Science Electives",
+                                                        "rule_data": {
+                                                          "type": "course",
+                                                          "num_credits_needed": 12,
+                                                          "courses": [
+                                                            {
+                                                              "dept": "ASTR",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "BCBP",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "BIOL",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "CHEM",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "CSCI",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "ERTH",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "IENV",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "ISCI",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "MATH",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "MATP",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "PHYS",
+                                                              "crse": "@",
+                                                              "restriction": []
+                                                            }
+                                                          ],
+                                                          "except": [
+                                                            {
+                                                              "dept": "CHEM",
+                                                              "crse": "1900",
+                                                              "restriction": []
+                                                            },
+                                                            {
+                                                              "dept": "PHYS",
+                                                              "crse": "1010",
+                                                              "restriction": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    ],
+                                                    "else_branch": [
+                                                      {
+                                                        "label": "IF Statement",
+                                                        "rule_data": {
+                                                          "type": "if",
+                                                          "condition": {
+                                                            "type": "major",
+                                                            "operator": "equal",
+                                                            "major": "STSO"
+                                                          },
+                                                          "if_branch": [
+                                                            {
+                                                              "label": "Calculus II or Math Mthds in Mgt and Econ or Contemp Math Ideas in Society",
+                                                              "rule_data": {
+                                                                "type": "course",
+                                                                "num_courses_needed": 1,
+                                                                "courses": [
+                                                                  {
+                                                                    "dept": "MATH",
+                                                                    "crse": "1020",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "MATH",
+                                                                    "crse": "1520",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "MATH",
+                                                                    "crse": "1620",
+                                                                    "restriction": []
+                                                                  }
+                                                                ],
+                                                                "except": []
+                                                              }
+                                                            },
+                                                            {
+                                                              "label": "Intro to Biology and Lab",
+                                                              "rule_data": {
+                                                                "type": "course",
+                                                                "num_courses_needed": 2,
+                                                                "courses": [
+                                                                  {
+                                                                    "dept": "BIOL",
+                                                                    "crse": "1010",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "BIOL",
+                                                                    "crse": "1015",
+                                                                    "restriction": []
+                                                                  }
+                                                                ],
+                                                                "except": []
+                                                              }
+                                                            },
+                                                            {
+                                                              "label": "Science Electives",
+                                                              "rule_data": {
+                                                                "type": "course",
+                                                                "num_credits_needed": 12,
+                                                                "courses": [
+                                                                  {
+                                                                    "dept": "ASTR",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "BCBP",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "BIOL",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "CHEM",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "CSCI",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "ERTH",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "IENV",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "ISCI",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "MATH",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "MATP",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "PHYS",
+                                                                    "crse": "@",
+                                                                    "restriction": []
+                                                                  }
+                                                                ],
+                                                                "except": [
+                                                                  {
+                                                                    "dept": "CHEM",
+                                                                    "crse": "1900",
+                                                                    "restriction": []
+                                                                  },
+                                                                  {
+                                                                    "dept": "PHYS",
+                                                                    "crse": "1010",
+                                                                    "restriction": []
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          ],
+                                                          "else_branch": [
+                                                            {
+                                                              "label": "IF Statement",
+                                                              "rule_data": {
+                                                                "type": "if",
+                                                                "condition": {
+                                                                  "type": "major",
+                                                                  "operator": "equal",
+                                                                  "major": "SUST"
+                                                                },
+                                                                "if_branch": [
+                                                                  {
+                                                                    "label": "Calculus II or Math Mthds in Mgt and Econ or Contemp Math Ideas in Society",
+                                                                    "rule_data": {
+                                                                      "type": "course",
+                                                                      "num_courses_needed": 1,
+                                                                      "courses": [
+                                                                        {
+                                                                          "dept": "MATH",
+                                                                          "crse": "1020",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "MATH",
+                                                                          "crse": "1520",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "MATH",
+                                                                          "crse": "1620",
+                                                                          "restriction": []
+                                                                        }
+                                                                      ],
+                                                                      "except": []
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "label": "Biology Elective",
+                                                                    "rule_data": {
+                                                                      "type": "course",
+                                                                      "num_credits_needed": 4,
+                                                                      "courses": [
+                                                                        {
+                                                                          "dept": "BIOL",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        }
+                                                                      ],
+                                                                      "except": []
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "label": "Science Electives",
+                                                                    "rule_data": {
+                                                                      "type": "course",
+                                                                      "num_credits_needed": 12,
+                                                                      "courses": [
+                                                                        {
+                                                                          "dept": "ASTR",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "BCBP",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "BIOL",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "CHEM",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "CSCI",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "ERTH",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "IENV",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "ISCI",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "MATH",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "MATP",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "PHYS",
+                                                                          "crse": "@",
+                                                                          "restriction": []
+                                                                        }
+                                                                      ],
+                                                                      "except": [
+                                                                        {
+                                                                          "dept": "CHEM",
+                                                                          "crse": "1900",
+                                                                          "restriction": []
+                                                                        },
+                                                                        {
+                                                                          "dept": "PHYS",
+                                                                          "crse": "1010",
+                                                                          "restriction": []
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "else_branch": []
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Math/Science Core"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "nested",
+                                      "connector": "or",
+                                      "left_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-BECO"
+                                      },
+                                      "right_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-COGS"
+                                      }
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-COMM"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-DSIS"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-EART"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-ECON"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-EMAC"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-GSAS"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-MUSC"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-PHIL"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-PSYC"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-PSYS"
+                  }
+                },
+                "right_condition": {
+                  "type": "degree",
+                  "operator": "equal",
+                  "degree": "BS-SSLW"
+                }
+              },
+              "right_condition": {
+                "type": "degree",
+                "operator": "equal",
+                "degree": "BS-STSO"
+              }
+            },
+            "right_condition": {
+              "type": "degree",
+              "operator": "equal",
+              "degree": "BS-SUST"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "nested",
+                                      "connector": "or",
+                                      "left_condition": {
+                                        "type": "nested",
+                                        "connector": "or",
+                                        "left_condition": {
+                                          "type": "degree",
+                                          "operator": "equal",
+                                          "degree": "BS-BECO-TR"
+                                        },
+                                        "right_condition": {
+                                          "type": "degree",
+                                          "operator": "equal",
+                                          "degree": "BS-COGS-TR"
+                                        }
+                                      },
+                                      "right_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-COMM-TR"
+                                      }
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-DSIS-TR"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-EART-TR"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-ECON-TR"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-EMAC-TR"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-GSAS-TR"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-PHIL-TR"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-PSYC-TR"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-PSYS-TR"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-STSO-TR"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-SUST-TR"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 7,
+                      "courses": [
+                        {
+                          "dept": "ARTS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COMM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LANG",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LITR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHIL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "WRIT",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IHSS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECON",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PSYC",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Depth Requirement"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 6,
+          "rules": [
+            {
+              "label": "Introductory Economics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Intermediate Microeconomic Theory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "2010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Intermediate Macroeconomic Theory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "2020",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Econometrics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "4570",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Seminar in Economics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "4900",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Economics Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 16,
+                "courses": [
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 42,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Economics Major Requirements"
+  }
+]

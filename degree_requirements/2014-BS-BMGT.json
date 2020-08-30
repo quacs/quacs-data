@@ -1,0 +1,1244 @@
+[
+  {
+    "rules": [
+      {
+        "label": "MATH & SCIENCE CORE REQUIREMENT",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 4,
+          "rules": [
+            {
+              "label": "Calculus I for ARCH, MGMT, HASS or Calculus I",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1500",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "1010",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Math Methods in MGT and Economics or Calculus II",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1520",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "1020",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Computer Science",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CSCI",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Science Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ASTR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BIOL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "BCBP",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CHEM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CSCI",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ERTH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATP",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHYS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "1900",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHYS",
+                    "crse": "1010",
+                    "restriction": []
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "extra_text": "MATH & SCIENCE CORE restrictions: At least 16 credits must be completed at Rensselaer. No more than 2 courses may be taken Pass/No Credit."
+      }
+    ],
+    "title": "Math/Science Requirements"
+  },
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Introductory Economics or Principles of Economics",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ECON",
+              "crse": "1200",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "1200",
+              "restriction": []
+            }
+          ],
+          "except": []
+        },
+        "extra_text": "Course is REQUIRED and CANNOT be placed on P/NC."
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "course",
+            "course": {
+              "dept": "ECON",
+              "crse": "1200",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": {
+                    "Credits": 3
+                  }
+                }
+              ]
+            },
+            "status": "passed"
+          },
+          "if_branch": [
+            {
+              "label": "HASS-Social Science electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 5,
+                "courses": [
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "GSAS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "HASS-Social Science electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "GSAS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "degree",
+            "operator": "equal",
+            "degree": "BS-BMGT"
+          },
+          "if_branch": [
+            {
+              "label": "Two 4-credit courses in the same Subject Code; one of which is above 1000 level",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "degree",
+                  "operator": "equal",
+                  "degree": "BS-BMGT-TR"
+                },
+                "if_branch": [
+                  {
+                    "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 7,
+                      "courses": [
+                        {
+                          "dept": "ARTS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COMM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LANG",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LITR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHIL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "WRIT",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IHSS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECON",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PSYC",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Depth Requirement"
+  },
+  {
+    "rules": [
+      {
+        "label": "MANAGEMENT CORE",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 13,
+          "rules": [
+            {
+              "label": "Introduction to Management",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Microcomputers & Applications/Intro to Data Mgmt & Analytics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "2510",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Business Law and Ethics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "1260",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Financial Accounting",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "2300",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Statistical Methods",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "2100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Computer Information Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4140",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Managerial Finance",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "2320",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Quantitative Methods for Business",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Operations Management",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4110",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Marketing Principles",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "2430",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Org Behavior in High Performing Organizations",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4850",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Human Resources in High Performance Organizations",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4860",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Strategy and Policy",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "4870",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "LEADERSHIP COURSES",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 2,
+          "rules": [
+            {
+              "label": "Management Professional Dev I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "1240",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Management Professional Dev II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MGMT",
+                    "crse": "1250",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "concentration",
+            "operator": "equal",
+            "concentration": "ACCT"
+          },
+          "if_branch": [
+            {
+              "label": "Free Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "@",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": [
+                  {
+                    "dept": "ADMN",
+                    "crse": "1020",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ADMN",
+                    "crse": "1030",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COOP",
+                    "crse": "4010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COOP",
+                    "crse": "4100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COOP",
+                    "crse": "4300",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COOP",
+                    "crse": "4400",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "EXCH",
+                    "crse": "4060",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "EXCH",
+                    "crse": "4061",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ILEA",
+                    "crse": "4400",
+                    "restriction": []
+                  }
+                ]
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "concentration",
+                    "operator": "equal",
+                    "concentration": "SPCM"
+                  },
+                  "right_condition": {
+                    "type": "concentration",
+                    "operator": "equal",
+                    "concentration": "BUSA"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Free Electives",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 13,
+                      "courses": [
+                        {
+                          "dept": "@",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": [
+                        {
+                          "dept": "ADMN",
+                          "crse": "1020",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ADMN",
+                          "crse": "1030",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COOP",
+                          "crse": "4010",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COOP",
+                          "crse": "4100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COOP",
+                          "crse": "4300",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COOP",
+                          "crse": "4400",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "EXCH",
+                          "crse": "4060",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "EXCH",
+                          "crse": "4061",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ILEA",
+                          "crse": "4400",
+                          "restriction": []
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "concentration",
+                              "operator": "equal",
+                              "concentration": "ENTR"
+                            },
+                            "right_condition": {
+                              "type": "concentration",
+                              "operator": "equal",
+                              "concentration": "FNCE"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "concentration",
+                            "operator": "equal",
+                            "concentration": "MMIS"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "concentration",
+                          "operator": "equal",
+                          "concentration": "MKRT"
+                        }
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Free Electives",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 12,
+                            "courses": [
+                              {
+                                "dept": "@",
+                                "crse": "@",
+                                "restriction": []
+                              }
+                            ],
+                            "except": [
+                              {
+                                "dept": "ADMN",
+                                "crse": "1020",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ADMN",
+                                "crse": "1030",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4010",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4100",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4300",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4400",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "EXCH",
+                                "crse": "4060",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "EXCH",
+                                "crse": "4061",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ILEA",
+                                "crse": "4400",
+                                "restriction": []
+                              }
+                            ]
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "Free Electives",
+                          "rule_data": {
+                            "type": "course",
+                            "num_credits_needed": 24,
+                            "courses": [
+                              {
+                                "dept": "@",
+                                "crse": "@",
+                                "restriction": []
+                              }
+                            ],
+                            "except": [
+                              {
+                                "dept": "ADMN",
+                                "crse": "1020",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ADMN",
+                                "crse": "1030",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4010",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4100",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4300",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "COOP",
+                                "crse": "4400",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "EXCH",
+                                "crse": "4060",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "EXCH",
+                                "crse": "4061",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "ILEA",
+                                "crse": "4400",
+                                "restriction": []
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Internship Requirement",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PSEUDO@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Business and Management Major Requirements"
+  }
+]

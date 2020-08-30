@@ -1,0 +1,1230 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS Communication Intensive",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "BLSC"
+          },
+          "if_branch": [
+            {
+              "label": "Major Communication Intensive",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "@",
+                    "restriction": [
+                      {
+                        "type": "attribute",
+                        "operator": "equal",
+                        "connector": "none",
+                        "attribute": "CommunicationIntensive"
+                      }
+                    ]
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": []
+        }
+      }
+    ],
+    "title": "Communication-Intensive Requirements"
+  },
+  {
+    "rules": [
+      {
+        "label": "Calculus for Architecture, Mgmt & HASS or Calculus I",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1500",
+              "restriction": []
+            },
+            {
+              "dept": "MATH",
+              "crse": "1010",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "General Physics or Physics I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1050",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "1100",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "BLSC"
+          },
+          "if_branch": [
+            {
+              "label": "Mathematical Methods in Mgmt and Economics or Calculus II",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "1520",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "1020",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "Math Elective",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Science Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ASTR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "BCBP",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "BIOL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "CHEM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "CSCI",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ERTH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "MATH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "MATP",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "CHEM",
+              "crse": "1900",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "1010",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Math/Science Core"
+  },
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "degree",
+            "operator": "equal",
+            "degree": "BS-BLSC"
+          },
+          "if_branch": [
+            {
+              "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "degree",
+                  "operator": "equal",
+                  "degree": "BS-BLSC-TR"
+                },
+                "if_branch": [
+                  {
+                    "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 7,
+                      "courses": [
+                        {
+                          "dept": "ARTS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COMM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LANG",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LITR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHIL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "WRIT",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IHSS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECON",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PSYC",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Depth Requirement"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 21,
+          "rules": [
+            {
+              "label": "Construction Industry Seminar 1",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4510",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Structures 1",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2330",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Environmental and Ecological Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2360",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Structures 2",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4330",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Building Systems and Environment",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4740",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "The Ethos of Architecture",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2150",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Architectural Media",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2160",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Materials and Design",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2510",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Digital Constructs 1",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2520",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Architectural Design Studio 1",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2800",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Energy, Comfort & Ecology",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2370",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Building Performance Studio 1",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2850",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Architectural Case Studies",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4090",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Construction Systems",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2350",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Building Performance Studio 2",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "2860",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Materials and Enclosures",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4560",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Professional Practice 2",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4550",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Construction Industry Seminar 2",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4520",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Building Sciences Capstone",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "4530",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Concentration Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 16,
+                "courses": [
+                  {
+                    "dept": "ADV_APPR",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Professional Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 2,
+                "courses": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "1@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "2@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "4@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "6@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LGHT",
+                    "crse": "6@",
+                    "restriction": []
+                  }
+                ],
+                "except": [
+                  {
+                    "dept": "ARCH",
+                    "crse": "194@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "294@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "494@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ARCH",
+                    "crse": "694@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LGHT",
+                    "crse": "694@",
+                    "restriction": []
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 12,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4300",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4400",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4060",
+              "restriction": []
+            },
+            {
+              "dept": "EXCH",
+              "crse": "4061",
+              "restriction": []
+            },
+            {
+              "dept": "ILEA",
+              "crse": "4400",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Building Science Major Requirements"
+  }
+]

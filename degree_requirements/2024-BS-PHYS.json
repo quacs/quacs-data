@@ -1,0 +1,2279 @@
+[
+  {
+    "rules": [
+      {
+        "label": "HASS Communication Intensive",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": [
+                {
+                  "type": "attribute",
+                  "operator": "equal",
+                  "connector": "none",
+                  "attribute": "CommunicationIntensive"
+                }
+              ]
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "major",
+            "operator": "equal",
+            "major": "APHY"
+          },
+          "if_branch": [
+            {
+              "label": "Major Communication Intensive",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "@",
+                    "restriction": [
+                      {
+                        "type": "attribute",
+                        "operator": "equal",
+                        "connector": "none",
+                        "attribute": "CommunicationIntensive"
+                      }
+                    ]
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "BCBP"
+                },
+                "if_branch": [
+                  {
+                    "label": "Major Communication Intensive",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "BCBP",
+                          "crse": "@",
+                          "restriction": [
+                            {
+                              "type": "attribute",
+                              "operator": "equal",
+                              "connector": "none",
+                              "attribute": "CommunicationIntensive"
+                            }
+                          ]
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "@",
+                          "restriction": [
+                            {
+                              "type": "attribute",
+                              "operator": "equal",
+                              "connector": "none",
+                              "attribute": "CommunicationIntensive"
+                            }
+                          ]
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "BIOL"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Major Communication Intensive",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "BIOL",
+                                "crse": "@",
+                                "restriction": [
+                                  {
+                                    "type": "attribute",
+                                    "operator": "equal",
+                                    "connector": "none",
+                                    "attribute": "CommunicationIntensive"
+                                  }
+                                ]
+                              },
+                              {
+                                "dept": "BCBP",
+                                "crse": "@",
+                                "restriction": [
+                                  {
+                                    "type": "attribute",
+                                    "operator": "equal",
+                                    "connector": "none",
+                                    "attribute": "CommunicationIntensive"
+                                  }
+                                ]
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "IF Statement",
+                          "rule_data": {
+                            "type": "if",
+                            "condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "BFMB"
+                            },
+                            "if_branch": [
+                              {
+                                "label": "Major Communication Intensive",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_courses_needed": 1,
+                                  "courses": [
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "@",
+                                      "restriction": [
+                                        {
+                                          "type": "attribute",
+                                          "operator": "equal",
+                                          "connector": "none",
+                                          "attribute": "CommunicationIntensive"
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              }
+                            ],
+                            "else_branch": [
+                              {
+                                "label": "IF Statement",
+                                "rule_data": {
+                                  "type": "if",
+                                  "condition": {
+                                    "type": "major",
+                                    "operator": "equal",
+                                    "major": "BLNS"
+                                  },
+                                  "if_branch": [
+                                    {
+                                      "label": "Major Communication Intensive",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 1,
+                                        "courses": [
+                                          {
+                                            "dept": "BIOL",
+                                            "crse": "4710",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "BIOL",
+                                            "crse": "4720",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "BIOL",
+                                            "crse": "4740",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "BCBP",
+                                            "crse": "4710",
+                                            "restriction": [
+                                              {
+                                                "type": "attribute",
+                                                "operator": "equal",
+                                                "connector": "none",
+                                                "attribute": "CommunicationIntensive"
+                                              }
+                                            ]
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    }
+                                  ],
+                                  "else_branch": [
+                                    {
+                                      "label": "IF Statement",
+                                      "rule_data": {
+                                        "type": "if",
+                                        "condition": {
+                                          "type": "major",
+                                          "operator": "equal",
+                                          "major": "CHEM"
+                                        },
+                                        "if_branch": [
+                                          {
+                                            "label": "Major Communication Intensive",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "CHEM",
+                                                  "crse": "@",
+                                                  "restriction": [
+                                                    {
+                                                      "type": "attribute",
+                                                      "operator": "equal",
+                                                      "connector": "none",
+                                                      "attribute": "CommunicationIntensive"
+                                                    }
+                                                  ]
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          }
+                                        ],
+                                        "else_branch": [
+                                          {
+                                            "label": "IF Statement",
+                                            "rule_data": {
+                                              "type": "if",
+                                              "condition": {
+                                                "type": "major",
+                                                "operator": "equal",
+                                                "major": "CSCI"
+                                              },
+                                              "if_branch": [
+                                                {
+                                                  "label": "Major Communication Intensive",
+                                                  "rule_data": {
+                                                    "type": "course",
+                                                    "num_courses_needed": 1,
+                                                    "courses": [
+                                                      {
+                                                        "dept": "CSCI",
+                                                        "crse": "@",
+                                                        "restriction": [
+                                                          {
+                                                            "type": "attribute",
+                                                            "operator": "equal",
+                                                            "connector": "none",
+                                                            "attribute": "CommunicationIntensive"
+                                                          }
+                                                        ]
+                                                      }
+                                                    ],
+                                                    "except": []
+                                                  }
+                                                }
+                                              ],
+                                              "else_branch": [
+                                                {
+                                                  "label": "IF Statement",
+                                                  "rule_data": {
+                                                    "type": "if",
+                                                    "condition": {
+                                                      "type": "major",
+                                                      "operator": "equal",
+                                                      "major": "ENVS"
+                                                    },
+                                                    "if_branch": [
+                                                      {
+                                                        "label": "Major Communication Intensive",
+                                                        "rule_data": {
+                                                          "type": "course",
+                                                          "num_courses_needed": 1,
+                                                          "courses": [
+                                                            {
+                                                              "dept": "ERTH",
+                                                              "crse": "@",
+                                                              "restriction": [
+                                                                {
+                                                                  "type": "attribute",
+                                                                  "operator": "equal",
+                                                                  "connector": "none",
+                                                                  "attribute": "CommunicationIntensive"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ],
+                                                          "except": []
+                                                        }
+                                                      }
+                                                    ],
+                                                    "else_branch": [
+                                                      {
+                                                        "label": "IF Statement",
+                                                        "rule_data": {
+                                                          "type": "if",
+                                                          "condition": {
+                                                            "type": "major",
+                                                            "operator": "equal",
+                                                            "major": "GEOL"
+                                                          },
+                                                          "if_branch": [
+                                                            {
+                                                              "label": "Major Communication Intensive",
+                                                              "rule_data": {
+                                                                "type": "course",
+                                                                "num_courses_needed": 1,
+                                                                "courses": [
+                                                                  {
+                                                                    "dept": "ERTH",
+                                                                    "crse": "@",
+                                                                    "restriction": [
+                                                                      {
+                                                                        "type": "attribute",
+                                                                        "operator": "equal",
+                                                                        "connector": "none",
+                                                                        "attribute": "CommunicationIntensive"
+                                                                      }
+                                                                    ]
+                                                                  }
+                                                                ],
+                                                                "except": []
+                                                              }
+                                                            }
+                                                          ],
+                                                          "else_branch": [
+                                                            {
+                                                              "label": "IF Statement",
+                                                              "rule_data": {
+                                                                "type": "if",
+                                                                "condition": {
+                                                                  "type": "major",
+                                                                  "operator": "equal",
+                                                                  "major": "HGEO"
+                                                                },
+                                                                "if_branch": [
+                                                                  {
+                                                                    "label": "Major Communication Intensive",
+                                                                    "rule_data": {
+                                                                      "type": "course",
+                                                                      "num_courses_needed": 1,
+                                                                      "courses": [
+                                                                        {
+                                                                          "dept": "ERTH",
+                                                                          "crse": "@",
+                                                                          "restriction": [
+                                                                            {
+                                                                              "type": "attribute",
+                                                                              "operator": "equal",
+                                                                              "connector": "none",
+                                                                              "attribute": "CommunicationIntensive"
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ],
+                                                                      "except": []
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "else_branch": [
+                                                                  {
+                                                                    "label": "IF Statement",
+                                                                    "rule_data": {
+                                                                      "type": "if",
+                                                                      "condition": {
+                                                                        "type": "major",
+                                                                        "operator": "equal",
+                                                                        "major": "ISCI"
+                                                                      },
+                                                                      "if_branch": [
+                                                                        {
+                                                                          "label": "Major Communication Intensive",
+                                                                          "rule_data": {
+                                                                            "type": "course",
+                                                                            "num_courses_needed": 1,
+                                                                            "courses": [
+                                                                              {
+                                                                                "dept": "BCBP",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "dept": "BIOL",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "dept": "CHEM",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "dept": "CSCI",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              {
+                                                                                "dept": "ERTH",
+                                                                                "crse": "@",
+                                                                                "restriction": [
+                                                                                  {
+                                                                                    "type": "attribute",
+                                                                                    "operator": "equal",
+                                                                                    "connector": "none",
+                                                                                    "attribute": "CommunicationIntensive"
+                                                                                  }
+                                                                                ]
+                                                                              }
+                                                                            ],
+                                                                            "except": []
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "else_branch": [
+                                                                        {
+                                                                          "label": "IF Statement",
+                                                                          "rule_data": {
+                                                                            "type": "if",
+                                                                            "condition": {
+                                                                              "type": "major",
+                                                                              "operator": "equal",
+                                                                              "major": "MATH"
+                                                                            },
+                                                                            "if_branch": [
+                                                                              {
+                                                                                "label": "Major Communication Intensive",
+                                                                                "rule_data": {
+                                                                                  "type": "course",
+                                                                                  "num_courses_needed": 1,
+                                                                                  "courses": [
+                                                                                    {
+                                                                                      "dept": "MATH",
+                                                                                      "crse": "@",
+                                                                                      "restriction": [
+                                                                                        {
+                                                                                          "type": "attribute",
+                                                                                          "operator": "equal",
+                                                                                          "connector": "none",
+                                                                                          "attribute": "CommunicationIntensive"
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ],
+                                                                                  "except": []
+                                                                                }
+                                                                              }
+                                                                            ],
+                                                                            "else_branch": [
+                                                                              {
+                                                                                "label": "IF Statement",
+                                                                                "rule_data": {
+                                                                                  "type": "if",
+                                                                                  "condition": {
+                                                                                    "type": "major",
+                                                                                    "operator": "equal",
+                                                                                    "major": "PHYS"
+                                                                                  },
+                                                                                  "if_branch": [
+                                                                                    {
+                                                                                      "label": "Major Communication Intensive",
+                                                                                      "rule_data": {
+                                                                                        "type": "course",
+                                                                                        "num_courses_needed": 1,
+                                                                                        "courses": [
+                                                                                          {
+                                                                                            "dept": "PHYS",
+                                                                                            "crse": "@",
+                                                                                            "restriction": [
+                                                                                              {
+                                                                                                "type": "attribute",
+                                                                                                "operator": "equal",
+                                                                                                "connector": "none",
+                                                                                                "attribute": "CommunicationIntensive"
+                                                                                              }
+                                                                                            ]
+                                                                                          }
+                                                                                        ],
+                                                                                        "except": []
+                                                                                      }
+                                                                                    }
+                                                                                  ],
+                                                                                  "else_branch": []
+                                                                                }
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  }
+                                                                ]
+                                                              }
+                                                            }
+                                                          ]
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Communication-Intensive Requirements"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "BCBP"
+                        },
+                        "right_condition": {
+                          "type": "major",
+                          "operator": "equal",
+                          "major": "BFMB"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "BIAM"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "major",
+                      "operator": "equal",
+                      "major": "BIOL"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "CHEM"
+                  }
+                },
+                "right_condition": {
+                  "type": "major",
+                  "operator": "equal",
+                  "major": "GEOL"
+                }
+              },
+              "right_condition": {
+                "type": "major",
+                "operator": "equal",
+                "major": "HGEO"
+              }
+            },
+            "right_condition": {
+              "type": "major",
+              "operator": "equal",
+              "major": "ISCI"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Chemistry I or Chem I with Advanced Lab",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "1100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CHEM",
+                    "crse": "1110",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Chemistry II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CHEM",
+                    "crse": "1200",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Physics II or Honors Physics II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "1200",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHYS",
+                    "crse": "1250",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "APHY"
+                  },
+                  "right_condition": {
+                    "type": "major",
+                    "operator": "equal",
+                    "major": "PHYS"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Chemistry I or Chem I with Advanced Lab",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "CHEM",
+                          "crse": "1100",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "CHEM",
+                          "crse": "1110",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Physics II or Honors Physics II",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "PHYS",
+                          "crse": "1200",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHYS",
+                          "crse": "1250",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Intro to Biology and Lab",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 2,
+                      "courses": [
+                        {
+                          "dept": "BIOL",
+                          "crse": "1010",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "BIOL",
+                          "crse": "1015",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": [
+                  {
+                    "label": "IF Statement",
+                    "rule_data": {
+                      "type": "if",
+                      "condition": {
+                        "type": "major",
+                        "operator": "equal",
+                        "major": "BLNS"
+                      },
+                      "if_branch": [
+                        {
+                          "label": "Chemistry I or Chemistry I with Advanced Lab",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CHEM",
+                                "crse": "1100",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "CHEM",
+                                "crse": "1110",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Chemistry II",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "CHEM",
+                                "crse": "1200",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        },
+                        {
+                          "label": "Physics II or Honors Physics II",
+                          "rule_data": {
+                            "type": "course",
+                            "num_courses_needed": 1,
+                            "courses": [
+                              {
+                                "dept": "PHYS",
+                                "crse": "1200",
+                                "restriction": []
+                              },
+                              {
+                                "dept": "PHYS",
+                                "crse": "1250",
+                                "restriction": []
+                              }
+                            ],
+                            "except": []
+                          }
+                        }
+                      ],
+                      "else_branch": [
+                        {
+                          "label": "IF Statement",
+                          "rule_data": {
+                            "type": "if",
+                            "condition": {
+                              "type": "major",
+                              "operator": "equal",
+                              "major": "CSCI"
+                            },
+                            "if_branch": [
+                              {
+                                "label": "Intro to Biology and Lab",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_courses_needed": 2,
+                                  "courses": [
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "1010",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "1015",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              },
+                              {
+                                "label": "Computer Science I",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 4,
+                                  "courses": [
+                                    {
+                                      "dept": "CSCI",
+                                      "crse": "1100",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": []
+                                }
+                              },
+                              {
+                                "label": "Science Option",
+                                "rule_data": {
+                                  "type": "course",
+                                  "num_credits_needed": 4,
+                                  "courses": [
+                                    {
+                                      "dept": "ASTR",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "BIOL",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ERTH",
+                                      "crse": "@",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "@",
+                                      "restriction": []
+                                    }
+                                  ],
+                                  "except": [
+                                    {
+                                      "dept": "ERTH",
+                                      "crse": "1030",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "ERTH",
+                                      "crse": "1040",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "CHEM",
+                                      "crse": "1900",
+                                      "restriction": []
+                                    },
+                                    {
+                                      "dept": "PHYS",
+                                      "crse": "1010",
+                                      "restriction": []
+                                    }
+                                  ]
+                                }
+                              }
+                            ],
+                            "else_branch": [
+                              {
+                                "label": "IF Statement",
+                                "rule_data": {
+                                  "type": "if",
+                                  "condition": {
+                                    "type": "major",
+                                    "operator": "equal",
+                                    "major": "ENVS"
+                                  },
+                                  "if_branch": [
+                                    {
+                                      "label": "Chemistry I or Chem I with Advanced Lab",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 1,
+                                        "courses": [
+                                          {
+                                            "dept": "CHEM",
+                                            "crse": "1100",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "CHEM",
+                                            "crse": "1110",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    },
+                                    {
+                                      "label": "Geology I: Earth's Interior and Lab",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 2,
+                                        "courses": [
+                                          {
+                                            "dept": "ERTH",
+                                            "crse": "1100",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "ERTH",
+                                            "crse": "1150",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    },
+                                    {
+                                      "label": "Geology II: Earth's Surface and Lab",
+                                      "rule_data": {
+                                        "type": "course",
+                                        "num_courses_needed": 2,
+                                        "courses": [
+                                          {
+                                            "dept": "ERTH",
+                                            "crse": "1200",
+                                            "restriction": []
+                                          },
+                                          {
+                                            "dept": "ERTH",
+                                            "crse": "1250",
+                                            "restriction": []
+                                          }
+                                        ],
+                                        "except": []
+                                      }
+                                    }
+                                  ],
+                                  "else_branch": [
+                                    {
+                                      "label": "IF Statement",
+                                      "rule_data": {
+                                        "type": "if",
+                                        "condition": {
+                                          "type": "major",
+                                          "operator": "equal",
+                                          "major": "MATH"
+                                        },
+                                        "if_branch": [
+                                          {
+                                            "label": "Intro to Biology and Lab",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 2,
+                                              "courses": [
+                                                {
+                                                  "dept": "BIOL",
+                                                  "crse": "1010",
+                                                  "restriction": []
+                                                },
+                                                {
+                                                  "dept": "BIOL",
+                                                  "crse": "1015",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          },
+                                          {
+                                            "label": "Computer Science I",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "CSCI",
+                                                  "crse": "1100",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          },
+                                          {
+                                            "label": "Intro to Differential Equations",
+                                            "rule_data": {
+                                              "type": "course",
+                                              "num_courses_needed": 1,
+                                              "courses": [
+                                                {
+                                                  "dept": "MATH",
+                                                  "crse": "2400",
+                                                  "restriction": []
+                                                }
+                                              ],
+                                              "except": []
+                                            }
+                                          }
+                                        ],
+                                        "else_branch": []
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Calculus I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1010",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Calculus II",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "MATH",
+              "crse": "1020",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "Physics I or Honors Physics I",
+        "rule_data": {
+          "type": "course",
+          "num_courses_needed": 1,
+          "courses": [
+            {
+              "dept": "PHYS",
+              "crse": "1100",
+              "restriction": []
+            },
+            {
+              "dept": "PHYS",
+              "crse": "1150",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Math/Science Core"
+  },
+  {
+    "rules": [
+      {
+        "label": "HASS-Humanity electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Social Science electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 8,
+          "courses": [
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS-Humanity or Social Science Elective",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      },
+      {
+        "label": "HASS 4000-level Course",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 4,
+          "courses": [
+            {
+              "dept": "ARTS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COMM",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LANG",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "LITR",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PHIL",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSH",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "WRIT",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "GSAS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "IHSS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "COGS",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "ECON",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "PSYC",
+              "crse": "4@",
+              "restriction": []
+            },
+            {
+              "dept": "STSS",
+              "crse": "4@",
+              "restriction": []
+            }
+          ],
+          "except": []
+        }
+      }
+    ],
+    "title": "Humanities, Arts & Social Sciences"
+  },
+  {
+    "rules": [
+      {
+        "label": "IF Statement",
+        "rule_data": {
+          "type": "if",
+          "condition": {
+            "type": "nested",
+            "connector": "or",
+            "left_condition": {
+              "type": "nested",
+              "connector": "or",
+              "left_condition": {
+                "type": "nested",
+                "connector": "or",
+                "left_condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-APHY"
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-BCBP"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-BFMB"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-BIAM"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-BIOL"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-BLNS"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-CHEM"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-CSCI"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-ENVS"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-GEOL"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-HGEO"
+                  }
+                },
+                "right_condition": {
+                  "type": "degree",
+                  "operator": "equal",
+                  "degree": "BS-ISCI"
+                }
+              },
+              "right_condition": {
+                "type": "degree",
+                "operator": "equal",
+                "degree": "BS-MATH"
+              }
+            },
+            "right_condition": {
+              "type": "degree",
+              "operator": "equal",
+              "degree": "BS-PHYS"
+            }
+          },
+          "if_branch": [
+            {
+              "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "ARTS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COMM",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LANG",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "LITR",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PHIL",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSH",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "WRIT",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "IHSS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "COGS",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "ECON",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "PSYC",
+                    "crse": "@",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "STSS",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ],
+          "else_branch": [
+            {
+              "label": "IF Statement",
+              "rule_data": {
+                "type": "if",
+                "condition": {
+                  "type": "nested",
+                  "connector": "or",
+                  "left_condition": {
+                    "type": "nested",
+                    "connector": "or",
+                    "left_condition": {
+                      "type": "nested",
+                      "connector": "or",
+                      "left_condition": {
+                        "type": "nested",
+                        "connector": "or",
+                        "left_condition": {
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "nested",
+                            "connector": "or",
+                            "left_condition": {
+                              "type": "nested",
+                              "connector": "or",
+                              "left_condition": {
+                                "type": "nested",
+                                "connector": "or",
+                                "left_condition": {
+                                  "type": "nested",
+                                  "connector": "or",
+                                  "left_condition": {
+                                    "type": "nested",
+                                    "connector": "or",
+                                    "left_condition": {
+                                      "type": "nested",
+                                      "connector": "or",
+                                      "left_condition": {
+                                        "type": "nested",
+                                        "connector": "or",
+                                        "left_condition": {
+                                          "type": "nested",
+                                          "connector": "or",
+                                          "left_condition": {
+                                            "type": "degree",
+                                            "operator": "equal",
+                                            "degree": "BS-APHY-TR"
+                                          },
+                                          "right_condition": {
+                                            "type": "degree",
+                                            "operator": "equal",
+                                            "degree": "BS-BCBP-TR"
+                                          }
+                                        },
+                                        "right_condition": {
+                                          "type": "degree",
+                                          "operator": "equal",
+                                          "degree": "BS-BFMB-TR"
+                                        }
+                                      },
+                                      "right_condition": {
+                                        "type": "degree",
+                                        "operator": "equal",
+                                        "degree": "BS-BIAM-TR"
+                                      }
+                                    },
+                                    "right_condition": {
+                                      "type": "degree",
+                                      "operator": "equal",
+                                      "degree": "BS-BIOL-TR"
+                                    }
+                                  },
+                                  "right_condition": {
+                                    "type": "degree",
+                                    "operator": "equal",
+                                    "degree": "BS-BLNS-TR"
+                                  }
+                                },
+                                "right_condition": {
+                                  "type": "degree",
+                                  "operator": "equal",
+                                  "degree": "BS-CHEM-TR"
+                                }
+                              },
+                              "right_condition": {
+                                "type": "degree",
+                                "operator": "equal",
+                                "degree": "BS-CSCI-TR"
+                              }
+                            },
+                            "right_condition": {
+                              "type": "degree",
+                              "operator": "equal",
+                              "degree": "BS-ENVS-TR"
+                            }
+                          },
+                          "right_condition": {
+                            "type": "degree",
+                            "operator": "equal",
+                            "degree": "BS-GEOL-TR"
+                          }
+                        },
+                        "right_condition": {
+                          "type": "degree",
+                          "operator": "equal",
+                          "degree": "BS-HGEO-TR"
+                        }
+                      },
+                      "right_condition": {
+                        "type": "degree",
+                        "operator": "equal",
+                        "degree": "BS-ISCI-TR"
+                      }
+                    },
+                    "right_condition": {
+                      "type": "degree",
+                      "operator": "equal",
+                      "degree": "BS-MATH-TR"
+                    }
+                  },
+                  "right_condition": {
+                    "type": "degree",
+                    "operator": "equal",
+                    "degree": "BS-PHYS-TR"
+                  }
+                },
+                "if_branch": [
+                  {
+                    "label": "Two courses in the same Subject Code; one of which is above 1000 level",
+                    "rule_data": {
+                      "type": "course",
+                      "num_credits_needed": 7,
+                      "courses": [
+                        {
+                          "dept": "ARTS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COMM",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LANG",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "LITR",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PHIL",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSH",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "WRIT",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "IHSS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "COGS",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "ECON",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "PSYC",
+                          "crse": "@",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "STSS",
+                          "crse": "@",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ],
+                "else_branch": []
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Depth Requirement"
+  },
+  {
+    "rules": [
+      {
+        "label": "MAJOR REQUIREMENTS",
+        "rule_data": {
+          "type": "group",
+          "num_needed": 12,
+          "rules": [
+            {
+              "label": "Intro to Computer Programming or Computer Science I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "CSCI",
+                    "crse": "1010",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "CSCI",
+                    "crse": "1100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Multivariable Calculus & Matrix Algebra",
+              "rule_data": {
+                "type": "group",
+                "num_needed": 1,
+                "rules": [
+                  {
+                    "label": "Multivariable Calculus and Matrix Algebra",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 1,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "2010",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  },
+                  {
+                    "label": "Multivariable Calculus & Matrix Algebra",
+                    "rule_data": {
+                      "type": "course",
+                      "num_courses_needed": 2,
+                      "courses": [
+                        {
+                          "dept": "MATH",
+                          "crse": "2011",
+                          "restriction": []
+                        },
+                        {
+                          "dept": "MATH",
+                          "crse": "2012",
+                          "restriction": []
+                        }
+                      ],
+                      "except": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "label": "Introduction to Differential Equations",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "2400",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "4000-level Math Electives",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 8,
+                "courses": [
+                  {
+                    "dept": "MATH",
+                    "crse": "4100",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4300",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4400",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4500",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4600",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4700",
+                    "restriction": []
+                  },
+                  {
+                    "dept": "MATH",
+                    "crse": "4800",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Quantum Physics I",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "2210",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Quantum Physics II",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "2220",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Experimental Physics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "2350",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Introductory Quantum Mechanics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "4100",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Electromagnetic Theory",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "4210",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Theoretical Mechanics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "4330",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Thermodynamics and Statistical Mechanics",
+              "rule_data": {
+                "type": "course",
+                "num_courses_needed": 1,
+                "courses": [
+                  {
+                    "dept": "PHYS",
+                    "crse": "4420",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            },
+            {
+              "label": "Culminating Experience",
+              "rule_data": {
+                "type": "course",
+                "num_credits_needed": 4,
+                "courses": [
+                  {
+                    "dept": "ADV_APPR",
+                    "crse": "@",
+                    "restriction": []
+                  }
+                ],
+                "except": []
+              }
+            }
+          ]
+        }
+      },
+      {
+        "label": "Free Electives",
+        "rule_data": {
+          "type": "course",
+          "num_credits_needed": 24,
+          "courses": [
+            {
+              "dept": "@",
+              "crse": "@",
+              "restriction": []
+            }
+          ],
+          "except": [
+            {
+              "dept": "ADMN",
+              "crse": "1020",
+              "restriction": []
+            },
+            {
+              "dept": "ADMN",
+              "crse": "1030",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4010",
+              "restriction": []
+            },
+            {
+              "dept": "COOP",
+              "crse": "4100",
+              "restriction": []
+            }
+          ]
+        }
+      }
+    ],
+    "title": "Physics Major Requirements"
+  }
+]
