@@ -72,6 +72,9 @@ jobs:
         run: printf "RIN=${{ secrets.RIN }}\nPASSWORD=${{ secrets.PASSWORD }}" > degree-planner/.env
 
       - name: Scrape courses
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
         run: |
             cd degree-planner
             python3 scraper.py refresh_data
