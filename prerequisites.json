@@ -12443,7 +12443,21 @@
             "ECSE-6963"
         ]
     },
-    "30195": {},
+    "30195": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2200"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1200"
+                }
+            ]
+        }
+    },
     "27409": {
         "cross_list_courses": [
             "ECSE-4110"
@@ -15848,14 +15862,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Business Analytics",
-                    "Management",
-                    "Supply Chain Management",
-                    "Tech Commercialization Entrepr"
                 ]
             }
         }
@@ -22171,13 +22177,6 @@
         ]
     },
     "30450": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman"
-                ]
-            }
-        },
         "corequisites": [
             "PHYS-1960"
         ]
