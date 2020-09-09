@@ -1,12 +1,6 @@
 {
     "25790": {},
     "29381": {},
-    "29356": {},
-    "29831": {},
-    "29832": {},
-    "29833": {},
-    "29834": {},
-    "29835": {},
     "29809": {},
     "29416": {},
     "26559": {},
@@ -54,7 +48,12 @@
     "25733": {},
     "25734": {},
     "28044": {},
-    "28045": {},
+    "28045": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2150"
+        }
+    },
     "30475": {
         "prerequisites": {
             "type": "course",
@@ -14600,7 +14599,15 @@
             }
         }
     },
-    "29316": {},
+    "29316": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "28104": {
         "restrictions": {
             "classification": {
@@ -14667,10 +14674,42 @@
             }
         }
     },
-    "30196": {},
-    "29743": {},
-    "29770": {},
-    "29771": {},
+    "30196": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29743": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29770": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29771": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "29462": {},
     "29463": {},
     "28953": {
@@ -14713,7 +14752,15 @@
             }
         }
     },
-    "30283": {},
+    "30283": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "29736": {
         "restrictions": {
             "classification": {
@@ -14766,9 +14813,33 @@
             }
         }
     },
-    "29774": {},
-    "29772": {},
-    "29788": {},
+    "29774": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29772": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "29788": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "28881": {
         "restrictions": {
             "classification": {
@@ -14787,7 +14858,15 @@
             }
         }
     },
-    "30269": {},
+    "30269": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "29333": {
         "restrictions": {
             "classification": {
@@ -14827,7 +14906,15 @@
             }
         }
     },
-    "29786": {},
+    "29786": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "29959": {
         "restrictions": {
             "level": {
@@ -19281,12 +19368,6 @@
             ]
         }
     },
-    "30496": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MANE 4010"
-        }
-    },
     "25948": {
         "prerequisites": {
             "type": "and",
@@ -20369,25 +20450,6 @@
         "cross_list_courses": [
             "MANE-4020"
         ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 2710"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4730"
-                }
-            ]
-        }
-    },
-    "30508": {
         "prerequisites": {
             "type": "and",
             "nested": [
