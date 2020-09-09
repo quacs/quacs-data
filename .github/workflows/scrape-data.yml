@@ -178,7 +178,7 @@ jobs:
           cp courses/prerequisites.json data
           cp faculty/faculty.json data
           cp catalog/catalog.json data
-          cp -r degree_requirements/ data
+          #cp -r degree_requirements/ data
 
           cd data
           git config user.name "QuACS" && git config user.email "github@quacs.org"
