@@ -187,7 +187,7 @@ jobs:
     name: Commit changes
     continue-on-error: true
     runs-on: ubuntu-latest
-    needs: [scrape-courses-and-prerequisites, scrape-degree-requirements, scrape-faculty, scrape-catalog, scape-covid-dashboard]
+    needs: [scrape-courses-and-prerequisites, scrape-degree-requirements, scrape-faculty, scrape-catalog, scrape-covid-dashboard]
     steps:
       - name: Checkout data
         uses: actions/checkout@v2
