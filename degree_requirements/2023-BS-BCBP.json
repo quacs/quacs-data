@@ -417,7 +417,7 @@
                                               "condition": {
                                                 "type": "major",
                                                 "operator": "equal",
-                                                "major": "CSCI"
+                                                "major": "CBIO"
                                               },
                                               "if_branch": [
                                                 {
@@ -427,8 +427,13 @@
                                                     "num_courses_needed": 1,
                                                     "courses": [
                                                       {
-                                                        "dept": "CSCI",
-                                                        "crse": "@",
+                                                        "dept": "BIOL",
+                                                        "crse": "4320",
+                                                        "restriction": []
+                                                      },
+                                                      {
+                                                        "dept": "BIOL",
+                                                        "crse": "4720",
                                                         "restriction": [
                                                           {
                                                             "type": "attribute",
@@ -451,7 +456,7 @@
                                                     "condition": {
                                                       "type": "major",
                                                       "operator": "equal",
-                                                      "major": "ENVS"
+                                                      "major": "CSCI"
                                                     },
                                                     "if_branch": [
                                                       {
@@ -461,7 +466,7 @@
                                                           "num_courses_needed": 1,
                                                           "courses": [
                                                             {
-                                                              "dept": "ERTH",
+                                                              "dept": "CSCI",
                                                               "crse": "@",
                                                               "restriction": [
                                                                 {
@@ -485,7 +490,7 @@
                                                           "condition": {
                                                             "type": "major",
                                                             "operator": "equal",
-                                                            "major": "GEOL"
+                                                            "major": "ENVS"
                                                           },
                                                           "if_branch": [
                                                             {
@@ -519,7 +524,7 @@
                                                                 "condition": {
                                                                   "type": "major",
                                                                   "operator": "equal",
-                                                                  "major": "HGEO"
+                                                                  "major": "GEOL"
                                                                 },
                                                                 "if_branch": [
                                                                   {
@@ -553,7 +558,7 @@
                                                                       "condition": {
                                                                         "type": "major",
                                                                         "operator": "equal",
-                                                                        "major": "ISCI"
+                                                                        "major": "HGEO"
                                                                       },
                                                                       "if_branch": [
                                                                         {
@@ -562,54 +567,6 @@
                                                                             "type": "course",
                                                                             "num_courses_needed": 1,
                                                                             "courses": [
-                                                                              {
-                                                                                "dept": "BCBP",
-                                                                                "crse": "@",
-                                                                                "restriction": [
-                                                                                  {
-                                                                                    "type": "attribute",
-                                                                                    "operator": "equal",
-                                                                                    "connector": "none",
-                                                                                    "attribute": "CommunicationIntensive"
-                                                                                  }
-                                                                                ]
-                                                                              },
-                                                                              {
-                                                                                "dept": "BIOL",
-                                                                                "crse": "@",
-                                                                                "restriction": [
-                                                                                  {
-                                                                                    "type": "attribute",
-                                                                                    "operator": "equal",
-                                                                                    "connector": "none",
-                                                                                    "attribute": "CommunicationIntensive"
-                                                                                  }
-                                                                                ]
-                                                                              },
-                                                                              {
-                                                                                "dept": "CHEM",
-                                                                                "crse": "@",
-                                                                                "restriction": [
-                                                                                  {
-                                                                                    "type": "attribute",
-                                                                                    "operator": "equal",
-                                                                                    "connector": "none",
-                                                                                    "attribute": "CommunicationIntensive"
-                                                                                  }
-                                                                                ]
-                                                                              },
-                                                                              {
-                                                                                "dept": "CSCI",
-                                                                                "crse": "@",
-                                                                                "restriction": [
-                                                                                  {
-                                                                                    "type": "attribute",
-                                                                                    "operator": "equal",
-                                                                                    "connector": "none",
-                                                                                    "attribute": "CommunicationIntensive"
-                                                                                  }
-                                                                                ]
-                                                                              },
                                                                               {
                                                                                 "dept": "ERTH",
                                                                                 "crse": "@",
@@ -635,7 +592,7 @@
                                                                             "condition": {
                                                                               "type": "major",
                                                                               "operator": "equal",
-                                                                              "major": "MATH"
+                                                                              "major": "ISCI"
                                                                             },
                                                                             "if_branch": [
                                                                               {
@@ -645,7 +602,55 @@
                                                                                   "num_courses_needed": 1,
                                                                                   "courses": [
                                                                                     {
-                                                                                      "dept": "MATH",
+                                                                                      "dept": "BCBP",
+                                                                                      "crse": "@",
+                                                                                      "restriction": [
+                                                                                        {
+                                                                                          "type": "attribute",
+                                                                                          "operator": "equal",
+                                                                                          "connector": "none",
+                                                                                          "attribute": "CommunicationIntensive"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "dept": "BIOL",
+                                                                                      "crse": "@",
+                                                                                      "restriction": [
+                                                                                        {
+                                                                                          "type": "attribute",
+                                                                                          "operator": "equal",
+                                                                                          "connector": "none",
+                                                                                          "attribute": "CommunicationIntensive"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "dept": "CHEM",
+                                                                                      "crse": "@",
+                                                                                      "restriction": [
+                                                                                        {
+                                                                                          "type": "attribute",
+                                                                                          "operator": "equal",
+                                                                                          "connector": "none",
+                                                                                          "attribute": "CommunicationIntensive"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "dept": "CSCI",
+                                                                                      "crse": "@",
+                                                                                      "restriction": [
+                                                                                        {
+                                                                                          "type": "attribute",
+                                                                                          "operator": "equal",
+                                                                                          "connector": "none",
+                                                                                          "attribute": "CommunicationIntensive"
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "dept": "ERTH",
                                                                                       "crse": "@",
                                                                                       "restriction": [
                                                                                         {
@@ -669,7 +674,7 @@
                                                                                   "condition": {
                                                                                     "type": "major",
                                                                                     "operator": "equal",
-                                                                                    "major": "PHYS"
+                                                                                    "major": "MATH"
                                                                                   },
                                                                                   "if_branch": [
                                                                                     {
@@ -679,7 +684,7 @@
                                                                                         "num_courses_needed": 1,
                                                                                         "courses": [
                                                                                           {
-                                                                                            "dept": "PHYS",
+                                                                                            "dept": "MATH",
                                                                                             "crse": "@",
                                                                                             "restriction": [
                                                                                               {
@@ -695,7 +700,44 @@
                                                                                       }
                                                                                     }
                                                                                   ],
-                                                                                  "else_branch": []
+                                                                                  "else_branch": [
+                                                                                    {
+                                                                                      "label": "IF Statement",
+                                                                                      "rule_data": {
+                                                                                        "type": "if",
+                                                                                        "condition": {
+                                                                                          "type": "major",
+                                                                                          "operator": "equal",
+                                                                                          "major": "PHYS"
+                                                                                        },
+                                                                                        "if_branch": [
+                                                                                          {
+                                                                                            "label": "Major Communication Intensive",
+                                                                                            "rule_data": {
+                                                                                              "type": "course",
+                                                                                              "num_courses_needed": 1,
+                                                                                              "courses": [
+                                                                                                {
+                                                                                                  "dept": "PHYS",
+                                                                                                  "crse": "@",
+                                                                                                  "restriction": [
+                                                                                                    {
+                                                                                                      "type": "attribute",
+                                                                                                      "operator": "equal",
+                                                                                                      "connector": "none",
+                                                                                                      "attribute": "CommunicationIntensive"
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ],
+                                                                                              "except": []
+                                                                                            }
+                                                                                          }
+                                                                                        ],
+                                                                                        "else_branch": []
+                                                                                      }
+                                                                                    }
+                                                                                  ]
                                                                                 }
                                                                               }
                                                                             ]
@@ -765,26 +807,35 @@
                         "type": "nested",
                         "connector": "or",
                         "left_condition": {
-                          "type": "major",
-                          "operator": "equal",
-                          "major": "BCBP"
+                          "type": "nested",
+                          "connector": "or",
+                          "left_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "BCBP"
+                          },
+                          "right_condition": {
+                            "type": "major",
+                            "operator": "equal",
+                            "major": "BFMB"
+                          }
                         },
                         "right_condition": {
                           "type": "major",
                           "operator": "equal",
-                          "major": "BFMB"
+                          "major": "BIAM"
                         }
                       },
                       "right_condition": {
                         "type": "major",
                         "operator": "equal",
-                        "major": "BIAM"
+                        "major": "BIOL"
                       }
                     },
                     "right_condition": {
                       "type": "major",
                       "operator": "equal",
-                      "major": "BIOL"
+                      "major": "CBIO"
                     }
                   },
                   "right_condition": {
