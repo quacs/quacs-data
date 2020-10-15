@@ -23,6 +23,7 @@ jobs:
 
       - name: Install pip requirements
         run: |
+          apt-get install -y libxml2 libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
           ls
@@ -76,6 +77,7 @@ jobs:
 
       - name: Install pip requirements
         run: |
+          apt-get install -y libxml2 libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
           pip install -r degree-planner/requirements.txt
 
@@ -110,6 +112,7 @@ jobs:
 
       - name: Install pip requirements
         run: |
+          apt-get install -y libxml2 libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
           ls
@@ -140,6 +143,7 @@ jobs:
 
       - name: Install pip requirements
         run: |
+          apt-get install -y libxml2 libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
           ls
@@ -170,6 +174,7 @@ jobs:
 
       - name: Install pip requirements
         run: |
+          apt-get install -y libxml2 libxml2-dev libxslt-dev
           python -m pip install --upgrade pip
           pip install -r scraper/requirements.txt
           ls
