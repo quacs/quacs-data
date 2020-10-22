@@ -855,13 +855,13 @@
             "attribute": "",
             "timeslots": [
               {
-                "dateEnd": "",
-                "dateStart": "",
                 "days": [],
-                "instructor": "",
-                "location": "",
+                "timeStart": -1,
                 "timeEnd": -1,
-                "timeStart": -1
+                "instructor": "Edwin Jhinang Liu",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
               }
             ]
           }
@@ -2433,11 +2433,11 @@
             "timeslots": [
               {
                 "days": [
-                  "M"
+                  "F"
                 ],
-                "timeStart": 1010,
-                "timeEnd": 1400,
-                "instructor": "Mae-Ling Jovenes Lokko",
+                "timeStart": 1400,
+                "timeEnd": 1700,
+                "instructor": "TBA",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "TBA"
@@ -2465,7 +2465,6 @@
               {
                 "days": [
                   "M",
-                  "W",
                   "R"
                 ],
                 "timeStart": 1430,
@@ -2474,14 +2473,34 @@
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "TBA"
-              },
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Environmental Parametrics",
+        "subj": "ARCH",
+        "crse": 6380,
+        "id": "ARCH-6380",
+        "sections": [
+          {
+            "crn": 44861,
+            "subj": "ARCH",
+            "crse": 6380,
+            "sec": "80",
+            "credMin": 2.0,
+            "credMax": 2.0,
+            "title": "Environmental Parametrics",
+            "attribute": "",
+            "timeslots": [
               {
                 "days": [
-                  "W"
+                  "T"
                 ],
                 "timeStart": 1115,
                 "timeEnd": 1305,
-                "instructor": "Alexandros Tsamis",
+                "instructor": "Dennis Robert Shelden",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "TBA"
@@ -2688,7 +2707,7 @@
                 "days": [
                   "R"
                 ],
-                "timeStart": 1115,
+                "timeStart": 1010,
                 "timeEnd": 1205,
                 "instructor": "Dennis Robert Shelden",
                 "dateStart": "01/18",
@@ -2756,27 +2775,6 @@
         "id": "ARCH-6920",
         "sections": [
           {
-            "crn": 43389,
-            "subj": "ARCH",
-            "crse": 6920,
-            "sec": "01",
-            "credMin": 2.0,
-            "credMax": 2.0,
-            "title": "Doctoral Seminar 2",
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
-                "instructor": "TBA",
-                "dateStart": "01/18",
-                "dateEnd": "05/07",
-                "location": "TBA"
-              }
-            ]
-          },
-          {
             "crn": 42820,
             "subj": "ARCH",
             "crse": 6920,
@@ -2801,16 +2799,18 @@
             "crn": 44565,
             "subj": "ARCH",
             "crse": 6920,
-            "sec": "04",
+            "sec": "80",
             "credMin": 2.0,
             "credMax": 2.0,
             "title": "Doctoral Seminar 2",
             "attribute": "",
             "timeslots": [
               {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
+                "days": [
+                  "T"
+                ],
+                "timeStart": 1010,
+                "timeEnd": 1200,
                 "instructor": "Alexandros Tsamis",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
@@ -13602,8 +13602,8 @@
                   "M",
                   "R"
                 ],
-                "timeStart": 1430,
-                "timeEnd": 1820,
+                "timeStart": 1325,
+                "timeEnd": 1715,
                 "instructor": "TBA",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
@@ -13619,6 +13619,41 @@
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "CARNEG 106"
+              }
+            ]
+          },
+          {
+            "crn": 44860,
+            "subj": "CHEM",
+            "crse": 2290,
+            "sec": "2",
+            "credMin": 3.0,
+            "credMax": 3.0,
+            "title": "Experimental Chemistry II",
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 800,
+                "timeEnd": 1150,
+                "instructor": "TBA",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "W"
+                ],
+                "timeStart": 1010,
+                "timeEnd": 1100,
+                "instructor": "TBA",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
               }
             ]
           }
@@ -13723,6 +13758,41 @@
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "CARNEG 206"
+              }
+            ]
+          },
+          {
+            "crn": 44864,
+            "subj": "CHEM",
+            "crse": 4120,
+            "sec": "2",
+            "credMin": 3.0,
+            "credMax": 3.0,
+            "title": "Experimental Chemistry Iv",
+            "attribute": "Communication Intensive",
+            "timeslots": [
+              {
+                "days": [
+                  "T",
+                  "R"
+                ],
+                "timeStart": 905,
+                "timeEnd": 1255,
+                "instructor": "TBA",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "W"
+                ],
+                "timeStart": 1115,
+                "timeEnd": 1205,
+                "instructor": "TBA",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
               }
             ]
           }
@@ -33465,134 +33535,6 @@
             ]
           }
         ]
-      },
-      {
-        "title": "Level Design",
-        "subj": "GSAS",
-        "crse": 4961,
-        "id": "GSAS-4961",
-        "sections": [
-          {
-            "crn": 44159,
-            "subj": "GSAS",
-            "crse": 4961,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Level Design",
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1645,
-                "timeEnd": 1835,
-                "instructor": "Michael F Lynch",
-                "dateStart": "01/18",
-                "dateEnd": "05/07",
-                "location": "SAGE 4711"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Gsas Capstone",
-        "subj": "GSAS",
-        "crse": 4962,
-        "id": "GSAS-4962",
-        "sections": [
-          {
-            "crn": 44516,
-            "subj": "GSAS",
-            "crse": 4962,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Gsas Capstone",
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "timeStart": 1430,
-                "timeEnd": 1620,
-                "instructor": "Sylvain Payen",
-                "dateStart": "01/18",
-                "dateEnd": "05/07",
-                "location": "SAGE 2510"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Virtual Reality",
-        "subj": "GSAS",
-        "crse": 4963,
-        "id": "GSAS-4963",
-        "sections": [
-          {
-            "crn": 44515,
-            "subj": "GSAS",
-            "crse": 4963,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Virtual Reality",
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1220,
-                "timeEnd": 1410,
-                "instructor": "Benjamin Chia-Ming Chang",
-                "dateStart": "01/18",
-                "dateEnd": "05/07",
-                "location": "SAGE 2411"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Virtual Reality",
-        "subj": "GSAS",
-        "crse": 6963,
-        "id": "GSAS-6963",
-        "sections": [
-          {
-            "crn": 44517,
-            "subj": "GSAS",
-            "crse": 6963,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Virtual Reality",
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1220,
-                "timeEnd": 1410,
-                "instructor": "Benjamin Chia-Ming Chang",
-                "dateStart": "01/18",
-                "dateEnd": "05/07",
-                "location": "SAGE 2411"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -34934,6 +34876,37 @@
         ]
       },
       {
+        "title": "Big Data Policy",
+        "subj": "ITWS",
+        "crse": 6440,
+        "id": "ITWS-6440",
+        "sections": [
+          {
+            "crn": 44751,
+            "subj": "ITWS",
+            "crse": 6440,
+            "sec": "01",
+            "credMin": 3.0,
+            "credMax": 3.0,
+            "title": "Big Data Policy",
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "F"
+                ],
+                "timeStart": 1220,
+                "timeEnd": 1510,
+                "instructor": "Kathleen Sturey Fontaine",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "title": "Data Analytics",
         "subj": "ITWS",
         "crse": 6600,
@@ -35145,6 +35118,70 @@
                 "timeStart": 1645,
                 "timeEnd": 2035,
                 "instructor": "Elizabeth Press",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Documentary 21St C: Ident Prod",
+        "subj": "IHSS",
+        "crse": 1040,
+        "id": "IHSS-1040",
+        "sections": [
+          {
+            "crn": 44862,
+            "subj": "IHSS",
+            "crse": 1040,
+            "sec": "01",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Documentary 21St C: Ident Prod",
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 1430,
+                "timeEnd": 1620,
+                "instructor": "Branda Miller",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Philosphy,Tech, And The Human",
+        "subj": "IHSS",
+        "crse": 1130,
+        "id": "IHSS-1130",
+        "sections": [
+          {
+            "crn": 44863,
+            "subj": "IHSS",
+            "crse": 1130,
+            "sec": "01",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Philosphy,Tech, And The Human",
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 1430,
+                "timeEnd": 1620,
+                "instructor": "Daniel Peter Thero",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "TBA"
@@ -35495,7 +35532,7 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Understanding Empathy",
-            "attribute": "",
+            "attribute": "HASS Inquiry",
             "timeslots": [
               {
                 "days": [
@@ -35559,7 +35596,7 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Design & Innovation Studio II",
-            "attribute": "Communication Intensive",
+            "attribute": "Communication Intensive and HASS Inquiry",
             "timeslots": [
               {
                 "days": [
@@ -35572,6 +35609,37 @@
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "SAGE 2211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Cultures Of Consumption",
+        "subj": "IHSS",
+        "crse": 6960,
+        "id": "IHSS-6960",
+        "sections": [
+          {
+            "crn": 44859,
+            "subj": "IHSS",
+            "crse": 6960,
+            "sec": "01",
+            "credMin": 3.0,
+            "credMax": 3.0,
+            "title": "Cultures Of Consumption",
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "T"
+                ],
+                "timeStart": 1645,
+                "timeEnd": 2035,
+                "instructor": "Atsushi Akera",
+                "dateStart": "01/18",
+                "dateEnd": "05/07",
+                "location": "TBA"
               }
             ]
           }
@@ -36080,8 +36148,8 @@
             "timeslots": [
               {
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
                 "timeStart": 1430,
                 "timeEnd": 1620,
@@ -36104,8 +36172,8 @@
             "timeslots": [
               {
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
                 "timeStart": 1430,
                 "timeEnd": 1620,
@@ -36173,7 +36241,7 @@
                 ],
                 "timeStart": 1010,
                 "timeEnd": 1200,
-                "instructor": "Jianling Yue",
+                "instructor": "Yalun Zhou",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "SAGE 4711"
@@ -36205,7 +36273,7 @@
                 ],
                 "timeStart": 1010,
                 "timeEnd": 1200,
-                "instructor": "Yalun Zhou",
+                "instructor": "Jianling Yue",
                 "dateStart": "01/18",
                 "dateEnd": "05/07",
                 "location": "TBA"
