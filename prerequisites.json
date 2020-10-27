@@ -1235,17 +1235,10 @@
         }
     },
     "44918": {},
-    "43773": {},
     "44906": {
         "cross_list_courses": [
             "PHYS-2962"
         ]
-    },
-    "42487": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ASTR 2050"
-        }
     },
     "42840": {
         "prerequisites": {
@@ -11789,6 +11782,42 @@
             ]
         }
     },
+    "40333": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "40488": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "40582": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "41548": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
     "44762": {
         "cross_list_courses": [
             "ECSE-6961"
@@ -13175,6 +13204,42 @@
             "course": "ENGR 2600"
         }
     },
+    "42130": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "42131": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "42132": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "42133": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
     "42472": {},
     "44459": {
         "cross_list_courses": [
@@ -14129,7 +14194,18 @@
             }
         }
     },
-    "43176": {},
+    "43176": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "44057": {
         "restrictions": {
             "major": {
@@ -14146,8 +14222,9 @@
             "major": {
                 "must_be": [
                     "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
@@ -17034,6 +17111,42 @@
             }
         }
     },
+    "40365": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "40366": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "40567": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
+    "41549": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        }
+    },
     "43453": {
         "prerequisites": {
             "type": "or",
@@ -18725,7 +18838,6 @@
             }
         }
     },
-    "44451": {},
     "41495": {
         "restrictions": {
             "level": {
@@ -19415,6 +19527,33 @@
         }
     },
     "44132": {},
+    "44958": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2510"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                }
+            ]
+        }
+    },
     "44303": {
         "prerequisites": {
             "type": "course",
@@ -19522,15 +19661,25 @@
             }
         }
     },
-    "44389": {},
+    "44389": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "43664": {},
     "43665": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
@@ -19541,13 +19690,25 @@
             "major": {
                 "must_be": [
                     "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
     },
-    "42603": {},
+    "42603": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "44393": {
         "restrictions": {
             "major": {
@@ -19560,7 +19721,18 @@
             }
         }
     },
-    "44660": {},
+    "44660": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "44928": {},
     "44943": {
         "cross_list_courses": [
