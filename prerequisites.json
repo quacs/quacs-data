@@ -740,27 +740,7 @@
     },
     "40551": {},
     "43392": {},
-    "43890": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "43891": {},
-    "44058": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "43417": {},
     "42604": {},
     "42485": {
@@ -2860,6 +2840,12 @@
         }
     },
     "43221": {},
+    "44953": {
+        "prerequisites": {
+            "type": "course",
+            "course": "BMED 2300"
+        }
+    },
     "42803": {},
     "43740": {
         "restrictions": {
@@ -19192,8 +19178,24 @@
     },
     "42637": {},
     "43561": {},
-    "41540": {},
-    "41539": {},
+    "41540": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "41539": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "43179": {
         "prerequisites": {
             "type": "or",
@@ -19272,8 +19274,7 @@
         "restrictions": {
             "classification": {
                 "must_be": [
-                    "Freshman",
-                    "Sophomore"
+                    "Freshman"
                 ]
             }
         }
@@ -19282,8 +19283,7 @@
         "restrictions": {
             "classification": {
                 "must_be": [
-                    "Freshman",
-                    "Sophomore"
+                    "Freshman"
                 ]
             }
         }
@@ -19292,8 +19292,7 @@
         "restrictions": {
             "classification": {
                 "must_be": [
-                    "Freshman",
-                    "Sophomore"
+                    "Freshman"
                 ]
             }
         }
