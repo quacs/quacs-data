@@ -19212,6 +19212,24 @@
         }
     },
     "44945": {},
+    "44954": {
+        "cross_list_courses": [
+            "STSS-4290"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
+                }
+            ]
+        }
+    },
     "44103": {
         "prerequisites": {
             "type": "or",
@@ -19325,6 +19343,24 @@
     "44502": {},
     "44503": {},
     "44504": {},
+    "44955": {
+        "cross_list_courses": [
+            "STSH-4290"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
+                }
+            ]
+        }
+    },
     "44105": {
         "prerequisites": {
             "type": "or",
