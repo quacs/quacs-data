@@ -889,27 +889,10 @@
             "course": "ARTS 2020"
         }
     },
-    "44427": {},
     "42605": {
         "prerequisites": {
             "type": "course",
             "course": "ARTS 2200"
-        }
-    },
-    "43223": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ARTS 1200"
         }
     },
     "44045": {
@@ -918,37 +901,8 @@
             "course": "ARTS 2380"
         }
     },
-    "44404": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ARTS 4830"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4160"
-                }
-            ]
-        }
-    },
-    "43697": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ARTS 4060"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4070"
-                }
-            ]
-        }
-    },
     "44405": {},
+    "44982": {},
     "44181": {
         "prerequisites": {
             "type": "course",
@@ -972,13 +926,24 @@
         }
     },
     "42828": {},
-    "44428": {},
-    "44947": {
-        "cross_list_courses": [
-            "ARTS-6960"
-        ]
+    "44983": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ARTS 4380"
+                },
+                {
+                    "type": "course",
+                    "course": "ARTS 4160"
+                }
+            ]
+        }
     },
-    "44121": {},
+    "44947": {
+        "cross_list_courses": []
+    },
     "43781": {
         "restrictions": {
             "level": {
@@ -997,49 +962,13 @@
             }
         }
     },
-    "44430": {},
-    "44081": {
+    "44979": {
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
                 ]
             }
-        }
-    },
-    "42642": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "44422": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4520"
-                }
-            ]
         }
     },
     "44080": {},
@@ -1062,27 +991,6 @@
             }
         }
     },
-    "44674": {
-        "cross_list_courses": [
-            "ARTS-4961"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "44514": {
-        "restrictions": {
-            "degree": {
-                "must_be": [
-                    "Master of Fine Arts"
-                ]
-            }
-        }
-    },
     "44122": {
         "restrictions": {
             "degree": {
@@ -1100,38 +1008,6 @@
         }
     },
     "41734": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "41808": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "42426": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -1225,6 +1101,28 @@
         }
     },
     "44680": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "44980": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "44981": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -19421,6 +19319,7 @@
             }
         }
     },
+    "44984": {},
     "44376": {},
     "44377": {
         "restrictions": {
