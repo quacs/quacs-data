@@ -780,18 +780,34 @@
             }
         }
     },
-    "43392": {},
-    "43891": {},
+    "43392": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "43891": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "43417": {},
-    "42604": {},
-    "42485": {
+    "42604": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Architecture",
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Design, Innovation and Society",
                     "Electronic Arts",
                     "Elect Media, Arts, & Comm",
                     "Games & Simulation Arts & Sci"
@@ -799,7 +815,29 @@
             }
         }
     },
-    "44044": {},
+    "42485": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Electronic Arts",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
+    "44044": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "44397": {
         "prerequisites": {
             "type": "course",
@@ -874,6 +912,8 @@
     "44656": {},
     "44658": {},
     "44657": {},
+    "44996": {},
+    "44997": {},
     "44426": {
         "restrictions": {
             "classification": {
@@ -883,8 +923,10 @@
             }
         }
     },
-    "43473": {},
-    "43474": {},
+    "44990": {},
+    "44991": {},
+    "44992": {},
+    "44993": {},
     "44402": {
         "prerequisites": {
             "type": "course",
@@ -953,6 +995,11 @@
             ]
         }
     },
+    "44994": {
+        "cross_list_courses": [
+            "ARTS-6961"
+        ]
+    },
     "44947": {
         "cross_list_courses": []
     },
@@ -1011,6 +1058,30 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "44995": {
+        "cross_list_courses": [
+            "ARTS-4960"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Fine Arts"
+                ]
+            },
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
                 ]
             }
         }
@@ -10368,6 +10439,7 @@
         }
     },
     "43872": {},
+    "44998": {},
     "40234": {},
     "42449": {
         "restrictions": {
@@ -14976,7 +15048,6 @@
             }
         }
     },
-    "44688": {},
     "40199": {},
     "44773": {
         "prerequisites": {
