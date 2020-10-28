@@ -3355,27 +3355,10 @@
         }
     },
     "43509": {},
+    "44985": {},
     "41127": {},
-    "43730": {},
     "44135": {},
-    "43771": {},
     "44139": {},
-    "43892": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "CHME 4020"
-                }
-            ]
-        }
-    },
-    "44592": {},
     "42650": {
         "restrictions": {
             "level": {
@@ -3394,21 +3377,37 @@
             }
         }
     },
+    "44986": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 2020"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                }
+            ]
+        }
+    },
     "44799": {
+        "cross_list_courses": [
+            "MANE-6840"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
                     "Freshman",
                     "Sophomore"
-                ]
-            }
-        }
-    },
-    "43731": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
                 ]
             }
         }
@@ -3433,15 +3432,6 @@
             }
         }
     },
-    "43772": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "44140": {
         "restrictions": {
             "level": {
@@ -3453,7 +3443,15 @@
     },
     "43859": {},
     "44171": {},
-    "44593": {},
+    "44987": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "42247": {
         "restrictions": {
             "level": {
@@ -13663,13 +13661,7 @@
         "restrictions": {
             "major": {
                 "must_be": [
-                    "Information Technology",
                     "Information Tech & Web Science"
-                ]
-            },
-            "classification": {
-                "must_be": [
-                    "Freshman"
                 ]
             }
         }
@@ -13678,13 +13670,7 @@
         "restrictions": {
             "major": {
                 "must_be": [
-                    "Information Technology",
                     "Information Tech & Web Science"
-                ]
-            },
-            "classification": {
-                "must_be": [
-                    "Freshman"
                 ]
             }
         }
@@ -13694,11 +13680,6 @@
             "major": {
                 "must_be": [
                     "Information Tech & Web Science"
-                ]
-            },
-            "classification": {
-                "must_be": [
-                    "Freshman"
                 ]
             }
         }
@@ -13782,8 +13763,24 @@
             "course": "ITWS 2110"
         }
     },
-    "43216": {},
-    "44036": {},
+    "43216": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "44036": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "44932": {
         "cross_list_courses": [
             "CSCI-4370",
@@ -13796,6 +13793,16 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology"
                 ]
             }
         }
@@ -13824,6 +13831,16 @@
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology"
+                ]
             }
         }
     },
@@ -13833,6 +13850,16 @@
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology"
+                ]
             }
         }
     },
@@ -13841,6 +13868,11 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
                 ]
             },
             "major": {
@@ -17696,6 +17728,9 @@
         }
     },
     "44798": {
+        "cross_list_courses": [
+            "CHME-6840"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
