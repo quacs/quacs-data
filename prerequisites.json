@@ -1129,17 +1129,6 @@
             }
         }
     },
-    "42704": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "43874": {
         "restrictions": {
             "classification": {
@@ -1196,17 +1185,6 @@
         }
     },
     "44680": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "44980": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -13824,7 +13802,25 @@
             "course": "ITWS 2110"
         }
     },
-    "42340": {},
+    "42340": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 2660"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                }
+            ]
+        }
+    },
     "42806": {
         "restrictions": {
             "major": {
