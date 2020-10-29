@@ -9948,15 +9948,60 @@
             }
         }
     },
-    "40302": {},
-    "40303": {},
-    "40304": {},
-    "41116": {},
-    "40474": {},
-    "41522": {},
-    "40560": {},
-    "40561": {},
-    "41976": {},
+    "40302": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "40303": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "40304": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "41116": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "40474": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "41522": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "40560": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "40561": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
+    "41976": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
+        }
+    },
     "43194": {
         "restrictions": {
             "major": {
@@ -9983,6 +10028,10 @@
                     "Transportation Engineering"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1010"
         }
     },
     "40573": {},
@@ -14986,7 +15035,42 @@
     },
     "44930": {},
     "44778": {},
-    "44021": {},
+    "44021": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 1100"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "43692": {},
     "44823": {
         "prerequisites": {
