@@ -10316,6 +10316,21 @@
             ]
         }
     },
+    "45004": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 1110"
+                }
+            ]
+        }
+    },
     "43872": {},
     "44998": {},
     "45003": {
