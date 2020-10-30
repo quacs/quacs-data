@@ -11547,14 +11547,50 @@
     },
     "40087": {
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "43210": {
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "40043": {
@@ -11589,6 +11625,19 @@
                 {
                     "type": "course",
                     "course": "MATH 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
