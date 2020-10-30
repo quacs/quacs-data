@@ -6426,21 +6426,12 @@
             "type": "and",
             "nested": [
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "MATH 2010"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "MATH 2010"
                 },
                 {
                     "type": "course",
-                    "course": "CSCI 1100"
+                    "course": "MATH 2400"
                 }
             ]
         }
@@ -6450,21 +6441,12 @@
             "type": "and",
             "nested": [
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "MATH 2010"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "MATH 2010"
                 },
                 {
                     "type": "course",
-                    "course": "CSCI 1100"
+                    "course": "MATH 2400"
                 }
             ]
         }
@@ -18668,11 +18650,20 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "PHYS 2220"
+                    "course": "PHYS 2210"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 4600"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 4700"
+                        }
+                    ]
                 }
             ]
         }
