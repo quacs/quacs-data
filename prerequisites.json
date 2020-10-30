@@ -11411,26 +11411,8 @@
             }
         },
         "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1250"
-                        }
-                    ]
-                }
-            ]
+            "type": "course",
+            "course": "MATH 2400"
         }
     },
     "40084": {
@@ -11456,26 +11438,8 @@
             }
         },
         "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1250"
-                        }
-                    ]
-                }
-            ]
+            "type": "course",
+            "course": "MATH 2400"
         }
     },
     "40087": {
@@ -11528,8 +11492,17 @@
     },
     "43442": {
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1200"
+                }
+            ]
         }
     },
     "41966": {
@@ -11579,29 +11552,8 @@
             }
         },
         "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1150"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1250"
-                }
-            ]
+            "type": "course",
+            "course": "CSCI 1100"
         }
     },
     "41965": {
@@ -11629,29 +11581,8 @@
             }
         },
         "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1150"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1250"
-                }
-            ]
+            "type": "course",
+            "course": "CSCI 1100"
         }
     },
     "40116": {
@@ -11677,29 +11608,8 @@
             }
         },
         "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1150"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1250"
-                }
-            ]
+            "type": "course",
+            "course": "CSCI 1100"
         }
     },
     "40117": {
@@ -15053,7 +14963,42 @@
             ]
         }
     },
-    "43692": {},
+    "43692": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MTLE 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1200"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "44823": {
         "prerequisites": {
             "type": "and",
@@ -15069,8 +15014,44 @@
             ]
         }
     },
-    "44412": {},
-    "44415": {},
+    "44412": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MTLE 4150"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4200"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4250"
+                }
+            ]
+        }
+    },
+    "44415": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MTLE 4150"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4200"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4250"
+                }
+            ]
+        }
+    },
     "44782": {
         "cross_list_courses": [
             "MTLE-6440"
