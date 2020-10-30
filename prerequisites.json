@@ -914,6 +914,10 @@
     "44657": {},
     "44996": {},
     "44997": {},
+    "45005": {},
+    "45006": {},
+    "45007": {},
+    "45008": {},
     "44426": {
         "restrictions": {
             "classification": {
@@ -13503,8 +13507,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "ITWS 2110"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
         }
     },
     "44035": {
@@ -13516,8 +13529,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "ITWS 2110"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
         }
     },
     "43216": {
