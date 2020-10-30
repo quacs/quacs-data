@@ -11659,8 +11659,26 @@
     },
     "41966": {
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "41968": {
@@ -11838,7 +11856,7 @@
                 },
                 {
                     "type": "course",
-                    "course": "EPOW 4080"
+                    "course": "ECSE 4110"
                 }
             ]
         }
@@ -11886,8 +11904,21 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2410"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2410"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4500"
+                }
+            ]
         }
     },
     "44759": {
@@ -11974,6 +12005,19 @@
                     "Electric Power Engr"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 4440"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4520"
+                }
+            ]
         }
     },
     "44137": {
@@ -16905,37 +16949,50 @@
     },
     "43651": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "and",
+                    "type": "or",
                     "nested": [
                         {
-                            "type": "or",
-                            "nested": [
-                                {
-                                    "type": "course",
-                                    "course": "ENGR 1100"
-                                },
-                                {
-                                    "type": "course",
-                                    "course": "ECSE 1010"
-                                }
-                            ]
+                            "type": "course",
+                            "course": "ENGR 1100"
                         },
                         {
                             "type": "course",
-                            "course": "ENGR 1200"
+                            "course": "ECSE 1010"
                         }
                     ]
                 },
                 {
-                    "type": "course",
-                    "course": "ENGR 1400"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1400"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CIVL 1200"
+                        }
+                    ]
                 },
                 {
-                    "type": "course",
-                    "course": "CIVL 1200"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
@@ -17053,7 +17110,30 @@
             "course": "MANE 4010"
         }
     },
-    "43219": {},
+    "43219": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2530"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BMED 2540"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "41118": {},
     "41337": {},
     "41338": {},
