@@ -6627,7 +6627,40 @@
             ]
         }
     },
-    "44024": {},
+    "44024": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 4430"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 4210"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CSCI 4220"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "44106": {
         "restrictions": {
             "major": {
