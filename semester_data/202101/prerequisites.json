@@ -312,7 +312,6 @@
             "ARCH-6961"
         ]
     },
-    "43214": {},
     "43215": {},
     "43201": {
         "restrictions": {
@@ -594,7 +593,6 @@
             }
         }
     },
-    "44637": {},
     "44639": {},
     "44640": {},
     "44867": {
@@ -942,9 +940,6 @@
         "cross_list_courses": [
             "ARTS-6961"
         ]
-    },
-    "44947": {
-        "cross_list_courses": []
     },
     "43781": {
         "restrictions": {
@@ -4149,6 +4144,7 @@
         }
     },
     "40477": {},
+    "44864": {},
     "44972": {
         "cross_list_courses": [
             "CHEM-6130"
@@ -4167,7 +4163,11 @@
             ]
         }
     },
-    "44461": {},
+    "44461": {
+        "cross_list_courses": [
+            "CHEM-6140"
+        ]
+    },
     "44566": {
         "prerequisites": {
             "type": "course",
@@ -4259,7 +4259,11 @@
             }
         }
     },
-    "44462": {},
+    "44462": {
+        "cross_list_courses": [
+            "CHEM-4140"
+        ]
+    },
     "44463": {},
     "43714": {
         "restrictions": {
@@ -6180,18 +6184,48 @@
         }
     },
     "40335": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "44840": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "42678": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -6199,6 +6233,14 @@
     },
     "40307": {
         "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            },
             "classification": {
                 "must_be": [
                     "Graduate Student",
@@ -6231,12 +6273,32 @@
         }
     },
     "44842": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "40328": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6270,6 +6332,16 @@
         }
     },
     "44844": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6285,6 +6357,16 @@
         }
     },
     "43182": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6314,6 +6396,16 @@
             "ITWS-4960",
             "ITWS-6960"
         ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -6329,12 +6421,32 @@
         }
     },
     "40331": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "42622": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6354,6 +6466,16 @@
             "MATH-4030",
             "PHIL-4420"
         ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -6369,24 +6491,64 @@
         }
     },
     "41973": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "40327": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "41974": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "44903": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6403,6 +6565,16 @@
     },
     "44024": {},
     "44106": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6418,6 +6590,16 @@
         }
     },
     "43993": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -6441,6 +6623,16 @@
         }
     },
     "44110": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -6464,6 +6656,16 @@
         }
     },
     "40312": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6479,6 +6681,16 @@
         }
     },
     "42598": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6493,14 +6705,45 @@
             ]
         }
     },
-    "44513": {},
+    "44513": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "41952": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "43734": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6516,23 +6759,64 @@
         }
     },
     "41953": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2200"
         }
     },
     "43828": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
-    "44865": {},
+    "44865": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "44924": {
         "cross_list_courses": [
             "COGS-4960",
             "COGS-6960"
-        ]
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
     },
     "44026": {
         "prerequisites": {
@@ -10434,17 +10718,6 @@
             }
         }
     },
-    "45000": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "40234": {},
     "42449": {
         "restrictions": {
@@ -11775,12 +12048,6 @@
         }
     },
     "43220": {},
-    "41969": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2110"
-        }
-    },
     "41970": {
         "prerequisites": {
             "type": "or",
@@ -14078,7 +14345,6 @@
         }
     },
     "44144": {},
-    "45002": {},
     "40600": {},
     "42316": {},
     "42385": {},
@@ -14537,6 +14803,11 @@
     "44114": {},
     "43510": {},
     "42683": {},
+    "45009": {
+        "cross_list_courses": [
+            "MGMT-6968"
+        ]
+    },
     "42160": {
         "restrictions": {
             "level": {
@@ -14892,6 +15163,11 @@
                 ]
             }
         }
+    },
+    "45010": {
+        "cross_list_courses": [
+            "MGMT-4968"
+        ]
     },
     "40199": {},
     "44773": {
@@ -16370,7 +16646,6 @@
             ]
         }
     },
-    "44324": {},
     "44540": {
         "prerequisites": {
             "type": "and",
