@@ -6986,8 +6986,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "ITWS 2110"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
         }
     },
     "44841": {
@@ -19879,6 +19888,7 @@
             }
         }
     },
+    "45013": {},
     "43179": {
         "prerequisites": {
             "type": "or",
@@ -20005,6 +20015,7 @@
             }
         }
     },
+    "45012": {},
     "41537": {
         "restrictions": {
             "major": {
