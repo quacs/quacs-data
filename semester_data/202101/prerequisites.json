@@ -874,6 +874,11 @@
             "course": "ARTS 2230"
         }
     },
+    "45014": {
+        "cross_list_courses": [
+            "ARTS-6250"
+        ]
+    },
     "43394": {},
     "43471": {
         "prerequisites": {
@@ -922,6 +927,9 @@
     },
     "42828": {},
     "44983": {
+        "cross_list_courses": [
+            "ARTS-6962"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -960,6 +968,9 @@
         }
     },
     "44979": {
+        "cross_list_courses": [
+            "ARTS-4080"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -1020,6 +1031,23 @@
                     "Freshman",
                     "Junior",
                     "Sophomore"
+                ]
+            }
+        }
+    },
+    "45015": {
+        "cross_list_courses": [
+            "ARTS-4880"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Fine Arts"
                 ]
             }
         }
@@ -6247,6 +6275,8 @@
             "course": "CSCI 1200"
         }
     },
+    "44468": {},
+    "44469": {},
     "40335": {
         "restrictions": {
             "major": {
