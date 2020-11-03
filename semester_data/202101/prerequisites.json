@@ -6812,6 +6812,19 @@
                     "Information Tech & Web Science"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2600"
+                }
+            ]
         }
     },
     "41952": {
@@ -6883,8 +6896,21 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ITWS 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 4350"
+                }
+            ]
         }
     },
     "44865": {
@@ -6897,6 +6923,23 @@
                     "Information Tech & Web Science"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ITWS 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 4350"
+                }
+            ]
         }
     },
     "44924": {
