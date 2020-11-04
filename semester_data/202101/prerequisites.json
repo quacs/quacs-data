@@ -312,7 +312,11 @@
             "ARCH-6961"
         ]
     },
-    "45016": {},
+    "45016": {
+        "cross_list_courses": [
+            "ARCH-6968"
+        ]
+    },
     "43215": {},
     "43201": {
         "restrictions": {
@@ -585,6 +589,18 @@
     "44966": {
         "cross_list_courses": [
             "ARCH-4965"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "45017": {
+        "cross_list_courses": [
+            "ARCH-4968"
         ],
         "restrictions": {
             "level": {
@@ -2784,7 +2800,11 @@
             "course": "ENGR 2050"
         }
     },
-    "43738": {},
+    "43738": {
+        "cross_list_courses": [
+            "BMED-6410"
+        ]
+    },
     "43425": {
         "prerequisites": {
             "type": "course",
@@ -2897,6 +2917,9 @@
     },
     "42803": {},
     "43740": {
+        "cross_list_courses": [
+            "BMED-4410"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4080,37 +4103,7 @@
             ]
         }
     },
-    "43799": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
     "43802": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "43805": {
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -14609,37 +14602,7 @@
             ]
         }
     },
-    "43801": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
     "43804": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "43807": {
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -15670,7 +15633,11 @@
         }
     },
     "44930": {},
-    "44778": {},
+    "44778": {
+        "cross_list_courses": [
+            "MTLE-6962"
+        ]
+    },
     "44021": {
         "prerequisites": {
             "type": "and",
@@ -15998,7 +15965,11 @@
             }
         }
     },
-    "44989": {},
+    "44989": {
+        "cross_list_courses": [
+            "MTLE-4030"
+        ]
+    },
     "41411": {
         "restrictions": {
             "level": {
@@ -19289,37 +19260,7 @@
             ]
         }
     },
-    "43800": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
     "43803": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "43806": {
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19932,6 +19873,9 @@
         }
     },
     "44915": {
+        "cross_list_courses": [
+            "PSYC-4410"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -19941,7 +19885,11 @@
             }
         }
     },
-    "44984": {},
+    "44984": {
+        "cross_list_courses": [
+            "PSYC-4410"
+        ]
+    },
     "44376": {},
     "44377": {
         "restrictions": {
