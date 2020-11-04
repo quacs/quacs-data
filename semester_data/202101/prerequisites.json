@@ -5292,12 +5292,20 @@
         }
     },
     "42841": {
+        "cross_list_courses": [
+            "COGS-6210",
+            "CSCI-4961",
+            "PSYC-4510"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "44911": {
+        "cross_list_courses": [
+            "COGS-6340"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "COGS 2340"
@@ -5336,6 +5344,9 @@
         }
     },
     "42590": {
+        "cross_list_courses": [
+            "PSYC-4610"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
@@ -5353,6 +5364,11 @@
     "42714": {},
     "43560": {},
     "43180": {
+        "cross_list_courses": [
+            "COGS-4210",
+            "CSCI-4961",
+            "PSYC-4510"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -5361,8 +5377,16 @@
             }
         }
     },
-    "44912": {},
-    "44914": {},
+    "44912": {
+        "cross_list_courses": [
+            "COGS-4340"
+        ]
+    },
+    "44914": {
+        "cross_list_courses": [
+            "COGS-4880"
+        ]
+    },
     "44487": {
         "cross_list_courses": [
             "COGS-4960",
@@ -7017,6 +7041,11 @@
         }
     },
     "41952": {
+        "cross_list_courses": [
+            "COGS-4210",
+            "COGS-6210",
+            "PSYC-4510"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -18882,7 +18911,7 @@
     "44464": {},
     "40009": {},
     "40141": {},
-    "40064": {},
+    "45018": {},
     "44851": {},
     "44116": {},
     "40065": {},
@@ -20026,8 +20055,15 @@
             "PSYC-4410"
         ]
     },
-    "44376": {},
+    "44376": {
+        "cross_list_courses": [
+            "PSYC-4430"
+        ]
+    },
     "44377": {
+        "cross_list_courses": [
+            "PSYC-4430"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -20045,6 +20081,11 @@
         }
     },
     "42842": {
+        "cross_list_courses": [
+            "COGS-4210",
+            "COGS-6210",
+            "CSCI-4961"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -20060,6 +20101,9 @@
         }
     },
     "42591": {
+        "cross_list_courses": [
+            "COGS-4610"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
@@ -20067,12 +20111,18 @@
     },
     "43175": {},
     "43532": {
+        "cross_list_courses": [
+            "PSYC-4730"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
         }
     },
     "43688": {
+        "cross_list_courses": [
+            "PSYC-4730"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
