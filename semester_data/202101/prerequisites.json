@@ -139,12 +139,6 @@
             "course": "ARCH 2830"
         }
     },
-    "44856": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ARCH 2830"
-        }
-    },
     "43755": {
         "prerequisites": {
             "type": "course",
@@ -295,11 +289,6 @@
         }
     },
     "43786": {},
-    "44936": {
-        "cross_list_courses": [
-            "ARCH-6965"
-        ]
-    },
     "43764": {},
     "44965": {
         "cross_list_courses": [
@@ -565,18 +554,6 @@
     "44935": {
         "cross_list_courses": [
             "ARCH-4961"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "44937": {
-        "cross_list_courses": [
-            "ARCH-4963"
         ],
         "restrictions": {
             "level": {
@@ -14588,13 +14565,6 @@
         }
     },
     "44295": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Design, Innovation and Society"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "course",
             "course": "IHSS 1610"
@@ -20130,7 +20100,15 @@
             }
         }
     },
-    "45013": {},
+    "45013": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "43179": {
         "cross_list_courses": [
             "PHIL-4500"
