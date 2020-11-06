@@ -4501,7 +4501,20 @@
     "44940": {
         "cross_list_courses": [
             "CHEM-6962"
-        ]
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 4760"
+                },
+                {
+                    "type": "course",
+                    "course": "BIOL 4760"
+                }
+            ]
+        }
     },
     "43514": {},
     "43648": {},
