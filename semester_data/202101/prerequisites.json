@@ -12862,10 +12862,46 @@
     "44762": {
         "cross_list_courses": [
             "ECSE-6961"
-        ]
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "ECSE 2660"
+        }
     },
-    "43678": {},
-    "44367": {},
+    "43678": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 2100"
+                }
+            ]
+        }
+    },
+    "44367": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2200"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2600"
+                }
+            ]
+        }
+    },
     "42845": {
         "restrictions": {
             "level": {
@@ -13037,6 +13073,23 @@
                     "Graduate"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4030"
+                }
+            ]
         }
     },
     "44366": {
@@ -13059,6 +13112,19 @@
                     "Sophomore"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 4080"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4110"
+                }
+            ]
         }
     },
     "41915": {
