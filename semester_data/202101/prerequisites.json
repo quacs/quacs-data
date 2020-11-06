@@ -1525,6 +1525,7 @@
     },
     "43200": {
         "cross_list_courses": [
+            "CHME-4400",
             "CHME-6440"
         ],
         "restrictions": {
@@ -3620,12 +3621,26 @@
     },
     "43509": {},
     "44985": {},
-    "41127": {},
-    "44135": {},
-    "44139": {},
+    "41127": {
+        "cross_list_courses": [
+            "BCBP-6963",
+            "CHME-6440"
+        ]
+    },
+    "44135": {
+        "cross_list_courses": [
+            "CHME-6962"
+        ]
+    },
+    "44139": {
+        "cross_list_courses": [
+            "CHME-6965"
+        ]
+    },
     "42650": {
         "cross_list_courses": [
-            "BCBP-6963"
+            "BCBP-6963",
+            "CHME-4400"
         ],
         "restrictions": {
             "level": {
@@ -3680,6 +3695,9 @@
         }
     },
     "44136": {
+        "cross_list_courses": [
+            "CHME-4962"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -3700,6 +3718,9 @@
         }
     },
     "44140": {
+        "cross_list_courses": [
+            "CHME-4965"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4516,7 +4537,11 @@
             ]
         }
     },
-    "43514": {},
+    "43514": {
+        "cross_list_courses": [
+            "CHEM-6610"
+        ]
+    },
     "43648": {},
     "43917": {},
     "44973": {
@@ -4547,6 +4572,9 @@
         }
     },
     "43888": {
+        "cross_list_courses": [
+            "CHEM-4963"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4932,6 +4960,9 @@
     "40114": {},
     "44186": {},
     "43415": {
+        "cross_list_courses": [
+            "MANE-4240"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -4951,6 +4982,9 @@
         }
     },
     "44041": {
+        "cross_list_courses": [
+            "MANE-4240"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -4970,6 +5004,9 @@
         }
     },
     "44342": {
+        "cross_list_courses": [
+            "MANE-4240"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -5019,6 +5056,9 @@
         }
     },
     "43997": {
+        "cross_list_courses": [
+            "CIVL-6250"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CIVL 2030"
@@ -5065,6 +5105,9 @@
         }
     },
     "43998": {
+        "cross_list_courses": [
+            "CIVL-4640"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18218,6 +18261,9 @@
         }
     },
     "44341": {
+        "cross_list_courses": [
+            "CIVL-4240"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -18240,8 +18286,15 @@
             ]
         }
     },
-    "43409": {},
+    "43409": {
+        "cross_list_courses": [
+            "CIVL-4240"
+        ]
+    },
     "44040": {
+        "cross_list_courses": [
+            "CIVL-4240"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
