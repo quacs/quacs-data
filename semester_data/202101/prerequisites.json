@@ -18154,9 +18154,78 @@
     "41339": {},
     "42381": {},
     "42639": {},
-    "43410": {},
-    "43411": {},
-    "43412": {},
+    "43410": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "43411": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "43412": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "44038": {
         "prerequisites": {
             "type": "course",
@@ -18168,21 +18237,12 @@
             "type": "and",
             "nested": [
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 2250"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MANE 2720"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "MANE 2710"
                 },
                 {
                     "type": "course",
-                    "course": "MATH 2010"
+                    "course": "MANE 2720"
                 }
             ]
         }
@@ -18198,6 +18258,23 @@
                 {
                     "type": "course",
                     "course": "MANE 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4400"
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MANE 2710"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 2720"
+                        }
+                    ]
                 }
             ]
         }
