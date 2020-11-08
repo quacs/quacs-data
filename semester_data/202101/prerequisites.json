@@ -2848,10 +2848,6 @@
             "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
                     "type": "or",
                     "nested": [
                         {
@@ -2869,17 +2865,8 @@
                     "course": "MATH 2010"
                 },
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1190"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "BMED 2050"
                 }
             ]
         }
@@ -5535,6 +5522,19 @@
                     "Psychological Science"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                }
+            ]
         }
     },
     "43683": {
@@ -5551,8 +5551,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                }
+            ]
         }
     },
     "42590": {
@@ -13880,23 +13889,43 @@
     "41156": {},
     "44000": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "CHEM 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CHEM 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1110"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "CHEM 1110"
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "course",
+                    "course": "CIVL 2050"
                 }
             ]
         }
     },
     "40578": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
-            "course": "ENVE 2110"
+            "course": "ENGR 2050"
         }
     },
     "44296": {},
