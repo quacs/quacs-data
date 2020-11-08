@@ -18329,7 +18329,25 @@
             "course": "ENGR 2090"
         }
     },
-    "44452": {},
+    "44452": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4120"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4130"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4090"
+                }
+            ]
+        }
+    },
     "44340": {
         "prerequisites": {
             "type": "or",
@@ -18376,19 +18394,11 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "ENGR 2250"
-                },
-                {
-                    "type": "course",
                     "course": "ENGR 2530"
                 },
                 {
                     "type": "course",
-                    "course": "ECSE 4160"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
+                    "course": "BMED 2540"
                 }
             ]
         }
@@ -18396,7 +18406,20 @@
     "43409": {
         "cross_list_courses": [
             "CIVL-4240"
-        ]
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2530"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 2540"
+                }
+            ]
+        }
     },
     "44040": {
         "cross_list_courses": [
@@ -18407,19 +18430,11 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "ENGR 2250"
-                },
-                {
-                    "type": "course",
                     "course": "ENGR 2530"
                 },
                 {
                     "type": "course",
-                    "course": "ECSE 4160"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
+                    "course": "BMED 2540"
                 }
             ]
         }
@@ -18512,18 +18527,57 @@
                     "course": "MATH 2400"
                 },
                 {
-                    "type": "course",
-                    "course": "PHYS 1200"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
     },
-    "44343": {},
-    "44788": {},
-    "44789": {},
-    "44790": {},
-    "44791": {},
-    "44792": {},
+    "44343": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
+    "44788": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
+    "44789": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
+    "44790": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
+    "44791": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
+    "44792": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4500"
+        }
+    },
     "44093": {
         "prerequisites": {
             "type": "or",
@@ -18640,6 +18694,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18655,6 +18713,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18670,6 +18732,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18685,6 +18751,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18700,6 +18770,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18715,6 +18789,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
