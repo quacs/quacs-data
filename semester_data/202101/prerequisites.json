@@ -11987,7 +11987,41 @@
     "44362": {
         "cross_list_courses": [
             "ECON-6360"
-        ]
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "IHSS 1200"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "44874": {
         "cross_list_courses": [
@@ -12030,19 +12064,36 @@
             "ECON-6560"
         ],
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
                     "type": "course",
-                    "course": "ECON 1200"
+                    "course": "MATH 2010"
                 },
                 {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
                 }
             ]
         }
@@ -12059,8 +12110,29 @@
                     "course": "MATH 2010"
                 },
                 {
-                    "type": "course",
-                    "course": "ECON 2010"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
                 }
             ]
         }
@@ -20894,6 +20966,26 @@
                 {
                     "type": "course",
                     "course": "STSH 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2700"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
                 }
             ]
         }
@@ -20909,11 +21001,31 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "STSS 1110"
+                    "course": "STSS 2100"
                 },
                 {
                     "type": "course",
-                    "course": "STSH 1110"
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2510"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2700"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
                 }
             ]
         }
@@ -21055,6 +21167,26 @@
                 {
                     "type": "course",
                     "course": "STSH 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2700"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
                 }
             ]
         }
@@ -21081,11 +21213,31 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "STSS 1110"
+                    "course": "STSS 2100"
                 },
                 {
                     "type": "course",
-                    "course": "STSH 1110"
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2510"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2700"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2210"
                 }
             ]
         }
