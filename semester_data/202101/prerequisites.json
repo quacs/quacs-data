@@ -15509,6 +15509,24 @@
         }
     },
     "41418": {},
+    "45020": {
+        "cross_list_courses": [
+            "MGMT-6350"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MGMT 4100"
+                },
+                {
+                    "type": "course",
+                    "course": "MGMT 4110"
+                }
+            ]
+        }
+    },
     "44769": {
         "prerequisites": {
             "type": "course",
@@ -15588,7 +15606,6 @@
             "MGMT-6963"
         ]
     },
-    "43491": {},
     "44114": {},
     "43510": {},
     "42683": {},
@@ -15730,6 +15747,9 @@
         }
     },
     "43375": {
+        "cross_list_courses": [
+            "MGMT-4175"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18808,6 +18828,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18823,6 +18847,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18838,6 +18866,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
@@ -18853,6 +18885,10 @@
                 {
                     "type": "course",
                     "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
                 }
             ]
         }
