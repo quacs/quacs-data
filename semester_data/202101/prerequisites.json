@@ -15700,6 +15700,10 @@
                     "Sophomore"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "MGMT 6100"
         }
     },
     "41957": {
@@ -15709,6 +15713,19 @@
                     "Graduate"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MGMT 6190"
+                },
+                {
+                    "type": "course",
+                    "course": "MGMT 6020"
+                }
+            ]
         }
     },
     "43374": {
