@@ -206,7 +206,11 @@
         }
     },
     "43756": {},
-    "40107": {},
+    "40107": {
+        "cross_list_courses": [
+            "ARCH-5380"
+        ]
+    },
     "42780": {},
     "42826": {},
     "43757": {
@@ -494,6 +498,9 @@
         }
     },
     "43209": {
+        "cross_list_courses": [
+            "ARCH-4540"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -897,18 +904,7 @@
         }
     },
     "43417": {},
-    "42604": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
+    "42604": {},
     "42485": {
         "restrictions": {
             "major": {
@@ -6228,16 +6224,7 @@
     "44380": {
         "cross_list_courses": [
             "COMM-2660"
-        ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
-                ]
-            }
-        }
+        ]
     },
     "40589": {},
     "42705": {
@@ -17342,6 +17329,16 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "45021": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
