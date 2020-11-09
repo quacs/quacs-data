@@ -317,11 +317,6 @@
             "ARCH-6968"
         ]
     },
-    "43215": {
-        "cross_list_courses": [
-            "ARCH-6969"
-        ]
-    },
     "43201": {
         "cross_list_courses": [
             "ARCH-4100"
@@ -595,11 +590,6 @@
                 ]
             }
         }
-    },
-    "44639": {
-        "cross_list_courses": [
-            "ARCH-4969"
-        ]
     },
     "44867": {
         "restrictions": {
@@ -1205,7 +1195,6 @@
             }
         }
     },
-    "44918": {},
     "44906": {
         "cross_list_courses": [
             "PHYS-2962"
@@ -3591,19 +3580,6 @@
                     "course": "MATH 2400"
                 }
             ]
-        }
-    },
-    "44799": {
-        "cross_list_courses": [
-            "MANE-6840"
-        ],
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
         }
     },
     "44136": {
@@ -7540,25 +7516,6 @@
             }
         }
     },
-    "43735": {
-        "cross_list_courses": [
-            "CSCI-4962"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "44027": {
         "cross_list_courses": [
             "CSCI-4967"
@@ -10799,60 +10756,15 @@
             }
         }
     },
-    "40302": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "40303": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "40304": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "41116": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "40474": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "41522": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "40560": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "40561": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
-    "41976": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
-        }
-    },
+    "40302": {},
+    "40303": {},
+    "40304": {},
+    "41116": {},
+    "40474": {},
+    "41522": {},
+    "40560": {},
+    "40561": {},
+    "41976": {},
     "43194": {
         "restrictions": {
             "major": {
@@ -10879,18 +10791,7 @@
                     "Transportation Engineering"
                 ]
             }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 1010"
         }
-    },
-    "40573": {
-        "cross_list_courses": [
-            "ENGR-6100",
-            "ITWS-4300",
-            "ITWS-6300"
-        ]
     },
     "42644": {
         "restrictions": {
@@ -15828,7 +15729,10 @@
             },
             "major": {
                 "must_be": [
-                    "Quant Finance & Risk Analytics"
+                    "Business Analytics",
+                    "Management",
+                    "Quant Finance & Risk Analytics",
+                    "Supply Chain Management"
                 ]
             }
         }
@@ -15965,6 +15869,13 @@
     },
     "40199": {},
     "44773": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -16301,12 +16212,29 @@
                     "type": "or",
                     "nested": [
                         {
-                            "type": "course",
-                            "course": "CHEM 1100"
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "CHEM 1100"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "CHEM 1110"
+                                }
+                            ]
                         },
                         {
                             "type": "course",
-                            "course": "CHEM 1110"
+                            "course": "CHEM 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
                         }
                     ]
                 }
@@ -18920,15 +18848,6 @@
             }
         }
     },
-    "44050": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "44453": {
         "restrictions": {
             "classification": {
@@ -19015,19 +18934,6 @@
                     "Graduate"
                 ]
             },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "44798": {
-        "cross_list_courses": [
-            "CHME-6840"
-        ],
-        "restrictions": {
             "classification": {
                 "may_not_be": [
                     "Freshman",
