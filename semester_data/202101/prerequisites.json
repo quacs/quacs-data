@@ -13235,14 +13235,6 @@
         "cross_list_courses": [
             "ECSE-6490"
         ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2410"
@@ -18143,8 +18135,21 @@
                     "course": "MATH 2010"
                 },
                 {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2400"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                },
+                {
                     "type": "course",
-                    "course": "MATH 2400"
+                    "course": "MATH 2011"
                 }
             ]
         }
@@ -20333,21 +20338,6 @@
                 {
                     "type": "course",
                     "course": "PHYS 1150"
-                }
-            ]
-        }
-    },
-    "44891": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PHYS 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 1020"
                 }
             ]
         }
