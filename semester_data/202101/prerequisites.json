@@ -13189,16 +13189,7 @@
             ]
         }
     },
-    "40369": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering"
-                ]
-            }
-        }
-    },
+    "40369": {},
     "43978": {
         "prerequisites": {
             "type": "course",
@@ -13241,14 +13232,6 @@
         }
     },
     "43975": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2410"
@@ -13257,12 +13240,6 @@
     "41133": {},
     "43675": {
         "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering"
-                ]
-            },
             "classification": {
                 "must_be": [
                     "Senior"
@@ -13299,15 +13276,6 @@
         }
     },
     "40042": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering",
-                    "Electric Power Engr"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -16811,8 +16779,25 @@
                     "course": "ENGR 1600"
                 },
                 {
-                    "type": "course",
-                    "course": "MTLE 2100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MTLE 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        }
+                    ]
                 }
             ]
         }
@@ -20507,8 +20492,36 @@
             ]
         }
     },
-    "43495": {},
-    "44824": {},
+    "43495": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1150"
+                }
+            ]
+        }
+    },
+    "44824": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1150"
+                }
+            ]
+        }
+    },
     "44825": {},
     "43791": {
         "cross_list_courses": [
