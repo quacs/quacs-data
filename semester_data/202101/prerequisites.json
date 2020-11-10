@@ -13197,6 +13197,9 @@
         }
     },
     "44758": {
+        "cross_list_courses": [
+            "MANE-4530"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -19271,6 +19274,18 @@
         }
     },
     "44879": {
+        "cross_list_courses": [
+            "ECSE-4440"
+        ],
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Graduate Student",
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
