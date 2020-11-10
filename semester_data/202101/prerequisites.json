@@ -13200,6 +13200,8 @@
         "restrictions": {
             "classification": {
                 "must_be": [
+                    "Graduate Student",
+                    "Junior",
                     "Senior"
                 ]
             }
@@ -14720,7 +14722,11 @@
             }
         }
     },
-    "42472": {},
+    "42472": {
+        "cross_list_courses": [
+            "ISYE-6620"
+        ]
+    },
     "44459": {
         "cross_list_courses": [
             "ISYE-6350"
@@ -14785,6 +14791,9 @@
         }
     },
     "42135": {
+        "cross_list_courses": [
+            "ISYE-4290"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
