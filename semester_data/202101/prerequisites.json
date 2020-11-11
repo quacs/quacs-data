@@ -5336,8 +5336,17 @@
                     "course": "ENGR 2600"
                 },
                 {
-                    "type": "course",
-                    "course": "CSCI 1190"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 1190"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CSCI 1100"
+                        }
+                    ]
                 }
             ]
         }
@@ -19355,19 +19364,6 @@
                     "Hartford"
                 ]
             }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 2530"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4030"
-                }
-            ]
         }
     },
     "44837": {},
