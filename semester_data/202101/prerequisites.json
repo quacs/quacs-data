@@ -1094,6 +1094,7 @@
         "restrictions": {
             "major": {
                 "must_be": [
+                    "Architecture",
                     "Communication, Media, & Design",
                     "Electronic Arts",
                     "Elect Media, Arts, & Comm",
@@ -12340,7 +12341,46 @@
     "44433": {
         "cross_list_courses": [
             "ECON-6340"
-        ]
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ECON 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "IHSS 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        }
+                    ]
+                }
+            ]
+        }
     },
     "44362": {
         "cross_list_courses": [
@@ -12357,24 +12397,33 @@
                     "type": "or",
                     "nested": [
                         {
-                            "type": "course",
-                            "course": "ENGR 2600"
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "ENGR 2600"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MGMT 2100"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MATP 4600"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "PSYC 2310"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "BIOL 4200"
+                                }
+                            ]
                         },
                         {
                             "type": "course",
-                            "course": "MGMT 2100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MATP 4600"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PSYC 2310"
-                        },
-                        {
-                            "type": "course",
-                            "course": "BIOL 4200"
+                            "course": "ECON 1200"
                         }
                     ]
                 }
@@ -14648,6 +14697,15 @@
             }
         }
     },
+    "45023": {},
+    "45024": {},
+    "45025": {},
+    "45026": {},
+    "45027": {},
+    "45028": {},
+    "45029": {},
+    "45030": {},
+    "45031": {},
     "43455": {},
     "42128": {
         "prerequisites": {
@@ -15821,16 +15879,7 @@
     "44057": {
         "cross_list_courses": [
             "LITR-2110"
-        ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
-                ]
-            }
-        }
+        ]
     },
     "44207": {
         "cross_list_courses": [
@@ -17541,14 +17590,6 @@
         }
     },
     "43396": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "and",
             "nested": [
