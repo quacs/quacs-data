@@ -14382,8 +14382,17 @@
                     "course": "MATH 2400"
                 },
                 {
-                    "type": "course",
-                    "course": "CIVL 2050"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CIVL 2050"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 2250"
+                        }
+                    ]
                 }
             ]
         }
@@ -20402,8 +20411,15 @@
     "44116": {},
     "40065": {},
     "44779": {},
-    "40337": {},
+    "40337": {
+        "cross_list_courses": [
+            "PHIL-1110"
+        ]
+    },
     "44545": {
+        "cross_list_courses": [
+            "PHIL-1110"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -20453,7 +20469,11 @@
             "STSH-4250"
         ]
     },
-    "44896": {},
+    "44896": {
+        "cross_list_courses": [
+            "STSH-4250"
+        ]
+    },
     "40596": {},
     "40073": {},
     "40136": {},
@@ -21673,7 +21693,11 @@
             ]
         }
     },
-    "44945": {},
+    "44945": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
     "44954": {
         "cross_list_courses": [
             "STSS-4290"
