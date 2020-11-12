@@ -5330,29 +5330,7 @@
     "44785": {
         "cross_list_courses": [
             "CIVL-6960"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 2600"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1190"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        }
-                    ]
-                }
-            ]
-        }
+        ]
     },
     "43752": {
         "corequisites": [
@@ -7520,6 +7498,9 @@
         }
     },
     "40312": {
+        "cross_list_courses": [
+            "MATH-4800"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -7545,6 +7526,9 @@
         }
     },
     "42598": {
+        "cross_list_courses": [
+            "MATH-4800"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -7921,6 +7905,9 @@
         }
     },
     "44831": {
+        "cross_list_courses": [
+            "MATH-6820"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -7932,6 +7919,9 @@
         }
     },
     "44866": {
+        "cross_list_courses": [
+            "MATH-6840"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -13213,7 +13203,11 @@
             "course": "ECSE 2050"
         }
     },
-    "43220": {},
+    "43220": {
+        "cross_list_courses": [
+            "MANE-4520"
+        ]
+    },
     "41970": {
         "prerequisites": {
             "type": "or",
@@ -13520,6 +13514,9 @@
         }
     },
     "43979": {
+        "cross_list_courses": [
+            "MANE-6610"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18296,6 +18293,9 @@
         }
     },
     "40075": {
+        "cross_list_courses": [
+            "CSCI-4800"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -18311,6 +18311,9 @@
         }
     },
     "42597": {
+        "cross_list_courses": [
+            "CSCI-4800"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -18399,6 +18402,9 @@
         }
     },
     "44755": {
+        "cross_list_courses": [
+            "CSCI-6820"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18428,6 +18434,9 @@
         }
     },
     "43667": {
+        "cross_list_courses": [
+            "CSCI-6840"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18891,16 +18900,55 @@
             "course": "ENGR 2250"
         }
     },
-    "40363": {},
-    "40364": {},
-    "40562": {},
-    "40563": {},
-    "40564": {},
-    "40565": {},
-    "40566": {},
-    "41154": {},
-    "42808": {},
+    "40363": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40364": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40562": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40563": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40564": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40565": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "40566": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "41154": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
+    "42808": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ]
+    },
     "44016": {
+        "cross_list_courses": [
+            "MANE-4740"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MANE 4010"
@@ -19292,9 +19340,16 @@
             "course": "MANE 4380"
         }
     },
-    "44794": {},
+    "44794": {
+        "cross_list_courses": [
+            "MANE-6390"
+        ]
+    },
     "44345": {},
     "44361": {
+        "cross_list_courses": [
+            "MANE-6380"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CHEM 1100"
@@ -19361,6 +19416,9 @@
         }
     },
     "44093": {
+        "cross_list_courses": [
+            "ECSE-4090"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19465,6 +19523,9 @@
         }
     },
     "44801": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19484,6 +19545,9 @@
         }
     },
     "44802": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19503,6 +19567,9 @@
         }
     },
     "44803": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19522,6 +19589,9 @@
         }
     },
     "44804": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19541,6 +19611,9 @@
         }
     },
     "44805": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19560,6 +19633,9 @@
         }
     },
     "44806": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19579,6 +19655,9 @@
         }
     },
     "44807": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19598,6 +19677,9 @@
         }
     },
     "44808": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19617,6 +19699,9 @@
         }
     },
     "44809": {
+        "cross_list_courses": [
+            "MANE-4020"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -19720,12 +19805,18 @@
     },
     "44356": {},
     "44363": {
+        "cross_list_courses": [
+            "MANE-4460"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MANE 4480"
         }
     },
     "44795": {
+        "cross_list_courses": [
+            "MANE-4410"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MANE 2830"
@@ -19747,6 +19838,9 @@
         }
     },
     "44838": {
+        "cross_list_courses": [
+            "ECSE-6420"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
