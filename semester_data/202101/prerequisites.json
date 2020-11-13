@@ -7980,6 +7980,28 @@
             }
         }
     },
+    "45036": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "45037": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "43245": {
         "restrictions": {
             "level": {
@@ -14898,7 +14920,11 @@
             }
         }
     },
-    "44832": {},
+    "44832": {
+        "cross_list_courses": [
+            "MATP-6620"
+        ]
+    },
     "44458": {
         "restrictions": {
             "classification": {
@@ -17689,6 +17715,9 @@
         }
     },
     "40022": {
+        "cross_list_courses": [
+            "MATP-6610"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -17704,6 +17733,9 @@
         }
     },
     "40435": {
+        "cross_list_courses": [
+            "MATP-4820"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -17713,6 +17745,9 @@
         }
     },
     "44757": {
+        "cross_list_courses": [
+            "ISYE-6760"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
