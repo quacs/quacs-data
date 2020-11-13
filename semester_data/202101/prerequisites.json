@@ -20733,15 +20733,24 @@
     },
     "41639": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "PHYS 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "PHYS 1150"
+                    "course": "MATH 1020"
                 }
             ]
         }
@@ -20755,8 +20764,17 @@
                     "course": "PHYS 1100"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 }
             ]
         }
@@ -20770,8 +20788,17 @@
                     "course": "PHYS 1100"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 }
             ]
         }
@@ -20785,8 +20812,17 @@
                     "course": "PHYS 1100"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 }
             ]
         }
@@ -20800,8 +20836,17 @@
                     "course": "PHYS 1100"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 }
             ]
         }
@@ -20815,73 +20860,141 @@
                     "course": "PHYS 1100"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 }
             ]
         }
     },
     "41534": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "PHYS 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "PHYS 1150"
+                    "course": "MATH 1020"
                 }
             ]
         }
     },
     "41535": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "PHYS 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "PHYS 1150"
+                    "course": "MATH 1020"
                 }
             ]
         }
     },
     "43495": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "PHYS 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "PHYS 1150"
+                    "course": "MATH 1020"
                 }
             ]
         }
     },
     "44824": {
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "PHYS 1100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "PHYS 1150"
+                    "course": "MATH 1020"
                 }
             ]
         }
     },
-    "44825": {},
+    "44825": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 1020"
+                }
+            ]
+        }
+    },
     "43791": {
         "cross_list_courses": [
             "CHEM-1600",
