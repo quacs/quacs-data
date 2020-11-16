@@ -677,11 +677,9 @@
             "ARCH-4967"
         ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -735,12 +733,26 @@
     "44639": {
         "cross_list_courses": [
             "ARCH-4969"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "44640": {
         "cross_list_courses": [
             "ARCH-4966"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "44867": {
         "restrictions": {
@@ -3091,8 +3103,17 @@
                     "course": "MATH 2010"
                 },
                 {
-                    "type": "course",
-                    "course": "BMED 2050"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "BMED 2050"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BMED 2960"
+                        }
+                    ]
                 }
             ]
         }
