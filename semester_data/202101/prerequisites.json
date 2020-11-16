@@ -1172,7 +1172,14 @@
     "44080": {
         "cross_list_courses": [
             "ARTS-4600"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "44182": {
         "cross_list_courses": [
@@ -4841,7 +4848,15 @@
             "CHEM-4140"
         ]
     },
-    "44463": {},
+    "44463": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "43714": {
         "restrictions": {
             "level": {
@@ -7758,6 +7773,13 @@
         "cross_list_courses": [
             "CSCI-4230"
         ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -16234,10 +16256,9 @@
     },
     "44770": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -19813,11 +19834,9 @@
     },
     "44796": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         },
