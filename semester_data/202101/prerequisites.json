@@ -18325,15 +18325,33 @@
             "CSCI-4800"
         ],
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "MATH 2010"
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2010"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2011"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "ENGR 1100"
+                    "course": "MATH 2400"
                 }
             ]
         }
@@ -18343,24 +18361,33 @@
             "CSCI-4800"
         ],
         "prerequisites": {
-            "type": "or",
+            "type": "and",
             "nested": [
                 {
                     "type": "and",
                     "nested": [
                         {
-                            "type": "course",
-                            "course": "CSCI 1100"
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2010"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2011"
+                                }
+                            ]
                         },
                         {
                             "type": "course",
-                            "course": "MATH 2010"
+                            "course": "MATH 2012"
                         }
                     ]
                 },
                 {
                     "type": "course",
-                    "course": "ENGR 1100"
+                    "course": "MATH 2400"
                 }
             ]
         }
@@ -21555,8 +21582,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                }
+            ]
         }
     },
     "44326": {
@@ -21564,8 +21600,17 @@
             "PSYC-2310"
         ],
         "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                }
+            ]
         }
     },
     "43779": {},
