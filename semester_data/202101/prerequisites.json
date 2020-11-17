@@ -1184,7 +1184,14 @@
     "44182": {
         "cross_list_courses": [
             "ARTS-4640"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "42829": {
         "cross_list_courses": [
@@ -7895,11 +7902,9 @@
             "MATH-6820"
         ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
