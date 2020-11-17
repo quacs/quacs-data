@@ -19882,8 +19882,15 @@
         "cross_list_courses": [
             "ECSE-6420"
         ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
         "prerequisites": {
-            "type": "and",
+            "type": "or",
             "nested": [
                 {
                     "type": "course",
