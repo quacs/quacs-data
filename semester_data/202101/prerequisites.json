@@ -7797,11 +7797,9 @@
             "CSCI-4270"
         ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         },
@@ -7914,10 +7912,9 @@
             "MATH-6840"
         ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -8063,10 +8060,9 @@
     },
     "43263": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -13691,11 +13687,9 @@
     },
     "44766": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         },
@@ -14444,7 +14438,14 @@
     "44776": {
         "cross_list_courses": [
             "ENVE-4961"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "41304": {
         "restrictions": {
@@ -16654,7 +16655,14 @@
     "45010": {
         "cross_list_courses": [
             "MGMT-4968"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "40199": {},
     "44773": {
@@ -18433,13 +18441,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         },
