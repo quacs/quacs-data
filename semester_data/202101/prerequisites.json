@@ -4722,8 +4722,17 @@
                     "course": "PHYS 1200"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1020"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
