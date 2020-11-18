@@ -2670,7 +2670,15 @@
             }
         }
     },
-    "43638": {},
+    "43638": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "42110": {
         "restrictions": {
             "level": {
@@ -17271,7 +17279,14 @@
     "44989": {
         "cross_list_courses": [
             "MTLE-4030"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "41411": {
         "restrictions": {
