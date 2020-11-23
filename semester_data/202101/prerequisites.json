@@ -19389,7 +19389,27 @@
     },
     "40512": {},
     "43722": {},
+    "45047": {
+        "cross_list_courses": [
+            "MANE-5000"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "campus": {
+                "must_be": [
+                    "Troy"
+                ]
+            }
+        }
+    },
     "44175": {
+        "cross_list_courses": [
+            "MANE-5000"
+        ],
         "restrictions": {
             "campus": {
                 "must_be": [
@@ -22151,7 +22171,17 @@
         ]
     },
     "44544": {},
-    "45045": {},
+    "45045": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Communication",
+                    "Elect Media, Arts, & Comm"
+                ]
+            }
+        }
+    },
     "44943": {
         "cross_list_courses": [
             "WRIT-6961"
