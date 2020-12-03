@@ -1256,13 +1256,6 @@
                 "must_be": [
                     "Master of Fine Arts"
                 ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
             }
         }
     },
@@ -1285,16 +1278,14 @@
     },
     "44122": {
         "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
             "degree": {
                 "must_be": [
                     "Master of Fine Arts"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         }
