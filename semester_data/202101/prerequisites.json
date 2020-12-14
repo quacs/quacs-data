@@ -1260,11 +1260,6 @@
                 "must_be": [
                     "Graduate"
                 ]
-            },
-            "degree": {
-                "must_be": [
-                    "Master of Fine Arts"
-                ]
             }
         }
     },
@@ -1277,11 +1272,6 @@
                 "must_be": [
                     "Graduate"
                 ]
-            },
-            "degree": {
-                "must_be": [
-                    "Master of Fine Arts"
-                ]
             }
         }
     },
@@ -1290,11 +1280,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            },
-            "degree": {
-                "must_be": [
-                    "Master of Fine Arts"
                 ]
             }
         }
@@ -9764,83 +9749,6 @@
         }
     },
     "40257": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Engineering Science",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Industrial & Management Engr",
-                    "Nuclear Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1960"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1961"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1400"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CIVL 1200"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1250"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "40124": {
         "restrictions": {
             "major": {
                 "must_be": [
