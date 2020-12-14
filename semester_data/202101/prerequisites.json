@@ -4,7 +4,16 @@
     "40003": {},
     "40004": {},
     "40005": {},
-    "40359": {},
+    "40359": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Building Sciences"
+                ]
+            }
+        }
+    },
     "42775": {},
     "42779": {
         "prerequisites": {
@@ -14680,11 +14689,38 @@
     },
     "42335": {
         "cross_list_courses": [
+            "ITWS-4100",
             "ITWS-6800"
         ],
         "restrictions": {
             "major": {
                 "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 2210"
+                },
+                {
+                    "type": "course",
+                    "course": "ITWS 4310"
+                }
+            ]
+        }
+    },
+    "45049": {
+        "cross_list_courses": [
+            "ITWS-4100",
+            "ITWS-6800"
+        ],
+        "restrictions": {
+            "major": {
+                "may_not_be": [
                     "Information Tech & Web Science"
                 ]
             }
@@ -14969,7 +15005,8 @@
     },
     "42127": {
         "cross_list_courses": [
-            "ITWS-4100"
+            "ITWS-4100",
+            "ITWS-6800"
         ],
         "restrictions": {
             "level": {
@@ -14980,6 +15017,25 @@
             "degree": {
                 "must_be": [
                     "Master of Science"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "45050": {
+        "cross_list_courses": [
+            "ITWS-4100",
+            "ITWS-6800"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             },
             "major": {
