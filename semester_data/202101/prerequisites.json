@@ -958,6 +958,7 @@
     "44425": {},
     "44977": {},
     "43690": {},
+    "45051": {},
     "43416": {
         "restrictions": {
             "major": {
@@ -1011,15 +1012,6 @@
     "45007": {},
     "45008": {},
     "40491": {},
-    "44426": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
-                ]
-            }
-        }
-    },
     "44990": {},
     "44991": {},
     "44992": {},
@@ -13901,19 +13893,7 @@
             }
         }
     },
-    "44351": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
+    "44351": {},
     "43811": {
         "restrictions": {
             "major": {
@@ -14055,21 +14035,15 @@
         }
     },
     "44125": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "course",
             "course": "ARTS 2230"
         }
     },
     "44886": {
+        "cross_list_courses": [
+            "PSYC-4962"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -21397,6 +21371,11 @@
     },
     "40522": {},
     "42637": {},
+    "45052": {
+        "cross_list_courses": [
+            "GSAS-4961"
+        ]
+    },
     "42966": {},
     "42366": {},
     "43561": {},
