@@ -10131,74 +10131,6 @@
             ]
         }
     },
-    "40127": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Engineering Science",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Industrial & Management Engr",
-                    "Nuclear Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1960"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1961"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1961"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
     "42491": {
         "restrictions": {
             "major": {
@@ -14306,6 +14238,7 @@
             "ISYE-6350"
         ]
     },
+    "45059": {},
     "42793": {
         "restrictions": {
             "level": {
