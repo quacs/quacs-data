@@ -4635,12 +4635,21 @@
             "type": "or",
             "nested": [
                 {
-                    "type": "course",
-                    "course": "CHEM 4760"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CHEM 4760"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4760"
+                        }
+                    ]
                 },
                 {
                     "type": "course",
-                    "course": "BIOL 4760"
+                    "course": "BCBP 4760"
                 }
             ]
         }
