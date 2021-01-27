@@ -11016,6 +11016,9 @@
         }
     },
     "45004": {
+        "cross_list_courses": [
+            "ERTH-6690"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -11060,6 +11063,18 @@
                     "Freshman",
                     "Junior",
                     "Sophomore"
+                ]
+            }
+        }
+    },
+    "45063": {
+        "cross_list_courses": [
+            "ERTH-4690"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
