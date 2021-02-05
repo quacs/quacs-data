@@ -2466,6 +2466,7 @@
             }
         }
     },
+    "43903": {},
     "42899": {
         "restrictions": {
             "level": {
@@ -4969,6 +4970,22 @@
         }
     },
     "42506": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "42524": {
         "restrictions": {
             "level": {
                 "must_be": [
