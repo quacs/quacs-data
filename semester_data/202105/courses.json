@@ -386,8 +386,8 @@
             "timeslots": [
               {
                 "days": [
-                  "T",
-                  "F"
+                  "M",
+                  "R"
                 ],
                 "timeStart": 800,
                 "timeEnd": 1005,
@@ -725,8 +725,8 @@
             "timeslots": [
               {
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
                 "timeStart": 800,
                 "timeEnd": 1005,
@@ -759,9 +759,12 @@
             "attribute": "",
             "timeslots": [
               {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 1330,
+                "timeEnd": 1535,
                 "instructor": "Jefferson Wille Kielwagen",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
@@ -7519,43 +7522,6 @@
         ]
       },
       {
-        "title": "History And Culture Of Games",
-        "subj": "GSAS",
-        "crse": 1600,
-        "id": "GSAS-1600",
-        "sections": [
-          {
-            "crn": 16318,
-            "subj": "GSAS",
-            "crse": 1600,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "History And Culture Of Games",
-            "cap": 19,
-            "act": 0,
-            "rem": 19,
-            "attribute": "Communication Intensive",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "T",
-                  "R",
-                  "F"
-                ],
-                "timeStart": 1030,
-                "timeEnd": 1235,
-                "instructor": "Michael F Lynch",
-                "dateStart": "05/24",
-                "dateEnd": "07/02",
-                "location": "SAGE 4711"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "title": "Intro To Game Programming",
         "subj": "GSAS",
         "crse": 2540,
@@ -11357,38 +11323,6 @@
         ]
       },
       {
-        "title": "Social Psychology",
-        "subj": "PSYC",
-        "crse": 2730,
-        "id": "PSYC-2730",
-        "sections": [
-          {
-            "crn": 16100,
-            "subj": "PSYC",
-            "crse": 2730,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Social Psychology",
-            "cap": 50,
-            "act": 0,
-            "rem": 50,
-            "attribute": "Communication Intensive",
-            "timeslots": [
-              {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
-                "instructor": "TBA",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "title": "Behavioral Neuroscience",
         "subj": "PSYC",
         "crse": 4320,
@@ -11415,38 +11349,6 @@
                 "timeStart": 1330,
                 "timeEnd": 1535,
                 "instructor": "Alicia Ann Walf",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Personality",
-        "subj": "PSYC",
-        "crse": 4400,
-        "id": "PSYC-4400",
-        "sections": [
-          {
-            "crn": 16101,
-            "subj": "PSYC",
-            "crse": 4400,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Personality",
-            "cap": 50,
-            "act": 0,
-            "rem": 50,
-            "attribute": "Communication Intensive",
-            "timeslots": [
-              {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
-                "instructor": "TBA",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
                 "location": "TBA"
@@ -11603,41 +11505,6 @@
     "code": "STSH",
     "courses": [
       {
-        "title": "American History",
-        "subj": "STSH",
-        "crse": 2500,
-        "id": "STSH-2500",
-        "sections": [
-          {
-            "crn": 16561,
-            "subj": "STSH",
-            "crse": 2500,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "American History",
-            "cap": 75,
-            "act": 0,
-            "rem": 75,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "timeStart": 800,
-                "timeEnd": 1005,
-                "instructor": "Christopher James Tozzi",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "title": "African American History",
         "subj": "STSH",
         "crse": 2960,
@@ -11664,113 +11531,6 @@
                 "timeStart": 1030,
                 "timeEnd": 1235,
                 "instructor": "Kate Elizabeth Sohasky",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Bioethics",
-        "subj": "STSH",
-        "crse": 4250,
-        "id": "STSH-4250",
-        "sections": [
-          {
-            "crn": 16565,
-            "subj": "STSH",
-            "crse": 4250,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Bioethics",
-            "cap": 35,
-            "act": 0,
-            "rem": 35,
-            "attribute": "Communication Intensive and PDII Option for Engr Majors",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "T",
-                  "R",
-                  "F"
-                ],
-                "timeStart": 1030,
-                "timeEnd": 1235,
-                "instructor": "Susan Lynn Smith",
-                "dateStart": "05/24",
-                "dateEnd": "07/02",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Medicine, Culture & Society",
-        "subj": "STSH",
-        "crse": 4400,
-        "id": "STSH-4400",
-        "sections": [
-          {
-            "crn": 16597,
-            "subj": "STSH",
-            "crse": 4400,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Medicine, Culture & Society",
-            "cap": 15,
-            "act": 0,
-            "rem": 15,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1330,
-                "timeEnd": 1535,
-                "instructor": "TBA",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Social Demo: Society By Number",
-        "subj": "STSH",
-        "crse": 4520,
-        "id": "STSH-4520",
-        "sections": [
-          {
-            "crn": 16599,
-            "subj": "STSH",
-            "crse": 4520,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Social Demo: Society By Number",
-            "cap": 15,
-            "act": 0,
-            "rem": 15,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "timeStart": 1330,
-                "timeEnd": 1535,
-                "instructor": "TBA",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
                 "location": "TBA"
@@ -11927,33 +11687,6 @@
         "crse": 2520,
         "id": "STSS-2520",
         "sections": [
-          {
-            "crn": 16390,
-            "subj": "STSS",
-            "crse": 2520,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Sociology",
-            "cap": 50,
-            "act": 0,
-            "rem": 50,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 800,
-                "timeEnd": 1005,
-                "instructor": "Michael E Stanford",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          },
           {
             "crn": 16418,
             "subj": "STSS",
@@ -12154,76 +11887,6 @@
         ]
       },
       {
-        "title": "Medicine, Culture & Society",
-        "subj": "STSS",
-        "crse": 4400,
-        "id": "STSS-4400",
-        "sections": [
-          {
-            "crn": 16596,
-            "subj": "STSS",
-            "crse": 4400,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Medicine, Culture & Society",
-            "cap": 15,
-            "act": 0,
-            "rem": 15,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1330,
-                "timeEnd": 1535,
-                "instructor": "TBA",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Social Demo: Society By Number",
-        "subj": "STSS",
-        "crse": 4520,
-        "id": "STSS-4520",
-        "sections": [
-          {
-            "crn": 16598,
-            "subj": "STSS",
-            "crse": 4520,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Social Demo: Society By Number",
-            "cap": 15,
-            "act": 0,
-            "rem": 15,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "timeStart": 1330,
-                "timeEnd": 1535,
-                "instructor": "TBA",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "title": "Design & Innovation Studio A",
         "subj": "STSS",
         "crse": 4600,
@@ -12358,41 +12021,6 @@
             ]
           }
         ]
-      },
-      {
-        "title": "Technology & Society",
-        "subj": "STSS",
-        "crse": 4964,
-        "id": "STSS-4964",
-        "sections": [
-          {
-            "crn": 16570,
-            "subj": "STSS",
-            "crse": 4964,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Technology & Society",
-            "cap": 19,
-            "act": 0,
-            "rem": 19,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1030,
-                "timeEnd": 1235,
-                "instructor": "Michael E Stanford",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
@@ -12518,43 +12146,6 @@
                 "dateStart": "07/12",
                 "dateEnd": "08/20",
                 "location": "TBA"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Creative Writing Studio",
-        "subj": "WRIT",
-        "crse": 2960,
-        "id": "WRIT-2960",
-        "sections": [
-          {
-            "crn": 16384,
-            "subj": "WRIT",
-            "crse": 2960,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Creative Writing Studio",
-            "cap": 19,
-            "act": 0,
-            "rem": 19,
-            "attribute": "Communication Intensive",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "T",
-                  "R",
-                  "F"
-                ],
-                "timeStart": 1030,
-                "timeEnd": 1235,
-                "instructor": "Shira Dentz",
-                "dateStart": "05/24",
-                "dateEnd": "07/02",
-                "location": "DARRIN 235"
               }
             ]
           }
