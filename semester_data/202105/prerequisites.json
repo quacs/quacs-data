@@ -1954,55 +1954,6 @@
             ]
         }
     },
-    "16522": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1190"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                }
-            ]
-        }
-    },
     "16195": {
         "restrictions": {
             "major": {
@@ -2498,18 +2449,6 @@
             "course": "MATH 2400"
         }
     },
-    "16517": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
-        }
-    },
-    "16518": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
-        }
-    },
     "16520": {
         "restrictions": {
             "major": {
@@ -2622,7 +2561,7 @@
             "course": "ECSE 2410"
         }
     },
-    "16535": {
+    "16674": {
         "restrictions": {
             "major": {
                 "must_be": [
@@ -2635,12 +2574,9 @@
                     "Electrical Engineering",
                     "Undeclared Engineering",
                     "Environmental Engineering",
-                    "Engineering Physics",
-                    "Electric Power Engr",
-                    "Engineering Science",
                     "Information Technology",
                     "Materials Engineering",
-                    "Mechanics",
+                    "Mechanical Engineering",
                     "Industrial & Management Engr",
                     "Nuclear Engineering"
                 ]
@@ -2654,7 +2590,7 @@
         },
         "prerequisites": {
             "type": "course",
-            "course": "CSCI 1100"
+            "course": "ECSE 2610"
         }
     },
     "16659": {},
