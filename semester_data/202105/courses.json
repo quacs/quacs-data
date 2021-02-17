@@ -3417,9 +3417,12 @@
             "attribute": "Communication Intensive",
             "timeslots": [
               {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 800,
+                "timeEnd": 1005,
                 "instructor": "Leah Rico",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
@@ -3430,19 +3433,19 @@
         ]
       },
       {
-        "title": "Superheroes In The Classroom",
+        "title": "Critical Television",
         "subj": "COMM",
-        "crse": 2961,
-        "id": "COMM-2961",
+        "crse": 2960,
+        "id": "COMM-2960",
         "sections": [
           {
-            "crn": 16575,
+            "crn": 16687,
             "subj": "COMM",
-            "crse": 2961,
+            "crse": 2960,
             "sec": "01",
             "credMin": 4.0,
             "credMax": 4.0,
-            "title": "Superheroes In The Classroom",
+            "title": "Critical Television",
             "cap": 19,
             "act": 0,
             "rem": 19,
@@ -3451,14 +3454,39 @@
               {
                 "days": [
                   "M",
-                  "T",
-                  "R",
-                  "F"
+                  "R"
                 ],
                 "timeStart": 1030,
                 "timeEnd": 1235,
                 "instructor": "Christopher Jeansonne",
-                "dateStart": "07/12",
+                "dateStart": "05/24",
+                "dateEnd": "08/20",
+                "location": "TBA"
+              }
+            ]
+          },
+          {
+            "crn": 16688,
+            "subj": "COMM",
+            "crse": 2960,
+            "sec": "02",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Critical Television",
+            "cap": 19,
+            "act": 0,
+            "rem": 19,
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 1330,
+                "timeEnd": 1535,
+                "instructor": "Christopher Jeansonne",
+                "dateStart": "05/24",
                 "dateEnd": "08/20",
                 "location": "TBA"
               }
@@ -7511,6 +7539,41 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Learning & Advanced Game Ai",
+        "subj": "GSAS",
+        "crse": 4961,
+        "id": "GSAS-4961",
+        "sections": [
+          {
+            "crn": 16690,
+            "subj": "GSAS",
+            "crse": 4961,
+            "sec": "01",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Learning & Advanced Game Ai",
+            "cap": 19,
+            "act": 0,
+            "rem": 19,
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 1600,
+                "timeEnd": 1805,
+                "instructor": "Mei Si",
+                "dateStart": "05/24",
+                "dateEnd": "08/20",
+                "location": "TBA"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -8781,6 +8844,32 @@
                 "location": "TBA"
               }
             ]
+          },
+          {
+            "crn": 16686,
+            "subj": "MTLE",
+            "crse": 2500,
+            "sec": "02",
+            "credMin": 1.0,
+            "credMax": 1.0,
+            "title": "Materials Laboratory Skills",
+            "cap": 20,
+            "act": 0,
+            "rem": 20,
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "T"
+                ],
+                "timeStart": 1330,
+                "timeEnd": 1700,
+                "instructor": "Daniel Lewis",
+                "dateStart": "05/24",
+                "dateEnd": "08/20",
+                "location": "TBA"
+              }
+            ]
           }
         ]
       },
@@ -8801,6 +8890,41 @@
             "cap": 50,
             "act": 0,
             "rem": 50,
+            "attribute": "",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "timeStart": 1030,
+                "timeEnd": 1235,
+                "instructor": "Rahmi Ozisik",
+                "dateStart": "05/24",
+                "dateEnd": "08/20",
+                "location": "TBA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Mechanical Properties Of Materials",
+        "subj": "MTLE",
+        "crse": 4250,
+        "id": "MTLE-4250",
+        "sections": [
+          {
+            "crn": 16689,
+            "subj": "MTLE",
+            "crse": 4250,
+            "sec": "01",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Mechanical Properties Of Materials",
+            "cap": 0,
+            "act": 20,
+            "rem": 5,
             "attribute": "",
             "timeslots": [
               {
