@@ -55,20 +55,7 @@
     "16672": {},
     "16386": {},
     "16621": {},
-    "16378": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Applied Physics",
-                    "Physics"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "PHYS 2220"
-        }
-    },
+    "16698": {},
     "16283": {
         "prerequisites": {
             "type": "or",
@@ -3780,6 +3767,18 @@
             ]
         }
     },
+    "16699": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PHYS 2220"
+        }
+    },
+    "16701": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PHYS 2220"
+        }
+    },
     "16650": {},
     "16651": {},
     "16362": {
@@ -3812,29 +3811,6 @@
             }
         }
     },
-    "16631": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Applied Physics",
-                    "Physics"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PHYS 2220"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 4600"
-                }
-            ]
-        }
-    },
     "16632": {
         "restrictions": {
             "major": {
@@ -3862,17 +3838,6 @@
             ]
         }
     },
-    "16237": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Applied Physics",
-                    "Physics"
-                ]
-            }
-        }
-    },
-    "16649": {},
     "15979": {},
     "16678": {
         "prerequisites": {
