@@ -725,7 +725,8 @@
             }
         }
     },
-    "16547": {},
+    "16692": {},
+    "16693": {},
     "16277": {
         "prerequisites": {
             "type": "or",
@@ -819,65 +820,22 @@
     },
     "15982": {},
     "16350": {},
-    "16406": {},
-    "16413": {},
-    "16539": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 2200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MATH 2800"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "16540": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 2200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MATH 2800"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "16355": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2200"
+                }
+            ]
+        }
+    },
+    "16696": {
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -941,12 +899,6 @@
             ]
         }
     },
-    "16538": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
     "16280": {
         "prerequisites": {
             "type": "and",
@@ -999,36 +951,13 @@
             ]
         }
     },
-    "16291": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 2300"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 2500"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 2660"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "16537": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2200"
         }
     },
+    "16694": {},
     "15846": {},
     "15849": {},
     "15867": {},
@@ -2313,6 +2242,7 @@
             ]
         }
     },
+    "16695": {},
     "16578": {
         "prerequisites": {
             "type": "or",
@@ -2329,25 +2259,6 @@
         }
     },
     "16353": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                }
-            ]
-        }
-    },
-    "16392": {
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -2774,13 +2685,21 @@
             }
         }
     },
-    "16648": {},
     "16690": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Computer Science",
                     "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
+    "16691": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -3147,7 +3066,6 @@
     },
     "16685": {},
     "16686": {},
-    "16260": {},
     "16689": {
         "prerequisites": {
             "type": "and",
@@ -3163,13 +3081,21 @@
             ]
         }
     },
-    "16638": {
+    "16697": {
         "prerequisites": {
-            "type": "course",
-            "course": "MATH 2400"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1600"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 2100"
+                }
+            ]
         }
     },
-    "16639": {},
     "15855": {},
     "15916": {},
     "16110": {
@@ -3948,7 +3874,6 @@
     },
     "16649": {},
     "15979": {},
-    "16548": {},
     "16678": {
         "prerequisites": {
             "type": "or",
