@@ -353,7 +353,6 @@
             }
         }
     },
-    "16367": {},
     "16249": {
         "prerequisites": {
             "type": "and",
@@ -378,29 +377,6 @@
         }
     },
     "16281": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "BMED 4200"
-                },
-                {
-                    "type": "course",
-                    "course": "BMED 2100"
-                },
-                {
-                    "type": "course",
-                    "course": "BMED 2300"
-                },
-                {
-                    "type": "course",
-                    "course": "BMED 2540"
-                }
-            ]
-        }
-    },
-    "16411": {
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -3049,6 +3025,16 @@
                 ]
             }
         }
+    },
+    "16718": {
+        "cross_list_courses": [
+            "ISCI-4960"
+        ]
+    },
+    "16717": {
+        "cross_list_courses": [
+            "IHSS-4960"
+        ]
     },
     "16156": {},
     "16288": {},
