@@ -715,6 +715,9 @@
     "16692": {},
     "16693": {},
     "16277": {
+        "cross_list_courses": [
+            "PSYC-4320"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -734,6 +737,9 @@
         }
     },
     "16380": {
+        "cross_list_courses": [
+            "PSYC-4600"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -2735,6 +2741,12 @@
             }
         }
     },
+    "16715": {
+        "prerequisites": {
+            "type": "course",
+            "course": "GSAS 2510"
+        }
+    },
     "16690": {
         "cross_list_courses": [
             "CSCI-4966",
@@ -2745,6 +2757,15 @@
             "major": {
                 "must_be": [
                     "Computer Science",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
+    "16716": {
+        "restrictions": {
+            "major": {
+                "must_be": [
                     "Games & Simulation Arts & Sci"
                 ]
             }
@@ -3134,6 +3155,9 @@
     "16685": {},
     "16686": {},
     "16689": {
+        "corequisites": [
+            "MTLE-2500"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -3149,6 +3173,9 @@
         }
     },
     "16697": {
+        "corequisites": [
+            "MTLE-2500"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -3875,16 +3902,6 @@
             }
         }
     },
-    "16633": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Applied Physics",
-                    "Physics"
-                ]
-            }
-        }
-    },
     "15979": {},
     "16678": {
         "prerequisites": {
@@ -3910,6 +3927,9 @@
         }
     },
     "16276": {
+        "cross_list_courses": [
+            "COGS-4360"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -3930,6 +3950,9 @@
     },
     "16530": {},
     "16381": {
+        "cross_list_courses": [
+            "COGS-4600"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
