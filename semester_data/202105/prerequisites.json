@@ -1,4 +1,17 @@
 {
+    "16346": {},
+    "16613": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2830"
+        }
+    },
+    "16654": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2830"
+        }
+    },
     "16615": {
         "prerequisites": {
             "type": "course",
@@ -24,6 +37,16 @@
         }
     },
     "15996": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16022": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -91,6 +114,17 @@
         }
     },
     "16135": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16136": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -377,6 +411,29 @@
         }
     },
     "16281": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "BMED 4200"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 2540"
+                }
+            ]
+        }
+    },
+    "16411": {
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -1051,6 +1108,7 @@
     "15922": {},
     "15903": {},
     "15897": {},
+    "15874": {},
     "15899": {},
     "16021": {
         "restrictions": {
