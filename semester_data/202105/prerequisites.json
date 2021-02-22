@@ -3270,6 +3270,20 @@
             "course": "MATH 1020"
         }
     },
+    "16719": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Mathematics",
+                    "Mathematics"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "MATH 2010"
+        }
+    },
     "16357": {
         "restrictions": {
             "major": {
@@ -3285,6 +3299,21 @@
         }
     },
     "16544": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2012"
+                }
+            ]
+        }
+    },
+    "16720": {
         "prerequisites": {
             "type": "or",
             "nested": [
