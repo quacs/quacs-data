@@ -889,6 +889,39 @@
             ]
         }
     },
+    "16724": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2010"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2011"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "16290": {
         "prerequisites": {
             "type": "and",
@@ -3329,6 +3362,7 @@
         }
     },
     "16545": {},
+    "16721": {},
     "16542": {
         "prerequisites": {
             "type": "or",
@@ -3348,7 +3382,54 @@
             ]
         }
     },
+    "16722": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2011"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2012"
+                }
+            ]
+        }
+    },
     "16543": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16723": {
         "prerequisites": {
             "type": "and",
             "nested": [
