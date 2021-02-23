@@ -4,6 +4,9 @@ use ::phf::{{phf_map, Map}};
 pub const BIT_VEC_LEN: usize = 1;
 
 pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
+	16346u32 => [15412223541728],
+	16613u32 => [15412223541728],
+	16654u32 => [15412223541728],
 	16615u32 => [15412223541728],
 	16616u32 => [15412223541728],
 	16655u32 => [15412223541728],
@@ -27,6 +30,7 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 	16282u32 => [2147484160],
 	16249u32 => [19327354368],
 	16281u32 => [36238787008],
+	16411u32 => [51539607552],
 	16224u32 => [549772607492],
 	16365u32 => [8797167812864],
 	16250u32 => [65536],
@@ -213,6 +217,9 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 };
 
 pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
+	16346u32 => "ARCH-4770",
+	16613u32 => "ARCH-4770",
+	16654u32 => "ARCH-4770",
 	16615u32 => "ARCH-4780",
 	16616u32 => "ARCH-4780",
 	16655u32 => "ARCH-4780",
@@ -236,6 +243,7 @@ pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
 	16282u32 => "BIOL-4760",
 	16249u32 => "BMED-4010",
 	16281u32 => "BMED-4010",
+	16411u32 => "BMED-4010",
 	16224u32 => "BMED-4200",
 	16365u32 => "BMED-4200",
 	16250u32 => "CHME-4010",
