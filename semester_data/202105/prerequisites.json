@@ -621,6 +621,27 @@
             ]
         }
     },
+    "16726": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 2250"
+        }
+    },
+    "16727": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 2230"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 2260"
+                }
+            ]
+        }
+    },
     "15976": {
         "prerequisites": {
             "type": "or",
@@ -674,6 +695,18 @@
                     "course": "MATH 1010"
                 }
             ]
+        }
+    },
+    "16258": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 2250"
+        }
+    },
+    "16398": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 2250"
         }
     },
     "16284": {
