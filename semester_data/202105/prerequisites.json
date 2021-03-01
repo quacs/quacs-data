@@ -36,27 +36,6 @@
             "course": "ARCH 2830"
         }
     },
-    "15996": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "16022": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "16200": {},
     "16314": {},
     "16563": {},
     "16622": {},
@@ -947,6 +926,21 @@
             "course": "CSCI 2300"
         }
     },
+    "16732": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2600"
+                }
+            ]
+        }
+    },
     "16724": {
         "prerequisites": {
             "type": "and",
@@ -1031,7 +1025,6 @@
         }
     },
     "15846": {},
-    "15849": {},
     "15867": {},
     "16229": {
         "restrictions": {
@@ -1045,17 +1038,6 @@
     },
     "15902": {},
     "15894": {},
-    "15895": {},
-    "15988": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "16047": {
         "restrictions": {
             "classification": {
@@ -1067,16 +1049,6 @@
         }
     },
     "16161": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "16419": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -1109,8 +1081,6 @@
     "15922": {},
     "15903": {},
     "15897": {},
-    "15874": {},
-    "15899": {},
     "16021": {
         "restrictions": {
             "classification": {
@@ -1122,16 +1092,6 @@
         }
     },
     "16211": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "16198": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -2232,19 +2192,7 @@
             }
         }
     },
-    "16019": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "15833": {},
     "15956": {},
-    "15834": {},
     "16279": {
         "prerequisites": {
             "type": "and",
@@ -3892,6 +3840,12 @@
         }
     },
     "16699": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PHYS 2220"
+        }
+    },
+    "16700": {
         "prerequisites": {
             "type": "course",
             "course": "PHYS 2220"
