@@ -68,6 +68,10 @@
     "16683": {},
     "16672": {},
     "16283": {
+        "cross_list_courses": [
+            "BIOL-4760",
+            "CHEM-4760"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -215,6 +219,10 @@
         }
     },
     "16282": {
+        "cross_list_courses": [
+            "BCBP-4760",
+            "CHEM-4760"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -719,6 +727,10 @@
         }
     },
     "16284": {
+        "cross_list_courses": [
+            "BCBP-4760",
+            "BIOL-4760"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -3112,68 +3124,7 @@
             }
         }
     },
-    "16595": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATP 4400"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 4100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 6100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 6100"
-                },
-                {
-                    "type": "course",
-                    "course": "ECSE 6610"
-                },
-                {
-                    "type": "course",
-                    "course": "ECSE 6610"
-                },
-                {
-                    "type": "course",
-                    "course": "ITWS 4600"
-                },
-                {
-                    "type": "course",
-                    "course": "ITWS 6600"
-                },
-                {
-                    "type": "course",
-                    "course": "ITWS 6600"
-                },
-                {
-                    "type": "course",
-                    "course": "ISYE 6180"
-                },
-                {
-                    "type": "course",
-                    "course": "ISYE 6180"
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 4200"
-                }
-            ]
-        }
-    },
     "16043": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 1020"
-        }
-    },
-    "16743": {
         "prerequisites": {
             "type": "course",
             "course": "MATH 1020"
@@ -3665,8 +3616,16 @@
     "15869": {},
     "16393": {},
     "16394": {},
-    "16564": {},
-    "16682": {},
+    "16564": {
+        "cross_list_courses": [
+            "STSH-4250"
+        ]
+    },
+    "16682": {
+        "cross_list_courses": [
+            "STSH-4250"
+        ]
+    },
     "16044": {},
     "16045": {
         "prerequisites": {
@@ -3831,8 +3790,16 @@
     "16706": {},
     "16707": {},
     "16710": {},
-    "16746": {},
-    "16747": {},
+    "16746": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
+    "16747": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
     "16581": {
         "cross_list_courses": [
             "STSS-4600"

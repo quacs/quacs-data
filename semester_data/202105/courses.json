@@ -284,9 +284,14 @@
             "attribute": "",
             "timeslots": [
               {
-                "days": [],
-                "timeStart": -1,
-                "timeEnd": -1,
+                "days": [
+                  "M",
+                  "T",
+                  "R",
+                  "F"
+                ],
+                "timeStart": 1030,
+                "timeEnd": 1235,
                 "instructor": "Ross Rice",
                 "dateStart": "05/24",
                 "dateEnd": "07/02",
@@ -986,7 +991,7 @@
             "cap": 50,
             "act": 0,
             "rem": 50,
-            "attribute": "",
+            "attribute": "Online Course",
             "timeslots": [
               {
                 "days": [
@@ -1163,7 +1168,7 @@
             "cap": 25,
             "act": 0,
             "rem": 25,
-            "attribute": "Introductory Level Course",
+            "attribute": "Introductory Level Course and Online Course",
             "timeslots": [
               {
                 "days": [
@@ -1199,7 +1204,7 @@
             "cap": 25,
             "act": 0,
             "rem": 25,
-            "attribute": "",
+            "attribute": "Online Course",
             "timeslots": [
               {
                 "days": [
@@ -1234,7 +1239,7 @@
             "cap": 14,
             "act": 0,
             "rem": 14,
-            "attribute": "Introductory Level Course",
+            "attribute": "Introductory Level Course and Hybrid:Online/In-Person Course",
             "timeslots": [
               {
                 "days": [
@@ -1272,7 +1277,7 @@
             "cap": 14,
             "act": 0,
             "rem": 14,
-            "attribute": "Introductory Level Course",
+            "attribute": "Introductory Level Course and Online Course",
             "timeslots": [
               {
                 "days": [
@@ -1318,7 +1323,7 @@
             "cap": 12,
             "act": 0,
             "rem": 12,
-            "attribute": "Communication Intensive",
+            "attribute": "Communication Intensive and In-Person Course",
             "timeslots": [
               {
                 "days": [
@@ -1363,7 +1368,7 @@
             "cap": 8,
             "act": 0,
             "rem": 8,
-            "attribute": "Communication Intensive",
+            "attribute": "Communication Intensive and In-Person Course",
             "timeslots": [
               {
                 "days": [
@@ -1408,7 +1413,7 @@
             "cap": 50,
             "act": 0,
             "rem": 50,
-            "attribute": "",
+            "attribute": "Online Course",
             "timeslots": [
               {
                 "days": [
@@ -2380,7 +2385,7 @@
                   "F"
                 ],
                 "timeStart": 1300,
-                "timeEnd": 1305,
+                "timeEnd": 1505,
                 "instructor": "Nihat Baysal",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
@@ -3096,7 +3101,7 @@
             "cap": 50,
             "act": 0,
             "rem": 50,
-            "attribute": "",
+            "attribute": "Online Course",
             "timeslots": [
               {
                 "days": [
@@ -9112,48 +9117,6 @@
     ]
   },
   {
-    "name": "Math Prgmg, Probab,& Math Stat",
-    "code": "MATP",
-    "courses": [
-      {
-        "title": "Data Analytics Research",
-        "subj": "MATP",
-        "crse": 4910,
-        "id": "MATP-4910",
-        "sections": [
-          {
-            "crn": 16595,
-            "subj": "MATP",
-            "crse": 4910,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Data Analytics Research",
-            "cap": 30,
-            "act": 0,
-            "rem": 30,
-            "attribute": "",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "T",
-                  "R"
-                ],
-                "timeStart": 1330,
-                "timeEnd": 1650,
-                "instructor": "Kristin P Bennett",
-                "dateStart": "07/12",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "Mathematics",
     "code": "MATH",
     "courses": [
@@ -9171,33 +9134,6 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Multivar Calc & Matrix Algebra",
-            "cap": 60,
-            "act": 0,
-            "rem": 60,
-            "attribute": "Introductory Level Course",
-            "timeslots": [
-              {
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "timeStart": 1030,
-                "timeEnd": 1235,
-                "instructor": "Daniel Franklin Stevenson",
-                "dateStart": "05/24",
-                "dateEnd": "08/20",
-                "location": "TBA"
-              }
-            ]
-          },
-          {
-            "crn": 16743,
-            "subj": "MATH",
-            "crse": 2010,
-            "sec": "1",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Multivar Calc & Matrix Algebra",
             "cap": 70,
             "act": 0,
             "rem": 70,
@@ -9210,7 +9146,7 @@
                 ],
                 "timeStart": 1030,
                 "timeEnd": 1235,
-                "instructor": "Daniel Franklin Stevenson",
+                "instructor": "Daniel Franklin Stevenson, Mahmood Hameed",
                 "dateStart": "05/24",
                 "dateEnd": "08/20",
                 "location": "TBA"
@@ -11008,9 +10944,9 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Bioethics",
-            "cap": 0,
+            "cap": 25,
             "act": 0,
-            "rem": 0,
+            "rem": 25,
             "attribute": "Communication Intensive and PDII Option for Engr Majors",
             "timeslots": [
               {
@@ -11037,9 +10973,9 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Bioethics",
-            "cap": 0,
+            "cap": 25,
             "act": 0,
-            "rem": 0,
+            "rem": 25,
             "attribute": "Communication Intensive and PDII Option for Engr Majors",
             "timeslots": [
               {
