@@ -218,6 +218,21 @@
             ]
         }
     },
+    "16669": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "BIOL 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "BIOL 4620"
+                }
+            ]
+        }
+    },
     "16282": {
         "cross_list_courses": [
             "BCBP-4760",
@@ -2362,7 +2377,7 @@
                     "Electric Power Engr",
                     "Engineering Science",
                     "Materials Engineering",
-                    "Mechanics",
+                    "Mechanical Engineering",
                     "Industrial & Management Engr",
                     "Nuclear Engineering"
                 ]
@@ -3531,8 +3546,17 @@
                     "course": "MATH 2400"
                 },
                 {
-                    "type": "course",
-                    "course": "PHYS 1200"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
@@ -3546,8 +3570,17 @@
                     "course": "MATH 2400"
                 },
                 {
-                    "type": "course",
-                    "course": "PHYS 1200"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
                 }
             ]
         }
@@ -3812,9 +3845,21 @@
             }
         }
     },
-    "16371": {},
-    "16568": {},
-    "16569": {},
+    "16371": {
+        "cross_list_courses": [
+            "STSS-4961"
+        ]
+    },
+    "16568": {
+        "cross_list_courses": [
+            "STSS-4963"
+        ]
+    },
+    "16569": {
+        "cross_list_courses": [
+            "STSS-4962"
+        ]
+    },
     "16418": {},
     "16557": {},
     "16558": {},
@@ -3840,8 +3885,15 @@
             }
         }
     },
-    "16370": {},
+    "16370": {
+        "cross_list_courses": [
+            "STSH-4961"
+        ]
+    },
     "16391": {
+        "cross_list_courses": [
+            "STSH-4964"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -3852,7 +3904,11 @@
             }
         }
     },
-    "16567": {},
+    "16567": {
+        "cross_list_courses": [
+            "STSH-4963"
+        ]
+    },
     "16684": {},
     "16399": {},
     "16416": {},
