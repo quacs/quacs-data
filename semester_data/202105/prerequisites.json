@@ -496,8 +496,17 @@
                     ]
                 },
                 {
-                    "type": "course",
-                    "course": "BMED 2050"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "BMED 2050"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BMED 2960"
+                        }
+                    ]
                 }
             ]
         }
@@ -524,8 +533,17 @@
                     ]
                 },
                 {
-                    "type": "course",
-                    "course": "BMED 2050"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "BMED 2050"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BMED 2960"
+                        }
+                    ]
                 }
             ]
         }
