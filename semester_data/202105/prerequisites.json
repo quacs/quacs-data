@@ -432,10 +432,6 @@
                 {
                     "type": "course",
                     "course": "BMED 2540"
-                },
-                {
-                    "type": "course",
-                    "course": "BMED 4200"
                 }
             ]
         }
@@ -444,10 +440,6 @@
         "prerequisites": {
             "type": "and",
             "nested": [
-                {
-                    "type": "course",
-                    "course": "BMED 4200"
-                },
                 {
                     "type": "course",
                     "course": "BMED 2100"
@@ -469,10 +461,6 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "BMED 4200"
-                },
-                {
-                    "type": "course",
                     "course": "BMED 2100"
                 },
                 {
@@ -492,7 +480,7 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "MATH 2400"
+                    "course": "MATH 2010"
                 },
                 {
                     "type": "or",
@@ -508,17 +496,8 @@
                     ]
                 },
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1190"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "BMED 2050"
                 }
             ]
         }
@@ -545,17 +524,8 @@
                     ]
                 },
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1190"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "BMED 2050"
                 }
             ]
         }
@@ -2678,17 +2648,7 @@
         }
     },
     "15953": {},
-    "16529": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
+    "16529": {},
     "16551": {},
     "16571": {
         "cross_list_courses": [
@@ -3869,8 +3829,33 @@
     "16611": {},
     "16679": {
         "prerequisites": {
-            "type": "course",
-            "course": "or"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2510"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                }
+            ]
         }
     },
     "16580": {
