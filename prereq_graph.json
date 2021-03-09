@@ -161,9 +161,7 @@
   "ECSE 4440": {
     "title": "Control Systems Engineering",
     "prereqs": [
-      "ECSE 2410",
-      "MANE 4050",
-      "MANE 4500"
+      "ECSE 2410"
     ]
   },
   "ECSE 4490": {
@@ -578,7 +576,9 @@
     "title": "Statistical Methods",
     "prereqs": [
       "MATH 1010",
-      "MATH 1500"
+      "MATH 1020",
+      "MATH 1500",
+      "MATH 1520"
     ]
   },
   "MGMT 4310": {
@@ -630,7 +630,7 @@
     "prereqs": [
       "MGMT 2300",
       "MGMT 2320",
-      "MGMT 2430",
+      "MGMT 2340",
       "MGMT 4110"
     ]
   },
@@ -922,16 +922,13 @@
     "title": "Electromagnetic Theory",
     "prereqs": [
       "MATH 4600",
-      "MATH 4700",
-      "PHYS 2210"
+      "PHYS 2220"
     ]
   },
   "PHYS 4420": {
     "title": "Thermodyn & Stat Mech",
     "prereqs": [
       "MATH 2010",
-      "MATH 2011",
-      "MATH 2012",
       "MATH 2400",
       "PHYS 2220"
     ]
@@ -1005,7 +1002,7 @@
     ]
   },
   "MANE 4220": {
-    "title": "Inventor's Studio 2",
+    "title": "Inventors Studio 2",
     "prereqs": [
       "ENGR 2050",
       "MANE 2220"
@@ -1277,7 +1274,6 @@
   "ITWS 4100": {
     "title": "It & Web Science Capstone",
     "prereqs": [
-      "ITWS 2210",
       "ITWS 4310"
     ]
   },
@@ -1293,8 +1289,6 @@
     "title": "Theoretical Mechanics",
     "prereqs": [
       "MATH 2010",
-      "MATH 2011",
-      "MATH 2012",
       "MATH 2400",
       "PHYS 1200",
       "PHYS 1250"
@@ -1342,9 +1336,7 @@
   "ECSE 2110": {
     "title": "Electrical Energy Systems",
     "prereqs": [
-      "ECSE 2010",
-      "PHYS 1200",
-      "PHYS 1250"
+      "ECSE 2010"
     ]
   },
   "ITWS 4962": {
@@ -1370,7 +1362,10 @@
   "ECSE 2100": {
     "title": "Fields And Waves I",
     "prereqs": [
-      "ECSE 2010"
+      "ECSE 2010",
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "ARCH 4250": {
@@ -1428,15 +1423,14 @@
   "ECSE 2050": {
     "title": "Introduction To Electronics",
     "prereqs": [
-      "ECSE 2010",
-      "PHYS 1200",
-      "PHYS 1250"
+      "ECSE 2010"
     ]
   },
   "ECSE 2610": {
     "title": "Cptr Components & Oper",
     "prereqs": [
-      "CSCI 1100"
+      "CSCI 1100",
+      "CSCI 1200"
     ]
   },
   "ISYE 4260": {
@@ -1446,7 +1440,7 @@
     ]
   },
   "MANE 4070": {
-    "title": "Aerodynamics I",
+    "title": "Aerodynamics",
     "prereqs": [
       "ENGR 2250",
       "MANE 2720",
@@ -1543,9 +1537,7 @@
     "prereqs": [
       "CSCI 1200",
       "MATH 1010",
-      "MATH 1020",
-      "MATH 1500",
-      "MATH 2010"
+      "MATH 1500"
     ]
   },
   "CSCI 2300": {
@@ -1554,9 +1546,7 @@
       "CSCI 1200",
       "CSCI 2200",
       "MATH 1010",
-      "MATH 1020",
-      "MATH 1500",
-      "MATH 2010"
+      "MATH 2800"
     ]
   },
   "CSCI 4260": {
@@ -1594,7 +1584,8 @@
     "title": "Electronic Instrumentation",
     "prereqs": [
       "MATH 2400",
-      "PHYS 1200"
+      "PHYS 1200",
+      "PHYS 1250"
     ]
   },
   "ENGR 2960": {
@@ -1659,7 +1650,7 @@
     ]
   },
   "ENGR 2600": {
-    "title": "Mod & Analysis Uncertain",
+    "title": "Mod & Analysis Uncertainty",
     "prereqs": [
       "MATH 1010"
     ]
@@ -1756,8 +1747,7 @@
   "BMED 2300": {
     "title": "Bioimaging/ Bioinstrumentation",
     "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
+      "PHYS 1200"
     ]
   },
   "BMED 4240": {
@@ -1935,7 +1925,7 @@
   "BIOL 4320": {
     "title": "Microbiology Laboratory",
     "prereqs": [
-      "BIOL 4310"
+      "BIOL 2500"
     ]
   },
   "BIOL 4350": {
@@ -1948,15 +1938,15 @@
   "BMED 4200": {
     "title": "Modeling Of Biomedical Systems",
     "prereqs": [
-      "BMED 2050",
-      "BMED 2960",
-      "MATH 2010",
+      "CSCI 1100",
+      "CSCI 1190",
+      "MATH 2400",
       "PHYS 1200",
       "PHYS 1250"
     ]
   },
   "BMED 4260": {
-    "title": "Biomedical Product Development",
+    "title": "Biomedical Product Development & Commercialization",
     "prereqs": [
       "ENGR 2050"
     ]
@@ -2133,11 +2123,9 @@
     ]
   },
   "CSCI 4964": {
-    "title": "Data Analytics == Csci 4600",
+    "title": "Cognitive Computing",
     "prereqs": [
-      "CSCI 4350",
-      "ERTH 4350",
-      "ITWS 4350"
+      "CSCI 2300"
     ]
   },
   "CSCI 4975": {
@@ -2158,9 +2146,9 @@
   "ECSE 2210": {
     "title": "Microelectronics Technology",
     "prereqs": [
-      "ECSE 2010",
-      "PHYS 1200",
-      "PHYS 1250"
+      "ECSE 2050",
+      "ECSE 2100",
+      "PHYS 4210"
     ]
   },
   "ENVE 4360": {
@@ -2179,10 +2167,7 @@
   "MGMT 4100": {
     "title": "Quantitative Methods For Bus",
     "prereqs": [
-      "ENGR 2600",
-      "MGMT 2100",
-      "MGMT 2150",
-      "MGMT 2510"
+      "MGMT 2100"
     ]
   },
   "MGMT 6470": {
@@ -2300,8 +2285,7 @@
   "PHYS 4620": {
     "title": "Elementary Particle Physics",
     "prereqs": [
-      "PHYS 4100",
-      "PHYS 6510"
+      "PHYS 4100"
     ]
   },
   "ARCH 4110": {
@@ -2474,7 +2458,7 @@
     ]
   },
   "ARCH 4830": {
-    "title": "Integrated Design Dev Studio",
+    "title": "Integrated Design Development Studio",
     "prereqs": [
       "ARCH 4820"
     ]
@@ -2770,8 +2754,7 @@
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
-      "MATH 1010",
-      "MATH 1500"
+      "IHSS 1975"
     ]
   },
   "ECON 4150": {
@@ -2791,14 +2774,11 @@
   "ECON 4900": {
     "title": "Seminar In Economics",
     "prereqs": [
-      "ECON 1200",
-      "ECON 4570",
-      "IHSS 1200",
-      "IHSS 1975"
+      "ECON 4570"
     ]
   },
   "ECSE 2410": {
-    "title": "Signals And Systems",
+    "title": "Signals & Systems",
     "prereqs": [
       "ECSE 2010"
     ]
@@ -2831,7 +2811,7 @@
     ]
   },
   "MATH 2400": {
-    "title": "Intro Diff Equations",
+    "title": "Intro Differential Equations",
     "prereqs": [
       "MATH 1020"
     ]
@@ -2867,9 +2847,9 @@
   "PHYS 1200": {
     "title": "Physics II",
     "prereqs": [
-      "MATH 1020",
       "PHYS 1100",
-      "PHYS 1150"
+      "PHYS 1150",
+      "PHYS 1961"
     ]
   },
   "PSYC 2310": {
@@ -3022,7 +3002,7 @@
     ]
   },
   "ENGR 2050": {
-    "title": "Intro Engr Design",
+    "title": "Intro Engineering Design",
     "prereqs": [
       "CIVL 1200",
       "ECSE 1010",
@@ -3099,7 +3079,7 @@
     ]
   },
   "MTLE 2100": {
-    "title": "Struc Of Engr Materials",
+    "title": "Structure Of Materials",
     "prereqs": [
       "CHEM 1600",
       "ENGR 1600",
@@ -3134,9 +3114,10 @@
     ]
   },
   "MANE 2220": {
-    "title": "Inventor's Studio 1",
+    "title": "Inventors Studio 1",
     "prereqs": [
       "CIVL 1200",
+      "ECSE 1010",
       "ENGR 1100",
       "ENGR 1200",
       "ENGR 1400",
@@ -3153,14 +3134,14 @@
     ]
   },
   "MANE 4900": {
-    "title": "Aero. & Struct. Vibrations",
+    "title": "Aeroelasticity And Structural Vibrations",
     "prereqs": [
       "MANE 4060",
       "MATH 2400"
     ]
   },
   "MANE 4920": {
-    "title": "Aero Struct & Control Lab",
+    "title": "Aerospace Structures And Control Laboratory",
     "prereqs": [
       "MANE 4060"
     ]
@@ -3190,7 +3171,7 @@
     ]
   },
   "BCBP 4760": {
-    "title": "Molecular Biochemistry I",
+    "title": "Molecular Biochem I",
     "prereqs": [
       "BIOL 1010",
       "BIOL 2120",
@@ -3207,7 +3188,6 @@
   "CHME 4010": {
     "title": "Transport Phenomena I",
     "prereqs": [
-      "CHME 2010",
       "MATH 2400"
     ]
   },
@@ -3218,7 +3198,7 @@
     ]
   },
   "CHEM 4760": {
-    "title": "Molecular Biochemistry I",
+    "title": "Molecular Biochem I",
     "prereqs": [
       "BIOL 1010",
       "BIOL 2120",
@@ -3430,7 +3410,7 @@
     ]
   },
   "CSCI 4440": {
-    "title": "Software Design & Docume",
+    "title": "Software Design & Doc.",
     "prereqs": [
       "CSCI 2300"
     ]
@@ -3476,6 +3456,7 @@
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
+      "IHSS 1975",
       "MATH 1010",
       "MATH 1500"
     ]
@@ -3484,7 +3465,8 @@
     "title": "International Economics And Globalization",
     "prereqs": [
       "ECON 1200",
-      "IHSS 1200"
+      "IHSS 1200",
+      "IHSS 1975"
     ]
   },
   "ECON 4330": {
@@ -3765,7 +3747,7 @@
     ]
   },
   "CHME 2050": {
-    "title": "Intro Computational Chem Eng",
+    "title": "Introduction To Computational Chemical Engineering",
     "prereqs": [
       "MATH 2400"
     ]
@@ -3790,7 +3772,7 @@
     ]
   },
   "CSCI 4967": {
-    "title": "Economics And Computation",
+    "title": "Modern Binary Exploitation",
     "prereqs": [
       "CSCI 2300"
     ]
@@ -3870,9 +3852,12 @@
     ]
   },
   "MANE 2110": {
-    "title": "Num Meth & Prog For Eng",
+    "title": "Numerical Methods And Programming For Engineers",
     "prereqs": [
-      "ENGR 1100"
+      "ENGR 1100",
+      "MATH 2400",
+      "PHYS 1200",
+      "PHYS 1250"
     ]
   },
   "MANE 2710": {
@@ -3991,16 +3976,18 @@
   "CSCI 4800": {
     "title": "Numerical Computing",
     "prereqs": [
+      "CSCI 1100",
+      "CSCI 1200",
+      "ENGR 1100",
       "MATH 2010",
-      "MATH 2011",
-      "MATH 2012",
       "MATH 2400"
     ]
   },
   "CSCI 4961": {
-    "title": "Cognitive Modeling",
+    "title": "Machine Learning & Optimizatio",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 2300",
+      "MATH 2010"
     ]
   },
   "CSCI 4963": {
@@ -4011,7 +3998,7 @@
     ]
   },
   "ISYE 4600": {
-    "title": "Operations Research Method",
+    "title": "Operations Research Methods",
     "prereqs": [
       "ENGR 2600",
       "MATH 1020"
@@ -4072,16 +4059,16 @@
     ]
   },
   "CSCI 4960": {
-    "title": "Application Design Using Java",
+    "title": "Data Analytics",
     "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
+      "CSCI 4350",
+      "ERTH 4350",
+      "ITWS 4350"
     ]
   },
   "CSCI 4962": {
-    "title": "Theory Of Computation",
+    "title": "Network Resilience",
     "prereqs": [
-      "CSCI 2200",
       "CSCI 2300"
     ]
   },
@@ -4122,7 +4109,6 @@
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
-      "IHSS 1975",
       "MATH 2010"
     ]
   },
@@ -4131,6 +4117,7 @@
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
+      "IHSS 1975",
       "MATH 1010",
       "MATH 1500"
     ]
@@ -4188,8 +4175,10 @@
   "MATH 6220": {
     "title": "Applied Functional Analysis",
     "prereqs": [
-      "MATH 4210",
-      "MATH 4300"
+      "MATH 4100",
+      "MATH 4200",
+      "MATH 4300",
+      "MATH 4600"
     ]
   },
   "MANE 4160": {
@@ -4239,7 +4228,7 @@
     ]
   },
   "STSH 4970": {
-    "title": "Dsgn & Innovation Senior Proj",
+    "title": "Design & Innov Senior Project",
     "prereqs": [
       "ENGR 2020"
     ]
@@ -4255,7 +4244,7 @@
     ]
   },
   "STSS 4970": {
-    "title": "Dsgn & Innovation Senior Proj",
+    "title": "Design & Innov Senior Project",
     "prereqs": [
       "ENGR 2020"
     ]
@@ -4390,15 +4379,10 @@
     ]
   },
   "STSS 4800": {
-    "title": "Public Svc & Social Justice",
+    "title": "Public Serv & Social Justice",
     "prereqs": [
-      "STSH 2500",
-      "STSS 2100",
-      "STSS 2210",
-      "STSS 2300",
-      "STSS 2510",
-      "STSS 2520",
-      "STSS 2700"
+      "STSH 1110",
+      "STSS 1110"
     ]
   },
   "BIOL 4961": {
@@ -4419,9 +4403,7 @@
   "BMED 4010": {
     "title": "Biomedical Engineering Lab",
     "prereqs": [
-      "BMED 2100",
-      "BMED 2300",
-      "BMED 2540"
+      "BMED 4200"
     ]
   },
   "COGS 4360": {
@@ -4475,7 +4457,7 @@
     ]
   },
   "MANE 4050": {
-    "title": "Modeling And Contrl Of Dyn Sys",
+    "title": "Modeling And Control Of Dynamic Systems",
     "prereqs": [
       "MATH 2400",
       "PHYS 1200",
@@ -4506,7 +4488,8 @@
   "ARTS 4070": {
     "title": "3D Animation",
     "prereqs": [
-      "ARTS 2230"
+      "ARTS 2230",
+      "ARTS 4060"
     ]
   },
   "BCBP 4470": {
@@ -4650,7 +4633,7 @@
     ]
   },
   "MANE 4740": {
-    "title": "Thermal & Fluids Eng Lab",
+    "title": "Thermal And Fluids Engineering Laboratory",
     "prereqs": [
       "MANE 2710",
       "MANE 2720",
@@ -4677,18 +4660,6 @@
       "PSYC 1200"
     ]
   },
-  "ARCH 4780": {
-    "title": "Architectural Design Studio 6",
-    "prereqs": [
-      "ARCH 4770"
-    ]
-  },
-  "ARCH 4820": {
-    "title": "Integrated Design Schematic",
-    "prereqs": [
-      "ARCH 2830"
-    ]
-  },
   "BMED 2050": {
     "title": "Programming For Biomed Engr",
     "prereqs": [
@@ -4701,26 +4672,6 @@
       "ENGR 1100",
       "MATH 2400",
       "PHYS 1100"
-    ]
-  },
-  "BMED 4961": {
-    "title": "Biomedical Instrumentation",
-    "prereqs": [
-      "BMED 2300"
-    ]
-  },
-  "CHME 4030": {
-    "title": "Chem Process Dynamics & Cntrl",
-    "prereqs": [
-      "CHME 2010",
-      "MATH 2400"
-    ]
-  },
-  "CHME 6570": {
-    "title": "Chemical & Phase Equilibria",
-    "prereqs": [
-      "CHME 2020",
-      "MATH 2400"
     ]
   },
   "CHEM 4130": {
@@ -4861,24 +4812,10 @@
     ]
   },
   "ECSE 4961": {
-    "title": "Advanced Computer Systems",
+    "title": "Computer Vision",
     "prereqs": [
-      "ECSE 2660"
-    ]
-  },
-  "ECSE 4962": {
-    "title": "Fund. Of Rf/Microwave Engr",
-    "prereqs": [
-      "ECSE 2050",
-      "ECSE 2100"
-    ]
-  },
-  "ECSE 4963": {
-    "title": "Networks & Networked Systems",
-    "prereqs": [
-      "CSCI 2200",
-      "ECSE 2500",
-      "ENGR 2600"
+      "ENGR 2090",
+      "MATH 4800"
     ]
   },
   "ECSE 6962": {
@@ -4894,12 +4831,6 @@
     "prereqs": [
       "ECSE 4080",
       "ECSE 4110"
-    ]
-  },
-  "ENVE 4961": {
-    "title": "Environmental Impact Analysis",
-    "prereqs": [
-      "ENVE 2110"
     ]
   },
   "GSAS 4260": {
@@ -4956,13 +4887,6 @@
       "MGMT 6190"
     ]
   },
-  "MGMT 7030": {
-    "title": "Strategy, Tech & Competition I",
-    "prereqs": [
-      "MGMT 6040",
-      "MGMT 7730"
-    ]
-  },
   "MTLE 4100": {
     "title": "Thermodynamics Of Materials",
     "prereqs": [
@@ -5000,43 +4924,12 @@
       "MTLE 4250"
     ]
   },
-  "MTLE 4910": {
-    "title": "Materials Selection",
-    "prereqs": [
-      "CHEM 1100",
-      "CHEM 1110",
-      "CHEM 1600",
-      "ENGR 1600",
-      "ISCI 1600",
-      "PHYS 1600"
-    ]
-  },
-  "MATH 1020": {
-    "title": "Calculus II",
-    "prereqs": [
-      "MATH 1010"
-    ]
-  },
   "MANE 4210": {
     "title": "Vtol Aircraft Design",
     "prereqs": [
       "MANE 4090",
       "MANE 4120",
       "MANE 4130"
-    ]
-  },
-  "MANE 4500": {
-    "title": "Modeling And Contrl Of Dyn Sys",
-    "prereqs": [
-      "MATH 2400",
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
-  },
-  "PHYS 4100": {
-    "title": "Intro Quantum Mech",
-    "prereqs": [
-      "PHYS 2220"
     ]
   },
   "PSYC 4350": {
@@ -5061,18 +4954,6 @@
     "prereqs": [
       "STSS 2210",
       "STSS 2300"
-    ]
-  },
-  "STSH 4800": {
-    "title": "Public Svc & Social Justice",
-    "prereqs": [
-      "STSH 2500",
-      "STSS 2100",
-      "STSS 2210",
-      "STSS 2300",
-      "STSS 2510",
-      "STSS 2520",
-      "STSS 2700"
     ]
   },
   "STSH 4960": {
@@ -5117,6 +4998,199 @@
     "prereqs": [
       "CIVL 6660",
       "MANE 6660"
+    ]
+  },
+  "BMED 2540": {
+    "title": "Biomechanics",
+    "prereqs": [
+      "ENGR 1100"
+    ]
+  },
+  "BMED 4600": {
+    "title": "Biomedical Engr Design",
+    "prereqs": [
+      "BMED 4260"
+    ]
+  },
+  "CIVL 4020": {
+    "title": "Bedford Seminar",
+    "prereqs": [
+      "CIVL 4450"
+    ]
+  },
+  "CIVL 4440": {
+    "title": "Matrix Structural Analysis",
+    "prereqs": [
+      "CIVL 2670"
+    ]
+  },
+  "CIVL 6340": {
+    "title": "Bedford Design Studio",
+    "prereqs": [
+      "CIVL 4020",
+      "CIVL 4961",
+      "CIVL 4965",
+      "CIVL 6310",
+      "CIVL 6320"
+    ]
+  },
+  "COGS 4960": {
+    "title": "Human Motor Control",
+    "prereqs": [
+      "PSYC 1200"
+    ]
+  },
+  "CSCI 2960": {
+    "title": "Web Systems Development",
+    "prereqs": [
+      "CSCI 1200",
+      "ITWS 1100"
+    ]
+  },
+  "CSCI 4966": {
+    "title": "Programming For Cog Sci & Ai",
+    "prereqs": [
+      "CSCI 2300"
+    ]
+  },
+  "ECON 4130": {
+    "title": "Money & Banking",
+    "prereqs": [
+      "ECON 1200",
+      "IHSS 1200",
+      "IHSS 1975"
+    ]
+  },
+  "ECON 6030": {
+    "title": "Applied Econometrics",
+    "prereqs": [
+      "MATH 2010"
+    ]
+  },
+  "ECSE 2500": {
+    "title": "Engineering Probability",
+    "prereqs": [
+      "MATH 2400"
+    ]
+  },
+  "ECSE 4090": {
+    "title": "Mechatronics",
+    "prereqs": [
+      "ECSE 2410",
+      "ENGR 2350"
+    ]
+  },
+  "ECSE 4220": {
+    "title": "Vlsi Design",
+    "prereqs": [
+      "ECSE 2050",
+      "ECSE 2610"
+    ]
+  },
+  "GSAS 4963": {
+    "title": "Computer Graphics",
+    "prereqs": [
+      "CSCI 2300"
+    ]
+  },
+  "ITWS 4600": {
+    "title": "Data Analytics",
+    "prereqs": [
+      "CSCI 4350",
+      "ERTH 4350",
+      "ITWS 4350"
+    ]
+  },
+  "MGMT 2300": {
+    "title": "Financial Accounting",
+    "prereqs": [
+      "MGMT 1100"
+    ]
+  },
+  "MGMT 4110": {
+    "title": "Operations Management",
+    "prereqs": [
+      "MGMT 2100"
+    ]
+  },
+  "MGMT 4170": {
+    "title": "Data Resource Management",
+    "prereqs": [
+      "MGMT 4100",
+      "MGMT 4110"
+    ]
+  },
+  "MGMT 4860": {
+    "title": "Human Resources In High Performance Organizations",
+    "prereqs": [
+      "MGMT 1100"
+    ]
+  },
+  "MTLE 4960": {
+    "title": "Matl Informatics & Data Sci",
+    "prereqs": [
+      "CSCI 1100",
+      "MATH 2400"
+    ]
+  },
+  "MANE 4020": {
+    "title": "Thermal & Fluids Eng Lab",
+    "prereqs": [
+      "MANE 4010",
+      "MANE 4400"
+    ]
+  },
+  "MANE 4040": {
+    "title": "Mechanical Systems Lab",
+    "prereqs": [
+      "MANE 4030"
+    ]
+  },
+  "MANE 4470": {
+    "title": "Radiological Engineering",
+    "prereqs": [
+      "MANE 2830"
+    ]
+  },
+  "MANE 4730": {
+    "title": "Heat Transfer",
+    "prereqs": [
+      "MANE 2710",
+      "MANE 2720"
+    ]
+  },
+  "MANE 4800": {
+    "title": "Bound Lay & Heat Trans",
+    "prereqs": [
+      "MANE 4010",
+      "MANE 4070",
+      "MANE 4720"
+    ]
+  },
+  "MANE 4910": {
+    "title": "Fluid Dynamics Lab",
+    "prereqs": [
+      "MANE 4070"
+    ]
+  },
+  "PHYS 2210": {
+    "title": "Quantum Physics I",
+    "prereqs": [
+      "MATH 1020",
+      "PHYS 1200",
+      "PHYS 1250"
+    ]
+  },
+  "PSYC 4720": {
+    "title": "Abnormal Psychology",
+    "prereqs": [
+      "PSYC 1200"
+    ]
+  },
+  "PSYC 4960": {
+    "title": "Human Motor Control",
+    "prereqs": [
+      "PSYC 1200"
     ]
   }
 }
