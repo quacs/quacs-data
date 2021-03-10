@@ -3120,8 +3120,26 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "MATH 2010"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "16720": {
