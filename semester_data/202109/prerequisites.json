@@ -13693,6 +13693,21 @@
         }
     },
     "50333": {},
+    "54646": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MGMT 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "MGMT 2320"
+                }
+            ]
+        }
+    },
     "50072": {
         "prerequisites": {
             "type": "course",
@@ -13840,6 +13855,17 @@
             }
         }
     },
+    "54647": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "52292": {
         "restrictions": {
             "level": {
@@ -13861,6 +13887,21 @@
                     "Quant Finance & Risk Analytics"
                 ]
             }
+        }
+    },
+    "54648": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MGMT 6190"
+                },
+                {
+                    "type": "course",
+                    "course": "MGMT 6020"
+                }
+            ]
         }
     },
     "54416": {
@@ -13910,17 +13951,6 @@
         "prerequisites": {
             "type": "course",
             "course": "MGMT 6310"
-        }
-    },
-    "54247": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
         }
     },
     "53929": {
@@ -14021,15 +14051,6 @@
             }
         }
     },
-    "53768": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "50984": {
         "restrictions": {
             "level": {
@@ -14105,22 +14126,6 @@
                     "Freshman",
                     "Junior",
                     "Sophomore"
-                ]
-            }
-        }
-    },
-    "52952": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Business Analytics",
-                    "Management",
-                    "Supply Chain Management"
                 ]
             }
         }
