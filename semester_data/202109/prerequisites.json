@@ -12488,6 +12488,31 @@
             ]
         }
     },
+    "54650": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ISYE 4600"
+        }
+    },
+    "54649": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ISYE 4140"
+                },
+                {
+                    "type": "course",
+                    "course": "ISYE 4760"
+                },
+                {
+                    "type": "course",
+                    "course": "MATP 4620"
+                }
+            ]
+        }
+    },
     "53253": {
         "restrictions": {
             "campus": {
@@ -12589,6 +12614,15 @@
                 "may_not_be": [
                     "Freshman",
                     "Sophomore"
+                ]
+            }
+        }
+    },
+    "54651": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
