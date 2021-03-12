@@ -14473,6 +14473,8 @@
             ]
         }
     },
+    "54652": {},
+    "54653": {},
     "50278": {},
     "53806": {},
     "53807": {
@@ -14484,6 +14486,38 @@
                     "Senior"
                 ]
             }
+        }
+    },
+    "51990": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Materials Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MTLE 4910"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                }
+            ]
         }
     },
     "51190": {
