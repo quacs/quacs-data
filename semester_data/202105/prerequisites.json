@@ -159,26 +159,6 @@
             "BIOL-1010"
         ]
     },
-    "16533": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "16745": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "16670": {
         "prerequisites": {
             "type": "course",
@@ -211,6 +191,21 @@
                 {
                     "type": "course",
                     "course": "BIOL 4620"
+                }
+            ]
+        }
+    },
+    "16750": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "BIOL 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "BIOL 2500"
                 }
             ]
         }
