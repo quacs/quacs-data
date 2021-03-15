@@ -4849,7 +4849,6 @@
         }
     },
     "54377": {},
-    "54372": {},
     "53281": {
         "restrictions": {
             "level": {
@@ -7366,53 +7365,6 @@
             }
         }
     },
-    "50019": {
-        "cross_list_courses": [
-            "CHEM-1600",
-            "ISCI-1600",
-            "PHYS-1600"
-        ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Information Tech & Web Science",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
     "50453": {
         "cross_list_courses": [
             "CHEM-1600",
@@ -8336,69 +8288,6 @@
                         {
                             "type": "course",
                             "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "53169": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
                         }
                     ]
                 },
@@ -9962,6 +9851,7 @@
             ]
         }
     },
+    "54658": {},
     "53834": {
         "prerequisites": {
             "type": "and",
@@ -12360,16 +12250,6 @@
             }
         }
     },
-    "54386": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "54406": {},
     "54499": {
         "restrictions": {
             "major": {
