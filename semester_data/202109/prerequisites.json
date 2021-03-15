@@ -5387,31 +5387,10 @@
             ]
         }
     },
-    "53546": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
     "52463": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 1200"
-        }
-    },
-    "54470": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 4350"
-                },
-                {
-                    "type": "course",
-                    "course": "ITWS 4350"
-                }
-            ]
         }
     },
     "50379": {
@@ -5475,6 +5454,12 @@
         }
     },
     "50182": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "54665": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -5648,12 +5633,7 @@
             ]
         }
     },
-    "53847": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
+    "54663": {},
     "50987": {
         "prerequisites": {
             "type": "course",
@@ -5716,6 +5696,15 @@
             }
         }
     },
+    "52474": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "52970": {
         "restrictions": {
             "level": {
@@ -5739,29 +5728,7 @@
             }
         }
     },
-    "53547": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
     "52464": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "54572": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -5820,20 +5787,13 @@
             }
         }
     },
-    "53322": {
+    "54664": {
         "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "52518": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
                 ]
             }
         }
