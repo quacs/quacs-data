@@ -17065,6 +17065,30 @@
             ]
         }
     },
+    "54668": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2250"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 2720"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
     "53840": {
         "prerequisites": {
             "type": "and",
@@ -17801,6 +17825,15 @@
             }
         }
     },
+    "54669": {
+        "restrictions": {
+            "level": {
+                "may_not_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "51611": {
         "restrictions": {
             "level": {
@@ -17846,6 +17879,31 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "54667": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 6400"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 6600"
+                }
+            ]
+        }
+    },
+    "54666": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
