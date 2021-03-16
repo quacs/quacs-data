@@ -3923,6 +3923,15 @@
             }
         }
     },
+    "54673": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "54672": {
         "restrictions": {
             "level": {
@@ -3982,7 +3991,6 @@
         }
     },
     "54670": {},
-    "54249": {},
     "50383": {
         "restrictions": {
             "level": {
@@ -10123,6 +10131,9 @@
         }
     },
     "50497": {
+        "cross_list_courses": [
+            "ECSE-2010"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -10153,6 +10164,9 @@
         }
     },
     "50132": {
+        "cross_list_courses": [
+            "ECSE-2010"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -10183,6 +10197,9 @@
         }
     },
     "50133": {
+        "cross_list_courses": [
+            "ECSE-2050"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -10198,6 +10215,9 @@
         }
     },
     "52713": {
+        "cross_list_courses": [
+            "ECSE-2050"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2010"
@@ -11881,10 +11901,40 @@
             ]
         }
     },
+    "54675": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENVE 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 2250"
+                }
+            ]
+        }
+    },
     "52265": {
         "prerequisites": {
             "type": "course",
             "course": "ENVE 2110"
+        }
+    },
+    "54674": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENVE 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 2250"
+                }
+            ]
         }
     },
     "50335": {
@@ -11907,7 +11957,6 @@
         }
     },
     "53909": {},
-    "54250": {},
     "51618": {
         "restrictions": {
             "level": {
