@@ -669,6 +669,12 @@
             }
         }
     },
+    "54676": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARTS 1020"
+        }
+    },
     "53467": {
         "prerequisites": {
             "type": "or",
@@ -692,46 +698,10 @@
     },
     "52748": {},
     "53784": {},
-    "53468": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
     "53717": {
         "prerequisites": {
             "type": "course",
             "course": "ARTS 1380"
-        }
-    },
-    "53833": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ARTS 1380"
-        }
-    },
-    "54260": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
         }
     },
     "52695": {},
@@ -1575,45 +1545,6 @@
             }
         }
     },
-    "53491": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "53926": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "BIOL 4660"
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 6650"
-                },
-                {
-                    "type": "course",
-                    "course": "BCBP 4660"
-                },
-                {
-                    "type": "course",
-                    "course": "BCBP 6650"
-                }
-            ]
-        }
-    },
     "50515": {
         "restrictions": {
             "level": {
@@ -1708,15 +1639,6 @@
     },
     "52496": {},
     "53097": {},
-    "54467": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Graduate Student"
-                ]
-            }
-        }
-    },
     "51954": {
         "restrictions": {
             "level": {
@@ -1794,16 +1716,6 @@
     },
     "50359": {},
     "50442": {},
-    "53272": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "50448": {
         "restrictions": {
             "level": {
@@ -2916,15 +2828,6 @@
             }
         }
     },
-    "51585": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "51936": {
         "restrictions": {
             "level": {
@@ -3016,15 +2919,6 @@
         }
     },
     "51043": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "51481": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -3153,17 +3047,6 @@
         }
     },
     "52772": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "53319": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -4047,15 +3930,6 @@
             }
         }
     },
-    "51070": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "51549": {
         "restrictions": {
             "level": {
@@ -4125,15 +3999,6 @@
         }
     },
     "50208": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "51290": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -5831,21 +5696,6 @@
             }
         }
     },
-    "53353": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "53382": {
         "restrictions": {
             "level": {
@@ -5964,16 +5814,6 @@
         }
     },
     "53584": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "53354": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -6301,16 +6141,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            }
-        }
-    },
-    "53355": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
                 ]
             }
         }
@@ -9292,15 +9122,6 @@
             }
         }
     },
-    "51978": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "51979": {
         "restrictions": {
             "level": {
@@ -9374,15 +9195,6 @@
         }
     },
     "50315": {},
-    "51982": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "51983": {
         "restrictions": {
             "level": {
@@ -9423,15 +9235,6 @@
         }
     },
     "51700": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "50253": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -11091,20 +10894,6 @@
             }
         }
     },
-    "50326": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "must_be": [
-                    "Graduate Student"
-                ]
-            }
-        }
-    },
     "51361": {
         "restrictions": {
             "level": {
@@ -11464,15 +11253,6 @@
             }
         }
     },
-    "50249": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "50250": {
         "restrictions": {
             "level": {
@@ -11808,15 +11588,6 @@
         }
     },
     "51297": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "50522": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12246,8 +12017,6 @@
         }
     },
     "54389": {},
-    "54390": {},
-    "54391": {},
     "54392": {},
     "54393": {
         "restrictions": {
@@ -12475,15 +12244,6 @@
     },
     "50241": {},
     "50242": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "51414": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13253,7 +13013,6 @@
         }
     },
     "53949": {},
-    "50988": {},
     "53813": {},
     "52437": {},
     "53772": {
@@ -14271,7 +14030,6 @@
             "MTLE-6960"
         ]
     },
-    "54657": {},
     "53807": {
         "restrictions": {
             "classification": {
