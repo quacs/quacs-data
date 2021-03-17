@@ -5543,7 +5543,6 @@
     },
     "53237": {},
     "54580": {},
-    "54581": {},
     "53316": {
         "prerequisites": {
             "type": "course",
@@ -5666,7 +5665,6 @@
             }
         }
     },
-    "54587": {},
     "52795": {
         "restrictions": {
             "level": {
@@ -9634,7 +9632,11 @@
             ]
         }
     },
-    "54658": {},
+    "54658": {
+        "cross_list_courses": [
+            "ECON-6960"
+        ]
+    },
     "53834": {
         "prerequisites": {
             "type": "and",
@@ -9940,6 +9942,18 @@
         }
     },
     "53257": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "54695": {
+        "cross_list_courses": [
+            "ECON-4210"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12100,6 +12114,18 @@
             }
         }
     },
+    "54696": {
+        "cross_list_courses": [
+            "GSAS-6200"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
     "54499": {
         "restrictions": {
             "major": {
@@ -12114,6 +12140,9 @@
         }
     },
     "54660": {
+        "cross_list_courses": [
+            "GSAS-4960"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
