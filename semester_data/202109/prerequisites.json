@@ -12155,6 +12155,12 @@
     "54398": {},
     "54399": {},
     "54400": {},
+    "54690": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 1100"
+        }
+    },
     "50002": {
         "prerequisites": {
             "type": "course",
@@ -12272,25 +12278,6 @@
                 {
                     "type": "course",
                     "course": "CSCI 1100"
-                }
-            ]
-        }
-    },
-    "50339": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1190"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
                 }
             ]
         }
@@ -12533,6 +12520,26 @@
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
+        }
+    },
+    "50340": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Technology",
+                    "Information Tech & Web Science"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ITWS 2110"
         }
     },
     "53771": {
