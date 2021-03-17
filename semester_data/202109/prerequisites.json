@@ -638,9 +638,45 @@
     "54258": {},
     "54259": {},
     "53170": {},
-    "50289": {},
-    "50488": {},
-    "53718": {},
+    "50289": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Communication, Media, & Design",
+                    "Design, Innovation and Society",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "50488": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Communication, Media, & Design",
+                    "Design, Innovation and Society",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "53718": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "53545": {
         "prerequisites": {
             "type": "course",
@@ -697,7 +733,20 @@
         }
     },
     "52748": {},
-    "53784": {},
+    "53784": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Communication, Media, & Design",
+                    "Design, Innovation and Society",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "53717": {
         "prerequisites": {
             "type": "course",
@@ -731,6 +780,9 @@
     "54686": {},
     "54687": {},
     "54267": {
+        "cross_list_courses": [
+            "ARTS-6050"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ARTS 1030"
@@ -791,6 +843,9 @@
     },
     "53529": {},
     "54271": {
+        "cross_list_courses": [
+            "ARTS-4040"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -11770,6 +11825,7 @@
             "course": "MATH 1020"
         }
     },
+    "54688": {},
     "53909": {},
     "51618": {
         "restrictions": {
@@ -12170,6 +12226,30 @@
                     "Hartford"
                 ]
             }
+        }
+    },
+    "54689": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2600"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 1010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CSCI 1100"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "54486": {
