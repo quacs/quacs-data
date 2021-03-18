@@ -1624,6 +1624,15 @@
             }
         }
     },
+    "54702": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "50515": {
         "restrictions": {
             "level": {
@@ -1718,15 +1727,6 @@
     },
     "52496": {},
     "53097": {},
-    "54467": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Graduate Student"
-                ]
-            }
-        }
-    },
     "51954": {
         "restrictions": {
             "level": {
@@ -4310,32 +4310,6 @@
             ]
         }
     },
-    "54334": {},
-    "53719": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "IHSS 1150"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1140"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                }
-            ]
-        }
-    },
-    "53569": {
-        "prerequisites": {
-            "type": "course",
-            "course": "COGS 2340"
-        }
-    },
     "54475": {
         "restrictions": {
             "major": {
@@ -5562,7 +5536,6 @@
             "course": "CSCI 2300"
         }
     },
-    "53237": {},
     "54580": {},
     "53316": {
         "prerequisites": {
