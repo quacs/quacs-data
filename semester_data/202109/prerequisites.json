@@ -4602,34 +4602,6 @@
         }
     },
     "53760": {},
-    "53761": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "54481": {},
-    "53721": {},
-    "53722": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
     "53762": {},
     "53763": {
         "restrictions": {
@@ -4691,6 +4663,29 @@
             "course": "COMM 4240"
         }
     },
+    "54709": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ARTS 1020"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 1510"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 4460"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 4570"
+                }
+            ]
+        }
+    },
     "53280": {},
     "53632": {
         "restrictions": {
@@ -4714,6 +4709,7 @@
         }
     },
     "54377": {},
+    "54710": {},
     "53281": {
         "restrictions": {
             "level": {
