@@ -2082,12 +2082,6 @@
             "course": "ENGR 2050"
         }
     },
-    "53220": {
-        "prerequisites": {
-            "type": "course",
-            "course": "BMED 4500"
-        }
-    },
     "53866": {
         "prerequisites": {
             "type": "and",
@@ -2164,24 +2158,6 @@
     },
     "52701": {},
     "54408": {},
-    "53221": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "54419": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "53867": {
         "restrictions": {
             "level": {
@@ -2228,24 +2204,6 @@
         }
     },
     "52702": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "54597": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "53597": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -10635,6 +10593,130 @@
             ]
         }
     },
+    "50498": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "50499": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "50548": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "51459": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
     "53499": {
         "cross_list_courses": [
             "ECSE-6650"
@@ -12207,6 +12289,50 @@
                     "Hartford"
                 ]
             }
+        }
+    },
+    "51443": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2050"
+        }
+    },
+    "51466": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2050"
         }
     },
     "54689": {
