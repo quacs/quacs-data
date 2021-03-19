@@ -1118,7 +1118,15 @@
             ]
         }
     },
-    "53883": {},
+    "53883": {
+        "cross_list_courses": [
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ]
+    },
     "50227": {},
     "51305": {},
     "52641": {},
@@ -1293,27 +1301,12 @@
             "BIOL-1015"
         ]
     },
-    "52312": {
-        "corequisites": [
-            "BIOL-1010"
-        ]
-    },
-    "52313": {
-        "corequisites": [
-            "BIOL-1010"
-        ]
-    },
     "52314": {
         "corequisites": [
             "BIOL-1010"
         ]
     },
     "52315": {
-        "corequisites": [
-            "BIOL-1010"
-        ]
-    },
-    "52316": {
         "corequisites": [
             "BIOL-1010"
         ]
@@ -5488,6 +5481,13 @@
         }
     },
     "52138": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-4962",
+            "MGMT-6962"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -9875,19 +9875,6 @@
             ]
         }
     },
-    "51134": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Economics"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ECON 4570"
-        }
-    },
     "54452": {
         "prerequisites": {
             "type": "or",
@@ -9970,24 +9957,6 @@
     "53839": {},
     "54746": {},
     "54287": {},
-    "52295": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "53257": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "54695": {
         "cross_list_courses": [
             "ECON-4210"
@@ -11980,16 +11949,6 @@
             }
         }
     },
-    "54367": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Electronic Arts",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
     "53591": {
         "restrictions": {
             "major": {
@@ -12001,15 +11960,6 @@
                 "must_be": [
                     "Freshman",
                     "Sophomore"
-                ]
-            }
-        }
-    },
-    "53940": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
                 ]
             }
         }
@@ -12057,16 +12007,6 @@
         "restrictions": {
             "major": {
                 "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "53461": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
                     "Games & Simulation Arts & Sci"
                 ]
             }
@@ -12144,6 +12084,19 @@
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
+        }
+    },
+    "54747": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "GSAS 4510"
         }
     },
     "54660": {
@@ -12626,6 +12579,9 @@
         }
     },
     "53771": {
+        "cross_list_courses": [
+            "ITWS-6600"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -12652,7 +12608,11 @@
             ]
         }
     },
-    "52945": {},
+    "52945": {
+        "cross_list_courses": [
+            "ITWS-6700"
+        ]
+    },
     "54715": {
         "cross_list_courses": [
             "ITWS-6960"
@@ -12718,10 +12678,18 @@
         }
     },
     "53779": {
+        "cross_list_courses": [
+            "ITWS-4600"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
                 ]
             },
             "major": {
@@ -12733,6 +12701,9 @@
         }
     },
     "52944": {
+        "cross_list_courses": [
+            "ITWS-4700"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13629,6 +13600,13 @@
     "53239": {},
     "54064": {},
     "53884": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-6962"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -13944,6 +13922,13 @@
         }
     },
     "53885": {
+        "cross_list_courses": [
+            "BCBP-4960",
+            "CSCI-4960",
+            "ITWS-4600",
+            "ITWS-6600",
+            "MGMT-4962"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
