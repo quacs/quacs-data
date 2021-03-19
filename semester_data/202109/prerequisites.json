@@ -591,7 +591,6 @@
     },
     "53638": {},
     "54541": {},
-    "54542": {},
     "51186": {
         "restrictions": {
             "level": {
@@ -4727,18 +4726,25 @@
             }
         }
     },
-    "54276": {},
-    "54277": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Elect Media, Arts, & Comm"
-                ]
-            }
+    "54725": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "or"
+                },
+                {
+                    "type": "course",
+                    "course": "or"
+                },
+                {
+                    "type": "course",
+                    "course": "or"
+                }
+            ]
         }
     },
-    "54377": {},
     "54710": {},
     "53281": {
         "restrictions": {
@@ -4755,16 +4761,6 @@
                 "must_be": [
                     "Information Technology",
                     "Information Tech & Web Science"
-                ]
-            }
-        }
-    },
-    "54278": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
                 ]
             }
         }
@@ -5171,18 +5167,12 @@
         }
     },
     "52509": {
+        "cross_list_courses": [
+            "ITWS-2110"
+        ],
         "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ITWS 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                }
-            ]
+            "type": "course",
+            "course": "ITWS 1100"
         }
     },
     "54346": {},
@@ -5279,6 +5269,13 @@
         }
     },
     "52463": {
+        "cross_list_courses": [
+            "CSCI-6350",
+            "ERTH-4350",
+            "ERTH-6350",
+            "ITWS-4350",
+            "ITWS-6350"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 1200"
@@ -5618,6 +5615,13 @@
         }
     },
     "52464": {
+        "cross_list_courses": [
+            "CSCI-4350",
+            "ERTH-4350",
+            "ERTH-6350",
+            "ITWS-4350",
+            "ITWS-6350"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -8834,7 +8838,13 @@
             }
         }
     },
-    "50489": {},
+    "50489": {
+        "cross_list_courses": [
+            "ENGR-6100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ]
+    },
     "53164": {
         "restrictions": {
             "major": {
@@ -8948,6 +8958,11 @@
         }
     },
     "50490": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9151,6 +9166,13 @@
     "54324": {},
     "54326": {},
     "52465": {
+        "cross_list_courses": [
+            "CSCI-4350",
+            "CSCI-6350",
+            "ERTH-6350",
+            "ITWS-4350",
+            "ITWS-6350"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -9183,6 +9205,13 @@
         }
     },
     "52466": {
+        "cross_list_courses": [
+            "CSCI-4350",
+            "CSCI-6350",
+            "ERTH-4350",
+            "ITWS-4350",
+            "ITWS-6350"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9579,25 +9608,6 @@
             ]
         }
     },
-    "53248": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                }
-            ]
-        }
-    },
     "53725": {
         "prerequisites": {
             "type": "and",
@@ -9774,6 +9784,7 @@
             ]
         }
     },
+    "54745": {},
     "53583": {
         "prerequisites": {
             "type": "or",
@@ -9892,6 +9903,19 @@
             ]
         }
     },
+    "54732": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "MATH 2010"
+        }
+    },
     "54286": {
         "prerequisites": {
             "type": "course",
@@ -9899,15 +9923,6 @@
         }
     },
     "54288": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "53249": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9953,6 +9968,7 @@
         }
     },
     "53839": {},
+    "54746": {},
     "54287": {},
     "52295": {
         "restrictions": {
@@ -12474,8 +12490,19 @@
             }
         }
     },
-    "53295": {},
+    "53295": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "52136": {
+        "cross_list_courses": [
+            "CSCI-2960"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -12521,6 +12548,9 @@
         }
     },
     "50381": {
+        "cross_list_courses": [
+            "ITWS-6800"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -12535,6 +12565,9 @@
         }
     },
     "54484": {
+        "cross_list_courses": [
+            "ITWS-6250"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -12580,6 +12613,13 @@
         }
     },
     "52428": {
+        "cross_list_courses": [
+            "CSCI-4350",
+            "CSCI-6350",
+            "ERTH-4350",
+            "ERTH-6350",
+            "ITWS-6350"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 1200"
@@ -12613,6 +12653,11 @@
         }
     },
     "52945": {},
+    "54715": {
+        "cross_list_courses": [
+            "ITWS-6960"
+        ]
+    },
     "53863": {
         "prerequisites": {
             "type": "course",
@@ -12620,6 +12665,9 @@
         }
     },
     "54485": {
+        "cross_list_courses": [
+            "ITWS-4250"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12629,10 +12677,20 @@
         }
     },
     "50552": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ENGR-6100",
+            "ITWS-4300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
                 ]
             },
             "major": {
@@ -12644,6 +12702,13 @@
         }
     },
     "52429": {
+        "cross_list_courses": [
+            "CSCI-4350",
+            "CSCI-6350",
+            "ERTH-4350",
+            "ERTH-6350",
+            "ITWS-4350"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12677,6 +12742,9 @@
         }
     },
     "52009": {
+        "cross_list_courses": [
+            "ITWS-4100"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12686,6 +12754,18 @@
             "major": {
                 "must_be": [
                     "Information Technology"
+                ]
+            }
+        }
+    },
+    "54717": {
+        "cross_list_courses": [
+            "ITWS-4960"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
