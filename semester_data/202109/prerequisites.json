@@ -3321,28 +3321,6 @@
             ]
         }
     },
-    "54576": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Senior"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 4410"
-                }
-            ]
-        }
-    },
     "54333": {
         "prerequisites": {
             "type": "and",
@@ -14383,6 +14361,70 @@
             }
         }
     },
+    "51849": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Materials Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4910"
+                }
+            ]
+        }
+    },
+    "51850": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Materials Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 4910"
+                }
+            ]
+        }
+    },
     "51990": {
         "restrictions": {
             "major": {
@@ -17152,6 +17194,130 @@
                     "Senior"
                 ]
             }
+        }
+    },
+    "50418": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "50419": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "50558": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
+        }
+    },
+    "51447": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
         }
     },
     "53001": {
