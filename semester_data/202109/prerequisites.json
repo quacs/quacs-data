@@ -1441,7 +1441,11 @@
     "54494": {},
     "54495": {},
     "54496": {},
-    "54325": {},
+    "54325": {
+        "cross_list_courses": [
+            "ERTH-2160"
+        ]
+    },
     "50343": {
         "prerequisites": {
             "type": "course",
@@ -2445,6 +2449,15 @@
         }
     },
     "52702": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "53597": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9299,50 +9312,7 @@
         }
     },
     "54412": {},
-    "54314": {
-        "restrictions": {
-            "college": {
-                "may_not_be": [
-                    "School of Engineering",
-                    "School of Science"
-                ]
-            },
-            "major": {
-                "may_not_be": [
-                    "Aeronautical Engineering",
-                    "Applied Physics",
-                    "Biochemistry & Biophysics",
-                    "Bioinformatics & Molec Biology",
-                    "Biology",
-                    "Biological Neuroscience",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Chemistry",
-                    "Civil Engineering",
-                    "Computer Science",
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering",
-                    "Environmental Engineering",
-                    "Environmental Science",
-                    "Engineering Science",
-                    "Geology",
-                    "Hydrogeology",
-                    "Interdisciplinary Science",
-                    "Information Tech & Web Science",
-                    "Mathematics",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Industrial & Management Engr",
-                    "Nuclear Engineering",
-                    "Physics"
-                ]
-            }
-        }
-    },
     "53151": {},
-    "53152": {},
-    "53153": {},
-    "53891": {},
     "53154": {
         "prerequisites": {
             "type": "course",
@@ -9373,7 +9343,34 @@
             "course": "ERTH 2210"
         }
     },
-    "54324": {},
+    "54324": {
+        "cross_list_courses": [
+            "BIOL-2160"
+        ]
+    },
+    "54800": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "BIOL 1010"
+                }
+            ]
+        }
+    },
     "54326": {},
     "52465": {
         "cross_list_courses": [
@@ -13380,6 +13377,7 @@
             }
         }
     },
+    "54799": {},
     "51197": {
         "restrictions": {
             "major": {
@@ -13705,7 +13703,6 @@
             }
         }
     },
-    "53934": {},
     "54331": {},
     "53962": {},
     "50065": {},
@@ -20485,25 +20482,7 @@
             }
         }
     },
-    "53720": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "IHSS 1150"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1140"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                }
-            ]
-        }
-    },
+    "54801": {},
     "53878": {
         "prerequisites": {
             "type": "course",
@@ -20562,35 +20541,6 @@
     "52146": {},
     "50501": {},
     "51119": {},
-    "50038": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
-                ]
-            }
-        }
-    },
-    "51457": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
-                ]
-            }
-        }
-    },
-    "52439": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
-                ]
-            }
-        }
-    },
-    "54480": {},
-    "53898": {},
     "54321": {
         "prerequisites": {
             "type": "course",
