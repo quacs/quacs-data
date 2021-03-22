@@ -2172,6 +2172,18 @@
             }
         }
     },
+    "54764": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1100"
+        }
+    },
+    "54767": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 1100"
+        }
+    },
     "52447": {},
     "52449": {
         "prerequisites": {
@@ -2185,8 +2197,6 @@
             "course": "ENGR 1100"
         }
     },
-    "53810": {},
-    "54407": {},
     "50093": {
         "prerequisites": {
             "type": "course",
@@ -2253,6 +2263,25 @@
                             "course": "CSCI 1100"
                         }
                     ]
+                }
+            ]
+        }
+    },
+    "54774": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
                 }
             ]
         }
@@ -2370,7 +2399,6 @@
         }
     },
     "52701": {},
-    "54408": {},
     "53867": {
         "restrictions": {
             "level": {
