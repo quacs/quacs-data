@@ -2328,6 +2328,12 @@
             "course": "ENGR 2050"
         }
     },
+    "52450": {
+        "prerequisites": {
+            "type": "course",
+            "course": "BMED 2100"
+        }
+    },
     "53866": {
         "prerequisites": {
             "type": "and",
@@ -9371,7 +9377,23 @@
             ]
         }
     },
-    "54326": {},
+    "54804": {},
+    "54805": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ERTH 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 1200"
+                }
+            ]
+        }
+    },
+    "54806": {},
     "52465": {
         "cross_list_courses": [
             "CSCI-4350",
@@ -9395,22 +9417,15 @@
         }
     },
     "50083": {
+        "cross_list_courses": [
+            "ERTH-6710"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MATH 1020"
         }
     },
-    "54328": {},
     "50254": {},
-    "54327": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "52466": {
         "cross_list_courses": [
             "CSCI-4350",
@@ -9432,6 +9447,9 @@
         }
     },
     "50084": {
+        "cross_list_courses": [
+            "ERTH-4710"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13176,22 +13194,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            }
-        }
-    },
-    "54329": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Environmental Science",
-                    "Geology"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
                 ]
             }
         }
@@ -20554,7 +20556,7 @@
     },
     "53533": {},
     "54323": {},
-    "52438": {},
+    "54803": {},
     "52332": {},
     "53773": {
         "restrictions": {
@@ -20568,7 +20570,5 @@
             }
         }
     },
-    "53174": {},
-    "53774": {},
-    "54343": {}
+    "53174": {}
 }
