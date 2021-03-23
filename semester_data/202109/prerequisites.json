@@ -842,6 +842,12 @@
             "course": "ARTS 1200"
         }
     },
+    "54811": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARTS 2230"
+        }
+    },
     "53785": {
         "prerequisites": {
             "type": "course",
@@ -902,6 +908,9 @@
         }
     },
     "52434": {
+        "cross_list_courses": [
+            "GSAS-4510"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4354,8 +4363,15 @@
         }
     },
     "54273": {},
-    "53914": {},
+    "53914": {
+        "cross_list_courses": [
+            "COGS-2340"
+        ]
+    },
     "53915": {
+        "cross_list_courses": [
+            "COGS-2340"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -4365,6 +4381,14 @@
         }
     },
     "54497": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -4421,12 +4445,19 @@
         }
     },
     "52430": {
+        "cross_list_courses": [
+            "COGS-6410",
+            "CSCI-4966"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
     "53580": {
+        "cross_list_courses": [
+            "CSCI-4968"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -4450,6 +4481,9 @@
         }
     },
     "54703": {
+        "cross_list_courses": [
+            "PSYC-4700"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
@@ -4462,6 +4496,9 @@
         }
     },
     "54475": {
+        "cross_list_courses": [
+            "PSYC-4960"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -4492,6 +4529,19 @@
         }
     },
     "52431": {
+        "cross_list_courses": [
+            "COGS-4410",
+            "CSCI-4966"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "54809": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4750,7 +4800,15 @@
         }
     },
     "53760": {},
-    "53762": {},
+    "53762": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "53763": {
         "restrictions": {
             "major": {
@@ -4811,6 +4869,9 @@
         }
     },
     "54709": {
+        "cross_list_courses": [
+            "COMM-6320"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -4870,7 +4931,11 @@
             ]
         }
     },
-    "54710": {},
+    "54710": {
+        "cross_list_courses": [
+            "COMM-4320"
+        ]
+    },
     "53281": {
         "cross_list_courses": [
             "COMM-4420"
@@ -5669,6 +5734,10 @@
         }
     },
     "51196": {
+        "cross_list_courses": [
+            "COGS-4410",
+            "COGS-6410"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -5681,6 +5750,9 @@
         }
     },
     "53831": {
+        "cross_list_courses": [
+            "COGS-4420"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -12272,6 +12344,9 @@
         }
     },
     "53459": {
+        "cross_list_courses": [
+            "ARTS-6400"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -13279,6 +13354,7 @@
             }
         }
     },
+    "54810": {},
     "54799": {},
     "51197": {
         "restrictions": {
@@ -20350,6 +20426,9 @@
         }
     },
     "54705": {
+        "cross_list_courses": [
+            "COGS-4700"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
@@ -20384,6 +20463,9 @@
         }
     },
     "54476": {
+        "cross_list_courses": [
+            "COGS-4960"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
