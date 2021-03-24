@@ -634,8 +634,23 @@
             }
         }
     },
-    "54258": {},
-    "54259": {},
+    "54258": {
+        "cross_list_courses": [
+            "ARTS-1030"
+        ]
+    },
+    "54259": {
+        "cross_list_courses": [
+            "ARTS-1030"
+        ],
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "53170": {},
     "50289": {
         "restrictions": {
@@ -4835,19 +4850,6 @@
                 "must_be": [
                     "Communication, Media, & Design",
                     "Communication",
-                    "Elect Media, Arts, & Comm"
-                ]
-            }
-        }
-    },
-    "53800": {},
-    "53801": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
                     "Elect Media, Arts, & Comm"
                 ]
             }
@@ -17320,6 +17322,15 @@
             ]
         }
     },
+    "54818": {
+        "cross_list_courses": [
+            "MANE-6070"
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4070"
+        }
+    },
     "54668": {
         "prerequisites": {
             "type": "and",
@@ -18197,6 +18208,18 @@
             "campus": {
                 "must_be": [
                     "Hartford"
+                ]
+            }
+        }
+    },
+    "54819": {
+        "cross_list_courses": [
+            "MANE-4130"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -20686,29 +20709,42 @@
         "restrictions": {
             "classification": {
                 "must_be": [
-                    "Freshman",
-                    "Sophomore"
+                    "Freshman"
                 ]
             }
         }
     },
     "53533": {},
-    "54323": {},
-    "54803": {},
-    "54807": {
+    "54323": {
+        "cross_list_courses": [
+            "WRIT-1110"
+        ],
         "restrictions": {
-            "major": {
+            "classification": {
                 "must_be": [
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Freshman"
                 ]
             }
         }
     },
+    "54803": {
+        "cross_list_courses": [
+            "WRIT-1110"
+        ]
+    },
+    "54807": {
+        "cross_list_courses": [
+            "WRIT-2110"
+        ]
+    },
     "54808": {
+        "cross_list_courses": [
+            "WRIT-2110"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
+                    "Communication, Media, & Design",
                     "Communication",
                     "Elect Media, Arts, & Comm"
                 ]
