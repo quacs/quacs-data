@@ -3449,6 +3449,18 @@
             ]
         }
     },
+    "54815": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 2110"
+        }
+    },
+    "54816": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 2110"
+        }
+    },
     "50532": {
         "prerequisites": {
             "type": "course",
@@ -3502,6 +3514,9 @@
         }
     },
     "50531": {
+        "cross_list_courses": [
+            "CHEM-4030"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -3514,6 +3529,15 @@
                     "course": "CHEM 4410"
                 }
             ]
+        }
+    },
+    "54813": {
+        "cross_list_courses": [
+            "CHEM-4020"
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "CHEM 4410"
         }
     },
     "54333": {
@@ -3616,6 +3640,25 @@
     "54336": {},
     "51438": {},
     "51439": {},
+    "54812": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "54814": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "52960": {
         "restrictions": {
             "level": {
