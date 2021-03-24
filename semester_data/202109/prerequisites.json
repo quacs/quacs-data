@@ -3449,12 +3449,6 @@
             ]
         }
     },
-    "54491": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CHEM 2250"
-        }
-    },
     "50532": {
         "prerequisites": {
             "type": "course",
@@ -3483,27 +3477,6 @@
         "prerequisites": {
             "type": "course",
             "course": "CHEM 2250"
-        }
-    },
-    "53269": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CHEM 2250"
-        }
-    },
-    "54492": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 2230"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 2260"
-                }
-            ]
         }
     },
     "50352": {
@@ -3559,6 +3532,9 @@
         }
     },
     "50530": {
+        "cross_list_courses": [
+            "CHEM-4440"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MATH 2400"
@@ -3571,6 +3547,9 @@
         }
     },
     "53444": {
+        "cross_list_courses": [
+            "CHEM-4410"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -3637,31 +3616,6 @@
     "54336": {},
     "51438": {},
     "51439": {},
-    "53780": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "54337": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "52960": {
         "restrictions": {
             "level": {
@@ -13589,6 +13543,9 @@
     },
     "52436": {},
     "52957": {
+        "cross_list_courses": [
+            "LANG-1410"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -13598,7 +13555,11 @@
             }
         }
     },
-    "53172": {},
+    "53172": {
+        "cross_list_courses": [
+            "LANG-1410"
+        ]
+    },
     "53067": {
         "prerequisites": {
             "type": "course",
@@ -13939,6 +13900,9 @@
     },
     "50333": {},
     "54646": {
+        "cross_list_courses": [
+            "MGMT-6260"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -14142,6 +14106,9 @@
         }
     },
     "54648": {
+        "cross_list_courses": [
+            "MGMT-4540"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
