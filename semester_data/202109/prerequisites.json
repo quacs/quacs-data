@@ -86,6 +86,7 @@
         }
     },
     "53948": {},
+    "54823": {},
     "52698": {},
     "52699": {},
     "52700": {},
@@ -146,6 +147,13 @@
     "52704": {},
     "52986": {},
     "53508": {},
+    "54825": {},
+    "54826": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2360"
+        }
+    },
     "52706": {},
     "52705": {},
     "53030": {},
@@ -1015,6 +1023,17 @@
         }
     },
     "54361": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "54362": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -10647,6 +10666,9 @@
         }
     },
     "50139": {
+        "cross_list_courses": [
+            "MANE-4530"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2410"
@@ -10654,7 +10676,9 @@
     },
     "51510": {
         "cross_list_courses": [
-            "ECSE-6470"
+            "ECSE-6470",
+            "MANE-4560",
+            "MANE-6120"
         ],
         "restrictions": {
             "classification": {
@@ -11051,6 +11075,9 @@
         }
     },
     "50149": {
+        "cross_list_courses": [
+            "MANE-6600"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -11060,6 +11087,9 @@
         }
     },
     "54645": {
+        "cross_list_courses": [
+            "MANE-6620"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -11076,7 +11106,9 @@
     },
     "52959": {
         "cross_list_courses": [
-            "ECSE-4480"
+            "ECSE-4480",
+            "MANE-4560",
+            "MANE-6120"
         ],
         "restrictions": {
             "level": {
@@ -12590,6 +12622,50 @@
         }
     },
     "51466": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2050"
+        }
+    },
+    "51616": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2050"
+        }
+    },
+    "51617": {
         "restrictions": {
             "major": {
                 "must_be": [
@@ -17888,6 +17964,9 @@
         }
     },
     "53797": {
+        "cross_list_courses": [
+            "ECSE-4440"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -17906,7 +17985,13 @@
             ]
         }
     },
-    "54225": {},
+    "54225": {
+        "cross_list_courses": [
+            "ECSE-4480",
+            "ECSE-6470",
+            "MANE-6120"
+        ]
+    },
     "50420": {
         "prerequisites": {
             "type": "course",
@@ -18260,6 +18345,11 @@
         }
     },
     "52440": {
+        "cross_list_courses": [
+            "ECSE-4480",
+            "ECSE-6470",
+            "MANE-4560"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18330,6 +18420,9 @@
         }
     },
     "52693": {
+        "cross_list_courses": [
+            "ECSE-6400"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18339,6 +18432,9 @@
         }
     },
     "54667": {
+        "cross_list_courses": [
+            "ECSE-6440"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
