@@ -817,6 +817,11 @@
             ]
         }
     },
+    "54839": {
+        "cross_list_courses": [
+            "ARTS-6120"
+        ]
+    },
     "54700": {
         "prerequisites": {
             "type": "course",
@@ -885,14 +890,21 @@
             }
         }
     },
-    "53529": {
-        "cross_list_courses": [
-            "ARTS-6965"
-        ]
-    },
     "54271": {
         "cross_list_courses": [
             "ARTS-4040"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "54840": {
+        "cross_list_courses": [
+            "ARTS-4120"
         ],
         "restrictions": {
             "level": {
@@ -962,18 +974,6 @@
             "degree": {
                 "must_be": [
                     "Master of Fine Arts"
-                ]
-            }
-        }
-    },
-    "53544": {
-        "cross_list_courses": [
-            "ARTS-4965"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
                 ]
             }
         }
@@ -4937,6 +4937,9 @@
         }
     },
     "54725": {
+        "cross_list_courses": [
+            "COMM-6530"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -4953,6 +4956,22 @@
                     "course": "or"
                 }
             ]
+        }
+    },
+    "54838": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Communication",
+                    "Elect Media, Arts, & Comm"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
         }
     },
     "54710": {
@@ -4981,6 +5000,24 @@
                 "must_be": [
                     "Information Technology",
                     "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "54837": {
+        "cross_list_courses": [
+            "COMM-4530"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
