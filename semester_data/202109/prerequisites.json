@@ -10136,6 +10136,24 @@
             ]
         }
     },
+    "54849": {
+        "cross_list_courses": [
+            "ECON-6010"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECON 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
     "52294": {
         "prerequisites": {
             "type": "and",
@@ -10185,6 +10203,9 @@
         }
     },
     "54732": {
+        "cross_list_courses": [
+            "ECON-4410"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12565,6 +12586,15 @@
             }
         }
     },
+    "54848": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "54388": {
         "restrictions": {
             "level": {
@@ -13491,6 +13521,15 @@
             }
         }
     },
+    "54847": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "53907": {
         "restrictions": {
             "classification": {
@@ -13594,15 +13633,6 @@
                 "must_be": [
                     "Freshman",
                     "Sophomore"
-                ]
-            }
-        }
-    },
-    "53293": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
                 ]
             }
         }
