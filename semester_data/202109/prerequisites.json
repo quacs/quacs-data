@@ -17365,6 +17365,30 @@
             ]
         }
     },
+    "54824": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2530"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BMED 2540"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "50966": {
         "prerequisites": {
             "type": "course",
