@@ -5582,10 +5582,66 @@
             "course": "ITWS 1100"
         }
     },
-    "54344": {},
-    "54345": {},
-    "54346": {},
-    "54347": {},
+    "54344": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
+        }
+    },
+    "54345": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
+        }
+    },
+    "54346": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
+        }
+    },
+    "54347": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                }
+            ]
+        }
+    },
     "53315": {
         "cross_list_courses": [
             "CSCI-6040"
@@ -6005,12 +6061,25 @@
     "54663": {
         "cross_list_courses": [
             "CSCI-6963"
-        ]
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4340"
+                }
+            ]
+        }
     },
     "50987": {
         "prerequisites": {
             "type": "course",
-            "course": "CSCI 2300"
+            "course": "CSCI 2200"
         }
     },
     "51196": {
@@ -6028,8 +6097,17 @@
             "ITWS-4967"
         ],
         "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2500"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 2660"
+                }
+            ]
         }
     },
     "53831": {
@@ -6065,7 +6143,11 @@
             "MATH-4961",
             "PHIL-4140",
             "PHIL-4961"
-        ]
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "PHIL 2140"
+        }
     },
     "53316": {
         "cross_list_courses": [
