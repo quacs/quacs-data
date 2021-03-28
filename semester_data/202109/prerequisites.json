@@ -1507,13 +1507,132 @@
             "BIOL-1010"
         ]
     },
-    "52520": {},
-    "52521": {},
-    "52943": {},
-    "53561": {},
-    "54494": {},
-    "54495": {},
-    "54496": {},
+    "52520": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "52521": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "52943": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "53561": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "54494": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "54495": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "54496": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biochemistry & Biophysics",
+                    "Biology",
+                    "Biology",
+                    "Biological Neuroscience",
+                    "Computational Biology"
+                ]
+            },
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "54325": {
         "cross_list_courses": [
             "ERTH-2160"
@@ -5863,7 +5982,13 @@
             "course": "CSCI 2300"
         }
     },
-    "54580": {},
+    "54580": {
+        "cross_list_courses": [
+            "MATH-4961",
+            "PHIL-4140",
+            "PHIL-4961"
+        ]
+    },
     "53316": {
         "prerequisites": {
             "type": "course",
@@ -13910,6 +14035,7 @@
     },
     "54822": {},
     "53962": {},
+    "54851": {},
     "50065": {},
     "52264": {},
     "50066": {},
@@ -16909,6 +17035,13 @@
             ]
         }
     },
+    "54852": {
+        "cross_list_courses": [
+            "CSCI-4972",
+            "PHIL-4140",
+            "PHIL-4961"
+        ]
+    },
     "54639": {
         "restrictions": {
             "classification": {
@@ -19395,7 +19528,6 @@
             "classification": {
                 "must_be": [
                     "Freshman",
-                    "Junior",
                     "Sophomore"
                 ]
             }
@@ -19413,6 +19545,11 @@
     "51470": {},
     "53752": {},
     "54563": {
+        "cross_list_courses": [
+            "CSCI-4972",
+            "MATH-4961",
+            "PHIL-4961"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PHIL 2140"
@@ -19585,6 +19722,11 @@
         ]
     },
     "54477": {
+        "cross_list_courses": [
+            "CSCI-4972",
+            "MATH-4961",
+            "PHIL-4140"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PHIL 2140"
@@ -20650,6 +20792,9 @@
         }
     },
     "50965": {
+        "cross_list_courses": [
+            "PSYC-4370"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -20673,6 +20818,17 @@
         }
     },
     "53576": {
+        "cross_list_courses": [
+            "PSYC-4370"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -20700,18 +20856,42 @@
             ]
         }
     },
-    "54319": {},
+    "54319": {
+        "cross_list_courses": [
+            "PSYC-4430"
+        ]
+    },
     "54320": {
+        "cross_list_courses": [
+            "PSYC-4430"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
+                    "Cognitive Science",
                     "Psychological Science"
                 ]
             }
         }
     },
-    "54801": {},
-    "54802": {},
+    "54801": {
+        "cross_list_courses": [
+            "PSYC-4450"
+        ]
+    },
+    "54802": {
+        "cross_list_courses": [
+            "PSYC-4450"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        }
+    },
     "53878": {
         "prerequisites": {
             "type": "course",
@@ -20881,6 +21061,7 @@
         ]
     },
     "54778": {},
+    "54853": {},
     "54724": {
         "prerequisites": {
             "type": "course",
