@@ -10088,6 +10088,12 @@
             "course": "ERTH 1100"
         }
     },
+    "54858": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ERTH 1100"
+        }
+    },
     "54315": {
         "prerequisites": {
             "type": "course",
@@ -15598,8 +15604,25 @@
                     "course": "ENGR 1600"
                 },
                 {
-                    "type": "course",
-                    "course": "MTLE 2100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MTLE 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        }
+                    ]
                 }
             ]
         }
@@ -19819,16 +19842,7 @@
     "50170": {},
     "50172": {},
     "50173": {},
-    "50334": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
+    "50334": {},
     "54316": {
         "restrictions": {
             "classification": {
