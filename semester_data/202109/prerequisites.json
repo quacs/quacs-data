@@ -15540,8 +15540,25 @@
                     "course": "ENGR 1600"
                 },
                 {
-                    "type": "course",
-                    "course": "MTLE 2100"
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MTLE 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ISCI 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CHEM 1600"
+                        }
+                    ]
                 }
             ]
         }
@@ -17162,14 +17179,6 @@
         "cross_list_courses": [
             "CSCI-4800"
         ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer Science",
-                    "Mathematics"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -18896,7 +18905,7 @@
         ],
         "restrictions": {
             "level": {
-                "may_not_be": [
+                "must_be": [
                     "Graduate"
                 ]
             }
