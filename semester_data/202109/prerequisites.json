@@ -894,7 +894,7 @@
         ],
         "restrictions": {
             "classification": {
-                "may_not_be": [
+                "must_be": [
                     "Junior",
                     "Senior"
                 ]
@@ -16189,8 +16189,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "MATH 4200"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 4090"
+                }
+            ]
         }
     },
     "54821": {
