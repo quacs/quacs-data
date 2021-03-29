@@ -3106,6 +3106,25 @@
             ]
         }
     },
+    "54857": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "CHME 4020"
+                },
+                {
+                    "type": "course",
+                    "course": "CHME 2020"
+                }
+            ]
+        }
+    },
     "52296": {},
     "50178": {
         "prerequisites": {
@@ -6643,6 +6662,15 @@
                     "Freshman",
                     "Junior",
                     "Sophomore"
+                ]
+            }
+        }
+    },
+    "54856": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
