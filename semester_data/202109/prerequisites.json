@@ -13079,8 +13079,27 @@
             "course": "MATH 1020"
         }
     },
-    "54688": {},
-    "53909": {},
+    "54688": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENVE 2110"
+        }
+    },
+    "53909": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENVE 2110"
+                },
+                {
+                    "type": "course",
+                    "course": "ENVE 4310"
+                }
+            ]
+        }
+    },
     "50319": {},
     "51618": {
         "restrictions": {
@@ -17973,21 +17992,12 @@
             "type": "and",
             "nested": [
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 2250"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MANE 2720"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "MANE 2710"
                 },
                 {
                     "type": "course",
-                    "course": "MATH 2010"
+                    "course": "MANE 2720"
                 }
             ]
         }
@@ -19067,8 +19077,17 @@
             }
         },
         "prerequisites": {
-            "type": "course",
-            "course": "MANE 4050"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4500"
+                }
+            ]
         }
     },
     "52974": {
@@ -20929,6 +20948,17 @@
         }
     },
     "52806": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "54132": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
