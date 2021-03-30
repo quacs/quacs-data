@@ -11201,18 +11201,18 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "ECSE 2050"
+                    "course": "ECSE 2010"
                 },
                 {
                     "type": "or",
                     "nested": [
                         {
                             "type": "course",
-                            "course": "ECSE 2100"
+                            "course": "PHYS 1200"
                         },
                         {
                             "type": "course",
-                            "course": "PHYS 4210"
+                            "course": "PHYS 1250"
                         }
                     ]
                 }
@@ -12571,6 +12571,15 @@
         }
     },
     "50248": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "50249": {
         "restrictions": {
             "level": {
                 "must_be": [
