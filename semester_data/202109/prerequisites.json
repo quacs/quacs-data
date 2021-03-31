@@ -17392,7 +17392,11 @@
             "CSCI-4972",
             "PHIL-4140",
             "PHIL-4961"
-        ]
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "PHIL 2140"
+        }
     },
     "54639": {
         "restrictions": {
@@ -18537,17 +18541,8 @@
     },
     "54294": {
         "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 4500"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4500"
-                }
-            ]
+            "type": "course",
+            "course": "MANE 4500"
         }
     },
     "53841": {
