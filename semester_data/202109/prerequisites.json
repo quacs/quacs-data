@@ -388,7 +388,15 @@
             }
         }
     },
-    "54598": {},
+    "54598": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "53000": {
         "restrictions": {
             "level": {
@@ -3855,10 +3863,9 @@
     "51439": {},
     "54812": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -4260,7 +4267,15 @@
             }
         }
     },
-    "54671": {},
+    "54671": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "51976": {
         "restrictions": {
             "level": {
@@ -4309,7 +4324,15 @@
             ]
         }
     },
-    "54670": {},
+    "54670": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "50383": {
         "restrictions": {
             "level": {
@@ -5193,7 +5216,14 @@
     "54710": {
         "cross_list_courses": [
             "COMM-4320"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "53281": {
         "cross_list_courses": [
@@ -5212,6 +5242,11 @@
             "COMM-4420"
         ],
         "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
             "major": {
                 "must_be": [
                     "Information Technology",
@@ -15119,11 +15154,9 @@
     },
     "54647": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -18959,10 +18992,9 @@
     },
     "54711": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
