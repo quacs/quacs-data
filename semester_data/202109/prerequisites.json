@@ -1674,7 +1674,8 @@
                     "Bioinformatics & Molec Biology",
                     "Biology",
                     "Biology",
-                    "Biological Neuroscience"
+                    "Biological Neuroscience",
+                    "Computational Biology"
                 ]
             }
         },
@@ -2433,7 +2434,7 @@
             "nested": [
                 {
                     "type": "course",
-                    "course": "MATH 2400"
+                    "course": "MATH 2010"
                 },
                 {
                     "type": "or",
@@ -2449,17 +2450,8 @@
                     ]
                 },
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1190"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        }
-                    ]
+                    "type": "course",
+                    "course": "BMED 2050"
                 }
             ]
         }
@@ -6540,11 +6532,6 @@
             "major": {
                 "must_be": [
                     "Computer Science"
-                ]
-            },
-            "classification": {
-                "must_be": [
-                    "Graduate Student"
                 ]
             }
         }
