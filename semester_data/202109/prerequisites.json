@@ -18532,8 +18532,17 @@
     },
     "50420": {
         "prerequisites": {
-            "type": "course",
-            "course": "ENGR 2530"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2530"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 2540"
+                }
+            ]
         }
     },
     "53816": {
