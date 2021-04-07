@@ -479,7 +479,14 @@
     "54869": {
         "cross_list_courses": [
             "ARCH-4961"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "53877": {
         "restrictions": {
@@ -499,10 +506,9 @@
     },
     "53899": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -11851,7 +11857,15 @@
             ]
         }
     },
-    "53766": {},
+    "53766": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "52476": {
         "restrictions": {
             "level": {
