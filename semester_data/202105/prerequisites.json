@@ -2617,99 +2617,1025 @@
     "15863": {},
     "15961": {},
     "15954": {},
-    "16257": {},
-    "16274": {},
-    "16275": {},
-    "16315": {},
+    "16257": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                }
+            ]
+        }
+    },
+    "16274": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                }
+            ]
+        }
+    },
+    "16275": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                }
+            ]
+        }
+    },
+    "16315": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHME 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                }
+            ]
+        }
+    },
     "15953": {},
     "16529": {},
     "16551": {},
-    "16571": {},
-    "16572": {},
-    "16573": {},
-    "16574": {},
-    "16690": {},
+    "16571": {
+        "cross_list_courses": [
+            "GSAS-2962"
+        ]
+    },
+    "16572": {
+        "cross_list_courses": [
+            "GSAS-2962"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
+    "16573": {
+        "cross_list_courses": [
+            "GSAS-2965"
+        ]
+    },
+    "16574": {
+        "cross_list_courses": [
+            "GSAS-2965"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
+    "16690": {
+        "cross_list_courses": [
+            "CSCI-4966",
+            "CSCI-6961",
+            "GSAS-6961"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer Science",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
     "16742": {},
-    "16691": {},
-    "16254": {},
+    "16691": {
+        "cross_list_courses": [
+            "CSCI-4966",
+            "CSCI-6961",
+            "GSAS-4961"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "16254": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2600"
+        }
+    },
     "16310": {},
-    "16293": {},
-    "16255": {},
-    "16607": {},
-    "16311": {},
-    "16157": {},
-    "16295": {},
-    "16296": {},
-    "16302": {},
-    "16261": {},
-    "16294": {},
-    "16297": {},
-    "16303": {},
-    "16415": {},
-    "16312": {},
-    "16643": {},
-    "16718": {},
+    "16293": {
+        "restrictions": {
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        }
+    },
+    "16255": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2600"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 1020"
+                }
+            ]
+        }
+    },
+    "16607": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "16311": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16157": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16295": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "16296": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "16302": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "16261": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16294": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16297": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16303": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16415": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16312": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16643": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16718": {
+        "cross_list_courses": [
+            "ISCI-4960"
+        ]
+    },
     "16748": {},
     "16759": {},
-    "16717": {},
+    "16717": {
+        "cross_list_courses": [
+            "IHSS-4960"
+        ]
+    },
     "16156": {},
-    "16705": {},
-    "16372": {},
+    "16705": {
+        "prerequisites": {
+            "type": "course",
+            "course": "LANG 1410"
+        }
+    },
+    "16372": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "LANG 1410"
+                },
+                {
+                    "type": "course",
+                    "course": "LANG 2410"
+                },
+                {
+                    "type": "course",
+                    "course": "LANG 4420"
+                },
+                {
+                    "type": "course",
+                    "course": "LANG 4430"
+                }
+            ]
+        }
+    },
     "16215": {},
     "16222": {},
     "16675": {},
-    "16510": {},
+    "16510": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MGMT 2300"
+        }
+    },
     "16512": {},
-    "16511": {},
-    "16729": {},
-    "16343": {},
-    "16126": {},
-    "16417": {},
-    "16208": {},
+    "16511": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MGMT 1100"
+        }
+    },
+    "16729": {
+        "cross_list_courses": [
+            "MGMT-6840"
+        ]
+    },
+    "16343": {
+        "cross_list_courses": [
+            "MGMT-4900"
+        ],
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16126": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16417": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16208": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "16685": {},
     "16686": {},
-    "16689": {},
-    "16697": {},
+    "16689": {
+        "corequisites": [
+            "MTLE-2500"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1600"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 2100"
+                }
+            ]
+        }
+    },
+    "16697": {
+        "corequisites": [
+            "MTLE-2500"
+        ],
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1600"
+                },
+                {
+                    "type": "course",
+                    "course": "MTLE 2100"
+                }
+            ]
+        }
+    },
     "15855": {},
     "15916": {},
-    "16110": {},
+    "16110": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "15840": {},
     "15917": {},
-    "16108": {},
-    "16053": {},
+    "16108": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16053": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "15900": {},
     "15854": {},
     "15911": {},
-    "16018": {},
-    "16052": {},
-    "16043": {},
-    "16719": {},
-    "16720": {},
+    "16018": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16052": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "16043": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MATH 1020"
+        }
+    },
+    "16719": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Mathematics",
+                    "Mathematics"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16720": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2012"
+                }
+            ]
+        }
+    },
     "16721": {},
-    "16722": {},
-    "16723": {},
-    "16231": {},
+    "16722": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2011"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2012"
+                }
+            ]
+        }
+    },
+    "16723": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16231": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "15851": {},
     "15856": {},
-    "16527": {},
-    "16528": {},
-    "16344": {},
-    "16526": {},
-    "16259": {},
-    "16553": {},
-    "16247": {},
-    "16556": {},
-    "16387": {},
-    "16345": {},
-    "16554": {},
-    "16396": {},
-    "16555": {},
+    "16527": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "PHYS 1200"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "PHYS 1250"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1400"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CIVL 1200"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16528": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "PHYS 1200"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "PHYS 1250"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1400"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CIVL 1200"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16344": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                }
+            ]
+        }
+    },
+    "16526": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "PHYS 1100"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 2010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2011"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                }
+            ]
+        }
+    },
+    "16259": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2530"
+                }
+            ]
+        }
+    },
+    "16553": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2530"
+        }
+    },
+    "16247": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2250"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 2720"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
+    "16556": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2250"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 2720"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
+    "16387": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4070"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4400"
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MANE 2710"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 2720"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16345": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2530"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4160"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2720"
+                }
+            ]
+        }
+    },
+    "16554": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2250"
+                },
+                {
+                    "type": "course",
+                    "course": "ENGR 2530"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4160"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2720"
+                }
+            ]
+        }
+    },
+    "16396": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16555": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "16397": {},
     "16236": {},
-    "16593": {},
-    "16582": {},
-    "16230": {},
-    "16268": {},
+    "16593": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        }
+    },
+    "16582": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 6660"
+                },
+                {
+                    "type": "course",
+                    "course": "CIVL 6660"
+                }
+            ]
+        }
+    },
+    "16230": {
+        "restrictions": {
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        }
+    },
+    "16268": {
+        "restrictions": {
+            "campus": {
+                "must_be": [
+                    "Hartford"
+                ]
+            }
+        }
+    },
     "16404": {},
     "16038": {},
     "16653": {},
@@ -2718,31 +3644,221 @@
     "15869": {},
     "16393": {},
     "16394": {},
-    "16564": {},
-    "16682": {},
+    "16564": {
+        "cross_list_courses": [
+            "STSH-4250"
+        ]
+    },
+    "16682": {
+        "cross_list_courses": [
+            "STSH-4250"
+        ]
+    },
     "16044": {},
-    "16045": {},
-    "16566": {},
-    "16699": {},
-    "16700": {},
+    "16045": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1150"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 1020"
+                }
+            ]
+        }
+    },
+    "16566": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PHYS 2210"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
+    "16699": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PHYS 2220"
+        }
+    },
+    "16700": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PHYS 2220"
+        }
+    },
     "16650": {},
     "16651": {},
-    "16362": {},
+    "16362": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Applied Physics",
+                    "Physics"
+                ]
+            }
+        }
+    },
     "16728": {},
-    "16678": {},
-    "16276": {},
+    "16678": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "PSYC 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "PHIL 2120"
+                }
+            ]
+        }
+    },
+    "16276": {
+        "cross_list_courses": [
+            "COGS-4360"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "PSYC 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "PHIL 2120"
+                },
+                {
+                    "type": "course",
+                    "course": "COGS 2120"
+                }
+            ]
+        }
+    },
     "16530": {},
-    "16381": {},
-    "16278": {},
+    "16381": {
+        "cross_list_courses": [
+            "COGS-4600"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PSYC 1200"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHIL 2120"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2120"
+                        },
+                        {
+                            "type": "course",
+                            "course": "COGS 2120"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "COGS 4330"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 4330"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "16278": {
+        "prerequisites": {
+            "type": "course",
+            "course": "PSYC 1200"
+        }
+    },
     "16706": {},
     "16707": {},
     "16710": {},
-    "16746": {},
-    "16747": {},
-    "16581": {},
-    "16371": {},
-    "16568": {},
-    "16569": {},
+    "16746": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
+    "16747": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
+    "16581": {
+        "cross_list_courses": [
+            "STSS-4600"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Design, Innovation and Society"
+                ]
+            }
+        }
+    },
+    "16371": {
+        "cross_list_courses": [
+            "STSS-4961"
+        ]
+    },
+    "16568": {
+        "cross_list_courses": [
+            "STSS-4963"
+        ]
+    },
+    "16569": {
+        "cross_list_courses": [
+            "STSS-4962"
+        ]
+    },
     "16418": {},
     "16557": {},
     "16558": {},
@@ -2750,11 +3866,73 @@
     "16560": {},
     "16610": {},
     "16611": {},
-    "16679": {},
-    "16580": {},
-    "16370": {},
-    "16391": {},
-    "16567": {},
+    "16679": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2100"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2510"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2010"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 2500"
+                }
+            ]
+        }
+    },
+    "16580": {
+        "cross_list_courses": [
+            "STSH-4600"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Design, Innovation and Society"
+                ]
+            }
+        }
+    },
+    "16370": {
+        "cross_list_courses": [
+            "STSH-4961"
+        ]
+    },
+    "16391": {
+        "cross_list_courses": [
+            "STSH-4964"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Design, Innovation and Society",
+                    "Science, Tech & Society",
+                    "Sustainability Studies"
+                ]
+            }
+        }
+    },
+    "16567": {
+        "cross_list_courses": [
+            "STSH-4963"
+        ]
+    },
     "16684": {},
     "16399": {},
     "16416": {},
