@@ -14089,7 +14089,29 @@
             ]
         }
     },
-    "53893": {},
+    "53893": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Junior",
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ISCI 1510"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 1510"
+                }
+            ]
+        }
+    },
     "52147": {
         "restrictions": {
             "college": {
