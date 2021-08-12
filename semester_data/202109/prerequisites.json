@@ -850,16 +850,6 @@
         }
     },
     "52696": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -5148,14 +5138,7 @@
     "53762": {
         "cross_list_courses": [
             "COMM-2520"
-        ],
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman"
-                ]
-            }
-        }
+        ]
     },
     "53763": {
         "cross_list_courses": [
@@ -13808,16 +13791,9 @@
     },
     "52514": {
         "restrictions": {
-            "major": {
-                "must_be": [
-                    "Cognitive Science",
-                    "Philosophy"
-                ]
-            },
             "classification": {
                 "must_be": [
-                    "Freshman",
-                    "Sophomore"
+                    "Freshman"
                 ]
             }
         }
@@ -14031,7 +14007,6 @@
                 "may_not_be": [
                     "Graduate Student",
                     "Junior",
-                    "Sophomore",
                     "Senior"
                 ]
             }
@@ -14245,22 +14220,6 @@
         ]
     },
     "52437": {},
-    "53772": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Senior"
-                ]
-            }
-        }
-    },
     "54822": {},
     "53962": {},
     "54851": {},
@@ -19040,7 +18999,8 @@
         "restrictions": {
             "classification": {
                 "must_be": [
-                    "Freshman"
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
@@ -20246,45 +20206,6 @@
                 {
                     "type": "course",
                     "course": "COGS 2120"
-                }
-            ]
-        }
-    },
-    "53576": {
-        "cross_list_courses": [
-            "PSYC-4370"
-        ],
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Cognitive Science",
-                    "Psychological Science"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "COGS 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHIL 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PSYC 2120"
-                        }
-                    ]
                 }
             ]
         }
