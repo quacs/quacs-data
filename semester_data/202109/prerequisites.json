@@ -14906,10 +14906,7 @@
             },
             "major": {
                 "must_be": [
-                    "Business Analytics",
-                    "Management",
-                    "Quant Finance & Risk Analytics",
-                    "Supply Chain Management"
+                    "Business Analytics"
                 ]
             }
         }
@@ -15082,6 +15079,11 @@
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "major": {
+                "must_be": [
+                    "Business Analytics"
+                ]
             }
         }
     },
@@ -15208,6 +15210,9 @@
         }
     },
     "50939": {
+        "cross_list_courses": [
+            "MGMT-7770"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -15263,6 +15268,9 @@
         }
     },
     "53071": {
+        "cross_list_courses": [
+            "MGMT-7230"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
