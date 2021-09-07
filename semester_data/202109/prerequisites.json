@@ -89,15 +89,7 @@
             }
         }
     },
-    "53029": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Building Sciences"
-                ]
-            }
-        }
-    },
+    "53029": {},
     "53948": {},
     "54823": {},
     "52698": {},
@@ -125,6 +117,12 @@
     },
     "53209": {},
     "54543": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 4100"
+        }
+    },
+    "54544": {
         "prerequisites": {
             "type": "course",
             "course": "ARCH 4100"
