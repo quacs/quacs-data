@@ -8932,7 +8932,74 @@
             ]
         }
     },
-    "53167": {},
+    "53167": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Aeronautical Engineering",
+                    "Biomedical Engineering",
+                    "Chemical Engineering",
+                    "Civil Engineering",
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering",
+                    "Undeclared Engineering",
+                    "Environmental Engineering",
+                    "Materials Engineering",
+                    "Mechanical Engineering",
+                    "Industrial & Management Engr",
+                    "Nuclear Engineering"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 1010"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ENGR 1400"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CIVL 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "50026": {
         "restrictions": {
             "major": {
