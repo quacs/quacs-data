@@ -4600,31 +4600,27 @@
             "course": "PSYC 1200"
         }
     },
-    "62806": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
     "62576": {
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
         }
     },
+    "64760": {},
     "64451": {},
-    "62482": {},
     "62485": {},
     "62697": {},
     "63535": {},
     "63160": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64761": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4652,24 +4648,6 @@
             "major": {
                 "must_be": [
                     "Cognitive Science"
-                ]
-            }
-        }
-    },
-    "64453": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "62465": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
                 ]
             }
         }
@@ -4720,15 +4698,6 @@
             }
         }
     },
-    "62638": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "64646": {
         "restrictions": {
             "level": {
@@ -4756,15 +4725,6 @@
             }
         }
     },
-    "62833": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "62506": {
         "restrictions": {
             "level": {
@@ -4775,15 +4735,6 @@
         }
     },
     "62519": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "62677": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -4855,7 +4806,6 @@
             }
         }
     },
-    "64275": {},
     "63957": {},
     "64022": {
         "restrictions": {
@@ -11849,6 +11799,28 @@
                 {
                     "type": "course",
                     "course": "ARTS 4520"
+                }
+            ]
+        }
+    },
+    "64759": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 4530"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4750"
                 }
             ]
         }
