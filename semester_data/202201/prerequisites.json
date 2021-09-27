@@ -4576,18 +4576,7 @@
             }
         }
     },
-    "64282": {},
-    "64283": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "64284": {},
+    "64758": {},
     "64285": {
         "restrictions": {
             "classification": {
@@ -4602,78 +4591,6 @@
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
-        }
-    },
-    "62629": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Cognitive Science",
-                    "Psychological Science"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "COGS 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PSYC 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHIL 2120"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "63652": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Cognitive Science",
-                    "Psychological Science"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHIL 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PSYC 2120"
-                        },
-                        {
-                            "type": "course",
-                            "course": "COGS 2120"
-                        }
-                    ]
-                }
-            ]
         }
     },
     "62805": {},
