@@ -780,8 +780,21 @@
             }
         }
     },
-    "62810": {},
-    "64670": {},
+    "64754": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ARTS 2380"
+                },
+                {
+                    "type": "course",
+                    "course": "ARTS 2020"
+                }
+            ]
+        }
+    },
     "64395": {},
     "64090": {},
     "63751": {
@@ -793,7 +806,6 @@
             }
         }
     },
-    "63398": {},
     "62626": {
         "restrictions": {
             "level": {
@@ -803,7 +815,6 @@
             }
         }
     },
-    "62811": {},
     "62343": {
         "restrictions": {
             "level": {
@@ -870,13 +881,8 @@
             }
         }
     },
-    "62412": {
+    "64755": {
         "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
             "classification": {
                 "may_not_be": [
                     "Freshman",
@@ -919,7 +925,7 @@
             }
         }
     },
-    "62751": {
+    "64756": {
         "restrictions": {
             "classification": {
                 "may_not_be": [
