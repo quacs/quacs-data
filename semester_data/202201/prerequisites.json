@@ -4864,45 +4864,6 @@
             }
         }
     },
-    "62688": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "COMM 2520"
-                        },
-                        {
-                            "type": "course",
-                            "course": "GSAS 2520"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "WRIT 2330"
-                }
-            ]
-        }
-    },
-    "64442": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "COMM 4340"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4840"
-                }
-            ]
-        }
-    },
     "63649": {
         "restrictions": {
             "major": {
@@ -4928,41 +4889,13 @@
             ]
         }
     },
-    "64349": {},
     "64387": {
         "prerequisites": {
             "type": "course",
             "course": "ITWS 1100"
         }
     },
-    "63177": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "COMM 4250"
-        }
-    },
-    "64477": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "COMM 2660"
-                },
-                {
-                    "type": "course",
-                    "course": "COMM 2570"
-                }
-            ]
-        }
-    },
+    "64477": {},
     "60164": {},
     "62013": {
         "restrictions": {
