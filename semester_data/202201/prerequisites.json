@@ -4889,13 +4889,32 @@
             ]
         }
     },
+    "64762": {},
     "64387": {
         "prerequisites": {
             "type": "course",
             "course": "ITWS 1100"
         }
     },
-    "64477": {},
+    "64763": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "COMM 2660"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 2570"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 2680"
+                }
+            ]
+        }
+    },
     "60164": {},
     "62013": {
         "restrictions": {
