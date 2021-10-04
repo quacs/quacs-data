@@ -9721,6 +9721,12 @@
             ]
         }
     },
+    "64781": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ECON 1200"
+        }
+    },
     "64771": {
         "prerequisites": {
             "type": "and",
@@ -9757,39 +9763,6 @@
                         {
                             "type": "course",
                             "course": "MATH 2012"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "64260": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2010"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "or",
-                            "nested": [
-                                {
-                                    "type": "course",
-                                    "course": "ECON 1200"
-                                },
-                                {
-                                    "type": "course",
-                                    "course": "IHSS 1200"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "course",
-                            "course": "IHSS 1975"
                         }
                     ]
                 }
@@ -10052,45 +10025,6 @@
             ]
         }
     },
-    "64099": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
-                }
-            ]
-        }
-    },
-    "63747": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
-                }
-            ]
-        }
-    },
-    "64400": {},
     "64770": {
         "restrictions": {
             "level": {
@@ -10112,6 +10046,7 @@
     },
     "63955": {},
     "63943": {},
+    "64782": {},
     "64772": {
         "restrictions": {
             "classification": {
