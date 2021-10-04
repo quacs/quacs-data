@@ -9688,6 +9688,48 @@
             ]
         }
     },
+    "64771": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ECON 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "IHSS 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "or",
+                            "nested": [
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2010"
+                                },
+                                {
+                                    "type": "course",
+                                    "course": "MATH 2011"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 2012"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "64260": {
         "prerequisites": {
             "type": "and",
@@ -9796,6 +9838,46 @@
             ]
         }
     },
+    "64769": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECON 4580"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "60729": {
         "restrictions": {
             "classification": {
@@ -9890,6 +9972,15 @@
         }
     },
     "64400": {},
+    "64770": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "64328": {
         "restrictions": {
             "level": {
@@ -9901,6 +9992,17 @@
     },
     "63955": {},
     "63943": {},
+    "64772": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "64262": {
         "restrictions": {
             "level": {
@@ -9911,9 +10013,8 @@
         }
     },
     "64263": {},
-    "64402": {},
-    "64388": {},
-    "63845": {
+    "64401": {},
+    "64773": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9922,18 +10023,13 @@
             }
         }
     },
-    "64100": {
+    "64402": {},
+    "64388": {},
+    "63845": {
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         }
