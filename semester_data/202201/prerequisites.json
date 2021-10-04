@@ -9617,6 +9617,39 @@
             ]
         }
     },
+    "64774": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "IHSS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECON 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 1500"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "60078": {
         "prerequisites": {
             "type": "or",
@@ -9796,6 +9829,60 @@
             ]
         }
     },
+    "64776": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ECON 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "IHSS 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MATH 1010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 1500"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "64397": {},
     "63673": {
         "prerequisites": {
@@ -9819,6 +9906,57 @@
     "64398": {},
     "64399": {},
     "64330": {},
+    "64780": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECON 2020"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
+        }
+    },
+    "64778": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "63840": {
         "prerequisites": {
             "type": "or",
@@ -9834,6 +9972,42 @@
                 {
                     "type": "course",
                     "course": "IHSS 1200"
+                }
+            ]
+        }
+    },
+    "64779": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MGMT 2100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATP 4600"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PSYC 2310"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 4200"
+                        }
+                    ]
                 }
             ]
         }
@@ -9878,42 +10052,6 @@
             ]
         }
     },
-    "60729": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Junior",
-                    "Senior"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 4570"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ECON 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "IHSS 1975"
-                        },
-                        {
-                            "type": "course",
-                            "course": "IHSS 1200"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "64099": {
         "prerequisites": {
             "type": "or",
@@ -9952,25 +10090,6 @@
             ]
         }
     },
-    "63748": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECON 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1975"
-                },
-                {
-                    "type": "course",
-                    "course": "IHSS 1200"
-                }
-            ]
-        }
-    },
     "64400": {},
     "64770": {
         "restrictions": {
@@ -9981,6 +10100,7 @@
             }
         }
     },
+    "64775": {},
     "64328": {
         "restrictions": {
             "level": {
@@ -10013,6 +10133,7 @@
         }
     },
     "64263": {},
+    "64777": {},
     "64401": {},
     "64773": {
         "restrictions": {
@@ -10025,15 +10146,6 @@
     },
     "64402": {},
     "64388": {},
-    "63845": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "61569": {
         "restrictions": {
             "level": {
