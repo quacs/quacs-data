@@ -11674,7 +11674,6 @@
             }
         }
     },
-    "63783": {},
     "63784": {
         "restrictions": {
             "major": {
@@ -11684,7 +11683,7 @@
             }
         }
     },
-    "64321": {},
+    "64784": {},
     "63782": {
         "restrictions": {
             "major": {
@@ -11701,6 +11700,28 @@
                     "Games & Simulation Arts & Sci"
                 ]
             }
+        }
+    },
+    "64788": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "GSAS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "COMM 4240"
+                }
+            ]
         }
     },
     "63785": {
@@ -11730,67 +11751,6 @@
                 {
                     "type": "course",
                     "course": "ARTS 1020"
-                }
-            ]
-        }
-    },
-    "64323": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ARTS 1040"
-                        },
-                        {
-                            "type": "course",
-                            "course": "GSAS 1040"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 1020"
-                }
-            ]
-        }
-    },
-    "63786": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "GSAS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4520"
                 }
             ]
         }
@@ -11847,21 +11807,6 @@
             ]
         }
     },
-    "64094": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ARTS 2230"
-        }
-    },
     "64128": {
         "restrictions": {
             "major": {
@@ -11874,29 +11819,37 @@
             }
         }
     },
-    "64481": {
+    "64785": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Games & Simulation Arts & Sci"
                 ]
             }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "GSAS 4510"
         }
     },
-    "64480": {
+    "64786": {
         "restrictions": {
-            "major": {
+            "level": {
                 "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
+                    "Graduate"
                 ]
             }
         }
     },
-    "64482": {},
+    "64787": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "62457": {},
     "63434": {},
     "62773": {},
