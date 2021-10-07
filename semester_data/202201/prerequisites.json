@@ -10495,6 +10495,20 @@
             "course": "ECSE 2210"
         }
     },
+    "64789": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Computer & Systems Engineering",
+                    "Electrical Engineering"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "ECSE 2410"
+        }
+    },
     "63945": {
         "restrictions": {
             "major": {
@@ -10533,12 +10547,6 @@
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2660"
-        }
-    },
-    "60440": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 4770"
         }
     },
     "64106": {
@@ -10635,6 +10643,17 @@
         }
     },
     "64297": {},
+    "64790": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "63946": {},
     "64298": {
         "restrictions": {
@@ -10654,21 +10673,6 @@
                     "Graduate"
                 ]
             }
-        }
-    },
-    "63832": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 4770"
         }
     },
     "64107": {
