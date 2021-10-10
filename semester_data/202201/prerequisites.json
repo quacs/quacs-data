@@ -15305,6 +15305,34 @@
             "course": "ENGR 1100"
         }
     },
+    "64793": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2400"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "63626": {
         "prerequisites": {
             "type": "or",
@@ -15372,30 +15400,6 @@
             ]
         }
     },
-    "63982": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 1020"
-                }
-            ]
-        }
-    },
     "63984": {
         "prerequisites": {
             "type": "and",
@@ -15432,39 +15436,6 @@
                     "course": "MATH 2400"
                 }
             ]
-        }
-    },
-    "60356": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 2250"
-        }
-    },
-    "60357": {},
-    "60358": {},
-    "60552": {},
-    "60553": {},
-    "60554": {},
-    "60555": {},
-    "60556": {},
-    "61144": {},
-    "62790": {},
-    "63986": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MANE 4010"
-        }
-    },
-    "63987": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MANE 4010"
-        }
-    },
-    "64305": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MANE 4010"
         }
     },
     "63199": {},
