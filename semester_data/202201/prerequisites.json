@@ -10454,12 +10454,6 @@
         }
     },
     "63200": {},
-    "61956": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2110"
-        }
-    },
     "61957": {
         "prerequisites": {
             "type": "or",
@@ -10510,6 +10504,32 @@
             "course": "ECSE 2210"
         }
     },
+    "64792": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2410"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4500"
+                }
+            ]
+        }
+    },
     "64789": {
         "restrictions": {
             "major": {
@@ -10538,7 +10558,6 @@
             "course": "ECSE 2410"
         }
     },
-    "60326": {},
     "61123": {},
     "63650": {
         "restrictions": {
