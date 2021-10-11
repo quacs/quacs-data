@@ -10538,20 +10538,6 @@
             "course": "ECSE 2410"
         }
     },
-    "63945": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Computer & Systems Engineering",
-                    "Electrical Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2410"
-        }
-    },
     "61123": {},
     "64819": {
         "prerequisites": {
@@ -10641,9 +10627,24 @@
             }
         }
     },
-    "63946": {},
     "64298": {
         "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "64820": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
             "classification": {
                 "may_not_be": [
                     "Freshman",
