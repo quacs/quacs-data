@@ -10553,6 +10553,21 @@
         }
     },
     "61123": {},
+    "64819": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2660"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2500"
+                }
+            ]
+        }
+    },
     "63686": {
         "prerequisites": {
             "type": "course",
@@ -10583,7 +10598,6 @@
     "64335": {},
     "63423": {},
     "64794": {},
-    "63692": {},
     "62826": {
         "restrictions": {
             "level": {
@@ -10593,25 +10607,7 @@
             }
         }
     },
-    "63688": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "63947": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "63192": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -10631,26 +10627,6 @@
         "prerequisites": {
             "type": "course",
             "course": "ECSE 4250"
-        }
-    },
-    "63675": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 6400"
         }
     },
     "64297": {},
