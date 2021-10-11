@@ -15684,7 +15684,39 @@
             ]
         }
     },
-    "64311": {},
+    "64063": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "ENGR 2350"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 4050"
+                        }
+                    ]
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MANE 4500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 4510"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "64013": {
         "prerequisites": {
             "type": "or",
@@ -15716,22 +15748,18 @@
         }
     },
     "64783": {},
-    "64317": {
+    "64796": {
         "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 2710"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
-                }
-            ]
+            "type": "course",
+            "course": "MANE 2710"
         }
     },
-    "63627": {},
+    "64797": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 2710"
+        }
+    },
     "64318": {},
     "60364": {
         "prerequisites": {
@@ -15754,6 +15782,12 @@
     "61942": {},
     "62791": {},
     "62792": {},
+    "60365": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4060"
+        }
+    },
     "60599": {
         "prerequisites": {
             "type": "course",
@@ -15761,9 +15795,6 @@
         }
     },
     "64507": {},
-    "64522": {},
-    "64145": {},
-    "64506": {},
     "64144": {},
     "64523": {},
     "64020": {
