@@ -10582,6 +10582,7 @@
     "63653": {},
     "64335": {},
     "63423": {},
+    "64794": {},
     "63692": {},
     "62826": {
         "restrictions": {
@@ -15593,15 +15594,6 @@
             ]
         }
     },
-    "64626": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Senior"
-                ]
-            }
-        }
-    },
     "64309": {
         "prerequisites": {
             "type": "or",
@@ -15649,13 +15641,19 @@
             ]
         }
     },
-    "64419": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Senior"
-                ]
-            }
+    "64795": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2050"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2220"
+                }
+            ]
         }
     },
     "64012": {},
@@ -15665,7 +15663,6 @@
             "course": "MANE 4380"
         }
     },
-    "64313": {},
     "64329": {
         "prerequisites": {
             "type": "course",
@@ -15764,7 +15761,6 @@
         }
     },
     "64507": {},
-    "64420": {},
     "64522": {},
     "64145": {},
     "64506": {},
