@@ -15831,28 +15831,28 @@
             "course": "MANE 6170"
         }
     },
-    "64324": {},
-    "64325": {},
     "64331": {
         "prerequisites": {
             "type": "course",
             "course": "MANE 4480"
         }
     },
-    "64548": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
+    "64314": {},
+    "64799": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4070"
+                }
+            ]
         }
     },
-    "64332": {},
-    "64314": {},
-    "64327": {},
     "64485": {
         "prerequisites": {
             "type": "or",
@@ -15916,15 +15916,6 @@
                 "may_not_be": [
                     "Freshman",
                     "Sophomore"
-                ]
-            }
-        }
-    },
-    "61962": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
                 ]
             }
         }
