@@ -2843,16 +2843,6 @@
             }
         }
     },
-    "63714": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "60149": {
         "restrictions": {
             "level": {
@@ -14958,6 +14948,21 @@
         }
     },
     "60128": {},
+    "64845": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PHIL 2140"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2200"
+                }
+            ]
+        }
+    },
     "61331": {
         "restrictions": {
             "major": {
@@ -15025,7 +15030,6 @@
             "course": "MATH 2010"
         }
     },
-    "64292": {},
     "64505": {
         "prerequisites": {
             "type": "and",
@@ -16751,27 +16755,24 @@
     },
     "61104": {},
     "64114": {},
-    "61105": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Cognitive Science"
-                ]
-            }
-        }
-    },
     "62827": {},
     "63952": {},
-    "64293": {
+    "64844": {
         "prerequisites": {
-            "type": "course",
-            "course": "PHIL 2140"
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "PHIL 2140"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 2200"
+                }
+            ]
         }
     },
-    "63843": {},
-    "64291": {},
     "64268": {},
-    "64575": {},
     "60072": {},
     "60130": {
         "corequisites": [
@@ -17782,27 +17783,8 @@
             }
         }
     },
-    "62586": {},
-    "64359": {},
     "62654": {},
     "64360": {},
-    "62587": {},
-    "64361": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Elect Media, Arts, & Comm",
-                    "Games & Simulation Arts & Sci"
-                ]
-            }
-        }
-    },
-    "62584": {},
-    "62585": {},
-    "64362": {},
-    "64363": {},
     "64624": {},
     "64509": {},
     "64364": {
