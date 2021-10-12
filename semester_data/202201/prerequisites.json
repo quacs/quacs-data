@@ -15736,10 +15736,14 @@
             ]
         }
     },
-    "64013": {
+    "64823": {
         "prerequisites": {
             "type": "or",
             "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2410"
+                },
                 {
                     "type": "course",
                     "course": "MANE 4050"
@@ -15965,7 +15969,6 @@
             "course": "MANE 4060"
         }
     },
-    "64507": {},
     "64144": {},
     "64523": {},
     "64020": {
@@ -16020,21 +16023,6 @@
                 {
                     "type": "course",
                     "course": "MANE 4070"
-                }
-            ]
-        }
-    },
-    "64485": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECSE 6400"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 6600"
                 }
             ]
         }
