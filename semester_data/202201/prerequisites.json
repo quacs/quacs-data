@@ -1170,6 +1170,7 @@
             ]
         }
     },
+    "64851": {},
     "63180": {
         "restrictions": {
             "level": {
@@ -3112,6 +3113,7 @@
             }
         }
     },
+    "64854": {},
     "63702": {
         "restrictions": {
             "level": {
@@ -14336,30 +14338,6 @@
             ]
         }
     },
-    "64143": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 1010"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1200"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
     "60022": {
         "prerequisites": {
             "type": "or",
@@ -15551,21 +15529,6 @@
             ]
         }
     },
-    "64366": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 2220"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2050"
-                }
-            ]
-        }
-    },
     "62149": {
         "restrictions": {
             "classification": {
@@ -15946,6 +15909,39 @@
             ]
         }
     },
+    "64800": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MANE 4010"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 4080"
+                        }
+                    ]
+                },
+                {
+                    "type": "and",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "MANE 4730"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MANE 4400"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "64318": {},
     "60364": {
         "prerequisites": {
@@ -16060,6 +16056,28 @@
                     "Sophomore"
                 ]
             }
+        }
+    },
+    "64853": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4010"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4080"
+                }
+            ]
         }
     },
     "60379": {
