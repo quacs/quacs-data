@@ -7664,9 +7664,9 @@
             "credMin": 4.0,
             "credMax": 4.0,
             "title": "Molecular Biochem II",
-            "cap": 25,
+            "cap": 60,
             "act": 0,
-            "rem": 25,
+            "rem": 60,
             "attribute": "",
             "timeslots": [
               {
@@ -7723,43 +7723,7 @@
         ]
       },
       {
-        "title": "Evolution",
-        "subj": "BIOL",
-        "crse": 4860,
-        "id": "BIOL-4860",
-        "sections": [
-          {
-            "crn": 62622,
-            "subj": "BIOL",
-            "crse": 4860,
-            "sec": "01",
-            "credMin": 4.0,
-            "credMax": 4.0,
-            "title": "Evolution",
-            "cap": 30,
-            "act": 0,
-            "rem": 30,
-            "attribute": "Culminating Exp/Capstone",
-            "timeslots": [
-              {
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "timeStart": 1000,
-                "timeEnd": 1150,
-                "instructor": "Jeremy Lynch Farrell",
-                "dateStart": "01/10",
-                "dateEnd": "05/06",
-                "location": "J-ROWL 1W01"
-              }
-            ],
-            "closed": true
-          }
-        ]
-      },
-      {
-        "title": "The Global Environment",
+        "title": "Global Environmental Change",
         "subj": "BIOL",
         "crse": 4880,
         "id": "BIOL-4880",
@@ -7771,7 +7735,7 @@
             "sec": "01",
             "credMin": 4.0,
             "credMax": 4.0,
-            "title": "The Global Environment",
+            "title": "Global Environmental Change",
             "cap": 35,
             "act": 0,
             "rem": 35,
@@ -45386,7 +45350,7 @@
                 ],
                 "timeStart": 1200,
                 "timeEnd": 1250,
-                "instructor": "TBA",
+                "instructor": "Gina Irene Kucinski",
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
                 "location": "SAGE 4101"
@@ -45438,7 +45402,7 @@
                 ],
                 "timeStart": 1200,
                 "timeEnd": 1250,
-                "instructor": "TBA",
+                "instructor": "Gina Irene Kucinski",
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
                 "location": "SAGE 4101"
@@ -45465,6 +45429,110 @@
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
                 "location": "RCKTTS 203"
+              }
+            ],
+            "closed": true
+          },
+          {
+            "crn": 64846,
+            "subj": "MATH",
+            "crse": 1010,
+            "sec": "03",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Calculus I",
+            "cap": 20,
+            "act": 0,
+            "rem": 20,
+            "attribute": "Introductory Level Course",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "W",
+                  "R"
+                ],
+                "timeStart": 1200,
+                "timeEnd": 1250,
+                "instructor": "Gina Irene Kucinski",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 800,
+                "timeEnd": 850,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "W"
+                ],
+                "timeStart": 1400,
+                "timeEnd": 1450,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
+              }
+            ],
+            "closed": true
+          },
+          {
+            "crn": 64847,
+            "subj": "MATH",
+            "crse": 1010,
+            "sec": "04",
+            "credMin": 4.0,
+            "credMax": 4.0,
+            "title": "Calculus I",
+            "cap": 20,
+            "act": 0,
+            "rem": 20,
+            "attribute": "Introductory Level Course",
+            "timeslots": [
+              {
+                "days": [
+                  "M",
+                  "W",
+                  "R"
+                ],
+                "timeStart": 1200,
+                "timeEnd": 1205,
+                "instructor": "Gina Irene Kucinski",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 900,
+                "timeEnd": 950,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
+              },
+              {
+                "days": [
+                  "W"
+                ],
+                "timeStart": 1400,
+                "timeEnd": 1450,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "TBA"
               }
             ],
             "closed": true
@@ -45504,10 +45572,11 @@
               },
               {
                 "days": [
-                  "T"
+                  "T",
+                  "F"
                 ],
-                "timeStart": 800,
-                "timeEnd": 850,
+                "timeStart": 1400,
+                "timeEnd": 1450,
                 "instructor": "TBA",
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
@@ -45554,6 +45623,18 @@
               },
               {
                 "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 1500,
+                "timeEnd": 1550,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "EATON 215"
+              },
+              {
+                "days": [
                   "W"
                 ],
                 "timeStart": 1000,
@@ -45562,17 +45643,6 @@
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
                 "location": "WEST AUD"
-              },
-              {
-                "days": [
-                  "F"
-                ],
-                "timeStart": 800,
-                "timeEnd": 850,
-                "instructor": "TBA",
-                "dateStart": "01/10",
-                "dateEnd": "05/06",
-                "location": "EATON 215"
               }
             ],
             "closed": true
@@ -45604,10 +45674,11 @@
               },
               {
                 "days": [
-                  "T"
+                  "T",
+                  "F"
                 ],
-                "timeStart": 900,
-                "timeEnd": 950,
+                "timeStart": 1400,
+                "timeEnd": 1450,
                 "instructor": "TBA",
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
@@ -45654,6 +45725,18 @@
               },
               {
                 "days": [
+                  "T",
+                  "F"
+                ],
+                "timeStart": 1500,
+                "timeEnd": 1550,
+                "instructor": "TBA",
+                "dateStart": "01/10",
+                "dateEnd": "05/06",
+                "location": "EATON 215"
+              },
+              {
+                "days": [
                   "W"
                 ],
                 "timeStart": 1000,
@@ -45662,17 +45745,6 @@
                 "dateStart": "01/10",
                 "dateEnd": "05/06",
                 "location": "WEST AUD"
-              },
-              {
-                "days": [
-                  "F"
-                ],
-                "timeStart": 900,
-                "timeEnd": 950,
-                "instructor": "TBA",
-                "dateStart": "01/10",
-                "dateEnd": "05/06",
-                "location": "EATON 215"
               }
             ],
             "closed": true
