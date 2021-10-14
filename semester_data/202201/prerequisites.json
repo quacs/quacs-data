@@ -2294,6 +2294,37 @@
     "62475": {},
     "62337": {},
     "63404": {},
+    "63753": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biology"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "BIOL 4110"
+                },
+                {
+                    "type": "course",
+                    "course": "BMED 4110"
+                }
+            ]
+        }
+    },
+    "63754": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Biology"
+                ]
+            }
+        }
+    },
     "62783": {
         "prerequisites": {
             "type": "and",
@@ -2351,12 +2382,6 @@
         }
     },
     "63709": {},
-    "63405": {
-        "prerequisites": {
-            "type": "course",
-            "course": "PHYS 1200"
-        }
-    },
     "62784": {
         "prerequisites": {
             "type": "course",
@@ -2470,19 +2495,6 @@
                     "Graduate"
                 ]
             }
-        }
-    },
-    "63406": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "PHYS 1200"
         }
     },
     "62786": {
@@ -3893,17 +3905,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            }
-        }
-    },
-    "63444": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         }
