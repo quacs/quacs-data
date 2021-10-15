@@ -3899,24 +3899,6 @@
     "63887": {},
     "64427": {},
     "64428": {},
-    "63685": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "64569": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "63858": {
         "restrictions": {
             "level": {
@@ -3927,15 +3909,6 @@
         }
     },
     "60017": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "62851": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12963,7 +12936,6 @@
     "62781": {},
     "62782": {},
     "63645": {},
-    "63351": {},
     "60432": {
         "prerequisites": {
             "type": "or",
@@ -13025,17 +12997,17 @@
         }
     },
     "63352": {},
-    "61408": {},
-    "60303": {
+    "64860": {
         "prerequisites": {
             "type": "course",
-            "course": "MGMT 2320"
+            "course": "MGMT 4100"
         }
     },
-    "64315": {
+    "61408": {},
+    "64861": {
         "prerequisites": {
             "type": "course",
-            "course": "MGMT 2320"
+            "course": "MGMT 2300"
         }
     },
     "62447": {
@@ -13069,40 +13041,9 @@
         }
     },
     "60434": {},
-    "62143": {},
-    "61943": {},
     "60141": {},
     "60241": {},
     "60098": {},
-    "62764": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MGMT 1100"
-        }
-    },
-    "60069": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MGMT 2300"
-                },
-                {
-                    "type": "course",
-                    "course": "MGMT 2320"
-                },
-                {
-                    "type": "course",
-                    "course": "MGMT 2430"
-                },
-                {
-                    "type": "course",
-                    "course": "MGMT 4110"
-                }
-            ]
-        }
-    },
     "61323": {
         "prerequisites": {
             "type": "and",
@@ -13126,11 +13067,8 @@
             ]
         }
     },
-    "62608": {},
     "63700": {},
     "64598": {},
-    "64412": {},
-    "63466": {},
     "64084": {},
     "63485": {},
     "62147": {
@@ -13160,29 +13098,6 @@
                     "Business Analytics",
                     "Management",
                     "Supply Chain Management"
-                ]
-            }
-        }
-    },
-    "63149": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Business Analytics",
-                    "Management",
-                    "Supply Chain Management"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         }
@@ -13219,24 +13134,8 @@
             }
         }
     },
-    "64339": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "61944": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
+    "64339": {},
+    "61944": {},
     "63354": {
         "restrictions": {
             "level": {
@@ -13258,33 +13157,8 @@
             }
         }
     },
-    "63355": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "64340": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
+    "63355": {},
+    "64340": {},
     "62333": {
         "restrictions": {
             "level": {
