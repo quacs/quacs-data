@@ -3658,6 +3658,7 @@
         }
     },
     "64425": {},
+    "64872": {},
     "63760": {
         "prerequisites": {
             "type": "or",
@@ -3718,7 +3719,6 @@
             ]
         }
     },
-    "63445": {},
     "60018": {
         "prerequisites": {
             "type": "or",
@@ -3888,7 +3888,11 @@
             ]
         }
     },
+    "64864": {},
+    "64870": {},
+    "64868": {},
     "63489": {},
+    "64862": {},
     "62850": {
         "prerequisites": {
             "type": "course",
@@ -3913,6 +3917,27 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "64871": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "64869": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
                 ]
             }
         }
@@ -13134,8 +13159,15 @@
             }
         }
     },
-    "64339": {},
-    "61944": {},
+    "64865": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "63354": {
         "restrictions": {
             "level": {
@@ -13157,8 +13189,6 @@
             }
         }
     },
-    "63355": {},
-    "64340": {},
     "62333": {
         "restrictions": {
             "level": {
@@ -13182,6 +13212,28 @@
             }
         }
     },
+    "64866": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MGMT 6020"
+                },
+                {
+                    "type": "course",
+                    "course": "MGMT 6520"
+                }
+            ]
+        }
+    },
     "62448": {
         "restrictions": {
             "level": {
@@ -13191,13 +13243,11 @@
             }
         }
     },
-    "64336": {
+    "64867": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -13220,15 +13270,6 @@
             }
         }
     },
-    "64337": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "63985": {
         "restrictions": {
             "level": {
@@ -13243,25 +13284,7 @@
             }
         }
     },
-    "62334": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "62449": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "62144": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13302,45 +13325,6 @@
             }
         }
     },
-    "63370": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Business Analytics"
-                ]
-            }
-        }
-    },
-    "63358": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "degree": {
-                "must_be": [
-                    "Master of Bus. Admin."
-                ]
-            }
-        }
-    },
-    "64414": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "64413": {
         "restrictions": {
             "classification": {
@@ -13350,42 +13334,6 @@
                     "Sophomore"
                 ]
             }
-        }
-    },
-    "64415": {
-        "restrictions": {
-            "degree": {
-                "must_be": [
-                    "Master of Bus. Admin."
-                ]
-            }
-        }
-    },
-    "62844": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Quant Finance & Risk Analytics"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MGMT 6020"
-                },
-                {
-                    "type": "course",
-                    "course": "MGMT 6370"
-                }
-            ]
         }
     },
     "64085": {
@@ -13401,6 +13349,7 @@
     },
     "64652": {},
     "60193": {},
+    "64873": {},
     "60570": {
         "restrictions": {
             "level": {
@@ -13456,34 +13405,6 @@
                     "Quant Finance & Risk Analytics",
                     "Supply Chain Management",
                     "Tech Commercialization Entrepr"
-                ]
-            }
-        }
-    },
-    "63648": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "degree": {
-                "must_be": [
-                    "Doctor of Philosophy"
-                ]
-            }
-        }
-    },
-    "63407": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "degree": {
-                "must_be": [
-                    "Doctor of Philosophy"
                 ]
             }
         }
