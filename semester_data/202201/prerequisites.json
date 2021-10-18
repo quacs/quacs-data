@@ -2105,16 +2105,6 @@
             }
         }
     },
-    "62848": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "63492": {
         "restrictions": {
             "classification": {
@@ -12032,6 +12022,12 @@
             "course": "ISYE 4290"
         }
     },
+    "64858": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ISYE 4140"
+        }
+    },
     "64424": {},
     "64422": {},
     "62775": {
@@ -15814,7 +15810,12 @@
             "course": "MANE 4060"
         }
     },
-    "60599": {},
+    "60599": {
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4060"
+        }
+    },
     "64144": {},
     "64523": {},
     "64020": {
