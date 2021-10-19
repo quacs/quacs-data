@@ -12371,6 +12371,21 @@
         }
     },
     "62326": {},
+    "62579": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                }
+            ]
+        }
+    },
     "62788": {
         "restrictions": {
             "major": {
@@ -12412,6 +12427,24 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            }
+        }
+    },
+    "62580": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64884": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Graduate Student"
                 ]
             }
         }
