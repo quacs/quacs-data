@@ -5600,6 +5600,21 @@
             "course": "CSCI 2300"
         }
     },
+    "62606": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                }
+            ]
+        }
+    },
     "61960": {
         "prerequisites": {
             "type": "course",
@@ -5794,6 +5809,15 @@
         }
     },
     "63163": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "62607": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -15505,44 +15529,6 @@
             "course": "MANE 2710"
         }
     },
-    "64801": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 2710"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4730"
-                }
-            ]
-        }
-    },
-    "64802": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 2710"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 2720"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4730"
-                }
-            ]
-        }
-    },
     "64803": {
         "prerequisites": {
             "type": "and",
@@ -15638,7 +15624,45 @@
             ]
         }
     },
+    "64808": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 2710"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
+                }
+            ]
+        }
+    },
     "64809": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 2710"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 2720"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4730"
+                }
+            ]
+        }
+    },
+    "64810": {
         "prerequisites": {
             "type": "and",
             "nested": [
