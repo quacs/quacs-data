@@ -9440,6 +9440,21 @@
         }
     },
     "64503": {},
+    "62604": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 1200"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                }
+            ]
+        }
+    },
     "61936": {
         "prerequisites": {
             "type": "and",
@@ -9479,6 +9494,19 @@
         "cross_list_courses": [
             "CHEM-4810"
         ]
+    },
+    "62605": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 1200"
+        }
     },
     "60228": {},
     "62435": {
@@ -13673,6 +13701,7 @@
             ]
         }
     },
+    "64925": {},
     "63991": {},
     "63667": {},
     "64379": {},
@@ -13707,7 +13736,11 @@
             ]
         }
     },
-    "64768": {},
+    "64768": {
+        "cross_list_courses": [
+            "MTLE-6080"
+        ]
+    },
     "64887": {
         "cross_list_courses": [
             "MTLE-6963"
