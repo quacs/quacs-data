@@ -2375,6 +2375,9 @@
         }
     },
     "64533": {
+        "cross_list_courses": [
+            "BMED-6510"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "BMED 2540"
@@ -2465,6 +2468,18 @@
         }
     },
     "64165": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64941": {
+        "cross_list_courses": [
+            "BMED-4510"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -17499,6 +17514,21 @@
     "64742": {},
     "64743": {},
     "64939": {},
+    "64940": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "STSO 2300"
+                }
+            ]
+        }
+    },
     "64356": {
         "restrictions": {
             "classification": {
