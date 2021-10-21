@@ -17634,6 +17634,27 @@
             ]
         }
     },
+    "64952": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 2020"
+        }
+    },
+    "64953": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 4980"
+                },
+                {
+                    "type": "course",
+                    "course": "STSO 4980"
+                }
+            ]
+        }
+    },
     "64356": {
         "restrictions": {
             "classification": {
