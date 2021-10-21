@@ -31,12 +31,6 @@
             "course": "ARCH 2800"
         }
     },
-    "64488": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ARCH 2800"
-        }
-    },
     "63142": {
         "prerequisites": {
             "type": "course",
@@ -174,6 +168,12 @@
             "course": "ARCH 2830"
         }
     },
+    "64926": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ARCH 2830"
+        }
+    },
     "63414": {
         "prerequisites": {
             "type": "course",
@@ -255,8 +255,6 @@
     "62164": {},
     "64045": {},
     "63756": {},
-    "64497": {},
-    "63194": {},
     "63195": {},
     "63181": {
         "restrictions": {
@@ -538,11 +536,7 @@
             }
         }
     },
-    "64600": {},
-    "64137": {},
-    "64601": {},
     "64603": {},
-    "64604": {},
     "62493": {
         "restrictions": {
             "level": {
@@ -3834,6 +3828,25 @@
         }
     },
     "61964": {},
+    "64931": {
+        "cross_list_courses": [
+            "ERTH-4690",
+            "ERTH-6690"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 1110"
+                }
+            ]
+        }
+    },
     "60073": {
         "prerequisites": {
             "type": "or",
@@ -9424,21 +9437,6 @@
         ]
     },
     "63964": {},
-    "60124": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ERTH 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "ERTH 1200"
-                }
-            ]
-        }
-    },
     "64503": {},
     "62604": {
         "prerequisites": {
@@ -9488,8 +9486,25 @@
             ]
         }
     },
-    "64504": {},
-    "63842": {},
+    "64927": {
+        "cross_list_courses": [
+            "CHEM-4690",
+            "ERTH-6690"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CHEM 1100"
+                },
+                {
+                    "type": "course",
+                    "course": "CHEM 1110"
+                }
+            ]
+        }
+    },
     "64891": {
         "cross_list_courses": [
             "CHEM-4810"
@@ -9506,6 +9521,19 @@
         "prerequisites": {
             "type": "course",
             "course": "CSCI 1200"
+        }
+    },
+    "64929": {
+        "cross_list_courses": [
+            "CHEM-4690",
+            "ERTH-4690"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
         }
     },
     "60228": {},
@@ -13707,6 +13735,9 @@
     "64379": {},
     "64382": {},
     "64380": {
+        "cross_list_courses": [
+            "MTLE-6670"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ENGR 1600"
@@ -13787,6 +13818,9 @@
         }
     },
     "64381": {
+        "cross_list_courses": [
+            "MTLE-4470"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ENGR 1600"
@@ -17377,6 +17411,78 @@
         }
     },
     "62621": {},
+    "64928": {},
+    "64930": {},
+    "64932": {},
+    "64936": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSO 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1240"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1320"
+                }
+            ]
+        }
+    },
+    "64937": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSO 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1240"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1320"
+                }
+            ]
+        }
+    },
+    "64938": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSO 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1240"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1320"
+                }
+            ]
+        }
+    },
     "64729": {},
     "64730": {},
     "64731": {},
@@ -17392,6 +17498,7 @@
     "64741": {},
     "64742": {},
     "64743": {},
+    "64939": {},
     "64356": {
         "restrictions": {
             "classification": {
