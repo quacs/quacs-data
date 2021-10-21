@@ -5484,19 +5484,51 @@
             ]
         }
     },
-    "64431": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 1200"
-        }
-    },
+    "64902": {},
+    "64904": {},
     "60329": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
         }
     },
+    "64907": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
     "62661": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "64909": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "64910": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "64911": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "64912": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "64913": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -5512,6 +5544,126 @@
                 ]
             }
         },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 2660"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "64914": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 2660"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "64915": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 2660"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "64916": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 2660"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "64917": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2500"
+                        },
+                        {
+                            "type": "course",
+                            "course": "ECSE 2660"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "64918": {
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -5564,6 +5716,21 @@
                             "course": "MATH 2800"
                         }
                     ]
+                }
+            ]
+        }
+    },
+    "64919": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
                 }
             ]
         }
@@ -5804,6 +5971,43 @@
         "prerequisites": {
             "type": "course",
             "course": "ITWS 2110"
+        }
+    },
+    "64908": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "64920": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "CSCI 2300"
+                },
+                {
+                    "type": "course",
+                    "course": "MATH 2010"
+                }
+            ]
         }
     },
     "63163": {
@@ -9276,7 +9480,14 @@
             "course": "ENGR 6220"
         }
     },
+    "64895": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ENGR 6221"
+        }
+    },
     "64450": {},
+    "64896": {},
     "60084": {
         "corequisites": [
             "ERTH-1250"
@@ -12110,7 +12321,6 @@
             }
         }
     },
-    "64081": {},
     "62484": {
         "restrictions": {
             "level": {
