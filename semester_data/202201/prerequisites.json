@@ -5804,53 +5804,7 @@
             "course": "CSCI 4430"
         }
     },
-    "63963": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "GSAS 4520"
-                }
-            ]
-        }
-    },
-    "64080": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "ARTS 4520"
-                },
-                {
-                    "type": "course",
-                    "course": "GSAS 4520"
-                }
-            ]
-        }
-    },
-    "64384": {
+    "64921": {
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -5889,30 +5843,6 @@
             ]
         }
     },
-    "62582": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "MATH 2010"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                }
-            ]
-        }
-    },
     "64508": {
         "prerequisites": {
             "type": "or",
@@ -5928,6 +5858,7 @@
             ]
         }
     },
+    "64478": {},
     "61939": {
         "prerequisites": {
             "type": "course",
@@ -5955,7 +5886,20 @@
             "course": "CSCI 2300"
         }
     },
+    "64922": {},
+    "63993": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
     "63996": {
+        "prerequisites": {
+            "type": "course",
+            "course": "CSCI 2300"
+        }
+    },
+    "63998": {
         "prerequisites": {
             "type": "course",
             "course": "CSCI 2300"
@@ -6037,28 +5981,6 @@
             }
         }
     },
-    "64385": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 2300"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 2600"
-                }
-            ]
-        }
-    },
     "64059": {
         "restrictions": {
             "level": {
@@ -6082,20 +6004,6 @@
             "level": {
                 "must_be": [
                     "Graduate"
-                ]
-            }
-        }
-    },
-    "64386": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "major": {
-                "must_be": [
-                    "Computer Science"
                 ]
             }
         }
@@ -6132,6 +6040,28 @@
             }
         }
     },
+    "64923": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "64924": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "63997": {
         "restrictions": {
             "level": {
@@ -6141,7 +6071,7 @@
             }
         }
     },
-    "64001": {
+    "63999": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -6150,7 +6080,7 @@
             }
         }
     },
-    "63225": {
+    "64001": {
         "restrictions": {
             "level": {
                 "must_be": [
@@ -6348,21 +6278,6 @@
             }
         }
     },
-    "63854": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "63872": {
         "restrictions": {
             "level": {
@@ -6379,21 +6294,6 @@
         }
     },
     "63918": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "63936": {
         "restrictions": {
             "level": {
                 "must_be": [
