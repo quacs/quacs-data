@@ -5955,6 +5955,13 @@
         }
     },
     "62606": {
+        "cross_list_courses": [
+            "CSCI-6400",
+            "ERTH-4400",
+            "ERTH-6400",
+            "ITWS-4400",
+            "ITWS-6400"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -6095,6 +6102,9 @@
         }
     },
     "62789": {
+        "cross_list_courses": [
+            "ITWS-4500"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ITWS 2110"
@@ -6147,6 +6157,13 @@
         }
     },
     "62607": {
+        "cross_list_courses": [
+            "CSCI-4400",
+            "ERTH-4400",
+            "ERTH-6400",
+            "ITWS-4400",
+            "ITWS-6400"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9433,7 +9450,13 @@
             }
         }
     },
-    "60563": {},
+    "60563": {
+        "cross_list_courses": [
+            "ENGR-6100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ]
+    },
     "62628": {
         "restrictions": {
             "major": {
@@ -9522,6 +9545,11 @@
     },
     "61324": {},
     "60564": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ITWS-4300",
+            "ITWS-6300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -9609,6 +9637,13 @@
     "63964": {},
     "64503": {},
     "62604": {
+        "cross_list_courses": [
+            "CSCI-4400",
+            "CSCI-6400",
+            "ERTH-6400",
+            "ITWS-4400",
+            "ITWS-6400"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -9681,6 +9716,13 @@
         ]
     },
     "62605": {
+        "cross_list_courses": [
+            "CSCI-4400",
+            "CSCI-6400",
+            "ERTH-4400",
+            "ITWS-4400",
+            "ITWS-6400"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12756,6 +12798,13 @@
     },
     "62326": {},
     "62579": {
+        "cross_list_courses": [
+            "CSCI-4400",
+            "CSCI-6400",
+            "ERTH-4400",
+            "ERTH-6400",
+            "ITWS-6400"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -12771,6 +12820,9 @@
         }
     },
     "62788": {
+        "cross_list_courses": [
+            "CSCI-4976"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -12804,9 +12856,36 @@
             "course": "ITWS 2110"
         }
     },
-    "63196": {},
-    "64006": {},
+    "63196": {
+        "cross_list_courses": [
+            "ITWS-6600"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "64006": {
+        "cross_list_courses": [
+            "ITWS-6600"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
     "62113": {
+        "cross_list_courses": [
+            "ENGR-4100",
+            "ENGR-6100",
+            "ITWS-4300"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12816,6 +12895,13 @@
         }
     },
     "62580": {
+        "cross_list_courses": [
+            "CSCI-4400",
+            "CSCI-6400",
+            "ERTH-4400",
+            "ERTH-6400",
+            "ITWS-4400"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12834,19 +12920,35 @@
         }
     },
     "63197": {
+        "cross_list_courses": [
+            "ITWS-4600"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology"
+                ]
             }
         }
     },
     "63833": {
+        "cross_list_courses": [
+            "ITWS-4600"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Information Technology"
                 ]
             }
         }
