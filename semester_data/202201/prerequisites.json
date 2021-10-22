@@ -12717,6 +12717,9 @@
         }
     },
     "62321": {
+        "cross_list_courses": [
+            "ITWS-6800"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -12858,16 +12861,23 @@
         }
     },
     "62114": {
+        "cross_list_courses": [
+            "ITWS-4100"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
                     "Graduate"
                 ]
             },
+            "degree": {
+                "must_be": [
+                    "Master of Science"
+                ]
+            },
             "major": {
                 "must_be": [
-                    "Information Technology",
-                    "Information Tech & Web Science"
+                    "Information Technology"
                 ]
             }
         }
