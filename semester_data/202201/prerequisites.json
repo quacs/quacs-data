@@ -6315,6 +6315,29 @@
             ]
         }
     },
+    "64981": {
+        "cross_list_courses": [
+            "ITWS-4600",
+            "ITWS-6600"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 4350"
+                }
+            ]
+        }
+    },
     "60306": {
         "prerequisites": {
             "type": "and",
@@ -13199,6 +13222,7 @@
     },
     "63196": {
         "cross_list_courses": [
+            "CSCI-4600",
             "ITWS-6600"
         ],
         "restrictions": {
@@ -13262,6 +13286,7 @@
     },
     "63197": {
         "cross_list_courses": [
+            "CSCI-4600",
             "ITWS-4600"
         ],
         "restrictions": {
@@ -15478,6 +15503,39 @@
         "prerequisites": {
             "type": "course",
             "course": "MATH 2010"
+        }
+    },
+    "64982": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 1100"
+                        },
+                        {
+                            "type": "course",
+                            "course": "CSCI 1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "CSCI 2200"
+                        },
+                        {
+                            "type": "course",
+                            "course": "MATH 4090"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "60023": {
