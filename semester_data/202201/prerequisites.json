@@ -3289,6 +3289,8 @@
         }
     },
     "61147": {},
+    "64987": {},
+    "64988": {},
     "64072": {
         "prerequisites": {
             "type": "and",
@@ -3355,25 +3357,6 @@
             ]
         }
     },
-    "62799": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 2010"
-                },
-                {
-                    "type": "course",
-                    "course": "CHME 2050"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
     "61532": {
         "prerequisites": {
             "type": "and",
@@ -3404,25 +3387,11 @@
     "63484": {},
     "61117": {},
     "63701": {},
-    "64104": {},
-    "63741": {},
-    "64108": {},
-    "63862": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "CHME 4020"
-                }
-            ]
-        }
+    "64104": {
+        "cross_list_courses": [
+            "CHME-6962"
+        ]
     },
-    "64556": {},
     "62633": {
         "restrictions": {
             "level": {
@@ -3452,6 +3421,9 @@
         }
     },
     "64105": {
+        "cross_list_courses": [
+            "CHME-4962"
+        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -3471,27 +3443,8 @@
             }
         }
     },
-    "63742": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "64109": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
     "63829": {},
     "64140": {},
-    "64557": {},
     "62233": {
         "restrictions": {
             "level": {
