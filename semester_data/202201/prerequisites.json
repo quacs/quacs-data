@@ -6337,6 +6337,29 @@
             ]
         }
     },
+    "64986": {
+        "cross_list_courses": [
+            "ITWS-4600",
+            "ITWS-6600"
+        ],
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ITWS 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "CSCI 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "ERTH 4350"
+                }
+            ]
+        }
+    },
     "60306": {
         "prerequisites": {
             "type": "and",
@@ -13247,6 +13270,7 @@
     },
     "64006": {
         "cross_list_courses": [
+            "CSCI-4600",
             "ITWS-6600"
         ],
         "restrictions": {
@@ -13316,6 +13340,7 @@
     },
     "63833": {
         "cross_list_courses": [
+            "CSCI-4600",
             "ITWS-4600"
         ],
         "restrictions": {
