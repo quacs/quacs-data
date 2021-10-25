@@ -11083,8 +11083,26 @@
     },
     "63422": {
         "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ECSE 2010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "PHYS 1250"
+                        },
+                        {
+                            "type": "course",
+                            "course": "PHYS 1200"
+                        }
+                    ]
+                }
+            ]
         }
     },
     "61953": {
@@ -12413,7 +12431,7 @@
                 },
                 {
                     "type": "course",
-                    "course": "CHEM 2250"
+                    "course": "CHEM 1200"
                 }
             ]
         }
@@ -16274,6 +16292,21 @@
             "course": "MANE 4380"
         }
     },
+    "64983": {
+        "prerequisites": {
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "MANE 4350"
+                },
+                {
+                    "type": "course",
+                    "course": "MANE 4480"
+                }
+            ]
+        }
+    },
     "64329": {
         "prerequisites": {
             "type": "course",
@@ -16582,6 +16615,15 @@
             ]
         }
     },
+    "64984": {
+        "cross_list_courses": [
+            "MANE-6790"
+        ],
+        "prerequisites": {
+            "type": "course",
+            "course": "MANE 4730"
+        }
+    },
     "64318": {},
     "60364": {
         "prerequisites": {
@@ -16616,6 +16658,7 @@
             "course": "MANE 4060"
         }
     },
+    "64507": {},
     "64144": {},
     "64523": {},
     "64020": {
@@ -16675,6 +16718,18 @@
         }
     },
     "63966": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64985": {
+        "cross_list_courses": [
+            "MANE-4790"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
