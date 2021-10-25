@@ -12799,8 +12799,7 @@
     },
     "62121": {
         "cross_list_courses": [
-            "ISYE-4210",
-            "ISYE-6600"
+            "ISYE-4210"
         ],
         "restrictions": {
             "level": {
@@ -12811,10 +12810,6 @@
         }
     },
     "64421": {
-        "cross_list_courses": [
-            "ISYE-4210",
-            "ISYE-6600"
-        ],
         "restrictions": {
             "classification": {
                 "may_not_be": [
@@ -16658,7 +16653,12 @@
             "course": "MANE 4060"
         }
     },
-    "64507": {},
+    "64507": {
+        "cross_list_courses": [
+            "MANE-6961"
+        ]
+    },
+    "63693": {},
     "64144": {},
     "64523": {},
     "64020": {
@@ -16799,6 +16799,27 @@
                 "may_not_be": [
                     "Freshman",
                     "Sophomore"
+                ]
+            }
+        }
+    },
+    "64087": {
+        "cross_list_courses": [
+            "MANE-4960"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "61962": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
