@@ -4871,6 +4871,7 @@
         }
     },
     "62464": {},
+    "64998": {},
     "63965": {},
     "64969": {
         "prerequisites": {
@@ -11874,6 +11875,12 @@
             }
         }
     },
+    "64999": {
+        "prerequisites": {
+            "type": "course",
+            "course": "ECSE 2050"
+        }
+    },
     "64792": {
         "restrictions": {
             "classification": {
@@ -12019,6 +12026,9 @@
         ]
     },
     "63423": {
+        "cross_list_courses": [
+            "ECSE-6964"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -12174,16 +12184,17 @@
             "ECSE-4963"
         ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
     },
     "63424": {
+        "cross_list_courses": [
+            "ECSE-4964"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
