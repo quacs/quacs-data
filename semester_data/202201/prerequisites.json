@@ -293,12 +293,18 @@
         }
     },
     "63412": {
+        "corequisites": [
+            "ARCH-4961"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ARCH 2830"
         }
     },
     "64926": {
+        "corequisites": [
+            "ARCH-4961"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ARCH 2830"
@@ -403,6 +409,16 @@
     "62164": {},
     "60103": {},
     "64045": {},
+    "63733": {
+        "cross_list_courses": [
+            "ARCH-6966"
+        ]
+    },
+    "64995": {
+        "corequisites": [
+            "ARCH-4820"
+        ]
+    },
     "63756": {},
     "64972": {
         "cross_list_courses": [
@@ -425,7 +441,17 @@
             "ARCH-6968"
         ]
     },
-    "63195": {},
+    "63195": {
+        "cross_list_courses": [
+            "ARCH-6969"
+        ]
+    },
+    "64993": {
+        "cross_list_courses": [
+            "ARCH-6962"
+        ]
+    },
+    "64997": {},
     "63181": {
         "restrictions": {
             "level": {
@@ -724,6 +750,18 @@
             }
         }
     },
+    "64994": {
+        "cross_list_courses": [
+            "ARCH-4970"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "64973": {
         "cross_list_courses": [
             "ARCH-4963"
@@ -760,6 +798,18 @@
             }
         }
     },
+    "64996": {
+        "cross_list_courses": [
+            "ARCH-4960"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "64979": {
         "cross_list_courses": [
             "ARCH-4968"
@@ -773,6 +823,9 @@
         }
     },
     "64603": {
+        "cross_list_courses": [
+            "ARCH-4969"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -10518,6 +10571,7 @@
             ]
         }
     },
+    "63842": {},
     "64891": {
         "cross_list_courses": [
             "CHEM-4810"
