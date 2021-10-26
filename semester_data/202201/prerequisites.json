@@ -12003,14 +12003,36 @@
         }
     },
     "60479": {},
-    "64376": {},
-    "63653": {},
+    "64376": {
+        "cross_list_courses": [
+            "ECSE-6961"
+        ]
+    },
+    "63653": {
+        "cross_list_courses": [
+            "ECSE-6962"
+        ]
+    },
     "64335": {
         "cross_list_courses": [
             "ECSE-6963"
         ]
     },
-    "63423": {},
+    "63423": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ENGR 2600"
+                },
+                {
+                    "type": "course",
+                    "course": "ECSE 4840"
+                }
+            ]
+        }
+    },
     "62826": {
         "restrictions": {
             "level": {
@@ -12124,6 +12146,9 @@
         }
     },
     "64333": {
+        "cross_list_courses": [
+            "ECSE-4961"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -12133,6 +12158,9 @@
         }
     },
     "63654": {
+        "cross_list_courses": [
+            "ECSE-4962"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14234,124 +14262,8 @@
             ]
         }
     },
-    "63780": {},
-    "63779": {
-        "prerequisites": {
-            "type": "course",
-            "course": "LGHT 4840"
-        }
-    },
     "60261": {},
-    "60571": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "LGHT 4230"
-                },
-                {
-                    "type": "course",
-                    "course": "LGHT 6750"
-                }
-            ]
-        }
-    },
-    "60683": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "course",
-            "course": "LGHT 4840"
-        }
-    },
-    "62804": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
     "60573": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "63205": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "64527": {},
-    "64528": {},
-    "61537": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "61538": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "63219": {},
-    "61126": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "61539": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "64038": {},
-    "61951": {
         "restrictions": {
             "level": {
                 "must_be": [
