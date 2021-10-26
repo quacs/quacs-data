@@ -11876,6 +11876,9 @@
         }
     },
     "64999": {
+        "cross_list_courses": [
+            "ECSE-6310"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ECSE 2050"
@@ -12081,6 +12084,18 @@
         "prerequisites": {
             "type": "course",
             "course": "ECSE 4250"
+        }
+    },
+    "65000": {
+        "cross_list_courses": [
+            "ECSE-4310"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
         }
     },
     "64297": {},
@@ -14537,6 +14552,12 @@
                     "Graduate"
                 ]
             },
+            "degree": {
+                "must_be": [
+                    "Master of Bus. Admin.",
+                    "Master of Science"
+                ]
+            },
             "major": {
                 "must_be": [
                     "Management",
@@ -14551,6 +14572,16 @@
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Bus. Admin."
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Management"
+                ]
             }
         }
     },
@@ -14564,7 +14595,7 @@
             "major": {
                 "must_be": [
                     "Business Analytics",
-                    "Management",
+                    "Quant Finance & Risk Analytics",
                     "Supply Chain Management"
                 ]
             }
@@ -14572,11 +14603,16 @@
     },
     "64316": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Business Analytics",
+                    "Quant Finance & Risk Analytics",
+                    "Supply Chain Management"
                 ]
             }
         }
@@ -14591,13 +14627,6 @@
             "major": {
                 "must_be": [
                     "Business Analytics"
-                ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
                 ]
             }
         }
@@ -14622,13 +14651,6 @@
                 "must_be": [
                     "Supply Chain Management"
                 ]
-            },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
             }
         }
     },
@@ -14652,6 +14674,11 @@
                 "must_be": [
                     "Graduate"
                 ]
+            },
+            "major": {
+                "must_be": [
+                    "Quant Finance & Risk Analytics"
+                ]
             }
         }
     },
@@ -14660,6 +14687,11 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Quant Finance & Risk Analytics"
                 ]
             }
         },
@@ -14691,6 +14723,11 @@
             "level": {
                 "must_be": [
                     "Graduate"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Quant Finance & Risk Analytics"
                 ]
             }
         }
@@ -14728,6 +14765,23 @@
         }
     },
     "64882": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Bus. Admin."
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Management"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -14805,17 +14859,38 @@
     },
     "64085": {
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Business Analytics"
                 ]
             }
         }
     },
     "60193": {},
-    "64873": {},
+    "64873": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Bus. Admin."
+                ]
+            },
+            "major": {
+                "must_be": [
+                    "Management"
+                ]
+            }
+        }
+    },
     "60570": {
         "restrictions": {
             "level": {
