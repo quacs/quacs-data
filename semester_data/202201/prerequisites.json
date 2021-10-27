@@ -13298,6 +13298,21 @@
             }
         }
     },
+    "65013": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "GSAS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "WRIT 2330"
+                }
+            ]
+        }
+    },
     "64788": {
         "restrictions": {
             "major": {
@@ -13454,6 +13469,7 @@
             }
         }
     },
+    "65014": {},
     "62457": {},
     "63434": {
         "cross_list_courses": [
