@@ -1154,6 +1154,9 @@
         }
     },
     "62626": {
+        "cross_list_courses": [
+            "GSAS-4510"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -5422,6 +5425,10 @@
         }
     },
     "64954": {
+        "cross_list_courses": [
+            "COGS-6962",
+            "PSYC-4220"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -5500,6 +5507,19 @@
             "major": {
                 "must_be": [
                     "Cognitive Science"
+                ]
+            }
+        }
+    },
+    "65004": {
+        "cross_list_courses": [
+            "COGS-4220",
+            "PSYC-4220"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -10315,6 +10335,9 @@
         }
     },
     "62628": {
+        "cross_list_courses": [
+            "STSO-4610"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -13256,6 +13279,9 @@
         }
     },
     "63785": {
+        "cross_list_courses": [
+            "ARTS-6400"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -14157,6 +14183,15 @@
             }
         }
     },
+    "65005": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "63750": {
         "restrictions": {
             "classification": {
@@ -14470,19 +14505,32 @@
     },
     "63352": {},
     "64860": {
+        "cross_list_courses": [
+            "MGMT-6160"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MGMT 4100"
         }
     },
-    "61408": {},
+    "61408": {
+        "cross_list_courses": [
+            "MGMT-6570"
+        ]
+    },
     "64861": {
+        "cross_list_courses": [
+            "MGMT-6430"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "MGMT 2300"
         }
     },
     "62447": {
+        "cross_list_courses": [
+            "MGMT-6720"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -14498,6 +14546,9 @@
         }
     },
     "60010": {
+        "cross_list_courses": [
+            "MGMT-6540"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -14512,7 +14563,11 @@
             ]
         }
     },
-    "60434": {},
+    "60434": {
+        "cross_list_courses": [
+            "MGMT-6620"
+        ]
+    },
     "60141": {},
     "60241": {},
     "60098": {},
@@ -14552,8 +14607,16 @@
             "MGMT-6690"
         ]
     },
-    "64084": {},
-    "63485": {},
+    "64084": {
+        "cross_list_courses": [
+            "MGMT-6965"
+        ]
+    },
+    "63485": {
+        "cross_list_courses": [
+            "MGMT-6560"
+        ]
+    },
     "62666": {},
     "62147": {
         "restrictions": {
@@ -14628,6 +14691,9 @@
         }
     },
     "63353": {
+        "cross_list_courses": [
+            "MGMT-4160"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14720,6 +14786,9 @@
         }
     },
     "62448": {
+        "cross_list_courses": [
+            "MGMT-4260"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14743,6 +14812,9 @@
         }
     },
     "61118": {
+        "cross_list_courses": [
+            "MGMT-4490"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14752,6 +14824,9 @@
         }
     },
     "63647": {
+        "cross_list_courses": [
+            "MGMT-4966"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14761,6 +14836,9 @@
         }
     },
     "63985": {
+        "cross_list_courses": [
+            "MGMT-4170"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14807,6 +14885,9 @@
         }
     },
     "62449": {
+        "cross_list_courses": [
+            "MGMT-4520"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14828,6 +14909,9 @@
         }
     },
     "62499": {
+        "cross_list_courses": [
+            "MGMT-4450"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14883,6 +14967,9 @@
         }
     },
     "64085": {
+        "cross_list_courses": [
+            "MGMT-4965"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -18997,6 +19084,10 @@
     },
     "63749": {},
     "64955": {
+        "cross_list_courses": [
+            "COGS-4220",
+            "COGS-6962"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19147,7 +19238,17 @@
     "64928": {},
     "64930": {},
     "64932": {},
-    "64959": {},
+    "64959": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Design, Innovation and Society",
+                    "Science, Tech & Society",
+                    "Sustainability Studies"
+                ]
+            }
+        }
+    },
     "64936": {
         "prerequisites": {
             "type": "or",
@@ -19335,6 +19436,9 @@
         }
     },
     "64958": {
+        "cross_list_courses": [
+            "ENGR-4610"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ENGR 2020"
