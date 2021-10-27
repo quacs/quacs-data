@@ -1143,6 +1143,21 @@
     },
     "60482": {},
     "64395": {},
+    "65012": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ARTS 4220"
+                },
+                {
+                    "type": "course",
+                    "course": "ARTS 1200"
+                }
+            ]
+        }
+    },
     "64090": {},
     "63751": {
         "restrictions": {
@@ -5402,6 +5417,7 @@
             }
         }
     },
+    "65008": {},
     "64280": {},
     "64281": {
         "restrictions": {
@@ -5469,7 +5485,12 @@
         }
     },
     "64760": {},
-    "64451": {},
+    "64451": {
+        "cross_list_courses": [
+            "COGS-6960",
+            "CSCI-4960"
+        ]
+    },
     "62485": {},
     "62556": {},
     "62559": {},
@@ -5489,6 +5510,10 @@
         }
     },
     "64452": {
+        "cross_list_courses": [
+            "COGS-4960",
+            "CSCI-4960"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -5736,6 +5761,7 @@
             }
         }
     },
+    "65009": {},
     "60579": {},
     "63649": {
         "restrictions": {
@@ -5789,6 +5815,17 @@
         }
     },
     "60580": {},
+    "65011": {
+        "restrictions": {
+            "classification": {
+                "may_not_be": [
+                    "Freshman",
+                    "Junior",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "60581": {
         "restrictions": {
             "level": {
@@ -6834,7 +6871,12 @@
             ]
         }
     },
-    "64478": {},
+    "64478": {
+        "cross_list_courses": [
+            "COGS-4960",
+            "COGS-6960"
+        ]
+    },
     "63705": {
         "prerequisites": {
             "type": "and",
@@ -13364,6 +13406,11 @@
             ]
         }
     },
+    "65007": {
+        "cross_list_courses": [
+            "PSYC-4960"
+        ]
+    },
     "64128": {
         "restrictions": {
             "major": {
@@ -19234,6 +19281,11 @@
         }
     },
     "60512": {},
+    "65006": {
+        "cross_list_courses": [
+            "GSAS-4960"
+        ]
+    },
     "62621": {},
     "64928": {},
     "64930": {},
@@ -19445,6 +19497,41 @@
         }
     },
     "64957": {},
+    "65010": {
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "STSS 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "STSH 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "STSO 1110"
+                },
+                {
+                    "type": "course",
+                    "course": "STSS 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "STSO 2520"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1240"
+                },
+                {
+                    "type": "course",
+                    "course": "IHSS 1110"
+                }
+            ]
+        }
+    },
     "64952": {
         "prerequisites": {
             "type": "course",
