@@ -5594,8 +5594,17 @@
             ]
         }
     },
-    "62805": {},
+    "62805": {
+        "cross_list_courses": [
+            "COGS-4360",
+            "PSYC-4320"
+        ]
+    },
     "63658": {
+        "cross_list_courses": [
+            "COGS-4360",
+            "PSYC-4320"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "PSYC 1200"
@@ -5819,58 +5828,83 @@
     },
     "64022": {
         "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "64023": {
+        "restrictions": {
             "major": {
                 "must_be": [
                     "Communication, Media, & Design",
                     "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
     },
-    "64023": {},
-    "64024": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
+    "64024": {},
     "64025": {
         "restrictions": {
-            "classification": {
+            "major": {
                 "must_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+                    "Communication, Media, & Design",
+                    "Communication",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
     },
     "63657": {
         "restrictions": {
-            "major": {
+            "classification": {
                 "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
-                    "Electronic Arts",
-                    "Elect Media, Arts, & Comm"
+                    "Freshman",
+                    "Sophomore"
                 ]
             }
         }
     },
-    "64120": {},
-    "64347": {},
+    "64120": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Communication",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
+                ]
+            }
+        }
+    },
+    "64347": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "64348": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Communication, Media, & Design",
                     "Communication",
-                    "Elect Media, Arts, & Comm"
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci",
+                    "Information Tech & Web Science"
                 ]
             }
         }
@@ -5881,6 +5915,7 @@
         "restrictions": {
             "major": {
                 "must_be": [
+                    "Communication, Media, & Design",
                     "Communication",
                     "Elect Media, Arts, & Comm",
                     "Games & Simulation Arts & Sci",
@@ -11170,6 +11205,9 @@
     },
     "60582": {},
     "64774": {
+        "cross_list_courses": [
+            "ECON-6110"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11222,6 +11260,9 @@
         }
     },
     "63956": {
+        "cross_list_courses": [
+            "ECON-6170"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11255,6 +11296,9 @@
         }
     },
     "63944": {
+        "cross_list_courses": [
+            "ECON-6190"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -11274,12 +11318,18 @@
         }
     },
     "64781": {
+        "cross_list_courses": [
+            "ECON-6190"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ECON 1200"
         }
     },
     "64771": {
+        "cross_list_courses": [
+            "ECON-6210"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11349,6 +11399,9 @@
         }
     },
     "64261": {
+        "cross_list_courses": [
+            "ECON-6270"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11382,6 +11435,9 @@
         }
     },
     "64776": {
+        "cross_list_courses": [
+            "ECON-6280"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11435,7 +11491,11 @@
             ]
         }
     },
-    "64397": {},
+    "64397": {
+        "cross_list_courses": [
+            "ECON-6290"
+        ]
+    },
     "63673": {
         "prerequisites": {
             "type": "or",
@@ -11455,14 +11515,25 @@
             ]
         }
     },
-    "64398": {},
-    "64399": {},
+    "64398": {
+        "cross_list_courses": [
+            "ECON-6320"
+        ]
+    },
+    "64399": {
+        "cross_list_courses": [
+            "ECON-6340"
+        ]
+    },
     "64330": {
         "cross_list_courses": [
             "ECON-6360"
         ]
     },
     "64780": {
+        "cross_list_courses": [
+            "ECON-6130"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11624,8 +11695,10 @@
             }
         }
     },
-    "64775": {},
-    "64328": {
+    "64775": {
+        "cross_list_courses": [
+            "ECON-4110"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -11634,16 +11707,62 @@
             }
         }
     },
-    "63955": {},
-    "63943": {},
-    "64782": {},
-    "64772": {
+    "64328": {
+        "cross_list_courses": [
+            "ECON-4430"
+        ],
         "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "63955": {
+        "cross_list_courses": [
+            "ECON-4170"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "63943": {
+        "cross_list_courses": [
+            "ECON-4190"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64782": {
+        "cross_list_courses": [
+            "ECON-4190"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64772": {
+        "cross_list_courses": [
+            "ECON-4210"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
                 ]
             }
         }
@@ -11660,10 +11779,10 @@
             }
         }
     },
-    "64263": {},
-    "64777": {},
-    "64401": {},
-    "64773": {
+    "64263": {
+        "cross_list_courses": [
+            "ECON-4270"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -11672,11 +11791,65 @@
             }
         }
     },
-    "64402": {},
+    "64777": {
+        "cross_list_courses": [
+            "ECON-4280"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64401": {
+        "cross_list_courses": [
+            "ECON-4290"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64773": {
+        "cross_list_courses": [
+            "ECON-4320"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "64402": {
+        "cross_list_courses": [
+            "ECON-4340"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "64388": {
         "cross_list_courses": [
             "ECON-4360"
-        ]
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
     },
     "61569": {
         "restrictions": {
@@ -13426,10 +13599,7 @@
         "restrictions": {
             "major": {
                 "must_be": [
-                    "Communication, Media, & Design",
-                    "Communication",
                     "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
                     "Games & Simulation Arts & Sci"
                 ]
             }
@@ -13453,7 +13623,15 @@
             }
         }
     },
-    "64784": {},
+    "64784": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
     "63782": {
         "restrictions": {
             "major": {
@@ -13515,6 +13693,16 @@
         }
     },
     "65034": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Communication, Media, & Design",
+                    "Communication",
+                    "Elect Media, Arts, & Comm",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -13632,6 +13820,18 @@
             "PSYC-4960"
         ]
     },
+    "65044": {
+        "cross_list_courses": [
+            "GSAS-6200"
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
     "64785": {
         "restrictions": {
             "major": {
@@ -13646,6 +13846,9 @@
         }
     },
     "64786": {
+        "cross_list_courses": [
+            "GSAS-4961"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -13663,7 +13866,15 @@
             }
         }
     },
-    "65014": {},
+    "65014": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "65020": {},
     "65021": {},
     "65022": {},
@@ -18609,7 +18820,11 @@
             "PSYC-2100"
         ]
     },
-    "64114": {},
+    "64114": {
+        "cross_list_courses": [
+            "PSYC-2100"
+        ]
+    },
     "62827": {},
     "60585": {},
     "63952": {},
@@ -18628,7 +18843,11 @@
             ]
         }
     },
-    "64268": {},
+    "64268": {
+        "cross_list_courses": [
+            "STSO-4250"
+        ]
+    },
     "60586": {},
     "60072": {},
     "60130": {
@@ -19367,7 +19586,11 @@
             "PHIL-2100"
         ]
     },
-    "64115": {},
+    "64115": {
+        "cross_list_courses": [
+            "PHIL-2100"
+        ]
+    },
     "63951": {
         "restrictions": {
             "major": {
@@ -19420,8 +19643,17 @@
             ]
         }
     },
-    "62196": {},
+    "62196": {
+        "cross_list_courses": [
+            "COGS-4360",
+            "PSYC-4320"
+        ]
+    },
     "63664": {
+        "cross_list_courses": [
+            "COGS-4360",
+            "PSYC-4320"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -19435,8 +19667,15 @@
             "course": "PSYC 1200"
         }
     },
-    "64405": {},
+    "64405": {
+        "cross_list_courses": [
+            "PSYC-4350"
+        ]
+    },
     "64406": {
+        "cross_list_courses": [
+            "PSYC-4350"
+        ],
         "restrictions": {
             "major": {
                 "must_be": [
@@ -19475,6 +19714,14 @@
         }
     },
     "64296": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19502,13 +19749,23 @@
             ]
         }
     },
-    "64859": {},
+    "64859": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Psychological Science"
+                ]
+            }
+        }
+    },
     "64344": {},
     "64345": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Cognitive Science",
+                    "Philosophy",
                     "Psychological Science"
                 ]
             }
@@ -19546,8 +19803,24 @@
         ]
     },
     "62621": {},
-    "64928": {},
-    "64930": {},
+    "64928": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
+    "64930": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman"
+                ]
+            }
+        }
+    },
     "64932": {},
     "64959": {
         "restrictions": {
@@ -19561,6 +19834,13 @@
         }
     },
     "64936": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19584,6 +19864,13 @@
         }
     },
     "64937": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Senior"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -19649,7 +19936,11 @@
     "64740": {},
     "64741": {},
     "64743": {},
-    "64939": {},
+    "64939": {
+        "cross_list_courses": [
+            "PHIL-4500"
+        ]
+    },
     "64940": {
         "prerequisites": {
             "type": "or",
