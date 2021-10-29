@@ -1847,7 +1847,7 @@
                 ]
             },
             "classification": {
-                "may_not_be": [
+                "must_be": [
                     "Freshman",
                     "Sophomore"
                 ]
@@ -1870,7 +1870,7 @@
                 ]
             },
             "classification": {
-                "may_not_be": [
+                "must_be": [
                     "Freshman",
                     "Sophomore"
                 ]
@@ -2358,8 +2358,30 @@
     "61339": {},
     "64032": {
         "prerequisites": {
-            "type": "course",
-            "course": "BIOL 4850"
+            "type": "and",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "BIOL 1010"
+                },
+                {
+                    "type": "or",
+                    "nested": [
+                        {
+                            "type": "course",
+                            "course": "BIOL 1015"
+                        },
+                        {
+                            "type": "course",
+                            "course": "BIOL 2120"
+                        }
+                    ]
+                },
+                {
+                    "type": "course",
+                    "course": "BIOL 2125"
+                }
+            ]
         }
     },
     "60574": {},
@@ -17745,7 +17767,11 @@
             "MANE-6961"
         ]
     },
-    "63693": {},
+    "63693": {
+        "cross_list_courses": [
+            "MANE-6963"
+        ]
+    },
     "64144": {},
     "64523": {},
     "64020": {
@@ -17912,6 +17938,18 @@
         }
     },
     "61962": {
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "65038": {
+        "cross_list_courses": [
+            "MANE-4961"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
