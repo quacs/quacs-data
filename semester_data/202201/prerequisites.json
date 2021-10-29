@@ -937,20 +937,46 @@
     },
     "60541": {},
     "64746": {},
-    "63372": {},
-    "63861": {},
+    "63372": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
+    "63861": {
+        "restrictions": {
+            "classification": {
+                "must_be": [
+                    "Freshman",
+                    "Sophomore"
+                ]
+            }
+        }
+    },
     "63397": {},
-    "62588": {},
+    "62588": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Architecture",
+                    "Communication, Media, & Design",
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        }
+    },
     "62471": {
         "restrictions": {
             "major": {
                 "must_be": [
                     "Architecture",
                     "Communication, Media, & Design",
-                    "Communication",
-                    "Design, Innovation and Society",
                     "Electronic Arts",
-                    "Elect Media, Arts, & Comm",
                     "Games & Simulation Arts & Sci"
                 ]
             }
@@ -958,6 +984,14 @@
     },
     "64597": {},
     "64048": {
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Electronic Arts",
+                    "Games & Simulation Arts & Sci"
+                ]
+            }
+        },
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -1083,6 +1117,9 @@
         }
     },
     "63446": {
+        "cross_list_courses": [
+            "ARTS-6965"
+        ],
         "prerequisites": {
             "type": "course",
             "course": "ARTS 2020"
@@ -1149,6 +1186,9 @@
     "60482": {},
     "64395": {},
     "65012": {
+        "cross_list_courses": [
+            "ARTS-6961"
+        ],
         "prerequisites": {
             "type": "or",
             "nested": [
@@ -1162,6 +1202,11 @@
                 }
             ]
         }
+    },
+    "65042": {
+        "cross_list_courses": [
+            "ARTS-6962"
+        ]
     },
     "64090": {},
     "63751": {
@@ -1212,7 +1257,52 @@
             }
         }
     },
+    "65041": {
+        "cross_list_courses": [
+            "ARTS-4961"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            },
+            "degree": {
+                "must_be": [
+                    "Master of Fine Arts"
+                ]
+            }
+        },
+        "prerequisites": {
+            "type": "or",
+            "nested": [
+                {
+                    "type": "course",
+                    "course": "ARTS 4220"
+                },
+                {
+                    "type": "course",
+                    "course": "ARTS 1200"
+                }
+            ]
+        }
+    },
+    "65043": {
+        "cross_list_courses": [
+            "ARTS-4962"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
     "64091": {
+        "cross_list_courses": [
+            "ARTS-4160"
+        ],
         "restrictions": {
             "degree": {
                 "must_be": [
@@ -5456,8 +5546,15 @@
             }
         }
     },
-    "64758": {},
+    "64758": {
+        "cross_list_courses": [
+            "COGS-2340"
+        ]
+    },
     "64285": {
+        "cross_list_courses": [
+            "COGS-2340"
+        ],
         "restrictions": {
             "classification": {
                 "must_be": [
@@ -5527,6 +5624,9 @@
     "63535": {},
     "64123": {},
     "64761": {
+        "cross_list_courses": [
+            "COGS-4880"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -6809,7 +6909,8 @@
     "64981": {
         "cross_list_courses": [
             "ITWS-4600",
-            "ITWS-6600"
+            "ITWS-6600",
+            "MGMT-6600"
         ],
         "prerequisites": {
             "type": "or",
@@ -6832,7 +6933,8 @@
     "64986": {
         "cross_list_courses": [
             "ITWS-4600",
-            "ITWS-6600"
+            "ITWS-6600",
+            "MGMT-6600"
         ],
         "prerequisites": {
             "type": "or",
@@ -6895,7 +6997,15 @@
         "cross_list_courses": [
             "COGS-4960",
             "COGS-6960"
-        ]
+        ],
+        "restrictions": {
+            "major": {
+                "must_be": [
+                    "Cognitive Science",
+                    "Computer Science"
+                ]
+            }
+        }
     },
     "63705": {
         "prerequisites": {
@@ -11459,6 +11569,9 @@
         }
     },
     "64769": {
+        "cross_list_courses": [
+            "ECON-6040"
+        ],
         "prerequisites": {
             "type": "and",
             "nested": [
@@ -11500,6 +11613,9 @@
     },
     "60495": {},
     "64770": {
+        "cross_list_courses": [
+            "ECON-4590"
+        ],
         "restrictions": {
             "level": {
                 "must_be": [
@@ -14154,7 +14270,8 @@
     "63196": {
         "cross_list_courses": [
             "CSCI-4600",
-            "ITWS-6600"
+            "ITWS-6600",
+            "MGMT-6600"
         ],
         "restrictions": {
             "major": {
@@ -14167,7 +14284,8 @@
     "64006": {
         "cross_list_courses": [
             "CSCI-4600",
-            "ITWS-6600"
+            "ITWS-6600",
+            "MGMT-6600"
         ],
         "restrictions": {
             "major": {
@@ -14218,7 +14336,8 @@
     "63197": {
         "cross_list_courses": [
             "CSCI-4600",
-            "ITWS-4600"
+            "ITWS-4600",
+            "MGMT-6600"
         ],
         "restrictions": {
             "level": {
@@ -14236,7 +14355,8 @@
     "63833": {
         "cross_list_courses": [
             "CSCI-4600",
-            "ITWS-4600"
+            "ITWS-4600",
+            "MGMT-6600"
         ],
         "restrictions": {
             "level": {
@@ -15042,6 +15162,34 @@
                     "course": "MGMT 6520"
                 }
             ]
+        }
+    },
+    "65039": {
+        "cross_list_courses": [
+            "CSCI-4600",
+            "ITWS-4600",
+            "ITWS-6600"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
+        }
+    },
+    "65040": {
+        "cross_list_courses": [
+            "CSCI-4600",
+            "ITWS-4600",
+            "ITWS-6600"
+        ],
+        "restrictions": {
+            "level": {
+                "must_be": [
+                    "Graduate"
+                ]
+            }
         }
     },
     "62449": {
