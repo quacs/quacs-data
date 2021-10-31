@@ -2982,7 +2982,11 @@
       "PHIL-2100"
     ]
   },
-  "60331": {},
+  "60331": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ]
+  },
   "60339": {},
   "60340": {
     "restrictions": {
@@ -8817,6 +8821,9 @@
     }
   },
   "62583": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -9488,7 +9495,21 @@
   },
   "62651": {},
   "62652": {},
-  "62654": {},
+  "62654": {
+    "cross_list_courses": [
+      "WRIT-2320"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Communication",
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "62655": {
     "restrictions": {
       "level": {
@@ -10889,7 +10910,19 @@
   },
   "63148": {},
   "63155": {},
-  "63156": {},
+  "63156": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63157": {
     "prerequisites": {
       "course": "ARCH 2820",
@@ -12086,7 +12119,11 @@
       }
     }
   },
-  "63378": {},
+  "63378": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ]
+  },
   "63379": {
     "prerequisites": {
       "nested": [
@@ -12771,6 +12808,9 @@
     }
   },
   "63637": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -12780,20 +12820,44 @@
       }
     }
   },
-  "63638": {},
-  "63639": {},
+  "63638": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ]
+  },
+  "63639": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63640": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
           "Communication, Media, & Design",
           "Communication",
-          "Elect Media, Arts, & Comm"
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
   },
-  "63641": {},
+  "63641": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ]
+  },
   "63643": {},
   "63644": {
     "prerequisites": {
@@ -14909,12 +14973,16 @@
     }
   },
   "64027": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
           "Communication, Media, & Design",
           "Communication",
-          "Elect Media, Arts, & Comm"
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -15484,12 +15552,14 @@
     }
   },
   "64176": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
     "restrictions": {
-      "major": {
+      "classification": {
         "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm"
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -16138,7 +16208,21 @@
       }
     }
   },
-  "64351": {},
+  "64351": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Communication",
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "64353": {
     "restrictions": {
       "classification": {
@@ -16150,6 +16234,9 @@
   },
   "64355": {},
   "64356": {
+    "cross_list_courses": [
+      "WRIT-1110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -16159,19 +16246,39 @@
       }
     }
   },
-  "64357": {},
-  "64358": {
+  "64357": {
+    "cross_list_courses": [
+      "WRIT-1110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
           "Communication, Media, & Design",
           "Communication",
-          "Elect Media, Arts, & Comm"
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
   },
-  "64360": {},
+  "64358": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64360": {
+    "cross_list_courses": [
+      "WRIT-2320"
+    ]
+  },
   "64367": {},
   "64370": {
     "prerequisites": {
@@ -16531,11 +16638,13 @@
     }
   },
   "64510": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -20329,6 +20438,115 @@
           "Games & Simulation Arts & Sci"
         ]
       }
+    }
+  },
+  "65045": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2100",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1140",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "65046": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2100",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4500",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1140",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1235",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1160",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1165",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1130",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "65047": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1560",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2520",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 1110",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2110",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2320",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2330",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
