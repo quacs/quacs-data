@@ -5168,21 +5168,6 @@
       }
     }
   },
-  "61545": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61548": {
     "restrictions": {
       "level": {
@@ -5449,15 +5434,6 @@
     }
   },
   "61591": {},
-  "61594": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61595": {
     "restrictions": {
       "classification": {
@@ -7387,7 +7363,6 @@
       }
     }
   },
-  "62317": {},
   "62320": {
     "restrictions": {
       "major": {
@@ -8738,7 +8713,6 @@
       }
     }
   },
-  "62539": {},
   "62555": {
     "restrictions": {
       "level": {
@@ -11664,16 +11638,6 @@
       }
     }
   },
-  "63281": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63283": {},
   "63284": {
     "restrictions": {
@@ -12025,12 +11989,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "63369": {
-    "prerequisites": {
-      "course": "ARCH 6910",
-      "type": "course"
     }
   },
   "63371": {
@@ -13351,16 +13309,6 @@
     "corequisites": [
       "ERTH-1200"
     ]
-  },
-  "63713": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
   },
   "63716": {
     "corequisites": [
@@ -16967,11 +16915,6 @@
   },
   "64681": {},
   "64682": {},
-  "64683": {},
-  "64684": {},
-  "64685": {},
-  "64686": {},
-  "64687": {},
   "64709": {
     "prerequisites": {
       "nested": [
@@ -20515,6 +20458,9 @@
     }
   },
   "65047": {
+    "cross_list_courses": [
+      "WRIT-6960"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20547,6 +20493,30 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "65048": {
+    "cross_list_courses": [
+      "WRIT-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "65049": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student",
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
     }
   }
 }
