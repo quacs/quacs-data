@@ -12471,8 +12471,6 @@
       "PHYS-1960"
     ]
   },
-  "63442": {},
-  "63443": {},
   "63446": {
     "cross_list_courses": [
       "ARTS-6965"
@@ -20518,5 +20516,96 @@
         ]
       }
     }
-  }
+  },
+  "65050": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "65051": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSS 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "65052": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSH 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "65053": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "65054": {}
 }
