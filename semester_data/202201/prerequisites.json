@@ -3007,6 +3007,9 @@
     }
   },
   "60328": {
+    "cross_list_courses": [
+      "MTLE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "type": "course"
@@ -4103,6 +4106,9 @@
     }
   },
   "61119": {
+    "cross_list_courses": [
+      "ECSE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "type": "course"
@@ -18473,21 +18479,6 @@
       "type": "and"
     }
   },
-  "64844": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHIL 2140",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "64846": {},
   "64847": {},
   "64848": {
@@ -20692,5 +20683,12 @@
     }
   },
   "65054": {},
-  "65055": {}
+  "65055": {},
+  "65056": {},
+  "65057": {
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "type": "course"
+    }
+  }
 }
