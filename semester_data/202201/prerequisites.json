@@ -1289,6 +1289,54 @@
       }
     }
   },
+  "60110": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1010",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1150",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
   "60111": {
     "prerequisites": {
       "course": "ECSE 2610",
@@ -10396,12 +10444,18 @@
   },
   "62824": {},
   "62825": {
+    "cross_list_courses": [
+      "ECSE-6050"
+    ],
     "prerequisites": {
       "course": "ECSE 2050",
       "type": "course"
     }
   },
   "62826": {
+    "cross_list_courses": [
+      "ECSE-4050"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15263,6 +15317,9 @@
     }
   },
   "64106": {
+    "cross_list_courses": [
+      "ECSE-6850"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15282,6 +15339,9 @@
     }
   },
   "64107": {
+    "cross_list_courses": [
+      "ECSE-4850"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17574,6 +17634,9 @@
     }
   },
   "64789": {
+    "cross_list_courses": [
+      "ECSE-6490"
+    ],
     "prerequisites": {
       "course": "ECSE 2410",
       "type": "course"
@@ -17588,6 +17651,9 @@
     }
   },
   "64790": {
+    "cross_list_courses": [
+      "ECSE-4490"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -17599,6 +17665,9 @@
     }
   },
   "64791": {
+    "cross_list_courses": [
+      "ECSE-6170"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17614,6 +17683,9 @@
     }
   },
   "64792": {
+    "cross_list_courses": [
+      "MANE-4530"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17932,6 +18004,9 @@
     }
   },
   "64819": {
+    "cross_list_courses": [
+      "ECSE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17947,6 +18022,9 @@
     }
   },
   "64820": {
+    "cross_list_courses": [
+      "ECSE-4660"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -17969,6 +18047,9 @@
     }
   },
   "64822": {
+    "cross_list_courses": [
+      "ECSE-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17978,6 +18059,9 @@
     }
   },
   "64823": {
+    "cross_list_courses": [
+      "ECSE-4440"
+    ],
     "prerequisites": {
       "nested": [
         {
