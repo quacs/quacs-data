@@ -2091,25 +2091,7 @@
   },
   "60167": {},
   "60169": {},
-  "60170": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60171": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60172": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -2129,10 +2111,6 @@
   },
   "60174": {},
   "60175": {},
-  "60176": {},
-  "60177": {},
-  "60178": {},
-  "60179": {},
   "60180": {},
   "60181": {},
   "60182": {},
@@ -2200,15 +2178,6 @@
     }
   },
   "60236": {},
-  "60237": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60240": {
     "restrictions": {
       "level": {
@@ -3695,24 +3664,6 @@
     }
   },
   "60519": {},
-  "60521": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60522": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60523": {
     "restrictions": {
       "level": {
@@ -4692,15 +4643,6 @@
     }
   },
   "61367": {},
-  "61392": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61393": {
     "restrictions": {
       "level": {
@@ -4755,15 +4697,6 @@
       }
     }
   },
-  "61402": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61404": {},
   "61406": {
     "restrictions": {
@@ -4795,15 +4728,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "61412": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -5525,15 +5449,6 @@
       }
     }
   },
-  "61616": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61617": {
     "restrictions": {
       "classification": {
@@ -5570,15 +5485,6 @@
     }
   },
   "61652": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61679": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6349,15 +6255,6 @@
     }
   },
   "62075": {},
-  "62085": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62090": {
     "restrictions": {
       "level": {
@@ -7123,15 +7020,6 @@
       }
     }
   },
-  "62224": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62226": {
     "restrictions": {
       "classification": {
@@ -7162,15 +7050,6 @@
     }
   },
   "62233": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62236": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -7283,6 +7162,9 @@
     }
   },
   "62320": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -7543,15 +7425,6 @@
   },
   "62354": {},
   "62355": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62356": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -8481,15 +8354,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "62511": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -12500,16 +12364,6 @@
       "type": "course"
     }
   },
-  "63514": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63518": {
     "restrictions": {
       "classification": {
@@ -12543,7 +12397,6 @@
     }
   },
   "63535": {},
-  "63537": {},
   "63539": {},
   "63547": {},
   "63589": {
@@ -15120,16 +14973,6 @@
   },
   "64122": {},
   "64123": {},
-  "64124": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64125": {
     "restrictions": {
       "classification": {
@@ -15449,8 +15292,15 @@
       "STSO-4250"
     ]
   },
-  "64280": {},
+  "64280": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ]
+  },
   "64281": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18387,8 +18237,15 @@
       }
     }
   },
-  "64868": {},
+  "64868": {
+    "cross_list_courses": [
+      "CHEM-6962"
+    ]
+  },
   "64869": {
+    "cross_list_courses": [
+      "CHEM-4962"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
