@@ -12054,7 +12054,17 @@
       "type": "and"
     }
   },
-  "63421": {},
+  "63421": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering"
+        ]
+      }
+    }
+  },
   "63422": {
     "prerequisites": {
       "nested": [
@@ -20160,18 +20170,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "65049": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Graduate Student",
-          "Junior",
-          "Sophomore",
-          "Senior"
         ]
       }
     }
