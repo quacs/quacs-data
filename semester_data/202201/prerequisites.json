@@ -3046,8 +3046,16 @@
     }
   },
   "60352": {},
-  "60353": {},
-  "60354": {},
+  "60353": {
+    "cross_list_courses": [
+      "ARCH-5310"
+    ]
+  },
+  "60354": {
+    "cross_list_courses": [
+      "ARCH-5360"
+    ]
+  },
   "60355": {
     "prerequisites": {
       "course": "ENGR 2090",
@@ -5807,6 +5815,9 @@
   "61947": {},
   "61948": {},
   "61949": {
+    "cross_list_courses": [
+      "ARCH-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6937,12 +6948,6 @@
       }
     }
   },
-  "62196": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4320"
-    ]
-  },
   "62199": {
     "restrictions": {
       "level": {
@@ -7941,7 +7946,11 @@
       "ISYE-6620"
     ]
   },
-  "62459": {},
+  "62459": {
+    "cross_list_courses": [
+      "ARCH-4020"
+    ]
+  },
   "62460": {
     "restrictions": {
       "level": {
@@ -9065,7 +9074,11 @@
   },
   "62621": {},
   "62623": {},
-  "62625": {},
+  "62625": {
+    "cross_list_courses": [
+      "CIVL-4020"
+    ]
+  },
   "62626": {
     "cross_list_courses": [
       "GSAS-4510"
@@ -9989,12 +10002,6 @@
       }
     }
   },
-  "62805": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4320"
-    ]
-  },
   "62807": {
     "prerequisites": {
       "nested": [
@@ -10483,6 +10490,13 @@
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
     }
   },
   "63119": {
@@ -10585,6 +10599,9 @@
     }
   },
   "63144": {
+    "cross_list_courses": [
+      "ARCH-4780"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
@@ -10954,6 +10971,9 @@
     }
   },
   "63183": {
+    "cross_list_courses": [
+      "ARCH-2360"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11018,6 +11038,9 @@
     }
   },
   "63188": {
+    "cross_list_courses": [
+      "ARCH-4740"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12237,7 +12260,11 @@
       "type": "course"
     }
   },
-  "63447": {},
+  "63447": {
+    "cross_list_courses": [
+      "ARCH-4150"
+    ]
+  },
   "63450": {
     "restrictions": {
       "classification": {
@@ -12387,7 +12414,11 @@
   },
   "63487": {},
   "63488": {},
-  "63489": {},
+  "63489": {
+    "cross_list_courses": [
+      "CHEM-6610"
+    ]
+  },
   "63490": {},
   "63492": {
     "restrictions": {
@@ -12649,11 +12680,15 @@
   },
   "63653": {
     "cross_list_courses": [
+      "CSCI-4968",
+      "CSCI-6968",
       "ECSE-6962"
     ]
   },
   "63654": {
     "cross_list_courses": [
+      "CSCI-4968",
+      "CSCI-6968",
       "ECSE-4962"
     ],
     "restrictions": {
@@ -12674,38 +12709,10 @@
       }
     }
   },
-  "63658": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4320"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    }
-  },
   "63663": {
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
-    }
-  },
-  "63664": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4320"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
     }
   },
   "63665": {},
@@ -13095,6 +13102,9 @@
     }
   },
   "63726": {
+    "cross_list_courses": [
+      "ARCH-4520"
+    ],
     "prerequisites": {
       "course": "ARCH 4510",
       "type": "course"
@@ -13114,6 +13124,9 @@
     }
   },
   "63728": {
+    "cross_list_courses": [
+      "ARCH-4770"
+    ],
     "prerequisites": {
       "course": "ARCH 4770",
       "type": "course"
@@ -13126,9 +13139,19 @@
     "prerequisites": {
       "course": "ARCH 4770",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
     }
   },
   "63732": {
+    "cross_list_courses": [
+      "ARCH-6890"
+    ],
     "prerequisites": {
       "course": "ARCH 4860",
       "type": "course"
@@ -13453,6 +13476,9 @@
     }
   },
   "63778": {
+    "cross_list_courses": [
+      "ARCH-5210"
+    ],
     "prerequisites": {
       "course": "ARCH 2820",
       "type": "course"
@@ -13900,6 +13926,9 @@
     }
   },
   "63858": {
+    "cross_list_courses": [
+      "CHEM-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14399,12 +14428,22 @@
     }
   },
   "63998": {
+    "cross_list_courses": [
+      "CSCI-6968",
+      "ECSE-4962",
+      "ECSE-6962"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "63999": {
+    "cross_list_courses": [
+      "CSCI-4968",
+      "ECSE-4962",
+      "ECSE-6962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16229,12 +16268,18 @@
     }
   },
   "64490": {
+    "cross_list_courses": [
+      "ARCH-4150"
+    ],
     "prerequisites": {
       "course": "ARCH 4120",
       "type": "course"
     }
   },
   "64491": {
+    "cross_list_courses": [
+      "ARCH-4150"
+    ],
     "prerequisites": {
       "course": "ARCH 4120",
       "type": "course"
@@ -16248,6 +16293,9 @@
     }
   },
   "64494": {
+    "cross_list_courses": [
+      "ARCH-6620"
+    ],
     "prerequisites": {
       "course": "ARCH 4820",
       "type": "course"
@@ -16362,6 +16410,9 @@
   },
   "64523": {},
   "64526": {
+    "cross_list_courses": [
+      "ARCH-4830"
+    ],
     "prerequisites": {
       "course": "ARCH 6610",
       "type": "course"
@@ -16669,18 +16720,28 @@
     }
   },
   "64717": {
+    "cross_list_courses": [
+      "ARCH-4520"
+    ],
     "prerequisites": {
       "course": "ARCH 4510",
       "type": "course"
     }
   },
   "64718": {
+    "cross_list_courses": [
+      "ARCH-5170"
+    ],
     "prerequisites": {
       "course": "ARCH 2520",
       "type": "course"
     }
   },
-  "64719": {},
+  "64719": {
+    "cross_list_courses": [
+      "ARCH-2530"
+    ]
+  },
   "64720": {
     "cross_list_courses": [
       "ARCH-2830"
@@ -16691,6 +16752,9 @@
     }
   },
   "64721": {
+    "cross_list_courses": [
+      "ARCH-2830"
+    ],
     "prerequisites": {
       "course": "ARCH 5200",
       "type": "course"
@@ -18330,7 +18394,6 @@
       }
     }
   },
-  "64872": {},
   "64873": {
     "restrictions": {
       "degree": {
@@ -20367,5 +20430,8 @@
       }
     }
   },
-  "65067": {}
+  "65067": {},
+  "65068": {},
+  "65069": {},
+  "65070": {}
 }
