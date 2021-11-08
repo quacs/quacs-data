@@ -770,6 +770,9 @@
     }
   },
   "60074": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2760,6 +2763,9 @@
   },
   "60305": {},
   "60306": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2901,6 +2907,9 @@
   },
   "60320": {},
   "60321": {
+    "cross_list_courses": [
+      "CSCI-4440"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -5928,6 +5937,9 @@
     }
   },
   "61960": {
+    "cross_list_courses": [
+      "CSCI-4440"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -12772,12 +12784,18 @@
   "63678": {},
   "63679": {},
   "63680": {
+    "cross_list_courses": [
+      "CSCI-6450"
+    ],
     "prerequisites": {
       "course": "CSCI 4430",
       "type": "course"
     }
   },
   "63681": {
+    "cross_list_courses": [
+      "CSCI-4450"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12998,6 +13016,9 @@
   },
   "63703": {},
   "63705": {
+    "cross_list_courses": [
+      "CSCI-6962"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13013,6 +13034,9 @@
     }
   },
   "63706": {
+    "cross_list_courses": [
+      "CSCI-4962"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -13650,12 +13674,18 @@
     }
   },
   "63798": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "63799": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -14407,18 +14437,27 @@
     }
   },
   "63993": {
+    "cross_list_courses": [
+      "CSCI-6966"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "63996": {
+    "cross_list_courses": [
+      "CSCI-6967"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "63997": {
+    "cross_list_courses": [
+      "CSCI-4967"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14453,12 +14492,18 @@
     }
   },
   "64000": {
+    "cross_list_courses": [
+      "CSCI-6969"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "64001": {
+    "cross_list_courses": [
+      "CSCI-4969"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14814,6 +14859,9 @@
     }
   },
   "64059": {
+    "cross_list_courses": [
+      "MATH-6840"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15449,7 +15497,11 @@
       }
     }
   },
-  "64289": {},
+  "64289": {
+    "cross_list_courses": [
+      "CSCI-4820"
+    ]
+  },
   "64290": {
     "prerequisites": {
       "nested": [
@@ -16228,7 +16280,17 @@
       }
     }
   },
-  "64472": {},
+  "64472": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci",
+          "Music"
+        ]
+      }
+    }
+  },
   "64473": {},
   "64474": {},
   "64478": {
@@ -16319,6 +16381,9 @@
     ]
   },
   "64508": {
+    "cross_list_courses": [
+      "MATH-4820"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18576,6 +18641,9 @@
     }
   },
   "64885": {
+    "cross_list_courses": [
+      "CSCI-6840"
+    ],
     "prerequisites": {
       "course": "MATH 4800",
       "type": "course"
@@ -18661,7 +18729,11 @@
       }
     }
   },
-  "64899": {},
+  "64899": {
+    "cross_list_courses": [
+      "CSCI-2961"
+    ]
+  },
   "64900": {
     "restrictions": {
       "campus": {
@@ -18676,8 +18748,16 @@
       }
     }
   },
-  "64901": {},
-  "64902": {},
+  "64901": {
+    "cross_list_courses": [
+      "CSCI-2961"
+    ]
+  },
+  "64902": {
+    "cross_list_courses": [
+      "CSCI-2961"
+    ]
+  },
   "64903": {
     "restrictions": {
       "campus": {
@@ -18692,7 +18772,11 @@
       }
     }
   },
-  "64904": {},
+  "64904": {
+    "cross_list_courses": [
+      "CSCI-2961"
+    ]
+  },
   "64905": {
     "restrictions": {
       "campus": {
@@ -18709,12 +18793,18 @@
   },
   "64906": {},
   "64907": {
+    "cross_list_courses": [
+      "CSCI-6100"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "64908": {
+    "cross_list_courses": [
+      "CSCI-4100"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18931,8 +19021,15 @@
       "type": "and"
     }
   },
-  "64922": {},
+  "64922": {
+    "cross_list_courses": [
+      "CSCI-6965"
+    ]
+  },
   "64923": {
+    "cross_list_courses": [
+      "CSCI-4965"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18944,6 +19041,9 @@
     }
   },
   "64924": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20460,8 +20560,25 @@
     }
   },
   "65067": {},
-  "65068": {},
-  "65069": {},
+  "65068": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ]
+  },
+  "65069": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "65070": {},
   "65071": {
     "restrictions": {
@@ -20473,5 +20590,14 @@
       }
     }
   },
-  "65072": {}
+  "65072": {
+    "cross_list_courses": [
+      "STSO-4340"
+    ]
+  },
+  "65073": {
+    "cross_list_courses": [
+      "PHIL-4300"
+    ]
+  }
 }
