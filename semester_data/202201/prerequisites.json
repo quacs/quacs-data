@@ -11580,7 +11580,9 @@
       },
       "major": {
         "must_be": [
-          "Business Analytics"
+          "Business Analytics",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
         ]
       }
     }
@@ -14335,6 +14337,7 @@
       },
       "major": {
         "must_be": [
+          "Business Analytics",
           "Quant Finance & Risk Analytics"
         ]
       }
@@ -17847,9 +17850,10 @@
     }
   },
   "64824": {
-    "corequisites": [
-      "BIOL-2125"
-    ],
+    "prerequisites": {
+      "course": "BIOL 2125",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -17864,15 +17868,17 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
   },
   "64825": {
-    "corequisites": [
-      "BIOL-2125"
-    ],
+    "prerequisites": {
+      "course": "BIOL 2125",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -17887,7 +17893,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -17917,7 +17924,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -17947,7 +17955,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -17977,7 +17986,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18007,7 +18017,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18037,7 +18048,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18067,7 +18079,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18097,7 +18110,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18127,7 +18141,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18157,7 +18172,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18187,7 +18203,8 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
-          "Biomedical Engineering"
+          "Biomedical Engineering",
+          "Computational Biology"
         ]
       }
     }
@@ -18385,6 +18402,7 @@
       },
       "major": {
         "must_be": [
+          "Management",
           "Quant Finance & Risk Analytics"
         ]
       }
@@ -18399,6 +18417,7 @@
       },
       "major": {
         "must_be": [
+          "Management",
           "Quant Finance & Risk Analytics"
         ]
       }
@@ -20564,5 +20583,6 @@
       "PHIL-4300"
     ]
   },
-  "65074": {}
+  "65074": {},
+  "65075": {}
 }
