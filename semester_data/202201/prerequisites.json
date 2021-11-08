@@ -105,6 +105,19 @@
         {
           "course": "ENGR 1100",
           "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
       "type": "or"
@@ -821,26 +834,8 @@
   },
   "60079": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
+      "course": "MATH 2400",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -926,26 +921,8 @@
   },
   "60083": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
+      "course": "MATH 2400",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -9071,7 +9048,12 @@
       }
     }
   },
-  "62627": {},
+  "62627": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    }
+  },
   "62628": {
     "cross_list_courses": [
       "STSO-4610"
@@ -15665,6 +15647,19 @@
         {
           "course": "MANE 4010",
           "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MANE 2710",
+              "type": "course"
+            },
+            {
+              "course": "MANE 2720",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
       "type": "or"
@@ -17529,30 +17524,20 @@
     "prerequisites": {
       "nested": [
         {
-          "nested": [
-            {
-              "course": "MANE 4010",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4080",
-              "type": "course"
-            }
-          ],
-          "type": "and"
+          "course": "MANE 4010",
+          "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "MANE 4730",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4400",
-              "type": "course"
-            }
-          ],
-          "type": "and"
+          "course": "MANE 4080",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4400",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -18938,8 +18923,26 @@
           "type": "course"
         },
         {
-          "course": "MATH 2010",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "type": "course"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -20560,5 +20563,6 @@
     "cross_list_courses": [
       "PHIL-4300"
     ]
-  }
+  },
+  "65074": {}
 }
