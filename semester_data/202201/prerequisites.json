@@ -6646,7 +6646,8 @@
         "must_be": [
           "Business Analytics",
           "Management",
-          "Quant Finance & Risk Analytics"
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
         ]
       }
     }
@@ -8786,8 +8787,17 @@
           "type": "course"
         },
         {
-          "course": "CSCI 4350",
-          "type": "course"
+          "nested": [
+            {
+              "course": "CSCI 4350",
+              "type": "course"
+            },
+            {
+              "course": "ITWS 4350",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -16014,8 +16024,21 @@
       "MTLE-6670"
     ],
     "prerequisites": {
-      "course": "ENGR 1600",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 1600",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1600",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "64381": {
