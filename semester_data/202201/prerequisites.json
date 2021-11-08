@@ -13911,19 +13911,36 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ECON 1200",
+          "course": "MATH 2010",
           "type": "course"
         },
         {
-          "course": "IHSS 1975",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ENGR 2600",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 2100",
+              "type": "course"
+            },
+            {
+              "course": "MATP 4600",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 2310",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4200",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
-      "type": "or"
+      "type": "and"
     }
   },
   "63841": {},
@@ -16983,7 +17000,40 @@
       }
     }
   },
-  "64760": {},
+  "64760": {
+    "cross_list_courses": [
+      "COGS-6880"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Computer Science"
+        ]
+      }
+    }
+  },
   "64761": {
     "cross_list_courses": [
       "COGS-4880"
@@ -19156,7 +19206,23 @@
           "type": "course"
         },
         {
+          "course": "STSH 2300",
+          "type": "course"
+        },
+        {
           "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSS 1110",
           "type": "course"
         }
       ],
