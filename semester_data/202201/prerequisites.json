@@ -1857,26 +1857,10 @@
     }
   },
   "60128": {},
-  "60129": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "60130": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "60131": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "60132": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "60129": {},
+  "60130": {},
+  "60131": {},
+  "60132": {},
   "60133": {
     "prerequisites": {
       "nested": [
@@ -3330,11 +3314,7 @@
       }
     }
   },
-  "60429": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "60429": {},
   "60430": {},
   "60431": {},
   "60432": {
@@ -4894,21 +4874,9 @@
       "type": "course"
     }
   },
-  "61516": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "61517": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "61518": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "61516": {},
+  "61517": {},
+  "61518": {},
   "61519": {
     "prerequisites": {
       "nested": [
@@ -12253,16 +12221,8 @@
       }
     }
   },
-  "63438": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "63439": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "63438": {},
+  "63439": {},
   "63446": {
     "cross_list_courses": [
       "ARTS-6965"
@@ -12302,15 +12262,24 @@
         {
           "nested": [
             {
-              "course": "MATH 2010",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             },
             {
-              "course": "MATH 2011",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
+              "course": "MANE 2720",
               "type": "course"
             }
           ],
@@ -12332,16 +12301,8 @@
       }
     }
   },
-  "63461": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "63462": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "63461": {},
+  "63462": {},
   "63464": {
     "restrictions": {
       "classification": {
