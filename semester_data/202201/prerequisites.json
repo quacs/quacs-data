@@ -2903,6 +2903,9 @@
     }
   },
   "60322": {
+    "cross_list_courses": [
+      "MATH-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9938,8 +9941,17 @@
       "ITWS-4500"
     ],
     "prerequisites": {
-      "course": "ITWS 2110",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -10731,6 +10743,9 @@
     }
   },
   "63162": {
+    "cross_list_courses": [
+      "CSCI-6360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10766,6 +10781,9 @@
     }
   },
   "63163": {
+    "cross_list_courses": [
+      "CSCI-4320"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14614,8 +14632,17 @@
       "CSCI-6966"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -14668,7 +14695,7 @@
       "ECSE-6962"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
+      "course": "CSCI 4100",
       "type": "course"
     },
     "restrictions": {
@@ -16160,12 +16187,9 @@
       "type": "and"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore",
-          "Senior"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -19223,6 +19247,9 @@
     }
   },
   "64919": {
+    "cross_list_courses": [
+      "CSCI-6270"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19267,6 +19294,9 @@
     }
   },
   "64920": {
+    "cross_list_courses": [
+      "CSCI-4270"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20182,6 +20212,9 @@
     }
   },
   "64982": {
+    "cross_list_courses": [
+      "CSCI-4260"
+    ],
     "prerequisites": {
       "nested": [
         {
