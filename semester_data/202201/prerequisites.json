@@ -76,11 +76,20 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHEM 1200",
-          "type": "course"
+          "nested": [
+            {
+              "course": "CHEM 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1600",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
-          "course": "ENGR 1600",
+          "course": "CHEM 1210",
           "type": "course"
         }
       ],
