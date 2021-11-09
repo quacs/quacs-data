@@ -2726,17 +2726,25 @@
           "type": "course"
         },
         {
-          "course": "MATH 1010",
+          "course": "CSCI 2200",
           "type": "course"
         },
         {
           "nested": [
             {
-              "course": "CSCI 2200",
+              "course": "MATH 1010",
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -2783,17 +2791,25 @@
           "type": "course"
         },
         {
-          "course": "MATH 1010",
+          "course": "CSCI 2200",
           "type": "course"
         },
         {
           "nested": [
             {
-              "course": "CSCI 2200",
+              "course": "MATH 1010",
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -4049,17 +4065,25 @@
           "type": "course"
         },
         {
-          "course": "MATH 1010",
+          "course": "CSCI 2200",
           "type": "course"
         },
         {
           "nested": [
             {
-              "course": "CSCI 2200",
+              "course": "MATH 1010",
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -4288,7 +4312,15 @@
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -9069,7 +9101,15 @@
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -9097,7 +9137,15 @@
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -10644,7 +10692,8 @@
           "Biochemistry & Biophysics",
           "Bioinformatics & Molec Biology",
           "Biology",
-          "Biology"
+          "Biology",
+          "Biological Neuroscience"
         ]
       }
     }
@@ -13985,7 +14034,15 @@
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -14013,7 +14070,15 @@
               "type": "course"
             },
             {
-              "course": "MATH 2800",
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -20470,11 +20535,9 @@
       "COMM-4730"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
