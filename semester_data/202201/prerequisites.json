@@ -99,8 +99,17 @@
   "60019": {},
   "60020": {
     "prerequisites": {
-      "course": "BIOL 2120",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "60021": {},
