@@ -15906,7 +15906,15 @@
       }
     }
   },
-  "64297": {},
+  "64297": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64298": {
     "restrictions": {
       "classification": {
@@ -16084,7 +16092,15 @@
       "type": "or"
     }
   },
-  "64314": {},
+  "64314": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64316": {
     "restrictions": {
       "level": {
@@ -18740,7 +18756,9 @@
       },
       "major": {
         "must_be": [
-          "Management"
+          "Business Analytics",
+          "Management",
+          "Supply Chain Management"
         ]
       }
     }
