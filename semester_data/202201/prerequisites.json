@@ -12681,15 +12681,7 @@
       "type": "or"
     }
   },
-  "63628": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Chemical Engineering"
-        ]
-      }
-    }
-  },
+  "63628": {},
   "63637": {
     "cross_list_courses": [
       "LANG-1410"
@@ -15034,6 +15026,19 @@
     "cross_list_courses": [
       "BCBP-4710"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -15089,6 +15094,19 @@
     "cross_list_courses": [
       "BIOL-4710"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -15424,7 +15442,15 @@
       }
     }
   },
-  "64122": {},
+  "64122": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64123": {},
   "64125": {
     "restrictions": {
@@ -16505,11 +16531,9 @@
   },
   "64413": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -16545,7 +16569,15 @@
   "64425": {},
   "64426": {},
   "64427": {},
-  "64428": {},
+  "64428": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64429": {},
   "64430": {
     "prerequisites": {
@@ -17942,6 +17974,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "64800": {
@@ -18582,7 +18621,15 @@
       }
     }
   },
-  "64854": {},
+  "64854": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64855": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -18734,21 +18781,15 @@
   "64870": {},
   "64871": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
   },
   "64873": {
     "restrictions": {
-      "degree": {
-        "must_be": [
-          "Master of Bus. Admin."
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -18767,6 +18808,19 @@
     "cross_list_courses": [
       "BCBP-4710"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -18781,6 +18835,19 @@
     "cross_list_courses": [
       "BIOL-4710"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -18806,7 +18873,15 @@
       }
     }
   },
-  "64877": {},
+  "64877": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64879": {
     "cross_list_courses": [
       "MATP-6640"
@@ -18887,10 +18962,9 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -20860,57 +20934,7 @@
       "type": "or"
     }
   },
-  "65046": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHIL 1110",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2100",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4500",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1140",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1235",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1165",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1130",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
+  "65046": {},
   "65047": {
     "cross_list_courses": [
       "WRIT-6960"
