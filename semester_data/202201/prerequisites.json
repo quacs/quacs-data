@@ -14419,8 +14419,17 @@
   },
   "63951": {
     "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -15870,8 +15879,17 @@
   },
   "64294": {
     "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "64295": {
