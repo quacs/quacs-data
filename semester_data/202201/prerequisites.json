@@ -18583,6 +18583,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18601,6 +18607,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18619,6 +18631,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18637,6 +18655,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18655,6 +18679,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18673,6 +18703,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18691,6 +18727,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18709,6 +18751,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18727,6 +18775,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -18745,6 +18799,12 @@
       "BIOL-2120"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
@@ -19878,19 +19938,32 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "STSO 1110",
+          "nested": [
+            {
+              "course": "STSO 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1240",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1320",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "STSS 1110",
           "type": "course"
         },
         {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
+          "course": "STSH 1110",
           "type": "course"
         }
       ],
@@ -19908,19 +19981,32 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "STSO 1110",
+          "nested": [
+            {
+              "course": "STSO 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1240",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1320",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "STSS 1110",
           "type": "course"
         },
         {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
+          "course": "STSH 1110",
           "type": "course"
         }
       ],
@@ -19938,19 +20024,32 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "STSO 1110",
+          "nested": [
+            {
+              "course": "STSO 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1110",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1240",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1320",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "STSS 1110",
           "type": "course"
         },
         {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
+          "course": "STSH 1110",
           "type": "course"
         }
       ],
