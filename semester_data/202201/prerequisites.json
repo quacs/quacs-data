@@ -16099,6 +16099,19 @@
         {
           "course": "MATH 2400",
           "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -21520,5 +21533,6 @@
     ]
   },
   "65074": {},
-  "65075": {}
+  "65075": {},
+  "65076": {}
 }
