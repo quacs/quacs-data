@@ -14704,24 +14704,15 @@
         {
           "nested": [
             {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
+              "course": "MATH 2010",
+              "type": "course"
             },
             {
-              "course": "MATH 2012",
+              "course": "MATH 2011",
               "type": "course"
             }
           ],
-          "type": "and"
+          "type": "or"
         }
       ],
       "type": "and"
@@ -16120,48 +16111,34 @@
           "type": "course"
         },
         {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
           "nested": [
+            {
+              "course": "MATH 2010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            },
             {
               "course": "PHYS 1100",
               "type": "course"
-            },
-            {
-              "course": "MATH 2400",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "nested": [
-                    {
-                      "nested": [
-                        {
-                          "course": "MATH 2010",
-                          "type": "course"
-                        },
-                        {
-                          "course": "MATH 2011",
-                          "type": "course"
-                        }
-                      ],
-                      "type": "or"
-                    },
-                    {
-                      "course": "MATH 2012",
-                      "type": "course"
-                    }
-                  ],
-                  "type": "and"
-                },
-                {
-                  "course": "PHYS 1150",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
             }
           ],
-          "type": "and"
+          "type": "or"
         }
       ],
       "type": "and"
@@ -16175,8 +16152,17 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1200",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -20024,7 +20010,7 @@
     },
     "restrictions": {
       "classification": {
-        "must_be": [
+        "may_not_be": [
           "Senior"
         ]
       }
@@ -20067,7 +20053,7 @@
     },
     "restrictions": {
       "classification": {
-        "must_be": [
+        "may_not_be": [
           "Senior"
         ]
       }
