@@ -16089,29 +16089,48 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
           "nested": [
             {
-              "course": "MATH 2011",
+              "course": "PHYS 1100",
               "type": "course"
             },
             {
-              "course": "MATH 2012",
+              "course": "MATH 2400",
               "type": "course"
+            },
+            {
+              "nested": [
+                {
+                  "nested": [
+                    {
+                      "nested": [
+                        {
+                          "course": "MATH 2010",
+                          "type": "course"
+                        },
+                        {
+                          "course": "MATH 2011",
+                          "type": "course"
+                        }
+                      ],
+                      "type": "or"
+                    },
+                    {
+                      "course": "MATH 2012",
+                      "type": "course"
+                    }
+                  ],
+                  "type": "and"
+                },
+                {
+                  "course": "PHYS 1150",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             }
           ],
-          "type": "or"
+          "type": "and"
         }
       ],
       "type": "and"
