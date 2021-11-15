@@ -17988,8 +17988,21 @@
       "ECON-6190"
     ],
     "prerequisites": {
-      "course": "ECON 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1975",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "64782": {
