@@ -6006,7 +6006,6 @@
     }
   },
   "61963": {},
-  "61964": {},
   "61965": {},
   "61968": {
     "restrictions": {
@@ -6911,6 +6910,7 @@
     }
   },
   "62164": {},
+  "62165": {},
   "62166": {
     "restrictions": {
       "level": {
@@ -10535,21 +10535,6 @@
   },
   "62975": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62992": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21017,5 +21002,16 @@
       "WRIT-4410"
     ]
   },
-  "65091": {}
+  "65091": {},
+  "65092": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
