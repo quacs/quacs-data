@@ -11999,23 +11999,7 @@
       "type": "or"
     }
   },
-  "63396": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
+  "63396": {},
   "63397": {},
   "63401": {
     "restrictions": {
@@ -12702,17 +12686,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci",
-          "Information Tech & Web Science"
-        ]
-      }
     }
   },
   "63653": {
@@ -15072,33 +15045,6 @@
     }
   },
   "64045": {},
-  "64048": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1200",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1020",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1040",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "64049": {
     "prerequisites": {
       "course": "ARTS 1380",
@@ -15358,15 +15304,7 @@
       "PSYC-2100"
     ]
   },
-  "64119": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
+  "64119": {},
   "64120": {
     "restrictions": {
       "major": {
@@ -16130,16 +16068,7 @@
     }
   },
   "64318": {},
-  "64319": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
+  "64319": {},
   "64322": {
     "prerequisites": {
       "course": "MANE 6170",
@@ -16816,14 +16745,7 @@
   "64510": {
     "cross_list_courses": [
       "PHIL-1110"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
+    ]
   },
   "64513": {
     "restrictions": {
