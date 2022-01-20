@@ -13135,9 +13135,6 @@
     }
   },
   "63726": {
-    "cross_list_courses": [
-      "ARCH-4520"
-    ],
     "prerequisites": {
       "course": "ARCH 4510",
       "type": "course"
@@ -16650,15 +16647,6 @@
     }
   },
   "64494": {
-    "cross_list_courses": [
-      "ARCH-6620"
-    ],
-    "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
-    }
-  },
-  "64495": {
     "prerequisites": {
       "course": "ARCH 4820",
       "type": "course"
@@ -16762,24 +16750,6 @@
     }
   },
   "64523": {},
-  "64526": {
-    "cross_list_courses": [
-      "ARCH-4830"
-    ],
-    "prerequisites": {
-      "course": "ARCH 6610",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64529": {
     "prerequisites": {
       "course": "ARCH 6910",
@@ -17020,13 +16990,49 @@
       "ARCH-6960"
     ]
   },
+  "64709": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2160",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2150",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "64710": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2160",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2150",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "64711": {
+    "cross_list_courses": [
+      "ARCH-4780"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
     }
   },
   "64712": {
+    "cross_list_courses": [
+      "ARCH-4770"
+    ],
     "prerequisites": {
       "course": "ARCH 4770",
       "type": "course"
@@ -17035,15 +17041,6 @@
   "64713": {
     "prerequisites": {
       "course": "CIVL 2030",
-      "type": "course"
-    }
-  },
-  "64717": {
-    "cross_list_courses": [
-      "ARCH-4520"
-    ],
-    "prerequisites": {
-      "course": "ARCH 4510",
       "type": "course"
     }
   },
@@ -17086,12 +17083,6 @@
     }
   },
   "64723": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "64724": {
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
@@ -20840,23 +20831,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "65093": {
-    "cross_list_courses": [
-      "ARCH-6971"
-    ]
-  },
-  "65094": {
-    "cross_list_courses": [
-      "ARCH-4974"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
