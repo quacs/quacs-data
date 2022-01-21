@@ -13965,7 +13965,13 @@
       "type": "and"
     }
   },
-  "63826": {},
+  "63826": {
+    "cross_list_courses": [
+      "BMED-6966",
+      "CHEM-6966",
+      "CHME-6966"
+    ]
+  },
   "63827": {
     "prerequisites": {
       "nested": [
@@ -13981,9 +13987,27 @@
       "type": "and"
     }
   },
-  "63828": {},
-  "63829": {},
-  "63830": {},
+  "63828": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "CHEM-6966",
+      "CHME-6966"
+    ]
+  },
+  "63829": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "BMED-6966",
+      "CHEM-6966"
+    ]
+  },
+  "63830": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "BMED-6966",
+      "CHME-6966"
+    ]
+  },
   "63831": {},
   "63833": {
     "cross_list_courses": [
@@ -14809,6 +14833,9 @@
     }
   },
   "64010": {
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15999,6 +16026,9 @@
     }
   },
   "64310": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18504,8 +18534,15 @@
       }
     }
   },
-  "64870": {},
+  "64870": {
+    "cross_list_courses": [
+      "CHEM-6961"
+    ]
+  },
   "64871": {
+    "cross_list_courses": [
+      "CHEM-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
