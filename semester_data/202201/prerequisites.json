@@ -7311,20 +7311,6 @@
       }
     }
   },
-  "62333": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Quant Finance & Risk Analytics"
-        ]
-      }
-    }
-  },
   "62335": {},
   "62336": {},
   "62337": {},
@@ -14350,6 +14336,9 @@
     }
   },
   "63951": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15761,6 +15750,9 @@
     }
   },
   "64294": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18460,15 +18452,6 @@
       "ERTH-4810"
     ]
   },
-  "64865": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64866": {
     "cross_list_courses": [
       "MGMT-4420"
@@ -20676,8 +20659,15 @@
   },
   "65054": {},
   "65055": {},
-  "65056": {},
+  "65056": {
+    "cross_list_courses": [
+      "PHIL-4140"
+    ]
+  },
   "65057": {
+    "cross_list_courses": [
+      "MATH-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
