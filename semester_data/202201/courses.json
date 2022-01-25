@@ -1636,14 +1636,14 @@
         "id": "ARCH-4330",
         "sections": [
           {
-            "act": 10,
+            "act": 9,
             "attribute": "",
             "cap": 10,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 64890,
             "crse": 4330,
-            "rem": 0,
+            "rem": 1,
             "sec": "01",
             "subj": "ARCH",
             "timeslots": [
@@ -14514,14 +14514,14 @@
         "id": "CHME-4961",
         "sections": [
           {
-            "act": 7,
+            "act": 6,
             "attribute": "",
             "cap": 15,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 63701,
             "crse": 4961,
-            "rem": 8,
+            "rem": 9,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -24680,14 +24680,14 @@
             "xl_rem": 42
           },
           {
-            "act": 28,
+            "act": 27,
             "attribute": "",
             "cap": 80,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 64902,
             "crse": 2961,
-            "rem": 52,
+            "rem": 53,
             "sec": "03",
             "subj": "CSCI",
             "timeslots": [
@@ -24708,14 +24708,14 @@
             "xl_rem": 42
           },
           {
-            "act": 127,
+            "act": 128,
             "attribute": "",
             "cap": 120,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64904,
             "crse": 2961,
-            "rem": -7,
+            "rem": -8,
             "sec": "04",
             "subj": "CSCI",
             "timeslots": [
@@ -25669,14 +25669,14 @@
         "id": "CSCI-4470",
         "sections": [
           {
-            "act": 44,
+            "act": 43,
             "attribute": "",
             "cap": 44,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64921,
             "crse": 4470,
-            "rem": 0,
+            "rem": 1,
             "sec": "01",
             "subj": "CSCI",
             "timeslots": [
@@ -26147,7 +26147,7 @@
                   "F"
                 ],
                 "instructor": "Brian Robert Callahan",
-                "location": "Darrin Communications Center 232",
+                "location": "Ricketts Building 212",
                 "timeEnd": 1350,
                 "timeStart": 1200
               }
@@ -34351,14 +34351,14 @@
             "title": "Fields And Waves I"
           },
           {
-            "act": 22,
+            "act": 21,
             "attribute": "",
             "cap": 36,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 60043,
             "crse": 2100,
-            "rem": 14,
+            "rem": 15,
             "sec": "02",
             "subj": "ECSE",
             "timeslots": [
@@ -41614,7 +41614,7 @@
                   "F"
                 ],
                 "instructor": "Brian Robert Callahan",
-                "location": "Darrin Communications Center 232",
+                "location": "Ricketts Building 212",
                 "timeEnd": 1350,
                 "timeStart": 1200
               }
@@ -41642,7 +41642,7 @@
                   "F"
                 ],
                 "instructor": "Brian Robert Callahan",
-                "location": "Darrin Communications Center 232",
+                "location": "Ricketts Building 212",
                 "timeEnd": 1150,
                 "timeStart": 1000
               }
@@ -51695,12 +51695,12 @@
           {
             "act": 6,
             "attribute": "",
-            "cap": 30,
+            "cap": 20,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64290,
             "crse": 6620,
-            "rem": 24,
+            "rem": 14,
             "sec": "01",
             "subj": "MATH",
             "timeslots": [
@@ -51712,7 +51712,7 @@
                   "R"
                 ],
                 "instructor": "Ashwani Kumar Kapila",
-                "location": "Amos Eaton Hall 215",
+                "location": "Ricketts Building 208",
                 "timeEnd": 1550,
                 "timeStart": 1400
               }
@@ -55633,7 +55633,7 @@
                   "F"
                 ],
                 "instructor": "Daniel Walczyk",
-                "location": "Ricketts Building 212",
+                "location": "Darrin Communications Center 232",
                 "timeEnd": 1120,
                 "timeStart": 1000
               }
@@ -59384,17 +59384,17 @@
               }
             ],
             "title": "Intro To Philosophy",
-            "xl_rem": 0
+            "xl_rem": 1
           },
           {
-            "act": 40,
+            "act": 39,
             "attribute": "",
             "cap": 40,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64510,
             "crse": 1110,
-            "rem": 0,
+            "rem": 1,
             "sec": "02",
             "subj": "PHIL",
             "timeslots": [
@@ -59412,7 +59412,7 @@
               }
             ],
             "title": "Intro To Philosophy",
-            "xl_rem": 0
+            "xl_rem": 1
           }
         ],
         "subj": "PHIL",
@@ -64531,6 +64531,38 @@
         ],
         "subj": "STSO",
         "title": "Consumer Culture"
+      },
+      {
+        "crse": 4940,
+        "id": "STSO-4940",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 1.0,
+            "crn": 65119,
+            "crse": 4940,
+            "rem": 0,
+            "sec": "01",
+            "subj": "STSO",
+            "timeslots": [
+              {
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Readings In Stso"
+          }
+        ],
+        "subj": "STSO",
+        "title": "Readings In Stso"
       },
       {
         "crse": 4960,
