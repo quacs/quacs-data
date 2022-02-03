@@ -361,8 +361,7 @@
   "ARTS 4070": {
     "title": "3d Animation",
     "prereqs": [
-      "ARTS 2230",
-      "ARTS 4060"
+      "ARTS 2230"
     ]
   },
   "ARTS 4100": {
@@ -521,7 +520,7 @@
     "prereqs": []
   },
   "BCBP 4760": {
-    "title": "Molecular Biochem I",
+    "title": "Molecular Biochemistry I",
     "prereqs": [
       "BIOL 1010",
       "BIOL 2120",
@@ -706,7 +705,11 @@
   },
   "BMED 4010": {
     "title": "Biomedical Engineering Lab",
-    "prereqs": []
+    "prereqs": [
+      "BMED 2100",
+      "BMED 2300",
+      "BMED 2540"
+    ]
   },
   "BMED 4540": {
     "title": "Biomechanics II",
@@ -817,11 +820,11 @@
     "prereqs": []
   },
   "CHME 4962": {
-    "title": "Intro To Downstream Process",
+    "title": "Molecular Model & Simulations",
     "prereqs": []
   },
   "CHME 4964": {
-    "title": "Rheology Laboratory",
+    "title": "Chemical Process Safety",
     "prereqs": []
   },
   "CHME 4965": {
@@ -829,11 +832,8 @@
     "prereqs": []
   },
   "CHME 4966": {
-    "title": "Chemical Process Safety",
-    "prereqs": [
-      "CHME 4010",
-      "CHME 4020"
-    ]
+    "title": "Chemical Engineering Pro Simul",
+    "prereqs": []
   },
   "CHME 4980": {
     "title": "Chem & Envr Engineering Proj",
@@ -880,7 +880,7 @@
     "prereqs": []
   },
   "CHME 6990": {
-    "title": "Master's Thesis",
+    "title": "Masters Thesis",
     "prereqs": []
   },
   "CHME 9990": {
@@ -973,12 +973,11 @@
   "CHEM 4530": {
     "title": "Modern Techniques In Chemistry",
     "prereqs": [
-      "CHEM 2210",
       "CHEM 2250"
     ]
   },
   "CHEM 4760": {
-    "title": "Molecular Biochem I",
+    "title": "Molecular Biochemistry I",
     "prereqs": [
       "BIOL 1010",
       "BIOL 2120",
@@ -994,7 +993,7 @@
     "prereqs": []
   },
   "CHEM 4962": {
-    "title": "Proteomics/str Bioinformatics",
+    "title": "Food Chemistry And Technology",
     "prereqs": []
   },
   "CHEM 4963": {
@@ -1151,7 +1150,7 @@
     "prereqs": []
   },
   "CIVL 6990": {
-    "title": "Master's Thesis",
+    "title": "Masters Thesis",
     "prereqs": []
   },
   "CIVL 9990": {
@@ -1414,9 +1413,10 @@
   "CSCI 4800": {
     "title": "Numerical Computing",
     "prereqs": [
-      "CSCI 1100",
-      "ENGR 1100",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2400"
     ]
   },
   "CSCI 4940": {
@@ -1437,18 +1437,14 @@
     ]
   },
   "CSCI 4965": {
-    "title": "Safe Autonomy",
+    "title": "Ai In Fiction And Fact",
     "prereqs": [
-      "CSCI 2300",
-      "MATH 4100"
+      "CSCI 2200"
     ]
   },
   "CSCI 4966": {
-    "title": "Computational Geometry",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "title": "Learning & Advanced Game Ai",
+    "prereqs": []
   },
   "CSCI 4967": {
     "title": "Economics And Computation",
@@ -1503,7 +1499,7 @@
     "prereqs": []
   },
   "CSCI 6961": {
-    "title": "Machine Learning & Optimizatio",
+    "title": "Learning & Advanced Game Ai",
     "prereqs": []
   },
   "CSCI 6962": {
@@ -1535,7 +1531,7 @@
     "prereqs": []
   },
   "CSCI 6990": {
-    "title": "Master's Thesis",
+    "title": "Masters Thesis",
     "prereqs": []
   },
   "CSCI 9990": {
@@ -1571,7 +1567,7 @@
     "prereqs": []
   },
   "ENGR 1600": {
-    "title": "Materials Science For Engrs",
+    "title": "Materials Science For Engineer",
     "prereqs": [
       "CHEM 1100",
       "CHEM 1110"
@@ -1586,12 +1582,10 @@
     "prereqs": []
   },
   "ENGR 2050": {
-    "title": "Intro Engineering Design",
+    "title": "Intro Engr Design",
     "prereqs": [
       "CIVL 1200",
       "ECSE 1010",
-      "ECSE 1960",
-      "ECSE 1961",
       "ENGR 1100",
       "ENGR 1200",
       "ENGR 1400",
@@ -1603,21 +1597,16 @@
     "title": "Engineering Dynamics",
     "prereqs": [
       "ECSE 1010",
-      "ECSE 1960",
-      "ECSE 1961",
       "ENGR 1100",
       "MATH 2400",
       "PHYS 1100",
-      "PHYS 1150",
-      "PHYS 1961"
+      "PHYS 1150"
     ]
   },
   "ENGR 2250": {
-    "title": "Thermal & Fluids Eng I",
+    "title": "Thermal And Fluids Engr I",
     "prereqs": [
       "ECSE 1010",
-      "ECSE 1960",
-      "ECSE 1961",
       "ENGR 1100",
       "MATH 2400",
       "PHYS 1100",
@@ -1862,19 +1851,22 @@
     "prereqs": []
   },
   "ECON 2010": {
-    "title": "Intermediate Microecon Theory",
+    "title": "Intermediate Microeconomic Theory",
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
-      "IHSS 1975"
+      "IHSS 1975",
+      "MATH 1010",
+      "MATH 1500"
     ]
   },
   "ECON 2020": {
-    "title": "Intermediate Macroecon Theory",
+    "title": "Intermediate Macroeconomic Theory",
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
-      "IHSS 1975"
+      "MATH 1010",
+      "MATH 1500"
     ]
   },
   "ECON 2940": {
@@ -1898,11 +1890,7 @@
   },
   "ECON 4130": {
     "title": "Money & Banking",
-    "prereqs": [
-      "ECON 1200",
-      "IHSS 1200",
-      "IHSS 1975"
-    ]
+    "prereqs": []
   },
   "ECON 4140": {
     "title": "Structure Of Industry:Competition, Innovation, Entrepreneurship Policy",
@@ -1917,11 +1905,10 @@
     ]
   },
   "ECON 4190": {
-    "title": "Intl Economics & Globalization",
+    "title": "International Economics And Globalization",
     "prereqs": [
       "ECON 1200",
-      "IHSS 1200",
-      "IHSS 1975"
+      "IHSS 1200"
     ]
   },
   "ECON 4900": {
@@ -2033,8 +2020,7 @@
   "ECSE 2100": {
     "title": "Fields And Waves I",
     "prereqs": [
-      "ECSE 2010",
-      "MATH 2010"
+      "ECSE 2010"
     ]
   },
   "ECSE 2210": {
@@ -2255,7 +2241,7 @@
     "prereqs": []
   },
   "ECSE 6990": {
-    "title": "Master's Thesis",
+    "title": "Masters Thesis",
     "prereqs": []
   },
   "ECSE 9990": {
@@ -2655,7 +2641,9 @@
   },
   "MGMT 4850": {
     "title": "Org Behavior In High Perf Org",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 1100"
+    ]
   },
   "MGMT 4860": {
     "title": "Hr Resources In High Perf Orgs",
@@ -2979,7 +2967,7 @@
     "prereqs": []
   },
   "MATH 2010": {
-    "title": "Multivar Calc & Matrix Alg",
+    "title": "Multivar Calc & Matrix Algebra",
     "prereqs": [
       "MATH 1020"
     ]
@@ -3000,7 +2988,11 @@
   },
   "MATH 4090": {
     "title": "Foundations Of Analysis",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
+    ]
   },
   "MATH 4100": {
     "title": "Linear Algebra",
@@ -3054,8 +3046,10 @@
   "MATH 4800": {
     "title": "Numerical Computing",
     "prereqs": [
-      "ENGR 1100",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2400"
     ]
   },
   "MATH 4940": {
@@ -3161,7 +3155,10 @@
   },
   "MANE 4030": {
     "title": "Elements Of Mech Design",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 2530",
+      "MATH 2400"
+    ]
   },
   "MANE 4040": {
     "title": "Mechanical Systems Lab",
@@ -3195,7 +3192,8 @@
       "MANE 2710",
       "MANE 2720",
       "MANE 4010",
-      "MANE 4070"
+      "MANE 4070",
+      "MANE 4400"
     ]
   },
   "MANE 4090": {
@@ -3334,7 +3332,7 @@
     "prereqs": []
   },
   "MANE 4964": {
-    "title": "Reactor Reliability & Safety",
+    "title": "Mane Safety Program",
     "prereqs": []
   },
   "MANE 4965": {
@@ -3534,6 +3532,7 @@
   "PHYS 1200": {
     "title": "Physics II",
     "prereqs": [
+      "MATH 1020",
       "PHYS 1100",
       "PHYS 1150"
     ]
@@ -3586,7 +3585,7 @@
     "prereqs": []
   },
   "PHYS 4962": {
-    "title": "Prof Dev Phys: Path To Gr Schl",
+    "title": "Mathematical Phys For Physics",
     "prereqs": []
   },
   "PHYS 6210": {
@@ -3636,10 +3635,12 @@
     ]
   },
   "PSYC 2310": {
-    "title": "Research Methods & Stats I",
+    "title": "Research Methods And Statistics I",
     "prereqs": [
       "COGS 2120",
-      "PSYC 1200"
+      "PHIL 2120",
+      "PSYC 1200",
+      "PSYC 2120"
     ]
   },
   "PSYC 2520": {
@@ -4153,7 +4154,7 @@
     "prereqs": []
   },
   "ARTS 2961": {
-    "title": "Designing Musical Games",
+    "title": "History Of Hip Hop",
     "prereqs": []
   },
   "ARTS 2962": {
@@ -4482,7 +4483,10 @@
   },
   "CHME 4030": {
     "title": "Chem Process Dynamics & Cntrl",
-    "prereqs": []
+    "prereqs": [
+      "CHME 2010",
+      "MATH 2400"
+    ]
   },
   "CHME 4050": {
     "title": "Chemical Process Dsgn: Fdmtl",
@@ -4540,19 +4544,18 @@
   "CHEM 2240": {
     "title": "Organic Chemistry Lab II",
     "prereqs": [
-      "CHEM 1200",
-      "MATH 1010"
+      "CHEM 2230",
+      "CHEM 2260"
     ]
   },
   "CHEM 2260": {
     "title": "Organic Chemistry II",
     "prereqs": [
-      "CHEM 2210",
       "CHEM 2250"
     ]
   },
   "CHEM 2290": {
-    "title": "Experimental Chemistry II",
+    "title": "Experimental Chemistry II:synthesis And Characterization",
     "prereqs": []
   },
   "CHEM 2540": {
@@ -4843,10 +4846,10 @@
     ]
   },
   "CSCI 4963": {
-    "title": "Topics In Knowledge Graphs",
+    "title": "Application Prog Using Java",
     "prereqs": [
       "CSCI 2300",
-      "CSCI 4340"
+      "CSCI 2600"
     ]
   },
   "CSCI 4969": {
@@ -5035,12 +5038,8 @@
   "ECON 4570": {
     "title": "Econometrics",
     "prereqs": [
-      "BIOL 4200",
-      "ENGR 2600",
-      "MATH 2010",
-      "MATP 4600",
-      "MGMT 2100",
-      "PSYC 2310"
+      "ECON 2010",
+      "MATH 2010"
     ]
   },
   "ECON 6190": {
@@ -5104,7 +5103,7 @@
     "prereqs": []
   },
   "ECSE 2660": {
-    "title": "Cptr Arch, Nets & Os",
+    "title": "Comp Architecture & Networks",
     "prereqs": [
       "ECSE 2610"
     ]
@@ -5236,11 +5235,8 @@
   "ENVE 4310": {
     "title": "Appl Hydrology & Hydraulics",
     "prereqs": [
-      "BMED 4250",
       "CHME 4010",
-      "CIVL 2050",
-      "ENGR 2250",
-      "MANE 2720"
+      "ENGR 2250"
     ]
   },
   "ENVE 4320": {
@@ -5580,11 +5576,8 @@
   "MTLE 4250": {
     "title": "Mechanical Properties Of Materials",
     "prereqs": [
-      "CHEM 1600",
       "ENGR 1600",
-      "ISCI 1600",
-      "MTLE 2100",
-      "PHYS 1600"
+      "MTLE 2100"
     ]
   },
   "MTLE 4450": {
@@ -5693,10 +5686,8 @@
     ]
   },
   "MATH 4300": {
-    "title": "Intro Complex Var",
-    "prereqs": [
-      "MATH 2010"
-    ]
+    "title": "Intro To Complex Variables",
+    "prereqs": []
   },
   "MATH 4500": {
     "title": "Meth Pde Of Math Physics",
@@ -5873,7 +5864,10 @@
   },
   "MANE 6720": {
     "title": "Computational Fluid Dynamics",
-    "prereqs": []
+    "prereqs": [
+      "CIVL 6660",
+      "MANE 6660"
+    ]
   },
   "MANE 6830": {
     "title": "Combustion",
@@ -6094,11 +6088,11 @@
     ]
   },
   "PSYC 4961": {
-    "title": "Principles-economic Mechanics",
+    "title": "Physics Meets Social Sciences",
     "prereqs": []
   },
   "PSYC 4962": {
-    "title": "Physics Meets Social Science",
+    "title": "Applied Behavior Analysis",
     "prereqs": []
   },
   "PSYC 4964": {
@@ -6652,7 +6646,7 @@
     "prereqs": []
   },
   "PHYS 2961": {
-    "title": "Quantum Computing & Informtn",
+    "title": "Intro Physics Teach Practicum",
     "prereqs": []
   },
   "PHYS 4640": {
@@ -6787,7 +6781,7 @@
     "prereqs": []
   },
   "CHME 4963": {
-    "title": "Intro To Adv Membrane Concepts",
+    "title": "Chem Eng In Drug Disc & Deliv",
     "prereqs": []
   },
   "CHEM 4420": {
@@ -7380,7 +7374,7 @@
     ]
   },
   "CHEM 4961": {
-    "title": "Aspects Of Chemical Practice",
+    "title": "Chemistry In The Movies",
     "prereqs": []
   },
   "CHEM 6300": {
@@ -8122,7 +8116,7 @@
     "prereqs": []
   },
   "COGS 4962": {
-    "title": "Information Retrieval",
+    "title": "Ai In Fiction And Fact",
     "prereqs": []
   },
   "COGS 4963": {
@@ -8166,7 +8160,9 @@
   },
   "ISYE 4140": {
     "title": "Statistical Analysis",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 2600"
+    ]
   },
   "ISYE 4220": {
     "title": "Optimization Algorithms And Applications",
@@ -8193,7 +8189,7 @@
     ]
   },
   "ISYE 4600": {
-    "title": "Operations Research Methods",
+    "title": "Operations Research Method",
     "prereqs": [
       "ENGR 2600",
       "MATH 1020"
@@ -8498,10 +8494,8 @@
     "prereqs": []
   },
   "CSCI 2960": {
-    "title": "Web Systems Development",
-    "prereqs": [
-      "ITWS 1100"
-    ]
+    "title": "Rcos",
+    "prereqs": []
   },
   "CSCI 4974": {
     "title": "Parallel Graph Analysis",
@@ -8715,7 +8709,7 @@
     "prereqs": []
   },
   "PSYC 4960": {
-    "title": "Psychology Of Games",
+    "title": "Models Of Mental Dynamics",
     "prereqs": []
   },
   "STSH 1961": {
@@ -9415,8 +9409,8 @@
   "ENGR 2300": {
     "title": "Electronic Instrumentation",
     "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
+      "MATH 2400",
+      "PHYS 1200"
     ]
   },
   "ECSE 6120": {
@@ -9487,6 +9481,7 @@
   "PHYS 2220": {
     "title": "Quantum Physics II",
     "prereqs": [
+      "MATH 2010",
       "PHYS 2210"
     ]
   },
@@ -9530,7 +9525,7 @@
     "prereqs": []
   },
   "BIOL 1015": {
-    "title": "Introduction To Biology Lab",
+    "title": "Introduction To Biology Laboratory",
     "prereqs": []
   },
   "BIOL 4020": {
@@ -10185,7 +10180,9 @@
   "BMED 4200": {
     "title": "Modeling Of Biomedical Systems",
     "prereqs": [
-      "MATH 2400",
+      "BMED 2050",
+      "BMED 2960",
+      "MATH 2010",
       "PHYS 1200",
       "PHYS 1250"
     ]
@@ -10439,7 +10436,7 @@
     "prereqs": []
   },
   "PHYS 2962": {
-    "title": "Practicum In College Teaching",
+    "title": "Computing For Physicists",
     "prereqs": []
   },
   "PHYS 2964": {
@@ -10533,9 +10530,7 @@
   },
   "ARCH 4770": {
     "title": "Architectural Design Studio 5",
-    "prereqs": [
-      "ARCH 2830"
-    ]
+    "prereqs": []
   },
   "ARCH 4976": {
     "title": "Urban & Arch History Of Rome",
@@ -11636,10 +11631,11 @@
     "title": "Inventor's Studio 1",
     "prereqs": [
       "CIVL 1200",
-      "ECSE 1010",
       "ENGR 1100",
       "ENGR 1200",
-      "ENGR 1400"
+      "ENGR 1400",
+      "PHYS 1200",
+      "PHYS 1250"
     ]
   },
   "MANE 4140": {
@@ -12498,7 +12494,7 @@
     "prereqs": []
   },
   "GSAS 4961": {
-    "title": "Topics In Game Research",
+    "title": "Learning & Advanced Game Ai",
     "prereqs": []
   },
   "IHSS 1320": {
@@ -12526,8 +12522,7 @@
       "MATH 2010",
       "MATH 2011",
       "MATH 2400",
-      "PHYS 1100",
-      "PHYS 1150"
+      "PHYS 1100"
     ]
   },
   "MANE 4520": {
@@ -12621,9 +12616,7 @@
   },
   "MANE 4730": {
     "title": "Heat Transfer",
-    "prereqs": [
-      "MANE 2710"
-    ]
+    "prereqs": []
   },
   "ASTR 4961": {
     "title": "Cosmology",
@@ -13148,10 +13141,8 @@
     "prereqs": []
   },
   "GSAS 4963": {
-    "title": "Computer Graphics",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "title": "Computer Graphics For Games",
+    "prereqs": []
   },
   "GSAS 6963": {
     "title": "Virtual Reality",
@@ -13271,7 +13262,7 @@
     ]
   },
   "GSAS 2962": {
-    "title": "Analog Role-Playing Games",
+    "title": "Analog Role-playing Games",
     "prereqs": []
   },
   "GSAS 2965": {
@@ -13709,7 +13700,7 @@
     "prereqs": []
   },
   "ADMN 6700": {
-    "title": "Orientation Smr For Graduates",
+    "title": "Academic Orientation Seminar For Graduate Students",
     "prereqs": []
   },
   "ADMN 6800": {
@@ -13897,7 +13888,7 @@
     "prereqs": []
   },
   "ADMN 1030": {
-    "title": "Arch Exp & Plan Science",
+    "title": "Arch Exp & Plan Engineering",
     "prereqs": []
   },
   "ADMN 1100": {
@@ -14172,6 +14163,10 @@
   },
   "STSO 6960": {
     "title": "Disability And Sts",
+    "prereqs": []
+  },
+  "ADMN 6600": {
+    "title": "Summer Administ Registration",
     "prereqs": []
   }
 }
