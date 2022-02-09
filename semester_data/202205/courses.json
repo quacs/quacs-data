@@ -613,6 +613,43 @@
     "code": "ARTS",
     "courses": [
       {
+        "crse": 2700,
+        "id": "ARTS-2700",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 12,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 17747,
+            "crse": 2700,
+            "rem": 12,
+            "sec": "01",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "M",
+                  "T",
+                  "R",
+                  "F"
+                ],
+                "instructor": "Ross A. Rice",
+                "location": "TBA",
+                "timeEnd": 1235,
+                "timeStart": 1030
+              }
+            ],
+            "title": "Sound Recording & Prod I"
+          }
+        ],
+        "subj": "ARTS",
+        "title": "Sound Recording & Prod I"
+      },
+      {
         "crse": 2750,
         "id": "ARTS-2750",
         "sections": [
@@ -10742,12 +10779,12 @@
           {
             "act": 0,
             "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 29,
+            "cap": 15,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 17257,
             "crse": 4320,
-            "rem": 29,
+            "rem": 15,
             "sec": "01",
             "subj": "PSYC",
             "timeslots": [
@@ -10843,18 +10880,53 @@
         "title": "Cognition & The Brain"
       },
       {
+        "crse": 4700,
+        "id": "PSYC-4700",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 15,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 17746,
+            "crse": 4700,
+            "rem": 15,
+            "sec": "01",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Alicia Ann Walf",
+                "location": "TBA",
+                "timeEnd": 1235,
+                "timeStart": 1030
+              }
+            ],
+            "title": "Hormones, Brain & Behavior"
+          }
+        ],
+        "subj": "PSYC",
+        "title": "Hormones, Brain & Behavior"
+      },
+      {
         "crse": 4730,
         "id": "PSYC-4730",
         "sections": [
           {
             "act": 0,
             "attribute": "In-Person Course",
-            "cap": 120,
+            "cap": 160,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 17259,
             "crse": 4730,
-            "rem": 120,
+            "rem": 160,
             "sec": "01",
             "subj": "PSYC",
             "timeslots": [
@@ -10878,719 +10950,75 @@
         ],
         "subj": "PSYC",
         "title": "Positive Psychology"
-      },
-      {
-        "crse": 4960,
-        "id": "PSYC-4960",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17629,
-            "crse": 4960,
-            "rem": 19,
-            "sec": "01",
-            "subj": "PSYC",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Yingrui Yang",
-                "location": "Russell Sage Laboratory 4112",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Models Of Mental Dynamics"
-          }
-        ],
-        "subj": "PSYC",
-        "title": "Models Of Mental Dynamics"
-      },
-      {
-        "crse": 4961,
-        "id": "PSYC-4961",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17630,
-            "crse": 4961,
-            "rem": 19,
-            "sec": "01",
-            "subj": "PSYC",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Yingrui Yang",
-                "location": "Carnegie Building 113",
-                "timeEnd": 1815,
-                "timeStart": 1610
-              }
-            ],
-            "title": "Physics Meets Social Sciences"
-          }
-        ],
-        "subj": "PSYC",
-        "title": "Physics Meets Social Sciences"
-      },
-      {
-        "crse": 4962,
-        "id": "PSYC-4962",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Online Course",
-            "cap": 29,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17633,
-            "crse": 4962,
-            "rem": 29,
-            "sec": "01",
-            "subj": "PSYC",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [],
-                "instructor": "Michael J Kalsher",
-                "location": "Online",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Applied Behavior Analysis"
-          }
-        ],
-        "subj": "PSYC",
-        "title": "Applied Behavior Analysis"
       }
     ],
     "name": "Psychology"
   },
   {
-    "code": "STSH",
-    "courses": [
-      {
-        "crse": 4250,
-        "id": "STSH-4250",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Communication Intensive, In-Person Course, PDII Option for Engr Majors",
-            "cap": 25,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17664,
-            "crse": 4250,
-            "rem": 25,
-            "sec": "01",
-            "subj": "STSH",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "T",
-                  "R",
-                  "F"
-                ],
-                "instructor": "Susan Lynn Smith",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Bioethics"
-          },
-          {
-            "act": 0,
-            "attribute": "Communication Intensive, In-Person Course, PDII Option for Engr Majors",
-            "cap": 25,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17665,
-            "crse": 4250,
-            "rem": 25,
-            "sec": "02",
-            "subj": "STSH",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "T",
-                  "R",
-                  "F"
-                ],
-                "instructor": "Susan Lynn Smith",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Bioethics"
-          }
-        ],
-        "subj": "STSH",
-        "title": "Bioethics"
-      },
-      {
-        "crse": 4600,
-        "id": "STSH-4600",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 25,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17527,
-            "crse": 4600,
-            "rem": 25,
-            "sec": "01",
-            "subj": "STSH",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 2211",
-                "timeEnd": 1635,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Design & Innovation Studio A"
-          }
-        ],
-        "subj": "STSH",
-        "title": "Design & Innovation Studio A"
-      },
-      {
-        "crse": 4963,
-        "id": "STSH-4963",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17518,
-            "crse": 4963,
-            "rem": 30,
-            "sec": "01",
-            "subj": "STSH",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "W"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 3303",
-                "timeEnd": 2155,
-                "timeStart": 1905
-              }
-            ],
-            "title": "Gender & Race In Culture"
-          }
-        ],
-        "subj": "STSH",
-        "title": "Gender & Race In Culture"
-      },
-      {
-        "crse": 4964,
-        "id": "STSH-4964",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17519,
-            "crse": 4964,
-            "rem": 19,
-            "sec": "01",
-            "subj": "STSH",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 2211",
-                "timeEnd": 1635,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Gender & Sustainability"
-          }
-        ],
-        "subj": "STSH",
-        "title": "Gender & Sustainability"
-      }
-    ],
-    "name": "Sci & Tech Studies - Humanity"
-  },
-  {
-    "code": "STSS",
-    "courses": [
-      {
-        "crse": 2520,
-        "id": "STSS-2520",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Online Course",
-            "cap": 29,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17382,
-            "crse": 2520,
-            "rem": 29,
-            "sec": "02",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "TBA",
-                "location": "Online",
-                "timeEnd": 1910,
-                "timeStart": 1705
-              }
-            ],
-            "title": "Sociology"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Sociology"
-      },
-      {
-        "crse": 4100,
-        "id": "STSS-4100",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 35,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17511,
-            "crse": 4100,
-            "rem": 35,
-            "sec": "01",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Allison Beth Hoffman",
-                "location": "Russell Sage Laboratory 3510",
-                "timeEnd": 1005,
-                "timeStart": 800
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          },
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17512,
-            "crse": 4100,
-            "rem": 30,
-            "sec": "02",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Allison Beth Hoffman",
-                "location": "Russell Sage Laboratory 3101",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          },
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17513,
-            "crse": 4100,
-            "rem": 30,
-            "sec": "03",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "07/11",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Azita Hirsa",
-                "location": "Online",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          },
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17514,
-            "crse": 4100,
-            "rem": 30,
-            "sec": "04",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "07/11",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Azita Hirsa",
-                "location": "Online",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          },
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 35,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17549,
-            "crse": 4100,
-            "rem": 35,
-            "sec": "05",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Allison Beth Hoffman",
-                "location": "Russell Sage Laboratory 3510",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          },
-          {
-            "act": 0,
-            "attribute": "In-Person Course, PDII Option for Engr Majors",
-            "cap": 35,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17550,
-            "crse": 4100,
-            "rem": 35,
-            "sec": "06",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "07/11",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Azita Hirsa",
-                "location": "Online",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Professional Development II: Technical Issues And Solutions"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Professional Development II: Technical Issues And Solutions"
-      },
-      {
-        "crse": 4260,
-        "id": "STSS-4260",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Communication Intensive, Hybrid:Online/In-Person Course, PDII Option for Engr Majors",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17608,
-            "crse": 4260,
-            "rem": 19,
-            "sec": "01",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Abby J. Kinchy",
-                "location": "Low Center for Industrial Inn. 3045",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Food, Farms & Famine"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Food, Farms & Famine"
-      },
-      {
-        "crse": 4600,
-        "id": "STSS-4600",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 25,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17526,
-            "crse": 4600,
-            "rem": 25,
-            "sec": "01",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 2211",
-                "timeEnd": 1635,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Design & Innovation Studio A"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Design & Innovation Studio A"
-      },
-      {
-        "crse": 4962,
-        "id": "STSS-4962",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17357,
-            "crse": 4962,
-            "rem": 19,
-            "sec": "01",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 2211",
-                "timeEnd": 1635,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Gender & Sustainability"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Gender & Sustainability"
-      },
-      {
-        "crse": 4963,
-        "id": "STSS-4963",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Hybrid:Online/In-Person Course",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17517,
-            "crse": 4963,
-            "rem": 30,
-            "sec": "01",
-            "subj": "STSS",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "05/23",
-                "days": [
-                  "W"
-                ],
-                "instructor": "Brandon James Costelloe-Kuehn",
-                "location": "Russell Sage Laboratory 3303",
-                "timeEnd": 2155,
-                "timeStart": 1905
-              }
-            ],
-            "title": "Gender & Race In Culture"
-          }
-        ],
-        "subj": "STSS",
-        "title": "Gender & Race In Culture"
-      }
-    ],
-    "name": "Sci & Tech Studies - Soc Sci"
-  },
-  {
     "code": "WRIT",
     "courses": [
+      {
+        "crse": 2110,
+        "id": "WRIT-2110",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 19,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 17744,
+            "crse": 2110,
+            "rem": 19,
+            "sec": "01",
+            "subj": "WRIT",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1235,
+                "timeStart": 1030
+              }
+            ],
+            "title": "Strategic Writing"
+          }
+        ],
+        "subj": "WRIT",
+        "title": "Strategic Writing"
+      },
       {
         "crse": 2340,
         "id": "WRIT-2340",
         "sections": [
           {
             "act": 0,
-            "attribute": "Communication Intensive, Hybrid:Online/In-Person Course",
+            "attribute": "Communication Intensive",
             "cap": 19,
             "credMax": 4.0,
             "credMin": 4.0,
-            "crn": 17364,
+            "crn": 17745,
             "crse": 2340,
             "rem": 19,
             "sec": "01",
             "subj": "WRIT",
             "timeslots": [
               {
-                "dateEnd": "07/01",
+                "dateEnd": "08/19",
                 "dateStart": "05/23",
                 "days": [
                   "M",
                   "R"
                 ],
                 "instructor": "Terry W. Gipson",
-                "location": "Academy Hall AUD",
+                "location": "TBA",
                 "timeEnd": 1535,
                 "timeStart": 1330
-              },
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Terry W. Gipson",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Speech Communication"
-          },
-          {
-            "act": 0,
-            "attribute": "Communication Intensive, Hybrid:Online/In-Person Course",
-            "cap": 19,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 17380,
-            "crse": 2340,
-            "rem": 19,
-            "sec": "02",
-            "subj": "WRIT",
-            "timeslots": [
-              {
-                "dateEnd": "08/19",
-                "dateStart": "07/11",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Terry W. Gipson",
-                "location": "Academy Hall AUD",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              },
-              {
-                "dateEnd": "08/19",
-                "dateStart": "07/11",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Terry W. Gipson",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
               }
             ],
             "title": "Speech Communication"
@@ -11621,13 +11049,12 @@
                 "days": [
                   "M",
                   "T",
-                  "R",
-                  "F"
+                  "R"
                 ],
                 "instructor": "Skye Anicca",
                 "location": "Online",
-                "timeEnd": 1235,
-                "timeStart": 1030
+                "timeEnd": 1900,
+                "timeStart": 1610
               }
             ],
             "title": "Intro To Creative Writing"
