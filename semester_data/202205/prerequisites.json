@@ -2243,47 +2243,6 @@
     }
   },
   "17350": {},
-  "17351": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "COGS 4330",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 4330",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHIL 2120",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2120",
-              "type": "course"
-            },
-            {
-              "course": "COGS 2120",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "17352": {
     "prerequisites": {
       "nested": [
@@ -3458,27 +3417,7 @@
       "type": "and"
     }
   },
-  "17617": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "17618": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "17619": {},
-  "17620": {},
   "17621": {
     "restrictions": {
       "major": {
@@ -3883,5 +3822,15 @@
     }
   },
   "17731": {},
-  "17733": {}
+  "17733": {},
+  "17734": {},
+  "17735": {},
+  "17736": {},
+  "17737": {},
+  "17738": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  }
 }
