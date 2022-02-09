@@ -17152,21 +17152,6 @@
       }
     }
   },
-  "59230": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1100",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "59232": {},
   "59234": {},
   "59236": {},
@@ -17716,24 +17701,6 @@
       }
     }
   },
-  "59356": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "59357": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59358": {
     "restrictions": {
       "level": {
@@ -17741,45 +17708,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "59359": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "59360": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENVE 2110",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 2250",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "59361": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENVE 2110",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 2250",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "59362": {
@@ -19055,6 +18983,32 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "59653": {},
+  "59654": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "59655": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
