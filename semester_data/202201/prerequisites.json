@@ -3368,6 +3368,8 @@
     }
   },
   "60429": {},
+  "60430": {},
+  "60431": {},
   "60432": {
     "prerequisites": {
       "nested": [
@@ -3557,6 +3559,17 @@
     }
   },
   "60479": {},
+  "60481": {},
+  "60482": {},
+  "60483": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "60484": {
     "restrictions": {
       "major": {
@@ -5584,6 +5597,38 @@
       }
     }
   },
+  "61721": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "61795": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "61807": {
     "restrictions": {
       "classification": {
@@ -6777,6 +6822,7 @@
       }
     }
   },
+  "62152": {},
   "62153": {
     "prerequisites": {
       "nested": [
@@ -7292,6 +7338,15 @@
           "Sophomore"
         ]
       },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "62343": {
+    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -8021,6 +8076,7 @@
     }
   },
   "62469": {},
+  "62471": {},
   "62473": {
     "prerequisites": {
       "course": "ASTR 2050",
@@ -8570,6 +8626,28 @@
       }
     }
   },
+  "62588": {},
+  "62589": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    }
+  },
+  "62590": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Elect Media, Arts, & Comm"
+        ]
+      }
+    }
+  },
   "62592": {
     "corequisites": [
       "BIOL-1015"
@@ -9070,6 +9148,18 @@
       "CIVL-4020"
     ]
   },
+  "62626": {
+    "cross_list_courses": [
+      "GSAS-4510"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "62627": {
     "prerequisites": {
       "course": "MATH 2400",
@@ -9361,6 +9451,17 @@
       }
     }
   },
+  "62675": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "62678": {
     "restrictions": {
       "level": {
@@ -9411,6 +9512,17 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "62687": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
@@ -9526,6 +9638,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "62754": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -11690,6 +11813,16 @@
       }
     }
   },
+  "63372": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63373": {
     "corequisites": [
       "BIOL-1010"
@@ -11859,6 +11992,8 @@
       "type": "or"
     }
   },
+  "63396": {},
+  "63397": {},
   "63401": {
     "restrictions": {
       "classification": {
@@ -12138,6 +12273,15 @@
   },
   "63438": {},
   "63439": {},
+  "63446": {
+    "cross_list_courses": [
+      "ARTS-6965"
+    ],
+    "prerequisites": {
+      "course": "ARTS 2020",
+      "type": "course"
+    }
+  },
   "63447": {
     "cross_list_courses": [
       "ARCH-4150"
@@ -12589,6 +12733,7 @@
       "type": "course"
     }
   },
+  "63665": {},
   "63667": {},
   "63669": {
     "restrictions": {
@@ -12600,6 +12745,21 @@
     }
   },
   "63670": {},
+  "63672": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4060",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4070",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "63673": {
     "prerequisites": {
       "nested": [
@@ -13093,6 +13253,15 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      }
+    }
+  },
+  "63751": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -13910,6 +14079,17 @@
     }
   },
   "63841": {},
+  "63844": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63847": {
     "restrictions": {
       "classification": {
@@ -13943,6 +14123,16 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "63861": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -14654,6 +14844,12 @@
     }
   },
   "64012": {},
+  "64015": {
+    "prerequisites": {
+      "course": "ARTS 2380",
+      "type": "course"
+    }
+  },
   "64020": {
     "cross_list_courses": [
       "MANE-4140"
@@ -14849,6 +15045,12 @@
     }
   },
   "64045": {},
+  "64049": {
+    "prerequisites": {
+      "course": "ARTS 1380",
+      "type": "course"
+    }
+  },
   "64059": {
     "cross_list_courses": [
       "MATH-6840"
@@ -15002,6 +15204,25 @@
     "prerequisites": {
       "course": "MATH 2400",
       "type": "course"
+    }
+  },
+  "64091": {
+    "cross_list_courses": [
+      "ARTS-4160"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "degree": {
+        "must_be": [
+          "Master of Fine Arts"
+        ]
+      }
     }
   },
   "64102": {
@@ -16012,6 +16233,13 @@
       "WRIT-2320"
     ]
   },
+  "64367": {},
+  "64370": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    }
+  },
   "64375": {
     "restrictions": {
       "classification": {
@@ -16092,6 +16320,9 @@
       }
     }
   },
+  "64391": {},
+  "64392": {},
+  "64395": {},
   "64397": {
     "cross_list_courses": [
       "ECON-6290"
@@ -16400,6 +16631,19 @@
       }
     }
   },
+  "64472": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci",
+          "Music"
+        ]
+      }
+    }
+  },
+  "64473": {},
+  "64474": {},
   "64478": {
     "cross_list_courses": [
       "COGS-4960",
@@ -16680,6 +16924,7 @@
       }
     }
   },
+  "64597": {},
   "64598": {},
   "64603": {
     "cross_list_courses": [
@@ -16693,7 +16938,66 @@
       }
     }
   },
+  "64605": {},
+  "64606": {},
+  "64607": {},
+  "64608": {},
+  "64609": {},
+  "64610": {},
+  "64611": {},
+  "64612": {},
+  "64613": {},
+  "64614": {},
+  "64615": {},
+  "64617": {},
+  "64618": {},
+  "64619": {},
+  "64620": {},
+  "64621": {},
+  "64622": {},
   "64624": {},
+  "64638": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64642": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64643": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64644": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "64646": {
     "restrictions": {
       "level": {
@@ -16861,6 +17165,56 @@
   "64740": {},
   "64741": {},
   "64743": {},
+  "64744": {},
+  "64745": {},
+  "64746": {},
+  "64747": {},
+  "64748": {},
+  "64749": {},
+  "64750": {},
+  "64751": {},
+  "64752": {},
+  "64753": {},
+  "64754": {
+    "cross_list_courses": [
+      "ARTS-6963"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 2380",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "64755": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64756": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "64758": {
     "cross_list_courses": [
       "COGS-2340"
@@ -17992,6 +18346,7 @@
       }
     }
   },
+  "64849": {},
   "64851": {},
   "64853": {
     "cross_list_courses": [
@@ -19340,6 +19695,33 @@
       "type": "or"
     }
   },
+  "64956": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1987",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1960",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1030",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "64957": {},
   "64958": {
     "cross_list_courses": [
@@ -19858,6 +20240,24 @@
       }
     }
   },
+  "65012": {
+    "cross_list_courses": [
+      "ARTS-6961"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4220",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "65013": {
     "prerequisites": {
       "nested": [
@@ -20078,6 +20478,53 @@
       }
     }
   },
+  "65041": {
+    "cross_list_courses": [
+      "ARTS-4961"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4220",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Fine Arts"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "65042": {
+    "cross_list_courses": [
+      "ARTS-6962"
+    ]
+  },
+  "65043": {
+    "cross_list_courses": [
+      "ARTS-4962"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "65044": {
     "cross_list_courses": [
       "GSAS-6200"
@@ -20241,6 +20688,11 @@
       "type": "course"
     }
   },
+  "65062": {
+    "cross_list_courses": [
+      "GSAS-2560"
+    ]
+  },
   "65063": {
     "cross_list_courses": [
       "ARTS-2560"
@@ -20252,6 +20704,23 @@
       "ARCH-4966"
     ],
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "65066": {
+    "cross_list_courses": [
+      "ARTS-4880"
+    ],
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Fine Arts"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
