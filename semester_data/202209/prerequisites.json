@@ -9415,7 +9415,6 @@
     }
   },
   "57368": {},
-  "57369": {},
   "57370": {
     "restrictions": {
       "level": {
@@ -15453,7 +15452,6 @@
   },
   "58757": {},
   "58758": {},
-  "58767": {},
   "58774": {},
   "58841": {
     "restrictions": {
@@ -16862,19 +16860,6 @@
       "type": "or"
     }
   },
-  "59227": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "59228": {
     "prerequisites": {
       "nested": [
@@ -18270,7 +18255,6 @@
       }
     }
   },
-  "59518": {},
   "59519": {
     "prerequisites": {
       "course": "PHIL 2140",
@@ -18801,5 +18785,42 @@
     }
   },
   "59662": {},
-  "59663": {}
+  "59663": {},
+  "59664": {
+    "prerequisites": {
+      "course": "GSAS 4240",
+      "type": "course"
+    }
+  },
+  "59665": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 1040",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1600",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2510",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2520",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2540",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59667": {},
+  "59668": {},
+  "59669": {},
+  "59670": {}
 }
