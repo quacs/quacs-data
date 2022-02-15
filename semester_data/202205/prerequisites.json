@@ -1562,6 +1562,31 @@
       "type": "or"
     }
   },
+  "17265": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Bioinformatics & Molec Biology",
+          "Biology",
+          "Biological Neuroscience"
+        ]
+      }
+    }
+  },
   "17269": {
     "prerequisites": {
       "nested": [
