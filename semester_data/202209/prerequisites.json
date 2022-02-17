@@ -14148,33 +14148,6 @@
       "type": "course"
     }
   },
-  "58607": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2250",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 2050",
-          "type": "course"
-        },
-        {
-          "course": "BMED 4250",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "58608": {
     "prerequisites": {
       "nested": [
@@ -15097,33 +15070,6 @@
       "type": "course"
     }
   },
-  "58702": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2250",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 2050",
-          "type": "course"
-        },
-        {
-          "course": "BMED 4250",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "58703": {
     "restrictions": {
       "major": {
@@ -15231,33 +15177,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "58715": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2250",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 2050",
-          "type": "course"
-        },
-        {
-          "course": "BMED 4250",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "58716": {
@@ -18777,5 +18696,17 @@
       "type": "course"
     }
   },
-  "59675": {}
+  "59675": {},
+  "59680": {
+    "prerequisites": {
+      "course": "CIVL 2060",
+      "type": "course"
+    }
+  },
+  "59681": {
+    "prerequisites": {
+      "course": "CIVL 2060",
+      "type": "course"
+    }
+  }
 }
