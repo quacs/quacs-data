@@ -1094,7 +1094,6 @@
       }
     }
   },
-  "17219": {},
   "17230": {
     "prerequisites": {
       "nested": [
@@ -2732,12 +2731,6 @@
       "type": "and"
     }
   },
-  "17507": {
-    "prerequisites": {
-      "course": "ENGR 2530",
-      "type": "course"
-    }
-  },
   "17508": {
     "prerequisites": {
       "nested": [
@@ -3650,5 +3643,36 @@
       "type": "course"
     }
   },
-  "17760": {}
+  "17760": {},
+  "17761": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "17762": {
+    "prerequisites": {
+      "course": "ENGR 2530",
+      "type": "course"
+    }
+  },
+  "17763": {}
 }
