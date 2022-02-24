@@ -3187,7 +3187,6 @@
       "type": "and"
     }
   },
-  "17619": {},
   "17621": {
     "cross_list_courses": [
       "COGS-4430",
@@ -3581,7 +3580,14 @@
   "17734": {
     "cross_list_courses": [
       "ARTS-4180"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "17735": {},
   "17736": {
@@ -3614,6 +3620,13 @@
     "prerequisites": {
       "course": "GSAS 4520",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "17741": {},
