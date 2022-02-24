@@ -18605,6 +18605,9 @@
   "59657": {},
   "59658": {},
   "59661": {
+    "cross_list_courses": [
+      "COGS-6640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18619,8 +18622,20 @@
       "type": "and"
     }
   },
-  "59662": {},
-  "59663": {},
+  "59662": {
+    "cross_list_courses": [
+      "COGS-4640"
+    ]
+  },
+  "59663": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "59664": {
     "prerequisites": {
       "course": "GSAS 4240",
