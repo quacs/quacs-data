@@ -2119,47 +2119,6 @@
       }
     }
   },
-  "17352": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHIL 2120",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2120",
-              "type": "course"
-            },
-            {
-              "course": "COGS 2120",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "COGS 4330",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 4330",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "17354": {
     "prerequisites": {
       "nested": [
@@ -3091,29 +3050,6 @@
     }
   },
   "17604": {},
-  "17607": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "17612": {},
   "17613": {},
   "17616": {
@@ -3673,5 +3609,28 @@
     }
   },
   "17787": {},
-  "17788": {}
+  "17788": {},
+  "17789": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
