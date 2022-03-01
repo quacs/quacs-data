@@ -1284,6 +1284,30 @@
           {
             "act": 0,
             "attribute": "",
+            "cap": 0,
+            "credMax": 15.0,
+            "credMin": 1.0,
+            "crn": 17120,
+            "crse": 9990,
+            "rem": 0,
+            "sec": "02",
+            "subj": "BCBP",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [],
+                "instructor": "Douglas Martin Swank",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
             "cap": 10,
             "credMax": 15.0,
             "credMin": 1.0,
@@ -2267,6 +2291,43 @@
                 ],
                 "instructor": "Monica Agarwal",
                 "location": "TBA",
+                "timeEnd": 1630,
+                "timeStart": 1330
+              }
+            ],
+            "title": "Biomedical Engineering Lab"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 17375,
+            "crse": 4010,
+            "rem": 0,
+            "sec": "03",
+            "subj": "BMED",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "W"
+                ],
+                "instructor": "Monica Agarwal",
+                "location": "Low Center for Industrial Inn. 3051",
+                "timeEnd": 1100,
+                "timeStart": 900
+              },
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "R"
+                ],
+                "instructor": "Monica Agarwal",
+                "location": "Jonsson Engineering Center 5213",
                 "timeEnd": 1630,
                 "timeStart": 1330
               }
@@ -3591,6 +3652,41 @@
   {
     "code": "COGS",
     "courses": [
+      {
+        "crse": 2120,
+        "id": "COGS-2120",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 17619,
+            "crse": 2120,
+            "rem": 0,
+            "sec": "01",
+            "subj": "COGS",
+            "timeslots": [
+              {
+                "dateEnd": "08/19",
+                "dateStart": "05/23",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Benjamin P. Weissman",
+                "location": "Russell Sage Laboratory 5510",
+                "timeEnd": 1235,
+                "timeStart": 1030
+              }
+            ],
+            "title": "Intro To Cognitive Science"
+          }
+        ],
+        "subj": "COGS",
+        "title": "Intro To Cognitive Science"
+      },
       {
         "crse": 2340,
         "id": "COGS-2340",
@@ -8017,41 +8113,6 @@
   {
     "code": "ISCI",
     "courses": [
-      {
-        "crse": 4960,
-        "id": "ISCI-4960",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 15,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 17637,
-            "crse": 4960,
-            "rem": 15,
-            "sec": "01",
-            "subj": "ISCI",
-            "timeslots": [
-              {
-                "dateEnd": "07/01",
-                "dateStart": "05/23",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Lee Ligon, Susan Lynn Smith",
-                "location": "Low Center for Industrial Inn. 4040",
-                "timeEnd": 1815,
-                "timeStart": 1610
-              }
-            ],
-            "title": "Science Behind Bias In Stem"
-          }
-        ],
-        "subj": "ISCI",
-        "title": "Science Behind Bias In Stem"
-      },
       {
         "crse": 9990,
         "id": "ISCI-9990",

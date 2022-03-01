@@ -464,6 +464,17 @@
       }
     }
   },
+  "17120": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "17121": {
     "restrictions": {
       "classification": {
@@ -2310,6 +2321,25 @@
     }
   },
   "17369": {},
+  "17375": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "17376": {},
   "17378": {
     "restrictions": {
@@ -3064,6 +3094,7 @@
       "type": "and"
     }
   },
+  "17619": {},
   "17621": {
     "cross_list_courses": [
       "COGS-4430",
@@ -3141,7 +3172,6 @@
   },
   "17635": {},
   "17636": {},
-  "17637": {},
   "17639": {
     "prerequisites": {
       "nested": [
