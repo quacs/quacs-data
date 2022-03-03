@@ -3338,6 +3338,17 @@
   "17658": {},
   "17659": {},
   "17660": {},
+  "17663": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology",
+          "Hydrogeology"
+        ]
+      }
+    }
+  },
   "17666": {},
   "17667": {},
   "17668": {
@@ -3560,6 +3571,7 @@
       "type": "course"
     }
   },
+  "17760": {},
   "17761": {
     "prerequisites": {
       "nested": [
@@ -3622,6 +3634,41 @@
       "type": "course"
     }
   },
+  "17768": {
+    "cross_list_courses": [
+      "GSAS-4960"
+    ]
+  },
+  "17769": {
+    "cross_list_courses": [
+      "ARTS-4960"
+    ]
+  },
+  "17770": {},
+  "17772": {},
+  "17773": {},
+  "17774": {},
+  "17776": {},
+  "17777": {},
+  "17778": {},
+  "17779": {},
+  "17780": {},
+  "17781": {
+    "prerequisites": {
+      "course": "ENGR 1100",
+      "type": "course"
+    }
+  },
+  "17782": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Engineering"
+        ]
+      }
+    }
+  },
+  "17783": {},
   "17786": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -3660,5 +3707,42 @@
       "type": "course"
     }
   },
-  "17792": {}
+  "17792": {},
+  "17793": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "17794": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
