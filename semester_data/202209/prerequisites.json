@@ -18213,6 +18213,33 @@
       }
     }
   },
+  "59685": {
+    "cross_list_courses": [
+      "CIVL-4963"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1190",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59687": {
     "restrictions": {
       "classification": {
