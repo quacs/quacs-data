@@ -2540,17 +2540,25 @@
     "prerequisites": {
       "nested": [
         {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
           "nested": [
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            },
             {
               "course": "ENGR 1200",
               "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            },
+            {
+              "course": "CIVL 1200",
+              "type": "course"
             }
           ],
-          "type": "and"
+          "type": "or"
         },
         {
           "nested": [
@@ -2568,11 +2576,7 @@
               "type": "or"
             },
             {
-              "course": "ENGR 1400",
-              "type": "course"
-            },
-            {
-              "course": "CIVL 1200",
+              "course": "ECSE 1010",
               "type": "course"
             }
           ],
