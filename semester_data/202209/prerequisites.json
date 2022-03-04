@@ -13035,41 +13035,6 @@
       }
     }
   },
-  "58362": {
-    "corequisites": [
-      "MTLE-2500"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1600",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MTLE 2100",
-              "type": "course"
-            },
-            {
-              "course": "ISCI 1600",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1600",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1600",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "58363": {},
   "58364": {},
   "58365": {
@@ -13206,41 +13171,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "58390": {
-    "corequisites": [
-      "MTLE-2500"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1600",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MTLE 2100",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1600",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1600",
-              "type": "course"
-            },
-            {
-              "course": "ISCI 1600",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "58393": {
@@ -16851,17 +16781,6 @@
       "type": "course"
     }
   },
-  "59342": {},
-  "59343": {},
-  "59344": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59345": {},
   "59346": {
     "restrictions": {
@@ -18133,15 +18052,6 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "59608": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
