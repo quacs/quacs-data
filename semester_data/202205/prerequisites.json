@@ -848,7 +848,6 @@
       }
     }
   },
-  "17192": {},
   "17194": {
     "restrictions": {
       "classification": {
@@ -1549,7 +1548,8 @@
           "Biochemistry & Biophysics",
           "Bioinformatics & Molec Biology",
           "Biology",
-          "Biological Neuroscience"
+          "Biological Neuroscience",
+          "Computational Biology"
         ]
       }
     }
@@ -2742,7 +2742,11 @@
       "type": "and"
     }
   },
-  "17515": {},
+  "17515": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "17520": {},
   "17521": {
     "restrictions": {
@@ -3689,7 +3693,17 @@
       "type": "course"
     }
   },
-  "17792": {},
+  "17792": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
+    }
+  },
   "17793": {
     "prerequisites": {
       "course": "ARTS 2230",
@@ -3735,6 +3749,11 @@
   "17800": {
     "corequisites": [
       "BIOL-1010"
+    ]
+  },
+  "17801": {
+    "cross_list_courses": [
+      "PHIL-4500"
     ]
   }
 }
