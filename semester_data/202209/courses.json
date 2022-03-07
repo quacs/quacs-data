@@ -10603,12 +10603,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 49,
+            "cap": 24,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 59440,
             "crse": 2050,
-            "rem": 49,
+            "rem": 24,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -10630,12 +10630,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 49,
+            "cap": 24,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 59443,
             "crse": 2050,
-            "rem": 49,
+            "rem": 24,
             "sec": "02",
             "subj": "BMED",
             "timeslots": [
@@ -10700,12 +10700,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 35,
+            "cap": 49,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 57378,
             "crse": 2300,
-            "rem": 35,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -10880,48 +10880,42 @@
               }
             ],
             "title": "Biomedical Engineering Lab"
-          },
+          }
+        ],
+        "subj": "BMED",
+        "title": "Biomedical Engineering Lab"
+      },
+      {
+        "crse": 4110,
+        "id": "BMED-4110",
+        "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 12,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 55317,
-            "crse": 4010,
-            "rem": 12,
-            "sec": "04",
+            "cap": 5,
+            "credMax": 1.0,
+            "credMin": 1.0,
+            "crn": 58178,
+            "crse": 4110,
+            "rem": 5,
+            "sec": "01",
             "subj": "BMED",
             "timeslots": [
               {
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
+                "days": [],
                 "instructor": "TBA",
-                "location": "Walker Laboratory 6113",
-                "timeEnd": 1050,
-                "timeStart": 1000
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "R"
-                ],
-                "instructor": "TBA",
-                "location": "Jonsson Engineering Center 5213",
-                "timeEnd": 1550,
-                "timeStart": 1300
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
               }
             ],
-            "title": "Biomedical Engineering Lab"
+            "title": "Investigative Medicine I"
           }
         ],
         "subj": "BMED",
-        "title": "Biomedical Engineering Lab"
+        "title": "Investigative Medicine I"
       },
       {
         "crse": 4200,
@@ -10930,12 +10924,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 25,
+            "cap": 49,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 57437,
             "crse": 4200,
-            "rem": 25,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -10965,12 +10959,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 40,
+            "cap": 49,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 59450,
             "crse": 4250,
-            "rem": 40,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11000,12 +10994,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 49,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 57438,
             "crse": 4260,
-            "rem": 30,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11152,12 +11146,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 60,
+            "cap": 49,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 58393,
             "crse": 4500,
-            "rem": 60,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11216,6 +11210,41 @@
         "title": "Biomechanics II"
       },
       {
+        "crse": 4550,
+        "id": "BMED-4550",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 20,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 59132,
+            "crse": 4550,
+            "rem": 20,
+            "sec": "01",
+            "subj": "BMED",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Qun Wan",
+                "location": "TBA",
+                "timeEnd": 1520,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Cell Biomechanics"
+          }
+        ],
+        "subj": "BMED",
+        "title": "Cell Biomechanics"
+      },
+      {
         "crse": 4580,
         "id": "BMED-4580",
         "sections": [
@@ -11251,53 +11280,18 @@
         "title": "Biomedical Fluid Mechanics"
       },
       {
-        "crse": 4590,
-        "id": "BMED-4590",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 20,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 57954,
-            "crse": 4590,
-            "rem": 20,
-            "sec": "01",
-            "subj": "BMED",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Ge Wang",
-                "location": "Darrin Communications Center 232",
-                "timeEnd": 950,
-                "timeStart": 830
-              }
-            ],
-            "title": "Medical Imaging"
-          }
-        ],
-        "subj": "BMED",
-        "title": "Medical Imaging"
-      },
-      {
         "crse": 4600,
         "id": "BMED-4600",
         "sections": [
           {
             "act": 0,
             "attribute": "Communication Intensive",
-            "cap": 20,
+            "cap": 49,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 58396,
             "crse": 4600,
-            "rem": 20,
+            "rem": 49,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11390,18 +11384,53 @@
         "title": "Biostatistics For Life Science Applications"
       },
       {
+        "crse": 6550,
+        "id": "BMED-6550",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 15,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 59137,
+            "crse": 6550,
+            "rem": 15,
+            "sec": "01",
+            "subj": "BMED",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Qun Wan",
+                "location": "TBA",
+                "timeEnd": 1520,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Cell Biomechanics"
+          }
+        ],
+        "subj": "BMED",
+        "title": "Cell Biomechanics"
+      },
+      {
         "crse": 6580,
         "id": "BMED-6580",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 20,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 58721,
             "crse": 6580,
-            "rem": 30,
+            "rem": 20,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11425,53 +11454,18 @@
         "title": "Biomedical Fluid Mechanics"
       },
       {
-        "crse": 6590,
-        "id": "BMED-6590",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 57955,
-            "crse": 6590,
-            "rem": 10,
-            "sec": "01",
-            "subj": "BMED",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Ge Wang",
-                "location": "Darrin Communications Center 232",
-                "timeEnd": 950,
-                "timeStart": 830
-              }
-            ],
-            "title": "Medical Imaging"
-          }
-        ],
-        "subj": "BMED",
-        "title": "Medical Imaging"
-      },
-      {
         "crse": 6800,
         "id": "BMED-6800",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 49,
+            "cap": 60,
             "credMax": 0.0,
             "credMin": 0.0,
             "crn": 57454,
             "crse": 6800,
-            "rem": 49,
+            "rem": 60,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11528,18 +11522,18 @@
         "title": "Bme Seminar"
       },
       {
-        "crse": 6961,
-        "id": "BMED-6961",
+        "crse": 6966,
+        "id": "BMED-6966",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 10,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 59290,
-            "crse": 6961,
-            "rem": 10,
+            "cap": 15,
+            "credMax": 0.0,
+            "credMin": 0.0,
+            "crn": 58455,
+            "crse": 6966,
+            "rem": 15,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -11547,19 +11541,19 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "W"
                 ],
-                "instructor": "M.V. Shyam Kumar",
-                "location": "Online",
-                "timeEnd": 1150,
-                "timeStart": 900
+                "instructor": "Deepak Vashishth",
+                "location": "Low Center for Industrial Inn. 3130",
+                "timeEnd": 1550,
+                "timeStart": 1500
               }
             ],
-            "title": "Comm Bmed Inn/entrep Bus Fdmtl"
+            "title": "Perspect In Bme & Alz Research"
           }
         ],
         "subj": "BMED",
-        "title": "Comm Bmed Inn/entrep Bus Fdmtl"
+        "title": "Perspect In Bme & Alz Research"
       },
       {
         "crse": 6980,
@@ -12040,12 +12034,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 5,
+            "cap": 10,
             "credMax": 15.0,
             "credMin": 1.0,
             "crn": 58754,
             "crse": 9990,
-            "rem": 5,
+            "rem": 10,
             "sec": "02",
             "subj": "BMED",
             "timeslots": [
@@ -46696,6 +46690,475 @@
               }
             ],
             "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59087,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "57",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1255,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1310,
+                "timeStart": 1220
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59088,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "58",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1250,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59089,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "59",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1250,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59090,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "60",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1250,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59700,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "61",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1300
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59701,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "62",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1300
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59702,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "63",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1300
+              }
+            ],
+            "title": "Calculus I"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 17,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59703,
+            "crse": 1010,
+            "rem": 17,
+            "sec": "64",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Elisabeth Maria Brown, Margaret Z. Kiehl, Gina Irene Kucinski, Eliane Zerbetto Traldi",
+                "location": "TBA",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 2150,
+                "timeStart": 2000
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1300
+              }
+            ],
+            "title": "Calculus I"
           }
         ],
         "subj": "MATH",
@@ -46724,7 +47187,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Eliane Zerbetto Traldi",
+                "instructor": "Bruce Piper",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 950,
                 "timeStart": 830
@@ -46773,7 +47236,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Eliane Zerbetto Traldi",
+                "instructor": "Bruce Piper",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 950,
                 "timeStart": 830
@@ -46822,7 +47285,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Eliane Zerbetto Traldi",
+                "instructor": "Bruce Piper",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 950,
                 "timeStart": 830
@@ -46871,7 +47334,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Eliane Zerbetto Traldi",
+                "instructor": "Bruce Piper",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 950,
                 "timeStart": 830
@@ -46917,24 +47380,24 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Daniel Franklin Stevenson",
-                "location": "Darrin Communications Center 324",
-                "timeEnd": 1350,
-                "timeStart": 1230
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T"
+                  "M"
                 ],
                 "instructor": "TBA",
                 "location": "Amos Eaton Hall 216",
                 "timeEnd": 850,
                 "timeStart": 800
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "Darrin Communications Center 324",
+                "timeEnd": 1120,
+                "timeStart": 1000
               },
               {
                 "dateEnd": "12/20",
@@ -46966,13 +47429,13 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
+                "instructor": "TBA",
                 "location": "Darrin Communications Center 324",
-                "timeEnd": 1350,
-                "timeStart": 1230
+                "timeEnd": 1120,
+                "timeStart": 1000
               },
               {
                 "dateEnd": "12/20",
@@ -46989,7 +47452,7 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "R"
                 ],
                 "instructor": "TBA",
                 "location": "Amos Eaton Hall 216",
@@ -47015,24 +47478,24 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Daniel Franklin Stevenson",
-                "location": "Darrin Communications Center 324",
-                "timeEnd": 1350,
-                "timeStart": 1230
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T"
+                  "M"
                 ],
                 "instructor": "TBA",
                 "location": "Amos Eaton Hall 216",
                 "timeEnd": 950,
                 "timeStart": 900
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "Darrin Communications Center 324",
+                "timeEnd": 1120,
+                "timeStart": 1000
               },
               {
                 "dateEnd": "12/20",
@@ -47064,13 +47527,13 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
+                "instructor": "TBA",
                 "location": "Darrin Communications Center 324",
-                "timeEnd": 1350,
-                "timeStart": 1230
+                "timeEnd": 1120,
+                "timeStart": 1000
               },
               {
                 "dateEnd": "12/20",
@@ -47087,7 +47550,7 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "R"
                 ],
                 "instructor": "TBA",
                 "location": "Amos Eaton Hall 216",
@@ -47113,24 +47576,24 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "M"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 1120,
-                "timeStart": 1000
+                "instructor": "TBA",
+                "location": "Russell Sage Laboratory 2715",
+                "timeEnd": 1250,
+                "timeStart": 1200
               },
               {
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "T"
+                  "T",
+                  "F"
                 ],
                 "instructor": "TBA",
-                "location": "Russell Sage Laboratory 2715",
-                "timeEnd": 850,
-                "timeStart": 800
+                "location": "Darrin Communications Center 318",
+                "timeEnd": 1520,
+                "timeStart": 1400
               },
               {
                 "dateEnd": "12/20",
@@ -47162,13 +47625,13 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
+                "instructor": "TBA",
                 "location": "Darrin Communications Center 318",
-                "timeEnd": 1120,
-                "timeStart": 1000
+                "timeEnd": 1520,
+                "timeStart": 1400
               },
               {
                 "dateEnd": "12/20",
@@ -47185,12 +47648,12 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "R"
                 ],
                 "instructor": "TBA",
                 "location": "Russell Sage Laboratory 2715",
-                "timeEnd": 850,
-                "timeStart": 800
+                "timeEnd": 1250,
+                "timeStart": 1200
               }
             ],
             "title": "Calculus II"
@@ -47211,24 +47674,24 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "M"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 1120,
-                "timeStart": 1000
+                "instructor": "TBA",
+                "location": "Russell Sage Laboratory 2715",
+                "timeEnd": 1350,
+                "timeStart": 1300
               },
               {
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "T"
+                  "T",
+                  "F"
                 ],
                 "instructor": "TBA",
-                "location": "Russell Sage Laboratory 2715",
-                "timeEnd": 950,
-                "timeStart": 900
+                "location": "Darrin Communications Center 318",
+                "timeEnd": 1520,
+                "timeStart": 1400
               },
               {
                 "dateEnd": "12/20",
@@ -47260,13 +47723,13 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
-                "instructor": "Daniel Franklin Stevenson",
+                "instructor": "TBA",
                 "location": "Darrin Communications Center 318",
-                "timeEnd": 1120,
-                "timeStart": 1000
+                "timeEnd": 1520,
+                "timeStart": 1400
               },
               {
                 "dateEnd": "12/20",
@@ -47283,12 +47746,12 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "R"
                 ],
                 "instructor": "TBA",
                 "location": "Russell Sage Laboratory 2715",
-                "timeEnd": 950,
-                "timeStart": 900
+                "timeEnd": 1350,
+                "timeStart": 1300
               }
             ],
             "title": "Calculus II"
