@@ -2540,8 +2540,30 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ENGR 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "nested": [
@@ -2551,32 +2573,6 @@
             },
             {
               "course": "ENGR 1400",
-              "type": "course"
-            },
-            {
-              "course": "CIVL 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "PHYS 1200",
-                  "type": "course"
-                },
-                {
-                  "course": "PHYS 1250",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "ECSE 1010",
               "type": "course"
             }
           ],
@@ -2592,37 +2588,37 @@
         {
           "nested": [
             {
-              "course": "ENGR 1100",
+              "course": "ENGR 1110",
               "type": "course"
             },
             {
-              "course": "ENGR 1200",
+              "course": "ECSE 1010",
               "type": "course"
             }
           ],
-          "type": "and"
+          "type": "or"
         },
         {
           "nested": [
             {
-              "nested": [
-                {
-                  "course": "PHYS 1200",
-                  "type": "course"
-                },
-                {
-                  "course": "PHYS 1250",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "ENGR 1400",
+              "course": "PHYS 1200",
               "type": "course"
             },
             {
-              "course": "CIVL 1200",
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
               "type": "course"
             }
           ],

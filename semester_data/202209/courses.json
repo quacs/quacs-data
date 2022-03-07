@@ -7080,12 +7080,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 32,
+            "cap": 30,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 57451,
             "crse": 4800,
-            "rem": 32,
+            "rem": 30,
             "sec": "01",
             "subj": "BCBP",
             "timeslots": [
@@ -7310,12 +7310,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 33,
+            "cap": 30,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 57452,
             "crse": 6800,
-            "rem": 33,
+            "rem": 30,
             "sec": "01",
             "subj": "BCBP",
             "timeslots": [
@@ -8526,6 +8526,32 @@
             "cap": 20,
             "credMax": 1.0,
             "credMin": 1.0,
+            "crn": 59552,
+            "crse": 2125,
+            "rem": 20,
+            "sec": "02",
+            "subj": "BIOL",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M"
+                ],
+                "instructor": "Michael T Klein, Keith Fraser",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1300
+              }
+            ],
+            "title": "Intro Cell & Molec Biol Lab"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 20,
+            "credMax": 1.0,
+            "credMin": 1.0,
             "crn": 59553,
             "crse": 2125,
             "rem": 20,
@@ -8552,20 +8578,20 @@
             "cap": 20,
             "credMax": 1.0,
             "credMin": 1.0,
-            "crn": 59555,
+            "crn": 59554,
             "crse": 2125,
             "rem": 20,
-            "sec": "05",
+            "sec": "04",
             "subj": "BIOL",
             "timeslots": [
               {
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "T"
+                  "W"
                 ],
-                "instructor": "Keith Fraser, Michael T Klein",
-                "location": "Walker Laboratory",
+                "instructor": "Michael T Klein",
+                "location": "TBA",
                 "timeEnd": 1550,
                 "timeStart": 1300
               }
@@ -8862,6 +8888,51 @@
         ],
         "subj": "BIOL",
         "title": "Human Physiology"
+      },
+      {
+        "crse": 4320,
+        "id": "BIOL-4320",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 12,
+            "credMax": 6.0,
+            "credMin": 6.0,
+            "crn": 57365,
+            "crse": 4320,
+            "rem": 12,
+            "sec": "01",
+            "subj": "BIOL",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "Richard Peter Bonocora",
+                "location": "Jonsson-Rowland Science Center 3C30",
+                "timeEnd": 1650,
+                "timeStart": 1200
+              },
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "R"
+                ],
+                "instructor": "Richard Peter Bonocora",
+                "location": "Jonsson-Rowland Science Center 3C30",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Microbiology Laboratory"
+          }
+        ],
+        "subj": "BIOL",
+        "title": "Microbiology Laboratory"
       },
       {
         "crse": 4350,
@@ -19459,7 +19530,7 @@
                   "R"
                 ],
                 "instructor": "TBA",
-                "location": "Online",
+                "location": "TBA",
                 "timeEnd": 1750,
                 "timeStart": 1600
               }
@@ -60475,7 +60546,7 @@
                   "R"
                 ],
                 "instructor": "Alicia Ann Walf",
-                "location": "Online",
+                "location": "TBA",
                 "timeEnd": 1750,
                 "timeStart": 1600
               }

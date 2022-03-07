@@ -9248,6 +9248,12 @@
       "type": "and"
     }
   },
+  "57365": {
+    "prerequisites": {
+      "course": "BIOL 2500",
+      "type": "course"
+    }
+  },
   "57366": {
     "cross_list_courses": [
       "GSAS-4510"
@@ -17633,6 +17639,28 @@
       "type": "and"
     }
   },
+  "59552": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "59553": {
     "corequisites": [
       "BIOL-2120"
@@ -17655,7 +17683,7 @@
       "type": "and"
     }
   },
-  "59555": {
+  "59554": {
     "corequisites": [
       "BIOL-2120"
     ],
