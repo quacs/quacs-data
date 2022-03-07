@@ -16823,15 +16823,6 @@
       "type": "course"
     }
   },
-  "59352": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59353": {
     "prerequisites": {
       "nested": [
@@ -16845,15 +16836,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "59355": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "59358": {
@@ -16953,15 +16935,6 @@
     }
   },
   "59383": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "59384": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -18244,5 +18217,77 @@
       "type": "and"
     }
   },
-  "59695": {}
+  "59695": {},
+  "59696": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "59697": {},
+  "59698": {},
+  "59699": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
