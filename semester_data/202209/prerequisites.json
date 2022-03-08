@@ -1939,21 +1939,6 @@
       "type": "course"
     }
   },
-  "55133": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2500",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "55134": {
     "prerequisites": {
       "nested": [
@@ -6829,15 +6814,6 @@
     }
   },
   "56784": {},
-  "56787": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "56791": {
     "restrictions": {
       "level": {
@@ -10875,12 +10851,6 @@
       }
     }
   },
-  "57865": {
-    "prerequisites": {
-      "course": "ECSE 2110",
-      "type": "course"
-    }
-  },
   "57866": {
     "restrictions": {
       "level": {
@@ -13057,21 +13027,6 @@
       }
     }
   },
-  "58371": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2090",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4800",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "58379": {
     "prerequisites": {
       "course": "ARCH 4100",
@@ -13596,6 +13551,15 @@
       }
     }
   },
+  "58493": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "58494": {},
   "58495": {},
   "58496": {
@@ -13748,21 +13712,6 @@
       "type": "course"
     }
   },
-  "58608": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "58609": {},
   "58610": {},
   "58611": {
@@ -13774,24 +13723,6 @@
           "Electronic Arts",
           "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "58613": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "58614": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -15258,7 +15189,6 @@
       "type": "course"
     }
   },
-  "59079": {},
   "59080": {
     "restrictions": {
       "level": {
@@ -15290,15 +15220,6 @@
   "59088": {},
   "59089": {},
   "59090": {},
-  "59091": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59092": {},
   "59093": {
     "prerequisites": {
@@ -16648,21 +16569,6 @@
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
           "Transportation Engineering"
-        ]
-      }
-    }
-  },
-  "59336": {
-    "prerequisites": {
-      "course": "ECSE 6400",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -18272,5 +18178,26 @@
   "59700": {},
   "59701": {},
   "59702": {},
-  "59703": {}
+  "59703": {},
+  "59704": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59705": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "type": "course"
+    }
+  }
 }
