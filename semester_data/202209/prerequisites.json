@@ -6808,15 +6808,6 @@
       }
     }
   },
-  "56795": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "56796": {
     "prerequisites": {
       "nested": [
@@ -7588,15 +7579,6 @@
     }
   },
   "56966": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "56967": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -11136,17 +11118,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "57916": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
     }
   },
   "57921": {},
@@ -17066,15 +17037,6 @@
     }
   },
   "59480": {},
-  "59484": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59485": {
     "prerequisites": {
       "course": "CHEM 4410",
@@ -17082,19 +17044,6 @@
     }
   },
   "59486": {
-    "prerequisites": {
-      "course": "CHEM 2110",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Chemistry"
-        ]
-      }
-    }
-  },
-  "59487": {
     "prerequisites": {
       "course": "CHEM 2110",
       "type": "course"
@@ -18092,5 +18041,90 @@
         ]
       }
     }
-  }
+  },
+  "59709": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59710": {
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "type": "course"
+    }
+  },
+  "59711": {},
+  "59712": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59713": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 4010",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4410",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "59714": {
+    "prerequisites": {
+      "course": "CHEM 4410",
+      "type": "course"
+    }
+  },
+  "59715": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "59716": {}
 }
