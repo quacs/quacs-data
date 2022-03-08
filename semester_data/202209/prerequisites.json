@@ -3026,6 +3026,12 @@
       "type": "and"
     }
   },
+  "55317": {
+    "prerequisites": {
+      "course": "BMED 4200",
+      "type": "course"
+    }
+  },
   "55318": {
     "prerequisites": {
       "course": "ITWS 2110",
@@ -14635,16 +14641,6 @@
       }
     }
   },
-  "58718": {},
-  "58719": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "58720": {
     "restrictions": {
       "classification": {
@@ -15483,8 +15479,6 @@
       "type": "and"
     }
   },
-  "59135": {},
-  "59136": {},
   "59137": {
     "restrictions": {
       "level": {
@@ -16775,16 +16769,6 @@
       }
     }
   },
-  "59424": {},
-  "59425": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59426": {},
   "59427": {
     "prerequisites": {
@@ -17343,7 +17327,6 @@
       }
     }
   },
-  "59550": {},
   "59551": {
     "corequisites": [
       "BIOL-2120"
@@ -17919,30 +17902,6 @@
     }
   },
   "59695": {},
-  "59696": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "59697": {},
   "59698": {},
   "59700": {},
@@ -18106,5 +18065,47 @@
       "type": "and"
     }
   },
-  "59719": {}
+  "59719": {},
+  "59720": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 1100",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59721": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "59722": {},
+  "59723": {},
+  "59724": {}
 }
