@@ -3941,15 +3941,6 @@
       }
     }
   },
-  "55465": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "55466": {
     "prerequisites": {
       "course": "MATH 2400",
@@ -15271,20 +15262,6 @@
       }
     }
   },
-  "59105": {
-    "prerequisites": {
-      "course": "MATH 2010",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Mathematics",
-          "Mathematics"
-        ]
-      }
-    }
-  },
   "59108": {
     "prerequisites": {
       "nested": [
@@ -16421,43 +16398,6 @@
       "type": "course"
     }
   },
-  "59330": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4100",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4200",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "59331": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
   "59332": {
     "restrictions": {
       "major": {
@@ -17168,15 +17108,6 @@
     }
   },
   "59488": {},
-  "59491": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59492": {},
   "59493": {},
   "59494": {},
@@ -17353,12 +17284,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "59519": {
-    "prerequisites": {
-      "course": "PHIL 2140",
-      "type": "course"
     }
   },
   "59520": {
@@ -18151,6 +18076,21 @@
     "prerequisites": {
       "course": "MATH 4090",
       "type": "course"
+    }
+  },
+  "59708": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
