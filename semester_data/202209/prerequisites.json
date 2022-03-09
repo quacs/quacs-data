@@ -4666,7 +4666,6 @@
       }
     }
   },
-  "55983": {},
   "55991": {
     "restrictions": {
       "level": {
@@ -4959,15 +4958,6 @@
       "major": {
         "must_be": [
           "Mathematics"
-        ]
-      }
-    }
-  },
-  "56224": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -8869,6 +8859,11 @@
       "type": "course"
     }
   },
+  "57246": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
   "57248": {
     "corequisites": [
       "BIOL-1010"
@@ -11742,11 +11737,6 @@
       "BIOL-1010"
     ]
   },
-  "58076": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "58080": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -13538,7 +13528,6 @@
       }
     }
   },
-  "58506": {},
   "58517": {},
   "58535": {},
   "58571": {
@@ -13735,16 +13724,6 @@
     }
   },
   "58620": {},
-  "58621": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
-  "58622": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "58623": {
     "restrictions": {
       "degree": {
@@ -18059,7 +18038,6 @@
       "type": "and"
     }
   },
-  "59719": {},
   "59720": {
     "prerequisites": {
       "nested": [
@@ -18101,5 +18079,19 @@
   },
   "59722": {},
   "59723": {},
-  "59724": {}
+  "59724": {},
+  "59725": {
+    "prerequisites": {
+      "course": "MATH 2010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Mathematics",
+          "Mathematics"
+        ]
+      }
+    }
+  }
 }
