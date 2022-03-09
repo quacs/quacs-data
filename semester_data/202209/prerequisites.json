@@ -5689,6 +5689,9 @@
     }
   },
   "56397": {
+    "cross_list_courses": [
+      "ISYE-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6644,6 +6647,9 @@
     }
   },
   "56632": {
+    "cross_list_courses": [
+      "ISYE-6610"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9515,6 +9521,9 @@
     }
   },
   "57396": {
+    "cross_list_courses": [
+      "ISYE-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9548,6 +9557,9 @@
     }
   },
   "57397": {
+    "cross_list_courses": [
+      "ISYE-4210"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14410,30 +14422,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "58691": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "58692": {},
