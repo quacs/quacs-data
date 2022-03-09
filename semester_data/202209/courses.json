@@ -8233,7 +8233,7 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "M"
+                  "T"
                 ],
                 "instructor": "Jonathan T Stetler, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
@@ -8285,12 +8285,12 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "T"
+                  "W"
                 ],
-                "instructor": "Jonathan T Stetler, Georgi G. Shablovsky",
+                "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
-                "timeEnd": 1650,
-                "timeStart": 1400
+                "timeEnd": 1050,
+                "timeStart": 800
               }
             ],
             "title": "Introduction To Biology Laboratory"
@@ -8315,8 +8315,8 @@
                 ],
                 "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
-                "timeEnd": 1050,
-                "timeStart": 800
+                "timeEnd": 1350,
+                "timeStart": 1100
               }
             ],
             "title": "Introduction To Biology Laboratory"
@@ -8341,8 +8341,8 @@
                 ],
                 "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
-                "timeEnd": 1350,
-                "timeStart": 1100
+                "timeEnd": 1650,
+                "timeStart": 1400
               }
             ],
             "title": "Introduction To Biology Laboratory"
@@ -8363,7 +8363,7 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "W"
+                  "F"
                 ],
                 "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
@@ -8376,12 +8376,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 64,
+            "cap": 20,
             "credMax": 1.0,
             "credMin": 1.0,
             "crn": 58073,
             "crse": 1015,
-            "rem": 64,
+            "rem": 20,
             "sec": "09",
             "subj": "BIOL",
             "timeslots": [
@@ -8389,11 +8389,11 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "F"
+                  "T"
                 ],
                 "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
                 "location": "Walker Laboratory 6113",
-                "timeEnd": 1550,
+                "timeEnd": 1650,
                 "timeStart": 1400
               }
             ],
@@ -8531,12 +8531,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 24,
+            "cap": 20,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 59101,
             "crse": 2160,
-            "rem": 24,
+            "rem": 20,
             "sec": "01",
             "subj": "BIOL",
             "timeslots": [
@@ -8553,7 +8553,8 @@
                 "timeStart": 1000
               }
             ],
-            "title": "Introduction To Geobiology"
+            "title": "Introduction To Geobiology",
+            "xl_rem": 20
           }
         ],
         "subj": "BIOL",
@@ -23057,10 +23058,10 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "T",
-                  "F"
+                  "M",
+                  "R"
                 ],
-                "instructor": "Yuri V Lvov",
+                "instructor": "Fengyan Li",
                 "location": "Amos Eaton Hall 216",
                 "timeEnd": 1150,
                 "timeStart": 1000
@@ -28605,6 +28606,41 @@
     "code": "ERTH",
     "courses": [
       {
+        "crse": 1030,
+        "id": "ERTH-1030",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 24,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59727,
+            "crse": 1030,
+            "rem": 24,
+            "sec": "01",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Steven W Roecker",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Natural Science I"
+          }
+        ],
+        "subj": "ERTH",
+        "title": "Natural Science I"
+      },
+      {
         "crse": 1100,
         "id": "ERTH-1100",
         "sections": [
@@ -28691,6 +28727,32 @@
                 "location": "Jonsson-Rowland Science Center 3W13",
                 "timeEnd": 1350,
                 "timeStart": 1200
+              }
+            ],
+            "title": "Geology I: Lab"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 24,
+            "credMax": 1.0,
+            "credMin": 1.0,
+            "crn": 59728,
+            "crse": 1150,
+            "rem": 24,
+            "sec": "03",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "W"
+                ],
+                "instructor": "Sarah Beth Cadieux",
+                "location": "Jonsson-Rowland Science Center 3W13",
+                "timeEnd": 1550,
+                "timeStart": 1400
               }
             ],
             "title": "Geology I: Lab"
@@ -28826,7 +28888,8 @@
                 "timeStart": 1400
               }
             ],
-            "title": "Introduction To Geobiology"
+            "title": "Introduction To Geobiology",
+            "xl_rem": 20
           }
         ],
         "subj": "ERTH",
@@ -32439,41 +32502,6 @@
         ],
         "subj": "ECSE",
         "title": "Pattern Recognition"
-      },
-      {
-        "crse": 6620,
-        "id": "ECSE-6620",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 12,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 58616,
-            "crse": 6620,
-            "rem": 12,
-            "sec": "01",
-            "subj": "ECSE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Richard J Radke",
-                "location": "Jonsson Engineering Center",
-                "timeEnd": 1520,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Comp Vision For Visual Effects"
-          }
-        ],
-        "subj": "ECSE",
-        "title": "Comp Vision For Visual Effects"
       },
       {
         "crse": 6810,
@@ -36137,76 +36165,6 @@
         "title": "Desgn & Analys Of Supply Chain"
       },
       {
-        "crse": 4220,
-        "id": "ISYE-4220",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 30,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 59341,
-            "crse": 4220,
-            "rem": 30,
-            "sec": "01",
-            "subj": "ISYE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Diana Gineth Ramirez Rios",
-                "location": "Low Center for Industrial Inn. 3112",
-                "timeEnd": 1520,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Optimization Algorithms And Applications"
-          }
-        ],
-        "subj": "ISYE",
-        "title": "Optimization Algorithms And Applications"
-      },
-      {
-        "crse": 4230,
-        "id": "ISYE-4230",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 40,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 59340,
-            "crse": 4230,
-            "rem": 40,
-            "sec": "01",
-            "subj": "ISYE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "David Joseph Mendonca",
-                "location": "Low Center for Industrial Inn. 3045",
-                "timeEnd": 1120,
-                "timeStart": 1000
-              }
-            ],
-            "title": "Quality Control"
-          }
-        ],
-        "subj": "ISYE",
-        "title": "Quality Control"
-      },
-      {
         "crse": 4240,
         "id": "ISYE-4240",
         "sections": [
@@ -36472,41 +36430,6 @@
         "title": "Systems Modeling In Dses"
       },
       {
-        "crse": 6780,
-        "id": "ISYE-6780",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 59049,
-            "crse": 6780,
-            "rem": 10,
-            "sec": "01",
-            "subj": "ISYE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Rongjie Lai",
-                "location": "Pittsburgh Building 5216",
-                "timeEnd": 1150,
-                "timeStart": 1000
-              }
-            ],
-            "title": "Introduction To Optimization"
-          }
-        ],
-        "subj": "ISYE",
-        "title": "Introduction To Optimization"
-      },
-      {
         "crse": 6900,
         "id": "ISYE-6900",
         "sections": [
@@ -36648,31 +36571,7 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [],
-                "instructor": "William Alan Wallace",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Master's Thesis"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 9.0,
-            "credMin": 1.0,
-            "crn": 58151,
-            "crse": 6990,
-            "rem": 10,
-            "sec": "03",
-            "subj": "ISYE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [],
-                "instructor": "Jennifer Ann Pazour",
+                "instructor": "Li Liu",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -42653,8 +42552,8 @@
                 ],
                 "instructor": "Yangyang Xu",
                 "location": "Russell Sage Laboratory 2701",
-                "timeEnd": 1620,
-                "timeStart": 1440
+                "timeEnd": 1550,
+                "timeStart": 1400
               }
             ],
             "title": "Stoch Opt & Reinforce Learng"
@@ -42718,17 +42617,6 @@
                 "location": "Greene Building 120",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -42778,17 +42666,6 @@
                 "location": "Greene Building 120",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -42827,17 +42704,6 @@
                 "location": "Jonsson Engineering Center 4309",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -42887,17 +42753,6 @@
                 "location": "Jonsson Engineering Center 4309",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -42958,17 +42813,6 @@
                 "location": "Low Center for Industrial Inn. 3039",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43018,17 +42862,6 @@
                 "location": "Low Center for Industrial Inn. 3039",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43067,17 +42900,6 @@
                 "location": "Pittsburgh Building 4114",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43127,17 +42949,6 @@
                 "location": "Pittsburgh Building 4114",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43198,17 +43009,6 @@
                 "location": "Pittsburgh Building 5114",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43258,17 +43058,6 @@
                 "location": "Pittsburgh Building 5114",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43312,21 +43101,10 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/29",
                 "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
                   "R"
                 ],
                 "instructor": "TBA",
-                "location": "Carnegie Building 113",
+                "location": "TBA",
                 "timeEnd": 1250,
                 "timeStart": 1200
               }
@@ -43367,17 +43145,6 @@
                 "location": "Pittsburgh Building 5216",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43438,17 +43205,6 @@
                 "location": "Russell Sage Laboratory 4112",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43498,17 +43254,6 @@
                 "location": "Russell Sage Laboratory 4112",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43547,17 +43292,6 @@
                 "location": "Carnegie Building 113",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43607,17 +43341,6 @@
                 "location": "Carnegie Building 113",
                 "timeEnd": 1350,
                 "timeStart": 1200
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43678,17 +43401,6 @@
                 "location": "Carnegie Building 101",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43738,17 +43450,6 @@
                 "location": "Carnegie Building 101",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43787,17 +43488,6 @@
                 "location": "Carnegie Building 208",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43847,17 +43537,6 @@
                 "location": "Carnegie Building 208",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -43918,17 +43597,6 @@
                 "location": "Greene Building 120",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -43978,17 +43646,6 @@
                 "location": "Greene Building 120",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -44027,17 +43684,6 @@
                 "location": "Low Center for Industrial Inn. 3045",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -44087,17 +43733,6 @@
                 "location": "Low Center for Industrial Inn. 3045",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 308",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -44158,17 +43793,6 @@
                 "location": "Low Center for Industrial Inn. 3051",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -44218,17 +43842,6 @@
                 "location": "Low Center for Industrial Inn. 3051",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -44267,17 +43880,6 @@
                 "location": "Pittsburgh Building 4114",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -44327,17 +43929,6 @@
                 "location": "Pittsburgh Building 4114",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 2150,
-                "timeStart": 2000
               },
               {
                 "dateEnd": "12/20",
@@ -44398,17 +43989,6 @@
                 "location": "Russell Sage Laboratory 3713",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 318",
-                "timeEnd": 2150,
-                "timeStart": 2000
               }
             ],
             "title": "Calculus I"
@@ -49040,6 +48620,41 @@
         ],
         "subj": "MATH",
         "title": "Foundations Of Applied Math"
+      },
+      {
+        "crse": 4740,
+        "id": "MATH-4740",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 50,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59726,
+            "crse": 4740,
+            "rem": 50,
+            "sec": "01",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Chjan C Lim",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Introduction To Financial Mathematics And Engineering"
+          }
+        ],
+        "subj": "MATH",
+        "title": "Introduction To Financial Mathematics And Engineering"
       },
       {
         "crse": 4800,

@@ -12324,15 +12324,6 @@
       "type": "or"
     }
   },
-  "58151": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "58152": {
     "prerequisites": {
       "nested": [
@@ -13662,28 +13653,6 @@
       }
     }
   },
-  "58616": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "58618": {
     "prerequisites": {
       "nested": [
@@ -14820,16 +14789,6 @@
       }
     }
   },
-  "59049": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "59050": {},
   "59051": {
     "restrictions": {
@@ -15173,8 +15132,16 @@
       }
     }
   },
-  "59100": {},
-  "59101": {},
+  "59100": {
+    "cross_list_courses": [
+      "BIOL-2160"
+    ]
+  },
+  "59101": {
+    "cross_list_courses": [
+      "ERTH-2160"
+    ]
+  },
   "59102": {
     "prerequisites": {
       "nested": [
@@ -16470,31 +16437,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "59340": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ISYE 4140",
-          "type": "course"
-        },
-        {
-          "course": "ISYE 4760",
-          "type": "course"
-        },
-        {
-          "course": "MATP 4620",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "59341": {
-    "prerequisites": {
-      "course": "ISYE 4600",
-      "type": "course"
     }
   },
   "59345": {},
@@ -18092,6 +18034,19 @@
           "Mathematics"
         ]
       }
+    }
+  },
+  "59726": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "59727": {},
+  "59728": {
+    "prerequisites": {
+      "course": "ERTH 1100",
+      "type": "course"
     }
   }
 }
