@@ -16849,17 +16849,6 @@
       "type": "or"
     }
   },
-  "59475": {},
-  "59476": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
-    }
-  },
   "59477": {},
   "59478": {},
   "59479": {
@@ -18028,6 +18017,34 @@
         {
           "course": "CIVL 6660",
           "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59733": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "COGS 2120",
+              "type": "course"
+            },
+            {
+              "course": "PHIL 2120",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 2120",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "or"
