@@ -1747,6 +1747,9 @@
     }
   },
   "55122": {
+    "cross_list_courses": [
+      "ISYE-6780"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3979,6 +3982,23 @@
           "Industrial & Management Engr",
           "Nuclear Engineering",
           "Undeclared"
+        ]
+      }
+    }
+  },
+  "55469": {
+    "cross_list_courses": [
+      "MATH-6800"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science"
         ]
       }
     }
@@ -12081,42 +12101,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "58115": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4210",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
-    }
-  },
-  "58116": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Computer Science"
         ]
       }
     }
