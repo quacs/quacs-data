@@ -11757,6 +11757,9 @@
   },
   "58068": {},
   "58069": {
+    "cross_list_courses": [
+      "ECON-6190"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12627,6 +12630,9 @@
     }
   },
   "58334": {
+    "cross_list_courses": [
+      "ECON-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16573,6 +16579,9 @@
   "59397": {},
   "59400": {},
   "59408": {
+    "cross_list_courses": [
+      "ECON-4010"
+    ],
     "prerequisites": {
       "course": "MATH 2010",
       "type": "course"
@@ -18071,6 +18080,24 @@
           "Psychology"
         ]
       }
+    }
+  },
+  "59737": {
+    "cross_list_courses": [
+      "ECON-6010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
