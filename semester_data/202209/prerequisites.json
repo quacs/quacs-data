@@ -3022,8 +3022,17 @@
   },
   "55318": {
     "prerequisites": {
-      "course": "ITWS 2110",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "classification": {
@@ -7884,6 +7893,9 @@
   "57074": {},
   "57075": {},
   "57076": {
+    "cross_list_courses": [
+      "CSCI-2960"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7899,8 +7911,10 @@
     },
     "restrictions": {
       "major": {
+        "may_not_be": [
+          "Information Tech & Web Science"
+        ],
         "must_be": [
-          "Information Technology",
           "Information Tech & Web Science"
         ]
       }
@@ -9546,6 +9560,9 @@
   },
   "57400": {},
   "57403": {
+    "cross_list_courses": [
+      "ECSE-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9795,9 +9812,21 @@
     }
   },
   "57436": {
+    "cross_list_courses": [
+      "ITWS-2110"
+    ],
     "prerequisites": {
-      "course": "ITWS 1100",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ITWS 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "57437": {
@@ -12420,7 +12449,18 @@
       "type": "course"
     }
   },
-  "58174": {},
+  "58174": {
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Information Tech & Web Science"
+        ],
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "58178": {
     "restrictions": {
       "major": {
@@ -12797,6 +12837,9 @@
     },
     "restrictions": {
       "major": {
+        "may_not_be": [
+          "Information Tech & Web Science"
+        ],
         "must_be": [
           "Information Tech & Web Science"
         ]
@@ -13492,6 +13535,9 @@
     }
   },
   "58493": {
+    "cross_list_courses": [
+      "ECSE-4810"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13670,23 +13716,6 @@
     }
   },
   "58618": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ITWS 4350",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 4350",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4350",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -14685,8 +14714,17 @@
   },
   "59048": {
     "prerequisites": {
-      "course": "ITWS 2110",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "classification": {
@@ -17728,6 +17766,9 @@
   "59702": {},
   "59703": {},
   "59704": {
+    "cross_list_courses": [
+      "ECSE-6810"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17748,7 +17789,11 @@
       "type": "course"
     }
   },
-  "59706": {},
+  "59706": {
+    "cross_list_courses": [
+      "ECSE-6220"
+    ]
+  },
   "59707": {
     "prerequisites": {
       "course": "MATH 4090",
