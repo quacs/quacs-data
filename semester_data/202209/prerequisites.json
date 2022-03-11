@@ -14120,39 +14120,6 @@
       "type": "course"
     }
   },
-  "58662": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "58663": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "58664": {
     "prerequisites": {
       "nested": [
@@ -16410,7 +16377,6 @@
       }
     }
   },
-  "59345": {},
   "59346": {
     "restrictions": {
       "level": {
@@ -16952,15 +16918,6 @@
       "course": "MATH 2010",
       "type": "course"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "59504": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -18040,6 +17997,39 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "59734": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "59735": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
