@@ -9402,6 +9402,9 @@
     }
   },
   "57379": {
+    "cross_list_courses": [
+      "BMED-6450"
+    ],
     "prerequisites": {
       "course": "BMED 2100",
       "type": "course"
@@ -15607,6 +15610,18 @@
       }
     }
   },
+  "59160": {
+    "cross_list_courses": [
+      "BMED-4450"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "59161": {
     "prerequisites": {
       "nested": [
@@ -18232,6 +18247,30 @@
       }
     }
   },
+  "59742": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "59743": {
     "prerequisites": {
       "nested": [
@@ -18263,5 +18302,6 @@
     }
   },
   "59746": {},
-  "59747": {}
+  "59747": {},
+  "59748": {}
 }
