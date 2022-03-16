@@ -2676,6 +2676,7 @@
       }
     }
   },
+  "55252": {},
   "55253": {
     "restrictions": {
       "level": {
@@ -2900,6 +2901,7 @@
   "55296": {},
   "55297": {},
   "55298": {},
+  "55299": {},
   "55301": {},
   "55302": {
     "restrictions": {
@@ -3024,6 +3026,12 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "55317": {
+    "prerequisites": {
+      "course": "BMED 4200",
+      "type": "course"
     }
   },
   "55318": {
@@ -3264,6 +3272,15 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    }
+  },
+  "55357": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "55358": {
@@ -3650,6 +3667,7 @@
       }
     }
   },
+  "55400": {},
   "55405": {
     "restrictions": {
       "level": {
@@ -3706,6 +3724,7 @@
       }
     }
   },
+  "55421": {},
   "55422": {},
   "55423": {
     "prerequisites": {
@@ -4060,6 +4079,68 @@
       }
     }
   },
+  "55467": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
+  "55468": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
   "55469": {
     "cross_list_courses": [
       "MATH-6800"
@@ -4323,6 +4404,37 @@
     }
   },
   "55512": {},
+  "55513": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
   "55514": {
     "restrictions": {
       "level": {
@@ -4332,6 +4444,7 @@
       }
     }
   },
+  "55516": {},
   "55517": {
     "restrictions": {
       "degree": {
@@ -4775,6 +4888,7 @@
       }
     }
   },
+  "55983": {},
   "55991": {
     "restrictions": {
       "level": {
@@ -5059,6 +5173,21 @@
       }
     }
   },
+  "56148": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "56149": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society"
+        ]
+      }
+    }
+  },
   "56151": {
     "prerequisites": {
       "course": "MATH 2010",
@@ -5068,6 +5197,15 @@
       "major": {
         "must_be": [
           "Mathematics"
+        ]
+      }
+    }
+  },
+  "56224": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -5648,6 +5786,8 @@
       }
     }
   },
+  "56390": {},
+  "56391": {},
   "56393": {
     "prerequisites": {
       "nested": [
@@ -5922,6 +6062,37 @@
       }
     }
   },
+  "56408": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
   "56409": {
     "restrictions": {
       "level": {
@@ -6060,6 +6231,20 @@
         "must_be": [
           "Junior",
           "Senior"
+        ]
+      }
+    }
+  },
+  "56457": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
         ]
       }
     }
@@ -6942,6 +7127,70 @@
       }
     }
   },
+  "56793": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4910",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
+  "56794": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4910",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
+        ]
+      }
+    }
+  },
   "56796": {
     "prerequisites": {
       "nested": [
@@ -7490,6 +7739,38 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "56932": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4910",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr"
         ]
       }
     }
@@ -8091,6 +8372,15 @@
     }
   },
   "57086": {},
+  "57087": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Science"
+        ]
+      }
+    }
+  },
   "57088": {
     "restrictions": {
       "level": {
@@ -9099,6 +9389,15 @@
     }
   },
   "57265": {},
+  "57267": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "57268": {},
   "57269": {},
   "57270": {},
@@ -9297,6 +9596,21 @@
     }
   },
   "57361": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "57362": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "57363": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -10032,7 +10346,26 @@
     }
   },
   "57440": {},
+  "57441": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "57442": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "57443": {
     "restrictions": {
       "classification": {
         "must_be": [
@@ -10109,6 +10442,15 @@
     }
   },
   "57452": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "57453": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -10438,6 +10780,21 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "57619": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4060",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2230",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "57620": {
@@ -11147,6 +11504,11 @@
   "57892": {},
   "57893": {},
   "57894": {},
+  "57895": {
+    "corequisites": [
+      "ARCH-4961"
+    ]
+  },
   "57896": {},
   "57897": {},
   "57898": {},
@@ -11419,6 +11781,21 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "57954": {
+    "prerequisites": {
+      "course": "BMED 2300",
+      "type": "course"
+    }
+  },
+  "57955": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -11696,6 +12073,22 @@
   "57998": {},
   "57999": {},
   "58000": {},
+  "58011": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "58051": {
     "restrictions": {
       "classification": {
@@ -12406,6 +12799,16 @@
       }
     }
   },
+  "58137": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "58138": {
     "restrictions": {
       "classification": {
@@ -12584,6 +12987,16 @@
       "type": "course"
     }
   },
+  "58171": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "58174": {
     "restrictions": {
       "major": {
@@ -12592,6 +13005,26 @@
         ],
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "58176": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "58177": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -12865,6 +13298,36 @@
       }
     }
   },
+  "58338": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "58339": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "58340": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "58341": {
     "prerequisites": {
       "nested": [
@@ -12956,6 +13419,17 @@
       "type": "or"
     }
   },
+  "58344": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "58346": {
     "prerequisites": {
       "nested": [
@@ -12977,6 +13451,16 @@
         ],
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "58347": {},
+  "58348": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -13088,6 +13572,15 @@
           "Hartford"
         ]
       },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "58366": {
+    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -13716,6 +14209,7 @@
       }
     }
   },
+  "58506": {},
   "58517": {},
   "58535": {},
   "58571": {
@@ -14219,6 +14713,26 @@
       "type": "course"
     }
   },
+  "58644": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "58645": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "58646": {
     "restrictions": {
       "major": {
@@ -14343,6 +14857,16 @@
     "prerequisites": {
       "course": "LANG 2410",
       "type": "course"
+    }
+  },
+  "58660": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
     }
   },
   "58664": {
@@ -14734,6 +15258,24 @@
       }
     }
   },
+  "58722": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "58723": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "58724": {
     "prerequisites": {
       "nested": [
@@ -14750,6 +15292,15 @@
     }
   },
   "58725": {},
+  "58726": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "58727": {},
   "58729": {
     "restrictions": {
@@ -14778,6 +15329,112 @@
       }
     }
   },
+  "58738": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4660",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4660",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 6650",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 6650",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "58739": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4660",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 6650",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4660",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 6650",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "58740": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4660",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 6650",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4660",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 6650",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "58741": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4660",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 6650",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4660",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 6650",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "58742": {
     "restrictions": {
       "level": {
@@ -14788,6 +15445,42 @@
     }
   },
   "58743": {},
+  "58744": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "58745": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "58746": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "58747": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "58749": {
     "restrictions": {
       "major": {
@@ -14819,6 +15512,17 @@
       }
     }
   },
+  "58865": {},
+  "58866": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "58867": {},
   "58869": {},
   "58871": {
     "restrictions": {
@@ -14848,6 +15552,7 @@
       }
     }
   },
+  "58930": {},
   "58932": {
     "restrictions": {
       "classification": {
@@ -15263,6 +15968,15 @@
       "type": "and"
     }
   },
+  "59083": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59084": {},
   "59085": {},
   "59086": {},
@@ -15283,6 +15997,15 @@
         "must_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "59095": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -15358,6 +16081,36 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "59106": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59107": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "59108": {
@@ -15965,6 +16718,7 @@
   "59180": {},
   "59181": {},
   "59182": {},
+  "59183": {},
   "59184": {},
   "59185": {},
   "59186": {},
@@ -16030,6 +16784,44 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "59200": {
+    "prerequisites": {
+      "course": "BIOL 4270",
+      "type": "course"
+    }
+  },
+  "59201": {
+    "prerequisites": {
+      "course": "BIOL 4270",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59202": {
+    "prerequisites": {
+      "course": "BIOL 4270",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59203": {
+    "prerequisites": {
+      "course": "BIOL 4270",
+      "type": "course"
     }
   },
   "59204": {},
@@ -16336,6 +17128,15 @@
       "PHYS-1150"
     ]
   },
+  "59246": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59249": {
     "prerequisites": {
       "course": "ARCH 2810",
@@ -16505,6 +17306,15 @@
     "prerequisites": {
       "course": "ARCH 4780",
       "type": "course"
+    }
+  },
+  "59290": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "59291": {
@@ -16684,6 +17494,24 @@
       }
     }
   },
+  "59347": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59348": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59349": {
     "prerequisites": {
       "nested": [
@@ -16777,6 +17605,17 @@
       "major": {
         "must_be": [
           "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "59378": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student",
+          "Junior",
+          "Senior"
         ]
       }
     }
@@ -16967,6 +17806,7 @@
   "59436": {},
   "59437": {},
   "59438": {},
+  "59439": {},
   "59440": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -17080,6 +17920,7 @@
       }
     }
   },
+  "59473": {},
   "59477": {},
   "59478": {},
   "59479": {
@@ -17097,6 +17938,7 @@
       "type": "or"
     }
   },
+  "59483": {},
   "59485": {
     "prerequisites": {
       "course": "CHEM 4410",
@@ -17267,6 +18109,15 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "59517": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
@@ -17697,6 +18548,12 @@
       "type": "course"
     }
   },
+  "59595": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "type": "course"
+    }
+  },
   "59596": {},
   "59597": {},
   "59598": {
@@ -17767,6 +18624,35 @@
   },
   "59657": {},
   "59658": {},
+  "59659": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    }
+  },
+  "59660": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "59661": {
     "cross_list_courses": [
       "COGS-6640"
@@ -17830,6 +18716,28 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "59666": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4530",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4750",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "59667": {},
