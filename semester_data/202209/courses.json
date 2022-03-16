@@ -28576,12 +28576,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 120,
+            "cap": 100,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 58052,
             "crse": 1100,
-            "rem": 120,
+            "rem": 100,
             "sec": "01",
             "subj": "ERTH",
             "timeslots": [
@@ -28594,6 +28594,33 @@
                 ],
                 "instructor": "Sarah Beth Cadieux",
                 "location": "West Hall AUD",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Geology I: Earth's Interior"
+          },
+          {
+            "act": 0,
+            "attribute": "Introductory Level Course",
+            "cap": 20,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 59752,
+            "crse": 1100,
+            "rem": 20,
+            "sec": "02",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Sarah Beth Cadieux",
+                "location": "TBA",
                 "timeEnd": 1150,
                 "timeStart": 1000
               }
@@ -28825,41 +28852,6 @@
         "title": "Introduction To Geobiology"
       },
       {
-        "crse": 2200,
-        "id": "ERTH-2200",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 24,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 59474,
-            "crse": 2200,
-            "rem": 24,
-            "sec": "01",
-            "subj": "ERTH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Sasha Joy Wagner",
-                "location": "Voorhees Computing Center SO",
-                "timeEnd": 1550,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Environmental Data Analysis"
-          }
-        ],
-        "subj": "ERTH",
-        "title": "Environmental Data Analysis"
-      },
-      {
         "crse": 2210,
         "id": "ERTH-2210",
         "sections": [
@@ -28867,8 +28859,8 @@
             "act": 0,
             "attribute": "Communication Intensive",
             "cap": 30,
-            "credMax": 3.0,
-            "credMin": 3.0,
+            "credMax": 4.0,
+            "credMin": 4.0,
             "crn": 59478,
             "crse": 2210,
             "rem": 30,
@@ -28951,52 +28943,6 @@
         "title": "Earth Materials"
       },
       {
-        "crse": 4070,
-        "id": "ERTH-4070",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 24,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 59480,
-            "crse": 4070,
-            "rem": 24,
-            "sec": "01",
-            "subj": "ERTH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Miriam Ellen Katz",
-                "location": "Jonsson-Rowland Science Center 3W13",
-                "timeEnd": 1150,
-                "timeStart": 1000
-              },
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [
-                  "M"
-                ],
-                "instructor": "Miriam Ellen Katz",
-                "location": "Jonsson-Rowland Science Center 3W13",
-                "timeEnd": 1350,
-                "timeStart": 1200
-              }
-            ],
-            "title": "Sedimentology /stratigraphy"
-          }
-        ],
-        "subj": "ERTH",
-        "title": "Sedimentology /stratigraphy"
-      },
-      {
         "crse": 4350,
         "id": "ERTH-4350",
         "sections": [
@@ -29029,6 +28975,41 @@
         ],
         "subj": "ERTH",
         "title": "Data Science"
+      },
+      {
+        "crse": 4540,
+        "id": "ERTH-4540",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 20,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59753,
+            "crse": 4540,
+            "rem": 20,
+            "sec": "01",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Sasha Joy Wagner",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Organic Geochemistry"
+          }
+        ],
+        "subj": "ERTH",
+        "title": "Organic Geochemistry"
       },
       {
         "crse": 4710,
@@ -29224,30 +29205,6 @@
             "cap": 10,
             "credMax": 9.0,
             "credMin": 1.0,
-            "crn": 56923,
-            "crse": 6980,
-            "rem": 10,
-            "sec": "06",
-            "subj": "ERTH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [],
-                "instructor": "Miriam Ellen Katz",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Master's Project"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 9.0,
-            "credMin": 1.0,
             "crn": 57380,
             "crse": 6980,
             "rem": 10,
@@ -29315,30 +29272,6 @@
                 "dateStart": "08/29",
                 "days": [],
                 "instructor": "Frank Spear",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Master's Thesis"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 9.0,
-            "credMin": 1.0,
-            "crn": 56813,
-            "crse": 6990,
-            "rem": 10,
-            "sec": "02",
-            "subj": "ERTH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [],
-                "instructor": "Miriam Ellen Katz",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -29474,30 +29407,6 @@
         "crse": 9990,
         "id": "ERTH-9990",
         "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 15.0,
-            "credMin": 1.0,
-            "crn": 56648,
-            "crse": 9990,
-            "rem": 10,
-            "sec": "01",
-            "subj": "ERTH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/29",
-                "days": [],
-                "instructor": "Miriam Ellen Katz",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Dissertation"
-          },
           {
             "act": 0,
             "attribute": "",
@@ -37144,6 +37053,47 @@
     "name": "Information Technlgy & Web Sci"
   },
   {
+    "code": "IENV",
+    "courses": [
+      {
+        "crse": 4700,
+        "id": "IENV-4700",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 12,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59754,
+            "crse": 4700,
+            "rem": 12,
+            "sec": "01",
+            "subj": "IENV",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Sarah Beth Cadieux",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "One Mile Of The Hudson River"
+          }
+        ],
+        "subj": "IENV",
+        "title": "One Mile Of The Hudson River"
+      }
+    ],
+    "name": "Interdiscip. Environmental"
+  },
+  {
     "code": "IHSS",
     "courses": [
       {
@@ -37443,6 +37393,38 @@
         ],
         "subj": "ISCI",
         "title": "Rdgs Astrobio & Orig Of Life"
+      },
+      {
+        "crse": 4610,
+        "id": "ISCI-4610",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 1.0,
+            "credMin": 1.0,
+            "crn": 59676,
+            "crse": 4610,
+            "rem": 10,
+            "sec": "01",
+            "subj": "ISCI",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Morgan Frederick Schaller, Jacob Thomas Shelley",
+                "location": "TBA",
+                "timeEnd": 801,
+                "timeStart": 800
+              }
+            ],
+            "title": "Capstone In Astrobiology"
+          }
+        ],
+        "subj": "ISCI",
+        "title": "Capstone In Astrobiology"
       },
       {
         "crse": 6980,
@@ -49976,6 +49958,122 @@
         "title": "Space Vehicle Design"
       },
       {
+        "crse": 4260,
+        "id": "MANE-4260",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 55388,
+            "crse": 4260,
+            "rem": 0,
+            "sec": "01",
+            "subj": "MANE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Valerie J. Masterson, Junichi Kanai, Karthikeyan Panneerselvam",
+                "location": "Jonsson Engineering Center 3332",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Mulitdisciplinary Capstone Design"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 55389,
+            "crse": 4260,
+            "rem": 0,
+            "sec": "02",
+            "subj": "MANE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Valerie J. Masterson, Junichi Kanai",
+                "location": "Jonsson Engineering Center 3332",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Mulitdisciplinary Capstone Design"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 55523,
+            "crse": 4260,
+            "rem": 0,
+            "sec": "03",
+            "subj": "MANE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Valerie J. Masterson, Junichi Kanai, Ukwatte Lokuliyanage Indika Upendra Perera",
+                "location": "Jonsson Engineering Center 3332",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Mulitdisciplinary Capstone Design"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 56399,
+            "crse": 4260,
+            "rem": 0,
+            "sec": "04",
+            "subj": "MANE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Valerie J. Masterson, Junichi Kanai",
+                "location": "Jonsson Engineering Center 3332",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Mulitdisciplinary Capstone Design"
+          }
+        ],
+        "subj": "MANE",
+        "title": "Mulitdisciplinary Capstone Design"
+      },
+      {
         "crse": 4280,
         "id": "MANE-4280",
         "sections": [
@@ -51097,6 +51195,38 @@
         ],
         "subj": "MANE",
         "title": "Heating, Ventilation, & Ac"
+      },
+      {
+        "crse": 4880,
+        "id": "MANE-4880",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 0.0,
+            "credMin": 0.0,
+            "crn": 58125,
+            "crse": 4880,
+            "rem": 0,
+            "sec": "01",
+            "subj": "MANE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Randy James McDougall, Suvranu De",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Mane Laboratory Safety Program"
+          }
+        ],
+        "subj": "MANE",
+        "title": "Mane Laboratory Safety Program"
       },
       {
         "crse": 4900,
@@ -55377,6 +55507,38 @@
         ],
         "subj": "PHIL",
         "title": "Intermediate Formal Logic & Ai"
+      },
+      {
+        "crse": 4990,
+        "id": "PHIL-4990",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 1.0,
+            "crn": 56268,
+            "crse": 4990,
+            "rem": 0,
+            "sec": "01",
+            "subj": "PHIL",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "John R Milanese",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Capstone Exper In Philosophy"
+          }
+        ],
+        "subj": "PHIL",
+        "title": "Capstone Exper In Philosophy"
       }
     ],
     "name": "Philosophy"
@@ -57358,6 +57520,41 @@
         "title": "Theoretical Mechanics"
       },
       {
+        "crse": 4420,
+        "id": "PHYS-4420",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59128,
+            "crse": 4420,
+            "rem": 0,
+            "sec": "01",
+            "subj": "PHYS",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Vincent Meunier",
+                "location": "Low Center for Industrial Inn. 3112",
+                "timeEnd": 950,
+                "timeStart": 800
+              }
+            ],
+            "title": "Thermodyn & Stat Mech"
+          }
+        ],
+        "subj": "PHYS",
+        "title": "Thermodyn & Stat Mech"
+      },
+      {
         "crse": 4961,
         "id": "PHYS-4961",
         "sections": [
@@ -58951,10 +59148,90 @@
               }
             ],
             "title": "Intro To Psychological Science"
+          },
+          {
+            "act": 0,
+            "attribute": "Online Course",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59686,
+            "crse": 1200,
+            "rem": 0,
+            "sec": "02",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Intro To Psychological Science"
           }
         ],
         "subj": "PSYC",
         "title": "Intro To Psychological Science"
+      },
+      {
+        "crse": 2310,
+        "id": "PSYC-2310",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 58603,
+            "crse": 2310,
+            "rem": 0,
+            "sec": "01",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "TBA",
+                "location": "Online",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Research Methods And Statistics I"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 58604,
+            "crse": 2310,
+            "rem": 0,
+            "sec": "02",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "TBA",
+                "location": "Online",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Research Methods And Statistics I"
+          }
+        ],
+        "subj": "PSYC",
+        "title": "Research Methods And Statistics I"
       },
       {
         "crse": 2730,
@@ -59567,6 +59844,86 @@
         ],
         "subj": "PSYC",
         "title": "Models Of Mental Processes"
+      },
+      {
+        "crse": 4990,
+        "id": "PSYC-4990",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 1.0,
+            "crn": 57086,
+            "crse": 4990,
+            "rem": 0,
+            "sec": "01",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Ralph G Noble",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Undergraduate Thesis"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 1.0,
+            "crn": 55470,
+            "crse": 4990,
+            "rem": 0,
+            "sec": "07",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Michael J Kalsher",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Undergraduate Thesis"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 1.0,
+            "crn": 56074,
+            "crse": 4990,
+            "rem": 0,
+            "sec": "21",
+            "subj": "PSYC",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Holly A Traver",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Undergraduate Thesis"
+          }
+        ],
+        "subj": "PSYC",
+        "title": "Undergraduate Thesis"
       }
     ],
     "name": "Psychology"
@@ -59925,6 +60282,38 @@
         ],
         "subj": "STSO",
         "title": "American History"
+      },
+      {
+        "crse": 2520,
+        "id": "STSO-2520",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 59673,
+            "crse": 2520,
+            "rem": 0,
+            "sec": "01",
+            "subj": "STSO",
+            "timeslots": [
+              {
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Sociology"
+          }
+        ],
+        "subj": "STSO",
+        "title": "Sociology"
       },
       {
         "crse": 4100,
@@ -60445,6 +60834,38 @@
         ],
         "subj": "STSO",
         "title": "Concepts In Stso"
+      },
+      {
+        "crse": 6970,
+        "id": "STSO-6970",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 0,
+            "credMax": 6.0,
+            "credMin": 3.0,
+            "crn": 59463,
+            "crse": 6970,
+            "rem": 0,
+            "sec": "01",
+            "subj": "STSO",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/29",
+                "days": [],
+                "instructor": "Nancy D. Campbell",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Masters Internship"
+          }
+        ],
+        "subj": "STSO",
+        "title": "Masters Internship"
       },
       {
         "crse": 6990,
