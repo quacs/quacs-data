@@ -13742,7 +13742,16 @@
       }
     }
   },
-  "58399": {},
+  "58399": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "58400": {
     "prerequisites": {
       "nested": [
@@ -17707,7 +17716,18 @@
       }
     }
   },
-  "59426": {},
+  "59426": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biomedical Engineering",
+          "Design, Innovation and Society",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
+    }
+  },
   "59427": {
     "prerequisites": {
       "nested": [
@@ -17794,8 +17814,68 @@
       "type": "or"
     }
   },
-  "59429": {},
-  "59430": {},
+  "59429": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1110",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1320",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59430": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1100",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1320",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "59435": {},
   "59436": {},
   "59437": {},
@@ -17915,7 +17995,16 @@
     }
   },
   "59473": {},
-  "59477": {},
+  "59477": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59478": {},
   "59479": {
     "prerequisites": {
@@ -18672,9 +18761,9 @@
   },
   "59663": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
+      "major": {
+        "may_not_be": [
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -18746,7 +18835,16 @@
     }
   },
   "59669": {},
-  "59670": {},
+  "59670": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59671": {
     "restrictions": {
       "level": {
@@ -19467,5 +19565,51 @@
     "cross_list_courses": [
       "CHME-4480"
     ]
+  },
+  "59757": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59758": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
+    }
   }
 }
