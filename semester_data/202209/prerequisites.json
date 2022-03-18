@@ -5173,12 +5173,6 @@
       }
     }
   },
-  "56148": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
   "56149": {
     "restrictions": {
       "major": {
@@ -9604,21 +9598,6 @@
       }
     }
   },
-  "57362": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "57363": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "57364": {
     "prerequisites": {
       "nested": [
@@ -11035,6 +11014,7 @@
   },
   "57684": {},
   "57685": {},
+  "57687": {},
   "57688": {
     "restrictions": {
       "classification": {
@@ -17114,7 +17094,6 @@
       }
     }
   },
-  "59234": {},
   "59236": {},
   "59239": {
     "corequisites": [
@@ -17994,7 +17973,15 @@
       }
     }
   },
-  "59473": {},
+  "59473": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59477": {
     "restrictions": {
       "classification": {
@@ -19650,5 +19637,6 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "59760": {}
 }
