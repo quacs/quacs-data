@@ -18113,8 +18113,17 @@
   },
   "59505": {
     "prerequisites": {
-      "course": "MGMT 2100",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MGMT 2100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1110",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "59507": {
