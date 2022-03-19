@@ -18409,7 +18409,37 @@
     }
   },
   "59488": {},
-  "59492": {},
+  "59491": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4500",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59492": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "59493": {},
   "59494": {},
   "59495": {
@@ -20152,6 +20182,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "59766": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
