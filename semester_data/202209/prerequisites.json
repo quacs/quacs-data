@@ -6598,6 +6598,9 @@
     }
   },
   "56545": {
+    "cross_list_courses": [
+      "BIOL-6260"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6622,6 +6625,9 @@
     }
   },
   "56546": {
+    "cross_list_courses": [
+      "BIOL-4260"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9690,6 +9696,9 @@
     }
   },
   "57364": {
+    "cross_list_courses": [
+      "BIOL-6350"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10523,6 +10532,9 @@
     }
   },
   "57451": {
+    "cross_list_courses": [
+      "BCBP-6800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10542,6 +10554,9 @@
     }
   },
   "57452": {
+    "cross_list_courses": [
+      "BCBP-4800"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12307,6 +12322,9 @@
     ]
   },
   "58061": {
+    "cross_list_courses": [
+      "BIOL-4350"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15468,12 +15486,18 @@
     }
   },
   "58713": {
+    "cross_list_courses": [
+      "BIOL-6220"
+    ],
     "prerequisites": {
       "course": "BIOL 4200",
       "type": "course"
     }
   },
   "58714": {
+    "cross_list_courses": [
+      "BIOL-4220"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18690,6 +18714,17 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology"
+        ]
+      }
     }
   },
   "59552": {
@@ -18712,6 +18747,17 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology"
+        ]
+      }
     }
   },
   "59553": {
@@ -18734,6 +18780,17 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology"
+        ]
+      }
     }
   },
   "59557": {
@@ -19193,8 +19250,15 @@
       }
     }
   },
-  "59667": {},
+  "59667": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ]
+  },
   "59668": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19204,8 +19268,15 @@
       }
     }
   },
-  "59669": {},
+  "59669": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ]
+  },
   "59670": {
+    "cross_list_courses": [
+      "LITR-2110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -20061,5 +20132,28 @@
   },
   "59761": {},
   "59762": {},
-  "59763": {}
+  "59763": {},
+  "59764": {
+    "prerequisites": {
+      "course": "CHEM 1100",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology"
+        ]
+      }
+    }
+  },
+  "59765": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
