@@ -17531,6 +17531,9 @@
   },
   "59268": {},
   "59269": {
+    "cross_list_courses": [
+      "MATH-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -19129,7 +19132,7 @@
   "59663": {
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -19204,10 +19207,10 @@
   "59669": {},
   "59670": {
     "restrictions": {
-      "classification": {
+      "major": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Communication, Media, & Design",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -19583,7 +19586,11 @@
       "type": "course"
     }
   },
-  "59729": {},
+  "59729": {
+    "cross_list_courses": [
+      "PHIL-4140"
+    ]
+  },
   "59730": {
     "cross_list_courses": [
       "ITWS-4600"
@@ -19865,12 +19872,19 @@
     }
   },
   "59745": {
+    "cross_list_courses": [
+      "COGS-6560"
+    ],
     "prerequisites": {
       "course": "COGS 2340",
       "type": "course"
     }
   },
-  "59746": {},
+  "59746": {
+    "cross_list_courses": [
+      "COGS-4560"
+    ]
+  },
   "59747": {},
   "59748": {},
   "59749": {
@@ -20045,5 +20059,7 @@
       }
     }
   },
-  "59761": {}
+  "59761": {},
+  "59762": {},
+  "59763": {}
 }
