@@ -14568,7 +14568,11 @@
     }
   },
   "58601": {},
-  "58602": {},
+  "58602": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "58603": {
     "prerequisites": {
       "nested": [
@@ -18063,11 +18067,39 @@
       "type": "or"
     }
   },
-  "59391": {},
-  "59392": {},
-  "59393": {},
+  "59391": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59392": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59393": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59397": {},
-  "59400": {},
+  "59400": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ]
+  },
   "59423": {
     "prerequisites": {
       "course": "GSAS 4510",
@@ -18086,6 +18118,7 @@
       "major": {
         "must_be": [
           "Biomedical Engineering",
+          "Business Analytics",
           "Design, Innovation and Society",
           "Science, Tech & Society",
           "Sustainability Studies"
@@ -20199,6 +20232,24 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "59767": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "59768": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
