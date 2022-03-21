@@ -4803,8 +4803,35 @@
   },
   "55943": {
     "prerequisites": {
-      "course": "CSCI 2200",
-      "type": "course"
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CSCI 2300",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2600",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4100",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 4150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -9362,15 +9389,6 @@
         "must_be": [
           "Freshman"
         ]
-      },
-      "major": {
-        "must_be": [
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Computational Biology"
-        ]
       }
     }
   },
@@ -11839,8 +11857,26 @@
       "CSCI-6971"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CSCI 2200",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2300",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -17212,7 +17248,11 @@
   },
   "59213": {
     "cross_list_courses": [
-      "CSCI-4972"
+      "ARCH-4780",
+      "CSCI-4972",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140"
     ],
     "prerequisites": {
       "course": "PHIL 2140",
@@ -17566,7 +17606,11 @@
   "59268": {},
   "59269": {
     "cross_list_courses": [
-      "MATH-4140"
+      "ARCH-4780",
+      "CSCI-4972",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4961"
     ],
     "prerequisites": {
       "course": "PHIL 2140",
@@ -17601,6 +17645,10 @@
   },
   "59276": {
     "cross_list_courses": [
+      "ARCH-4780",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140",
       "PHIL-4961"
     ],
     "prerequisites": {
@@ -17625,6 +17673,13 @@
     }
   },
   "59279": {
+    "cross_list_courses": [
+      "CSCI-4972",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140",
+      "PHIL-4961"
+    ],
     "prerequisites": {
       "course": "ARCH 4770",
       "type": "course"
@@ -18577,11 +18632,6 @@
   },
   "59507": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      },
       "major": {
         "must_be": [
           "Communication, Media, & Design",
@@ -19728,7 +19778,11 @@
   },
   "59729": {
     "cross_list_courses": [
-      "PHIL-4140"
+      "ARCH-4780",
+      "CSCI-4972",
+      "MATH-4961",
+      "PHIL-4140",
+      "PHIL-4961"
     ]
   },
   "59730": {
