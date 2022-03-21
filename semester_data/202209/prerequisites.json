@@ -3738,6 +3738,12 @@
   "55421": {},
   "55422": {},
   "55423": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4011,8 +4017,19 @@
       }
     }
   },
-  "55459": {},
+  "55459": {
+    "cross_list_courses": [
+      "ENGR-6100",
+      "ITWS-4300",
+      "ITWS-6300"
+    ]
+  },
   "55460": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ITWS-4300",
+      "ITWS-6300"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4455,8 +4472,19 @@
       }
     }
   },
-  "55516": {},
+  "55516": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ENGR-6100",
+      "ITWS-6300"
+    ]
+  },
   "55517": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ENGR-6100",
+      "ITWS-4300"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -5936,6 +5964,12 @@
     }
   },
   "56396": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12680,6 +12714,12 @@
   },
   "58089": {},
   "58091": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12695,6 +12735,12 @@
     }
   },
   "58092": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12710,6 +12756,12 @@
     }
   },
   "58094": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12725,6 +12777,12 @@
     }
   },
   "58095": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12740,6 +12798,12 @@
     }
   },
   "58097": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12755,6 +12819,12 @@
     }
   },
   "58098": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18103,19 +18173,24 @@
     "prerequisites": {
       "nested": [
         {
+          "nested": [
+            {
+              "course": "ARCH 2520",
+              "type": "course"
+            },
+            {
+              "course": "COMM 2660",
+              "type": "course"
+            },
+            {
+              "course": "COMM 2570",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
           "course": "ARTS 1020",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2520",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2260",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2570",
           "type": "course"
         }
       ],
