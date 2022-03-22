@@ -4345,12 +4345,15 @@
   "BIOL 4620": {
     "title": "Molecular Biology",
     "prereqs": [
-      "BIOL 2120"
+      "BIOL 2120",
+      "BIOL 2500"
     ]
   },
   "BIOL 4710": {
     "title": "Biochemistry Lab",
-    "prereqs": []
+    "prereqs": [
+      "BIOL 2120"
+    ]
   },
   "BIOL 4740": {
     "title": "Advanced Cell Biology Laboratory",
@@ -11797,9 +11800,12 @@
     "prereqs": []
   },
   "BIOL 4880": {
-    "title": "The Global Environment",
+    "title": "Global Environmental Change",
     "prereqs": [
-      "BIOL 4850"
+      "BIOL 1010",
+      "BIOL 1015",
+      "BIOL 2120",
+      "BIOL 2125"
     ]
   },
   "BIOL 6350": {
@@ -11807,7 +11813,7 @@
     "prereqs": []
   },
   "BIOL 6880": {
-    "title": "The Global Environment",
+    "title": "Global Environmental Change",
     "prereqs": [
       "BIOL 4850"
     ]
@@ -13984,6 +13990,13 @@
       "ARTS 1030",
       "IHSS 1960",
       "IHSS 1987"
+    ]
+  },
+  "BIOL 4520": {
+    "title": "Human Population",
+    "prereqs": [
+      "BIOL 1010",
+      "MATH 1010"
     ]
   },
   "BMED 6510": {
