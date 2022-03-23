@@ -17659,12 +17659,6 @@
       "type": "course"
     }
   },
-  "59258": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "type": "course"
-    }
-  },
   "59259": {
     "prerequisites": {
       "course": "ARCH 2510",
@@ -19829,8 +19823,16 @@
     }
   },
   "59722": {},
-  "59723": {},
-  "59724": {},
+  "59723": {
+    "cross_list_courses": [
+      "CHME-6968"
+    ]
+  },
+  "59724": {
+    "cross_list_courses": [
+      "CHME-4968"
+    ]
+  },
   "59725": {
     "prerequisites": {
       "course": "MATH 2010",
