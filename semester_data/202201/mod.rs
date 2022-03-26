@@ -1201,6 +1201,7 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 	65070u32 => [3940649673952256],
 	65047u32 => [3940649673952256],
 	65089u32 => [3940649673952256],
+	65048u32 => [3940649673952256],
 
 };
 pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
@@ -2403,4 +2404,5 @@ pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
 	65070u32 => "WRIT-4410",
 	65047u32 => "WRIT-4960",
 	65089u32 => "WRIT-6410",
+	65048u32 => "WRIT-6960",
 };
