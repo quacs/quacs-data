@@ -19305,12 +19305,6 @@
       }
     }
   },
-  "59664": {
-    "prerequisites": {
-      "course": "GSAS 4240",
-      "type": "course"
-    }
-  },
   "59665": {
     "prerequisites": {
       "nested": [
@@ -20413,6 +20407,21 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "59787": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2520",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2330",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
