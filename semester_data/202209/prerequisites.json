@@ -11875,8 +11875,13 @@
   "57909": {
     "restrictions": {
       "campus": {
+        "may_not_be": [
+          "Troy"
+        ]
+      },
+      "level": {
         "must_be": [
-          "Hartford"
+          "Graduate"
         ]
       }
     }
@@ -16147,15 +16152,6 @@
       }
     }
   },
-  "59060": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59061": {
     "restrictions": {
       "level": {
@@ -18366,7 +18362,41 @@
   },
   "59451": {},
   "59453": {},
-  "59454": {},
+  "59454": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2010",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "59460": {},
   "59463": {
     "restrictions": {
@@ -19883,8 +19913,21 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "IHSS 1200",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1975",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "nested": [
@@ -20359,7 +20402,7 @@
   "59782": {},
   "59783": {
     "prerequisites": {
-      "course": "IHSS 2610",
+      "course": "STSO 2610",
       "type": "course"
     }
   },
