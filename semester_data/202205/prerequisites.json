@@ -3115,7 +3115,21 @@
       }
     }
   },
-  "17622": {},
+  "17622": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "17623": {
     "prerequisites": {
       "nested": [
