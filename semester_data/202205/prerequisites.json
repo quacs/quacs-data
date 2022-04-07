@@ -3793,5 +3793,20 @@
       "MANE-4960"
     ]
   },
-  "17808": {}
+  "17808": {},
+  "17809": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
