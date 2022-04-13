@@ -19877,7 +19877,9 @@
     }
   },
   "59737": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "ECON-6010"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20489,6 +20491,22 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      }
+    }
+  },
+  "59817": {
+    "cross_list_courses": [
+      "ECON-4010"
+    ],
+    "prerequisites": {
+      "course": "MATH 2010",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
