@@ -20163,15 +20163,6 @@
       "type": "or"
     }
   },
-  "59760": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "59761": {},
   "59762": {},
   "59763": {},
@@ -20525,6 +20516,25 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "59820": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Troy"
+        ]
+      },
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Undergraduate"
         ]
       }
     }
