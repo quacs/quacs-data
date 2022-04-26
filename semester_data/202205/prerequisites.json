@@ -1173,50 +1173,6 @@
       "type": "and"
     }
   },
-  "17238": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "may_not_be": [
-          "Chemical Engineering"
-        ]
-      }
-    }
-  },
   "17240": {
     "prerequisites": {
       "course": "CHEM 2250",
