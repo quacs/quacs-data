@@ -271,89 +271,6 @@
       }
     }
   },
-  "60041": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Electric Power Engr"
-        ]
-      }
-    }
-  },
-  "60042": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "60043": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "60044": {
     "prerequisites": {
       "course": "BIOL 2120",
@@ -879,33 +796,6 @@
       "type": "or"
     }
   },
-  "60079": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "60080": {
     "restrictions": {
       "major": {
@@ -971,33 +861,6 @@
       }
     }
   },
-  "60083": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "60084": {
     "corequisites": [
       "ERTH-1250"
@@ -1016,12 +879,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "60086": {
-    "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
     }
   },
   "60087": {
@@ -1282,131 +1139,6 @@
     ]
   },
   "60108": {},
-  "60109": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "60110": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "60111": {
-    "prerequisites": {
-      "course": "ECSE 2610",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Information Tech & Web Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "60112": {
     "restrictions": {
       "major": {
@@ -1993,7 +1725,6 @@
       "type": "and"
     }
   },
-  "60147": {},
   "60149": {
     "restrictions": {
       "level": {
@@ -2113,43 +1844,8 @@
     }
   },
   "60167": {},
-  "60171": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60173": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60174": {},
-  "60175": {},
-  "60180": {},
-  "60181": {},
-  "60182": {},
-  "60183": {},
-  "60184": {},
   "60185": {},
   "60186": {},
-  "60187": {},
-  "60188": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60189": {},
   "60190": {},
   "60191": {},
@@ -2184,14 +1880,10 @@
       }
     }
   },
-  "60223": {},
-  "60227": {},
   "60228": {},
   "60229": {},
   "60230": {},
   "60231": {},
-  "60232": {},
-  "60233": {},
   "60234": {
     "restrictions": {
       "level": {
@@ -2201,7 +1893,6 @@
       }
     }
   },
-  "60236": {},
   "60240": {
     "restrictions": {
       "level": {
@@ -2545,15 +2236,6 @@
       }
     }
   },
-  "60273": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60275": {
     "restrictions": {
       "level": {
@@ -2564,15 +2246,6 @@
     }
   },
   "60276": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60277": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -2998,31 +2671,6 @@
       "type": "course"
     }
   },
-  "60327": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
-  "60328": {
-    "cross_list_courses": [
-      "MTLE-6300"
-    ],
-    "prerequisites": {
-      "course": "ECSE 4250",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60329": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -3087,7 +2735,6 @@
       }
     }
   },
-  "60352": {},
   "60353": {
     "cross_list_courses": [
       "ARCH-5310"
@@ -3132,16 +2779,6 @@
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
-    }
-  },
-  "60363": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering"
-        ]
-      }
     }
   },
   "60364": {
@@ -3331,9 +2968,7 @@
       }
     }
   },
-  "60416": {},
   "60417": {},
-  "60418": {},
   "60420": {},
   "60424": {
     "prerequisites": {
@@ -3453,8 +3088,6 @@
       }
     }
   },
-  "60448": {},
-  "60449": {},
   "60450": {},
   "60452": {
     "restrictions": {
@@ -3468,17 +3101,6 @@
   "60453": {},
   "60454": {},
   "60455": {},
-  "60458": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60459": {},
-  "60460": {},
   "60461": {},
   "60464": {},
   "60466": {},
@@ -3550,16 +3172,6 @@
       }
     }
   },
-  "60478": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
-  "60479": {},
   "60481": {},
   "60482": {},
   "60483": {
@@ -3604,15 +3216,6 @@
     }
   },
   "60495": {},
-  "60497": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60498": {
     "restrictions": {
       "major": {
@@ -3743,7 +3346,6 @@
       }
     }
   },
-  "60528": {},
   "60529": {
     "restrictions": {
       "level": {
@@ -3753,16 +3355,6 @@
       }
     }
   },
-  "60534": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "60538": {},
   "60539": {},
   "60541": {},
   "60542": {
@@ -3774,7 +3366,6 @@
       }
     }
   },
-  "60543": {},
   "60544": {
     "restrictions": {
       "level": {
@@ -3880,15 +3471,6 @@
       }
     }
   },
-  "60572": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "60573": {
     "restrictions": {
       "level": {
@@ -3978,8 +3560,6 @@
       }
     }
   },
-  "60616": {},
-  "60622": {},
   "60629": {
     "restrictions": {
       "level": {
@@ -3990,7 +3570,6 @@
     }
   },
   "60692": {},
-  "60730": {},
   "60732": {},
   "60733": {},
   "60734": {
@@ -4129,7 +3708,6 @@
       }
     }
   },
-  "61123": {},
   "61124": {},
   "61125": {
     "restrictions": {
@@ -4174,7 +3752,6 @@
   "61147": {},
   "61148": {},
   "61149": {},
-  "61151": {},
   "61159": {},
   "61165": {
     "restrictions": {
@@ -4483,21 +4060,6 @@
     }
   },
   "61339": {},
-  "61340": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2050",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2610",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "61341": {
     "restrictions": {
       "level": {
@@ -4710,24 +4272,6 @@
       }
     }
   },
-  "61365": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61366": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61367": {},
   "61393": {
     "restrictions": {
@@ -4743,17 +4287,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "61399": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -4784,39 +4317,10 @@
     }
   },
   "61404": {},
-  "61406": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61408": {
     "cross_list_courses": [
       "MGMT-6570"
     ]
-  },
-  "61409": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61410": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
   },
   "61415": {
     "restrictions": {
@@ -4828,15 +4332,6 @@
     }
   },
   "61417": {},
-  "61425": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61455": {
     "restrictions": {
       "classification": {
@@ -5120,15 +4615,6 @@
       }
     }
   },
-  "61535": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "61536": {
     "restrictions": {
       "classification": {
@@ -5206,17 +4692,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "61550": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -5419,28 +4894,6 @@
       }
     }
   },
-  "61581": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "61588": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "61590": {
     "restrictions": {
       "level": {
@@ -5471,28 +4924,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "61605": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "61607": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -5551,17 +4982,6 @@
     }
   },
   "61615": {},
-  "61617": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "61626": {
     "prerequisites": {
       "nested": [
@@ -5587,15 +5007,6 @@
     }
   },
   "61652": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61716": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5655,17 +5066,6 @@
       }
     }
   },
-  "61807": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "61808": {
     "restrictions": {
       "classification": {
@@ -5704,15 +5104,6 @@
       }
     }
   },
-  "61902": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61907": {
     "restrictions": {
       "level": {
@@ -5723,15 +5114,6 @@
     }
   },
   "61908": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61909": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5929,98 +5311,6 @@
       }
     }
   },
-  "61952": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanics",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "61953": {
-    "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
-    }
-  },
-  "61955": {
-    "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biomedical Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Electric Power Engr",
-          "Information Technology"
-        ]
-      }
-    }
-  },
-  "61957": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 4120",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4080",
-          "type": "course"
-        },
-        {
-          "course": "EPOW 4080",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "61960": {
     "cross_list_courses": [
       "CSCI-4440"
@@ -6074,40 +5364,11 @@
       }
     }
   },
-  "61971": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61972": {
     "restrictions": {
       "classification": {
         "may_not_be": [
           "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "61974": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61975": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
           "Sophomore"
         ]
       }
@@ -6148,17 +5409,6 @@
     "prerequisites": {
       "course": "MATH 1020",
       "type": "course"
-    }
-  },
-  "61981": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
     }
   },
   "61982": {
@@ -6236,15 +5486,6 @@
     }
   },
   "61994": {},
-  "62001": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62003": {
     "restrictions": {
       "level": {
@@ -6922,25 +6163,7 @@
     }
   },
   "62157": {},
-  "62158": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62159": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62163": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6970,15 +6193,6 @@
       }
     }
   },
-  "62168": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62173": {
     "restrictions": {
       "level": {
@@ -6989,17 +6203,6 @@
     }
   },
   "62174": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "62188": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -7058,15 +6261,6 @@
           "Sophomore"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62203": {
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -7719,17 +6913,6 @@
     }
   },
   "62428": {},
-  "62433": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "62434": {
     "restrictions": {
       "level": {
@@ -8418,17 +7601,6 @@
       }
     }
   },
-  "62509": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "62514": {
     "restrictions": {
       "level": {
@@ -8569,17 +7741,6 @@
     }
   },
   "62559": {},
-  "62574": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "62575": {
     "restrictions": {
       "level": {
@@ -9186,12 +8347,6 @@
       }
     }
   },
-  "62627": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
-    }
-  },
   "62628": {
     "cross_list_courses": [
       "STSO-4610"
@@ -9409,46 +8564,6 @@
       "type": "course"
     }
   },
-  "62662": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62663": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "62664": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62665": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "62666": {},
   "62667": {
     "restrictions": {
@@ -9651,15 +8766,6 @@
   },
   "62738": {},
   "62746": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62749": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -10229,56 +9335,8 @@
       "type": "and"
     }
   },
-  "62824": {},
-  "62825": {
-    "cross_list_courses": [
-      "ECSE-6050"
-    ],
-    "prerequisites": {
-      "course": "ECSE 2050",
-      "type": "course"
-    }
-  },
-  "62826": {
-    "cross_list_courses": [
-      "ECSE-4050"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62827": {},
   "62832": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "62834": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62835": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -10484,21 +9542,6 @@
       }
     }
   },
-  "62898": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62917": {
     "restrictions": {
       "level": {
@@ -10593,21 +9636,6 @@
   },
   "63131": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63132": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -11141,12 +10169,6 @@
       }
     }
   },
-  "63190": {
-    "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
-    }
-  },
   "63193": {},
   "63195": {
     "cross_list_courses": [
@@ -11196,7 +10218,6 @@
     }
   },
   "63199": {},
-  "63200": {},
   "63201": {
     "cross_list_courses": [
       "BMED-6660"
@@ -11369,17 +10390,6 @@
   },
   "63239": {},
   "63240": {},
-  "63242": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63243": {
     "restrictions": {
       "classification": {
@@ -11440,17 +10450,6 @@
     }
   },
   "63261": {},
-  "63262": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63264": {
     "restrictions": {
       "classification": {
@@ -11518,16 +10517,6 @@
     }
   },
   "63338": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "63339": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -12174,90 +11163,6 @@
       "type": "and"
     }
   },
-  "63421": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "63422": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2010",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1250",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "63423": {
-    "cross_list_courses": [
-      "ECSE-6964"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4840",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "63424": {
-    "cross_list_courses": [
-      "ECSE-4964"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Junior"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63426": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63427": {},
   "63428": {},
   "63429": {},
@@ -12370,17 +11275,6 @@
     }
   },
   "63459": {},
-  "63460": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63461": {},
   "63462": {},
   "63464": {
@@ -12416,17 +11310,6 @@
     }
   },
   "63470": {},
-  "63471": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63472": {
     "restrictions": {
       "classification": {
@@ -12531,16 +11414,6 @@
   },
   "63535": {},
   "63539": {},
-  "63541": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63547": {},
   "63569": {},
   "63589": {
@@ -12723,27 +11596,6 @@
       "type": "or"
     }
   },
-  "63653": {
-    "cross_list_courses": [
-      "CSCI-4968",
-      "CSCI-6968",
-      "ECSE-6962"
-    ]
-  },
-  "63654": {
-    "cross_list_courses": [
-      "CSCI-4968",
-      "CSCI-6968",
-      "ECSE-4962"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63657": {
     "restrictions": {
       "classification": {
@@ -12844,12 +11696,6 @@
   "63684": {
     "prerequisites": {
       "course": "CSCI 1200",
-      "type": "course"
-    }
-  },
-  "63686": {
-    "prerequisites": {
-      "course": "ECSE 2660",
       "type": "course"
     }
   },
@@ -14181,27 +13027,6 @@
   },
   "63865": {},
   "63866": {},
-  "63868": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "63869": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63870": {
     "restrictions": {
       "classification": {
@@ -14287,15 +13112,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "63947": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "63950": {
@@ -14629,8 +13445,6 @@
       }
     }
   },
-  "63988": {},
-  "63989": {},
   "63990": {
     "cross_list_courses": [
       "MTLE-4963"
@@ -15264,40 +14078,6 @@
       "type": "course"
     }
   },
-  "64106": {
-    "cross_list_courses": [
-      "ECSE-6850"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2500",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64107": {
-    "cross_list_courses": [
-      "ECSE-4850"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64108": {},
   "64113": {},
   "64114": {
@@ -15336,17 +14116,6 @@
     }
   },
   "64123": {},
-  "64125": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64126": {},
   "64127": {},
   "64130": {
@@ -15371,27 +14140,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "64133": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "64134": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -15837,26 +14585,6 @@
       "type": "or"
     }
   },
-  "64297": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "64298": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64299": {},
   "64300": {
     "prerequisites": {
@@ -16127,18 +14855,6 @@
       "type": "course"
     }
   },
-  "64333": {
-    "cross_list_courses": [
-      "ECSE-4961"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64338": {
     "restrictions": {
       "level": {
@@ -16274,11 +14990,6 @@
         ]
       }
     }
-  },
-  "64376": {
-    "cross_list_courses": [
-      "ECSE-6961"
-    ]
   },
   "64378": {
     "restrictions": {
@@ -16909,16 +15620,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "64568": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -17773,84 +16474,6 @@
       }
     }
   },
-  "64789": {
-    "cross_list_courses": [
-      "ECSE-6490"
-    ],
-    "prerequisites": {
-      "course": "ECSE 2410",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering"
-        ]
-      }
-    }
-  },
-  "64790": {
-    "cross_list_courses": [
-      "ECSE-4490"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "64791": {
-    "cross_list_courses": [
-      "ECSE-6170"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64792": {
-    "cross_list_courses": [
-      "MANE-4530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "64793": {
     "prerequisites": {
       "nested": [
@@ -18182,59 +16805,10 @@
       "type": "course"
     }
   },
-  "64819": {
-    "cross_list_courses": [
-      "ECSE-6660"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2660",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "64820": {
-    "cross_list_courses": [
-      "ECSE-4660"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64821": {
     "prerequisites": {
       "course": "ISYE 4290",
       "type": "course"
-    }
-  },
-  "64822": {
-    "cross_list_courses": [
-      "ECSE-4170"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "64823": {
@@ -18663,22 +17237,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "64880": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -20181,27 +18739,6 @@
   },
   "64997": {},
   "64998": {},
-  "64999": {
-    "cross_list_courses": [
-      "ECSE-6310"
-    ],
-    "prerequisites": {
-      "course": "ECSE 2050",
-      "type": "course"
-    }
-  },
-  "65000": {
-    "cross_list_courses": [
-      "ECSE-4310"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "65003": {
     "cross_list_courses": [
       "MGMT-6690"
