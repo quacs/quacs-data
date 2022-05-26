@@ -17999,18 +17999,6 @@
       }
     }
   },
-  "59387": {
-    "cross_list_courses": [
-      "MANE-4290"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "59388": {
     "prerequisites": {
       "nested": [
@@ -19598,24 +19586,6 @@
       "type": "and"
     }
   },
-  "59718": {
-    "cross_list_courses": [
-      "MANE-6290"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2110",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4480",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "59720": {
     "prerequisites": {
       "nested": [
@@ -20523,6 +20493,30 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "59824": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "59825": {
+    "prerequisites": {
+      "course": "MANE 4480",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
