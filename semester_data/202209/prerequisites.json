@@ -19146,7 +19146,15 @@
       "type": "and"
     }
   },
-  "59657": {},
+  "59657": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "59659": {
     "prerequisites": {
       "course": "ARTS 2230",
@@ -20666,6 +20674,13 @@
   "59839": {
     "cross_list_courses": [
       "ISCI-4510"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
