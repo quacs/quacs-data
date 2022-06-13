@@ -19974,6 +19974,9 @@
     }
   },
   "59753": {
+    "cross_list_courses": [
+      "ERTH-6545"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20637,6 +20640,24 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "59838": {
+    "cross_list_courses": [
+      "ERTH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
