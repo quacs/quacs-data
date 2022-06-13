@@ -19974,6 +19974,9 @@
     }
   },
   "59753": {
+    "cross_list_courses": [
+      "ERTH-6540"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20597,5 +20600,39 @@
       }
     }
   },
-  "59835": {}
+  "59835": {
+    "cross_list_courses": [
+      "ERTH-4540"
+    ]
+  },
+  "59836": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "59837": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
