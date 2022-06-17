@@ -683,25 +683,8 @@
   },
   "55022": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1190",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -725,25 +708,8 @@
   },
   "55023": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1190",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -767,25 +733,8 @@
   },
   "55024": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1190",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -2013,11 +1962,11 @@
           "type": "course"
         },
         {
-          "course": "ECSE 2500",
+          "course": "CSCI 2500",
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "55136": {
@@ -11628,6 +11577,19 @@
       "MANE-4560",
       "MANE-6120"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12915,6 +12877,9 @@
   "58100": {},
   "58102": {},
   "58103": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
       "course": "ARCH 4820",
       "type": "course"
@@ -13376,9 +13341,21 @@
     }
   },
   "58164": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ARCH 4820",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "58171": {
@@ -17907,6 +17884,10 @@
     }
   },
   "59358": {
+    "prerequisites": {
+      "course": "CIVL 6250",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -18050,6 +18031,10 @@
         },
         {
           "course": "ARTS 1020",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1040",
           "type": "course"
         }
       ],
@@ -19182,6 +19167,19 @@
     }
   },
   "59657": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4070",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4080",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -19924,17 +19922,8 @@
       "ECON-6010"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+      "course": "ECON 2010",
+      "type": "course"
     }
   },
   "59740": {
@@ -20555,10 +20544,6 @@
     "cross_list_courses": [
       "ECON-4010"
     ],
-    "prerequisites": {
-      "course": "MATH 2010",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
