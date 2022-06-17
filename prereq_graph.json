@@ -3217,10 +3217,7 @@
     "title": "Propulsion Systems",
     "prereqs": [
       "MANE 2710",
-      "MANE 2720",
-      "MANE 4010",
-      "MANE 4070",
-      "MANE 4400"
+      "MANE 2720"
     ]
   },
   "MANE 4090": {
@@ -3379,9 +3376,7 @@
   },
   "MANE 6280": {
     "title": "Nucl Reactor Analysis II",
-    "prereqs": [
-      "MANE 4480"
-    ]
+    "prereqs": []
   },
   "MANE 6310": {
     "title": "Reactor Design",
@@ -5804,8 +5799,6 @@
   "MANE 4400": {
     "title": "Nuclear Power Syst Engr",
     "prereqs": [
-      "ENGR 2250",
-      "MANE 2710",
       "MANE 2720"
     ]
   },
@@ -5818,6 +5811,8 @@
   "MANE 4470": {
     "title": "Radiological Engineering",
     "prereqs": [
+      "CSCI 1100",
+      "MANE 2110",
       "MANE 2830"
     ]
   },
@@ -12591,10 +12586,8 @@
   "MANE 4520": {
     "title": "Mechatronics",
     "prereqs": [
-      "ENGR 2350",
-      "MANE 4050",
-      "MANE 4500",
-      "MANE 4510"
+      "ECSE 2410",
+      "MANE 4500"
     ]
   },
   "MANE 4540": {
@@ -13014,7 +13007,12 @@
   },
   "MANE 4560": {
     "title": "Robotics I",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2400"
+    ]
   },
   "MANE 4640": {
     "title": "Analy. Of Manuf. Process",

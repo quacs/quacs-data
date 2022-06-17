@@ -12779,32 +12779,15 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MANE 4070",
+          "course": "MANE 2710",
           "type": "course"
         },
         {
-          "course": "MANE 4010",
+          "course": "MANE 2720",
           "type": "course"
-        },
-        {
-          "course": "MANE 4400",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MANE 2710",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2720",
-              "type": "course"
-            }
-          ],
-          "type": "and"
         }
       ],
-      "type": "or"
+      "type": "and"
     }
   },
   "58089": {},
@@ -15087,32 +15070,32 @@
   },
   "58637": {
     "prerequisites": {
+      "course": "MANE 2720",
+      "type": "course"
+    }
+  },
+  "58638": {
+    "prerequisites": {
       "nested": [
         {
-          "course": "ENGR 2250",
+          "course": "MANE 2830",
           "type": "course"
         },
         {
           "nested": [
             {
-              "course": "MANE 2710",
+              "course": "MANE 2110",
               "type": "course"
             },
             {
-              "course": "MANE 2720",
+              "course": "CSCI 1100",
               "type": "course"
             }
           ],
-          "type": "and"
+          "type": "or"
         }
       ],
-      "type": "or"
-    }
-  },
-  "58638": {
-    "prerequisites": {
-      "course": "MANE 2830",
-      "type": "course"
+      "type": "and"
     }
   },
   "58639": {
@@ -15430,30 +15413,12 @@
     "prerequisites": {
       "nested": [
         {
-          "nested": [
-            {
-              "course": "ENGR 2350",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4050",
-              "type": "course"
-            }
-          ],
-          "type": "and"
+          "course": "MANE 4500",
+          "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "MANE 4500",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4510",
-              "type": "course"
-            }
-          ],
-          "type": "and"
+          "course": "ECSE 2410",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -16035,7 +16000,38 @@
       "ECSE-4480",
       "ECSE-6470",
       "MANE-6120"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
   },
   "59045": {
     "prerequisites": {
@@ -20630,10 +20626,6 @@
     }
   },
   "59825": {
-    "prerequisites": {
-      "course": "MANE 4480",
-      "type": "course"
-    },
     "restrictions": {
       "classification": {
         "may_not_be": [
