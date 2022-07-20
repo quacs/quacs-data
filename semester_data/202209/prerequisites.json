@@ -1080,34 +1080,29 @@
   },
   "55043": {},
   "55044": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55045": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55046": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55047": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55048": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55049": {
     "prerequisites": {
@@ -1551,6 +1546,8 @@
       "type": "course"
     }
   },
+  "55088": {},
+  "55089": {},
   "55090": {},
   "55091": {},
   "55092": {},
@@ -2476,18 +2473,16 @@
   "55204": {},
   "55205": {},
   "55206": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55207": {},
   "55208": {},
   "55209": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55211": {},
   "55212": {
@@ -4965,12 +4960,14 @@
     }
   },
   "55947": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "55948": {
+    "corequisites": [
+      "PHYS-1960"
+    ],
     "prerequisites": {
       "course": "PHYS 1960",
       "type": "course"
@@ -6321,16 +6318,14 @@
     }
   },
   "56410": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "56411": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "56412": {
     "cross_list_courses": [
@@ -6517,10 +6512,9 @@
     }
   },
   "56458": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "56459": {
     "cross_list_courses": [
@@ -9703,6 +9697,8 @@
       }
     }
   },
+  "57268": {},
+  "57269": {},
   "57273": {
     "restrictions": {
       "classification": {
@@ -11144,21 +11140,6 @@
       "type": "and"
     }
   },
-  "57619": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 4060",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2230",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "57620": {
     "cross_list_courses": [
       "ARCH-5160"
@@ -11451,10 +11432,9 @@
   "57684": {},
   "57685": {},
   "57687": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "57688": {
     "restrictions": {
@@ -12360,10 +12340,9 @@
   "57961": {},
   "57962": {},
   "57963": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "57964": {
     "prerequisites": {
@@ -14109,17 +14088,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "58344": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "58346": {
@@ -17764,10 +17732,9 @@
     }
   },
   "59236": {
-    "prerequisites": {
-      "course": "PHYS 1960",
-      "type": "course"
-    }
+    "corequisites": [
+      "PHYS-1960"
+    ]
   },
   "59239": {
     "corequisites": [
@@ -19495,12 +19462,6 @@
       "type": "and"
     }
   },
-  "59659": {
-    "prerequisites": {
-      "course": "ARTS 2230",
-      "type": "course"
-    }
-  },
   "59660": {
     "cross_list_courses": [
       "COGS-4360",
@@ -21169,8 +21130,16 @@
     ]
   },
   "59850": {},
-  "59851": {},
-  "59852": {},
+  "59851": {
+    "corequisites": [
+      "PHYS-1960"
+    ]
+  },
+  "59852": {
+    "corequisites": [
+      "PHYS-1960"
+    ]
+  },
   "59853": {
     "restrictions": {
       "classification": {
@@ -21358,5 +21327,8 @@
   "59869": {},
   "59870": {},
   "59871": {},
-  "59872": {}
+  "59872": {},
+  "59873": {},
+  "59874": {},
+  "59875": {}
 }
