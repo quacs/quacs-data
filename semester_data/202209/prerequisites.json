@@ -1219,9 +1219,36 @@
     }
   },
   "55057": {},
-  "55058": {},
-  "55059": {},
-  "55060": {},
+  "55058": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
+  "55059": {
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
+  "55060": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
   "55061": {
     "restrictions": {
       "major": {
@@ -9181,7 +9208,16 @@
       "type": "course"
     }
   },
-  "57202": {},
+  "57202": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
   "57203": {
     "prerequisites": {
       "course": "ENVE 2110",
@@ -21339,5 +21375,6 @@
   "59873": {},
   "59874": {},
   "59875": {},
-  "59877": {}
+  "59877": {},
+  "59878": {}
 }
