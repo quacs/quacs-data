@@ -1223,6 +1223,7 @@
     "restrictions": {
       "major": {
         "must_be": [
+          "Business and Management",
           "Business Analytics",
           "Management"
         ]
@@ -1232,7 +1233,8 @@
   "55059": {
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
+          "Business and Management",
           "Business Analytics",
           "Management"
         ]
@@ -1243,6 +1245,7 @@
     "restrictions": {
       "major": {
         "must_be": [
+          "Business and Management",
           "Business Analytics",
           "Management"
         ]
@@ -1254,7 +1257,7 @@
       "major": {
         "must_be": [
           "Business and Management",
-          "Business and Management"
+          "Business Analytics"
         ]
       }
     }
@@ -9212,6 +9215,7 @@
     "restrictions": {
       "major": {
         "must_be": [
+          "Business and Management",
           "Business Analytics",
           "Management"
         ]
@@ -11722,7 +11726,7 @@
       "major": {
         "must_be": [
           "Business and Management",
-          "Business and Management"
+          "Business Analytics"
         ]
       }
     }
@@ -20229,6 +20233,82 @@
     }
   },
   "59738": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "59739": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            },
+            {
+              "course": "CIVL 1200",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
