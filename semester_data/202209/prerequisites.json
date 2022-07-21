@@ -13767,6 +13767,11 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
+        ]
       }
     }
   },
@@ -21508,12 +21513,30 @@
   },
   "59869": {},
   "59870": {},
-  "59871": {},
+  "59871": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
+        ]
+      }
+    }
+  },
   "59872": {
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
         ]
       }
     }
