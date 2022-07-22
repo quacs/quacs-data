@@ -18421,7 +18421,14 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society",
+          "Science, Tech & Society"
         ]
       }
     }
@@ -18430,7 +18437,14 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society",
+          "Science, Tech & Society"
         ]
       }
     }
@@ -18440,6 +18454,12 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society",
+          "Science, Tech & Society"
         ]
       }
     }
@@ -19709,8 +19729,13 @@
   "59672": {},
   "59673": {
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Biology",
           "Biomedical Engineering",
           "Chemistry",
@@ -21348,7 +21373,7 @@
   "59855": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
+        "must_be": [
           "Freshman",
           "Sophomore"
         ]
@@ -21386,7 +21411,7 @@
   "59857": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
+        "must_be": [
           "Freshman"
         ]
       }
@@ -21395,7 +21420,7 @@
   "59858": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
+        "must_be": [
           "Freshman"
         ]
       }
@@ -21404,7 +21429,7 @@
   "59859": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
+        "must_be": [
           "Freshman"
         ]
       }
