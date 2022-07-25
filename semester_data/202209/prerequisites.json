@@ -10565,7 +10565,21 @@
       }
     }
   },
-  "57423": {},
+  "57423": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "57425": {
     "restrictions": {
       "level": {
@@ -10786,6 +10800,19 @@
     "corequisites": [
       "BIOL-2125"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
