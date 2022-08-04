@@ -4095,20 +4095,7 @@
       }
     }
   },
-  "55458": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Communication, Media, & Design",
-          "Design, Innovation and Society",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
+  "55458": {},
   "55459": {
     "cross_list_courses": [
       "ENGR-6100",
@@ -15588,6 +15575,24 @@
       "type": "course"
     }
   },
+  "58659": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Electronic Arts"
+        ],
+        "must_be": [
+          "Electronic Arts"
+        ]
+      }
+    }
+  },
   "58660": {
     "restrictions": {
       "classification": {
@@ -21437,6 +21442,12 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "59890": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
     }
   }
 }
