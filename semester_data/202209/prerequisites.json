@@ -10744,8 +10744,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -13508,8 +13507,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -13712,8 +13710,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -14013,8 +14010,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -14023,8 +14019,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -14033,8 +14028,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -15449,8 +15443,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -15597,8 +15590,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -18305,10 +18297,8 @@
   "59378": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
+        "must_be": [
+          "Freshman"
         ]
       }
     }
@@ -18613,7 +18603,15 @@
   "59436": {},
   "59437": {},
   "59438": {},
-  "59439": {},
+  "59439": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59440": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -18805,7 +18803,15 @@
       "type": "or"
     }
   },
-  "59483": {},
+  "59483": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59485": {
     "prerequisites": {
       "course": "CHEM 4410",
@@ -19623,11 +19629,6 @@
   "59672": {},
   "59673": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      },
       "major": {
         "must_be": [
           "Biology",
@@ -21210,7 +21211,17 @@
       "BIOL-1015"
     ]
   },
-  "59850": {},
+  "59850": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59851": {
     "corequisites": [
       "PHYS-1960"
@@ -21299,7 +21310,8 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -21375,11 +21387,43 @@
     }
   },
   "59865": {},
-  "59866": {},
-  "59867": {},
-  "59868": {},
+  "59866": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59867": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59868": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59869": {},
-  "59870": {},
+  "59870": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59871": {
     "restrictions": {
       "classification": {
@@ -21404,20 +21448,87 @@
     }
   },
   "59873": {},
-  "59874": {},
-  "59875": {},
-  "59876": {},
+  "59874": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59875": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59876": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59877": {},
-  "59878": {},
+  "59878": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "59879": {
     "corequisites": [
       "PHYS-1960"
     ]
   },
-  "59880": {},
-  "59881": {},
-  "59882": {},
-  "59883": {},
+  "59880": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "59881": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59882": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "59883": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "59884": {
     "prerequisites": {
       "course": "ARCH 2510",
@@ -21449,5 +21560,8 @@
       "course": "ARTS 1200",
       "type": "course"
     }
-  }
+  },
+  "59891": {},
+  "59892": {},
+  "59893": {}
 }
