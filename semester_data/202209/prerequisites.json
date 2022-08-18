@@ -11208,6 +11208,29 @@
       "type": "and"
     }
   },
+  "57619": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4060",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2230",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "57620": {
     "cross_list_courses": [
       "ARCH-5160"
@@ -14147,6 +14170,16 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "58344": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "58346": {
@@ -19492,6 +19525,20 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "59659": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "59660": {
