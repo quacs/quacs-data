@@ -13438,15 +13438,7 @@
       }
     }
   },
-  "58118": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
+  "58118": {},
   "58119": {
     "restrictions": {
       "level": {
@@ -21627,6 +21619,16 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "59907": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
