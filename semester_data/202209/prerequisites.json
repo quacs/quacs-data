@@ -17909,12 +17909,6 @@
       "type": "course"
     }
   },
-  "59260": {
-    "prerequisites": {
-      "course": "ARCH 2530",
-      "type": "course"
-    }
-  },
   "59261": {
     "prerequisites": {
       "course": "ARCH 2530",
@@ -18000,6 +17994,25 @@
     ],
     "prerequisites": {
       "course": "PHIL 2140",
+      "type": "course"
+    }
+  },
+  "59278": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "type": "course"
+    }
+  },
+  "59279": {
+    "cross_list_courses": [
+      "CSCI-4972",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140",
+      "PHIL-4961"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4770",
       "type": "course"
     }
   },
@@ -21602,6 +21615,21 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "59909": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2510",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2350",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
