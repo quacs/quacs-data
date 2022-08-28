@@ -13265,6 +13265,7 @@
   },
   "58099": {},
   "58100": {},
+  "58101": {},
   "58102": {},
   "58103": {
     "corequisites": [
@@ -18016,6 +18017,12 @@
       "type": "course"
     }
   },
+  "59280": {
+    "prerequisites": {
+      "course": "ARCH 4780",
+      "type": "course"
+    }
+  },
   "59283": {},
   "59284": {
     "restrictions": {
@@ -21630,6 +21637,30 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "59910": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "59911": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
