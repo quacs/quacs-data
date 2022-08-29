@@ -12091,6 +12091,15 @@
   "57897": {},
   "57898": {},
   "57899": {},
+  "57900": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
   "57902": {
     "restrictions": {
       "level": {
@@ -16597,11 +16606,11 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
-        },
-        {
           "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
             {
               "nested": [
                 {
@@ -16616,8 +16625,17 @@
               "type": "or"
             },
             {
-              "course": "MATH 2400",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "MATH 2400",
+                  "type": "course"
+                },
+                {
+                  "course": "PHYS 1150",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             }
           ],
           "type": "and"
@@ -17961,6 +17979,7 @@
     }
   },
   "59270": {},
+  "59271": {},
   "59273": {
     "prerequisites": {
       "course": "ARCH 2830",
