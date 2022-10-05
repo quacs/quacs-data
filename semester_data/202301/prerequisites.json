@@ -8298,28 +8298,6 @@
       "type": "course"
     }
   },
-  "78343": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2020",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 2610",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Design, Innovation and Society"
-        ]
-      }
-    }
-  },
   "78344": {
     "restrictions": {
       "level": {
@@ -9563,7 +9541,6 @@
       }
     }
   },
-  "78663": {},
   "78786": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -11200,6 +11177,24 @@
   "79085": {},
   "79086": {},
   "79087": {},
+  "79088": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "79089": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "79090": {
     "prerequisites": {
       "nested": [
@@ -11290,11 +11285,6 @@
         ]
       }
     }
-  },
-  "79100": {
-    "corequisites": [
-      "MATH-1020"
-    ]
   },
   "79101": {
     "restrictions": {
@@ -12227,6 +12217,21 @@
     }
   },
   "79370": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "79372": {
     "prerequisites": {
       "nested": [
         {
@@ -18506,7 +18511,6 @@
   },
   "80397": {},
   "80398": {},
-  "80399": {},
   "80400": {
     "restrictions": {
       "level": {
@@ -18735,6 +18739,78 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80500": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "80501": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "80502": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "80503": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "80504": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
         ]
       }
     }
