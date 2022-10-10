@@ -2467,6 +2467,29 @@
       }
     }
   },
+  "76054": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1010",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1190",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "76061": {},
   "76062": {
     "restrictions": {
@@ -18818,5 +18841,6 @@
         ]
       }
     }
-  }
+  },
+  "80506": {}
 }
