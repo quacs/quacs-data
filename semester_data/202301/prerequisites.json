@@ -13158,15 +13158,6 @@
       }
     }
   },
-  "79555": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79556": {
     "prerequisites": {
       "nested": [
@@ -14191,17 +14182,6 @@
     }
   },
   "79797": {},
-  "79798": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "79799": {},
   "79800": {},
   "79801": {
@@ -15174,15 +15154,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "79936": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -18885,6 +18856,46 @@
     "prerequisites": {
       "course": "CIVL 2050",
       "type": "course"
+    }
+  },
+  "80510": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80511": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4010",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4150",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
