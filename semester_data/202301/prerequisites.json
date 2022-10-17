@@ -18922,5 +18922,20 @@
   },
   "80528": {},
   "80529": {},
-  "80530": {}
+  "80530": {},
+  "80531": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
