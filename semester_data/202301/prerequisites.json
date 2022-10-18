@@ -14034,17 +14034,6 @@
   },
   "79797": {},
   "79799": {},
-  "79800": {},
-  "79801": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "79802": {
     "restrictions": {
       "classification": {
@@ -14075,29 +14064,6 @@
       "classification": {
         "must_be": [
           "Freshman"
-        ]
-      }
-    }
-  },
-  "79806": {},
-  "79807": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -16439,15 +16405,6 @@
       }
     }
   },
-  "80235": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80239": {
     "restrictions": {
       "level": {
@@ -17535,15 +17492,6 @@
     }
   },
   "80316": {},
-  "80317": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80319": {},
   "80320": {
     "restrictions": {
@@ -18715,6 +18663,47 @@
         "must_be": [
           "Applied Mathematics",
           "Mathematics"
+        ]
+      }
+    }
+  },
+  "80552": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80553": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
