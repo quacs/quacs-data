@@ -308,42 +308,6 @@
       }
     }
   },
-  "75852": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "75853": {
     "prerequisites": {
       "course": "BIOL 2120",
@@ -11173,7 +11137,7 @@
   "79070": {},
   "79075": {
     "cross_list_courses": [
-      "ISYE-2210"
+      "ISYE-4140"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -15818,21 +15782,6 @@
       }
     }
   },
-  "80161": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "80162": {
     "prerequisites": {
       "nested": [
@@ -16204,15 +16153,6 @@
       "type": "course"
     }
   },
-  "80191": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80192": {
     "prerequisites": {
       "nested": [
@@ -16571,22 +16511,6 @@
   },
   "80235": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80237": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -17867,21 +17791,6 @@
   },
   "80344": {},
   "80345": {},
-  "80346": {
-    "prerequisites": {
-      "course": "ECSE 2050",
-      "type": "course"
-    }
-  },
-  "80347": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80348": {},
   "80349": {},
   "80350": {},
@@ -18647,6 +18556,12 @@
       }
     }
   },
+  "80505": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "type": "course"
+    }
+  },
   "80506": {},
   "80507": {
     "cross_list_courses": [
@@ -18829,6 +18744,53 @@
     "prerequisites": {
       "course": "ARTS 1200",
       "type": "course"
+    }
+  },
+  "80543": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80544": {},
+  "80545": {},
+  "80546": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "type": "course"
+    }
+  },
+  "80547": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2110",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4080",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80548": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2660",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }

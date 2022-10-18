@@ -4547,6 +4547,68 @@
     "code": "ARTS",
     "courses": [
       {
+        "crse": 1020,
+        "id": "ARTS-1020",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 80545,
+            "crse": 1020,
+            "rem": 10,
+            "sec": "01",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Nathan Scott Meltz",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Digital Imaging"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 9,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 80544,
+            "crse": 1020,
+            "rem": 9,
+            "sec": "02",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Nathan Scott Meltz",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Digital Imaging"
+          }
+        ],
+        "subj": "ARTS",
+        "title": "Digital Imaging"
+      },
+      {
         "crse": 1030,
         "id": "ARTS-1030",
         "sections": [
@@ -6390,7 +6452,7 @@
                 "days": [
                   "T"
                 ],
-                "instructor": "Kathleen A. Galloway",
+                "instructor": "Jefferson Wille Kielwagen",
                 "location": "West Hall 113",
                 "timeEnd": 1650,
                 "timeStart": 1400
@@ -6494,17 +6556,17 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Matthew William Goodheart",
+                "instructor": "Kathleen A. Galloway",
                 "location": "Russell Sage Laboratory 2510",
                 "timeEnd": 1750,
                 "timeStart": 1600
               }
             ],
-            "title": "Spatial Music & Sound"
+            "title": "Game Sound Studies"
           }
         ],
         "subj": "ARTS",
-        "title": "Spatial Music & Sound"
+        "title": "Game Sound Studies"
       },
       {
         "crse": 6965,
@@ -6529,7 +6591,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Robert Kyle Hamilton",
+                "instructor": "Matthew William Goodheart",
                 "location": "Russell Sage Laboratory 2510",
                 "timeEnd": 1150,
                 "timeStart": 1000
@@ -26477,7 +26539,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "TBA",
+                "instructor": "Christos Varsamis",
                 "location": "TBA",
                 "timeEnd": 1550,
                 "timeStart": 1400
@@ -26515,7 +26577,7 @@
                   "T",
                   "F"
                 ],
-                "instructor": "TBA",
+                "instructor": "Jason Mark Warner",
                 "location": "TBA",
                 "timeEnd": 1350,
                 "timeStart": 1200
@@ -28254,7 +28316,7 @@
               }
             ],
             "title": "Intro Manufacturing Planning",
-            "xl_rem": 50
+            "xl_rem": 55
           }
         ],
         "subj": "ENGR",
@@ -31789,7 +31851,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "James D. Rees",
+                "instructor": "Alex Patterson",
                 "location": "Low Center for Industrial Inn. 3045",
                 "timeEnd": 1150,
                 "timeStart": 1000
@@ -31804,44 +31866,6 @@
                 "location": "Jonsson Engineering Center 4107",
                 "timeEnd": 1550,
                 "timeStart": 1400
-              }
-            ],
-            "title": "Fields And Waves I"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 36,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 75852,
-            "crse": 2100,
-            "rem": 36,
-            "sec": "02",
-            "subj": "ECSE",
-            "timeslots": [
-              {
-                "dateEnd": "05/05",
-                "dateStart": "01/09",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "James D. Rees",
-                "location": "Low Center for Industrial Inn. 3045",
-                "timeEnd": 1150,
-                "timeStart": 1000
-              },
-              {
-                "dateEnd": "05/05",
-                "dateStart": "01/09",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Jonsson Engineering Center 4107",
-                "timeEnd": 1750,
-                "timeStart": 1600
               }
             ],
             "title": "Fields And Waves I"
@@ -32376,6 +32400,41 @@
         "title": "Mechatronics"
       },
       {
+        "crse": 4110,
+        "id": "ECSE-4110",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 30,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 80505,
+            "crse": 4110,
+            "rem": 30,
+            "sec": "01",
+            "subj": "ECSE",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Luigi Vanfretti",
+                "location": "Low Center for Industrial Inn. 4034",
+                "timeEnd": 1320,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Power Engineering Analysis"
+          }
+        ],
+        "subj": "ECSE",
+        "title": "Power Engineering Analysis"
+      },
+      {
         "crse": 4130,
         "id": "ECSE-4130",
         "sections": [
@@ -32410,18 +32469,18 @@
         "title": "Epe Lab"
       },
       {
-        "crse": 4170,
-        "id": "ECSE-4170",
+        "crse": 4141,
+        "id": "ECSE-4141",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 15,
+            "cap": 30,
             "credMax": 3.0,
             "credMin": 3.0,
-            "crn": 80161,
-            "crse": 4170,
-            "rem": 15,
+            "crn": 80546,
+            "crse": 4141,
+            "rem": 30,
             "sec": "01",
             "subj": "ECSE",
             "timeslots": [
@@ -32429,20 +32488,20 @@
                 "dateEnd": "05/05",
                 "dateStart": "01/09",
                 "days": [
-                  "T",
-                  "F"
+                  "M",
+                  "R"
                 ],
-                "instructor": "Luigi Vanfretti",
+                "instructor": "Jian Sun",
                 "location": "Low Center for Industrial Inn. 4034",
-                "timeEnd": 1320,
-                "timeStart": 1200
+                "timeEnd": 1720,
+                "timeStart": 1600
               }
             ],
-            "title": "Mod & Sim For Cyber-phys Sys"
+            "title": "Renewable Power Generation"
           }
         ],
         "subj": "ECSE",
-        "title": "Mod & Sim For Cyber-phys Sys"
+        "title": "Renewable Power Generation"
       },
       {
         "crse": 4220,
@@ -32480,18 +32539,18 @@
         "title": "Vlsi Design"
       },
       {
-        "crse": 4310,
-        "id": "ECSE-4310",
+        "crse": 4320,
+        "id": "ECSE-4320",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 15,
+            "cap": 30,
             "credMax": 3.0,
             "credMin": 3.0,
-            "crn": 80346,
-            "crse": 4310,
-            "rem": 15,
+            "crn": 80548,
+            "crse": 4320,
+            "rem": 30,
             "sec": "01",
             "subj": "ECSE",
             "timeslots": [
@@ -32502,17 +32561,17 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Mona Mostafa Hella",
+                "instructor": "TBA",
                 "location": "Jonsson Engineering Center 4107",
                 "timeEnd": 1520,
                 "timeStart": 1400
               }
             ],
-            "title": "Fdmtls Of Rf/microwave Engr"
+            "title": "Advanced Computer Systems"
           }
         ],
         "subj": "ECSE",
-        "title": "Fdmtls Of Rf/microwave Engr"
+        "title": "Advanced Computer Systems"
       },
       {
         "crse": 4440,
@@ -32878,18 +32937,18 @@
         "title": "Advanced Electronic Circuits"
       },
       {
-        "crse": 6170,
-        "id": "ECSE-6170",
+        "crse": 6110,
+        "id": "ECSE-6110",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 15,
+            "cap": 30,
             "credMax": 3.0,
             "credMin": 3.0,
-            "crn": 80191,
-            "crse": 6170,
-            "rem": 15,
+            "crn": 80543,
+            "crse": 6110,
+            "rem": 30,
             "sec": "01",
             "subj": "ECSE",
             "timeslots": [
@@ -32906,11 +32965,46 @@
                 "timeStart": 1200
               }
             ],
-            "title": "Mod & Sim For Cyber-phys Sys"
+            "title": "Power Engineering Analysis"
           }
         ],
         "subj": "ECSE",
-        "title": "Mod & Sim For Cyber-phys Sys"
+        "title": "Power Engineering Analysis"
+      },
+      {
+        "crse": 6141,
+        "id": "ECSE-6141",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 30,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 80547,
+            "crse": 6141,
+            "rem": 30,
+            "sec": "01",
+            "subj": "ECSE",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Jian Sun",
+                "location": "Low Center for Industrial Inn. 4034",
+                "timeEnd": 1720,
+                "timeStart": 1600
+              }
+            ],
+            "title": "Renewable Power Generation"
+          }
+        ],
+        "subj": "ECSE",
+        "title": "Renewable Power Generation"
       },
       {
         "crse": 6210,
@@ -32992,41 +33086,6 @@
         ],
         "subj": "ECSE",
         "title": "Ic Fabrication Lab"
-      },
-      {
-        "crse": 6310,
-        "id": "ECSE-6310",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 15,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 80347,
-            "crse": 6310,
-            "rem": 15,
-            "sec": "01",
-            "subj": "ECSE",
-            "timeslots": [
-              {
-                "dateEnd": "05/05",
-                "dateStart": "01/09",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Mona Mostafa Hella",
-                "location": "Jonsson Engineering Center 4107",
-                "timeEnd": 1520,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Fdmtls Of Rf/microwave Engr"
-          }
-        ],
-        "subj": "ECSE",
-        "title": "Fdmtls Of Rf/microwave Engr"
       },
       {
         "crse": 6460,
@@ -33341,41 +33400,6 @@
         ],
         "subj": "ECSE",
         "title": "Distributed Machine Learning"
-      },
-      {
-        "crse": 6965,
-        "id": "ECSE-6965",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 20,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 80237,
-            "crse": 6965,
-            "rem": 20,
-            "sec": "01",
-            "subj": "ECSE",
-            "timeslots": [
-              {
-                "dateEnd": "05/05",
-                "dateStart": "01/09",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Jian Sun",
-                "location": "Low Center for Industrial Inn. 4034",
-                "timeEnd": 1720,
-                "timeStart": 1600
-              }
-            ],
-            "title": "Renew Energy Conv & Grid Inte"
-          }
-        ],
-        "subj": "ECSE",
-        "title": "Renew Energy Conv & Grid Inte"
       },
       {
         "crse": 6980,
