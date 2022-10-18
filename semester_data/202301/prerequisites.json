@@ -3949,6 +3949,15 @@
       "type": "or"
     }
   },
+  "77098": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Mathematics"
+        ]
+      }
+    }
+  },
   "77099": {
     "prerequisites": {
       "nested": [
@@ -11087,35 +11096,6 @@
       "type": "and"
     }
   },
-  "79063": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4840",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "79064": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Junior"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79066": {
     "restrictions": {
       "classification": {
@@ -11546,16 +11526,6 @@
       "type": "or"
     }
   },
-  "79274": {},
-  "79275": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79278": {
     "restrictions": {
       "classification": {
@@ -11650,12 +11620,6 @@
   "79298": {
     "prerequisites": {
       "course": "CSCI 1200",
-      "type": "course"
-    }
-  },
-  "79299": {
-    "prerequisites": {
-      "course": "ECSE 2660",
       "type": "course"
     }
   },
@@ -12891,6 +12855,15 @@
       }
     }
   },
+  "79536": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "79537": {
     "prerequisites": {
       "nested": [
@@ -13033,7 +13006,25 @@
       "ERTH-1200"
     ]
   },
-  "79550": {},
+  "79550": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "79551": {},
   "79552": {
     "restrictions": {
@@ -14079,12 +14070,6 @@
       "type": "or"
     }
   },
-  "79804": {
-    "prerequisites": {
-      "course": "MATH 2010",
-      "type": "course"
-    }
-  },
   "79805": {
     "restrictions": {
       "classification": {
@@ -14186,26 +14171,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "79811": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79812": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
     }
   },
   "79813": {},
@@ -14444,15 +14409,6 @@
     "prerequisites": {
       "course": "MANE 4480",
       "type": "course"
-    }
-  },
-  "79834": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "79835": {
@@ -15778,32 +15734,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "80162": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
         ]
       }
     }
@@ -17673,39 +17603,6 @@
       "type": "or"
     }
   },
-  "80329": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CSCI 1100",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4090",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "80330": {
     "prerequisites": {
       "nested": [
@@ -18231,7 +18128,6 @@
     }
   },
   "80394": {},
-  "80395": {},
   "80396": {
     "prerequisites": {
       "course": "PHIL 2140",
@@ -18791,6 +18687,36 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "80549": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2660",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80550": {},
+  "80551": {
+    "prerequisites": {
+      "course": "MATH 2010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Mathematics",
+          "Mathematics"
+        ]
+      }
     }
   }
 }
