@@ -11373,6 +11373,43 @@
   "79244": {},
   "79245": {},
   "79246": {},
+  "79252": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "ENGR 1100",
+                  "type": "course"
+                },
+                {
+                  "course": "ECSE 1010",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "course": "ENGR 1400",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "79253": {},
   "79261": {
     "restrictions": {
