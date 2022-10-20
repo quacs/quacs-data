@@ -13575,6 +13575,39 @@
       }
     }
   },
+  "79629": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2350",
+              "type": "course"
+            },
+            {
+              "course": "MANE 4050",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MANE 4500",
+              "type": "course"
+            },
+            {
+              "course": "MANE 4510",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "79638": {
     "prerequisites": {
       "nested": [
@@ -13729,6 +13762,7 @@
       }
     }
   },
+  "79655": {},
   "79658": {},
   "79659": {},
   "79660": {},
@@ -14429,28 +14463,6 @@
           "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci",
           "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "79841": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATP 4700",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -15999,7 +16011,19 @@
       "type": "course"
     }
   },
+  "80184": {
+    "prerequisites": {
+      "course": "MANE 4500",
+      "type": "course"
+    }
+  },
   "80185": {
+    "prerequisites": {
+      "course": "MANE 4500",
+      "type": "course"
+    }
+  },
+  "80186": {
     "prerequisites": {
       "course": "MANE 4500",
       "type": "course"
@@ -16403,21 +16427,6 @@
           "Biology",
           "Biological Neuroscience",
           "Chemistry"
-        ]
-      }
-    }
-  },
-  "80234": {
-    "prerequisites": {
-      "course": "MATH 4800",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -19041,7 +19050,8 @@
   },
   "80609": {
     "cross_list_courses": [
-      "PHYS-4961"
+      "PHYS-4961",
+      "PHYS-6963"
     ]
   },
   "80610": {
@@ -19092,5 +19102,54 @@
       "ASTR-4961",
       "PHYS-4961"
     ]
+  },
+  "80616": {},
+  "80617": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80618": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATP 4700",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
