@@ -18282,7 +18282,6 @@
       }
     }
   },
-  "80488": {},
   "80489": {
     "restrictions": {
       "level": {
@@ -18784,6 +18783,54 @@
     "prerequisites": {
       "course": "MATH 1010",
       "type": "course"
+    }
+  },
+  "80577": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80578": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
