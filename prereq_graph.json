@@ -835,11 +835,8 @@
     "prereqs": []
   },
   "CHME 4966": {
-    "title": "Chemical Process Safety",
-    "prereqs": [
-      "CHME 4010",
-      "CHME 4020"
-    ]
+    "title": "Chem Engr Process Simulations",
+    "prereqs": []
   },
   "CHME 4980": {
     "title": "Chem & Envr Engineering Proj",
@@ -3271,8 +3268,10 @@
     ]
   },
   "MANE 4410": {
-    "title": "Appl Atom & Nucl Phys I",
-    "prereqs": []
+    "title": "Appl Atomic & Nucl Phys",
+    "prereqs": [
+      "MANE 2830"
+    ]
   },
   "MANE 4420": {
     "title": "Radiation Technology",
@@ -4494,6 +4493,7 @@
   "CHME 4050": {
     "title": "Chemical Process Dsgn: Fdmtl",
     "prereqs": [
+      "CHME 2100",
       "CHME 4040",
       "CHME 4500"
     ]
@@ -6058,7 +6058,7 @@
     "prereqs": []
   },
   "PHYS 6963": {
-    "title": "Nano-Optics",
+    "title": "Particle Astrophysics",
     "prereqs": []
   },
   "PSYC 2100": {
@@ -6319,7 +6319,7 @@
     "prereqs": []
   },
   "CHME 6410": {
-    "title": "Advanced Membrane Concepts",
+    "title": "Adv Membrane Concepts",
     "prereqs": []
   },
   "CHME 6966": {
@@ -6802,7 +6802,7 @@
     "prereqs": []
   },
   "CHME 4963": {
-    "title": "Intro To Adv Membrane Concepts",
+    "title": "Careers In Chemical Engr",
     "prereqs": []
   },
   "CHEM 4420": {
@@ -10758,7 +10758,7 @@
     "prereqs": []
   },
   "MANE 4460": {
-    "title": "Engineering Materials For Nuclear Application",
+    "title": "Engr Materials For Nuclear App",
     "prereqs": []
   },
   "MANE 4941": {
@@ -12648,7 +12648,7 @@
     ]
   },
   "ASTR 4961": {
-    "title": "Cosmology",
+    "title": "Particle Astrophysics",
     "prereqs": []
   },
   "ASTR 6961": {
@@ -14387,6 +14387,32 @@
   "BUSN 6300": {
     "title": "Leaders & Strategy",
     "prereqs": []
+  },
+  "CHME 2100": {
+    "title": "Chemical Process Safety",
+    "prereqs": [
+      "CHME 2020"
+    ]
+  },
+  "CHME 4011": {
+    "title": "Semiconductor Electrochemistry",
+    "prereqs": [
+      "PHYS 1200"
+    ]
+  },
+  "CHME 4100": {
+    "title": "Finite Element Modeling",
+    "prereqs": [
+      "CHME 2050",
+      "CHME 4020",
+      "MATH 2400"
+    ]
+  },
+  "CHME 6011": {
+    "title": "Semiconductor Electrochemistry",
+    "prereqs": [
+      "PHYS 1200"
+    ]
   },
   "ECSE 4141": {
     "title": "Renewable Power Generation",

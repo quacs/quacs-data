@@ -12767,21 +12767,6 @@
       }
     }
   },
-  "79450": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4020",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79453": {},
   "79454": {},
   "79456": {
@@ -13605,21 +13590,6 @@
       "type": "and"
     }
   },
-  "79639": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2010",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79644": {
     "restrictions": {
       "campus": {
@@ -13759,7 +13729,6 @@
       }
     }
   },
-  "79655": {},
   "79658": {},
   "79659": {},
   "79660": {},
@@ -14413,7 +14382,6 @@
       }
     }
   },
-  "79831": {},
   "79832": {},
   "79833": {
     "prerequisites": {
@@ -17663,16 +17631,6 @@
   },
   "80334": {},
   "80335": {},
-  "80336": {},
-  "80337": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80338": {
     "cross_list_courses": [
       "ISYE-4961"
@@ -18644,6 +18602,58 @@
       "type": "course"
     }
   },
+  "80541": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2100",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4040",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "80542": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2100",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4040",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "80543": {
     "restrictions": {
       "level": {
@@ -19028,5 +19038,59 @@
         ]
       }
     }
+  },
+  "80609": {
+    "cross_list_courses": [
+      "PHYS-4961"
+    ]
+  },
+  "80610": {
+    "prerequisites": {
+      "course": "CHME 2020",
+      "type": "course"
+    }
+  },
+  "80611": {
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "type": "course"
+    }
+  },
+  "80612": {
+    "prerequisites": {
+      "course": "MANE 2830",
+      "type": "course"
+    }
+  },
+  "80613": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4020",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2050",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80614": {
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "type": "course"
+    }
+  },
+  "80615": {
+    "cross_list_courses": [
+      "ASTR-4961",
+      "PHYS-4961"
+    ]
   }
 }
