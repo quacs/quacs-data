@@ -81,7 +81,12 @@
       "type": "or"
     }
   },
-  "75829": {},
+  "75829": {
+    "cross_list_courses": [
+      "BIOL-4770",
+      "CHEM-4770"
+    ]
+  },
   "75830": {
     "prerequisites": {
       "nested": [
@@ -97,7 +102,12 @@
       "type": "or"
     }
   },
-  "75831": {},
+  "75831": {
+    "cross_list_courses": [
+      "BCBP-4770",
+      "CHEM-4770"
+    ]
+  },
   "75832": {
     "prerequisites": {
       "nested": [
@@ -786,6 +796,10 @@
   },
   "75878": {},
   "75879": {
+    "cross_list_courses": [
+      "BCBP-4770",
+      "BIOL-4770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3104,6 +3118,11 @@
     }
   },
   "76185": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BCBP-6420",
+      "BIOL-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6201,6 +6220,9 @@
   "77904": {},
   "77905": {},
   "77906": {
+    "cross_list_courses": [
+      "BIOL-4310"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6789,16 +6811,6 @@
       }
     }
   },
-  "78116": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "78117": {
     "restrictions": {
       "classification": {
@@ -6824,16 +6836,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "78121": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -6920,6 +6922,9 @@
     }
   },
   "78168": {
+    "cross_list_courses": [
+      "BIOL-6310"
+    ],
     "prerequisites": {
       "course": "BIOL 2120",
       "type": "course"
@@ -7843,6 +7848,11 @@
     ]
   },
   "78317": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BIOL-4550",
+      "BIOL-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7882,6 +7892,11 @@
     }
   },
   "78318": {
+    "cross_list_courses": [
+      "BCBP-6420",
+      "BIOL-4550",
+      "BIOL-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7914,6 +7929,11 @@
     }
   },
   "78319": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BCBP-6420",
+      "BIOL-4550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8738,6 +8758,18 @@
     }
   },
   "78470": {},
+  "78471": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "78472": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "78474": {
     "restrictions": {
       "major": {
@@ -11411,17 +11443,6 @@
     }
   },
   "79253": {},
-  "79261": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "79262": {},
   "79263": {
     "restrictions": {
       "classification": {
@@ -13452,13 +13473,15 @@
       }
     }
   },
-  "79606": {},
   "79607": {
     "corequisites": [
       "BIOL-1015"
     ]
   },
   "79608": {
+    "cross_list_courses": [
+      "BCBP-4710"
+    ],
     "prerequisites": {
       "course": "BIOL 2120",
       "type": "course"
@@ -13667,12 +13690,18 @@
     }
   },
   "79651": {
+    "cross_list_courses": [
+      "BIOL-6150"
+    ],
     "prerequisites": {
       "course": "BIOL 4260",
       "type": "course"
     }
   },
   "79652": {
+    "cross_list_courses": [
+      "BIOL-4150"
+    ],
     "prerequisites": {
       "course": "BIOL 6260",
       "type": "course"
@@ -13904,7 +13933,6 @@
       }
     }
   },
-  "79710": {},
   "79711": {
     "restrictions": {
       "classification": {
@@ -14435,7 +14463,6 @@
       }
     }
   },
-  "79842": {},
   "79843": {
     "restrictions": {
       "classification": {
@@ -14467,7 +14494,6 @@
       }
     }
   },
-  "79849": {},
   "79854": {
     "restrictions": {
       "classification": {
@@ -16345,6 +16371,9 @@
     }
   },
   "80233": {
+    "cross_list_courses": [
+      "BIOL-4710"
+    ],
     "prerequisites": {
       "course": "BIOL 2120",
       "type": "course"
@@ -17949,16 +17978,6 @@
     }
   },
   "80386": {},
-  "80387": {},
-  "80388": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80389": {
     "prerequisites": {
       "nested": [
@@ -18096,13 +18115,11 @@
       }
     }
   },
-  "80405": {},
   "80406": {},
   "80407": {},
   "80408": {},
   "80409": {},
   "80410": {},
-  "80411": {},
   "80412": {},
   "80413": {},
   "80414": {},
@@ -18209,7 +18226,6 @@
       }
     }
   },
-  "80424": {},
   "80426": {},
   "80427": {
     "restrictions": {
@@ -18852,5 +18868,50 @@
   "80587": {},
   "80588": {},
   "80589": {},
-  "80590": {}
+  "80590": {},
+  "80591": {},
+  "80592": {},
+  "80593": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "80594": {},
+  "80595": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80596": {},
+  "80597": {},
+  "80598": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "80599": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "80600": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "80601": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  }
 }
