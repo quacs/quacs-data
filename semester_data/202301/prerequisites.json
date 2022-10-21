@@ -3844,15 +3844,6 @@
     }
   },
   "76952": {},
-  "76956": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "76976": {
     "restrictions": {
       "level": {
@@ -5495,15 +5486,6 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
-    }
-  },
-  "77708": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "77709": {},
@@ -11128,6 +11110,8 @@
   "79068": {},
   "79069": {},
   "79070": {},
+  "79071": {},
+  "79072": {},
   "79074": {},
   "79075": {
     "cross_list_courses": [
@@ -11663,16 +11647,6 @@
       "type": "course"
     }
   },
-  "79303": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79304": {},
   "79305": {
     "corequisites": [
       "BIOL-1010"
@@ -14382,31 +14356,7 @@
       "type": "or"
     }
   },
-  "79825": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79827": {},
   "79828": {},
-  "79829": {
-    "prerequisites": {
-      "course": "MANE 6170",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "79830": {
     "restrictions": {
       "level": {
@@ -14417,12 +14367,6 @@
     }
   },
   "79832": {},
-  "79833": {
-    "prerequisites": {
-      "course": "MANE 4480",
-      "type": "course"
-    }
-  },
   "79835": {
     "restrictions": {
       "level": {
@@ -14844,7 +14788,6 @@
       "ERTH-1200"
     ]
   },
-  "79926": {},
   "79927": {
     "prerequisites": {
       "nested": [
@@ -14903,7 +14846,6 @@
       }
     }
   },
-  "79937": {},
   "79938": {
     "prerequisites": {
       "course": "ARCH 6910",
@@ -15770,51 +15712,6 @@
       "type": "course"
     }
   },
-  "80168": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4010",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4070",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80169": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4010",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4080",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4400",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80170": {
     "prerequisites": {
       "nested": [
@@ -15949,44 +15846,6 @@
     }
   },
   "80177": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "80178": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "80179": {
     "prerequisites": {
       "nested": [
         {
@@ -16195,37 +16054,6 @@
   "80211": {},
   "80212": {},
   "80214": {},
-  "80215": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4010",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4080",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80216": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80217": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -16570,6 +16398,7 @@
       }
     }
   },
+  "80255": {},
   "80256": {
     "restrictions": {
       "campus": {
@@ -16584,6 +16413,7 @@
       }
     }
   },
+  "80257": {},
   "80258": {},
   "80259": {
     "restrictions": {
@@ -16621,264 +16451,6 @@
           "Hartford"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80263": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80264": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80265": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80266": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80267": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80268": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80269": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "80270": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80271": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80272": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80273": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80274": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80275": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2011",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2012",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "80276": {
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -17158,126 +16730,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "80296": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "80297": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "80298": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "80299": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "80300": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
     }
   },
   "80301": {
@@ -17891,15 +17343,6 @@
       }
     }
   },
-  "80378": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80379": {
     "cross_list_courses": [
       "MGMT-6600"
@@ -18324,7 +17767,6 @@
     }
   },
   "80490": {},
-  "80492": {},
   "80494": {},
   "80497": {},
   "80499": {
@@ -19129,6 +18571,31 @@
       ],
       "type": "and"
     },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80619": {},
+  "80620": {
+    "prerequisites": {
+      "course": "MANE 4670",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80621": {
     "restrictions": {
       "classification": {
         "may_not_be": [
