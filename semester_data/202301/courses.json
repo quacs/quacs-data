@@ -6707,8 +6707,8 @@
             "act": 0,
             "attribute": "",
             "cap": 1,
-            "credMax": 3.0,
-            "credMin": 3.0,
+            "credMax": 16.0,
+            "credMin": 1.0,
             "crn": 78397,
             "crse": 9990,
             "rem": 1,
@@ -6815,7 +6815,7 @@
                 "dateEnd": "05/05",
                 "dateStart": "01/09",
                 "days": [],
-                "instructor": "Benjamin Chia-Ming Chang",
+                "instructor": "Silvia Ruzanka",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -6839,7 +6839,7 @@
                 "dateEnd": "05/05",
                 "dateStart": "01/09",
                 "days": [],
-                "instructor": "Branda Miller",
+                "instructor": "Benjamin Chia-Ming Chang",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -6863,7 +6863,7 @@
                 "dateEnd": "05/05",
                 "dateStart": "01/09",
                 "days": [],
-                "instructor": "Igor Vamos",
+                "instructor": "Branda Miller",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -6884,11 +6884,11 @@
             "subj": "ARTS",
             "timeslots": [
               {
-                "dateEnd": "",
-                "dateStart": "",
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
                 "days": [],
-                "instructor": "",
-                "location": "",
+                "instructor": "Igor Vamos",
+                "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
               }
@@ -12664,12 +12664,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 50,
+            "cap": 30,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 79649,
             "crse": 2050,
-            "rem": 50,
+            "rem": 30,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -12731,12 +12731,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 50,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 78537,
             "crse": 4010,
-            "rem": 30,
+            "rem": 50,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -12926,7 +12926,7 @@
                 ],
                 "instructor": "Joel Plawsky, Corey Christopher Woodcock",
                 "location": "TBA",
-                "timeEnd": 1450,
+                "timeEnd": 1550,
                 "timeStart": 1400
               }
             ],
@@ -19382,6 +19382,30 @@
               }
             ],
             "title": "Master's Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80636,
+            "crse": 6980,
+            "rem": 10,
+            "sec": "09",
+            "subj": "COGS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Tomasz Strzalkowski",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Master's Project"
           }
         ],
         "subj": "COGS",
@@ -24246,41 +24270,6 @@
         ],
         "subj": "CSCI",
         "title": "Safe Autonomy"
-      },
-      {
-        "crse": 6966,
-        "id": "CSCI-6966",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 15,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 80280,
-            "crse": 6966,
-            "rem": 15,
-            "sec": "01",
-            "subj": "CSCI",
-            "timeslots": [
-              {
-                "dateEnd": "05/05",
-                "dateStart": "01/09",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Barbara Cutler",
-                "location": "Russell Sage Laboratory 2707",
-                "timeEnd": 1550,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Computational Geometry"
-          }
-        ],
-        "subj": "CSCI",
-        "title": "Computational Geometry"
       },
       {
         "crse": 6967,
@@ -30145,6 +30134,33 @@
               }
             ],
             "title": "Intermediate Microeconomic Theory"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 60,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 80634,
+            "crse": 2010,
+            "rem": 60,
+            "sec": "03",
+            "subj": "ECON",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Conor Lennon",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Intermediate Microeconomic Theory"
           }
         ],
         "subj": "ECON",
@@ -30240,6 +30256,41 @@
         "title": "Intermediate Macroeconomic Theory"
       },
       {
+        "crse": 2100,
+        "id": "ECON-2100",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 35,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 80635,
+            "crse": 2100,
+            "rem": 35,
+            "sec": "01",
+            "subj": "ECON",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Jason Ung Huh",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Econ Data Analysis & Applic."
+          }
+        ],
+        "subj": "ECON",
+        "title": "Econ Data Analysis & Applic."
+      },
+      {
         "crse": 4110,
         "id": "ECON-4110",
         "sections": [
@@ -30281,12 +30332,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 120,
+            "cap": 200,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 75884,
             "crse": 4130,
-            "rem": 120,
+            "rem": 200,
             "sec": "01",
             "subj": "ECON",
             "timeslots": [
@@ -30298,9 +30349,9 @@
                   "R"
                 ],
                 "instructor": "Sarah Marsden Greene",
-                "location": "Darrin Communications Center 324",
-                "timeEnd": 1950,
-                "timeStart": 1800
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
               }
             ],
             "title": "Money & Banking"
@@ -30316,12 +30367,12 @@
           {
             "act": 0,
             "attribute": "Communication Intensive",
-            "cap": 19,
+            "cap": 15,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 79543,
             "crse": 4170,
-            "rem": 19,
+            "rem": 15,
             "sec": "01",
             "subj": "ECON",
             "timeslots": [
@@ -30334,6 +30385,33 @@
                 ],
                 "instructor": "Jason Ung Huh",
                 "location": "Carnegie Building 208",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Health Economics And Policy"
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 5,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 80646,
+            "crse": 4170,
+            "rem": 5,
+            "sec": "02",
+            "subj": "ECON",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Jason Ung Huh",
+                "location": "TBA",
                 "timeEnd": 1150,
                 "timeStart": 1000
               }
@@ -30887,12 +30965,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 19,
+            "cap": 5,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 80145,
             "crse": 6110,
-            "rem": 19,
+            "rem": 5,
             "sec": "01",
             "subj": "ECON",
             "timeslots": [
@@ -30957,12 +31035,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 19,
+            "cap": 5,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 79542,
             "crse": 6170,
-            "rem": 19,
+            "rem": 5,
             "sec": "01",
             "subj": "ECON",
             "timeslots": [
@@ -35608,10 +35686,10 @@
                 "dateEnd": "05/05",
                 "dateStart": "01/09",
                 "days": [
-                  "R"
+                  "T"
                 ],
                 "instructor": "Eyosias Legesse Ashenafi",
-                "location": "Materials Research Center 136",
+                "location": "TBA",
                 "timeEnd": 1800,
                 "timeStart": 1500
               }
@@ -36739,6 +36817,102 @@
               }
             ],
             "title": "Master's Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80637,
+            "crse": 6980,
+            "rem": 10,
+            "sec": "07",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Benjamin Chia-Ming Chang",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Master's Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80638,
+            "crse": 6980,
+            "rem": 10,
+            "sec": "08",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Kathleen A. Galloway",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Master's Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80639,
+            "crse": 6980,
+            "rem": 10,
+            "sec": "09",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "James Wilson Malazita",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Master's Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80640,
+            "crse": 6980,
+            "rem": 10,
+            "sec": "10",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Maurice W Suckling",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Master's Project"
           }
         ],
         "subj": "GSAS",
@@ -36789,6 +36963,102 @@
                 "dateStart": "01/09",
                 "days": [],
                 "instructor": "Robert F. Nideffer",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 15.0,
+            "credMin": 1.0,
+            "crn": 80641,
+            "crse": 9990,
+            "rem": 10,
+            "sec": "03",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Benjamin Chia-Ming Chang",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 15.0,
+            "credMin": 1.0,
+            "crn": 80642,
+            "crse": 9990,
+            "rem": 10,
+            "sec": "04",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "James Wilson Malazita",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 15.0,
+            "credMin": 1.0,
+            "crn": 80643,
+            "crse": 9990,
+            "rem": 10,
+            "sec": "05",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Silvia Ruzanka",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 15.0,
+            "credMin": 1.0,
+            "crn": 80644,
+            "crse": 9990,
+            "rem": 10,
+            "sec": "06",
+            "subj": "GSAS",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Maurice W Suckling",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -41370,8 +41640,8 @@
                 ],
                 "instructor": "M.V. Shyam Kumar",
                 "location": "Russell Sage Laboratory 3704",
-                "timeEnd": 1350,
-                "timeStart": 1200
+                "timeEnd": 1150,
+                "timeStart": 1000
               }
             ],
             "title": "Intro To Machine Learning Apps",
@@ -41854,8 +42124,8 @@
                 ],
                 "instructor": "M.V. Shyam Kumar",
                 "location": "Russell Sage Laboratory 3704",
-                "timeEnd": 1320,
-                "timeStart": 1200
+                "timeEnd": 1120,
+                "timeStart": 1000
               }
             ],
             "title": "Introduction To Machine Learning Applications",
@@ -60320,6 +60590,38 @@
         ],
         "subj": "STSO",
         "title": "Disability And Sts"
+      },
+      {
+        "crse": 6990,
+        "id": "STSO-6990",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 9.0,
+            "credMin": 1.0,
+            "crn": 80645,
+            "crse": 6990,
+            "rem": 10,
+            "sec": "01",
+            "subj": "STSO",
+            "timeslots": [
+              {
+                "dateEnd": "05/05",
+                "dateStart": "01/09",
+                "days": [],
+                "instructor": "Nancy D. Campbell",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Masters Thesis"
+          }
+        ],
+        "subj": "STSO",
+        "title": "Masters Thesis"
       },
       {
         "crse": 9990,

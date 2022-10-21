@@ -16465,15 +16465,6 @@
       }
     }
   },
-  "80280": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80281": {},
   "80282": {
     "prerequisites": {
@@ -18679,6 +18670,142 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80634": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1975",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80635": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80636": {},
+  "80637": {},
+  "80638": {},
+  "80639": {},
+  "80640": {},
+  "80641": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80642": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80643": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80644": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80645": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80646": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
