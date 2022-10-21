@@ -1427,14 +1427,14 @@
     "prereqs": []
   },
   "CSCI 4962": {
-    "title": "Software Verification",
+    "title": "Security And Privacy Of Ml",
     "prereqs": [
       "CSCI 2300",
       "CSCI 2600"
     ]
   },
   "CSCI 4964": {
-    "title": "Graph Mining",
+    "title": "Ai And Blockchain",
     "prereqs": [
       "CSCI 2300"
     ]
@@ -1447,11 +1447,8 @@
     ]
   },
   "CSCI 4966": {
-    "title": "Computational Geometry",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "title": "Learning & Advanced Game Ai",
+    "prereqs": []
   },
   "CSCI 4967": {
     "title": "Economics And Computation",
@@ -1460,7 +1457,7 @@
     ]
   },
   "CSCI 4968": {
-    "title": "Trustworthy Machine Learning",
+    "title": "Ml And Optimization",
     "prereqs": [
       "CSCI 4100"
     ]
@@ -1510,7 +1507,7 @@
     "prereqs": []
   },
   "CSCI 6962": {
-    "title": "Software Verification",
+    "title": "Security And Privacy Of Ml",
     "prereqs": []
   },
   "CSCI 6963": {
@@ -1518,7 +1515,7 @@
     "prereqs": []
   },
   "CSCI 6964": {
-    "title": "Graph Mining",
+    "title": "Ai And Blockchain",
     "prereqs": []
   },
   "CSCI 6965": {
@@ -1526,11 +1523,11 @@
     "prereqs": []
   },
   "CSCI 6968": {
-    "title": "Trustworthy Machine Learning",
+    "title": "Ml And Optimization",
     "prereqs": []
   },
   "CSCI 6969": {
-    "title": "Mach Learning Bioinformatics",
+    "title": "Graduate Skills",
     "prereqs": []
   },
   "CSCI 6970": {
@@ -2202,8 +2199,11 @@
     "prereqs": []
   },
   "ECSE 6480": {
-    "title": "Adaptive Systems",
-    "prereqs": []
+    "title": "Adaptv Sys & Reinforcmt Lrng",
+    "prereqs": [
+      "ECSE 2500",
+      "ECSE 6400"
+    ]
   },
   "ECSE 6510": {
     "title": "Intro Stoch Sign & Sys",
@@ -4843,10 +4843,8 @@
     ]
   },
   "CSCI 4961": {
-    "title": "Network Resilience",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "title": "Intro To Network Science",
+    "prereqs": []
   },
   "CSCI 4963": {
     "title": "Ml For Autonomous Systems",
@@ -4855,7 +4853,7 @@
     ]
   },
   "CSCI 4969": {
-    "title": "Mach Learning Bioinformatics",
+    "title": "Information Retrieval",
     "prereqs": [
       "CSCI 2300"
     ]
@@ -10320,7 +10318,9 @@
   },
   "CSCI 6230": {
     "title": "Cryptography And Network Security I",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300"
+    ]
   },
   "CSCI 6350": {
     "title": "Data Science",

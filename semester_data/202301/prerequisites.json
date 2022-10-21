@@ -11614,21 +11614,6 @@
   },
   "79292": {},
   "79293": {},
-  "79294": {
-    "prerequisites": {
-      "course": "CSCI 4430",
-      "type": "course"
-    }
-  },
-  "79295": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79296": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -13221,21 +13206,6 @@
       "type": "and"
     }
   },
-  "79576": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79579": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -13258,21 +13228,6 @@
     }
   },
   "79582": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79583": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "79584": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -13595,6 +13550,30 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "79640": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "79641": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "79644": {
@@ -16458,21 +16437,6 @@
       }
     }
   },
-  "80277": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "80278": {
     "prerequisites": {
       "nested": [
@@ -18605,5 +18569,69 @@
         ]
       }
     }
-  }
+  },
+  "80622": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80623": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "80624": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80625": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80626": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80628": {}
 }
