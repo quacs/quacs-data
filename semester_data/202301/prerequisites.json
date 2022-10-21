@@ -2154,15 +2154,6 @@
     }
   },
   "76032": {},
-  "76035": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "76036": {},
   "76037": {},
   "76038": {
@@ -4792,22 +4783,6 @@
   },
   "77321": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77323": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -15998,6 +15973,35 @@
       "BIOL-2120"
     ]
   },
+  "80203": {
+    "corequisites": [
+      "BIOL-2120"
+    ]
+  },
+  "80204": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Bioinformatics & Molec Biology",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
   "80207": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -17202,16 +17206,6 @@
   "80366": {},
   "80367": {},
   "80368": {},
-  "80369": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "80370": {
     "restrictions": {
       "classification": {
@@ -18633,5 +18627,58 @@
       }
     }
   },
-  "80628": {}
+  "80628": {},
+  "80629": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biological Neuroscience",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80631": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80632": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6400",
+          "type": "course"
+        },
+        {
+          "course": "MANE 6600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
