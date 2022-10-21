@@ -2903,6 +2903,9 @@
     }
   },
   "76114": {
+    "cross_list_courses": [
+      "MATH-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19478,5 +19481,42 @@
       "type": "and"
     }
   },
-  "80649": {}
+  "80649": {},
+  "80650": {
+    "cross_list_courses": [
+      "CSCI-4260"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CSCI 1100",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 1200",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2200",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4090",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80651": {}
 }
