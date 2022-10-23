@@ -15747,28 +15747,6 @@
     }
   },
   "80132": {},
-  "80133": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4530",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4750",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "80134": {
     "prerequisites": {
       "nested": [
@@ -17756,21 +17734,6 @@
       "type": "or"
     }
   },
-  "80356": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 2520",
-          "type": "course"
-        },
-        {
-          "course": "WRIT 2330",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80357": {
     "restrictions": {
       "level": {
@@ -17849,43 +17812,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "80377": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 1040",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 1600",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2510",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2520",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2540",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -18085,7 +18011,6 @@
       "type": "course"
     }
   },
-  "80398": {},
   "80400": {
     "restrictions": {
       "level": {
@@ -18301,15 +18226,6 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "80489": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -18945,7 +18861,6 @@
   },
   "80581": {},
   "80582": {},
-  "80583": {},
   "80584": {},
   "80585": {},
   "80586": {},
@@ -19537,5 +19452,56 @@
         ]
       }
     }
-  }
+  },
+  "80653": {
+    "prerequisites": {
+      "course": "COGS 2340",
+      "type": "course"
+    }
+  },
+  "80654": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 4570",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80655": {
+    "prerequisites": {
+      "course": "GSAS 4240",
+      "type": "course"
+    }
+  },
+  "80656": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80657": {}
 }
