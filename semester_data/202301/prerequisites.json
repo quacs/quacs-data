@@ -6925,6 +6925,9 @@
     }
   },
   "78058": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -8266,12 +8269,18 @@
     }
   },
   "78301": {
+    "cross_list_courses": [
+      "PSYC-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
     }
   },
   "78302": {
+    "cross_list_courses": [
+      "COGS-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -10309,7 +10318,16 @@
   },
   "78825": {},
   "78826": {},
-  "78827": {},
+  "78827": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "78828": {
     "prerequisites": {
       "course": "ARCH 2820",
@@ -14821,12 +14839,11 @@
       "type": "or"
     },
     "restrictions": {
-      "major": {
+      "classification": {
         "must_be": [
-          "Business and Management",
-          "Cognitive Science",
-          "Economics",
-          "Psychological Science"
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -15127,7 +15144,16 @@
       }
     }
   },
-  "79847": {},
+  "79847": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "79848": {
     "restrictions": {
       "classification": {
@@ -15457,8 +15483,17 @@
       }
     }
   },
-  "79909": {},
+  "79909": {
+    "cross_list_courses": [
+      "COGS-6960",
+      "CSCI-4960"
+    ]
+  },
   "79910": {
+    "cross_list_courses": [
+      "COGS-4960",
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15481,6 +15516,10 @@
   "79914": {},
   "79915": {},
   "79916": {
+    "cross_list_courses": [
+      "COGS-4960",
+      "COGS-6960"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -15554,7 +15593,16 @@
       "type": "or"
     }
   },
-  "79928": {},
+  "79928": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "79929": {
     "restrictions": {
       "classification": {
@@ -15740,7 +15788,15 @@
   "80013": {},
   "80014": {},
   "80015": {},
-  "80016": {},
+  "80016": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "80029": {
     "restrictions": {
       "classification": {
@@ -15965,6 +16021,9 @@
   },
   "80132": {},
   "80134": {
+    "cross_list_courses": [
+      "COGS-6880"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15996,6 +16055,9 @@
     }
   },
   "80135": {
+    "cross_list_courses": [
+      "COGS-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17336,8 +17398,6 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Biomedical Engineering",
-          "Business Analytics",
           "Design, Innovation and Society",
           "Science, Tech & Society",
           "Science, Tech & Society",
@@ -17904,7 +17964,11 @@
   "80344": {},
   "80345": {},
   "80348": {},
-  "80351": {},
+  "80351": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ]
+  },
   "80352": {},
   "80354": {
     "restrictions": {
@@ -18717,6 +18781,9 @@
     }
   },
   "80537": {
+    "cross_list_courses": [
+      "ARTS-6040"
+    ],
     "prerequisites": {
       "course": "ARTS 1030",
       "type": "course"
@@ -18791,8 +18858,32 @@
       }
     }
   },
-  "80544": {},
-  "80545": {},
+  "80544": {
+    "cross_list_courses": [
+      "ARTS-1020"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "80545": {
+    "cross_list_courses": [
+      "ARTS-1020"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80546": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -19086,7 +19177,16 @@
   "80588": {},
   "80589": {},
   "80590": {},
-  "80591": {},
+  "80591": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80592": {},
   "80593": {
     "prerequisites": {
@@ -19105,7 +19205,16 @@
       }
     }
   },
-  "80596": {},
+  "80596": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80597": {},
   "80598": {
     "prerequisites": {
@@ -19721,7 +19830,16 @@
       "type": "or"
     }
   },
-  "80657": {},
+  "80657": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80658": {
     "restrictions": {
       "classification": {
@@ -19789,8 +19907,26 @@
       "type": "or"
     }
   },
-  "80664": {},
-  "80665": {},
+  "80664": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80665": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80666": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -20064,13 +20200,54 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "80691": {},
   "80692": {},
-  "80693": {},
+  "80693": {
+    "cross_list_courses": [
+      "ARTS-4040"
+    ]
+  },
   "80694": {},
   "80695": {},
   "80696": {},
-  "80697": {}
+  "80697": {},
+  "80698": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80699": {},
+  "80700": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80701": {
+    "cross_list_courses": [
+      "PSYC-4960"
+    ]
+  },
+  "80702": {
+    "cross_list_courses": [
+      "GSAS-4960"
+    ]
+  }
 }
