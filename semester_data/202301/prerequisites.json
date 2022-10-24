@@ -14667,34 +14667,6 @@
       "type": "or"
     }
   },
-  "79810": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "COGS 2120",
-              "type": "course"
-            },
-            {
-              "course": "PHIL 2120",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2120",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79813": {},
   "79814": {
     "prerequisites": {
@@ -17384,7 +17356,6 @@
       }
     }
   },
-  "80306": {},
   "80307": {
     "prerequisites": {
       "course": "ENGR 2020",
@@ -17463,33 +17434,6 @@
   },
   "80310": {},
   "80311": {},
-  "80312": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "IHSS 1420",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1430",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80313": {
     "restrictions": {
       "level": {
@@ -17671,45 +17615,8 @@
   "80344": {},
   "80345": {},
   "80348": {},
-  "80349": {},
-  "80350": {},
   "80351": {},
   "80352": {},
-  "80353": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2520",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80354": {
     "restrictions": {
       "level": {
@@ -17749,7 +17656,6 @@
       "type": "course"
     }
   },
-  "80359": {},
   "80360": {},
   "80362": {},
   "80363": {},
@@ -18047,7 +17953,6 @@
     }
   },
   "80406": {},
-  "80408": {},
   "80409": {},
   "80410": {},
   "80412": {},
@@ -18218,16 +18123,6 @@
   },
   "80484": {},
   "80485": {},
-  "80487": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "80490": {},
   "80493": {},
   "80494": {},
@@ -19568,6 +19463,64 @@
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
+    }
+  },
+  "80668": {},
+  "80669": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1420",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1430",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80670": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80671": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "WRIT 1110",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2110",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
