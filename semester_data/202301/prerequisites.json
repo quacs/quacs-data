@@ -7766,7 +7766,19 @@
     }
   },
   "78197": {},
-  "78199": {},
+  "78199": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "78200": {
     "prerequisites": {
       "course": "ASTR 2050",
@@ -8313,7 +8325,19 @@
       }
     }
   },
-  "78306": {},
+  "78306": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "78307": {
     "prerequisites": {
       "course": "ARTS 1200",
@@ -11540,7 +11564,11 @@
       "type": "or"
     }
   },
-  "79042": {},
+  "79042": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ]
+  },
   "79045": {
     "restrictions": {
       "classification": {
@@ -18603,8 +18631,21 @@
   "80521": {},
   "80522": {},
   "80524": {},
-  "80525": {},
-  "80526": {},
+  "80525": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80526": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ]
+  },
   "80527": {
     "prerequisites": {
       "nested": [
@@ -18622,6 +18663,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "80528": {},
@@ -20019,5 +20069,8 @@
   "80691": {},
   "80692": {},
   "80693": {},
-  "80694": {}
+  "80694": {},
+  "80695": {},
+  "80696": {},
+  "80697": {}
 }
