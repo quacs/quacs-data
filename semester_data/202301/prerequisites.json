@@ -4876,6 +4876,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "77287": {
@@ -6180,6 +6187,9 @@
     }
   },
   "77858": {
+    "cross_list_courses": [
+      "ITWS-4100"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -6924,6 +6934,9 @@
     }
   },
   "78059": {
+    "cross_list_courses": [
+      "ITWS-6800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8253,6 +8266,13 @@
     }
   },
   "78303": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8268,6 +8288,13 @@
     }
   },
   "78304": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -8478,6 +8505,13 @@
     }
   },
   "78321": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8493,6 +8527,13 @@
     }
   },
   "78322": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -8506,6 +8547,13 @@
     }
   },
   "78323": {
+    "cross_list_courses": [
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8530,6 +8578,13 @@
     }
   },
   "78324": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9463,6 +9518,9 @@
     }
   },
   "78486": {
+    "cross_list_courses": [
+      "CSCI-4976"
+    ],
     "prerequisites": {
       "course": "ITWS 2110",
       "type": "course"
@@ -9484,6 +9542,9 @@
     }
   },
   "78487": {
+    "cross_list_courses": [
+      "ITWS-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9496,6 +9557,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "78488": {},
@@ -10633,6 +10701,11 @@
   "78859": {},
   "78860": {},
   "78861": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -10642,6 +10715,11 @@
     }
   },
   "78862": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12127,7 +12205,15 @@
       }
     }
   },
-  "79286": {},
+  "79286": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "79287": {
     "prerequisites": {
       "nested": [
@@ -13141,6 +13227,11 @@
   "79424": {},
   "79425": {},
   "79427": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13459,6 +13550,9 @@
     }
   },
   "79538": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13471,6 +13565,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Cognitive Science",
+          "Economics",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "79539": {},
@@ -13815,6 +13919,9 @@
     }
   },
   "79588": {
+    "cross_list_courses": [
+      "CSCI-4976"
+    ],
     "prerequisites": {
       "course": "ITWS 2110",
       "type": "course"
@@ -13828,6 +13935,11 @@
     }
   },
   "79589": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -13936,6 +14048,12 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Information Tech & Web Science"
@@ -14645,6 +14763,9 @@
     }
   },
   "79808": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14657,6 +14778,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Cognitive Science",
+          "Economics",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "79809": {
@@ -17487,15 +17618,6 @@
     }
   },
   "80316": {},
-  "80318": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80319": {},
   "80320": {
     "restrictions": {
@@ -17537,6 +17659,11 @@
     }
   },
   "80328": {
+    "cross_list_courses": [
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17586,6 +17713,11 @@
     }
   },
   "80333": {
+    "cross_list_courses": [
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17748,7 +17880,9 @@
   },
   "80379": {
     "cross_list_courses": [
-      "MGMT-6600"
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600"
     ],
     "restrictions": {
       "level": {
@@ -17760,7 +17894,9 @@
   },
   "80380": {
     "cross_list_courses": [
-      "MGMT-6600"
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600"
     ],
     "restrictions": {
       "level": {
@@ -18433,10 +18569,6 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHME 2100",
-          "type": "course"
-        },
-        {
           "course": "CHME 4040",
           "type": "course"
         },
@@ -18458,10 +18590,6 @@
   "80542": {
     "prerequisites": {
       "nested": [
-        {
-          "course": "CHME 2100",
-          "type": "course"
-        },
         {
           "course": "CHME 4040",
           "type": "course"
@@ -19679,5 +19807,41 @@
         ]
       }
     }
-  }
+  },
+  "80684": {
+    "cross_list_courses": [
+      "ITWS-4500"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "80685": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 4300",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 6300",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4100",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 6800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80686": {}
 }
