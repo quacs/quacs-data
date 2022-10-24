@@ -12192,6 +12192,14 @@
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "79282": {},
@@ -12490,7 +12498,12 @@
       }
     }
   },
-  "79351": {},
+  "79351": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
   "79352": {
     "restrictions": {
       "classification": {
@@ -15149,8 +15162,61 @@
       }
     }
   },
-  "79876": {},
+  "79876": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PSYC 4310",
+              "type": "course"
+            },
+            {
+              "course": "COGS 2120",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "79877": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PSYC 4310",
+              "type": "course"
+            },
+            {
+              "course": "COGS 2120",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -16757,6 +16823,23 @@
     }
   },
   "80220": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -17221,7 +17304,20 @@
       "type": "or"
     }
   },
-  "80288": {},
+  "80288": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biomedical Engineering",
+          "Business Analytics",
+          "Design, Innovation and Society",
+          "Science, Tech & Society",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
+    }
+  },
   "80289": {
     "prerequisites": {
       "course": "PHYS 2220",
@@ -17513,8 +17609,17 @@
   },
   "80307": {
     "prerequisites": {
-      "course": "ENGR 2020",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 2020",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2020",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "80308": {
@@ -18115,7 +18220,25 @@
   "80406": {},
   "80409": {},
   "80410": {},
-  "80412": {},
+  "80412": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "80413": {},
   "80414": {},
   "80415": {},
@@ -19843,5 +19966,55 @@
       "type": "or"
     }
   },
-  "80686": {}
+  "80686": {},
+  "80687": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
+  "80688": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "80689": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80690": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80691": {}
 }
