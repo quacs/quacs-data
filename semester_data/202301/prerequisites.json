@@ -2984,7 +2984,11 @@
       "type": "course"
     }
   },
-  "76122": {},
+  "76122": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
   "76123": {},
   "76131": {},
   "76132": {
@@ -3958,7 +3962,11 @@
     }
   },
   "76866": {},
-  "76877": {},
+  "76877": {
+    "cross_list_courses": [
+      "PSYC-2100"
+    ]
+  },
   "76878": {},
   "76880": {},
   "76881": {
@@ -14278,8 +14286,16 @@
   },
   "79655": {},
   "79658": {},
-  "79659": {},
-  "79660": {},
+  "79659": {
+    "cross_list_courses": [
+      "PSYC-2100"
+    ]
+  },
+  "79660": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
   "79663": {},
   "79664": {
     "restrictions": {
@@ -14589,7 +14605,11 @@
     }
   },
   "79797": {},
-  "79799": {},
+  "79799": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "79802": {
     "restrictions": {
       "classification": {
@@ -17213,7 +17233,11 @@
       }
     }
   },
-  "80293": {},
+  "80293": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ]
+  },
   "80294": {
     "prerequisites": {
       "nested": [
@@ -19417,8 +19441,15 @@
     }
   },
   "80661": {},
-  "80662": {},
+  "80662": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ]
+  },
   "80663": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19538,5 +19569,115 @@
       "type": "or"
     }
   },
-  "80673": {}
+  "80673": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80674": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80675": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80676": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80677": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80678": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80679": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student",
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "80680": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "80681": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80682": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80683": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
