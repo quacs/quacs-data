@@ -1314,7 +1314,9 @@
   },
   "CSCI 1200": {
     "title": "Data Structures",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1100"
+    ]
   },
   "CSCI 2220": {
     "title": "Programming In Java",
@@ -1429,21 +1431,23 @@
   "CSCI 4962": {
     "title": "Security And Privacy Of Ml",
     "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
+      "CSCI 4100",
+      "CSCI 4150",
+      "CSCI 6100"
     ]
   },
   "CSCI 4964": {
     "title": "Ai And Blockchain",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 2300",
+      "CSCI 2600"
     ]
   },
   "CSCI 4965": {
     "title": "Safe Autonomy",
     "prereqs": [
-      "CSCI 2300",
-      "MATH 4100"
+      "CSCI 4100",
+      "CSCI 6100"
     ]
   },
   "CSCI 4966": {
@@ -1459,7 +1463,8 @@
   "CSCI 4968": {
     "title": "Ml And Optimization",
     "prereqs": [
-      "CSCI 4100"
+      "CSCI 2300",
+      "MATH 2010"
     ]
   },
   "CSCI 4970": {
@@ -4601,7 +4606,9 @@
   },
   "CHEM 4810": {
     "title": "Chem Of Environment",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1200"
+    ]
   },
   "CHEM 4940": {
     "title": "Readings In Chem",
@@ -4840,7 +4847,9 @@
   },
   "CSCI 4961": {
     "title": "Intro To Network Science",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2200"
+    ]
   },
   "CSCI 4963": {
     "title": "Ml For Autonomous Systems",
@@ -5014,7 +5023,9 @@
   },
   "ERTH 4750": {
     "title": "Gis In The Sciences",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1100"
+    ]
   },
   "ECON 4210": {
     "title": "Cost-benefit Analysis",
@@ -6963,7 +6974,7 @@
     "title": "Aqueous Geochemistry",
     "prereqs": [
       "CHEM 1100",
-      "CHEM 1110"
+      "ERTH 1110"
     ]
   },
   "ECON 4260": {
@@ -8447,7 +8458,7 @@
     "title": "Aqueous Geochemistry",
     "prereqs": [
       "CHEM 1100",
-      "CHEM 1110"
+      "ERTH 1110"
     ]
   },
   "CHEM 6450": {
@@ -8555,7 +8566,10 @@
   },
   "ENVE 4110": {
     "title": "Aqueous Geochemistry",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1100",
+      "ERTH 1100"
+    ]
   },
   "ENVE 4240": {
     "title": "Bench Scale Design",
@@ -9948,13 +9962,16 @@
     "title": "Xinformatics",
     "prereqs": [
       "CSCI 1200",
-      "CSCI 4350"
+      "CSCI 4960",
+      "ERTH 4960"
     ]
   },
   "ERTH 6400": {
     "title": "Xinformatics",
     "prereqs": [
-      "CSCI 1200"
+      "CSCI 1200",
+      "CSCI 6960",
+      "ERTH 6960"
     ]
   },
   "ECON 4963": {
@@ -10686,7 +10703,10 @@
   },
   "ERTH 6690": {
     "title": "Aqueous Geochemistry",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1100",
+      "ERTH 1100"
+    ]
   },
   "ECSE 6200": {
     "title": "Semiconductor Devise Characterization",
@@ -14040,7 +14060,9 @@
   },
   "ERTH 4810": {
     "title": "Chem Of The Environment",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1200"
+    ]
   },
   "ECSE 4310": {
     "title": "Fdmtls Of Rf/microwave Engr",
