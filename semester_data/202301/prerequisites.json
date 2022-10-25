@@ -20843,5 +20843,20 @@
       }
     }
   },
-  "80707": {}
+  "80707": {},
+  "80708": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
