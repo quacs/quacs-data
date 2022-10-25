@@ -6942,21 +6942,6 @@
       }
     }
   },
-  "77946": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 2210",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 2250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "77948": {
     "restrictions": {
       "level": {
@@ -12348,7 +12333,11 @@
   },
   "79117": {},
   "79118": {},
-  "79119": {},
+  "79119": {
+    "cross_list_courses": [
+      "CHEM-6610"
+    ]
+  },
   "79120": {},
   "79121": {
     "restrictions": {
@@ -13818,6 +13807,9 @@
     }
   },
   "79447": {
+    "cross_list_courses": [
+      "CHEM-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17473,8 +17465,15 @@
       }
     }
   },
-  "80227": {},
+  "80227": {
+    "cross_list_courses": [
+      "CHEM-6962"
+    ]
+  },
   "80228": {
+    "cross_list_courses": [
+      "CHEM-4962"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20857,6 +20856,21 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "80709": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 4110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4420",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
