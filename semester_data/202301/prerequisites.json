@@ -18864,15 +18864,6 @@
       "type": "or"
     }
   },
-  "80392": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80393": {},
   "80396": {
     "prerequisites": {
@@ -19110,15 +19101,6 @@
   "80494": {},
   "80495": {},
   "80497": {},
-  "80499": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80500": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -20428,12 +20410,6 @@
       }
     }
   },
-  "80653": {
-    "prerequisites": {
-      "course": "COGS 2340",
-      "type": "course"
-    }
-  },
   "80654": {
     "prerequisites": {
       "nested": [
@@ -20807,15 +20783,6 @@
       "type": "course"
     }
   },
-  "80688": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
   "80689": {
     "prerequisites": {
       "nested": [
@@ -21052,6 +21019,27 @@
     "prerequisites": {
       "course": "ARTS 2020",
       "type": "course"
+    }
+  },
+  "80721": {
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "80722": {},
+  "80723": {},
+  "80724": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
