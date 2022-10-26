@@ -3020,6 +3020,9 @@
     }
   },
   "76120": {
+    "cross_list_courses": [
+      "MTLE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "type": "course"
@@ -4216,6 +4219,9 @@
     }
   },
   "76891": {
+    "cross_list_courses": [
+      "ECSE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "type": "course"
@@ -18759,37 +18765,6 @@
       "type": "or"
     }
   },
-  "80390": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSS 2100",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2300",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2300",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2100",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2210",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80391": {
     "prerequisites": {
       "nested": [
@@ -21049,5 +21024,16 @@
         ]
       }
     }
-  }
+  },
+  "80725": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80726": {},
+  "80727": {}
 }
