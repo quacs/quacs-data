@@ -17774,7 +17774,21 @@
       }
     }
   },
-  "80255": {},
+  "80255": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "80256": {
     "restrictions": {
       "campus": {
@@ -17789,8 +17803,36 @@
       }
     }
   },
-  "80257": {},
-  "80258": {},
+  "80257": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80258": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "80259": {
     "restrictions": {
       "campus": {
@@ -17805,7 +17847,21 @@
       }
     }
   },
-  "80260": {},
+  "80260": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "80261": {
     "restrictions": {
       "campus": {
@@ -17838,15 +17894,15 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CSCI 4100",
+          "course": "CSCI 2300",
           "type": "course"
         },
         {
-          "course": "CSCI 6100",
+          "course": "MATH 4100",
           "type": "course"
         }
       ],
-      "type": "or"
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -17860,6 +17916,19 @@
     }
   },
   "80279": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
