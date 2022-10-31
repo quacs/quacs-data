@@ -11950,6 +11950,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "79042": {
@@ -14606,6 +14614,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "79595": {},
@@ -15631,6 +15647,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "79828": {},
@@ -20129,6 +20153,9 @@
     }
   },
   "80624": {
+    "cross_list_courses": [
+      "MANE-6840"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
