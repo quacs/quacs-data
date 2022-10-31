@@ -14242,6 +14242,9 @@
     }
   },
   "79556": {
+    "cross_list_courses": [
+      "ENVE-2110"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18644,15 +18647,6 @@
       "type": "or"
     }
   },
-  "80357": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80358": {
     "prerequisites": {
       "course": "IHSS 1610",
@@ -20482,29 +20476,6 @@
       "type": "course"
     }
   },
-  "80656": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80657": {
     "restrictions": {
       "classification": {
@@ -20535,53 +20506,6 @@
     }
   },
   "80661": {},
-  "80662": {
-    "cross_list_courses": [
-      "PHIL-4500"
-    ]
-  },
-  "80663": {
-    "cross_list_courses": [
-      "STSO-4250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80664": {
     "restrictions": {
       "classification": {
@@ -20877,7 +20801,16 @@
     }
   },
   "80691": {},
-  "80692": {},
+  "80692": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "80693": {
     "cross_list_courses": [
       "ARTS-4040"
@@ -20885,7 +20818,6 @@
   },
   "80694": {},
   "80695": {},
-  "80696": {},
   "80697": {},
   "80698": {
     "restrictions": {
@@ -21111,5 +21043,37 @@
     }
   },
   "80726": {},
-  "80727": {}
+  "80727": {},
+  "80728": {},
+  "80729": {
+    "cross_list_courses": [
+      "ENVE-2110"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CHEM 1100",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "CIVL 2050",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
