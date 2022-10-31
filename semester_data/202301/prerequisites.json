@@ -18972,7 +18972,6 @@
       "type": "or"
     }
   },
-  "80413": {},
   "80414": {},
   "80415": {},
   "80416": {
@@ -18985,7 +18984,6 @@
     }
   },
   "80417": {},
-  "80418": {},
   "80419": {
     "prerequisites": {
       "nested": [
@@ -21130,5 +21128,34 @@
     "cross_list_courses": [
       "MANE-6962"
     ]
+  },
+  "80731": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80732": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80733": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
