@@ -19287,12 +19287,6 @@
           "Freshman",
           "Sophomore"
         ]
-      },
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
       }
     }
   },
@@ -20662,33 +20656,6 @@
     }
   },
   "80668": {},
-  "80669": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "IHSS 1420",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1430",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80670": {
     "restrictions": {
       "classification": {
@@ -20945,7 +20912,6 @@
       "ARTS-4040"
     ]
   },
-  "80694": {},
   "80695": {},
   "80697": {},
   "80698": {
@@ -21304,6 +21270,34 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "80739": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
     }
   }
 }
