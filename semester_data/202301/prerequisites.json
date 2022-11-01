@@ -15742,7 +15742,11 @@
       }
     }
   },
-  "79832": {},
+  "79832": {
+    "cross_list_courses": [
+      "ECON-6360"
+    ]
+  },
   "79835": {
     "restrictions": {
       "level": {
@@ -15840,6 +15844,9 @@
   "79860": {},
   "79861": {},
   "79866": {
+    "cross_list_courses": [
+      "ECON-4360"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15851,7 +15858,11 @@
   "79867": {},
   "79870": {},
   "79871": {},
-  "79872": {},
+  "79872": {
+    "cross_list_courses": [
+      "ECON-6340"
+    ]
+  },
   "79873": {
     "restrictions": {
       "level": {
@@ -15862,6 +15873,9 @@
     }
   },
   "79874": {
+    "cross_list_courses": [
+      "ECON-4340"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18982,12 +18996,6 @@
     }
   },
   "80393": {},
-  "80396": {
-    "prerequisites": {
-      "course": "PHIL 2140",
-      "type": "course"
-    }
-  },
   "80400": {
     "restrictions": {
       "level": {
@@ -20627,7 +20635,6 @@
       }
     }
   },
-  "80661": {},
   "80664": {
     "restrictions": {
       "classification": {
@@ -21240,6 +21247,63 @@
           "Information Tech & Web Science"
         ]
       }
+    }
+  },
+  "80736": {
+    "cross_list_courses": [
+      "CSCI-4420",
+      "MATH-4030"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80737": {
+    "cross_list_courses": [
+      "CSCI-4420",
+      "PHIL-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80738": {
+    "cross_list_courses": [
+      "MATH-4030",
+      "PHIL-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
