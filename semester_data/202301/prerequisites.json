@@ -500,6 +500,45 @@
       }
     }
   },
+  "75860": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Science",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
   "75861": {
     "restrictions": {
       "major": {
@@ -13103,21 +13142,6 @@
     }
   },
   "79358": {},
-  "79360": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79362": {
     "cross_list_courses": [
       "ENGR-1600",
@@ -13298,11 +13322,51 @@
       "type": "or"
     }
   },
+  "79371": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "79372": {
     "cross_list_courses": [
       "CHEM-1600",
       "ENGR-1600",
       "ISCI-1600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "79373": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
     ],
     "prerequisites": {
       "nested": [
@@ -16292,7 +16356,6 @@
       }
     }
   },
-  "79960": {},
   "79969": {
     "restrictions": {
       "level": {
@@ -21154,6 +21217,16 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80734": {},
+  "80735": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
         ]
       }
     }
