@@ -7,5 +7,22 @@
         ]
       }
     }
+  },
+  "90017": {},
+  "90018": {},
+  "90019": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   }
 }

@@ -7575,15 +7575,6 @@
       }
     }
   },
-  "78164": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78166": {
     "restrictions": {
       "level": {
@@ -12501,6 +12492,9 @@
   "79133": {},
   "79134": {},
   "79136": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -12605,29 +12599,6 @@
     }
   },
   "79253": {},
-  "79263": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "79264": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "79265": {},
   "79266": {},
   "79267": {
     "prerequisites": {
@@ -12715,6 +12686,9 @@
     }
   },
   "79281": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -15791,15 +15765,6 @@
       }
     }
   },
-  "79843": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "79845": {},
   "79846": {
     "restrictions": {
@@ -15812,16 +15777,6 @@
     }
   },
   "79847": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "79848": {
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19763,21 +19718,7 @@
       }
     }
   },
-  "80562": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ERTH 2330",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 2140",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
+  "80562": {},
   "80563": {
     "prerequisites": {
       "course": "CHEM 1100",
@@ -20923,7 +20864,6 @@
       }
     }
   },
-  "80699": {},
   "80700": {
     "restrictions": {
       "level": {
@@ -21299,5 +21239,47 @@
         ]
       }
     }
-  }
+  },
+  "80740": {
+    "prerequisites": {
+      "course": "COMM 2660",
+      "type": "course"
+    }
+  },
+  "80741": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2010",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80742": {}
 }
