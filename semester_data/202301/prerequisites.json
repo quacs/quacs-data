@@ -1820,26 +1820,10 @@
     }
   },
   "75929": {},
-  "75930": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "75931": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "75932": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "75933": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "75930": {},
+  "75931": {},
+  "75932": {},
+  "75933": {},
   "75934": {
     "prerequisites": {
       "nested": [
@@ -3474,11 +3458,7 @@
       }
     }
   },
-  "76217": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "76217": {},
   "76218": {},
   "76219": {},
   "76220": {
@@ -4984,21 +4964,9 @@
       "type": "course"
     }
   },
-  "77279": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "77280": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "77281": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "77279": {},
+  "77280": {},
+  "77281": {},
   "77282": {
     "prerequisites": {
       "nested": [
@@ -12278,16 +12246,8 @@
       }
     }
   },
-  "79078": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "79079": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "79078": {},
+  "79079": {},
   "79082": {},
   "79083": {
     "restrictions": {
@@ -12374,16 +12334,8 @@
       }
     }
   },
-  "79093": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
-  "79094": {
-    "corequisites": [
-      "PHYS-1960"
-    ]
-  },
+  "79093": {},
+  "79094": {},
   "79095": {
     "restrictions": {
       "classification": {
@@ -17339,49 +17291,28 @@
   "80195": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
   },
   "80196": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80197": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80198": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80199": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80200": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80201": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80202": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80203": {
-    "corequisites": [
-      "BIOL-2120"
-    ]
-  },
-  "80204": {
     "corequisites": [
       "BIOL-2120"
     ],
@@ -17395,11 +17326,179 @@
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
-          "Bioinformatics & Molec Biology",
           "Biology",
           "Biology",
           "Biological Neuroscience",
           "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80197": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80198": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80199": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80200": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80201": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80202": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "80203": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
           "Computational Biology"
         ]
       }
@@ -20179,16 +20278,20 @@
     "corequisites": [
       "BIOL-2120"
     ],
-    "prerequisites": {
-      "course": "BIOL 1010",
-      "type": "course"
-    },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
           "Biology",
+          "Biology",
           "Biological Neuroscience",
+          "Biomedical Engineering",
           "Biotechnology & Health Econ",
           "Computational Biology"
         ]
