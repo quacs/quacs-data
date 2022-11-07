@@ -9234,6 +9234,16 @@
   },
   "78363": {},
   "78364": {},
+  "78365": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "78366": {},
   "78367": {
     "restrictions": {
@@ -12983,15 +12993,6 @@
       "type": "course"
     }
   },
-  "79352": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "79353": {
     "restrictions": {
       "level": {
@@ -15678,6 +15679,15 @@
       }
     }
   },
+  "79843": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "79845": {},
   "79846": {
     "restrictions": {
@@ -17254,6 +17264,7 @@
           "Biochemistry & Biophysics",
           "Bioinformatics & Molec Biology",
           "Biology",
+          "Biology",
           "Biological Neuroscience",
           "Biomedical Engineering",
           "Biotechnology & Health Econ",
@@ -17277,6 +17288,7 @@
         "must_be": [
           "Biochemistry & Biophysics",
           "Bioinformatics & Molec Biology",
+          "Biology",
           "Biology",
           "Biological Neuroscience",
           "Biomedical Engineering",
@@ -18914,16 +18926,6 @@
       }
     }
   },
-  "80382": {},
-  "80383": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80384": {
     "restrictions": {
       "major": {
@@ -18986,15 +18988,7 @@
       }
     }
   },
-  "80401": {
-    "restrictions": {
-      "degree": {
-        "must_be": [
-          "Master of Fine Arts"
-        ]
-      }
-    }
-  },
+  "80401": {},
   "80402": {},
   "80403": {},
   "80404": {
@@ -20657,6 +20651,9 @@
     }
   },
   "80671": {
+    "cross_list_courses": [
+      "WRIT-6550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20669,21 +20666,6 @@
         },
         {
           "course": "COMM 2520",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "80672": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
           "type": "course"
         }
       ],
@@ -20901,7 +20883,9 @@
       "ARTS-4040"
     ]
   },
+  "80694": {},
   "80695": {},
+  "80696": {},
   "80697": {},
   "80698": {
     "restrictions": {
@@ -21033,7 +21017,7 @@
       "CHEM-6620"
     ],
     "prerequisites": {
-      "course": "CHEM 4460",
+      "course": "CHEM 2260",
       "type": "course"
     }
   },
@@ -21328,5 +21312,33 @@
   },
   "80742": {},
   "80743": {},
-  "80744": {}
+  "80744": {
+    "cross_list_courses": [
+      "WRIT-4550"
+    ]
+  },
+  "80745": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80746": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
