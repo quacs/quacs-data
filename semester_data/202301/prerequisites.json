@@ -9457,7 +9457,6 @@
       }
     }
   },
-  "78401": {},
   "78404": {
     "restrictions": {
       "level": {
@@ -18975,25 +18974,6 @@
       "type": "or"
     }
   },
-  "80389": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSS 2210",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "type": "course"
-        },
-        {
-          "course": "STSH 2210",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80391": {},
   "80393": {},
   "80400": {
@@ -21356,6 +21336,29 @@
         },
         {
           "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80747": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1100",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1110",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
           "type": "course"
         }
       ],
