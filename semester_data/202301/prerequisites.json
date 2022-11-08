@@ -858,6 +858,9 @@
     }
   },
   "75880": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2704,6 +2707,9 @@
   },
   "76098": {},
   "76099": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18253,13 +18259,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Senior"
-        ]
-      }
     }
   },
   "80291": {
@@ -18296,13 +18295,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Senior"
-        ]
-      }
     }
   },
   "80292": {
@@ -18339,13 +18331,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Senior"
-        ]
-      }
     }
   },
   "80293": {
@@ -21363,6 +21348,15 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "80748": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
