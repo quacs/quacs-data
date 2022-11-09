@@ -33,5 +33,20 @@
       "course": "LANG 1410",
       "type": "course"
     }
+  },
+  "90024": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
