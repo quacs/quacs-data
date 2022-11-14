@@ -10646,6 +10646,9 @@
     }
   },
   "78831": {
+    "cross_list_courses": [
+      "CSCI-6360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10680,6 +10683,9 @@
     }
   },
   "78832": {
+    "cross_list_courses": [
+      "CSCI-4320"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16980,19 +16986,7 @@
   "80159": {
     "cross_list_courses": [
       "ECSE-6490"
-    ],
-    "prerequisites": {
-      "course": "ECSE 2410",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering"
-        ]
-      }
-    }
+    ]
   },
   "80160": {
     "cross_list_courses": [
@@ -21400,5 +21394,14 @@
       }
     }
   },
-  "80750": {}
+  "80750": {},
+  "80751": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
