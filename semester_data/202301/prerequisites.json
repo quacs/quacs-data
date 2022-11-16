@@ -13039,9 +13039,14 @@
       "type": "or"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
-          "Biology"
+          "Biomedical Engineering"
         ]
       }
     }
@@ -13051,6 +13056,11 @@
       "BIOL-4130"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Biomedical Engineering"
@@ -21058,7 +21068,14 @@
   "80718": {
     "cross_list_courses": [
       "BMED-4130"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biology"
+        ]
+      }
+    }
   },
   "80719": {
     "cross_list_courses": [
