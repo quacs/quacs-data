@@ -3035,6 +3035,19 @@
     }
   },
   "76152": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2050",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2610",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -11125,7 +11138,6 @@
       }
     }
   },
-  "79001": {},
   "79002": {},
   "79004": {
     "corequisites": [
@@ -17108,6 +17120,30 @@
       }
     }
   },
+  "80204": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Bioinformatics & Molec Biology",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
   "80207": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -18911,7 +18947,20 @@
       "MTLE-6962"
     ]
   },
-  "80520": {},
+  "80520": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Management"
+        ]
+      }
+    }
+  },
   "80521": {},
   "80522": {},
   "80524": {},
