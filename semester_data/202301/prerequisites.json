@@ -2057,6 +2057,7 @@
   },
   "75970": {},
   "75971": {},
+  "75972": {},
   "75976": {},
   "75977": {},
   "75978": {},
@@ -14015,6 +14016,32 @@
       "type": "and"
     }
   },
+  "79576": {
+    "cross_list_courses": [
+      "COGS-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "79579": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -20442,6 +20469,9 @@
     }
   },
   "80690": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "prerequisites": {
       "nested": [
         {
