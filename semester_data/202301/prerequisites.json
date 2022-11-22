@@ -1862,8 +1862,17 @@
           "type": "course"
         },
         {
-          "course": "MATH 4600",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 4600",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4700",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
