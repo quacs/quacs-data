@@ -14090,6 +14090,28 @@
       }
     }
   },
+  "79583": {
+    "cross_list_courses": [
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-4963",
+      "MANE-6963"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "79587": {
     "restrictions": {
       "major": {
@@ -16607,12 +16629,18 @@
   },
   "80159": {
     "cross_list_courses": [
-      "ECSE-6490"
+      "CSCI-4969",
+      "ECSE-6490",
+      "MANE-4963",
+      "MANE-6963"
     ]
   },
   "80160": {
     "cross_list_courses": [
-      "ECSE-4490"
+      "CSCI-4969",
+      "ECSE-4490",
+      "MANE-4963",
+      "MANE-6963"
     ],
     "restrictions": {
       "classification": {
@@ -18263,6 +18291,21 @@
     }
   },
   "80376": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80378": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20942,5 +20985,13 @@
       "course": "ARCH 4780",
       "type": "course"
     }
+  },
+  "80780": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-6963"
+    ]
   }
 }
