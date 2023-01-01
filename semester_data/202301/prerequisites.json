@@ -9764,7 +9764,11 @@
       "type": "and"
     }
   },
-  "78501": {},
+  "78501": {
+    "cross_list_courses": [
+      "ARCH-6340"
+    ]
+  },
   "78503": {
     "prerequisites": {
       "nested": [
@@ -20946,5 +20950,43 @@
       "MANE-6963"
     ]
   },
-  "80783": {}
+  "80783": {},
+  "80784": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80785": {
+    "cross_list_courses": [
+      "ARCH-6380"
+    ]
+  },
+  "80786": {
+    "cross_list_courses": [
+      "ARCH-4170"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80787": {
+    "cross_list_courses": [
+      "ARCH-4580"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
