@@ -20988,5 +20988,31 @@
         ]
       }
     }
-  }
+  },
+  "80788": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4820",
+      "type": "course"
+    }
+  },
+  "80789": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4910",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4790",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80790": {},
+  "80791": {}
 }
