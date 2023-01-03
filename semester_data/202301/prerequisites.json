@@ -18875,18 +18875,6 @@
     }
   },
   "80538": {},
-  "80539": {
-    "cross_list_courses": [
-      "ARTS-4130"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80540": {
     "prerequisites": {
       "course": "ARTS 1200",
@@ -20435,24 +20423,6 @@
       }
     }
   },
-  "80719": {
-    "cross_list_courses": [
-      "ARTS-6130"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 2500",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2540",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80720": {
     "cross_list_courses": [
       "ARTS-6965"
@@ -21008,5 +20978,15 @@
     }
   },
   "80790": {},
-  "80791": {}
+  "80791": {},
+  "80792": {},
+  "80793": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  }
 }
