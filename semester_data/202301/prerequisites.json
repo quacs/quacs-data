@@ -14637,7 +14637,20 @@
   "79658": {
     "cross_list_courses": [
       "ISCI-6510"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ISCI 1510",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1510",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "79659": {
     "cross_list_courses": [
