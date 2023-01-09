@@ -17036,6 +17036,28 @@
   "80211": {},
   "80212": {},
   "80214": {},
+  "80215": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4010",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4080",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "80217": {
     "prerequisites": {
       "course": "MATH 1010",
