@@ -12956,15 +12956,6 @@
       }
     }
   },
-  "79383": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "79384": {
     "prerequisites": {
       "nested": [
@@ -20978,6 +20969,17 @@
     "prerequisites": {
       "course": "ARCH 2800",
       "type": "course"
+    }
+  },
+  "80801": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
