@@ -10681,6 +10681,22 @@
       }
     }
   },
+  "78853": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "78854": {
     "restrictions": {
       "level": {
@@ -21010,6 +21026,21 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80807": {
+    "prerequisites": {
+      "course": "ARCH 6610",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
