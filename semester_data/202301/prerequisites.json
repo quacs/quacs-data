@@ -3675,15 +3675,6 @@
       }
     }
   },
-  "76312": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "76313": {},
   "76314": {
     "restrictions": {
@@ -5906,15 +5897,6 @@
           "Sophomore"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77723": {
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -14725,6 +14707,21 @@
     "cross_list_courses": [
       "BMED-4960"
     ]
+  },
+  "79672": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "79673": {
     "restrictions": {
