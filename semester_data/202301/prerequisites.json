@@ -17195,25 +17195,6 @@
       }
     }
   },
-  "80227": {
-    "cross_list_courses": [
-      "CHEM-6962"
-    ]
-  },
-  "80228": {
-    "cross_list_courses": [
-      "CHEM-4962"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "80231": {
     "restrictions": {
       "level": {
@@ -21098,5 +21079,51 @@
     "cross_list_courses": [
       "MGMT-6560"
     ]
+  },
+  "80815": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
