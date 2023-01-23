@@ -1,2689 +1,2729 @@
 {
-    "13581": {},
-    "13468": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture"
-                ]
-            }
-        }
-    },
-    "13472": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture"
-                ]
-            }
-        }
-    },
-    "13469": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture"
-                ]
-            }
-        }
-    },
-    "13470": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Architecture"
-                ]
-            }
-        }
-    },
-    "13200": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13230": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13430": {},
-    "13646": {},
-    "13596": {},
-    "13599": {},
-    "13649": {},
-    "13593": {},
-    "13574": {
-        "cross_list_courses": [
-            "BIOL-4760",
-            "CHEM-4760"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "and",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CHEM 2250"
-                        },
-                        {
-                            "type": "course",
-                            "course": "BIOL 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 2120"
-                }
-            ]
-        }
-    },
-    "13350": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13351": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13352": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13353": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13354": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13419": {
-        "corequisites": [
-            "BIOL-1015"
-        ]
-    },
-    "13420": {
-        "corequisites": [
-            "BIOL-1010"
-        ]
-    },
-    "13577": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "BIOL 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 1010"
-                }
-            ]
-        }
-    },
-    "13645": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "BIOL 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 4620"
-                }
-            ]
-        }
-    },
-    "13573": {
-        "cross_list_courses": [
-            "BCBP-4760",
-            "CHEM-4760"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 2250"
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 1010"
-                }
-            ]
-        }
-    },
-    "13670": {
-        "cross_list_courses": [
-            "MATH-4960"
-        ]
-    },
-    "13061": {},
-    "13062": {},
-    "13063": {},
-    "13355": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13356": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13357": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13066": {},
-    "13358": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13359": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13360": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13361": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13362": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13040": {},
-    "13067": {},
-    "13068": {},
-    "13272": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13363": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13069": {},
-    "13070": {},
-    "13071": {},
-    "13072": {},
-    "13198": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13364": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13365": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13366": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13367": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13502": {
-        "prerequisites": {
-            "type": "course",
-            "course": "BMED 4200"
-        }
-    },
-    "13570": {
-        "prerequisites": {
-            "type": "course",
-            "course": "BMED 4200"
-        }
-    },
-    "13464": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1250"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "13073": {},
-    "13075": {},
-    "13076": {},
-    "13080": {},
-    "13081": {},
-    "13508": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 2400"
-        }
-    },
-    "13509": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 2400"
-        }
-    },
-    "13652": {},
-    "13021": {},
-    "13023": {},
-    "13216": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13283": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13439": {},
-    "13644": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "13175": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CHEM 2250"
-        }
-    },
-    "13178": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 2230"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 2260"
-                }
-            ]
-        }
-    },
-    "13176": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "13177": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CHEM 2250"
-        }
-    },
-    "13377": {},
-    "13522": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CHEM 2250"
-        }
-    },
-    "13575": {
-        "cross_list_courses": [
-            "BCBP-4760",
-            "BIOL-4760"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "and",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CHEM 2250"
-                        },
-                        {
-                            "type": "course",
-                            "course": "BIOL 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "BIOL 2120"
-                }
-            ]
-        }
-    },
-    "13042": {},
-    "13037": {},
-    "13044": {},
-    "13482": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13038": {},
-    "13187": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13560": {
-        "cross_list_courses": [
-            "PSYC-4320"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "PHIL 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 2120"
-                }
-            ]
-        }
-    },
-    "13519": {
-        "cross_list_courses": [
-            "PSYC-4600"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4330"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 4330"
-                },
-                {
-                    "type": "course",
-                    "course": "PHIL 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 2120"
-                }
-            ]
-        }
-    },
-    "13662": {
-        "prerequisites": {
-            "type": "course",
-            "course": "COMM 4240"
-        }
-    },
-    "13466": {
-        "cross_list_courses": [
-            "COMM-6880"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                }
-            ]
-        }
-    },
-    "13594": {},
-    "13467": {
-        "cross_list_courses": [
-            "COMM-4880"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13183": {},
-    "13568": {
-        "cross_list_courses": [
-            "MATH-4800"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "and",
-                    "nested": [
-                        {
-                            "type": "or",
-                            "nested": [
-                                {
-                                    "type": "course",
-                                    "course": "MATH 2010"
-                                },
-                                {
-                                    "type": "course",
-                                    "course": "MATH 2011"
-                                },
-                                {
-                                    "type": "course",
-                                    "course": "MATH 2012"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "course",
-                            "course": "CSCI 1100"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "13693": {},
-    "13407": {},
-    "13588": {
-        "prerequisites": {
-            "type": "course",
-            "course": "CSCI 2300"
-        }
-    },
-    "13590": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 2300"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 2600"
-                }
-            ]
-        }
-    },
-    "13591": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 2300"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "CSCI 2500"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 2660"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "13024": {},
-    "13028": {},
-    "13048": {},
-    "13475": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13098": {},
-    "13084": {},
-    "13085": {},
-    "13086": {},
-    "13190": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13209": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13256": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13277": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13380": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13424": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13259": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13118": {},
-    "13099": {},
-    "13087": {},
-    "13058": {},
-    "13089": {},
-    "13228": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13447": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13463": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13425": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13100": {},
-    "13148": {},
-    "13001": {},
-    "13184": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        }
-    },
-    "13251": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHEM 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CHEM 1110"
-                }
-            ]
-        }
-    },
-    "13002": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1400"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                }
-            ]
-        }
-    },
-    "13442": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1400"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                }
-            ]
-        }
-    },
-    "13546": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1200"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 1400"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                }
-            ]
-        }
-    },
-    "13471": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "13474": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "13147": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "13514": {
-        "restrictions": {
-            "major": {
-                "may_not_be": [
-                    "Chemical Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "ENGR 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ECSE 1010"
-                        }
-                    ]
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "13396": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                }
-            ]
-        }
-    },
-    "13018": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1010"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1190"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 1200"
-                }
-            ]
-        }
-    },
-    "13421": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "ECSE 1010"
-                }
-            ]
-        }
-    },
-    "13368": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "ECSE 1010"
-                }
-            ]
-        }
-    },
-    "13003": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 1010"
-        }
-    },
-    "13222": {
-        "restrictions": {
-            "classification": {
-                "must_be": [
-                    "Junior",
-                    "Senior"
-                ]
-            }
-        }
-    },
-    "13270": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanical Engineering",
-                    "Manufacturing Systems Engr",
-                    "Industrial & Management Engr",
-                    "Engr Principles in Tech. Educ.",
-                    "Nuclear Engineering",
-                    "Nuclear Engineering & Science",
-                    "Transportation Engineering"
-                ]
-            }
-        }
-    },
-    "13450": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13491": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13225": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13004": {},
-    "13153": {},
-    "13005": {},
-    "13506": {},
-    "13563": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECON 1200"
-        }
-    },
-    "13564": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECON 1200"
-        }
-    },
-    "13146": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Engineering Physics",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Materials Engineering",
-                    "Mechanics",
-                    "Industrial & Management Engr",
-                    "Nuclear Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                }
-            ]
-        }
-    },
-    "13510": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
-        }
-    },
-    "13269": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECSE 2010"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2010"
-                }
-            ]
-        }
-    },
-    "13580": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ECSE 2010"
-                },
-                {
-                    "type": "course",
-                    "course": "ECSE 2100"
-                }
-            ]
-        }
-    },
-    "13012": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2010"
-        }
-    },
-    "13511": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ECSE 2410"
-        }
-    },
-    "13579": {
-        "restrictions": {
-            "major": {
-                "must_be": [
-                    "Aeronautical Engineering",
-                    "Biomedical Engineering",
-                    "Chemical Engineering",
-                    "Civil Engineering",
-                    "Computer & Systems Engineering",
-                    "Decision Sciences & Engr Syst",
-                    "Electrical Engineering",
-                    "Undeclared Engineering",
-                    "Environmental Engineering",
-                    "Engineering Physics",
-                    "Electric Power Engr",
-                    "Engineering Science",
-                    "Information Technology",
-                    "Materials Engineering",
-                    "Mechanics",
-                    "Industrial & Management Engr",
-                    "Nuclear Engineering"
-                ]
-            }
-        },
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CSCI 1100"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2350"
-                }
-            ]
-        }
-    },
-    "13345": {},
-    "13346": {},
-    "13041": {},
-    "13414": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13017": {},
-    "13207": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13307": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13324": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13338": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13379": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13255": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13152": {},
-    "13110": {},
-    "13016": {},
-    "13029": {},
-    "13032": {},
-    "13043": {},
-    "13158": {},
-    "13263": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13096": {},
-    "13151": {},
-    "13517": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2250"
-                }
-            ]
-        }
-    },
-    "13557": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2250"
-                }
-            ]
-        }
-    },
-    "13558": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2250"
-                }
-            ]
-        }
-    },
-    "13651": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "CHME 4010"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2250"
-                }
-            ]
-        }
-    },
-    "13150": {},
-    "13512": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 2600"
-        }
-    },
-    "13638": {},
-    "13606": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13513": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 2600"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 1020"
-                }
-            ]
-        }
-    },
-    "13608": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
+  "13001": {},
+  "13002": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
             },
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
+            {
+              "course": "ECSE 1010",
+              "type": "course"
             }
-        }
-    },
-    "13639": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
             }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
         }
-    },
-    "13376": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
+      ],
+      "type": "and"
+    }
+  },
+  "13003": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
+  },
+  "13004": {},
+  "13005": {},
+  "13006": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
+  },
+  "13007": {},
+  "13012": {
+    "prerequisites": {
+      "course": "ECSE 2010",
+      "type": "course"
+    }
+  },
+  "13013": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "13014": {},
+  "13016": {},
+  "13017": {},
+  "13018": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1010",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1190",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
         }
-    },
-    "13619": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13620": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13622": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13624": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13626": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13628": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13630": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13632": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13634": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13636": {
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13542": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13618": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13621": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13623": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13625": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13627": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13629": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13631": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13633": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13635": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13637": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13641": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13374": {},
-    "13583": {},
-    "13503": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "LANG 1420"
-                },
-                {
-                    "type": "course",
-                    "course": "LANG 2410"
-                }
-            ]
-        }
-    },
-    "13454": {},
-    "13462": {},
-    "13264": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13497": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MGMT 2300"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "MGMT 2100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "ENGR 2600"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "13465": {
-        "cross_list_courses": [
-            "MGMT-6960"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MGMT 4240"
-                },
-                {
-                    "type": "course",
-                    "course": "CSCI 2300"
-                }
-            ]
-        }
-    },
-    "13499": {},
-    "13529": {
-        "cross_list_courses": [
-            "MGMT-6630"
+      ],
+      "type": "or"
+    }
+  },
+  "13021": {},
+  "13023": {},
+  "13024": {},
+  "13026": {},
+  "13028": {},
+  "13029": {},
+  "13030": {},
+  "13032": {},
+  "13033": {},
+  "13034": {},
+  "13035": {},
+  "13036": {},
+  "13037": {},
+  "13038": {},
+  "13040": {},
+  "13041": {},
+  "13042": {},
+  "13043": {},
+  "13044": {},
+  "13046": {},
+  "13047": {},
+  "13048": {},
+  "13052": {},
+  "13058": {},
+  "13060": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
-    },
-    "13498": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MGMT 1100"
+      }
+    }
+  },
+  "13061": {},
+  "13062": {},
+  "13063": {},
+  "13066": {},
+  "13067": {},
+  "13068": {},
+  "13069": {},
+  "13070": {},
+  "13071": {},
+  "13072": {},
+  "13073": {},
+  "13075": {},
+  "13076": {},
+  "13080": {},
+  "13081": {},
+  "13084": {},
+  "13085": {},
+  "13086": {},
+  "13087": {},
+  "13088": {},
+  "13089": {},
+  "13090": {},
+  "13095": {},
+  "13096": {},
+  "13098": {},
+  "13099": {},
+  "13100": {},
+  "13107": {},
+  "13110": {},
+  "13112": {},
+  "13113": {},
+  "13118": {},
+  "13145": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
         }
-    },
-    "13667": {},
-    "13679": {
-        "cross_list_courses": [
-            "MGMT-4530"
-        ],
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
+      ],
+      "type": "and"
+    }
+  },
+  "13146": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
         }
+      ],
+      "type": "and"
     },
-    "13440": {
-        "cross_list_courses": [
-            "MGMT-4130"
-        ],
-        "restrictions": {
-            "level": {
-                "must_be": [
-                    "Graduate"
-                ]
-            }
-        }
-    },
-    "13668": {},
-    "13341": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13404": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13443": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Junior",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13026": {},
-    "13035": {},
-    "13112": {},
-    "13325": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13014": {},
-    "13113": {},
-    "13323": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13262": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13095": {},
-    "13033": {},
-    "13034": {},
-    "13107": {},
-    "13224": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13258": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13261": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
-            }
-        }
-    },
-    "13006": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 1010"
-        }
-    },
-    "13252": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 1020"
-        }
-    },
-    "13013": {
-        "prerequisites": {
-            "type": "course",
-            "course": "MATH 1020"
-        }
-    },
-    "13569": {
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2010"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2012"
-                }
-            ]
-        }
-    },
-    "13567": {
-        "cross_list_courses": [
-            "CSCI-4800"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "MATH 2010"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MATH 2011"
-                        },
-                        {
-                            "type": "course",
-                            "course": "MATH 2012"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "13417": {
-        "cross_list_courses": [
-            "BIOL-4900"
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Materials Engineering",
+          "Mechanics",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
-    },
-    "13046": {},
-    "13047": {},
-    "13480": {
-        "restrictions": {
-            "classification": {
-                "may_not_be": [
-                    "Freshman",
-                    "Sophomore"
-                ]
+      }
+    }
+  },
+  "13147": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
             }
-        }
-    },
-    "13007": {},
-    "13090": {},
-    "13030": {},
-    "13036": {},
-    "13524": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 2250"
-        }
-    },
-    "13523": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "course",
-                    "course": "ENGR 2530"
-                }
-            ]
-        }
-    },
-    "13145": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MATH 2400"
-                },
-                {
-                    "type": "course",
-                    "course": "PHYS 1200"
-                }
-            ]
-        }
-    },
-    "13501": {
-        "prerequisites": {
-            "type": "course",
-            "course": "ENGR 2530"
-        }
-    },
-    "13500": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 2250"
-                },
-                {
-                    "type": "course",
-                    "course": "MATH 2010"
-                }
-            ]
-        }
-    },
-    "13657": {
-        "cross_list_courses": [
-            "MANE-4080"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "MANE 4070"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4010"
-                }
-            ]
-        }
-    },
-    "13609": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
             }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
         }
+      ],
+      "type": "and"
     },
-    "13611": {
-        "cross_list_courses": [
-            "MANE-4080"
-        ],
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13658": {
-        "cross_list_courses": [
-            "MANE-4550"
-        ],
-        "prerequisites": {
-            "type": "and",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "ENGR 2530"
-                },
-                {
-                    "type": "course",
-                    "course": "MANE 4030"
-                }
-            ]
-        }
-    },
-    "13614": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13617": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13616": {
-        "cross_list_courses": [
-            "MANE-4550"
-        ],
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13485": {},
-    "13476": {
-        "restrictions": {
-            "campus": {
-                "must_be": [
-                    "Hartford"
-                ]
-            }
-        }
-    },
-    "13550": {},
-    "13088": {},
-    "13179": {
-        "cross_list_courses": [
-            "PSYC-2100"
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
         ]
+      }
+    }
+  },
+  "13148": {},
+  "13150": {},
+  "13151": {},
+  "13152": {},
+  "13153": {},
+  "13158": {},
+  "13175": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "type": "course"
+    }
+  },
+  "13176": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13177": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "type": "course"
+    }
+  },
+  "13178": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13179": {
+    "cross_list_courses": [
+      "PSYC-2100"
+    ]
+  },
+  "13180": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
+  "13183": {},
+  "13184": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13187": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13190": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13198": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13200": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13207": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13209": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13216": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13222": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "13224": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13225": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13228": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13230": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13251": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13252": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "13253": {},
+  "13254": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13255": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13256": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13258": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13259": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13261": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13262": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13263": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13264": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13269": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13270": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13272": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13277": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13283": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13307": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13313": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
+  "13314": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
+  "13323": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13324": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13325": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13338": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13341": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13345": {},
+  "13346": {},
+  "13350": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13351": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13352": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13353": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13354": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13355": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13356": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13357": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13358": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13359": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13360": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13361": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13362": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13363": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13364": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13365": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13366": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13367": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13368": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 1010",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
-    "13052": {},
-    "13253": {},
-    "13254": {
-        "prerequisites": {
-            "type": "and",
-            "nested": [
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13374": {},
+  "13376": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13377": {},
+  "13379": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13380": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13396": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13404": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13407": {},
+  "13414": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13417": {
+    "cross_list_courses": [
+      "BIOL-4900"
+    ]
+  },
+  "13419": {
+    "corequisites": [
+      "BIOL-1015"
+    ]
+  },
+  "13420": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
+  "13421": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 1010",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13424": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13425": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13427": {
+    "cross_list_courses": [
+      "STSH-4120"
+    ]
+  },
+  "13428": {
+    "cross_list_courses": [
+      "STSS-4120"
+    ]
+  },
+  "13430": {},
+  "13435": {},
+  "13439": {},
+  "13440": {
+    "cross_list_courses": [
+      "MGMT-4130"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13442": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13443": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13447": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13449": {},
+  "13450": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13454": {},
+  "13462": {},
+  "13463": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13464": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13465": {
+    "cross_list_courses": [
+      "MGMT-6960"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4240",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13466": {
+    "cross_list_courses": [
+      "COMM-6880"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1010",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13467": {
+    "cross_list_courses": [
+      "COMM-4880"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13468": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
+  "13469": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
+  "13470": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
+  "13471": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13472": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
+  "13474": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13475": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13476": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13480": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13482": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13483": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "13485": {},
+  "13491": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13497": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MGMT 2100",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 2600",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13498": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "type": "course"
+    }
+  },
+  "13499": {},
+  "13500": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13501": {
+    "prerequisites": {
+      "course": "ENGR 2530",
+      "type": "course"
+    }
+  },
+  "13502": {
+    "prerequisites": {
+      "course": "BMED 4200",
+      "type": "course"
+    }
+  },
+  "13503": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "LANG 1420",
+          "type": "course"
+        },
+        {
+          "course": "LANG 2410",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13504": {},
+  "13505": {},
+  "13506": {},
+  "13508": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    }
+  },
+  "13509": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    }
+  },
+  "13510": {
+    "prerequisites": {
+      "course": "ECSE 2010",
+      "type": "course"
+    }
+  },
+  "13511": {
+    "prerequisites": {
+      "course": "ECSE 2410",
+      "type": "course"
+    }
+  },
+  "13512": {
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "type": "course"
+    }
+  },
+  "13513": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13514": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Chemical Engineering"
+        ]
+      }
+    }
+  },
+  "13517": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13519": {
+    "cross_list_courses": [
+      "PSYC-4600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4330",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 4330",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13520": {
+    "cross_list_courses": [
+      "COGS-4600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4330",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 4330",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13522": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "type": "course"
+    }
+  },
+  "13523": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2530",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13524": {
+    "prerequisites": {
+      "course": "ENGR 2250",
+      "type": "course"
+    }
+  },
+  "13525": {},
+  "13529": {
+    "cross_list_courses": [
+      "MGMT-6630"
+    ]
+  },
+  "13542": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13546": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "13550": {},
+  "13554": {},
+  "13557": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13558": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13559": {
+    "cross_list_courses": [
+      "COGS-4360"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13560": {
+    "cross_list_courses": [
+      "PSYC-4320"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13561": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
+  "13563": {
+    "prerequisites": {
+      "course": "ECON 1200",
+      "type": "course"
+    }
+  },
+  "13564": {
+    "prerequisites": {
+      "course": "ECON 1200",
+      "type": "course"
+    }
+  },
+  "13565": {},
+  "13567": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13568": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
                 {
-                    "type": "or",
-                    "nested": [
-                        {
-                            "type": "course",
-                            "course": "PHYS 1100"
-                        },
-                        {
-                            "type": "course",
-                            "course": "PHYS 1150"
-                        }
-                    ]
+                  "course": "MATH 2010",
+                  "type": "course"
                 },
                 {
-                    "type": "course",
-                    "course": "MATH 1020"
+                  "course": "MATH 2011",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
                 }
-            ]
+              ],
+              "type": "or"
+            },
+            {
+              "course": "CSCI 1100",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
+      ],
+      "type": "and"
+    }
+  },
+  "13569": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2012",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13570": {
+    "prerequisites": {
+      "course": "BMED 4200",
+      "type": "course"
+    }
+  },
+  "13573": {
+    "cross_list_courses": [
+      "BCBP-4760",
+      "CHEM-4760"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2250",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13574": {
+    "cross_list_courses": [
+      "BIOL-4760",
+      "CHEM-4760"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CHEM 2250",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 1010",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13575": {
+    "cross_list_courses": [
+      "BCBP-4760",
+      "BIOL-4760"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CHEM 2250",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 1010",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13577": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13579": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2350",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
-    "13483": {
-        "corequisites": [
-            "PHYS-1100"
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanics",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
-    },
-    "13180": {
-        "cross_list_courses": [
-            "PHIL-2100"
+      }
+    }
+  },
+  "13580": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13581": {},
+  "13583": {},
+  "13588": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "13590": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13591": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13593": {},
+  "13594": {},
+  "13596": {},
+  "13599": {},
+  "13600": {},
+  "13605": {},
+  "13606": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
         ]
-    },
-    "13313": {
-        "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
-        }
-    },
-    "13559": {
-        "cross_list_courses": [
-            "COGS-4360"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "PHIL 2120"
-                }
-            ]
-        }
-    },
-    "13314": {
-        "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
-        }
-    },
-    "13520": {
-        "cross_list_courses": [
-            "COGS-4600"
-        ],
-        "prerequisites": {
-            "type": "or",
-            "nested": [
-                {
-                    "type": "course",
-                    "course": "PSYC 1200"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "PHIL 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 2120"
-                },
-                {
-                    "type": "course",
-                    "course": "COGS 4330"
-                },
-                {
-                    "type": "course",
-                    "course": "PSYC 4330"
-                }
-            ]
-        }
-    },
-    "13561": {
-        "prerequisites": {
-            "type": "course",
-            "course": "PSYC 1200"
-        }
-    },
-    "13504": {},
-    "13505": {},
-    "13428": {
-        "cross_list_courses": [
-            "STSS-4120"
+      }
+    }
+  },
+  "13608": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
         ]
-    },
-    "13650": {},
-    "13427": {
-        "cross_list_courses": [
-            "STSH-4120"
+      },
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
-    },
-    "13664": {},
-    "13600": {},
-    "13449": {},
-    "13554": {},
-    "13565": {},
-    "13435": {},
-    "13525": {}
+      }
+    }
+  },
+  "13609": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13611": {
+    "cross_list_courses": [
+      "MANE-4080"
+    ],
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13614": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13616": {
+    "cross_list_courses": [
+      "MANE-4550"
+    ],
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13617": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "13618": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13619": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13620": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13621": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13622": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13623": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13624": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13625": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13626": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13627": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13628": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13629": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13630": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13631": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13632": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13633": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13634": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13635": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13636": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13637": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13638": {},
+  "13639": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13641": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13644": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13645": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4620",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13646": {},
+  "13649": {},
+  "13650": {},
+  "13651": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13652": {},
+  "13657": {
+    "cross_list_courses": [
+      "MANE-4080"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4070",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4010",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13658": {
+    "cross_list_courses": [
+      "MANE-4550"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2530",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4030",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "13659": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "13660": {},
+  "13662": {
+    "prerequisites": {
+      "course": "COMM 4240",
+      "type": "course"
+    }
+  },
+  "13663": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 4060",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "13664": {},
+  "13667": {},
+  "13668": {},
+  "13670": {
+    "cross_list_courses": [
+      "MATH-4960"
+    ]
+  },
+  "13679": {
+    "cross_list_courses": [
+      "MGMT-4530"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "13693": {}
 }
