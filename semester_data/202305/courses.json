@@ -4907,12 +4907,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 96,
-            "credMax": 4.0,
-            "credMin": 4.0,
+            "cap": 8,
+            "credMax": 1.0,
+            "credMin": 1.0,
             "crn": 18403,
             "crse": 2960,
-            "rem": 96,
+            "rem": 8,
             "sec": "01",
             "subj": "CSCI",
             "timeslots": [
@@ -4934,13 +4934,67 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 1,
+            "cap": 8,
             "credMax": 2.0,
             "credMin": 2.0,
+            "crn": 18532,
+            "crse": 2960,
+            "rem": 8,
+            "sec": "02",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "08/18",
+                "dateStart": "05/22",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Wesley D Turner, David Eric Goldschmidt",
+                "location": "Darrin Communications Center 337",
+                "timeEnd": 1535,
+                "timeStart": 1330
+              }
+            ],
+            "title": "Rcos"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 32,
+            "credMax": 3.0,
+            "credMin": 3.0,
             "crn": 18634,
             "crse": 2960,
-            "rem": 1,
+            "rem": 32,
             "sec": "03",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "08/18",
+                "dateStart": "05/22",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Wesley D Turner, David Eric Goldschmidt",
+                "location": "Darrin Communications Center 337",
+                "timeEnd": 1535,
+                "timeStart": 1330
+              }
+            ],
+            "title": "Rcos"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 96,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 18653,
+            "crse": 2960,
+            "rem": 96,
+            "sec": "04",
             "subj": "CSCI",
             "timeslots": [
               {
@@ -4985,7 +5039,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "David Eric Goldschmidt, Shianne M. Hulbert, Jasmine A. Plum",
+                "instructor": "David Eric Goldschmidt, Shianne M. Hulbert",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 1235,
                 "timeStart": 1030
@@ -5023,7 +5077,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "David Eric Goldschmidt, Shianne M. Hulbert, Jasmine A. Plum",
+                "instructor": "David Eric Goldschmidt, Shianne M. Hulbert",
                 "location": "Darrin Communications Center 330",
                 "timeEnd": 1535,
                 "timeStart": 1330
@@ -5047,17 +5101,17 @@
         "title": "Operating Systems"
       },
       {
-        "crse": 4230,
-        "id": "CSCI-4230",
+        "crse": 4380,
+        "id": "CSCI-4380",
         "sections": [
           {
             "act": 0,
-            "attribute": "Communication Intensive",
+            "attribute": "",
             "cap": 64,
             "credMax": 4.0,
             "credMin": 4.0,
-            "crn": 18405,
-            "crse": 4230,
+            "crn": 18652,
+            "crse": 4380,
             "rem": 64,
             "sec": "01",
             "subj": "CSCI",
@@ -5066,20 +5120,20 @@
                 "dateEnd": "08/18",
                 "dateStart": "05/22",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
-                "instructor": "Bulent Yener",
-                "location": "Russell Sage Laboratory 5510",
-                "timeEnd": 1235,
-                "timeStart": 1030
+                "instructor": "Konstantin Kuzmin",
+                "location": "Walker Laboratory 6113",
+                "timeEnd": 1005,
+                "timeStart": 800
               }
             ],
-            "title": "Cryptography And Network Security I"
+            "title": "Database Systems"
           }
         ],
         "subj": "CSCI",
-        "title": "Cryptography And Network Security I"
+        "title": "Database Systems"
       },
       {
         "crse": 4440,
@@ -5144,76 +5198,6 @@
         "title": "Software Design & Docume"
       },
       {
-        "crse": 4460,
-        "id": "CSCI-4460",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Communication Intensive",
-            "cap": 32,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18569,
-            "crse": 4460,
-            "rem": 32,
-            "sec": "01",
-            "subj": "CSCI",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "David Eric Goldschmidt",
-                "location": "Pittsburgh Building 4114",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Large Scale Program & Testing"
-          }
-        ],
-        "subj": "CSCI",
-        "title": "Large Scale Program & Testing"
-      },
-      {
-        "crse": 4470,
-        "id": "CSCI-4470",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 64,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18568,
-            "crse": 4470,
-            "rem": 64,
-            "sec": "01",
-            "subj": "CSCI",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Wesley D Turner",
-                "location": "Pittsburgh Building 5216",
-                "timeEnd": 1235,
-                "timeStart": 1030
-              }
-            ],
-            "title": "Open Source Software"
-          }
-        ],
-        "subj": "CSCI",
-        "title": "Open Source Software"
-      },
-      {
         "crse": 4800,
         "id": "CSCI-4800",
         "sections": [
@@ -5247,76 +5231,6 @@
         ],
         "subj": "CSCI",
         "title": "Numerical Computing"
-      },
-      {
-        "crse": 4963,
-        "id": "CSCI-4963",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Communication Intensive",
-            "cap": 64,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18226,
-            "crse": 4963,
-            "rem": 64,
-            "sec": "01",
-            "subj": "CSCI",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Konstantin Kuzmin",
-                "location": "Walker Laboratory 6113",
-                "timeEnd": 1005,
-                "timeStart": 800
-              }
-            ],
-            "title": "Application Prog Using Java"
-          }
-        ],
-        "subj": "CSCI",
-        "title": "Application Prog Using Java"
-      },
-      {
-        "crse": 4964,
-        "id": "CSCI-4964",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 64,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18227,
-            "crse": 4964,
-            "rem": 64,
-            "sec": "01",
-            "subj": "CSCI",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Jasmine A. Plum",
-                "location": "Walker Laboratory 5113",
-                "timeEnd": 1535,
-                "timeStart": 1330
-              }
-            ],
-            "title": "Computer Communication Network"
-          }
-        ],
-        "subj": "CSCI",
-        "title": "Computer Communication Network"
       },
       {
         "crse": 4966,

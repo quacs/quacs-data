@@ -1463,45 +1463,6 @@
       }
     }
   },
-  "18226": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "18227": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "18228": {
     "restrictions": {
       "campus": {
@@ -2560,12 +2521,6 @@
     }
   },
   "18403": {},
-  "18405": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
   "18406": {
     "prerequisites": {
       "nested": [
@@ -3321,6 +3276,7 @@
       }
     }
   },
+  "18532": {},
   "18535": {},
   "18536": {
     "restrictions": {
@@ -3444,27 +3400,6 @@
     }
   },
   "18567": {},
-  "18568": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "18569": {
-    "prerequisites": {
-      "course": "CSCI 2600",
-      "type": "course"
-    }
-  },
   "18570": {},
   "18571": {},
   "18572": {},
@@ -3716,5 +3651,12 @@
   "18645": {},
   "18648": {},
   "18650": {},
-  "18651": {}
+  "18651": {},
+  "18652": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "18653": {}
 }
