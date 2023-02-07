@@ -11719,6 +11719,21 @@
       "type": "or"
     }
   },
+  "62918": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "62919": {
     "prerequisites": {
       "nested": [
@@ -19330,5 +19345,37 @@
       }
     }
   },
-  "64436": {}
+  "64436": {},
+  "64437": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  }
 }
