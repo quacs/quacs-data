@@ -3,9 +3,6 @@ use ::phf::{{phf_map, Map}};
 pub const BIT_VEC_LEN: usize = 1;
 pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 	18295u32 => [1073741824],
-	18272u32 => [123148574097464],
-	18437u32 => [123148574097464],
-	18455u32 => [123148574097464],
 	18582u32 => [123148574097464],
 	18607u32 => [123148574097464],
 	18609u32 => [123148574097464],
@@ -224,9 +221,6 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 };
 pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
 	18295u32 => "ADMN-1824",
-	18272u32 => "ARCH-4770",
-	18437u32 => "ARCH-4770",
-	18455u32 => "ARCH-4770",
 	18582u32 => "ARCH-4770",
 	18607u32 => "ARCH-4770",
 	18609u32 => "ARCH-4770",
