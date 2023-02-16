@@ -18858,7 +18858,21 @@
       }
     }
   },
-  "64438": {},
+  "64438": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4070",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4080",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "64439": {
     "prerequisites": {
       "course": "ENGR 1100",
