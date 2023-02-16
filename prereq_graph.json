@@ -1478,11 +1478,9 @@
     "prereqs": []
   },
   "CSCI 4962": {
-    "title": "Security And Privacy Of Ml",
+    "title": "Ml And Optimization",
     "prereqs": [
-      "CSCI 4100",
-      "CSCI 4150",
-      "CSCI 6100"
+      "CSCI 2300"
     ]
   },
   "CSCI 4964": {
@@ -1495,14 +1493,11 @@
     ]
   },
   "CSCI 4965": {
-    "title": "Safe Autonomy",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 4100"
-    ]
+    "title": "Tech And Ml In Conservation",
+    "prereqs": []
   },
   "CSCI 4966": {
-    "title": "Learning & Advanced Game Ai",
+    "title": "Economics And Computation",
     "prereqs": []
   },
   "CSCI 4967": {
@@ -1560,11 +1555,11 @@
     "prereqs": []
   },
   "CSCI 6961": {
-    "title": "Learning & Advanced Game Ai",
+    "title": "Network Resilience",
     "prereqs": []
   },
   "CSCI 6962": {
-    "title": "Projects In Mach Learning & Ai",
+    "title": "Ml And Optimization",
     "prereqs": []
   },
   "CSCI 6963": {
@@ -1576,14 +1571,11 @@
     "prereqs": []
   },
   "CSCI 6965": {
-    "title": "Safe Autonomy",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 4100"
-    ]
+    "title": "Tech And Ml In Conservation",
+    "prereqs": []
   },
   "CSCI 6968": {
-    "title": "Ml And Optimization",
+    "title": "Algorithmic Game Theory",
     "prereqs": []
   },
   "CSCI 6969": {
@@ -2194,8 +2186,11 @@
     ]
   },
   "ECSE 4900": {
-    "title": "Multidisciplinary Cap Design",
-    "prereqs": []
+    "title": "Multidisciplinary Capstone Design",
+    "prereqs": [
+      "ENGR 2050",
+      "MANE 2220"
+    ]
   },
   "ECSE 4940": {
     "title": "Readings In Ecse",
@@ -2836,7 +2831,7 @@
     "prereqs": []
   },
   "MGMT 6940": {
-    "title": "Readings In Mgmt",
+    "title": "?",
     "prereqs": []
   },
   "MGMT 6960": {
@@ -3309,8 +3304,11 @@
     ]
   },
   "MANE 4260": {
-    "title": "Multidisciplinary Cap Design",
-    "prereqs": []
+    "title": "Mulitdisciplinary Capstone Design",
+    "prereqs": [
+      "ENGR 2050",
+      "MANE 2220"
+    ]
   },
   "MANE 4280": {
     "title": "Numerical Design Optimization",
@@ -5761,8 +5759,9 @@
     ]
   },
   "MTLE 4920": {
-    "title": "Multidisciplinary Cap Design",
+    "title": "Multidisciplinary Capstone Design",
     "prereqs": [
+      "ENGR 2050",
       "MTLE 4910"
     ]
   },
@@ -6457,7 +6456,7 @@
     "prereqs": []
   },
   "BCBP 6962": {
-    "title": "Biology Of The Gut Microbiota",
+    "title": "Biophysics Of Adaptation",
     "prereqs": []
   },
   "BIOL 4965": {
@@ -6986,7 +6985,7 @@
     ]
   },
   "COGS 4960": {
-    "title": "Social Computing",
+    "title": "Extended Cognition",
     "prereqs": []
   },
   "COGS 6964": {
@@ -14667,5 +14666,19 @@
   "STSO 6100": {
     "title": "Science And Technology Policy",
     "prereqs": []
+  },
+  "CSCI 4560": {
+    "title": "Computational Geometry",
+    "prereqs": [
+      "CSCI 2300",
+      "CSCI 2600"
+    ]
+  },
+  "CSCI 6560": {
+    "title": "Computational Geometry",
+    "prereqs": [
+      "CSCI 2300",
+      "CSCI 2600"
+    ]
   }
 }

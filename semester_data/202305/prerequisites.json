@@ -464,6 +464,17 @@
       }
     }
   },
+  "18106": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "18107": {
     "restrictions": {
       "classification": {
@@ -2203,6 +2214,25 @@
     }
   },
   "18303": {},
+  "18305": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "18307": {
     "restrictions": {
       "classification": {
@@ -3335,6 +3365,7 @@
       "type": "course"
     }
   },
+  "18565": {},
   "18566": {
     "restrictions": {
       "level": {
@@ -3442,6 +3473,7 @@
       "type": "or"
     }
   },
+  "18591": {},
   "18592": {},
   "18593": {
     "restrictions": {
@@ -3537,5 +3569,14 @@
   },
   "18653": {},
   "18655": {},
-  "18656": {}
+  "18656": {},
+  "18657": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
