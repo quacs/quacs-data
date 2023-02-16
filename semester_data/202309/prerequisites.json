@@ -11280,6 +11280,30 @@
       "type": "or"
     }
   },
+  "62765": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CSCI 2200",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2300",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "62766": {
     "restrictions": {
       "classification": {
@@ -11508,6 +11532,21 @@
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
           "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "62804": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "62805": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -18463,17 +18502,6 @@
     }
   },
   "64259": {},
-  "64260": {},
-  "64261": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64262": {
     "restrictions": {
       "level": {
@@ -19380,8 +19408,6 @@
       "type": "or"
     }
   },
-  "64411": {},
-  "64412": {},
   "64415": {},
   "64417": {
     "restrictions": {
@@ -20188,5 +20214,6 @@
       }
     }
   },
-  "64465": {}
+  "64465": {},
+  "64466": {}
 }

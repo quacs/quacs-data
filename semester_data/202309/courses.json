@@ -443,12 +443,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 35,
+            "cap": 30,
             "credMax": 2.0,
             "credMin": 2.0,
             "crn": 60866,
             "crse": 2350,
-            "rem": 35,
+            "rem": 30,
             "sec": "01",
             "subj": "ARCH",
             "timeslots": [
@@ -469,12 +469,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 35,
+            "cap": 30,
             "credMax": 2.0,
             "credMin": 2.0,
             "crn": 63889,
             "crse": 2350,
-            "rem": 35,
+            "rem": 30,
             "sec": "02",
             "subj": "ARCH",
             "timeslots": [
@@ -495,12 +495,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 25,
+            "cap": 30,
             "credMax": 2.0,
             "credMin": 2.0,
             "crn": 64383,
             "crse": 2350,
-            "rem": 25,
+            "rem": 30,
             "sec": "03",
             "subj": "ARCH",
             "timeslots": [
@@ -555,12 +555,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 35,
+            "cap": 26,
             "credMax": 2.0,
             "credMin": 2.0,
             "crn": 62273,
             "crse": 2510,
-            "rem": 35,
+            "rem": 26,
             "sec": "01",
             "subj": "ARCH",
             "timeslots": [
@@ -25283,6 +25283,41 @@
         "title": "Information Retrieval"
       },
       {
+        "crse": 4971,
+        "id": "CSCI-4971",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 20,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 62765,
+            "crse": 4971,
+            "rem": 20,
+            "sec": "01",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Elliot I. Anshelevich",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Algorithmic Game Theory"
+          }
+        ],
+        "subj": "CSCI",
+        "title": "Algorithmic Game Theory"
+      },
+      {
         "crse": 4972,
         "id": "CSCI-4972",
         "sections": [
@@ -25316,6 +25351,40 @@
         ],
         "subj": "CSCI",
         "title": "Intermediate Formal Logic & Ai"
+      },
+      {
+        "crse": 4974,
+        "id": "CSCI-4974",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 4,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 62804,
+            "crse": 4974,
+            "rem": 4,
+            "sec": "01",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "M"
+                ],
+                "instructor": "Deborah L. McGuinness",
+                "location": "Winslow Building",
+                "timeEnd": 1550,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Neurosymbolic Knowledge Graphs"
+          }
+        ],
+        "subj": "CSCI",
+        "title": "Neurosymbolic Knowledge Graphs"
       },
       {
         "crse": 6100,
@@ -25743,12 +25812,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 20,
+            "cap": 4,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 62766,
             "crse": 6968,
-            "rem": 20,
+            "rem": 4,
             "sec": "01",
             "subj": "CSCI",
             "timeslots": [
@@ -25756,20 +25825,19 @@
                 "dateEnd": "12/20",
                 "dateStart": "08/28",
                 "days": [
-                  "T",
-                  "F"
+                  "M"
                 ],
-                "instructor": "Elliot I. Anshelevich",
-                "location": "TBA",
-                "timeEnd": 1350,
+                "instructor": "Deborah L. McGuinness",
+                "location": "Winslow Building",
+                "timeEnd": 1550,
                 "timeStart": 1200
               }
             ],
-            "title": "Algorithmic Game Theory"
+            "title": "Neurosymbolic Knowledge Graphs"
           }
         ],
         "subj": "CSCI",
-        "title": "Algorithmic Game Theory"
+        "title": "Neurosymbolic Knowledge Graphs"
       },
       {
         "crse": 6969,
@@ -25804,6 +25872,41 @@
         ],
         "subj": "CSCI",
         "title": "Graduate Skills"
+      },
+      {
+        "crse": 6971,
+        "id": "CSCI-6971",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 20,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 62805,
+            "crse": 6971,
+            "rem": 20,
+            "sec": "01",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Elliot I. Anshelevich",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Algorithmic Game Theory"
+          }
+        ],
+        "subj": "CSCI",
+        "title": "Algorithmic Game Theory"
       },
       {
         "crse": 6980,
@@ -42533,6 +42636,41 @@
         "title": "Entrepreneurial Finance"
       },
       {
+        "crse": 4600,
+        "id": "MGMT-4600",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 15,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 64466,
+            "crse": 4600,
+            "rem": 15,
+            "sec": "01",
+            "subj": "MGMT",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Thilanka Munasinghe",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Data Analytics"
+          }
+        ],
+        "subj": "MGMT",
+        "title": "Data Analytics"
+      },
+      {
         "crse": 4850,
         "id": "MGMT-4850",
         "sections": [
@@ -42758,12 +42896,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 10,
+            "cap": 0,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 63413,
             "crse": 4962,
-            "rem": 10,
+            "rem": 0,
             "sec": "01",
             "subj": "MGMT",
             "timeslots": [
@@ -42776,8 +42914,8 @@
                 ],
                 "instructor": "Thilanka Munasinghe",
                 "location": "Voorhees Computing Center SO",
-                "timeEnd": 1150,
-                "timeStart": 1000
+                "timeEnd": 1550,
+                "timeStart": 1400
               }
             ],
             "title": "Data Analytics"
@@ -42795,16 +42933,13 @@
             "subj": "MGMT",
             "timeslots": [
               {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Thilanka Munasinghe",
-                "location": "Voorhees Computing Center SO",
-                "timeEnd": 1550,
-                "timeStart": 1400
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
               }
             ],
             "title": "Data Analytics"
@@ -44496,12 +44631,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 28,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 63382,
             "crse": 4150,
-            "rem": 30,
+            "rem": 28,
             "sec": "01",
             "subj": "MTLE",
             "timeslots": [
@@ -44531,12 +44666,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 28,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 63383,
             "crse": 4500,
-            "rem": 30,
+            "rem": 28,
             "sec": "01",
             "subj": "MTLE",
             "timeslots": [
@@ -44547,7 +44682,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Liping Huang",
+                "instructor": "Paul George Keblinski",
                 "location": "Low Center for Industrial Inn. 3112",
                 "timeEnd": 1520,
                 "timeStart": 1400
@@ -44647,76 +44782,6 @@
         ],
         "subj": "MTLE",
         "title": "Multidisciplinary Capstone Design"
-      },
-      {
-        "crse": 4960,
-        "id": "MTLE-4960",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 25,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 64260,
-            "crse": 4960,
-            "rem": 25,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Ravishankar Sundararaman",
-                "location": "Materials Research Center 136",
-                "timeEnd": 950,
-                "timeStart": 830
-              }
-            ],
-            "title": "Materials Informatics & Data"
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Materials Informatics & Data"
-      },
-      {
-        "crse": 4961,
-        "id": "MTLE-4961",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 25,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 64411,
-            "crse": 4961,
-            "rem": 25,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [
-                  "T",
-                  "R"
-                ],
-                "instructor": "Liping Huang",
-                "location": "Online",
-                "timeEnd": 1420,
-                "timeStart": 1300
-              }
-            ],
-            "title": "Internl Course Struct Of Glass"
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Internl Course Struct Of Glass"
       },
       {
         "crse": 6030,
@@ -44891,76 +44956,6 @@
         ],
         "subj": "MTLE",
         "title": "Graduate Seminar"
-      },
-      {
-        "crse": 6960,
-        "id": "MTLE-6960",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 25,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 64261,
-            "crse": 6960,
-            "rem": 25,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Ravishankar Sundararaman",
-                "location": "Materials Research Center 136",
-                "timeEnd": 950,
-                "timeStart": 830
-              }
-            ],
-            "title": "Materials Informatics & Data"
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Materials Informatics & Data"
-      },
-      {
-        "crse": 6961,
-        "id": "MTLE-6961",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 25,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 64412,
-            "crse": 6961,
-            "rem": 25,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [
-                  "T",
-                  "R"
-                ],
-                "instructor": "Liping Huang",
-                "location": "Online",
-                "timeEnd": 1420,
-                "timeStart": 1300
-              }
-            ],
-            "title": "Internl Course Struct Of Glass"
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Internl Course Struct Of Glass"
       },
       {
         "crse": 6980,
