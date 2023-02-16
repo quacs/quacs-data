@@ -1086,7 +1086,6 @@
       "type": "or"
     }
   },
-  "60008": {},
   "60009": {},
   "60010": {
     "prerequisites": {
@@ -2726,7 +2725,11 @@
     }
   },
   "60242": {},
-  "60243": {},
+  "60243": {
+    "cross_list_courses": [
+      "MGMT-6640"
+    ]
+  },
   "60244": {},
   "60245": {
     "prerequisites": {
@@ -4500,6 +4503,9 @@
     }
   },
   "60864": {
+    "cross_list_courses": [
+      "MGMT-4510"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4882,7 +4888,6 @@
       }
     }
   },
-  "61062": {},
   "61063": {
     "restrictions": {
       "level": {
@@ -5771,6 +5776,9 @@
     }
   },
   "61316": {
+    "cross_list_courses": [
+      "MGMT-4310"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -8128,6 +8136,9 @@
     }
   },
   "61985": {
+    "cross_list_courses": [
+      "MGMT-6550"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "type": "course"
@@ -8663,6 +8674,9 @@
     }
   },
   "62100": {
+    "cross_list_courses": [
+      "MGMT-6380"
+    ],
     "prerequisites": {
       "course": "MGMT 2320",
       "type": "course"
@@ -9003,27 +9017,12 @@
       "type": "course"
     }
   },
-  "62139": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
-  "62140": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "62141": {
     "corequisites": [
       "BIOL-1010"
     ]
   },
   "62142": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
-  "62143": {
     "corequisites": [
       "BIOL-1010"
     ]
@@ -10430,6 +10429,9 @@
     }
   },
   "62480": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10654,6 +10656,9 @@
   "62523": {},
   "62524": {},
   "62525": {
+    "cross_list_courses": [
+      "MGMT-6800"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "type": "course"
@@ -10881,6 +10886,9 @@
     }
   },
   "62710": {
+    "cross_list_courses": [
+      "MGMT-4080"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11609,6 +11617,9 @@
     }
   },
   "62810": {
+    "cross_list_courses": [
+      "MGMT-4460"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -11625,6 +11636,9 @@
     }
   },
   "62811": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11639,6 +11653,9 @@
     }
   },
   "62812": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11787,6 +11804,9 @@
   },
   "62891": {},
   "62893": {
+    "cross_list_courses": [
+      "MGMT-4470"
+    ],
     "prerequisites": {
       "course": "MGMT 6100",
       "type": "course"
@@ -13210,12 +13230,6 @@
       }
     }
   },
-  "63166": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "type": "course"
-    }
-  },
   "63167": {},
   "63168": {},
   "63169": {},
@@ -14606,6 +14620,9 @@
   "63416": {},
   "63418": {},
   "63419": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14740,6 +14757,9 @@
     }
   },
   "63437": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14982,7 +15002,11 @@
       "type": "course"
     }
   },
-  "63735": {},
+  "63735": {
+    "cross_list_courses": [
+      "MGMT-6080"
+    ]
+  },
   "63736": {
     "prerequisites": {
       "nested": [
@@ -15111,6 +15135,9 @@
   },
   "63747": {},
   "63748": {
+    "cross_list_courses": [
+      "MGMT-6240"
+    ],
     "prerequisites": {
       "course": "MGMT 2320",
       "type": "course"
@@ -16044,7 +16071,11 @@
       }
     }
   },
-  "63850": {},
+  "63850": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "63851": {
     "prerequisites": {
       "course": "ENGR 6220",
@@ -16105,6 +16136,9 @@
   "63858": {},
   "63859": {},
   "63860": {
+    "cross_list_courses": [
+      "MGMT-4340"
+    ],
     "prerequisites": {
       "course": "MGMT 6310",
       "type": "course"
@@ -16139,8 +16173,15 @@
       "type": "course"
     }
   },
-  "63865": {},
+  "63865": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "63866": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "course": "MGMT 4140",
       "type": "course"
@@ -16608,6 +16649,9 @@
     }
   },
   "63958": {
+    "cross_list_courses": [
+      "MGMT-6260"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16632,6 +16676,9 @@
     }
   },
   "63960": {
+    "cross_list_courses": [
+      "MGMT-4540"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17245,7 +17292,6 @@
     }
   },
   "64059": {},
-  "64060": {},
   "64061": {
     "prerequisites": {
       "nested": [
@@ -20252,5 +20298,20 @@
       }
     }
   },
-  "64472": {}
+  "64472": {},
+  "64473": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
+  "64474": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
+  "64475": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  }
 }
