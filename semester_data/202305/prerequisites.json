@@ -3307,7 +3307,16 @@
       "type": "course"
     }
   },
-  "18562": {},
+  "18562": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Engineering",
+          "Geology"
+        ]
+      }
+    }
+  },
   "18563": {
     "prerequisites": {
       "nested": [
@@ -3539,5 +3548,6 @@
     }
   },
   "18653": {},
-  "18655": {}
+  "18655": {},
+  "18656": {}
 }
