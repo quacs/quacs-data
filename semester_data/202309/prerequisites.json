@@ -4888,6 +4888,7 @@
       }
     }
   },
+  "61062": {},
   "61063": {
     "restrictions": {
       "level": {
@@ -9328,6 +9329,9 @@
     }
   },
   "62251": {
+    "cross_list_courses": [
+      "BIOL-6350"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11831,6 +11835,9 @@
     ]
   },
   "62895": {
+    "cross_list_courses": [
+      "BIOL-4350"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19162,7 +19169,6 @@
       "type": "course"
     }
   },
-  "64349": {},
   "64350": {
     "restrictions": {
       "classification": {
@@ -20267,5 +20273,52 @@
     "corequisites": [
       "BIOL-1010"
     ]
+  },
+  "64476": {
+    "cross_list_courses": [
+      "BIOL-6880"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "BIOL 1015",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 2120",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "64477": {
+    "cross_list_courses": [
+      "BIOL-4880"
+    ],
+    "prerequisites": {
+      "course": "BIOL 4850",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
