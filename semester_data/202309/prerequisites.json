@@ -15186,52 +15186,6 @@
       "type": "or"
     }
   },
-  "63751": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2400",
-                  "type": "course"
-                },
-                {
-                  "course": "PHYS 1150",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "63752": {
     "prerequisites": {
       "nested": [
