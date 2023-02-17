@@ -4343,7 +4343,6 @@
       }
     }
   },
-  "60466": {},
   "60510": {
     "restrictions": {
       "level": {
@@ -9179,7 +9178,6 @@
       }
     }
   },
-  "62173": {},
   "62181": {
     "restrictions": {
       "classification": {
@@ -11102,15 +11100,6 @@
   "62747": {},
   "62748": {},
   "62749": {},
-  "62750": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture"
-        ]
-      }
-    }
-  },
   "62752": {
     "restrictions": {
       "level": {
@@ -16328,7 +16317,6 @@
     }
   },
   "63899": {},
-  "63900": {},
   "63901": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -16654,30 +16642,6 @@
   "63978": {},
   "63979": {},
   "63980": {},
-  "63981": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 1010",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1100",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "63982": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -19254,12 +19218,6 @@
       "type": "course"
     }
   },
-  "64395": {},
-  "64396": {},
-  "64397": {},
-  "64398": {},
-  "64399": {},
-  "64400": {},
   "64401": {},
   "64402": {},
   "64403": {},
@@ -20258,5 +20216,28 @@
     }
   },
   "64480": {},
-  "64481": {}
+  "64481": {},
+  "64482": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1100",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }

@@ -1119,36 +1119,6 @@
       "type": "and"
     }
   },
-  "18200": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "course": "CHME 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "18201": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "course": "CHME 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "18202": {
     "prerequisites": {
       "course": "ENGR 2600",
@@ -2323,34 +2293,6 @@
       }
     }
   },
-  "18396": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Physics",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanics",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "18398": {
     "prerequisites": {
       "nested": [
@@ -2794,8 +2736,6 @@
   "18436": {},
   "18441": {},
   "18442": {},
-  "18443": {},
-  "18444": {},
   "18446": {
     "restrictions": {
       "classification": {
@@ -3123,7 +3063,6 @@
   },
   "18489": {},
   "18490": {},
-  "18491": {},
   "18493": {},
   "18494": {
     "restrictions": {
@@ -3610,6 +3549,18 @@
           "Senior"
         ]
       }
+    }
+  },
+  "18660": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    }
+  },
+  "18661": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
     }
   }
 }

@@ -2347,18 +2347,18 @@
     "code": "CHME",
     "courses": [
       {
-        "crse": 4010,
-        "id": "CHME-4010",
+        "crse": 2050,
+        "id": "CHME-2050",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 60,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18200,
-            "crse": 4010,
-            "rem": 60,
+            "cap": 40,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 18661,
+            "crse": 2050,
+            "rem": 40,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -2369,17 +2369,41 @@
                   "T",
                   "F"
                 ],
-                "instructor": "Nihat Baysal",
-                "location": "Greene Building 120",
-                "timeEnd": 1005,
-                "timeStart": 800
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1535,
+                "timeStart": 1330
               }
             ],
-            "title": "Transport Phenomena I"
+            "title": "Introduction To Computational Chemical Engineering"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 40,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 18660,
+            "crse": 2050,
+            "rem": 40,
+            "sec": "1",
+            "subj": "CHME",
+            "timeslots": [
+              {
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Introduction To Computational Chemical Engineering"
           }
         ],
         "subj": "CHME",
-        "title": "Transport Phenomena I"
+        "title": "Introduction To Computational Chemical Engineering"
       },
       {
         "crse": 4020,
@@ -2388,12 +2412,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 40,
+            "cap": 60,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 18279,
             "crse": 4020,
-            "rem": 40,
+            "rem": 60,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -2417,87 +2441,18 @@
         "title": "Transport Phenomena II"
       },
       {
-        "crse": 4030,
-        "id": "CHME-4030",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 80,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18201,
-            "crse": 4030,
-            "rem": 80,
-            "sec": "01",
-            "subj": "CHME",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Ronald C. Hedden",
-                "location": "Low Center for Industrial Inn. 4050",
-                "timeEnd": 2020,
-                "timeStart": 1815
-              }
-            ],
-            "title": "Chem Process Dynamics & Cntrl"
-          }
-        ],
-        "subj": "CHME",
-        "title": "Chem Process Dynamics & Cntrl"
-      },
-      {
-        "crse": 4962,
-        "id": "CHME-4962",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 20,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 18443,
-            "crse": 4962,
-            "rem": 20,
-            "sec": "01",
-            "subj": "CHME",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "F"
-                ],
-                "instructor": "Nihat Baysal",
-                "location": "Russell Sage Laboratory 4203",
-                "timeEnd": 1505,
-                "timeStart": 1300
-              }
-            ],
-            "title": "Molecular Model & Simulations"
-          }
-        ],
-        "subj": "CHME",
-        "title": "Molecular Model & Simulations"
-      },
-      {
         "crse": 4963,
         "id": "CHME-4963",
         "sections": [
           {
             "act": 0,
             "attribute": "",
-            "cap": 15,
+            "cap": 20,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 18490,
             "crse": 4963,
-            "rem": 15,
+            "rem": 20,
             "sec": "01",
             "subj": "CHME",
             "timeslots": [
@@ -2519,38 +2474,6 @@
         ],
         "subj": "CHME",
         "title": "Chem Eng In Drug Disc & Deliv"
-      },
-      {
-        "crse": 4964,
-        "id": "CHME-4964",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 20,
-            "credMax": 1.0,
-            "credMin": 1.0,
-            "crn": 18491,
-            "crse": 4964,
-            "rem": 20,
-            "sec": "01",
-            "subj": "CHME",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [],
-                "instructor": "Joel Plawsky",
-                "location": "Online",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Chemical Process Safety"
-          }
-        ],
-        "subj": "CHME",
-        "title": "Chemical Process Safety"
       },
       {
         "crse": 4966,
@@ -2586,40 +2509,6 @@
         ],
         "subj": "CHME",
         "title": "Chemical Engineering Pro Simul"
-      },
-      {
-        "crse": 4968,
-        "id": "CHME-4968",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 30,
-            "credMax": 2.0,
-            "credMin": 2.0,
-            "crn": 18444,
-            "crse": 4968,
-            "rem": 30,
-            "sec": "01",
-            "subj": "CHME",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T"
-                ],
-                "instructor": "Joel Plawsky, Corey Christopher Woodcock",
-                "location": "Darrin Communications Center 236",
-                "timeEnd": 2020,
-                "timeStart": 1815
-              }
-            ],
-            "title": "Finite Element Simulation Chme"
-          }
-        ],
-        "subj": "CHME",
-        "title": "Finite Element Simulation Chme"
       },
       {
         "crse": 6990,
@@ -6539,44 +6428,6 @@
                 ],
                 "instructor": "TBA",
                 "location": "Jonsson Engineering Center 4107",
-                "timeEnd": 1825,
-                "timeStart": 1600
-              }
-            ],
-            "title": "Electric Circuits"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 32,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 18396,
-            "crse": 2010,
-            "rem": 32,
-            "sec": "02",
-            "subj": "ECSE",
-            "timeslots": [
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Shayla Maya Sawyer",
-                "location": "Low Center for Industrial Inn. 3051",
-                "timeEnd": 1005,
-                "timeStart": 800
-              },
-              {
-                "dateEnd": "08/18",
-                "dateStart": "05/22",
-                "days": [
-                  "F"
-                ],
-                "instructor": "TBA",
-                "location": "Darrin Communications Center 235",
                 "timeEnd": 1825,
                 "timeStart": 1600
               }
