@@ -3408,6 +3408,7 @@
   },
   "18581": {
     "cross_list_courses": [
+      "ENGR-4960",
       "STSO-4960"
     ]
   },
@@ -3503,6 +3504,7 @@
   "18601": {},
   "18602": {
     "cross_list_courses": [
+      "ENGR-4960",
       "MANE-4960"
     ]
   },
@@ -3615,6 +3617,19 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "18659": {
+    "cross_list_courses": [
+      "MANE-4960",
+      "STSO-4960"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
     }
   }
 }

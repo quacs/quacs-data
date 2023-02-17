@@ -18706,12 +18706,6 @@
       "type": "course"
     }
   },
-  "64282": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
   "64283": {
     "restrictions": {
       "level": {
@@ -20319,6 +20313,21 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "64479": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ISYE 2210",
+          "type": "course"
+        },
+        {
+          "course": "ISYE 4140",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
