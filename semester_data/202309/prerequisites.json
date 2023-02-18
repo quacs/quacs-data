@@ -1737,21 +1737,6 @@
       "type": "course"
     }
   },
-  "60071": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2500",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "60072": {
     "prerequisites": {
       "nested": [
@@ -13624,15 +13609,6 @@
       }
     }
   },
-  "63254": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63255": {},
   "63256": {},
   "63257": {
@@ -17876,21 +17852,6 @@
       }
     }
   },
-  "64223": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2500",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "64224": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -20194,5 +20155,31 @@
         ]
       }
     }
-  }
+  },
+  "64488": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "type": "course"
+    }
+  },
+  "64489": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64491": {},
+  "64492": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64493": {}
 }
