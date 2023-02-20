@@ -16494,6 +16494,21 @@
       "type": "course"
     }
   },
+  "63968": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6400",
+          "type": "course"
+        },
+        {
+          "course": "MANE 6600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "63970": {
     "prerequisites": {
       "course": "ARTS 1020",
@@ -17730,15 +17745,6 @@
   },
   "64217": {},
   "64218": {},
-  "64222": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64224": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -17946,21 +17952,6 @@
         },
         {
           "course": "ERTH 4350",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "64247": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 6660",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 6660",
           "type": "course"
         }
       ],
@@ -18309,15 +18300,6 @@
   "64271": {},
   "64272": {},
   "64273": {},
-  "64275": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64276": {
     "restrictions": {
       "classification": {
@@ -20222,6 +20204,26 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "64508": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64509": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
