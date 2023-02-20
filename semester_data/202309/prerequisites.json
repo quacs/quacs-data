@@ -14353,7 +14353,6 @@
       "type": "or"
     }
   },
-  "63400": {},
   "63401": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -20227,6 +20226,42 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "64506": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1600",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2350",
+              "type": "course"
+            },
+            {
+              "course": "MANE 4500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "ENGR 2530",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
