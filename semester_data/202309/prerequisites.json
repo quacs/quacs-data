@@ -13777,6 +13777,15 @@
       }
     }
   },
+  "63358": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "63359": {
     "restrictions": {
       "major": {
@@ -18659,16 +18668,6 @@
       }
     }
   },
-  "64326": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64327": {
     "restrictions": {
       "level": {
@@ -20202,6 +20201,32 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "64504": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2110",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4480",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "64505": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
