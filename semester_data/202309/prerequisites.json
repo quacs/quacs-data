@@ -10984,6 +10984,9 @@
     }
   },
   "62729": {
+    "cross_list_courses": [
+      "ECSE-1090"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -10995,6 +10998,9 @@
     }
   },
   "62730": {
+    "cross_list_courses": [
+      "MANE-1090"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -11732,6 +11738,9 @@
     }
   },
   "62896": {
+    "cross_list_courses": [
+      "MANE-4610"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -11760,6 +11769,9 @@
     }
   },
   "62897": {
+    "cross_list_courses": [
+      "MANE-4610"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -18962,6 +18974,10 @@
       "type": "course"
     }
   },
+  "64395": {},
+  "64396": {},
+  "64397": {},
+  "64399": {},
   "64401": {},
   "64402": {},
   "64403": {},
@@ -20438,6 +20454,42 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "64536": {
+    "cross_list_courses": [
+      "ENGR-4710"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2090",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "64537": {
+    "cross_list_courses": [
+      "ENGR-4710"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2090",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
