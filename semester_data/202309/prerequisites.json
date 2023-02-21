@@ -2793,7 +2793,6 @@
       },
       "major": {
         "must_be": [
-          "Information Technology",
           "Information Tech & Web Science"
         ]
       }
@@ -4162,8 +4161,7 @@
       },
       "major": {
         "must_be": [
-          "Information Technology",
-          "Information Tech & Web Science"
+          "Information Technology"
         ]
       }
     }
@@ -8992,12 +8990,27 @@
       "type": "course"
     }
   },
+  "62139": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
+  "62140": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
   "62141": {
     "corequisites": [
       "BIOL-1010"
     ]
   },
   "62142": {
+    "corequisites": [
+      "BIOL-1010"
+    ]
+  },
+  "62143": {
     "corequisites": [
       "BIOL-1010"
     ]
@@ -9287,12 +9300,26 @@
     }
   },
   "62249": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-6350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
     }
   },
   "62250": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9576,12 +9603,26 @@
     }
   },
   "62276": {
+    "cross_list_courses": [
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350",
+      "ITWS-6350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
     }
   },
   "62277": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350",
+      "ITWS-6350"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9596,6 +9637,13 @@
     }
   },
   "62278": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-6350",
+      "ITWS-4350",
+      "ITWS-6350"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9611,6 +9659,13 @@
     }
   },
   "62279": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ITWS-4350",
+      "ITWS-6350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -11779,11 +11834,6 @@
       }
     }
   },
-  "62894": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "62895": {
     "cross_list_courses": [
       "BIOL-4350"
@@ -11985,11 +12035,6 @@
     }
   },
   "62904": {},
-  "62905": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "62906": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -13015,8 +13060,23 @@
       }
     }
   },
-  "63147": {},
+  "63147": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ]
+  },
   "63148": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13887,6 +13947,11 @@
     }
   },
   "63359": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -13910,6 +13975,11 @@
   },
   "63361": {},
   "63362": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -17356,15 +17426,6 @@
       }
     }
   },
-  "64095": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64096": {
     "restrictions": {
       "level": {
@@ -17374,7 +17435,15 @@
       }
     }
   },
-  "64098": {},
+  "64098": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ]
+  },
   "64099": {},
   "64100": {},
   "64101": {},
@@ -18030,8 +18099,6 @@
     }
   },
   "64238": {},
-  "64239": {},
-  "64240": {},
   "64241": {
     "prerequisites": {
       "course": "MATH 2010",
@@ -18059,6 +18126,13 @@
     }
   },
   "64245": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18078,6 +18152,11 @@
     }
   },
   "64246": {
+    "cross_list_courses": [
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18493,6 +18572,13 @@
     }
   },
   "64283": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18830,21 +18916,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "64336": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "64337": {
@@ -19952,7 +20023,15 @@
       "CSCI-6966"
     ]
   },
-  "64466": {},
+  "64466": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
   "64467": {
     "restrictions": {
       "level": {
@@ -20063,7 +20142,13 @@
       "type": "or"
     }
   },
-  "64480": {},
+  "64480": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600"
+    ]
+  },
   "64481": {},
   "64482": {
     "prerequisites": {
@@ -20628,5 +20713,29 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "64538": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "type": "course"
+    }
+  },
+  "64539": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "type": "course"
+    }
+  },
+  "64540": {
+    "cross_list_courses": [
+      "CHME-6965"
+    ]
+  },
+  "64541": {
+    "cross_list_courses": [
+      "CHME-4965"
+    ]
+  },
+  "64542": {},
+  "64543": {}
 }
