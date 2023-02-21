@@ -11508,69 +11508,6 @@
   "62800": {},
   "62801": {},
   "62802": {},
-  "62803": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
-        ]
-      }
-    }
-  },
   "62804": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -14359,7 +14296,6 @@
       }
     }
   },
-  "63386": {},
   "63387": {
     "restrictions": {
       "level": {
