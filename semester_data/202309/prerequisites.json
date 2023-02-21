@@ -18312,6 +18312,15 @@
   "64271": {},
   "64272": {},
   "64273": {},
+  "64275": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "64276": {
     "restrictions": {
       "classification": {
@@ -20342,7 +20351,11 @@
       }
     }
   },
-  "64526": {},
+  "64526": {
+    "cross_list_courses": [
+      "LGHT-4830"
+    ]
+  },
   "64527": {
     "cross_list_courses": [
       "ISYE-6960",
@@ -20374,6 +20387,54 @@
         "may_not_be": [
           "Freshman",
           "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64530": {},
+  "64531": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64532": {
+    "cross_list_courses": [
+      "ECSE-6460"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64533": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64534": {
+    "corequisites": [
+      "ARCH-4770"
+    ],
+    "cross_list_courses": [
+      "LGHT-6830"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
           "Sophomore"
         ]
       }
