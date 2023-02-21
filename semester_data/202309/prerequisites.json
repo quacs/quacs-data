@@ -6875,7 +6875,15 @@
   "61683": {},
   "61684": {},
   "61685": {},
-  "61687": {},
+  "61687": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "61692": {
     "restrictions": {
       "level": {
@@ -20737,5 +20745,72 @@
     ]
   },
   "64542": {},
-  "64543": {}
+  "64543": {},
+  "64544": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2610",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "64545": {
+    "cross_list_courses": [
+      "ITWS-6961"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 4100",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 6800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "64546": {
+    "cross_list_courses": [
+      "ITWS-4961"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 4100",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 6800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
