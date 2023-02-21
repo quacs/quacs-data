@@ -5626,6 +5626,9 @@
     }
   },
   "61308": {
+    "cross_list_courses": [
+      "ISYE-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6687,6 +6690,9 @@
     }
   },
   "61540": {
+    "cross_list_courses": [
+      "ISYE-6610"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9576,6 +9582,9 @@
     }
   },
   "62280": {
+    "cross_list_courses": [
+      "ISYE-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9609,6 +9618,9 @@
     }
   },
   "62281": {
+    "cross_list_courses": [
+      "ISYE-4210"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19972,6 +19984,9 @@
     }
   },
   "64486": {
+    "cross_list_courses": [
+      "ISYE-6620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19987,6 +20002,9 @@
     }
   },
   "64487": {
+    "cross_list_courses": [
+      "ISYE-4290"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20324,5 +20342,41 @@
       }
     }
   },
-  "64526": {}
+  "64526": {},
+  "64527": {
+    "cross_list_courses": [
+      "ISYE-6960",
+      "MGMT-6960"
+    ]
+  },
+  "64528": {
+    "cross_list_courses": [
+      "ISYE-4960",
+      "MGMT-6960"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64529": {
+    "cross_list_courses": [
+      "ISYE-4960",
+      "ISYE-6960"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
