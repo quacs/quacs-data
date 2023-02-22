@@ -17278,7 +17278,6 @@
   "64090": {},
   "64091": {},
   "64092": {},
-  "64093": {},
   "64094": {
     "restrictions": {
       "level": {
@@ -20686,6 +20685,27 @@
     "prerequisites": {
       "course": "ARCH 4770",
       "type": "course"
+    }
+  },
+  "64557": {
+    "prerequisites": {
+      "course": "ARCH 4780",
+      "type": "course"
+    }
+  },
+  "64558": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
