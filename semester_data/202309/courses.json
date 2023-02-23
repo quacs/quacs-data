@@ -4543,12 +4543,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 15,
+            "cap": 4,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 64560,
             "crse": 6960,
-            "rem": 15,
+            "rem": 4,
             "sec": "01",
             "subj": "ARCH",
             "timeslots": [
@@ -4638,6 +4638,40 @@
         ],
         "subj": "ARCH",
         "title": "Geo-actors 1"
+      },
+      {
+        "crse": 6965,
+        "id": "ARCH-6965",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 2,
+            "credMax": 2.0,
+            "credMin": 2.0,
+            "crn": 63895,
+            "crse": 6965,
+            "rem": 2,
+            "sec": "01",
+            "subj": "ARCH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "R"
+                ],
+                "instructor": "Ted Krueger",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Seminar On Sensory Culture"
+          }
+        ],
+        "subj": "ARCH",
+        "title": "Seminar On Sensory Culture"
       },
       {
         "crse": 6967,
@@ -4837,30 +4871,6 @@
                 "dateStart": "08/28",
                 "days": [],
                 "instructor": "Jonas Braasch",
-                "location": "TBA",
-                "timeEnd": -1,
-                "timeStart": -1
-              }
-            ],
-            "title": "Architecture Dissertation"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 15.0,
-            "credMin": 1.0,
-            "crn": 63255,
-            "crse": 9990,
-            "rem": 10,
-            "sec": "04",
-            "subj": "ARCH",
-            "timeslots": [
-              {
-                "dateEnd": "12/20",
-                "dateStart": "08/28",
-                "days": [],
-                "instructor": "Nadarajah Narendran",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -10907,7 +10917,8 @@
                 "timeStart": 1500
               }
             ],
-            "title": "Perspect In Bme & Alz Research"
+            "title": "Perspect In Bme & Alz Research",
+            "xl_rem": 20
           }
         ],
         "subj": "BIOL",
@@ -12539,6 +12550,42 @@
         "title": "Biomedical Fluid Mechanics"
       },
       {
+        "crse": 4590,
+        "id": "BMED-4590",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 35,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 64565,
+            "crse": 4590,
+            "rem": 35,
+            "sec": "01",
+            "subj": "BMED",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Ge Wang",
+                "location": "TBA",
+                "timeEnd": 950,
+                "timeStart": 830
+              }
+            ],
+            "title": "Medical Imaging",
+            "xl_rem": 35
+          }
+        ],
+        "subj": "BMED",
+        "title": "Medical Imaging"
+      },
+      {
         "crse": 4600,
         "id": "BMED-4600",
         "sections": [
@@ -12783,6 +12830,42 @@
         "title": "Biomedical Fluid Mechanics"
       },
       {
+        "crse": 6590,
+        "id": "BMED-6590",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 35,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 64566,
+            "crse": 6590,
+            "rem": 35,
+            "sec": "01",
+            "subj": "BMED",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Ge Wang",
+                "location": "TBA",
+                "timeEnd": 950,
+                "timeStart": 830
+              }
+            ],
+            "title": "Medical Imaging",
+            "xl_rem": 35
+          }
+        ],
+        "subj": "BMED",
+        "title": "Medical Imaging"
+      },
+      {
         "crse": 6800,
         "id": "BMED-6800",
         "sections": [
@@ -12891,12 +12974,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 0,
+            "cap": 20,
             "credMax": 0.0,
             "credMin": 0.0,
             "crn": 63224,
             "crse": 6966,
-            "rem": 0,
+            "rem": 20,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -12912,7 +12995,8 @@
                 "timeStart": 1500
               }
             ],
-            "title": "Perspect In Bme & Alz Research"
+            "title": "Perspect In Bme & Alz Research",
+            "xl_rem": 20
           }
         ],
         "subj": "BMED",
@@ -15039,7 +15123,8 @@
                 "timeStart": 1500
               }
             ],
-            "title": "Perspect In Bme & Alz Research"
+            "title": "Perspect In Bme & Alz Research",
+            "xl_rem": 20
           }
         ],
         "subj": "CHME",
@@ -18462,7 +18547,8 @@
                 "timeStart": 1500
               }
             ],
-            "title": "Perspect In Bme & Alz Research"
+            "title": "Perspect In Bme & Alz Research",
+            "xl_rem": 20
           }
         ],
         "subj": "CHEM",
@@ -25524,11 +25610,11 @@
                 "timeStart": 1200
               }
             ],
-            "title": "Tech And Ml In Conservation"
+            "title": "Ai For Conservation"
           }
         ],
         "subj": "CSCI",
-        "title": "Tech And Ml In Conservation"
+        "title": "Ai For Conservation"
       },
       {
         "crse": 4966,
@@ -26188,11 +26274,11 @@
                 "timeStart": 1200
               }
             ],
-            "title": "Tech And Ml In Conservation"
+            "title": "Ai For Conservation"
           }
         ],
         "subj": "CSCI",
-        "title": "Tech And Ml In Conservation"
+        "title": "Ai For Conservation"
       },
       {
         "crse": 6966,

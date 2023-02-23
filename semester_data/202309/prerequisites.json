@@ -13507,6 +13507,11 @@
     }
   },
   "63223": {
+    "cross_list_courses": [
+      "BMED-6966",
+      "CHEM-6966",
+      "CHME-6966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13516,6 +13521,11 @@
     }
   },
   "63224": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "CHEM-6966",
+      "CHME-6966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13525,6 +13535,11 @@
     }
   },
   "63225": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "BMED-6966",
+      "CHEM-6966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13533,7 +13548,13 @@
       }
     }
   },
-  "63226": {},
+  "63226": {
+    "cross_list_courses": [
+      "BIOL-6966",
+      "BMED-6966",
+      "CHME-6966"
+    ]
+  },
   "63227": {
     "restrictions": {
       "classification": {
@@ -13655,7 +13676,6 @@
       }
     }
   },
-  "63255": {},
   "63256": {},
   "63257": {
     "restrictions": {
@@ -16195,6 +16215,15 @@
     }
   },
   "63894": {},
+  "63895": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "63896": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -20663,5 +20692,19 @@
         ]
       }
     }
+  },
+  "64565": {
+    "cross_list_courses": [
+      "BMED-6590"
+    ],
+    "prerequisites": {
+      "course": "BMED 2300",
+      "type": "course"
+    }
+  },
+  "64566": {
+    "cross_list_courses": [
+      "BMED-4590"
+    ]
   }
 }
