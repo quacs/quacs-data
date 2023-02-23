@@ -4690,15 +4690,6 @@
     }
   },
   "61001": {},
-  "61005": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61019": {
     "restrictions": {
       "level": {
@@ -4904,6 +4895,15 @@
       "major": {
         "must_be": [
           "Mathematics"
+        ]
+      }
+    }
+  },
+  "61110": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -20706,5 +20706,16 @@
     "cross_list_courses": [
       "BMED-4590"
     ]
+  },
+  "64567": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
