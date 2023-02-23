@@ -11163,6 +11163,15 @@
   "62747": {},
   "62748": {},
   "62749": {},
+  "62750": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
   "62752": {
     "restrictions": {
       "level": {
@@ -16200,6 +16209,11 @@
     }
   },
   "63899": {},
+  "63900": {
+    "cross_list_courses": [
+      "ARCH-6960"
+    ]
+  },
   "63901": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -17162,6 +17176,9 @@
     }
   },
   "64075": {
+    "cross_list_courses": [
+      "ARCH-4970"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17504,7 +17521,11 @@
       "type": "course"
     }
   },
-  "64138": {},
+  "64138": {
+    "cross_list_courses": [
+      "ARCH-6380"
+    ]
+  },
   "64139": {
     "prerequisites": {
       "course": "ARCH 2810",
@@ -20632,5 +20653,20 @@
       "type": "and"
     }
   },
-  "64559": {}
+  "64559": {},
+  "64560": {
+    "cross_list_courses": [
+      "ARCH-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64561": {},
+  "64562": {},
+  "64563": {}
 }
