@@ -17034,6 +17034,19 @@
     }
   },
   "64053": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -20677,6 +20690,12 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology"
+        ]
       }
     }
   },
@@ -20701,6 +20720,12 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology"
         ]
       }
     }
