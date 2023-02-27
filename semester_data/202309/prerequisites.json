@@ -13706,39 +13706,6 @@
       }
     }
   },
-  "63349": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "IHSS 1200",
-              "type": "course"
-            },
-            {
-              "course": "ECON 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "63350": {},
   "63351": {},
   "63352": {
@@ -13886,12 +13853,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "63366": {
-    "prerequisites": {
-      "course": "ARTS 2380",
-      "type": "course"
     }
   },
   "63367": {
@@ -17087,25 +17048,6 @@
     }
   },
   "64064": {},
-  "64065": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "64066": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64067": {
     "prerequisites": {
       "nested": [
@@ -17141,16 +17083,6 @@
           "Communication, Media, & Design",
           "Communication",
           "Elect Media, Arts, & Comm"
-        ]
-      }
-    }
-  },
-  "64070": {},
-  "64071": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -18292,7 +18224,6 @@
       "type": "or"
     }
   },
-  "64271": {},
   "64272": {},
   "64273": {},
   "64275": {
@@ -20671,5 +20602,27 @@
   "64571": {},
   "64572": {},
   "64573": {},
-  "64574": {}
+  "64574": {},
+  "64575": {},
+  "64576": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    }
+  },
+  "64577": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
