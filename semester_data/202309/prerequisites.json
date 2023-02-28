@@ -16392,6 +16392,9 @@
     }
   },
   "63962": {
+    "cross_list_courses": [
+      "GSAS-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16463,6 +16466,9 @@
   },
   "63983": {},
   "63984": {
+    "cross_list_courses": [
+      "GSAS-6200"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -16569,16 +16575,6 @@
       }
     }
   },
-  "63994": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63996": {},
   "63999": {},
   "64013": {},
@@ -16595,64 +16591,7 @@
       }
     }
   },
-  "64015": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biomedical Engineering",
-          "Business Analytics",
-          "Design, Innovation and Society",
-          "Science, Tech & Society",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
-  },
   "64016": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1200",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
-          "type": "course"
-        },
-        {
-          "course": "STSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1110",
-          "type": "course"
-        },
-        {
-          "course": "STSS 1200",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "64017": {
     "prerequisites": {
       "nested": [
         {
@@ -17559,7 +17498,6 @@
       }
     }
   },
-  "64204": {},
   "64205": {},
   "64206": {
     "prerequisites": {
@@ -20858,5 +20796,17 @@
         ]
       }
     }
-  }
+  },
+  "64607": {},
+  "64608": {},
+  "64609": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64610": {}
 }
