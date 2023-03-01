@@ -1549,6 +1549,9 @@
     }
   },
   "60061": {
+    "cross_list_courses": [
+      "ISYE-6780"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7309,43 +7312,6 @@
   },
   "61813": {},
   "61814": {},
-  "61816": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CSCI 1100",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "61817": {
     "restrictions": {
       "level": {
@@ -14767,6 +14733,9 @@
     }
   },
   "63737": {
+    "cross_list_courses": [
+      "MATP-6600"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
