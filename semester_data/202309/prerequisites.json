@@ -800,9 +800,24 @@
   "59975": {},
   "59976": {},
   "59978": {},
-  "59979": {},
-  "59980": {},
-  "59981": {},
+  "59979": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
+  "59980": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
+  "59981": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "59982": {
     "prerequisites": {
       "nested": [
@@ -2765,7 +2780,7 @@
               "type": "course"
             },
             {
-              "course": "MATH 2102",
+              "course": "MATH 2010",
               "type": "course"
             }
           ],
@@ -2861,7 +2876,12 @@
   "60254": {},
   "60255": {},
   "60256": {},
-  "60258": {},
+  "60258": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "60259": {
     "prerequisites": {
       "nested": [
@@ -5180,7 +5200,12 @@
     }
   },
   "61188": {},
-  "61189": {},
+  "61189": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "61191": {
     "restrictions": {
       "level": {
@@ -8666,7 +8691,12 @@
       }
     }
   },
-  "62128": {},
+  "62128": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "62129": {
     "prerequisites": {
       "nested": [
@@ -8686,6 +8716,10 @@
             },
             {
               "course": "MATH 2010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
               "type": "course"
             }
           ],
@@ -9721,6 +9755,10 @@
             {
               "course": "MATH 2010",
               "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
             }
           ],
           "type": "or"
@@ -10194,7 +10232,12 @@
       }
     }
   },
-  "62344": {},
+  "62344": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "62345": {
     "restrictions": {
       "classification": {
@@ -10418,6 +10461,10 @@
             {
               "course": "MATH 2010",
               "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "type": "course"
             }
           ],
           "type": "or"
@@ -10587,7 +10634,12 @@
     }
   },
   "62526": {},
-  "62528": {},
+  "62528": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "62529": {},
   "62531": {},
   "62533": {},
@@ -10923,7 +10975,12 @@
   "62721": {},
   "62722": {},
   "62723": {},
-  "62724": {},
+  "62724": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "62727": {
     "prerequisites": {
       "nested": [
@@ -11958,7 +12015,12 @@
       "type": "and"
     }
   },
-  "62915": {},
+  "62915": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
   "62916": {
     "prerequisites": {
       "nested": [
@@ -12434,6 +12496,10 @@
             },
             {
               "course": "MATH 2010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
               "type": "course"
             }
           ],
@@ -19302,7 +19368,21 @@
       "type": "and"
     }
   },
-  "64455": {},
+  "64455": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "64456": {
     "prerequisites": {
       "course": "ARCH 2510",
