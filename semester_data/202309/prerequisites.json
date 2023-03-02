@@ -16518,33 +16518,6 @@
       "type": "or"
     }
   },
-  "63992": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Design, Innovation and Society",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
-  },
-  "63993": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "63996": {},
   "64014": {
     "prerequisites": {
@@ -20805,6 +20778,11 @@
     }
   },
   "64620": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "INQR-1110",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20818,18 +20796,14 @@
       }
     }
   },
-  "64621": {},
-  "64623": {
-    "restrictions": {
-      "major": {
-        "may_not_be": [
-          "Design, Innovation and Society",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
+  "64621": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "INQR-1110",
+      "STSO-1100"
+    ]
   },
+  "64623": {},
   "64624": {
     "restrictions": {
       "classification": {
@@ -20849,6 +20823,9 @@
     }
   },
   "64626": {
+    "cross_list_courses": [
+      "INQR-1240"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20858,6 +20835,9 @@
     }
   },
   "64627": {
+    "cross_list_courses": [
+      "INQR-1240"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20867,6 +20847,9 @@
     }
   },
   "64628": {
+    "cross_list_courses": [
+      "INQR-1240"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20925,5 +20908,55 @@
       "type": "course"
     }
   },
-  "64636": {}
+  "64636": {},
+  "64637": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "INQR-1110",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64638": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "INQR-1110",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64639": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "INQR-1110",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
+    }
+  },
+  "64640": {}
 }
