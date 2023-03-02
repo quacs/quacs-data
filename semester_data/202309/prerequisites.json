@@ -1263,6 +1263,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "60020": {
@@ -2015,6 +2025,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "60101": {
@@ -4385,6 +4405,14 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
       }
     }
   },
@@ -4508,33 +4536,25 @@
     "prerequisites": {
       "nested": [
         {
-          "nested": [
-            {
-              "course": "CSCI 2300",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2600",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "CSCI 2300",
+          "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "CSCI 4100",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4150",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "CSCI 2600",
+          "type": "course"
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "60869": {
@@ -5862,6 +5882,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "61324": {
@@ -6473,6 +6503,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "61468": {
@@ -9705,6 +9745,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "62285": {
@@ -11031,6 +11081,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "62728": {
@@ -11263,26 +11323,8 @@
   },
   "62765": {
     "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2300",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+      "course": "CSCI 4020",
+      "type": "course"
     }
   },
   "62766": {
@@ -11458,6 +11500,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "62805": {
@@ -14362,8 +14414,27 @@
   },
   "63401": {
     "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "63402": {
@@ -16443,6 +16514,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "63966": {
@@ -16458,6 +16539,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "63968": {
@@ -19403,6 +19494,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "64459": {
@@ -19433,6 +19534,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "64461": {
@@ -19461,9 +19572,43 @@
     "prerequisites": {
       "course": "CSCI 4210",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
-  "64463": {},
+  "64463": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "64464": {
     "restrictions": {
       "level": {
@@ -19476,7 +19621,21 @@
   "64465": {
     "cross_list_courses": [
       "CSCI-6966"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
   },
   "64466": {
     "cross_list_courses": [
@@ -19519,7 +19678,22 @@
       }
     }
   },
-  "64472": {},
+  "64472": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "64473": {
     "corequisites": [
       "BIOL-1010"
