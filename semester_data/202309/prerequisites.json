@@ -17860,15 +17860,6 @@
     }
   },
   "64259": {},
-  "64262": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64263": {
     "restrictions": {
       "major": {
@@ -20090,6 +20081,9 @@
     ]
   },
   "64544": {
+    "cross_list_courses": [
+      "ITWS-6960"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20958,5 +20952,10 @@
         ]
       }
     }
+  },
+  "64642": {
+    "cross_list_courses": [
+      "ITWS-4960"
+    ]
   }
 }

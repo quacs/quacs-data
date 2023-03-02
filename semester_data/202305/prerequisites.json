@@ -2828,6 +2828,19 @@
   },
   "18470": {},
   "18471": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COGS 4420",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -3163,7 +3176,15 @@
     }
   },
   "18538": {},
-  "18539": {},
+  "18539": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "18540": {
     "prerequisites": {
       "course": "PSYC 1200",
