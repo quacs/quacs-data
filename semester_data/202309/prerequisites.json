@@ -16576,6 +16576,9 @@
     }
   },
   "64018": {
+    "cross_list_courses": [
+      "STSO-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16607,6 +16610,9 @@
     }
   },
   "64019": {
+    "cross_list_courses": [
+      "STSO-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20958,5 +20964,24 @@
       }
     }
   },
-  "64640": {}
+  "64640": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64641": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
