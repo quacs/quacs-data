@@ -3509,6 +3509,11 @@
   "60348": {},
   "60349": {},
   "60350": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3769,8 +3774,17 @@
     }
   },
   "60384": {},
-  "60385": {},
+  "60385": {
+    "cross_list_courses": [
+      "ENGR-6100",
+      "ITWS-6300"
+    ]
+  },
   "60386": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ITWS-6300"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4190,6 +4204,10 @@
     }
   },
   "60442": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ENGR-6100"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -5638,6 +5656,11 @@
     }
   },
   "61307": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6019,6 +6042,12 @@
   },
   "61364": {},
   "61365": {
+    "cross_list_courses": [
+      "ECSE-4480",
+      "ECSE-6470",
+      "MANE-4560",
+      "MANE-6120"
+    ],
     "prerequisites": {
       "course": "MATH 2400",
       "type": "course"
@@ -6049,6 +6078,7 @@
   "61367": {},
   "61368": {
     "cross_list_courses": [
+      "CSCI-4480",
       "ECSE-6470",
       "MANE-4560",
       "MANE-6120"
@@ -9365,6 +9395,7 @@
   "62254": {},
   "62255": {
     "cross_list_courses": [
+      "CSCI-4480",
       "ECSE-4480",
       "ECSE-6470",
       "MANE-4560"
@@ -9720,6 +9751,9 @@
   },
   "62282": {},
   "62283": {
+    "cross_list_courses": [
+      "ECSE-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10991,6 +11025,7 @@
   },
   "62719": {
     "cross_list_courses": [
+      "CSCI-4480",
       "ECSE-4480",
       "MANE-4560",
       "MANE-6120"
@@ -12077,6 +12112,11 @@
     }
   },
   "62916": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12092,6 +12132,11 @@
     }
   },
   "62917": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12107,6 +12152,11 @@
     }
   },
   "62918": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12122,6 +12172,11 @@
     }
   },
   "62919": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12137,6 +12192,11 @@
     }
   },
   "62921": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12152,6 +12212,11 @@
     }
   },
   "62922": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13837,6 +13902,9 @@
     }
   },
   "63358": {
+    "cross_list_courses": [
+      "ECSE-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14813,6 +14881,7 @@
   },
   "63715": {
     "cross_list_courses": [
+      "CSCI-4480",
       "ECSE-4480",
       "ECSE-6470",
       "MANE-6120"
@@ -17615,7 +17684,11 @@
       "type": "course"
     }
   },
-  "64225": {},
+  "64225": {
+    "cross_list_courses": [
+      "ECSE-6220"
+    ]
+  },
   "64227": {
     "restrictions": {
       "classification": {
@@ -19844,12 +19917,18 @@
     }
   },
   "64488": {
+    "cross_list_courses": [
+      "ECSE-6110"
+    ],
     "prerequisites": {
       "course": "ECSE 2110",
       "type": "course"
     }
   },
   "64489": {
+    "cross_list_courses": [
+      "ECSE-4110"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19858,8 +19937,15 @@
       }
     }
   },
-  "64491": {},
+  "64491": {
+    "cross_list_courses": [
+      "ECSE-6961"
+    ]
+  },
   "64492": {
+    "cross_list_courses": [
+      "ECSE-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19868,9 +19954,20 @@
       }
     }
   },
-  "64493": {},
-  "64494": {},
+  "64493": {
+    "cross_list_courses": [
+      "ECSE-6650"
+    ]
+  },
+  "64494": {
+    "cross_list_courses": [
+      "ECSE-6964"
+    ]
+  },
   "64495": {
+    "cross_list_courses": [
+      "ECSE-4964"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -21215,6 +21312,66 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "64648": {
+    "corequisites": [
+      "MATH-1020"
+    ],
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
+    "prerequisites": {
+      "course": "PHYS 1100",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "64649": {
+    "corequisites": [
+      "MATH-1020"
+    ],
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
+    "prerequisites": {
+      "course": "PHYS 1100",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "64650": {
+    "corequisites": [
+      "MATH-1020"
+    ],
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
+    "prerequisites": {
+      "course": "PHYS 1100",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Applied Physics",
+          "Physics"
         ]
       }
     }
