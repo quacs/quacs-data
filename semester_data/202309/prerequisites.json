@@ -5914,7 +5914,15 @@
       }
     }
   },
-  "61325": {},
+  "61325": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Chemistry"
+        ]
+      }
+    }
+  },
   "61326": {},
   "61327": {},
   "61328": {},
@@ -21186,6 +21194,23 @@
     }
   },
   "64645": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64646": {
+    "cross_list_courses": [
+      "CHEM-6750"
+    ]
+  },
+  "64647": {
+    "cross_list_courses": [
+      "CHEM-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
