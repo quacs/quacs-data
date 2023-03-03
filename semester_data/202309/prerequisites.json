@@ -4082,12 +4082,18 @@
     }
   },
   "60425": {
+    "cross_list_courses": [
+      "CHEM-4440"
+    ],
     "prerequisites": {
       "course": "MATH 2400",
       "type": "course"
     }
   },
   "60426": {
+    "cross_list_courses": [
+      "CHEM-4030"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4151,12 +4157,6 @@
   "60434": {},
   "60435": {},
   "60436": {},
-  "60437": {
-    "prerequisites": {
-      "course": "CHEM 2250",
-      "type": "course"
-    }
-  },
   "60438": {},
   "60439": {
     "prerequisites": {
@@ -5548,8 +5548,6 @@
       }
     }
   },
-  "61301": {},
-  "61302": {},
   "61304": {
     "prerequisites": {
       "nested": [
@@ -9260,7 +9258,6 @@
       }
     }
   },
-  "62235": {},
   "62240": {
     "restrictions": {
       "classification": {
@@ -10420,8 +10417,6 @@
   "62371": {},
   "62440": {},
   "62442": {},
-  "62463": {},
-  "62464": {},
   "62477": {
     "restrictions": {
       "level": {
@@ -12806,6 +12801,9 @@
     }
   },
   "63127": {
+    "cross_list_courses": [
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16133,8 +16131,6 @@
       "PHYS-1100"
     ]
   },
-  "63883": {},
-  "63884": {},
   "63885": {
     "prerequisites": {
       "course": "ARCH 2810",
@@ -16966,6 +16962,9 @@
     }
   },
   "64055": {
+    "cross_list_courses": [
+      "CHEM-4020"
+    ],
     "prerequisites": {
       "course": "CHEM 4410",
       "type": "course"
@@ -17632,6 +17631,9 @@
   },
   "64230": {},
   "64231": {
+    "cross_list_courses": [
+      "CHEM-4030"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17647,29 +17649,12 @@
     }
   },
   "64232": {
+    "cross_list_courses": [
+      "CHEM-4020"
+    ],
     "prerequisites": {
       "course": "CHEM 4410",
       "type": "course"
-    }
-  },
-  "64233": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "64234": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "64235": {
@@ -21192,5 +21177,21 @@
     "cross_list_courses": [
       "ITWS-4960"
     ]
+  },
+  "64643": {},
+  "64644": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "type": "course"
+    }
+  },
+  "64645": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
