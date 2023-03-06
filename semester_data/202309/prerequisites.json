@@ -3028,6 +3028,9 @@
     }
   },
   "60276": {
+    "cross_list_courses": [
+      "PSYC-4110"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -4448,6 +4451,9 @@
     }
   },
   "60848": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9142,7 +9148,11 @@
       }
     }
   },
-  "62157": {},
+  "62157": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ]
+  },
   "62159": {
     "restrictions": {
       "level": {
@@ -12012,6 +12022,9 @@
   },
   "62904": {},
   "62906": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -12355,6 +12368,9 @@
     }
   },
   "62939": {
+    "cross_list_courses": [
+      "PHIL-4480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12953,6 +12969,9 @@
     }
   },
   "63143": {
+    "cross_list_courses": [
+      "PHIL-4480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13112,6 +13131,9 @@
     }
   },
   "63151": {
+    "cross_list_courses": [
+      "PSYC-4310"
+    ],
     "prerequisites": {
       "course": "PSYC 2310",
       "type": "course"
@@ -13126,6 +13148,9 @@
     }
   },
   "63152": {
+    "cross_list_courses": [
+      "PSYC-4310"
+    ],
     "prerequisites": {
       "course": "PSYC 2310",
       "type": "course"
@@ -13147,6 +13172,9 @@
     }
   },
   "63154": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -13154,8 +13182,6 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Cognitive Science",
-          "Philosophy",
           "Psychology",
           "Psychological Science"
         ]
@@ -13806,43 +13832,6 @@
   },
   "63350": {},
   "63351": {},
-  "63352": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
-    }
-  },
-  "63353": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    }
-  },
   "63354": {
     "restrictions": {
       "level": {
@@ -13912,6 +13901,9 @@
     }
   },
   "63360": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -14566,18 +14558,6 @@
       }
     }
   },
-  "63411": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    }
-  },
-  "63412": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    }
-  },
   "63414": {
     "restrictions": {
       "level": {
@@ -15226,6 +15206,9 @@
     }
   },
   "63766": {
+    "cross_list_courses": [
+      "PSYC-4110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -15235,12 +15218,18 @@
       }
     }
   },
-  "63767": {},
+  "63767": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ]
+  },
   "63768": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
-          "Cognitive Science",
           "Psychological Science"
         ]
       }
@@ -15994,6 +15983,12 @@
     }
   },
   "63864": {
+    "cross_list_courses": [
+      "CSCI-4968",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -16152,29 +16147,9 @@
     }
   },
   "63875": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "63876": {
+    "cross_list_courses": [
+      "PSYC-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16200,9 +16175,35 @@
       "major": {
         "must_be": [
           "Cognitive Science",
-          "Psychological Science"
+          "Psychology"
         ]
       }
+    }
+  },
+  "63876": {
+    "cross_list_courses": [
+      "PSYC-4330"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "63878": {},
@@ -16270,6 +16271,12 @@
   },
   "63897": {},
   "63898": {
+    "cross_list_courses": [
+      "CSCI-4968",
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4961"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -17189,6 +17196,18 @@
       }
     }
   },
+  "64078": {
+    "cross_list_courses": [
+      "CSCI-4968",
+      "MATH-4140",
+      "PHIL-4140",
+      "PHIL-4961"
+    ],
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "type": "course"
+    }
+  },
   "64079": {
     "prerequisites": {
       "course": "ENGR 6200",
@@ -17639,7 +17658,6 @@
       "type": "course"
     }
   },
-  "64217": {},
   "64224": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -17815,6 +17833,9 @@
     }
   },
   "64248": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18054,33 +18075,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "64269": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "may_not_be": [
-          "Cognitive Science",
-          "Psychology"
-        ]
-      }
     }
   },
   "64273": {},
@@ -18614,15 +18608,6 @@
       "type": "or"
     }
   },
-  "64363": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "64364": {
     "cross_list_courses": [
       "COMM-2660"
@@ -18638,23 +18623,11 @@
     }
   },
   "64365": {},
-  "64366": {},
-  "64367": {},
   "64368": {},
   "64372": {
     "cross_list_courses": [
       "COMM-2520"
     ]
-  },
-  "64379": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
   },
   "64383": {
     "prerequisites": {
@@ -18664,13 +18637,6 @@
   },
   "64384": {},
   "64385": {},
-  "64386": {},
-  "64387": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "type": "course"
-    }
-  },
   "64388": {
     "restrictions": {
       "classification": {
@@ -21293,5 +21259,28 @@
         ]
       }
     }
+  },
+  "64651": {
+    "cross_list_courses": [
+      "MATH-4140",
+      "MATH-4961",
+      "PHIL-4140",
+      "PHIL-4961"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "64652": {
+    "cross_list_courses": [
+      "CSCI-4968",
+      "MATH-4961",
+      "PHIL-4140",
+      "PHIL-4961"
+    ]
   }
 }
