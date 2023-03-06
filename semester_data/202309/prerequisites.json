@@ -2732,7 +2732,11 @@
       "MGMT-6640"
     ]
   },
-  "60244": {},
+  "60244": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ]
+  },
   "60245": {
     "prerequisites": {
       "course": "ENVE 4320",
@@ -9084,6 +9088,9 @@
     }
   },
   "62147": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -9392,7 +9399,11 @@
       }
     }
   },
-  "62254": {},
+  "62254": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ]
+  },
   "62255": {
     "cross_list_courses": [
       "CSCI-4480",
@@ -11565,12 +11576,6 @@
       "type": "or"
     }
   },
-  "62807": {
-    "prerequisites": {
-      "course": "LANG 1410",
-      "type": "course"
-    }
-  },
   "62808": {
     "restrictions": {
       "level": {
@@ -11996,7 +12001,6 @@
       "type": "or"
     }
   },
-  "62902": {},
   "62903": {
     "restrictions": {
       "classification": {
@@ -15204,11 +15208,13 @@
     }
   },
   "63764": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -17589,23 +17595,13 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Junior",
+          "Senior"
         ]
       }
     }
   },
   "64201": {},
-  "64202": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "64203": {
     "restrictions": {
       "campus": {
@@ -17647,7 +17643,6 @@
     }
   },
   "64217": {},
-  "64218": {},
   "64224": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -18654,8 +18649,6 @@
       "COMM-2520"
     ]
   },
-  "64375": {},
-  "64376": {},
   "64379": {
     "restrictions": {
       "classification": {
@@ -18666,7 +18659,6 @@
       }
     }
   },
-  "64382": {},
   "64383": {
     "prerequisites": {
       "course": "ARCH 2510",
