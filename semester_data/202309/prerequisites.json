@@ -21417,6 +21417,9 @@
   "64668": {},
   "64669": {},
   "64670": {
+    "cross_list_courses": [
+      "COMM-6930"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21428,6 +21431,138 @@
           "Communication, Media, & Design",
           "Communication",
           "Elect Media, Arts, & Comm"
+        ]
+      }
+    }
+  },
+  "64671": {
+    "cross_list_courses": [
+      "COMM-4930"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "64672": {},
+  "64673": {},
+  "64674": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "WRIT 1110",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2110",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "64675": {
+    "cross_list_courses": [
+      "LITR-2150"
+    ]
+  },
+  "64676": {
+    "cross_list_courses": [
+      "LITR-2150"
+    ]
+  },
+  "64677": {},
+  "64678": {
+    "cross_list_courses": [
+      "LITR-4880"
+    ],
+    "prerequisites": {
+      "course": "LITR 2110",
+      "type": "course"
+    }
+  },
+  "64679": {
+    "cross_list_courses": [
+      "LITR-4880"
+    ],
+    "prerequisites": {
+      "course": "LITR 2110",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Communication"
+        ]
+      }
+    }
+  },
+  "64680": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64681": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64682": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64683": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64684": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64685": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "64686": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
