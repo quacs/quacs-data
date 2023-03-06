@@ -11014,15 +11014,6 @@
       }
     }
   },
-  "62718": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "62719": {
     "cross_list_courses": [
       "CSCI-4480",
@@ -12570,6 +12561,9 @@
   "62959": {},
   "62960": {},
   "62961": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -12657,16 +12651,6 @@
           "Sophomore"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62971": {},
-  "62972": {
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -13696,22 +13680,6 @@
     }
   },
   "63247": {},
-  "63250": {},
-  "63251": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
   "63253": {
     "restrictions": {
       "classification": {
@@ -13725,12 +13693,14 @@
   },
   "63256": {},
   "63257": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
-          "Communication, Media, & Design",
           "Communication",
-          "Elect Media, Arts, & Comm"
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -13887,15 +13857,27 @@
       "type": "course"
     }
   },
-  "63356": {},
+  "63356": {
+    "cross_list_courses": [
+      "COMM-2520"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63357": {
+    "cross_list_courses": [
+      "COMM-2520"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Communication",
-          "Electronic Arts",
-          "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -15479,6 +15461,10 @@
     }
   },
   "63789": {
+    "cross_list_courses": [
+      "COGS-6964",
+      "CSCI-4969"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -15490,12 +15476,20 @@
     }
   },
   "63790": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6964"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
     }
   },
   "63791": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "CSCI-4969"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16086,6 +16080,9 @@
     }
   },
   "63873": {
+    "cross_list_courses": [
+      "COGS-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16115,13 +16112,15 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Cognitive Science",
-          "Psychological Science"
+          "Cognitive Science"
         ]
       }
     }
   },
   "63874": {
+    "cross_list_courses": [
+      "COGS-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17099,7 +17098,19 @@
       "type": "course"
     }
   },
-  "64064": {},
+  "64064": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "64067": {
     "prerequisites": {
       "nested": [
@@ -17573,53 +17584,6 @@
       }
     }
   },
-  "64193": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "64194": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64195": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64199": {},
   "64200": {
     "restrictions": {
@@ -18063,12 +18027,6 @@
       }
     }
   },
-  "64258": {
-    "prerequisites": {
-      "course": "COGS 2340",
-      "type": "course"
-    }
-  },
   "64259": {},
   "64263": {
     "restrictions": {
@@ -18131,29 +18089,6 @@
           "Psychology"
         ]
       }
-    }
-  },
-  "64270": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "64273": {},
@@ -18238,8 +18173,15 @@
       "type": "or"
     }
   },
-  "64292": {},
+  "64292": {
+    "cross_list_courses": [
+      "COGS-6961"
+    ]
+  },
   "64293": {
+    "cross_list_courses": [
+      "COGS-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18689,12 +18631,29 @@
       }
     }
   },
-  "64364": {},
+  "64364": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication",
+          "Games & Simulation Arts & Sci",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "64365": {},
   "64366": {},
   "64367": {},
   "64368": {},
-  "64372": {},
+  "64372": {
+    "cross_list_courses": [
+      "COMM-2520"
+    ]
+  },
   "64375": {},
   "64376": {},
   "64379": {
@@ -20129,42 +20088,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "64506": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1600",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2350",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4500",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "ENGR 2530",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "64507": {
