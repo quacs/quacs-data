@@ -2503,11 +2503,20 @@
       "type": "course"
     }
   },
-  "60202": {},
+  "60202": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "60203": {
-    "cross_list_courses": [
-      "ARTS-1020"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -2518,9 +2527,6 @@
     }
   },
   "60204": {
-    "cross_list_courses": [
-      "ARTS-1020"
-    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -3780,7 +3786,19 @@
       }
     }
   },
-  "60384": {},
+  "60384": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "60385": {
     "cross_list_courses": [
       "ENGR-6100",
@@ -9771,18 +9789,6 @@
     }
   },
   "62282": {},
-  "62283": {
-    "cross_list_courses": [
-      "ECSE-4962"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62284": {
     "prerequisites": {
       "nested": [
@@ -13761,12 +13767,20 @@
     }
   },
   "63322": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Music"
         ]
       }
     }
@@ -13923,9 +13937,17 @@
     }
   },
   "63361": {
-    "cross_list_courses": [
-      "ARTS-1030"
-    ]
+    "cross_list_courses": [],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "63362": {
     "cross_list_courses": [
@@ -14933,20 +14955,18 @@
       }
     }
   },
-  "63738": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts"
-        ]
-      }
-    }
-  },
-  "63739": {},
+  "63738": {},
   "63740": {
     "cross_list_courses": [
       "ARTS-2700"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Music"
+        ]
+      }
+    }
   },
   "63741": {
     "cross_list_courses": [
@@ -17670,11 +17690,6 @@
       "course": "ECSE 2110",
       "type": "course"
     }
-  },
-  "64225": {
-    "cross_list_courses": [
-      "ECSE-6220"
-    ]
   },
   "64227": {
     "restrictions": {
@@ -20511,11 +20526,6 @@
     }
   },
   "64568": {},
-  "64569": {
-    "cross_list_courses": [
-      "ARTS-1030"
-    ]
-  },
   "64570": {},
   "64571": {},
   "64572": {},
@@ -21573,5 +21583,10 @@
   "64690": {},
   "64691": {},
   "64692": {},
-  "64693": {}
+  "64693": {},
+  "64694": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  }
 }
