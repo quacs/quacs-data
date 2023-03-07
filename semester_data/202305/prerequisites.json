@@ -2547,7 +2547,11 @@
       "type": "and"
     }
   },
-  "18409": {},
+  "18409": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "18411": {},
   "18412": {
     "restrictions": {
@@ -3175,16 +3179,6 @@
     }
   },
   "18532": {},
-  "18535": {},
-  "18536": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "18538": {
     "cross_list_courses": [
       "COGS-6430",
@@ -3322,7 +3316,6 @@
   "18575": {},
   "18576": {},
   "18577": {},
-  "18578": {},
   "18579": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -3346,29 +3339,6 @@
   },
   "18583": {},
   "18584": {},
-  "18585": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "18586": {},
   "18588": {
     "restrictions": {
@@ -3379,12 +3349,6 @@
           "Sustainability Studies"
         ]
       }
-    }
-  },
-  "18589": {
-    "prerequisites": {
-      "course": "ARTS 2230",
-      "type": "course"
     }
   },
   "18590": {
@@ -3423,7 +3387,11 @@
   },
   "18595": {},
   "18596": {},
-  "18597": {},
+  "18597": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ]
+  },
   "18598": {},
   "18600": {},
   "18601": {},
@@ -3569,5 +3537,126 @@
     }
   },
   "18668": {},
-  "18669": {}
+  "18669": {},
+  "18670": {},
+  "18671": {},
+  "18672": {},
+  "18673": {},
+  "18674": {},
+  "18675": {
+    "cross_list_courses": [
+      "ARTS-2550"
+    ]
+  },
+  "18676": {},
+  "18677": {},
+  "18678": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4430",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "18679": {
+    "cross_list_courses": [
+      "PSYC-4600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "COGS 4330",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 4330",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHIL 2120",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 2120",
+              "type": "course"
+            },
+            {
+              "course": "COGS 2120",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "18680": {
+    "cross_list_courses": [
+      "COGS-4600"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COGS 4330",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 4330",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 4360",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4360",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 4370",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "18681": {},
+  "18682": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
+  "18683": {}
 }
