@@ -12294,6 +12294,11 @@
   "62934": {},
   "62937": {
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
       "level": {
         "must_be": [
           "Undecided Science"
@@ -19808,16 +19813,28 @@
   "64491": {
     "cross_list_courses": [
       "ECSE-6961"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
   },
   "64492": {
     "cross_list_courses": [
       "ECSE-4961"
     ],
     "restrictions": {
-      "level": {
+      "classification": {
         "must_be": [
-          "Graduate"
+          "Graduate Student"
         ]
       }
     }
@@ -21278,7 +21295,15 @@
     }
   },
   "64662": {},
-  "64663": {},
+  "64663": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
   "64664": {},
   "64665": {},
   "64666": {
