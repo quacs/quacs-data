@@ -19842,23 +19842,34 @@
   "64493": {
     "cross_list_courses": [
       "ECSE-6650"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
-  "64494": {
-    "cross_list_courses": [
-      "ECSE-6964"
-    ]
-  },
+  "64494": {},
   "64495": {
     "cross_list_courses": [
       "ECSE-4964"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
