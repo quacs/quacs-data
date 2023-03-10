@@ -8823,7 +8823,6 @@
   "MANE 4090": {
     "title": "Flight Mechanics",
     "prereqs": [
-      "MANE 4050",
       "MANE 4070",
       "MANE 4500"
     ]
@@ -8864,9 +8863,7 @@
   "MANE 4280": {
     "title": "Numerical Design Optimization",
     "prereqs": [
-      "CSCI 1010",
       "CSCI 1100",
-      "CSCI 1190",
       "MANE 2110",
       "MATH 2010"
     ]
@@ -8915,10 +8912,7 @@
   },
   "MANE 4610": {
     "title": "Manufacturing Proc & Sys Lab",
-    "prereqs": [
-      "ENGR 2090",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "MANE 4710": {
     "title": "Heat Transfer",
@@ -8938,8 +8932,8 @@
   "MANE 4760": {
     "title": "Heating, Ventilation, & Ac",
     "prereqs": [
-      "MANE 4010",
-      "MANE 4730"
+      "MANE 2710",
+      "MANE 2720"
     ]
   },
   "MANE 4910": {
@@ -10154,7 +10148,8 @@
     "prereqs": [
       "CHEM 1100",
       "CHEM 1110",
-      "PHYS 1100"
+      "PHYS 1100",
+      "PHYS 1150"
     ]
   },
   "MANE 4220": {
@@ -12533,10 +12528,7 @@
   },
   "MANE 6360": {
     "title": "Reactor Reliability & Safety",
-    "prereqs": [
-      "MANE 4050",
-      "MANE 4500"
-    ]
+    "prereqs": []
   },
   "ADMN 6150": {
     "title": "External Fellowship Research",
@@ -13399,7 +13391,9 @@
   },
   "MANE 2960": {
     "title": "Mechanics 2",
-    "prereqs": []
+    "prereqs": [
+      "MANE 1960"
+    ]
   },
   "MANE 6760": {
     "title": "Finite Element Methods For Fluid Dynamics",
@@ -15924,7 +15918,11 @@
   },
   "MANE 4500": {
     "title": "Modeling & Control Of Dyn Sys",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2400",
+      "PHYS 1200",
+      "PHYS 1250"
+    ]
   },
   "MANE 4730": {
     "title": "Heat Transfer",
@@ -16231,7 +16229,6 @@
     "title": "Control System Engineering",
     "prereqs": [
       "ECSE 2410",
-      "MANE 4050",
       "MANE 4500"
     ]
   },

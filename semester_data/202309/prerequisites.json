@@ -3246,17 +3246,8 @@
           "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "MANE 4050",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4500",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "MANE 4500",
+          "type": "course"
         }
       ],
       "type": "and"
@@ -3303,10 +3294,7 @@
       },
       "major": {
         "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr"
+          "Mechanical Engineering"
         ]
       }
     }
@@ -3334,10 +3322,7 @@
       },
       "major": {
         "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr"
+          "Mechanical Engineering"
         ]
       }
     }
@@ -4274,10 +4259,7 @@
       },
       "major": {
         "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr"
+          "Mechanical Engineering"
         ]
       }
     }
@@ -5729,10 +5711,7 @@
       },
       "major": {
         "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr"
+          "Mechanical Engineering"
         ]
       }
     }
@@ -7037,15 +7016,15 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MANE 4010",
+          "course": "MANE 2710",
           "type": "course"
         },
         {
-          "course": "MANE 4730",
+          "course": "MANE 2720",
           "type": "course"
         }
       ],
-      "type": "or"
+      "type": "and"
     }
   },
   "61702": {
@@ -11226,14 +11205,6 @@
         {
           "nested": [
             {
-              "course": "CSCI 1190",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1010",
-              "type": "course"
-            },
-            {
               "course": "MANE 2110",
               "type": "course"
             },
@@ -13186,11 +13157,20 @@
         {
           "nested": [
             {
-              "course": "CHEM 1100",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "CHEM 1100",
+                  "type": "course"
+                },
+                {
+                  "course": "CHEM 1110",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             },
             {
-              "course": "CHEM 1110",
+              "course": "PHYS 1150",
               "type": "course"
             }
           ],
@@ -13204,19 +13184,6 @@
     "cross_list_courses": [
       "MANE-4360"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -14180,10 +14147,6 @@
           "type": "course"
         },
         {
-          "course": "MANE 4050",
-          "type": "course"
-        },
-        {
           "course": "MANE 4500",
           "type": "course"
         }
@@ -14285,7 +14248,30 @@
       "type": "course"
     }
   },
-  "63391": {},
+  "63391": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "63392": {
     "prerequisites": {
       "course": "LANG 2410",
@@ -14844,24 +14830,24 @@
         {
           "nested": [
             {
+              "course": "MATH 2010",
+              "type": "course"
+            },
+            {
               "nested": [
-                {
-                  "course": "MATH 2010",
-                  "type": "course"
-                },
                 {
                   "course": "MATH 2011",
                   "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
                 }
               ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "type": "course"
+              "type": "and"
             }
           ],
-          "type": "and"
+          "type": "or"
         }
       ],
       "type": "and"
@@ -15538,6 +15524,11 @@
         "must_be": [
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering"
+        ]
       }
     }
   },
@@ -15546,6 +15537,11 @@
       "classification": {
         "must_be": [
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering"
         ]
       }
     }
@@ -20194,7 +20190,12 @@
       }
     }
   },
-  "64530": {},
+  "64530": {
+    "prerequisites": {
+      "course": "MANE 1960",
+      "type": "course"
+    }
+  },
   "64531": {
     "restrictions": {
       "classification": {
@@ -20232,36 +20233,57 @@
     "cross_list_courses": [
       "ENGR-4710"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2090",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Information Tech & Web Science",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
     }
   },
   "64537": {
     "cross_list_courses": [
       "ENGR-4710"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2090",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Information Tech & Web Science",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
     }
   },
   "64538": {
