@@ -21542,5 +21542,38 @@
       "ARCH-6840",
       "MANE-6963"
     ]
+  },
+  "64697": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
