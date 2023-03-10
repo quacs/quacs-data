@@ -1066,17 +1066,8 @@
   },
   "18198": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2720",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+      "course": "MANE 2720",
+      "type": "course"
     }
   },
   "18199": {
@@ -1136,8 +1127,17 @@
           "type": "course"
         },
         {
-          "course": "ENGR 2530",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -1503,8 +1503,17 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "nested": [
@@ -1531,19 +1540,11 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ENGR 2250",
-          "type": "course"
-        },
-        {
           "course": "ENGR 2530",
           "type": "course"
         },
         {
-          "course": "ECSE 4160",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
+          "course": "BMED 2540",
           "type": "course"
         }
       ],
@@ -1947,32 +1948,15 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MANE 4070",
+          "course": "MANE 2710",
           "type": "course"
         },
         {
-          "course": "MANE 4010",
+          "course": "MANE 2720",
           "type": "course"
-        },
-        {
-          "course": "MANE 4400",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MANE 2710",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2720",
-              "type": "course"
-            }
-          ],
-          "type": "and"
         }
       ],
-      "type": "or"
+      "type": "and"
     }
   },
   "18295": {},
@@ -2024,7 +2008,12 @@
       "type": "and"
     }
   },
-  "18299": {},
+  "18299": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "type": "course"
+    }
+  },
   "18300": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -2278,8 +2267,17 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "nested": [
@@ -2340,6 +2338,10 @@
             {
               "course": "ENGR 1400",
               "type": "course"
+            },
+            {
+              "course": "CIVL 1200",
+              "type": "course"
             }
           ],
           "type": "or"
@@ -2385,6 +2387,10 @@
             },
             {
               "course": "ENGR 1400",
+              "type": "course"
+            },
+            {
+              "course": "CIVL 1200",
               "type": "course"
             }
           ],

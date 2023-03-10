@@ -21544,6 +21544,9 @@
     ]
   },
   "64697": {
+    "cross_list_courses": [
+      "MANE-6140"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21553,27 +21556,70 @@
         {
           "nested": [
             {
+              "course": "MATH 2010",
+              "type": "course"
+            },
+            {
               "nested": [
-                {
-                  "course": "MATH 2010",
-                  "type": "course"
-                },
                 {
                   "course": "MATH 2012",
                   "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
                 }
               ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2011",
-              "type": "course"
+              "type": "and"
             }
           ],
-          "type": "and"
+          "type": "or"
         }
       ],
       "type": "and"
+    }
+  },
+  "64698": {
+    "cross_list_courses": [
+      "MANE-4140"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "type": "course"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
