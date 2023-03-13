@@ -2562,30 +2562,6 @@
       "STSO-4250"
     ]
   },
-  "18411": {},
-  "18412": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "18413": {},
-  "18414": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "18416": {
     "prerequisites": {
       "nested": [
@@ -3213,7 +3189,6 @@
   "18543": {},
   "18544": {},
   "18545": {},
-  "18546": {},
   "18547": {},
   "18549": {},
   "18550": {},
@@ -3334,6 +3309,12 @@
   "18583": {},
   "18584": {},
   "18586": {},
+  "18587": {
+    "prerequisites": {
+      "course": "GSAS 4540",
+      "type": "course"
+    }
+  },
   "18588": {
     "restrictions": {
       "major": {
@@ -3343,29 +3324,6 @@
           "Sustainability Studies"
         ]
       }
-    }
-  },
-  "18590": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "18591": {},
