@@ -13031,8 +13031,21 @@
       "PSYC-4310"
     ],
     "prerequisites": {
-      "course": "PSYC 2310",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PSYC 2310",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -13048,8 +13061,21 @@
       "PSYC-4310"
     ],
     "prerequisites": {
-      "course": "PSYC 2310",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PSYC 2310",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "63153": {
@@ -13736,7 +13762,11 @@
     }
   },
   "63350": {},
-  "63351": {},
+  "63351": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "63354": {
     "restrictions": {
       "level": {
@@ -15793,21 +15823,6 @@
   "63842": {},
   "63843": {},
   "63844": {},
-  "63846": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63847": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -16695,6 +16710,11 @@
     }
   },
   "63996": {},
+  "63999": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ]
+  },
   "64014": {
     "prerequisites": {
       "course": "GSAS 4510",
@@ -16911,16 +16931,6 @@
     }
   },
   "64042": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "64043": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18010,25 +18020,6 @@
     }
   },
   "64267": {},
-  "64268": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "64273": {},
   "64275": {
     "restrictions": {
@@ -18085,17 +18076,6 @@
     }
   },
   "64288": {},
-  "64289": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64290": {
     "prerequisites": {
       "nested": [
@@ -18575,7 +18555,6 @@
     }
   },
   "64365": {},
-  "64368": {},
   "64372": {
     "cross_list_courses": [
       "COMM-2520"
@@ -18627,7 +18606,6 @@
   "64399": {},
   "64400": {},
   "64401": {},
-  "64402": {},
   "64404": {
     "restrictions": {
       "level": {
@@ -20648,10 +20626,6 @@
   },
   "64587": {},
   "64588": {
-    "prerequisites": {
-      "course": "MATH 2010",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -20922,15 +20896,6 @@
   },
   "64623": {},
   "64624": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "64625": {
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21281,7 +21246,15 @@
       }
     }
   },
-  "64662": {},
+  "64662": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "64663": {
     "restrictions": {
       "classification": {
@@ -21384,6 +21357,9 @@
   "64672": {},
   "64673": {},
   "64674": {
+    "cross_list_courses": [
+      "WRIT-6550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21616,5 +21592,10 @@
         ]
       }
     }
+  },
+  "64700": {
+    "cross_list_courses": [
+      "WRIT-4550"
+    ]
   }
 }

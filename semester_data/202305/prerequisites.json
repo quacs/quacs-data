@@ -2816,34 +2816,6 @@
     }
   },
   "18470": {},
-  "18471": {
-    "cross_list_courses": [
-      "COGS-4430",
-      "COGS-6430",
-      "CSCI-6961"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "COGS 4420",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4150",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "18472": {
     "prerequisites": {
       "nested": [
@@ -2884,20 +2856,6 @@
     "prerequisites": {
       "course": "PHYS 2210",
       "type": "course"
-    }
-  },
-  "18477": {
-    "cross_list_courses": [
-      "COGS-4430",
-      "COGS-6430",
-      "CSCI-4966"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "18478": {},
@@ -3164,27 +3122,6 @@
     }
   },
   "18532": {},
-  "18538": {
-    "cross_list_courses": [
-      "COGS-6430",
-      "CSCI-4966",
-      "CSCI-6961"
-    ]
-  },
-  "18539": {
-    "cross_list_courses": [
-      "COGS-4430",
-      "CSCI-4966",
-      "CSCI-6961"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "18541": {},
   "18543": {},
   "18544": {},
@@ -3612,5 +3549,17 @@
     ]
   },
   "18691": {},
-  "18692": {}
+  "18692": {},
+  "18693": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  }
 }
