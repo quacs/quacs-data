@@ -1259,30 +1259,10 @@
       }
     }
   },
-  "18217": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2120",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 2120",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "18218": {
+    "cross_list_courses": [
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3273,7 +3253,6 @@
     ]
   },
   "18598": {},
-  "18600": {},
   "18601": {},
   "18602": {
     "cross_list_courses": [
@@ -3561,5 +3540,24 @@
         ]
       }
     }
-  }
+  },
+  "18694": {
+    "cross_list_courses": [
+      "COGS-4360"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "18695": {}
 }
