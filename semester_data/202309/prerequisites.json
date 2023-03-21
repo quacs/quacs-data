@@ -5669,8 +5669,17 @@
       "MANE-4260"
     ],
     "prerequisites": {
-      "course": "ENGR 2050",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -5963,8 +5972,17 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "course": "ENGR 2050",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -6607,8 +6625,17 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "course": "ENGR 2050",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -6634,8 +6661,17 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "course": "ENGR 2050",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
