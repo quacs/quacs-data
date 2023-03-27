@@ -14630,8 +14630,17 @@
   },
   "63403": {
     "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2660",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "63404": {
@@ -19983,10 +19992,6 @@
     ],
     "prerequisites": {
       "nested": [
-        {
-          "course": "ECSE 2500",
-          "type": "course"
-        },
         {
           "course": "MATH 2010",
           "type": "course"
