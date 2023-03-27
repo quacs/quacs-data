@@ -7033,9 +7033,27 @@
   "61684": {},
   "61685": {},
   "61687": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2010",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2050",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
+          "Junior",
           "Senior"
         ]
       }
