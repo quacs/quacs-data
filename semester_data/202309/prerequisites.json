@@ -21863,5 +21863,37 @@
   "64720": {},
   "64721": {},
   "64722": {},
-  "64723": {}
+  "64723": {},
+  "64724": {
+    "cross_list_courses": [
+      "CSCI-6975"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4390",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 6390",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "64725": {
+    "cross_list_courses": [
+      "CSCI-4975"
+    ]
+  }
 }
