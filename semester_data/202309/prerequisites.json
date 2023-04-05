@@ -1355,10 +1355,30 @@
       }
     }
   },
-  "60039": {},
-  "60040": {},
-  "60041": {},
-  "60042": {},
+  "60039": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "60040": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "60041": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "60042": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "60043": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -2864,9 +2884,24 @@
       "type": "or"
     }
   },
-  "60254": {},
-  "60255": {},
-  "60256": {},
+  "60254": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "60255": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "60256": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "60258": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -6557,10 +6592,30 @@
       }
     }
   },
-  "61469": {},
-  "61470": {},
-  "61471": {},
-  "61472": {},
+  "61469": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "61470": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "61471": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "61472": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "61473": {
     "cross_list_courses": [
       "ECSE-4900",
@@ -6990,7 +7045,12 @@
   },
   "61683": {},
   "61684": {},
-  "61685": {},
+  "61685": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "61687": {
     "prerequisites": {
       "nested": [
@@ -7202,8 +7262,18 @@
       }
     }
   },
-  "61713": {},
-  "61714": {},
+  "61713": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "61714": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "61715": {},
   "61716": {
     "restrictions": {
@@ -7461,8 +7531,18 @@
       }
     }
   },
-  "61813": {},
-  "61814": {},
+  "61813": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
+  "61814": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "61817": {
     "restrictions": {
       "level": {
@@ -21953,5 +22033,36 @@
       }
     }
   },
-  "64735": {}
+  "64735": {},
+  "64736": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "64737": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  }
 }
