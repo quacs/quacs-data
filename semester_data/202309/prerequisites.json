@@ -21919,7 +21919,20 @@
   "64717": {
     "cross_list_courses": [
       "COGS-6960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 4310",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "64718": {
     "cross_list_courses": [
