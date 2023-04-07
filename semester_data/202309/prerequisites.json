@@ -17370,7 +17370,20 @@
       "ITWS-6600",
       "MGMT-4600",
       "MGMT-6600"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics"
+        ]
+      }
+    }
   },
   "64099": {},
   "64100": {},
