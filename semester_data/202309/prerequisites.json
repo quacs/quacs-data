@@ -18248,7 +18248,6 @@
     }
   },
   "64267": {},
-  "64273": {},
   "64275": {
     "restrictions": {
       "level": {
@@ -22189,5 +22188,39 @@
       "type": "or"
     }
   },
-  "64748": {}
+  "64748": {},
+  "64749": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "64750": {
+    "cross_list_courses": [
+      "COMM-6962"
+    ]
+  },
+  "64751": {
+    "cross_list_courses": [
+      "COMM-4962"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
