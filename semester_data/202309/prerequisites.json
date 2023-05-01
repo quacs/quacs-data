@@ -22297,5 +22297,25 @@
       "course": "ARCH 2810",
       "type": "course"
     }
+  },
+  "64765": {},
+  "64766": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
