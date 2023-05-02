@@ -19929,7 +19929,9 @@
   },
   "64491": {
     "cross_list_courses": [
-      "ECSE-6961"
+      "ECSE-6961",
+      "ISCI-4961",
+      "ISCI-6961"
     ],
     "prerequisites": {
       "course": "PHYS 1200",
@@ -19947,7 +19949,9 @@
   },
   "64492": {
     "cross_list_courses": [
-      "ECSE-4961"
+      "ECSE-4961",
+      "ISCI-4961",
+      "ISCI-6961"
     ],
     "restrictions": {
       "classification": {
@@ -22331,6 +22335,40 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "64768": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ISCI-6961"
+    ],
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "64769": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ISCI-4961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
     }
   }
 }
