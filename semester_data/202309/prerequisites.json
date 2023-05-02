@@ -18883,6 +18883,28 @@
       "type": "and"
     }
   },
+  "64413": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
+  },
   "64417": {
     "restrictions": {
       "classification": {
@@ -19930,6 +19952,8 @@
   "64491": {
     "cross_list_courses": [
       "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961",
       "ISCI-6961"
     ],
@@ -19950,6 +19974,8 @@
   "64492": {
     "cross_list_courses": [
       "ECSE-4961",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961",
       "ISCI-6961"
     ],
@@ -22341,6 +22367,8 @@
     "cross_list_courses": [
       "ECSE-4961",
       "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-6961"
     ],
     "prerequisites": {
@@ -22361,7 +22389,25 @@
     "cross_list_courses": [
       "ECSE-4961",
       "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "64770": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ISCI-4961",
+      "ISCI-6961"
     ],
     "restrictions": {
       "classification": {
