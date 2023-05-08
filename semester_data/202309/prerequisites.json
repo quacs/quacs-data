@@ -14004,6 +14004,49 @@
       "STSO-4250"
     ]
   },
+  "63352": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2120",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2120",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
+    }
+  },
+  "63353": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
   "63354": {
     "restrictions": {
       "level": {
@@ -17880,6 +17923,7 @@
       "type": "course"
     }
   },
+  "64217": {},
   "64224": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -21282,17 +21326,7 @@
       "INQR-1100",
       "INQR-1110",
       "STSO-1100"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Design, Innovation and Society",
-          "Science & Technology Studies",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
+    ]
   },
   "64638": {
     "cross_list_courses": [
@@ -22429,5 +22463,6 @@
       "course": "ARCH 2810",
       "type": "course"
     }
-  }
+  },
+  "64774": {}
 }
