@@ -2490,6 +2490,11 @@
       "type": "or"
     },
     "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -2522,12 +2527,26 @@
     "prerequisites": {
       "course": "ENGR 6200",
       "type": "course"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   },
   "18427": {
     "prerequisites": {
       "course": "ENGR 6205",
       "type": "course"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   },
   "18428": {
@@ -2552,23 +2571,57 @@
     "prerequisites": {
       "course": "ENGR 6215",
       "type": "course"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   },
-  "18430": {},
+  "18430": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
   "18431": {
     "prerequisites": {
       "course": "ENGR 6220",
       "type": "course"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   },
   "18432": {
     "prerequisites": {
       "course": "ENGR 6230",
       "type": "course"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   },
   "18433": {
     "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -2922,7 +2975,15 @@
       }
     }
   },
-  "18496": {},
+  "18496": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
   "18497": {
     "prerequisites": {
       "nested": [
@@ -3234,7 +3295,15 @@
   },
   "18653": {},
   "18655": {},
-  "18656": {},
+  "18656": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
   "18657": {
     "restrictions": {
       "level": {
