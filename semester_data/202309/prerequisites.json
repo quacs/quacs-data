@@ -1890,7 +1890,11 @@
     }
   },
   "60082": {},
-  "60083": {},
+  "60083": {
+    "corequisites": [
+      "ARCH-4820"
+    ]
+  },
   "60084": {
     "prerequisites": {
       "nested": [
@@ -11380,6 +11384,9 @@
   "62743": {},
   "62744": {},
   "62745": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
@@ -13824,6 +13831,9 @@
     }
   },
   "63230": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
@@ -18380,12 +18390,18 @@
     }
   },
   "64281": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
     }
   },
   "64282": {
+    "corequisites": [
+      "ARCH-4540"
+    ],
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
