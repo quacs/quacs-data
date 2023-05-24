@@ -10908,12 +10908,12 @@
           {
             "act": 6,
             "attribute": "Communication Intensive",
-            "cap": 8,
+            "cap": 10,
             "credMax": 6.0,
             "credMin": 6.0,
             "crn": 60094,
             "crse": 4720,
-            "rem": 2,
+            "rem": 4,
             "sec": "01",
             "subj": "BIOL",
             "timeslots": [
@@ -10945,12 +10945,12 @@
           {
             "act": 8,
             "attribute": "Communication Intensive",
-            "cap": 8,
+            "cap": 10,
             "credMax": 6.0,
             "credMin": 6.0,
             "crn": 60854,
             "crse": 4720,
-            "rem": 0,
+            "rem": 2,
             "sec": "02",
             "subj": "BIOL",
             "timeslots": [
@@ -25252,14 +25252,14 @@
             "title": "Foundations Of Computer Sci"
           },
           {
-            "act": 40,
+            "act": 41,
             "attribute": "",
             "cap": 40,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64450,
             "crse": 2200,
-            "rem": 0,
+            "rem": -1,
             "sec": "06",
             "subj": "CSCI",
             "timeslots": [
@@ -26675,26 +26675,30 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 0,
+            "cap": 10,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64777,
             "crse": 4960,
-            "rem": 0,
+            "rem": 10,
             "sec": "01",
             "subj": "CSCI",
             "timeslots": [
               {
-                "dateEnd": "",
-                "dateStart": "",
-                "days": [],
-                "instructor": "",
-                "location": "",
-                "timeEnd": -1,
-                "timeStart": -1
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "R"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
               }
             ],
-            "title": "Machine Learning Seminar"
+            "title": "Machine Learning Seminar",
+            "xl_rem": 20
           }
         ],
         "subj": "CSCI",
@@ -27412,6 +27416,42 @@
         ],
         "subj": "CSCI",
         "title": "Computational Linear Algebra"
+      },
+      {
+        "crse": 6960,
+        "id": "CSCI-6960",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 64262,
+            "crse": 6960,
+            "rem": 10,
+            "sec": "01",
+            "subj": "CSCI",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Machine Learning Seminar",
+            "xl_rem": 20
+          }
+        ],
+        "subj": "CSCI",
+        "title": "Machine Learning Seminar"
       },
       {
         "crse": 6961,
@@ -46410,14 +46450,14 @@
         "id": "MGMT-4140",
         "sections": [
           {
-            "act": 25,
+            "act": 26,
             "attribute": "Communication Intensive",
             "cap": 40,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 60241,
             "crse": 4140,
-            "rem": 15,
+            "rem": 14,
             "sec": "02",
             "subj": "MGMT",
             "timeslots": [
@@ -47020,14 +47060,14 @@
         "id": "MGMT-4870",
         "sections": [
           {
-            "act": 25,
+            "act": 24,
             "attribute": "",
             "cap": 40,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 60007,
             "crse": 4870,
-            "rem": 15,
+            "rem": 16,
             "sec": "01",
             "subj": "MGMT",
             "timeslots": [
