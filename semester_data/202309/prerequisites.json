@@ -5690,11 +5690,6 @@
     }
   },
   "61310": {
-    "cross_list_courses": [
-      "ECSE-4900",
-      "ISYE-4270",
-      "MTLE-4920"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -5826,11 +5821,6 @@
     }
   },
   "61319": {
-    "cross_list_courses": [
-      "ISYE-4270",
-      "MANE-4260",
-      "MTLE-4920"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -6594,11 +6584,6 @@
     }
   },
   "61474": {
-    "cross_list_courses": [
-      "ECSE-4900",
-      "MANE-4260",
-      "MTLE-4920"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -6998,11 +6983,6 @@
     }
   },
   "61694": {
-    "cross_list_courses": [
-      "ECSE-4900",
-      "ISYE-4270",
-      "MANE-4260"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -8820,8 +8800,15 @@
       "type": "and"
     }
   },
-  "62126": {},
+  "62126": {
+    "cross_list_courses": [
+      "CHME-6430"
+    ]
+  },
   "62127": {
+    "cross_list_courses": [
+      "CHME-4430"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18187,6 +18174,47 @@
       }
     }
   },
+  "64253": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 1010",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
   "64254": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -18297,12 +18325,19 @@
     }
   },
   "64266": {
+    "cross_list_courses": [
+      "CHME-6480"
+    ],
     "prerequisites": {
       "course": "CHME 4020",
       "type": "course"
     }
   },
-  "64267": {},
+  "64267": {
+    "cross_list_courses": [
+      "CHME-4480"
+    ]
+  },
   "64275": {
     "restrictions": {
       "level": {
@@ -21127,7 +21162,6 @@
   "64620": {
     "cross_list_courses": [
       "INQR-1100",
-      "INQR-1110",
       "STSO-1100"
     ],
     "restrictions": {
@@ -21141,7 +21175,6 @@
   "64621": {
     "cross_list_courses": [
       "INQR-1100",
-      "INQR-1110",
       "STSO-1100"
     ],
     "restrictions": {
@@ -21155,7 +21188,6 @@
   "64623": {
     "cross_list_courses": [
       "INQR-1100",
-      "INQR-1110",
       "STSO-1100"
     ],
     "restrictions": {
@@ -21266,14 +21298,12 @@
   "64637": {
     "cross_list_courses": [
       "INQR-1100",
-      "INQR-1110",
       "STSO-1100"
     ]
   },
   "64638": {
     "cross_list_courses": [
       "INQR-1100",
-      "INQR-1110",
       "STSO-1100"
     ]
   },
@@ -21659,6 +21689,9 @@
     }
   },
   "64682": {
+    "cross_list_courses": [
+      "INQR-1550"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21668,6 +21701,9 @@
     }
   },
   "64683": {
+    "cross_list_courses": [
+      "INQR-1550"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21704,25 +21740,10 @@
     }
   },
   "64687": {},
-  "64688": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "64689": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "64690": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21732,6 +21753,9 @@
     }
   },
   "64691": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21741,6 +21765,9 @@
     }
   },
   "64692": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21750,6 +21777,9 @@
     }
   },
   "64693": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22551,5 +22581,6 @@
         ]
       }
     }
-  }
+  },
+  "64792": {}
 }
