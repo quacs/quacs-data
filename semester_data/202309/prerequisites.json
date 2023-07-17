@@ -14311,8 +14311,35 @@
   },
   "63377": {
     "prerequisites": {
-      "course": "MANE 2400",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MANE 2110",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
     }
   },
   "63378": {
