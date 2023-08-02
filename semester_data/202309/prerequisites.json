@@ -23306,5 +23306,23 @@
       "course": "ENGR 2600",
       "type": "course"
     }
+  },
+  "64800": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
