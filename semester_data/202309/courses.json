@@ -277,14 +277,14 @@
         "id": "ADMN-6700",
         "sections": [
           {
-            "act": 35,
+            "act": 36,
             "attribute": "",
             "cap": 550,
             "credMax": 0.0,
             "credMin": 0.0,
             "crn": 61710,
             "crse": 6700,
-            "rem": 515,
+            "rem": 514,
             "sec": "01",
             "subj": "ADMN",
             "timeslots": [
@@ -635,12 +635,12 @@
           {
             "act": 1,
             "attribute": "",
-            "cap": 1,
+            "cap": 30,
             "credMax": 2.0,
             "credMin": 2.0,
             "crn": 64720,
             "crse": 2160,
-            "rem": 0,
+            "rem": 29,
             "sec": "02",
             "subj": "ARCH",
             "timeslots": [
@@ -651,7 +651,7 @@
                   "R"
                 ],
                 "instructor": "Edwin Jhinang Liu",
-                "location": "Russell Sage Laboratory 2704",
+                "location": "Russell Sage Laboratory 4112",
                 "timeEnd": 1350,
                 "timeStart": 1200
               }
@@ -677,7 +677,7 @@
                   "R"
                 ],
                 "instructor": "Matt Burgermaster",
-                "location": "Russell Sage Laboratory 4112",
+                "location": "Low Center for Industrial Inn. 4034",
                 "timeEnd": 1350,
                 "timeStart": 1200
               }
@@ -694,7 +694,7 @@
         "sections": [
           {
             "act": 70,
-            "attribute": "Introductory Level Course",
+            "attribute": "",
             "cap": 90,
             "credMax": 3.0,
             "credMin": 3.0,
@@ -715,30 +715,6 @@
                 "location": "Carnegie Building 113",
                 "timeEnd": 1120,
                 "timeStart": 1000
-              }
-            ],
-            "title": "Structures 1"
-          },
-          {
-            "act": 2,
-            "attribute": "Introductory Level Course",
-            "cap": 45,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 64510,
-            "crse": 2330,
-            "rem": 43,
-            "sec": "02",
-            "subj": "ARCH",
-            "timeslots": [
-              {
-                "dateEnd": "",
-                "dateStart": "",
-                "days": [],
-                "instructor": "",
-                "location": "",
-                "timeEnd": -1,
-                "timeStart": -1
               }
             ],
             "title": "Structures 1"
@@ -796,7 +772,7 @@
                   "W"
                 ],
                 "instructor": "Lonn J. Combs",
-                "location": "Voorhees Computing Center SO",
+                "location": "Russell Sage Laboratory 3510",
                 "timeEnd": 1350,
                 "timeStart": 1200
               }
@@ -32613,14 +32589,14 @@
         "id": "ENGR-6200",
         "sections": [
           {
-            "act": 8,
+            "act": 9,
             "attribute": "",
             "cap": 25,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 63384,
             "crse": 6200,
-            "rem": 17,
+            "rem": 16,
             "sec": "H01",
             "subj": "ENGR",
             "timeslots": [
@@ -41633,17 +41609,17 @@
               }
             ],
             "title": "Minds And Machines",
-            "xl_rem": 2
+            "xl_rem": 1
           },
           {
-            "act": 17,
+            "act": 18,
             "attribute": "Communication Intensive, HASS Inquiry",
             "cap": 19,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64693,
             "crse": 1140,
-            "rem": 2,
+            "rem": 1,
             "sec": "06",
             "subj": "INQR",
             "timeslots": [
@@ -41672,7 +41648,7 @@
               }
             ],
             "title": "Minds And Machines",
-            "xl_rem": 2
+            "xl_rem": 1
           }
         ],
         "subj": "INQR",
@@ -41815,14 +41791,14 @@
         "id": "INQR-1200",
         "sections": [
           {
-            "act": 280,
+            "act": 279,
             "attribute": "HASS Inquiry",
             "cap": 300,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 64633,
             "crse": 1200,
-            "rem": 20,
+            "rem": 21,
             "sec": "01",
             "subj": "INQR",
             "timeslots": [
@@ -48775,6 +48751,42 @@
         "title": "Computational Materials Design"
       },
       {
+        "crse": 4730,
+        "id": "MTLE-4730",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 64798,
+            "crse": 4730,
+            "rem": 10,
+            "sec": "01",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Ravishankar Sundararaman",
+                "location": "Materials Research Center 136",
+                "timeEnd": 920,
+                "timeStart": 800
+              }
+            ],
+            "title": "Material Informatics & Data",
+            "xl_rem": 10
+          }
+        ],
+        "subj": "MTLE",
+        "title": "Material Informatics & Data"
+      },
+      {
         "crse": 4920,
         "id": "MTLE-4920",
         "sections": [
@@ -49041,6 +49053,42 @@
         ],
         "subj": "MTLE",
         "title": "Modeling Of Materials"
+      },
+      {
+        "crse": 6730,
+        "id": "MTLE-6730",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 64799,
+            "crse": 6730,
+            "rem": 10,
+            "sec": "01",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Ravishankar Sundararaman",
+                "location": "Materials Research Center 136",
+                "timeEnd": 920,
+                "timeStart": 800
+              }
+            ],
+            "title": "Material Informatics And Data",
+            "xl_rem": 10
+          }
+        ],
+        "subj": "MTLE",
+        "title": "Material Informatics And Data"
       },
       {
         "crse": 6900,

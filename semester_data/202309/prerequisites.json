@@ -20841,12 +20841,6 @@
       }
     }
   },
-  "64510": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
   "64511": {
     "prerequisites": {
       "course": "ARCH 2530",
@@ -23300,5 +23294,23 @@
       "type": "or"
     }
   },
-  "64797": {}
+  "64797": {},
+  "64798": {
+    "cross_list_courses": [
+      "MTLE-6730"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "type": "course"
+    }
+  },
+  "64799": {
+    "cross_list_courses": [
+      "MTLE-4730"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "type": "course"
+    }
+  }
 }
