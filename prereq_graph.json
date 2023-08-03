@@ -287,7 +287,9 @@
   },
   "CSCI 1200": {
     "title": "Data Structures",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1100"
+    ]
   },
   "CSCI 2220": {
     "title": "Programming In Java",
@@ -783,8 +785,13 @@
     "prereqs": []
   },
   "PHIL 2960": {
-    "title": "Environmental Ethics",
-    "prereqs": []
+    "title": "Ethics Of Ai",
+    "prereqs": [
+      "COGS 2120",
+      "IHSS 1140",
+      "PHIL 1110",
+      "PHIL 2100"
+    ]
   },
   "PHIL 4940": {
     "title": "Readings In Phil",
@@ -845,8 +852,11 @@
     "prereqs": []
   },
   "PSYC 4960": {
-    "title": "Leadership Theories",
-    "prereqs": []
+    "title": "Bayesian Data Analysis",
+    "prereqs": [
+      "BIOL 4200",
+      "PSYC 4310"
+    ]
   },
   "PSYC 4990": {
     "title": "Undergraduate Thesis",
@@ -1325,8 +1335,7 @@
   "ARTS 4070": {
     "title": "3d Animation",
     "prereqs": [
-      "ARTS 2230",
-      "ARTS 4060"
+      "ARTS 2230"
     ]
   },
   "ARTS 4080": {
@@ -1447,7 +1456,10 @@
   },
   "BIOL 1010": {
     "title": "Introduction To Biology",
-    "prereqs": []
+    "prereqs": [
+      "BIOL 1015",
+      "BIOL 1016"
+    ]
   },
   "BIOL 1040": {
     "title": "Biology For Non-majors",
@@ -1728,7 +1740,7 @@
     "prereqs": []
   },
   "CHEM 6020": {
-    "title": "Adv Inorganic Chem I",
+    "title": "Coord Chem Fundmtls & Applic",
     "prereqs": []
   },
   "CHEM 6210": {
@@ -1865,7 +1877,7 @@
     "prereqs": []
   },
   "COMM 4960": {
-    "title": "Social Media: East & West",
+    "title": "Research: Comm & Media",
     "prereqs": []
   },
   "COMM 6120": {
@@ -1901,7 +1913,7 @@
     "prereqs": []
   },
   "COMM 6961": {
-    "title": "Mobile Ar",
+    "title": "Media & Dis/misinformation",
     "prereqs": []
   },
   "CSCI 2200": {
@@ -1909,6 +1921,7 @@
     "prereqs": [
       "CSCI 1200",
       "MATH 1010",
+      "MATH 1020",
       "MATH 1500",
       "MATH 2010"
     ]
@@ -2005,9 +2018,10 @@
     ]
   },
   "CSCI 4960": {
-    "title": "Social Computing",
+    "title": "Machine Learning Seminar",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 4100",
+      "CSCI 6100"
     ]
   },
   "CSCI 6090": {
@@ -2023,7 +2037,7 @@
     "prereqs": []
   },
   "CSCI 6960": {
-    "title": "Materials Informatics & Data",
+    "title": "Machine Learning Seminar",
     "prereqs": []
   },
   "CSCI 6990": {
@@ -2057,9 +2071,11 @@
     ]
   },
   "ENGR 2250": {
-    "title": "Thermal And Fluids Engr I",
+    "title": "Thermal & Fluids Eng I",
     "prereqs": [
       "ECSE 1010",
+      "ECSE 1960",
+      "ECSE 1961",
       "ENGR 1100",
       "MATH 2400",
       "PHYS 1100",
@@ -2201,7 +2217,10 @@
   },
   "ERTH 2210": {
     "title": "Field Methods",
-    "prereqs": []
+    "prereqs": [
+      "ERTH 1100",
+      "ERTH 1200"
+    ]
   },
   "ERTH 2330": {
     "title": "Earth Materials",
@@ -2267,7 +2286,7 @@
     ]
   },
   "ERTH 6960": {
-    "title": "Seminar In Adv Geomicrobiology",
+    "title": "Special Topics In Geology",
     "prereqs": []
   },
   "ERTH 6980": {
@@ -2667,8 +2686,10 @@
     "prereqs": []
   },
   "ISCI 4961": {
-    "title": "Prof Leadership Program",
-    "prereqs": []
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
+    "prereqs": [
+      "PHYS 1200"
+    ]
   },
   "ISCI 6002": {
     "title": "Science For Children (atsunya)",
@@ -2812,7 +2833,7 @@
     ]
   },
   "MGMT 6100": {
-    "title": "Statistics For Managerial Decision Making",
+    "title": "Foundations Of Data Science",
     "prereqs": []
   },
   "MGMT 6320": {
@@ -3038,7 +3059,9 @@
   },
   "MATH 2010": {
     "title": "Multivar Calc & Matrix Algebra",
-    "prereqs": []
+    "prereqs": [
+      "MATH 1020"
+    ]
   },
   "MATH 2950": {
     "title": "Undergraduate Research Proj",
@@ -3105,7 +3128,7 @@
     "prereqs": []
   },
   "MATH 6890": {
-    "title": "Computational Optimal Trnsprt",
+    "title": "Parallel Methods: Sci Computin",
     "prereqs": []
   },
   "MATH 6950": {
@@ -3276,7 +3299,7 @@
     "prereqs": []
   },
   "PHYS 4960": {
-    "title": "Physics Teaching Seminar",
+    "title": "Quantum Computing & Informtn",
     "prereqs": []
   },
   "PHYS 6110": {
@@ -3332,12 +3355,11 @@
   "PSYC 4600": {
     "title": "Cognition & The Brain",
     "prereqs": [
-      "COGS 2120",
       "COGS 4330",
-      "PHIL 2120",
-      "PSYC 1200",
-      "PSYC 2120",
-      "PSYC 4330"
+      "COGS 4360",
+      "PSYC 4330",
+      "PSYC 4360",
+      "PSYC 4370"
     ]
   },
   "PSYC 6340": {
@@ -3563,7 +3585,7 @@
     "prereqs": []
   },
   "ARCH 4961": {
-    "title": "Comprehensive Design 1",
+    "title": "Anexact Anatomies",
     "prereqs": []
   },
   "ARCH 4962": {
@@ -3571,7 +3593,7 @@
     "prereqs": []
   },
   "ARCH 4963": {
-    "title": "Design Futures & Flood Reslncy",
+    "title": "Duchamps Seminar",
     "prereqs": []
   },
   "ARCH 4964": {
@@ -3595,15 +3617,15 @@
     "prereqs": []
   },
   "ARCH 6960": {
-    "title": "Times Of Digital Biology",
+    "title": "Design Programming 1",
     "prereqs": []
   },
   "ARTS 2961": {
-    "title": "Jazz Ensemble",
+    "title": "Video Art And Social Media",
     "prereqs": []
   },
   "ARTS 2962": {
-    "title": "Percussion Ensemble",
+    "title": "Wind Symphony",
     "prereqs": []
   },
   "ARTS 2964": {
@@ -3875,7 +3897,8 @@
     "title": "Chemistry II",
     "prereqs": [
       "CHEM 1100",
-      "CHEM 1110"
+      "CHEM 1110",
+      "CHEM 1300"
     ]
   },
   "CHEM 2001": {
@@ -4071,15 +4094,15 @@
     "prereqs": []
   },
   "COMM 4961": {
-    "title": "Media & Disinformation",
+    "title": "Media & Dis/misinformation",
     "prereqs": []
   },
   "COMM 4962": {
-    "title": "Strat Public Speakng For Tech",
+    "title": "Writing For Tech Communication",
     "prereqs": []
   },
   "COMM 4963": {
-    "title": "Level Design",
+    "title": "Health Comm In Practice",
     "prereqs": []
   },
   "COMM 4964": {
@@ -4183,18 +4206,21 @@
     "title": "Ai & Blockchain",
     "prereqs": [
       "CSCI 2300",
-      "CSCI 2600",
-      "CSCI 4100",
-      "CSCI 4150"
+      "CSCI 2600"
     ]
   },
   "CSCI 4965": {
-    "title": "Tech And Ml In Conservation",
-    "prereqs": []
+    "title": "Ai For Conservation",
+    "prereqs": [
+      "CSCI 2300",
+      "MATH 1020"
+    ]
   },
   "CSCI 4966": {
     "title": "Economics And Computation",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300"
+    ]
   },
   "CSCI 4967": {
     "title": "Modern Binary Exploitation",
@@ -4232,7 +4258,7 @@
     "prereqs": []
   },
   "CSCI 6965": {
-    "title": "Tech And Ml In Conservation",
+    "title": "Ai For Conservation",
     "prereqs": []
   },
   "CSCI 6966": {
@@ -4266,9 +4292,7 @@
       "ECSE 1010",
       "ENGR 1100",
       "ENGR 1200",
-      "ENGR 1400",
-      "PHYS 1200",
-      "PHYS 1250"
+      "ENGR 1400"
     ]
   },
   "ENGR 4720": {
@@ -4447,13 +4471,15 @@
     "title": "Environmental Economics",
     "prereqs": [
       "ECON 1200",
-      "IHSS 1200",
-      "IHSS 1975"
+      "IHSS 1200"
     ]
   },
   "ECON 4961": {
-    "title": "Intl Trade & Environmental",
-    "prereqs": []
+    "title": "Intl Trade & Environmntl Econ",
+    "prereqs": [
+      "ECON 1200",
+      "IHSS 1200"
+    ]
   },
   "ECON 4962": {
     "title": "Economics Of Growth & Innov",
@@ -4561,7 +4587,7 @@
     "prereqs": []
   },
   "ECSE 4962": {
-    "title": "Phys Found Of Solid State Dev",
+    "title": "Computational Imaging",
     "prereqs": []
   },
   "ECSE 6260": {
@@ -4584,7 +4610,8 @@
   "ECSE 6440": {
     "title": "Optimal Control Theory",
     "prereqs": [
-      "ECSE 6400"
+      "ECSE 6400",
+      "ECSE 6600"
     ]
   },
   "ECSE 6480": {
@@ -4695,11 +4722,8 @@
     "prereqs": []
   },
   "ENVE 4961": {
-    "title": "Water Reuse Technologies/apps",
-    "prereqs": [
-      "ENVE 2110",
-      "ENVE 4310"
-    ]
+    "title": "Photobiology & Hydroponics",
+    "prereqs": []
   },
   "ENVE 6140": {
     "title": "Stream Pollution Control",
@@ -4861,9 +4885,7 @@
   },
   "MGMT 4110": {
     "title": "Operations Management",
-    "prereqs": [
-      "MGMT 2100"
-    ]
+    "prereqs": []
   },
   "MGMT 4340": {
     "title": "Adv Corporate Finance",
@@ -4883,7 +4905,7 @@
     "prereqs": []
   },
   "MGMT 4963": {
-    "title": "Business Undergrad Internship",
+    "title": "Sport Marketing",
     "prereqs": []
   },
   "MGMT 4964": {
@@ -5379,7 +5401,7 @@
   "PHYS 2350": {
     "title": "Experimental Physics",
     "prereqs": [
-      "PHYS 2220"
+      "PHYS 2210"
     ]
   },
   "PHYS 2620": {
@@ -5390,7 +5412,7 @@
     ]
   },
   "PHYS 2963": {
-    "title": "Introduction To Observing",
+    "title": "Phys Teaching Practicum",
     "prereqs": []
   },
   "PHYS 4100": {
@@ -5403,7 +5425,7 @@
     "title": "Electromagnetic Theory",
     "prereqs": [
       "MATH 4600",
-      "PHYS 2220"
+      "PHYS 2210"
     ]
   },
   "PHYS 4420": {
@@ -5497,9 +5519,7 @@
   },
   "PSYC 4720": {
     "title": "Abnormal Psychology",
-    "prereqs": [
-      "PSYC 1200"
-    ]
+    "prereqs": []
   },
   "PSYC 4770": {
     "title": "Psychopharm & Beh Toxico",
@@ -6015,7 +6035,8 @@
   "CSCI 4962": {
     "title": "Ml And Optimization",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 2300",
+      "MATH 1020"
     ]
   },
   "CSCI 6270": {
@@ -6061,8 +6082,10 @@
     "prereqs": []
   },
   "ENGR 4961": {
-    "title": "Ethical Engineer, Engr & Tech",
-    "prereqs": []
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
+    "prereqs": [
+      "PHYS 1200"
+    ]
   },
   "DSES 4000": {
     "title": "Dses Elective",
@@ -6122,8 +6145,10 @@
     ]
   },
   "ECSE 4961": {
-    "title": "Adv Mat Metrolo Equip Semi Mfg",
-    "prereqs": []
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
+    "prereqs": [
+      "PHYS 1200"
+    ]
   },
   "ECSE 6010": {
     "title": "Network Theory",
@@ -6150,12 +6175,14 @@
     "prereqs": []
   },
   "ECSE 6961": {
-    "title": "Adv Mat Metrolo Equip Semi Mfg",
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
     "prereqs": []
   },
   "ENVE 4220": {
-    "title": "Environmental Law",
-    "prereqs": []
+    "title": "Water Reuse Tech & Application",
+    "prereqs": [
+      "ENVE 2110"
+    ]
   },
   "ENVE 4320": {
     "title": "Env Chemodynamics",
@@ -6213,7 +6240,7 @@
     "prereqs": []
   },
   "IHSS 2960": {
-    "title": "Dialogue Faciliation Methods",
+    "title": "Igd: Imagined Future/realities",
     "prereqs": []
   },
   "LANG 1000": {
@@ -6399,7 +6426,7 @@
     "prereqs": []
   },
   "PHYS 2961": {
-    "title": "Quantum Computing & Informtn",
+    "title": "Intro Physics Teach Practicum",
     "prereqs": []
   },
   "PHYS 4510": {
@@ -6517,7 +6544,7 @@
     "prereqs": []
   },
   "ARCH 4966": {
-    "title": "Design Programming 1",
+    "title": "Latin American Studies",
     "prereqs": []
   },
   "ARCH 6670": {
@@ -6652,7 +6679,11 @@
   },
   "CHME 4030": {
     "title": "Chem Process Dynamics & Cntrl",
-    "prereqs": []
+    "prereqs": [
+      "CHME 2010",
+      "CHME 2050",
+      "MATH 2400"
+    ]
   },
   "CHME 4040": {
     "title": "Chemical Eng Separations",
@@ -6758,7 +6789,7 @@
     "prereqs": []
   },
   "COMM 6962": {
-    "title": "Semiotics & Fieldwork",
+    "title": "Writing For Tech Communication",
     "prereqs": []
   },
   "COMM 6967": {
@@ -7384,9 +7415,7 @@
   },
   "COMM 4970": {
     "title": "2d Motion Graphics",
-    "prereqs": [
-      "COMM 2660"
-    ]
+    "prereqs": []
   },
   "COMM 6970": {
     "title": "Rhetorical Analysis",
@@ -7809,11 +7838,8 @@
     "prereqs": []
   },
   "CSCI 4968": {
-    "title": "Ml And Optimization",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 2010"
-    ]
+    "title": "Intermediate Formal Logic & Ai",
+    "prereqs": []
   },
   "CSCI 6050": {
     "title": "Computability & Complexity",
@@ -8009,7 +8035,7 @@
     "prereqs": []
   },
   "ISCI 6961": {
-    "title": "Symmetry, Shape, & Space",
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
     "prereqs": []
   },
   "ISCI 6962": {
@@ -8716,7 +8742,10 @@
   },
   "ECSE 4963": {
     "title": "Computer Vision",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200",
+      "MATH 2010"
+    ]
   },
   "ITEC 4100": {
     "title": "Itec Capstone Experience",
@@ -8797,7 +8826,7 @@
     ]
   },
   "MANE 4060": {
-    "title": "Aerospace Struc & Materials",
+    "title": "Aerospace Struct & Materials",
     "prereqs": [
       "ENGR 2530"
     ]
@@ -8819,7 +8848,6 @@
   "MANE 4090": {
     "title": "Flight Mechanics",
     "prereqs": [
-      "MANE 4050",
       "MANE 4070",
       "MANE 4500"
     ]
@@ -8860,9 +8888,7 @@
   "MANE 4280": {
     "title": "Numerical Design Optimization",
     "prereqs": [
-      "CSCI 1010",
       "CSCI 1100",
-      "CSCI 1190",
       "MANE 2110",
       "MATH 2010"
     ]
@@ -8911,10 +8937,7 @@
   },
   "MANE 4610": {
     "title": "Manufacturing Proc & Sys Lab",
-    "prereqs": [
-      "ENGR 2090",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "MANE 4710": {
     "title": "Heat Transfer",
@@ -8934,8 +8957,8 @@
   "MANE 4760": {
     "title": "Heating, Ventilation, & Ac",
     "prereqs": [
-      "MANE 4010",
-      "MANE 4730"
+      "MANE 2710",
+      "MANE 2720"
     ]
   },
   "MANE 4910": {
@@ -9057,7 +9080,7 @@
     "prereqs": []
   },
   "PHIL 4960": {
-    "title": "Philosphy Of Race",
+    "title": "Non-classical Logic",
     "prereqs": []
   },
   "PSYC 2965": {
@@ -9169,7 +9192,7 @@
     "prereqs": []
   },
   "COMM 1961": {
-    "title": "History & Culture Of Games -  Gsas Majors Only",
+    "title": "Eff Comm For Class Pedagogy",
     "prereqs": []
   },
   "CSCI 1010": {
@@ -9188,14 +9211,14 @@
   },
   "CSCI 4970": {
     "title": "Ai In Fiction And Fact",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2200"
+    ]
   },
   "CSCI 4971": {
     "title": "Algorithmic Game Theory",
     "prereqs": [
-      "CSCI 2200",
-      "CSCI 2300",
-      "MATH 2010"
+      "CSCI 4020"
     ]
   },
   "CSCI 4972": {
@@ -9236,8 +9259,12 @@
   "ECON 4570": {
     "title": "Econometrics",
     "prereqs": [
-      "ECON 2010",
-      "MATH 2010"
+      "BIOL 4200",
+      "ENGR 2600",
+      "MATH 2010",
+      "MATP 4600",
+      "MGMT 2100",
+      "PSYC 2310"
     ]
   },
   "EPOW 6820": {
@@ -9386,7 +9413,10 @@
   "MANE 4480": {
     "title": "Physics Of Nuclear Reactors",
     "prereqs": [
-      "MANE 2400"
+      "MANE 2110",
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "MANE 4700": {
@@ -9462,7 +9492,7 @@
     "prereqs": []
   },
   "MANE 6963": {
-    "title": "Multivariable Control Systems",
+    "title": "Engineering Acoustics",
     "prereqs": []
   },
   "MANE 6966": {
@@ -10067,7 +10097,7 @@
     "prereqs": []
   },
   "CHEM 4950": {
-    "title": "Senior Experience",
+    "title": "Culminating Research Exp",
     "prereqs": []
   },
   "CHEM 6330": {
@@ -10083,7 +10113,7 @@
     "prereqs": []
   },
   "COGS 6960": {
-    "title": "Social Computing",
+    "title": "Bayesian Data Analysis",
     "prereqs": []
   },
   "COGS 6961": {
@@ -10150,7 +10180,8 @@
     "prereqs": [
       "CHEM 1100",
       "CHEM 1110",
-      "PHYS 1100"
+      "PHYS 1100",
+      "PHYS 1150"
     ]
   },
   "MANE 4220": {
@@ -10161,7 +10192,7 @@
     ]
   },
   "MANE 4963": {
-    "title": "Robotics II",
+    "title": "Engineering Acoustics",
     "prereqs": []
   },
   "MANE 6490": {
@@ -10456,11 +10487,11 @@
     "prereqs": []
   },
   "CHEM 6965": {
-    "title": "Medicinal Chemistry",
+    "title": "Protein Struct & Deep Learning",
     "prereqs": []
   },
   "CHEM 6966": {
-    "title": "Perspect In Bme & Alz Research",
+    "title": "Xray Diffraction & Crystal Str",
     "prereqs": []
   },
   "COGS 6100": {
@@ -10658,11 +10689,11 @@
     "prereqs": []
   },
   "BMED 6966": {
-    "title": "Perspect In Bme & Alz Research",
+    "title": "Perspective Biomolecular Sci",
     "prereqs": []
   },
   "CHME 6966": {
-    "title": "Perspect In Bme & Alz Research",
+    "title": "Perspectives In Bms & Eng",
     "prereqs": []
   },
   "CHEM 4160": {
@@ -10938,7 +10969,7 @@
     "prereqs": []
   },
   "ARCH 4970": {
-    "title": "Parametrics Of The Environment",
+    "title": "Modern And Contemporary Rome",
     "prereqs": []
   },
   "ARTS 2520": {
@@ -11073,11 +11104,11 @@
     ]
   },
   "CSCI 4975": {
-    "title": "Llvm: A Compiler Case Study",
+    "title": "Deep Learning On Graphs",
     "prereqs": [
-      "CSCI 2300",
-      "CSCI 2500",
-      "ECSE 2660"
+      "CSCI 4150",
+      "CSCI 4390",
+      "CSCI 6390"
     ]
   },
   "ERTH 4570": {
@@ -11232,7 +11263,7 @@
     "prereqs": []
   },
   "ARCH 6966": {
-    "title": "Design Programming 1",
+    "title": "Design Programming 2",
     "prereqs": []
   },
   "ARTS 2060": {
@@ -11260,7 +11291,7 @@
     "prereqs": []
   },
   "CHME 4966": {
-    "title": "Chem Engr Process Simulations",
+    "title": "Chemical Engineering Pro Simul",
     "prereqs": []
   },
   "CHEM 4964": {
@@ -11426,7 +11457,7 @@
     "prereqs": []
   },
   "ARCH 4975": {
-    "title": "Renaisssance & Baroque Arch",
+    "title": "Renaissance & Baroque Arch",
     "prereqs": []
   },
   "ARCH 6964": {
@@ -11560,12 +11591,14 @@
     "prereqs": []
   },
   "PHYS 6963": {
-    "title": "Particle Astrophysics",
+    "title": "Elementary Particle Physics",
     "prereqs": []
   },
   "PSYC 4310": {
     "title": "Research Methods And Statistics II",
     "prereqs": [
+      "ENGR 2600",
+      "MGMT 2100",
       "PSYC 2310"
     ]
   },
@@ -11843,8 +11876,9 @@
     "prereqs": []
   },
   "PHYS 1250": {
-    "title": "Physics II Honors",
+    "title": "Intro Electromag Theory",
     "prereqs": [
+      "MATH 1020",
       "PHYS 1100",
       "PHYS 1150"
     ]
@@ -12372,7 +12406,8 @@
   "ISYE 4270": {
     "title": "Mulitdisciplinary Capstone Design",
     "prereqs": [
-      "ENGR 2050"
+      "ENGR 2050",
+      "MANE 2220"
     ]
   },
   "ISYE 4280": {
@@ -12498,7 +12533,7 @@
     "prereqs": []
   },
   "ITWS 6960": {
-    "title": "Sscp Infosec Certification",
+    "title": "Cloud Security",
     "prereqs": []
   },
   "ITWS 6961": {
@@ -12530,10 +12565,7 @@
   },
   "MANE 6360": {
     "title": "Reactor Reliability & Safety",
-    "prereqs": [
-      "MANE 4050",
-      "MANE 4500"
-    ]
+    "prereqs": []
   },
   "ADMN 6150": {
     "title": "External Fellowship Research",
@@ -12730,11 +12762,8 @@
     "prereqs": []
   },
   "ITWS 4961": {
-    "title": "Capstone 2",
-    "prereqs": [
-      "ITWS 4100",
-      "ITWS 6800"
-    ]
+    "title": "Data & Society",
+    "prereqs": []
   },
   "ITWS 4962": {
     "title": "X-informatics",
@@ -12966,7 +12995,7 @@
     "prereqs": []
   },
   "IHSS 4960": {
-    "title": "Science Behind Bias In Stem",
+    "title": "Dialogue Facilitation: Envjust",
     "prereqs": []
   },
   "LITR 2964": {
@@ -13260,7 +13289,6 @@
   "PHYS 2220": {
     "title": "Quantum Physics II",
     "prereqs": [
-      "MATH 2010",
       "PHYS 2210"
     ]
   },
@@ -13400,7 +13428,9 @@
   },
   "MANE 2960": {
     "title": "Mechanics 2",
-    "prereqs": []
+    "prereqs": [
+      "MANE 1960"
+    ]
   },
   "MANE 6760": {
     "title": "Finite Element Methods For Fluid Dynamics",
@@ -13688,9 +13718,7 @@
   },
   "ARCH 2160": {
     "title": "Architectural Media",
-    "prereqs": [
-      "ARCH 2150"
-    ]
+    "prereqs": []
   },
   "ARCH 2520": {
     "title": "Digital Constructs I",
@@ -14165,7 +14193,7 @@
     ]
   },
   "CHEM 4965": {
-    "title": "Medicinal Chemistry",
+    "title": "Protein Struct & Deep Learning",
     "prereqs": []
   },
   "COGS 4550": {
@@ -14652,7 +14680,7 @@
     "prereqs": []
   },
   "PHYS 4941": {
-    "title": "Path Integral Modeling",
+    "title": "Quantum Optical 3d Mdling Dsgn",
     "prereqs": []
   },
   "STSH 2320": {
@@ -14765,7 +14793,7 @@
     "prereqs": []
   },
   "CSCI 6975": {
-    "title": "Llvm: A Compiler Case Study",
+    "title": "Deep Learning On Graphs",
     "prereqs": []
   },
   "ENGR 6120": {
@@ -14815,7 +14843,7 @@
     ]
   },
   "MGMT 6460": {
-    "title": "Advanced Quantitative Methods For Business",
+    "title": "Modeling And Optimization",
     "prereqs": []
   },
   "MGMT 7770": {
@@ -15042,7 +15070,6 @@
   "MANE 4140": {
     "title": "Intro Computat Fluid Dynamics",
     "prereqs": [
-      "ENGR 2250",
       "MANE 2720",
       "MATH 2010",
       "MATH 2011",
@@ -15432,6 +15459,9 @@
   "GSAS 4540": {
     "title": "Game Development II",
     "prereqs": [
+      "ARTS 4520",
+      "COGS 4520",
+      "CSCI 4520",
       "GSAS 4520"
     ]
   },
@@ -15531,7 +15561,7 @@
     "prereqs": []
   },
   "CHEM 6750": {
-    "title": "Biocatalysis Fundamental Appli",
+    "title": "Biocatalysis: Fdmtls & Applic",
     "prereqs": []
   },
   "COGS 2340": {
@@ -15805,14 +15835,12 @@
     "prereqs": []
   },
   "GSAS 4960": {
-    "title": "Topics In Game Research",
+    "title": "Topics In Critical Game Design",
     "prereqs": []
   },
   "GSAS 4961": {
-    "title": "Intermediate Game Design",
-    "prereqs": [
-      "GSAS 2510"
-    ]
+    "title": "Intermediate Game Programming",
+    "prereqs": []
   },
   "IHSS 1320": {
     "title": "Century Of Environ. Thought",
@@ -15870,7 +15898,12 @@
   },
   "MANE 6140": {
     "title": "Intro Computat Fluid Dynamics",
-    "prereqs": []
+    "prereqs": [
+      "MANE 2720",
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
+    ]
   },
   "MANE 6610": {
     "title": "Nonlinear Control Systems",
@@ -15908,7 +15941,7 @@
     "prereqs": []
   },
   "GSAS 2961": {
-    "title": "Films Game Dsgnrs Should See",
+    "title": "3d Art With Blender",
     "prereqs": []
   },
   "LANG 4960": {
@@ -15921,7 +15954,11 @@
   },
   "MANE 4500": {
     "title": "Modeling & Control Of Dyn Sys",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2400",
+      "PHYS 1200",
+      "PHYS 1250"
+    ]
   },
   "MANE 4730": {
     "title": "Heat Transfer",
@@ -15930,7 +15967,7 @@
     ]
   },
   "ADMN 1030": {
-    "title": "Arch Explore & Planning Exp",
+    "title": "Arch Exp & Plan Architecture",
     "prereqs": []
   },
   "ADMN 1100": {
@@ -16110,7 +16147,8 @@
   "ITWS 4967": {
     "title": "Modern Binary Exploitation",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 2500",
+      "ECSE 2660"
     ]
   },
   "ITWS 6440": {
@@ -16228,7 +16266,6 @@
     "title": "Control System Engineering",
     "prereqs": [
       "ECSE 2410",
-      "MANE 4050",
       "MANE 4500"
     ]
   },
@@ -16364,7 +16401,7 @@
     "prereqs": []
   },
   "ECON 4320": {
-    "title": "Econ Models Of Decision Making",
+    "title": "Econ Models Of Decis Making",
     "prereqs": []
   },
   "ECON 4340": {
@@ -16379,7 +16416,7 @@
     ]
   },
   "ECON 6010": {
-    "title": "Applied Microeconomics",
+    "title": "Apld Microecon & Public Policy",
     "prereqs": []
   },
   "ECON 6020": {
@@ -16697,7 +16734,7 @@
     ]
   },
   "PHYS 1962": {
-    "title": "Physics Mentor For Phys 1150",
+    "title": "Modern Phys Mentoring Freshman",
     "prereqs": []
   },
   "PHYS 4966": {
@@ -16859,7 +16896,7 @@
     ]
   },
   "GSAS 6200": {
-    "title": "Topics In Game Research",
+    "title": "Topics In Critical Game Design",
     "prereqs": []
   },
   "GSAS 6300": {
@@ -16900,9 +16937,8 @@
   "PSYC 4360": {
     "title": "Behavioral Neuroscience",
     "prereqs": [
-      "PHIL 2120",
-      "PSYC 1200",
-      "PSYC 2120"
+      "COGS 2120",
+      "PSYC 1200"
     ]
   },
   "STSH 4290": {
@@ -16965,7 +17001,9 @@
     "title": "Intro To Machine Learning",
     "prereqs": [
       "ECSE 2500",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "GSAS 6100": {
@@ -17278,27 +17316,21 @@
     "prereqs": []
   },
   "STSO 4960": {
-    "title": "Sustainable Energy Systems",
+    "title": "History Race, Science, Medc",
     "prereqs": []
   },
   "STSO 4961": {
-    "title": "Environmental Justice",
+    "title": "Politics:epidemics & Pandemics",
     "prereqs": [
-      "STSH 2210",
       "STSO 2210",
-      "STSS 2210"
+      "STSO 2300",
+      "STSO 2500",
+      "STSO 2520"
     ]
   },
   "STSO 4962": {
-    "title": "Environmental Media & Data",
-    "prereqs": [
-      "STSO 2100",
-      "STSO 2210",
-      "STSO 2300",
-      "STSS 2100",
-      "STSS 2210",
-      "STSS 2300"
-    ]
+    "title": "Local History",
+    "prereqs": []
   },
   "STSO 4963": {
     "title": "Local History: Troy, Ny",
@@ -17414,7 +17446,7 @@
     "prereqs": []
   },
   "ECON 4010": {
-    "title": "Applied Microeconomics",
+    "title": "Apld Microecon & Public Policy",
     "prereqs": [
       "ECON 2010"
     ]
@@ -17427,7 +17459,7 @@
     ]
   },
   "ITWS 4941": {
-    "title": "Blockchain Sustainability",
+    "title": "Devlpmt Anti Ropchain Security",
     "prereqs": []
   },
   "IHSS 6790": {
@@ -17435,7 +17467,7 @@
     "prereqs": []
   },
   "ISCI 6510": {
-    "title": "Readings In Astrobiology",
+    "title": "Rdgs Astrobio & Orig Of Life",
     "prereqs": []
   },
   "PHYS 1140": {
@@ -17504,10 +17536,6 @@
     "prereqs": [
       "PHYS 1200"
     ]
-  },
-  "ENGR 4941": {
-    "title": "Stability Of In-space Cyrognc",
-    "prereqs": []
   },
   "ECON 2100": {
     "title": "Econ Data Analysis & Applic.",
@@ -17584,8 +17612,24 @@
     "title": "Science And Technology Policy",
     "prereqs": []
   },
+  "BIOL 1961": {
+    "title": "Sense And Signal",
+    "prereqs": []
+  },
+  "BIOL 2961": {
+    "title": "Field Experiences Aquatic Biol",
+    "prereqs": []
+  },
+  "COMM 4535": {
+    "title": "Social Media: East & West",
+    "prereqs": []
+  },
   "ENGR 4960": {
     "title": "Sustainable Energy Systems",
+    "prereqs": []
+  },
+  "ARTS 2610": {
+    "title": "Designing Musical Games",
     "prereqs": []
   },
   "BCBP 4240": {
@@ -17604,6 +17648,27 @@
     "title": "Leaders In Dynamic Markets",
     "prereqs": []
   },
+  "CHEM 1120": {
+    "title": "Chemistry 1 Honors",
+    "prereqs": []
+  },
+  "CHEM 1900": {
+    "title": "Chemistry For Life",
+    "prereqs": []
+  },
+  "CHEM 4750": {
+    "title": "Biocatalysis: Fdmtls & Applic",
+    "prereqs": []
+  },
+  "COMM 4288": {
+    "title": "Health Comm In Practice",
+    "prereqs": [
+      "COMM 2520",
+      "COMM 2660",
+      "WRIT 1110",
+      "WRIT 2110"
+    ]
+  },
   "CSCI 4560": {
     "title": "Computational Geometry",
     "prereqs": [
@@ -17618,13 +17683,150 @@
       "CSCI 2600"
     ]
   },
+  "ENGR 6961": {
+    "title": "Adv Mats Metro Eqpt Semi Mfg",
+    "prereqs": []
+  },
+  "ERTH 6250": {
+    "title": "Mechanisms Of Mass Extinction",
+    "prereqs": []
+  },
+  "ECON 4380": {
+    "title": "Labor Mrkts & Discrimination",
+    "prereqs": [
+      "ECON 1200",
+      "IHSS 1200"
+    ]
+  },
+  "ENVE 6710": {
+    "title": "Groundwater Hydrology",
+    "prereqs": [
+      "MATH 1020"
+    ]
+  },
+  "INQR 1030": {
+    "title": "Behind The Tv Screen",
+    "prereqs": []
+  },
+  "INQR 1040": {
+    "title": "Documentary In 21st Century",
+    "prereqs": []
+  },
+  "INQR 1100": {
+    "title": "Science, Tech, & Society",
+    "prereqs": []
+  },
+  "INQR 1110": {
+    "title": "Nature / Society",
+    "prereqs": []
+  },
+  "INQR 1140": {
+    "title": "Minds And Machines",
+    "prereqs": []
+  },
+  "INQR 1150": {
+    "title": "The Genome And You",
+    "prereqs": []
+  },
+  "INQR 1175": {
+    "title": "Well-being: Cultving Curiosity",
+    "prereqs": []
+  },
+  "INQR 1180": {
+    "title": "The Art Of Listening",
+    "prereqs": []
+  },
+  "INQR 1200": {
+    "title": "Principles Of Economics",
+    "prereqs": []
+  },
+  "INQR 1240": {
+    "title": "Sustainability Debates",
+    "prereqs": []
+  },
+  "INQR 1250": {
+    "title": "Designing Climate Justice",
+    "prereqs": []
+  },
+  "INQR 1300": {
+    "title": "Race And Film: Us Culture Hist",
+    "prereqs": []
+  },
+  "INQR 1550": {
+    "title": "Fiction: Film To The Internet",
+    "prereqs": []
+  },
+  "INQR 1560": {
+    "title": "Media And Society",
+    "prereqs": []
+  },
+  "INQR 1562": {
+    "title": "Life In Color",
+    "prereqs": []
+  },
+  "INQR 1610": {
+    "title": "Design And Innovation Studio 1",
+    "prereqs": []
+  },
+  "INQR 1666": {
+    "title": "Religion In A Global World",
+    "prereqs": []
+  },
+  "INQR 1700": {
+    "title": "Songwriting Workshop",
+    "prereqs": []
+  },
+  "INQR 1776": {
+    "title": "The American Dream",
+    "prereqs": []
+  },
+  "INQR 1960": {
+    "title": "Ai In The Information Age",
+    "prereqs": []
+  },
+  "INQR 1961": {
+    "title": "Writing For Global Audience",
+    "prereqs": []
+  },
+  "INQR 1962": {
+    "title": "Understanding Empathy",
+    "prereqs": []
+  },
+  "INQR 1963": {
+    "title": "Ai & Cmpting: Past, Prsnt, Fut",
+    "prereqs": []
+  },
+  "INQR 1973": {
+    "title": "News Media Culture And Politic",
+    "prereqs": []
+  },
   "ISYE 4440": {
     "title": "Mgmt Of Engineering & Tech",
+    "prereqs": []
+  },
+  "LGHT 4960": {
+    "title": "3d Printing For Lighting",
     "prereqs": []
   },
   "MGMT 4600": {
     "title": "Data Analytics",
     "prereqs": []
+  },
+  "MGMT 4800": {
+    "title": "Business Ug Internship",
+    "prereqs": []
+  },
+  "MTLE 4730": {
+    "title": "Material Informatics & Data",
+    "prereqs": [
+      "ENGR 2600"
+    ]
+  },
+  "MTLE 6730": {
+    "title": "Material Informatics And Data",
+    "prereqs": [
+      "ENGR 2600"
+    ]
   },
   "MANE 4290": {
     "title": "Radiation Transport Methods",
@@ -17633,15 +17835,27 @@
       "MANE 4480"
     ]
   },
-  "MANE 4660": {
-    "title": "Wind Energy Engineering",
+  "STSO 1100": {
+    "title": "Science, Tech, & Society",
+    "prereqs": []
+  },
+  "STSO 4510": {
+    "title": "History Of American Technology",
+    "prereqs": []
+  },
+  "STSO 4560": {
+    "title": "Gender, Science & Technology",
     "prereqs": [
-      "ENGR 1600",
-      "ENGR 2350",
-      "ENGR 2530",
-      "ENGR 2600",
-      "MANE 2720",
-      "MANE 4500"
+      "STSO 2100",
+      "STSO 2210",
+      "STSO 2300",
+      "STSO 2500",
+      "STSO 2510",
+      "STSO 2520"
     ]
+  },
+  "STSO 6961": {
+    "title": "Bodies, Institutions, Infrastr",
+    "prereqs": []
   }
 }
