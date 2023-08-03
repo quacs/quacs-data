@@ -9052,7 +9052,8 @@
         "must_be": [
           "Business Analytics",
           "Management",
-          "Quant Finance & Risk Analytics"
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
         ]
       }
     }
@@ -11068,6 +11069,15 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "62510": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -17043,6 +17053,9 @@
   },
   "63894": {},
   "63895": {
+    "cross_list_courses": [
+      "ARCH-4971"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18873,6 +18886,28 @@
     }
   },
   "64259": {},
+  "64260": {
+    "cross_list_courses": [
+      "MTLE-6960"
+    ],
+    "prerequisites": {
+      "course": "MTLE 4500",
+      "type": "course"
+    }
+  },
+  "64261": {
+    "cross_list_courses": [
+      "MTLE-4960"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "64262": {
     "cross_list_courses": [
       "CSCI-4960"
@@ -18918,8 +18953,15 @@
       }
     }
   },
-  "64279": {},
+  "64279": {
+    "cross_list_courses": [
+      "ARCH-6967"
+    ]
+  },
   "64280": {
+    "cross_list_courses": [
+      "ARCH-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18975,7 +19017,11 @@
       "type": "course"
     }
   },
-  "64288": {},
+  "64288": {
+    "cross_list_courses": [
+      "ARCH-6965"
+    ]
+  },
   "64290": {
     "prerequisites": {
       "nested": [
@@ -23238,24 +23284,6 @@
     }
   },
   "64797": {},
-  "64798": {
-    "cross_list_courses": [
-      "MTLE-6730"
-    ],
-    "prerequisites": {
-      "course": "ENGR 2600",
-      "type": "course"
-    }
-  },
-  "64799": {
-    "cross_list_courses": [
-      "MTLE-4730"
-    ],
-    "prerequisites": {
-      "course": "ENGR 2600",
-      "type": "course"
-    }
-  },
   "64800": {
     "corequisites": [
       "ARCH-2540"
