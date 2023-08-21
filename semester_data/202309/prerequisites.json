@@ -4295,6 +4295,15 @@
       }
     }
   },
+  "60440": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "60442": {
     "cross_list_courses": [
       "ENGR-4100",
@@ -21596,16 +21605,6 @@
   "64636": {},
   "64637": {},
   "64638": {},
-  "64640": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "64641": {
     "restrictions": {
       "classification": {
@@ -23039,6 +23038,18 @@
       "type": "course"
     }
   },
+  "64809": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
+  "64810": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
   "64811": {
     "restrictions": {
       "level": {
@@ -23048,5 +23059,15 @@
       }
     }
   },
-  "64812": {}
+  "64812": {},
+  "64814": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
