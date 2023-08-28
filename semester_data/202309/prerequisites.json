@@ -16085,6 +16085,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Graduate Student",
           "Senior"
         ]
       },
@@ -16897,6 +16898,9 @@
     }
   },
   "63917": {
+    "cross_list_courses": [
+      "MGMT-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18137,6 +18141,9 @@
     }
   },
   "64132": {
+    "cross_list_courses": [
+      "BMED-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18782,21 +18789,6 @@
     "cross_list_courses": [
       "ARCH-6965"
     ]
-  },
-  "64290": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 2520",
-          "type": "course"
-        },
-        {
-          "course": "WRIT 2330",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
   },
   "64292": {
     "cross_list_courses": [
