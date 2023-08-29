@@ -13051,15 +13051,7 @@
       "type": "and"
     }
   },
-  "62984": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
+  "62984": {},
   "62988": {
     "restrictions": {
       "major": {
@@ -23110,5 +23102,16 @@
       "CHEM-4964"
     ]
   },
-  "64830": {}
+  "64830": {},
+  "64831": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
