@@ -1909,11 +1909,6 @@
       "MANE-6600"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -7688,11 +7683,6 @@
   },
   "61817": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -17158,11 +17148,6 @@
       "CSCI-4963"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21009,11 +20994,6 @@
       "BMED-4590"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21410,11 +21390,6 @@
       "type": "and"
     },
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21836,11 +21811,6 @@
       "COGS-4340"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -22273,11 +22243,9 @@
       "COMM-4961"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -22635,11 +22603,9 @@
       "COMM-4962"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -22840,7 +22806,14 @@
   "64778": {
     "cross_list_courses": [
       "PHYS-4620"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "64779": {
     "restrictions": {
