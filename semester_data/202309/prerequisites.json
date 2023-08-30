@@ -21002,7 +21002,16 @@
     }
   },
   "64568": {},
-  "64571": {},
+  "64571": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "64572": {},
   "64573": {},
   "64574": {},
@@ -21412,11 +21421,21 @@
     }
   },
   "64610": {
+    "prerequisites": {
+      "course": "GSAS 2540",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
