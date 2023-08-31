@@ -2162,15 +2162,33 @@
         {
           "nested": [
             {
-              "course": "MATH 2010",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             },
             {
-              "course": "ENGR 1100",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "MATH 2012",
+                  "type": "course"
+                },
+                {
+                  "course": "ENGR 1100",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             }
           ],
-          "type": "or"
+          "type": "and"
         },
         {
           "course": "MATH 2400",
