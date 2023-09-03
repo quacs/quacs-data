@@ -1193,10 +1193,6 @@
         {
           "course": "ENGR 2530",
           "type": "course"
-        },
-        {
-          "course": "ECSE 4160",
-          "type": "course"
         }
       ],
       "type": "or"
@@ -2614,8 +2610,17 @@
   },
   "60193": {
     "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "classification": {
@@ -15669,10 +15674,6 @@
         {
           "course": "ENGR 2530",
           "type": "course"
-        },
-        {
-          "course": "ECSE 4160",
-          "type": "course"
         }
       ],
       "type": "or"
@@ -15690,10 +15691,6 @@
         },
         {
           "course": "ENGR 2530",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4160",
           "type": "course"
         }
       ],
@@ -17664,7 +17661,12 @@
       }
     }
   },
-  "64057": {},
+  "64057": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    }
+  },
   "64059": {},
   "64060": {},
   "64061": {
@@ -20601,10 +20603,6 @@
         },
         {
           "course": "ENGR 2530",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4160",
           "type": "course"
         }
       ],
