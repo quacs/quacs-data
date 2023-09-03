@@ -1783,17 +1783,8 @@
       "ECSE-2610"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -1848,8 +1839,17 @@
       "MANE-4530"
     ],
     "prerequisites": {
-      "course": "ECSE 2410",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ECSE 2410",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "60072": {
@@ -1926,17 +1926,8 @@
       "ECSE-2610"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -4446,19 +4437,24 @@
         {
           "nested": [
             {
-              "course": "MATH 2010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2011",
-              "type": "course"
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
             },
             {
               "course": "MATH 2012",
               "type": "course"
             }
           ],
-          "type": "or"
+          "type": "and"
         },
         {
           "nested": [
@@ -9915,15 +9911,15 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ENGR 2350",
+          "course": "ECSE 2410",
           "type": "course"
         },
         {
-          "course": "ECSE 2410",
+          "course": "MANE 4500",
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "62269": {
@@ -12415,8 +12411,26 @@
   },
   "62911": {
     "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   },
   "62912": {
