@@ -3971,17 +3971,8 @@
   },
   "60393": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2220",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "ENGR 2050",
+      "type": "course"
     },
     "restrictions": {
       "classification": {
@@ -4007,17 +3998,8 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2220",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "ENGR 2050",
+      "type": "course"
     },
     "restrictions": {
       "classification": {
@@ -4297,17 +4279,8 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2220",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "ENGR 2050",
+      "type": "course"
     },
     "restrictions": {
       "classification": {
@@ -6038,17 +6011,8 @@
       "MTLE-4920"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2050",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2220",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "ENGR 2050",
+      "type": "course"
     },
     "restrictions": {
       "classification": {
@@ -6286,17 +6250,8 @@
           "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "MATH 2010",
+          "type": "course"
         }
       ],
       "type": "and"
@@ -20490,7 +20445,28 @@
       "type": "and"
     }
   },
-  "64494": {},
+  "64494": {
+    "cross_list_courses": [
+      "ECSE-6964"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 4840",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "64495": {
     "cross_list_courses": [
       "ECSE-4964"
