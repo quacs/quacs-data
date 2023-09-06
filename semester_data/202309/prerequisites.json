@@ -15499,6 +15499,9 @@
     ]
   },
   "63743": {
+    "cross_list_courses": [
+      "MATP-6910"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -23224,6 +23227,47 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "64839": {
+    "cross_list_courses": [
+      "MATP-4910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATP 4400",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4600",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 6600",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
         ]
       }
     }
