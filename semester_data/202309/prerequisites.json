@@ -6639,12 +6639,28 @@
       "type": "course"
     }
   },
-  "61459": {},
+  "61459": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "61460": {},
   "61461": {},
   "61462": {},
   "61463": {},
-  "61464": {},
+  "61464": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "61465": {},
   "61466": {
     "prerequisites": {
@@ -11530,7 +11546,14 @@
   "62741": {
     "cross_list_courses": [
       "ARCH-5340"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
   },
   "62742": {},
   "62743": {},
@@ -12567,7 +12590,15 @@
       "type": "or"
     }
   },
-  "62923": {},
+  "62923": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "62924": {},
   "62925": {},
   "62926": {},
@@ -12805,7 +12836,14 @@
       "ARCH-6840",
       "MANE-4963",
       "MANE-6963"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
   },
   "62945": {
     "prerequisites": {
@@ -22055,6 +22093,13 @@
     "prerequisites": {
       "course": "COMM 2660",
       "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
     }
   },
   "64674": {
