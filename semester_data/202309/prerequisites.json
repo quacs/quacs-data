@@ -9895,7 +9895,20 @@
   "62269": {
     "cross_list_courses": [
       "CIVL-4020"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2330",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4330",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "62270": {},
   "62271": {},
@@ -10968,6 +10981,19 @@
     }
   },
   "62510": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 5170",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 5210",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
