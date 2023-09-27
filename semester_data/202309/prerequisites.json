@@ -6065,21 +6065,6 @@
       "PHYS-1960"
     ]
   },
-  "61323": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2660",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "61324": {
     "cross_list_courses": [
       "ECSE-4900",
@@ -15040,21 +15025,6 @@
       }
     }
   },
-  "63403": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2660",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "63404": {
     "cross_list_courses": [
       "BMED-6470"
@@ -23345,6 +23315,20 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "64859": {
+    "cross_list_courses": [
+      "ITWS-4850"
+    ]
+  },
+  "64860": {
+    "cross_list_courses": [
+      "CSCI-4850"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2500",
+      "type": "course"
     }
   }
 }
