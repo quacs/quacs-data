@@ -1611,6 +1611,23 @@
     }
   },
   "60057": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4100",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4200",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -1620,6 +1637,19 @@
     }
   },
   "60058": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -2019,6 +2049,19 @@
     }
   },
   "60086": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2020",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -2028,6 +2071,10 @@
     }
   },
   "60087": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -2893,7 +2940,11 @@
   "60243": {
     "cross_list_courses": [
       "MGMT-6640"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "type": "course"
+    }
   },
   "60244": {
     "cross_list_courses": [
@@ -3271,6 +3322,10 @@
     }
   },
   "60287": {
+    "prerequisites": {
+      "course": "CIVL 4440",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -3946,6 +4001,19 @@
     }
   },
   "60391": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -5965,6 +6033,10 @@
     "cross_list_courses": [
       "MGMT-4310"
     ],
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -6571,6 +6643,10 @@
     "cross_list_courses": [
       "BIOL-4260"
     ],
+    "prerequisites": {
+      "course": "BIOL 2120",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -7660,6 +7736,10 @@
     }
   },
   "61817": {
+    "prerequisites": {
+      "course": "CIVL 4080",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -8879,7 +8959,11 @@
   "62098": {
     "cross_list_courses": [
       "ARCH-4020"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CIVL 2670",
+      "type": "course"
+    }
   },
   "62099": {
     "prerequisites": {
@@ -8964,6 +9048,10 @@
     }
   },
   "62123": {
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -9631,6 +9719,10 @@
       "ERTH-6350",
       "ITWS-4350"
     ],
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -9664,6 +9756,19 @@
     }
   },
   "62253": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 4520",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -9938,6 +10043,10 @@
       "ITWS-4350",
       "ITWS-6350"
     ],
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10453,6 +10562,23 @@
     "cross_list_courses": [
       "BCBP-4800"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BCBP 4760",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4760",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4760",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10754,6 +10880,23 @@
     "cross_list_courses": [
       "BIOL-4540"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4620",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10766,6 +10909,19 @@
     "cross_list_courses": [
       "ECSE-6400"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4050",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2410",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -11286,6 +11442,10 @@
     "cross_list_courses": [
       "MGMT-4080"
     ],
+    "prerequisites": {
+      "course": "MGMT 4100",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -11330,6 +11490,31 @@
   },
   "62713": {},
   "62714": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6020",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6040",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6580",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 7730",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 7740",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "degree": {
         "must_be": [
@@ -11513,6 +11698,19 @@
     "cross_list_courses": [
       "ENGR-6120"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4640",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 4710",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12150,6 +12348,19 @@
     "cross_list_courses": [
       "BIOL-4350"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4620",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4310",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12701,7 +12912,25 @@
       "type": "and"
     }
   },
-  "62934": {},
+  "62934": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2360",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4550",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4740",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "62937": {
     "restrictions": {
       "classification": {
@@ -13043,7 +13272,20 @@
   "62971": {
     "cross_list_courses": [
       "COMM-6420"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1610",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "62972": {
     "cross_list_courses": [
@@ -13516,6 +13758,19 @@
     }
   },
   "63150": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2510",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -13722,6 +13977,10 @@
     "cross_list_courses": [
       "CSCI-4390"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -14280,6 +14539,10 @@
     }
   },
   "63354": {
+    "prerequisites": {
+      "course": "CIVL 4150",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -15204,6 +15467,10 @@
     "cross_list_courses": [
       "BIOL-4220"
     ],
+    "prerequisites": {
+      "course": "BIOL 4200",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -15238,6 +15505,19 @@
     "cross_list_courses": [
       "BMED-4580"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 4250",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -15463,7 +15743,11 @@
   "63735": {
     "cross_list_courses": [
       "MGMT-6080"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MGMT 4100",
+      "type": "course"
+    }
   },
   "63736": {
     "prerequisites": {
@@ -16110,6 +16394,10 @@
     "cross_list_courses": [
       "BMED-4550"
     ],
+    "prerequisites": {
+      "course": "BMED 2540",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -16633,6 +16921,19 @@
     "cross_list_courses": [
       "ITWS-4250"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -18787,7 +19088,11 @@
   "64267": {
     "cross_list_courses": [
       "CHME-4480"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CHME 4020",
+      "type": "course"
+    }
   },
   "64275": {
     "restrictions": {
@@ -19429,6 +19734,10 @@
     }
   },
   "64433": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -20624,6 +20933,10 @@
     "cross_list_courses": [
       "MANE-4130"
     ],
+    "prerequisites": {
+      "course": "MANE 4070",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -20918,6 +21231,19 @@
     "cross_list_courses": [
       "ENGR-4710"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2090",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -21078,6 +21404,10 @@
     "cross_list_courses": [
       "BMED-4590"
     ],
+    "prerequisites": {
+      "course": "BMED 2300",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21292,6 +21622,23 @@
       "ECON-4290",
       "ECON-6290"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -21303,7 +21650,24 @@
   "64585": {
     "cross_list_courses": [
       "ECON-6320"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "64586": {
     "prerequisites": {
@@ -21909,7 +22273,11 @@
       "MATH-4961",
       "PHIL-4140",
       "PHIL-4961"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "type": "course"
+    }
   },
   "64653": {
     "cross_list_courses": [
@@ -22330,6 +22698,10 @@
     }
   },
   "64699": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -22647,7 +23019,40 @@
   "64739": {
     "cross_list_courses": [
       "PHIL-4500"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "64740": {
     "cross_list_courses": [
