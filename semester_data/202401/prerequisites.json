@@ -94,7 +94,12 @@
       "type": "or"
     }
   },
-  "90021": {},
+  "90021": {
+    "prerequisites": {
+      "course": "BIOL 4760",
+      "type": "course"
+    }
+  },
   "90022": {
     "prerequisites": {
       "nested": [
@@ -2733,7 +2738,12 @@
       "type": "and"
     }
   },
-  "90285": {},
+  "90285": {
+    "prerequisites": {
+      "course": "ENGR 2050",
+      "type": "course"
+    }
+  },
   "90286": {
     "prerequisites": {
       "nested": [
@@ -3015,7 +3025,11 @@
   "90331": {
     "corequisites": [
       "ARCH-2830"
-    ]
+    ],
+    "prerequisites": {
+      "course": "ARCH 2370",
+      "type": "course"
+    }
   },
   "90332": {
     "prerequisites": {
@@ -3807,6 +3821,10 @@
     }
   },
   "90522": {
+    "prerequisites": {
+      "course": "CIVL 4070",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -4391,7 +4409,21 @@
       }
     }
   },
-  "91274": {},
+  "91274": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "91275": {
     "prerequisites": {
       "nested": [
@@ -4706,7 +4738,21 @@
       }
     }
   },
-  "91342": {},
+  "91342": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4100",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "91343": {
     "restrictions": {
       "level": {
@@ -7049,7 +7095,21 @@
       }
     }
   },
-  "92226": {},
+  "92226": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2090",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "92227": {
     "restrictions": {
       "level": {
@@ -7734,8 +7794,39 @@
       "type": "and"
     }
   },
-  "92343": {},
+  "92343": {
+    "prerequisites": {
+      "course": "CIVL 2670",
+      "type": "course"
+    }
+  },
   "92344": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CIVL 4020",
+              "type": "course"
+            },
+            {
+              "course": "ARCH 4020",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "CIVL 6310",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 6320",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -8398,6 +8489,10 @@
     }
   },
   "92463": {
+    "prerequisites": {
+      "course": "ARTS 4840",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -8871,6 +8966,28 @@
     }
   },
   "92491": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "ENGR 2250",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -8886,8 +9003,35 @@
       "type": "course"
     }
   },
-  "92495": {},
+  "92495": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2330",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4330",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "92496": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 4520",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10356,7 +10500,12 @@
     }
   },
   "92973": {},
-  "92974": {},
+  "92974": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
   "92975": {
     "restrictions": {
       "classification": {
@@ -11567,6 +11716,19 @@
     }
   },
   "93178": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1500",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "college": {
         "must_be": [
@@ -13699,6 +13861,19 @@
   },
   "93649": {},
   "93650": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 6660",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 6660",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "campus": {
         "must_be": [
@@ -13719,6 +13894,10 @@
     }
   },
   "93652": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -14113,7 +14292,12 @@
       }
     }
   },
-  "93690": {},
+  "93690": {
+    "prerequisites": {
+      "course": "MANE 2830",
+      "type": "course"
+    }
+  },
   "93691": {
     "prerequisites": {
       "course": "ARTS 2380",
@@ -14185,7 +14369,21 @@
       }
     }
   },
-  "93700": {},
+  "93700": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1016",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "93701": {
     "prerequisites": {
       "course": "BIOL 2120",
@@ -14673,7 +14871,12 @@
   },
   "93755": {},
   "93756": {},
-  "93762": {},
+  "93762": {
+    "prerequisites": {
+      "course": "CIVL 2630",
+      "type": "course"
+    }
+  },
   "93763": {
     "restrictions": {
       "classification": {
@@ -14839,7 +15042,41 @@
     }
   },
   "93862": {},
-  "93863": {},
+  "93863": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2700",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1110",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "93864": {
     "restrictions": {
       "classification": {
@@ -15137,7 +15374,21 @@
       }
     }
   },
-  "93885": {},
+  "93885": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1200",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "93886": {
     "prerequisites": {
       "course": "MGMT 6520",
@@ -15229,7 +15480,25 @@
     }
   },
   "93906": {},
-  "93907": {},
+  "93907": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "93908": {},
   "93909": {
     "restrictions": {
@@ -15342,6 +15611,19 @@
     }
   },
   "93916": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4120",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4130",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -15374,7 +15656,25 @@
     }
   },
   "93918": {},
-  "93919": {},
+  "93919": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "93920": {},
   "93921": {},
   "93922": {},
@@ -15794,7 +16094,12 @@
       }
     }
   },
-  "94024": {},
+  "94024": {
+    "prerequisites": {
+      "course": "ARTS 2700",
+      "type": "course"
+    }
+  },
   "94025": {},
   "94026": {},
   "94027": {},
@@ -16086,6 +16391,10 @@
     }
   },
   "94155": {
+    "prerequisites": {
+      "course": "ECON 6030",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -17060,7 +17369,21 @@
     }
   },
   "94246": {},
-  "94247": {},
+  "94247": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2530",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4030",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "94248": {
     "prerequisites": {
       "course": "ENGR 6220",
@@ -17505,7 +17828,41 @@
       "type": "or"
     }
   },
-  "94276": {},
+  "94276": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "94277": {
     "prerequisites": {
       "nested": [
@@ -17725,7 +18082,29 @@
     }
   },
   "94286": {},
-  "94287": {},
+  "94287": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "94288": {
     "restrictions": {
       "level": {
@@ -17886,7 +18265,12 @@
       "type": "or"
     }
   },
-  "94317": {},
+  "94317": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
   "94318": {},
   "94319": {},
   "94320": {},
@@ -18055,7 +18439,29 @@
   },
   "94343": {},
   "94344": {},
-  "94345": {},
+  "94345": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2930",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2940",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2950",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4970",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "94346": {
     "prerequisites": {
       "nested": [
@@ -18287,6 +18693,19 @@
     }
   },
   "94430": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2060",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 2630",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18598,7 +19017,12 @@
       "type": "or"
     }
   },
-  "94466": {},
+  "94466": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "94467": {
     "prerequisites": {
       "course": "MATH 2010",
@@ -19627,7 +20051,12 @@
     }
   },
   "94586": {},
-  "94587": {},
+  "94587": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "type": "course"
+    }
+  },
   "94588": {
     "restrictions": {
       "major": {
