@@ -9392,7 +9392,21 @@
       "type": "course"
     }
   },
-  "92626": {},
+  "92626": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MATP 4600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "92627": {
     "restrictions": {
       "major": {
@@ -11775,7 +11789,12 @@
   },
   "93207": {},
   "93208": {},
-  "93209": {},
+  "93209": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  },
   "93210": {
     "prerequisites": {
       "course": "MATH 1020",
