@@ -16246,7 +16246,12 @@
       }
     }
   },
-  "94121": {},
+  "94121": {
+    "prerequisites": {
+      "course": "CIVL 2050",
+      "type": "course"
+    }
+  },
   "94122": {},
   "94123": {},
   "94124": {},
@@ -18556,7 +18561,12 @@
       }
     }
   },
-  "94357": {},
+  "94357": {
+    "prerequisites": {
+      "course": "CIVL 2050",
+      "type": "course"
+    }
+  },
   "94358": {
     "restrictions": {
       "classification": {
@@ -20843,5 +20853,20 @@
       }
     }
   },
-  "94712": {}
+  "94712": {},
+  "94717": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2060",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 2630",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }

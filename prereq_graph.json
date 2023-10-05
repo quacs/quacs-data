@@ -17416,7 +17416,9 @@
   },
   "CIVL 2060": {
     "title": "Intro Water Resource Eng",
-    "prereqs": []
+    "prereqs": [
+      "CIVL 2050"
+    ]
   },
   "COGS 4220": {
     "title": "Animal Cognition&inter W/human",
@@ -17601,7 +17603,7 @@
     "prereqs": []
   },
   "STSO 6940": {
-    "title": "Sustnb Transitions In Textiles",
+    "title": "Engineering Education",
     "prereqs": []
   },
   "STSO 6960": {
@@ -18113,5 +18115,12 @@
   "STSO 6961": {
     "title": "Bodies, Institutions, Infrastr",
     "prereqs": []
+  },
+  "CIVL 4530": {
+    "title": "Seepage, Drainage, Groundwater",
+    "prereqs": [
+      "CIVL 2060",
+      "CIVL 2630"
+    ]
   }
 }
