@@ -1415,7 +1415,8 @@
   "BCBP 4710": {
     "title": "Biochemistry Lab",
     "prereqs": [
-      "BIOL 2120"
+      "BIOL 2120",
+      "BIOL 2125"
     ]
   },
   "BCBP 4760": {
@@ -3780,7 +3781,9 @@
   },
   "BCBP 4770": {
     "title": "Molecular Biochem II",
-    "prereqs": []
+    "prereqs": [
+      "BCBP 4760"
+    ]
   },
   "BCBP 6210": {
     "title": "Biophysical Methods",
@@ -6722,6 +6725,7 @@
   "BCBP 4310": {
     "title": "Genetic Engineering",
     "prereqs": [
+      "BCBP 4760",
       "BIOL 4620"
     ]
   },

@@ -78,7 +78,12 @@
       "type": "or"
     }
   },
-  "90019": {},
+  "90019": {
+    "prerequisites": {
+      "course": "BCBP 4760",
+      "type": "course"
+    }
+  },
   "90020": {
     "prerequisites": {
       "nested": [
@@ -4213,8 +4218,17 @@
   },
   "91260": {
     "prerequisites": {
-      "course": "BIOL 4620",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 4620",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4760",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "91261": {
@@ -14408,8 +14422,17 @@
   },
   "93704": {
     "prerequisites": {
-      "course": "BIOL 2120",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -17263,8 +17286,17 @@
   },
   "94235": {
     "prerequisites": {
-      "course": "BIOL 2120",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -18611,7 +18643,6 @@
   "94415": {},
   "94416": {},
   "94417": {},
-  "94419": {},
   "94421": {
     "prerequisites": {
       "course": "MATH 1010",
