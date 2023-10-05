@@ -271,7 +271,7 @@
           "type": "course"
         },
         {
-          "course": "ECSE 4520",
+          "course": "ECSE 4560",
           "type": "course"
         }
       ],
@@ -291,12 +291,30 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ECSE 2010",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ECSE 2010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         },
         {
-          "course": "MATH 2010",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -1277,29 +1295,8 @@
   "90102": {},
   "90103": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -1325,29 +1322,8 @@
   },
   "90104": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -2945,10 +2921,20 @@
     }
   },
   "90305": {
+    "prerequisites": {
+      "course": "ENGR 2050",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
         ]
       }
     }
@@ -3554,10 +3540,20 @@
     }
   },
   "90448": {
+    "prerequisites": {
+      "course": "ENGR 2050",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
         ]
       }
     }
@@ -3848,6 +3844,10 @@
     }
   },
   "90524": {
+    "prerequisites": {
+      "course": "ENGR 2050",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -5828,29 +5828,8 @@
   },
   "91863": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1010",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1150",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CSCI 1100",
+      "type": "course"
     },
     "restrictions": {
       "major": {
@@ -5878,8 +5857,26 @@
   },
   "91864": {
     "prerequisites": {
-      "course": "ECSE 2010",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   },
   "91866": {
@@ -5911,7 +5908,7 @@
           "type": "course"
         },
         {
-          "course": "EPOW 4080",
+          "course": "ECSE 4110",
           "type": "course"
         }
       ],
@@ -10936,7 +10933,7 @@
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "93008": {
@@ -12811,6 +12808,10 @@
         },
         {
           "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
