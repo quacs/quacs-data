@@ -1546,7 +1546,11 @@
   },
   "BMED 4010": {
     "title": "Biomedical Engineering Lab",
-    "prereqs": []
+    "prereqs": [
+      "BMED 2100",
+      "BMED 2300",
+      "BMED 2540"
+    ]
   },
   "BMED 4540": {
     "title": "Biomechanics II",
@@ -3885,7 +3889,9 @@
   },
   "BMED 4600": {
     "title": "Biomedical Engr Design",
-    "prereqs": []
+    "prereqs": [
+      "BMED 4260"
+    ]
   },
   "BMED 6961": {
     "title": "Data Science & Alzheimer's",
@@ -4081,7 +4087,10 @@
   },
   "CIVL 6260": {
     "title": "Trans Network Analysis",
-    "prereqs": []
+    "prereqs": [
+      "CIVL 2030",
+      "MATH 2400"
+    ]
   },
   "CIVL 6320": {
     "title": "Adv Steel Design",
@@ -10227,7 +10236,7 @@
     "title": "Intro To Cell And Tissue Eng",
     "prereqs": [
       "BMED 2540",
-      "BMED 4540",
+      "BMED 4250",
       "ENGR 2250",
       "ENGR 2530"
     ]
@@ -13340,13 +13349,13 @@
   },
   "BMED 2540": {
     "title": "Biomechanics",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 1100"
+    ]
   },
   "BMED 4660": {
     "title": "Muscle Mechanics & Modeling",
-    "prereqs": [
-      "BIOL 4290"
-    ]
+    "prereqs": []
   },
   "BMED 6660": {
     "title": "Muscle Mechanics & Modeling",
@@ -13690,8 +13699,7 @@
   "BMED 2300": {
     "title": "Bioimaging/ Bioinstrumentation",
     "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
+      "PHYS 1200"
     ]
   },
   "BMED 6650": {

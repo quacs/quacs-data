@@ -341,6 +341,10 @@
     }
   },
   "90044": {
+    "prerequisites": {
+      "course": "BMED 4260",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -4312,10 +4316,6 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ENGR 2250",
-          "type": "course"
-        },
-        {
           "nested": [
             {
               "course": "ENGR 2530",
@@ -4324,9 +4324,18 @@
             {
               "course": "BMED 2540",
               "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "BMED 4250",
+              "type": "course"
             },
             {
-              "course": "BMED 4540",
+              "course": "ENGR 2250",
               "type": "course"
             }
           ],
@@ -7055,7 +7064,25 @@
     }
   },
   "92223": {},
-  "92224": {},
+  "92224": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "92225": {
     "prerequisites": {
       "course": "BMED 4260",
@@ -7930,7 +7957,12 @@
       "type": "and"
     }
   },
-  "92358": {},
+  "92358": {
+    "prerequisites": {
+      "course": "ENGR 1100",
+      "type": "course"
+    }
+  },
   "92359": {
     "prerequisites": {
       "nested": [
@@ -8931,17 +8963,8 @@
   },
   "92490": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 1200",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1250",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "PHYS 1200",
+      "type": "course"
     }
   },
   "92491": {
@@ -10935,9 +10958,12 @@
     }
   },
   "93008": {
-    "prerequisites": {
-      "course": "BIOL 4290",
-      "type": "course"
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
     }
   },
   "93009": {
@@ -18715,30 +18741,6 @@
       }
     }
   },
-  "94431": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CIVL 4010",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 4150",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94432": {
     "restrictions": {
       "level": {
@@ -20867,6 +20869,28 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "94718": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2030",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
