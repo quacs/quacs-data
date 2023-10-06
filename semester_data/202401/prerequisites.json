@@ -12529,25 +12529,6 @@
       "type": "or"
     }
   },
-  "93484": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "93485": {
     "prerequisites": {
       "nested": [
@@ -20365,5 +20346,16 @@
     ]
   },
   "94721": {},
-  "94722": {}
+  "94722": {},
+  "94723": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94724": {}
 }
