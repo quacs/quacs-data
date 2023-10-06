@@ -58,20 +58,31 @@
     "prerequisites": {
       "nested": [
         {
-          "nested": [
-            {
-              "course": "CHEM 1200",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1600",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "CHEM 1200",
+          "type": "course"
         },
         {
           "course": "CHEM 1210",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1220",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1600",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1600",
+          "type": "course"
+        },
+        {
+          "course": "ISCI 1600",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 1600",
           "type": "course"
         }
       ],
@@ -96,7 +107,7 @@
           "type": "course"
         }
       ],
-      "type": "or"
+      "type": "and"
     }
   },
   "90021": {
@@ -2152,11 +2163,11 @@
           "type": "course"
         },
         {
-          "course": "CHEM 1300",
+          "course": "CHEM 1110",
           "type": "course"
         },
         {
-          "course": "CHEM 1110",
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
@@ -3449,7 +3460,21 @@
       "CHEM-2260"
     ]
   },
-  "90438": {},
+  "90438": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 4110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4420",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "90440": {
     "prerequisites": {
       "nested": [
@@ -3750,17 +3775,8 @@
   "90514": {},
   "90515": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 2250",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 2210",
-          "type": "course"
-        }
-      ],
-      "type": "or"
+      "course": "CHEM 2250",
+      "type": "course"
     }
   },
   "90516": {},
@@ -3775,14 +3791,32 @@
   },
   "90518": {
     "prerequisites": {
-      "course": "CHEM 2230",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "90519": {
     "prerequisites": {
-      "course": "CHEM 2230",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "90520": {},
@@ -3988,8 +4022,17 @@
   },
   "91054": {
     "prerequisites": {
-      "course": "CHEM 2230",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "91055": {
@@ -4302,11 +4345,11 @@
           "type": "course"
         },
         {
-          "course": "CHEM 1300",
+          "course": "CHEM 1110",
           "type": "course"
         },
         {
-          "course": "CHEM 1110",
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
@@ -4941,11 +4984,11 @@
           "type": "course"
         },
         {
-          "course": "CHEM 1300",
+          "course": "CHEM 1110",
           "type": "course"
         },
         {
-          "course": "CHEM 1110",
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
@@ -8158,8 +8201,17 @@
   },
   "92376": {
     "prerequisites": {
-      "course": "CHEM 2230",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "92377": {
@@ -8532,10 +8584,66 @@
       }
     }
   },
-  "92464": {},
-  "92465": {},
-  "92466": {},
-  "92467": {},
+  "92464": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1016",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "92465": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1016",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "92466": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1016",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "92467": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1015",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1016",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "92468": {
     "corequisites": [
       "BIOL-1010"
@@ -10441,8 +10549,17 @@
   },
   "92966": {
     "prerequisites": {
-      "course": "BIOL 1010",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -12896,6 +13013,10 @@
         {
           "course": "CHEM 1110",
           "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -12940,6 +13061,10 @@
         },
         {
           "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
@@ -12986,6 +13111,10 @@
         {
           "course": "CHEM 1110",
           "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -13030,6 +13159,10 @@
         },
         {
           "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],
@@ -13393,11 +13526,11 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHEM 1200",
+          "course": "CHEM 2230",
           "type": "course"
         },
         {
-          "course": "MATH 1010",
+          "course": "CHEM 2260",
           "type": "course"
         }
       ],
@@ -14406,8 +14539,17 @@
   },
   "93701": {
     "prerequisites": {
-      "course": "BIOL 2120",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -14656,14 +14798,32 @@
   },
   "93728": {
     "prerequisites": {
-      "course": "BIOL 4260",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 4100",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "93729": {
     "prerequisites": {
-      "course": "BIOL 6260",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 4100",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "93730": {
@@ -17008,7 +17168,11 @@
   "94201": {
     "corequisites": [
       "BIOL-2125"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94202": {
     "corequisites": [
@@ -17022,52 +17186,92 @@
   "94203": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94204": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94205": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94206": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94207": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94208": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94209": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94210": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94211": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94212": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94215": {
     "prerequisites": {
@@ -17270,8 +17474,17 @@
   },
   "94234": {
     "prerequisites": {
-      "course": "BIOL 2120",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2125",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -19562,7 +19775,11 @@
   "94538": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
   },
   "94539": {
     "restrictions": {
@@ -20116,6 +20333,10 @@
         },
         {
           "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
           "type": "course"
         }
       ],

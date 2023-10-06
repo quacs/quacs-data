@@ -996,14 +996,13 @@
   "CHEM 2240": {
     "title": "Organic Chemistry Lab II",
     "prereqs": [
-      "CHEM 1200",
-      "MATH 1010"
+      "CHEM 2230",
+      "CHEM 2260"
     ]
   },
   "CHEM 2260": {
     "title": "Organic Chemistry II",
     "prereqs": [
-      "CHEM 2210",
       "CHEM 2250"
     ]
   },
@@ -1453,7 +1452,10 @@
   },
   "BIOL 1010": {
     "title": "Introduction To Biology",
-    "prereqs": []
+    "prereqs": [
+      "BIOL 1015",
+      "BIOL 1016"
+    ]
   },
   "BIOL 1040": {
     "title": "Biology For Non-majors",
@@ -1505,7 +1507,8 @@
   "BIOL 4710": {
     "title": "Biochemistry Lab",
     "prereqs": [
-      "BIOL 2120"
+      "BIOL 2120",
+      "BIOL 2125"
     ]
   },
   "BIOL 4720": {
@@ -3795,7 +3798,9 @@
   },
   "BIOL 2120": {
     "title": "Intro To Cell & Molec Biology",
-    "prereqs": []
+    "prereqs": [
+      "BIOL 1010"
+    ]
   },
   "BIOL 4004": {
     "title": "Plant Physiology",
@@ -3944,7 +3949,7 @@
     "prereqs": [
       "CHEM 1100",
       "CHEM 1110",
-      "CHEM 1300"
+      "CHEM 1120"
     ]
   },
   "CHEM 2001": {
@@ -3956,7 +3961,11 @@
     "prereqs": [
       "CHEM 1200",
       "CHEM 1210",
-      "ENGR 1600"
+      "CHEM 1220",
+      "CHEM 1600",
+      "ENGR 1600",
+      "ISCI 1600",
+      "PHYS 1600"
     ]
   },
   "CHEM 2140": {
@@ -10461,7 +10470,10 @@
   },
   "CHEM 4120": {
     "title": "Experimental Chemistry Iv:physical And Instrumental Methods",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 4110",
+      "CHEM 4420"
+    ]
   },
   "CHEM 4790": {
     "title": "Protein Chemistry",
@@ -13232,7 +13244,8 @@
   "BIOL 4200": {
     "title": "Biostatistics",
     "prereqs": [
-      "BIOL 1010"
+      "BIOL 1010",
+      "MATH 1010"
     ]
   },
   "BIOL 4330": {
@@ -15974,13 +15987,15 @@
   "BIOL 4150": {
     "title": "Cellular Neuroscience",
     "prereqs": [
+      "BIOL 4100",
       "BIOL 4260"
     ]
   },
   "BIOL 6150": {
     "title": "Cellular Neuroscience",
     "prereqs": [
-      "BIOL 6260"
+      "BIOL 4100",
+      "BIOL 4260"
     ]
   },
   "BMED 4280": {
@@ -17232,7 +17247,9 @@
   },
   "BIOL 2125": {
     "title": "Intro Cell & Molec Biol Lab",
-    "prereqs": []
+    "prereqs": [
+      "BIOL 1010"
+    ]
   },
   "CHEM 4030": {
     "title": "Expr Chem III Abridg: Phys Mth",
