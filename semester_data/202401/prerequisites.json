@@ -3504,15 +3504,6 @@
       "type": "course"
     }
   },
-  "90408": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "90409": {
     "restrictions": {
       "level": {
@@ -5834,15 +5825,6 @@
       }
     }
   },
-  "91788": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "91793": {
     "restrictions": {
       "level": {
@@ -6388,15 +6370,6 @@
       }
     }
   },
-  "91910": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "91911": {
     "restrictions": {
       "level": {
@@ -6452,22 +6425,6 @@
   },
   "91926": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "91952": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -9674,7 +9631,6 @@
       }
     }
   },
-  "92532": {},
   "92533": {
     "restrictions": {
       "level": {
@@ -20658,30 +20614,6 @@
   },
   "94595": {},
   "94596": {},
-  "94597": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 1200",
-          "type": "course"
-        },
-        {
-          "course": "MATH 1020",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "94598": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94599": {
     "prerequisites": {
       "course": "CHEM 2260",
@@ -20985,17 +20917,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "94635": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -21500,5 +21421,6 @@
         ]
       }
     }
-  }
+  },
+  "94727": {}
 }
