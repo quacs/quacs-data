@@ -14953,6 +14953,17 @@
       "type": "or"
     }
   },
+  "93869": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "93870": {},
   "93871": {
     "prerequisites": {
@@ -18038,6 +18049,25 @@
   },
   "94308": {},
   "94309": {},
+  "94310": {
+    "prerequisites": {
+      "course": "ECSE 2050",
+      "type": "course"
+    }
+  },
+  "94311": {
+    "prerequisites": {
+      "course": "ECSE 4030",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "94312": {},
   "94313": {},
   "94314": {},
@@ -20648,5 +20678,6 @@
     }
   },
   "94727": {},
-  "94728": {}
+  "94728": {},
+  "94729": {}
 }
