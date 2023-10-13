@@ -12184,6 +12184,15 @@
       "type": "or"
     }
   },
+  "93410": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "93413": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -13496,12 +13505,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "93635": {
-    "prerequisites": {
-      "course": "ECSE 2210",
-      "type": "course"
     }
   },
   "93636": {
@@ -20704,6 +20707,16 @@
       "classification": {
         "must_be": [
           "Senior"
+        ]
+      }
+    }
+  },
+  "94733": {},
+  "94734": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
