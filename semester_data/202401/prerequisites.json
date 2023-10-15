@@ -12170,6 +12170,22 @@
       }
     }
   },
+  "93412": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "93413": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -18788,36 +18804,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "94464": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2660",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "94465": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2660",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "94466": {
