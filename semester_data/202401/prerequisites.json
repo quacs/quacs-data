@@ -11560,6 +11560,35 @@
       "type": "and"
     }
   },
+  "93199": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "93200": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Junior"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "93202": {
     "restrictions": {
       "classification": {
@@ -12026,6 +12055,34 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "93394": {
+    "prerequisites": {
+      "course": "ECSE 4520",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
+        ]
+      }
+    }
+  },
+  "93395": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "93400": {
