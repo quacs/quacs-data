@@ -3887,15 +3887,6 @@
     }
   },
   "91001": {},
-  "91030": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "91036": {},
   "91047": {
     "restrictions": {
@@ -10744,16 +10735,6 @@
     }
   },
   "93023": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "93024": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18726,25 +18707,6 @@
       "type": "course"
     }
   },
-  "94435": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "94436": {},
-  "94437": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94440": {
     "restrictions": {
       "classification": {
@@ -18854,12 +18816,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "94454": {
-    "prerequisites": {
-      "course": "ARTS 1030",
-      "type": "course"
     }
   },
   "94455": {},
@@ -20847,6 +20803,36 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "94743": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 4710",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4610",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "94744": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 4710",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4610",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
