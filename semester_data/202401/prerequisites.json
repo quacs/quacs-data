@@ -91,7 +91,8 @@
   },
   "90019": {
     "cross_list_courses": [
-      "BIOL-4770"
+      "BIOL-4770",
+      "CHEM-4770"
     ],
     "prerequisites": {
       "course": "BCBP 4760",
@@ -115,7 +116,8 @@
   },
   "90021": {
     "cross_list_courses": [
-      "BCBP-4770"
+      "BCBP-4770",
+      "CHEM-4770"
     ],
     "prerequisites": {
       "course": "BIOL 4760",
@@ -835,6 +837,10 @@
   },
   "90068": {},
   "90069": {
+    "cross_list_courses": [
+      "BCBP-4770",
+      "BIOL-4770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4211,6 +4217,9 @@
     }
   },
   "91269": {
+    "cross_list_courses": [
+      "BMED-6650"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8782,6 +8791,9 @@
     }
   },
   "92491": {
+    "cross_list_courses": [
+      "BMED-4650"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9502,6 +9514,9 @@
   "92630": {},
   "92631": {},
   "92632": {
+    "cross_list_courses": [
+      "BMED-6460"
+    ],
     "prerequisites": {
       "course": "BMED 2300",
       "type": "course"
@@ -9509,6 +9524,9 @@
   },
   "92633": {},
   "92634": {
+    "cross_list_courses": [
+      "BMED-4460"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10509,15 +10527,6 @@
       "type": "or"
     }
   },
-  "92993": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "92994": {
     "prerequisites": {
       "course": "ARCH 5110",
@@ -11456,8 +11465,15 @@
       "type": "course"
     }
   },
-  "93187": {},
+  "93187": {
+    "cross_list_courses": [
+      "BMED-6440"
+    ]
+  },
   "93188": {
+    "cross_list_courses": [
+      "BMED-4440"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11897,7 +11913,6 @@
   "93246": {},
   "93248": {},
   "93249": {},
-  "93250": {},
   "93251": {},
   "93252": {
     "restrictions": {
@@ -12508,8 +12523,15 @@
       }
     }
   },
-  "93435": {},
+  "93435": {
+    "cross_list_courses": [
+      "BMED-6410"
+    ]
+  },
   "93436": {
+    "cross_list_courses": [
+      "BMED-4410"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13429,6 +13451,9 @@
     }
   },
   "93549": {
+    "cross_list_courses": [
+      "CHEM-4610"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14635,8 +14660,6 @@
       }
     }
   },
-  "93742": {},
-  "93743": {},
   "93744": {
     "restrictions": {
       "classification": {
@@ -14774,6 +14797,9 @@
     }
   },
   "93769": {
+    "cross_list_courses": [
+      "BMED-6480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14789,6 +14815,9 @@
     }
   },
   "93770": {
+    "cross_list_courses": [
+      "BMED-4480"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15574,8 +15603,16 @@
       "type": "or"
     }
   },
-  "93920": {},
-  "93921": {},
+  "93920": {
+    "cross_list_courses": [
+      "CHEM-6140"
+    ]
+  },
+  "93921": {
+    "cross_list_courses": [
+      "CHEM-4140"
+    ]
+  },
   "93922": {},
   "93923": {
     "prerequisites": {
@@ -17083,6 +17120,9 @@
     }
   },
   "94230": {
+    "cross_list_courses": [
+      "ERTH-4810"
+    ],
     "prerequisites": {
       "course": "CHEM 1200",
       "type": "course"
@@ -17279,6 +17319,9 @@
     }
   },
   "94245": {
+    "cross_list_courses": [
+      "CHEM-4810"
+    ],
     "prerequisites": {
       "course": "CHEM 1200",
       "type": "course"
@@ -17542,6 +17585,10 @@
     }
   },
   "94266": {
+    "cross_list_courses": [
+      "CHEM-4690",
+      "ERTH-6690"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17566,6 +17613,10 @@
     }
   },
   "94268": {
+    "cross_list_courses": [
+      "CHEM-4690",
+      "ERTH-4690"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17597,6 +17648,10 @@
     }
   },
   "94270": {
+    "cross_list_courses": [
+      "ERTH-4690",
+      "ERTH-6690"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18503,6 +18558,9 @@
     ]
   },
   "94355": {
+    "cross_list_courses": [
+      "MGMT-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18539,6 +18597,9 @@
     }
   },
   "94401": {
+    "cross_list_courses": [
+      "BMED-6961"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -19970,17 +20031,30 @@
       "type": "and"
     }
   },
-  "94595": {},
-  "94596": {},
   "94599": {
+    "cross_list_courses": [
+      "CHEM-6620"
+    ],
     "prerequisites": {
       "course": "CHEM 2260",
       "type": "course"
     }
   },
-  "94600": {},
-  "94601": {},
-  "94602": {},
+  "94600": {
+    "cross_list_courses": [
+      "CHEM-4620"
+    ]
+  },
+  "94601": {
+    "cross_list_courses": [
+      "CHEM-6966"
+    ]
+  },
+  "94602": {
+    "cross_list_courses": [
+      "CHEM-4966"
+    ]
+  },
   "94603": {
     "restrictions": {
       "major": {
@@ -20754,5 +20828,10 @@
       }
     }
   },
-  "94738": {}
+  "94738": {},
+  "94739": {
+    "cross_list_courses": [
+      "CHEM-6610"
+    ]
+  }
 }
