@@ -7890,12 +7890,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 80,
+            "cap": 125,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 92464,
             "crse": 1010,
-            "rem": 80,
+            "rem": 125,
             "sec": "01",
             "subj": "BIOL",
             "timeslots": [
@@ -7906,7 +7906,7 @@
                   "M",
                   "R"
                 ],
-                "instructor": "Georgi G. Shablovsky",
+                "instructor": "Georgi G. Shablovsky, Susan P. Gilbert",
                 "location": "Russell Sage Laboratory 3510",
                 "timeEnd": 1550,
                 "timeStart": 1400
@@ -7917,12 +7917,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 100,
+            "cap": 125,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 92465,
             "crse": 1010,
-            "rem": 100,
+            "rem": 125,
             "sec": "02",
             "subj": "BIOL",
             "timeslots": [
@@ -7933,7 +7933,7 @@
                   "T",
                   "F"
                 ],
-                "instructor": "Georgi G. Shablovsky, Susan P. Gilbert",
+                "instructor": "Jeremy Lynch Farrell, Georgi G. Shablovsky",
                 "location": "Russell Sage Laboratory 3510",
                 "timeEnd": 1150,
                 "timeStart": 1000
@@ -7944,12 +7944,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 80,
+            "cap": 125,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 92466,
             "crse": 1010,
-            "rem": 80,
+            "rem": 125,
             "sec": "03",
             "subj": "BIOL",
             "timeslots": [
@@ -28603,7 +28603,8 @@
                 "timeStart": 1100
               }
             ],
-            "title": "Manufacturing Processes And Systems Laboratory II"
+            "title": "Manufacturing Processes And Systems Laboratory II",
+            "xl_rem": 12
           },
           {
             "act": 0,
@@ -29557,6 +29558,38 @@
         ],
         "subj": "ERTH",
         "title": "Chem Of The Environment"
+      },
+      {
+        "crse": 6230,
+        "id": "ERTH-6230",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 24,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 94756,
+            "crse": 6230,
+            "rem": 24,
+            "sec": "01",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "",
+                "dateStart": "",
+                "days": [],
+                "instructor": "",
+                "location": "",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Biogeochem Impact Extreme Evnt"
+          }
+        ],
+        "subj": "ERTH",
+        "title": "Biogeochem Impact Extreme Evnt"
       },
       {
         "crse": 6400,
@@ -40750,6 +40783,42 @@
         "title": "Intro To Data Mgmt & Analytics"
       },
       {
+        "crse": 4090,
+        "id": "MGMT-4090",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 40,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 94754,
+            "crse": 4090,
+            "rem": 40,
+            "sec": "01",
+            "subj": "MGMT",
+            "timeslots": [
+              {
+                "dateEnd": "04/24",
+                "dateStart": "01/08",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Timothy D. Golden",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
+              }
+            ],
+            "title": "Negotiations",
+            "xl_rem": 40
+          }
+        ],
+        "subj": "MGMT",
+        "title": "Negotiations"
+      },
+      {
         "crse": 4100,
         "id": "MGMT-4100",
         "sections": [
@@ -41224,7 +41293,8 @@
                 "timeStart": 1200
               }
             ],
-            "title": "Intro To Tech Entrepreneurship"
+            "title": "Intro To Tech Entrepreneurship",
+            "xl_rem": 45
           }
         ],
         "subj": "MGMT",
@@ -41504,41 +41574,6 @@
         "title": "Sport Marketing"
       },
       {
-        "crse": 4964,
-        "id": "MGMT-4964",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 10,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 94312,
-            "crse": 4964,
-            "rem": 10,
-            "sec": "01",
-            "subj": "MGMT",
-            "timeslots": [
-              {
-                "dateEnd": "04/24",
-                "dateStart": "01/08",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Timothy D. Golden",
-                "location": "Amos Eaton Hall 215",
-                "timeEnd": 1350,
-                "timeStart": 1200
-              }
-            ],
-            "title": "Negotiations"
-          }
-        ],
-        "subj": "MGMT",
-        "title": "Negotiations"
-      },
-      {
         "crse": 4965,
         "id": "MGMT-4965",
         "sections": [
@@ -41567,7 +41602,8 @@
                 "timeStart": 1400
               }
             ],
-            "title": "Financial Technologies"
+            "title": "Financial Technologies",
+            "xl_rem": 20
           }
         ],
         "subj": "MGMT",
@@ -41801,7 +41837,7 @@
                 ],
                 "instructor": "Meimuneh Sumadi",
                 "location": "TBA",
-                "timeEnd": 1720,
+                "timeEnd": 1750,
                 "timeStart": 1600
               }
             ],
@@ -42005,7 +42041,7 @@
                 ],
                 "instructor": "Sarah Kathleen Ward",
                 "location": "TBA",
-                "timeEnd": 1520,
+                "timeEnd": 1550,
                 "timeStart": 1400
               }
             ],
@@ -42211,11 +42247,12 @@
                 ],
                 "instructor": "M.V. Shyam Kumar",
                 "location": "TBA",
-                "timeEnd": 1320,
+                "timeEnd": 1350,
                 "timeStart": 1200
               }
             ],
-            "title": "Technol Entrepreneurship"
+            "title": "Technol Entrepreneurship",
+            "xl_rem": 45
           }
         ],
         "subj": "MGMT",
@@ -42246,7 +42283,7 @@
                 ],
                 "instructor": "Jason Nicholas Kuruzovich",
                 "location": "TBA",
-                "timeEnd": 1520,
+                "timeEnd": 1550,
                 "timeStart": 1400
               }
             ],
@@ -42286,7 +42323,8 @@
                 "timeStart": 1200
               }
             ],
-            "title": "Negotiation"
+            "title": "Negotiation",
+            "xl_rem": 40
           }
         ],
         "subj": "MGMT",
@@ -42427,7 +42465,8 @@
                 "timeStart": 1400
               }
             ],
-            "title": "Financial Technologies"
+            "title": "Financial Technologies",
+            "xl_rem": 20
           }
         ],
         "subj": "MGMT",
@@ -43381,6 +43420,41 @@
         "title": "Materials Selection"
       },
       {
+        "crse": 4960,
+        "id": "MTLE-4960",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 40,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 93964,
+            "crse": 4960,
+            "rem": 40,
+            "sec": "01",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "04/24",
+                "dateStart": "01/08",
+                "days": [
+                  "T"
+                ],
+                "instructor": "Edwin B. Fohtung",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Biological Materials",
+            "xl_rem": 40
+          }
+        ],
+        "subj": "MTLE",
+        "title": "Biological Materials"
+      },
+      {
         "crse": 6060,
         "id": "MTLE-6060",
         "sections": [
@@ -43440,6 +43514,33 @@
                 ],
                 "instructor": "Ravishankar Sundararaman",
                 "location": "Materials Research Center 136",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Advanced Electronic Properties"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 94753,
+            "crse": 6120,
+            "rem": 10,
+            "sec": "1",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "04/24",
+                "dateStart": "01/08",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Edwin B. Fohtung",
+                "location": "TBA",
                 "timeEnd": 1150,
                 "timeStart": 1000
               }
@@ -43530,6 +43631,42 @@
         ],
         "subj": "MTLE",
         "title": "Graduate Seminar"
+      },
+      {
+        "crse": 6960,
+        "id": "MTLE-6960",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 40,
+            "credMax": 3.0,
+            "credMin": 3.0,
+            "crn": 94755,
+            "crse": 6960,
+            "rem": 40,
+            "sec": "01",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "04/24",
+                "dateStart": "01/08",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Edmund Francis Palermo",
+                "location": "TBA",
+                "timeEnd": 1520,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Topics In Mtse",
+            "xl_rem": 40
+          }
+        ],
+        "subj": "MTLE",
+        "title": "Topics In Mtse"
       },
       {
         "crse": 6970,
@@ -51150,7 +51287,8 @@
                 "timeStart": 1100
               }
             ],
-            "title": "Manufact Process & Sys Lab II"
+            "title": "Manufact Process & Sys Lab II",
+            "xl_rem": 12
           },
           {
             "act": 0,

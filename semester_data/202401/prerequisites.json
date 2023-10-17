@@ -3419,6 +3419,9 @@
   },
   "90406": {},
   "90407": {
+    "cross_list_courses": [
+      "MGMT-6620"
+    ],
     "prerequisites": {
       "course": "MGMT 1100",
       "type": "course"
@@ -7410,6 +7413,9 @@
     }
   },
   "92333": {
+    "cross_list_courses": [
+      "MGMT-4520"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11065,6 +11071,9 @@
     }
   },
   "93152": {
+    "cross_list_courses": [
+      "MANE-4620"
+    ],
     "prerequisites": {
       "course": "ENGR 4710",
       "type": "course"
@@ -11153,6 +11162,9 @@
     }
   },
   "93157": {
+    "cross_list_courses": [
+      "MGMT-4090"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14489,8 +14501,15 @@
       }
     }
   },
-  "93723": {},
+  "93723": {
+    "cross_list_courses": [
+      "MGMT-6965"
+    ]
+  },
   "93724": {
+    "cross_list_courses": [
+      "MGMT-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15905,6 +15924,11 @@
     }
   },
   "93963": {},
+  "93964": {
+    "cross_list_courses": [
+      "MTLE-6960"
+    ]
+  },
   "93966": {
     "restrictions": {
       "classification": {
@@ -18224,7 +18248,6 @@
       }
     }
   },
-  "94312": {},
   "94313": {
     "cross_list_courses": [
       "COGS-2120"
@@ -20818,6 +20841,9 @@
     }
   },
   "94743": {
+    "cross_list_courses": [
+      "ENGR-4720"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20891,5 +20917,33 @@
       "type": "course"
     }
   },
-  "94751": {}
+  "94751": {},
+  "94753": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94754": {
+    "cross_list_courses": [
+      "MGMT-6690"
+    ]
+  },
+  "94755": {
+    "cross_list_courses": [
+      "MTLE-4960"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94756": {}
 }
