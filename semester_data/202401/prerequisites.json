@@ -2599,83 +2599,6 @@
   "90277": {},
   "90278": {},
   "90279": {},
-  "90280": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1960",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1961",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1200",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1400",
-              "type": "course"
-            },
-            {
-              "course": "CIVL 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "90281": {
     "prerequisites": {
       "nested": [
@@ -19072,60 +18995,6 @@
       "type": "course"
     }
   },
-  "94479": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94480": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94481": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94484": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94485": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94486": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94487": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94488": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
-  "94489": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    }
-  },
   "94491": {
     "prerequisites": {
       "nested": [
@@ -19236,7 +19105,6 @@
       "type": "course"
     }
   },
-  "94515": {},
   "94516": {
     "restrictions": {
       "classification": {
@@ -20975,6 +20843,39 @@
           "Hartford"
         ]
       }
+    }
+  },
+  "94761": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ISYE 2210",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 4110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2600",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 2100",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
