@@ -14678,6 +14678,16 @@
       }
     }
   },
+  "93742": {
+    "cross_list_courses": [
+      "BMED-6960"
+    ]
+  },
+  "93743": {
+    "cross_list_courses": [
+      "BMED-4960"
+    ]
+  },
   "93744": {
     "restrictions": {
       "classification": {
@@ -20946,5 +20956,43 @@
     }
   },
   "94756": {},
-  "94757": {}
+  "94757": {},
+  "94758": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94759": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2050",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
