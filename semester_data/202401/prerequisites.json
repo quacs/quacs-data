@@ -13701,6 +13701,7 @@
       "ERTH-1200"
     ]
   },
+  "93648": {},
   "93649": {},
   "93650": {
     "prerequisites": {
@@ -18831,12 +18832,6 @@
       "type": "and"
     }
   },
-  "94466": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
   "94467": {
     "prerequisites": {
       "course": "MATH 2010",
@@ -19388,30 +19383,6 @@
     }
   },
   "94555": {},
-  "94556": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4090",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "94557": {
     "restrictions": {
       "major": {
@@ -19871,25 +19842,6 @@
       "type": "or"
     }
   },
-  "94620": {
-    "cross_list_courses": [
-      "CSCI-4420",
-      "PHIL-4420"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHIL 2140",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "94621": {
     "cross_list_courses": [
       "MATH-4030",
@@ -20036,7 +19988,6 @@
       }
     }
   },
-  "94632": {},
   "94633": {
     "restrictions": {
       "level": {
