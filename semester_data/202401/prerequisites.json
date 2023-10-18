@@ -20814,5 +20814,26 @@
         ]
       }
     }
+  },
+  "94765": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "94766": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
   }
 }
