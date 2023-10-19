@@ -2769,39 +2769,6 @@
       "type": "course"
     }
   },
-  "90301": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CSCI 1100",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1200",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4090",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "90302": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -11641,8 +11608,15 @@
       "type": "and"
     }
   },
-  "93199": {},
+  "93199": {
+    "cross_list_courses": [
+      "ECSE-6964"
+    ]
+  },
   "93200": {
+    "cross_list_courses": [
+      "ECSE-4964"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -12218,6 +12192,9 @@
     }
   },
   "93410": {
+    "cross_list_courses": [
+      "ECSE-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18884,8 +18861,23 @@
       }
     }
   },
-  "94474": {},
+  "94474": {
+    "cross_list_courses": [
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ]
+  },
   "94475": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20422,10 +20414,41 @@
     }
   },
   "94727": {},
-  "94728": {},
-  "94729": {},
-  "94730": {},
+  "94728": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-6961"
+    ]
+  },
+  "94729": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961"
+    ]
+  },
+  "94730": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ]
+  },
   "94731": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20447,8 +20470,15 @@
       }
     }
   },
-  "94733": {},
+  "94733": {
+    "cross_list_courses": [
+      "ECSE-6962"
+    ]
+  },
   "94734": {
+    "cross_list_courses": [
+      "ECSE-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20457,7 +20487,11 @@
       }
     }
   },
-  "94735": {},
+  "94735": {
+    "cross_list_courses": [
+      "ECSE-6090"
+    ]
+  },
   "94736": {},
   "94737": {
     "restrictions": {
@@ -20830,5 +20864,6 @@
         ]
       }
     }
-  }
+  },
+  "94773": {}
 }
