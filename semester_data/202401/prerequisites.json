@@ -12452,6 +12452,11 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Biomedical Engineering"
@@ -12462,7 +12467,20 @@
   "93435": {
     "cross_list_courses": [
       "BMED-6410"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
   },
   "93436": {
     "cross_list_courses": [
@@ -18846,47 +18864,6 @@
       }
     }
   },
-  "94468": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4800",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4800",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "94469": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94470": {},
   "94471": {},
   "94472": {
@@ -19124,30 +19101,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "94528": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATP 4700",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
     }
   },
   "94529": {},
@@ -19626,27 +19579,7 @@
       }
     }
   },
-  "94589": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94590": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94591": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20728,39 +20661,9 @@
     }
   },
   "94761": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ISYE 2210",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 4110",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "94762": {
+    "cross_list_courses": [
+      "ISYE-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20805,6 +20708,9 @@
     }
   },
   "94764": {
+    "cross_list_courses": [
+      "ISYE-4210"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20840,6 +20746,89 @@
     "prerequisites": {
       "course": "MATH 1020",
       "type": "course"
+    }
+  },
+  "94769": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94770": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94771": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94772": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATP 4700",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
