@@ -124,6 +124,9 @@
     }
   },
   "90022": {
+    "cross_list_courses": [
+      "MATP-6610"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -834,6 +837,9 @@
     }
   },
   "90070": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2143,7 +2149,6 @@
   },
   "90207": {},
   "90211": {},
-  "90212": {},
   "90213": {},
   "90214": {},
   "90215": {},
@@ -2459,15 +2464,6 @@
       }
     }
   },
-  "90259": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "90266": {
     "restrictions": {
       "level": {
@@ -2603,6 +2599,9 @@
     }
   },
   "90286": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2801,7 +2800,6 @@
       "PHIL-1110"
     ]
   },
-  "90317": {},
   "90318": {
     "restrictions": {
       "level": {
@@ -3134,6 +3132,9 @@
     }
   },
   "90401": {
+    "cross_list_courses": [
+      "MATP-4820"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3485,7 +3486,6 @@
     }
   },
   "90513": {},
-  "90514": {},
   "90515": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -5748,16 +5748,6 @@
       }
     }
   },
-  "91891": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "91892": {
     "restrictions": {
       "level": {
@@ -5830,16 +5820,6 @@
     }
   },
   "91921": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "91922": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -6106,15 +6086,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "92039": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "92042": {
@@ -7875,15 +7846,6 @@
       }
     }
   },
-  "92412": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "92413": {
     "restrictions": {
       "level": {
@@ -8257,15 +8219,6 @@
       "course": "CSCI 1200",
       "type": "course"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92480": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -14608,12 +14561,38 @@
   "93742": {
     "cross_list_courses": [
       "BMED-6960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "93743": {
     "cross_list_courses": [
       "BMED-4960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "93744": {
     "restrictions": {
@@ -15885,16 +15864,6 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "93960": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
           "Freshman",
           "Sophomore"
         ]
@@ -19620,21 +19589,6 @@
       "type": "or"
     }
   },
-  "94594": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 4110",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 4420",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "94599": {
     "cross_list_courses": [
       "CHEM-6620"
@@ -19764,44 +19718,6 @@
           "Information Tech & Web Science"
         ]
       }
-    }
-  },
-  "94619": {
-    "cross_list_courses": [
-      "CSCI-4420",
-      "MATH-4030"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHIL 2140",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "94621": {
-    "cross_list_courses": [
-      "MATH-4030",
-      "PHIL-4420"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHIL 2140",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "94622": {
@@ -20774,6 +20690,9 @@
     }
   },
   "94765": {
+    "cross_list_courses": [
+      "CSCI-4820"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20838,6 +20757,9 @@
     }
   },
   "94771": {
+    "cross_list_courses": [
+      "CSCI-6860"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20862,6 +20784,9 @@
     }
   },
   "94772": {
+    "cross_list_courses": [
+      "ISYE-6770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20885,6 +20810,9 @@
   },
   "94773": {},
   "94774": {
+    "cross_list_courses": [
+      "MATP-6640"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20896,6 +20824,9 @@
     }
   },
   "94775": {
+    "cross_list_courses": [
+      "MATH-6860"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20906,7 +20837,11 @@
       }
     }
   },
-  "94776": {},
+  "94776": {
+    "cross_list_courses": [
+      "MATH-4820"
+    ]
+  },
   "94777": {
     "prerequisites": {
       "nested": [
@@ -20937,6 +20872,83 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "94778": {
+    "prerequisites": {
+      "course": "CHEM 1120",
+      "type": "course"
+    }
+  },
+  "94779": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2230",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2260",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94780": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
+  "94782": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
+  "94783": {
+    "prerequisites": {
+      "course": "CHEM 2260",
+      "type": "course"
+    }
+  },
+  "94784": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94785": {},
+  "94786": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }

@@ -4016,9 +4016,7 @@
   },
   "CHEM 6300": {
     "title": "Medicinal Chemistry",
-    "prereqs": [
-      "CHEM 6210"
-    ]
+    "prereqs": []
   },
   "CHEM 6900": {
     "title": "Chemistry Seminar",
@@ -6105,7 +6103,10 @@
   },
   "CSCI 6270": {
     "title": "Computational Vision",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300",
+      "MATH 2010"
+    ]
   },
   "CSCI 6840": {
     "title": "Num Solution Of Par Diff Eq",
@@ -9273,7 +9274,10 @@
   },
   "BMED 4960": {
     "title": "Ai For Biomedical Applications",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2400"
+    ]
   },
   "CHEM 2002": {
     "title": "Phys Chemistry At Suny",
@@ -13299,7 +13303,10 @@
   },
   "BMED 6960": {
     "title": "Ai For Biomedical Applications",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2400"
+    ]
   },
   "CHME 4968": {
     "title": "Process Intensification",
@@ -15336,9 +15343,7 @@
     "title": "Computational Vision",
     "prereqs": [
       "CSCI 2300",
-      "MATH 2010",
-      "MATH 2011",
-      "MATH 2012"
+      "MATH 2010"
     ]
   },
   "CSCI 4510": {
@@ -17826,7 +17831,7 @@
     "prereqs": []
   },
   "CHEM 1120": {
-    "title": "Chemistry 1 Honors",
+    "title": "Chemistry I Honors",
     "prereqs": []
   },
   "CHEM 1900": {
@@ -18057,6 +18062,12 @@
       "CHME 4030"
     ]
   },
+  "CHEM 1220": {
+    "title": "Chemistry II Honors",
+    "prereqs": [
+      "CHEM 1120"
+    ]
+  },
   "CHEM 4610": {
     "title": "Natural Polymers & Materials",
     "prereqs": []
@@ -18066,6 +18077,18 @@
     "prereqs": [
       "CIVL 2060",
       "CIVL 2630"
+    ]
+  },
+  "CSCI 1700": {
+    "title": "Early Introduction To Rcos",
+    "prereqs": [
+      "CSCI 1100"
+    ]
+  },
+  "CSCI 2700": {
+    "title": "Introduction To Rcos",
+    "prereqs": [
+      "CSCI 1200"
     ]
   },
   "ENGR 4555": {
