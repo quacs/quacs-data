@@ -12519,15 +12519,6 @@
       }
     }
   },
-  "93460": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "93463": {},
   "93464": {
     "restrictions": {
@@ -19956,16 +19947,6 @@
       }
     }
   },
-  "94651": {
-    "cross_list_courses": [
-      "CHME-4968"
-    ]
-  },
-  "94652": {
-    "cross_list_courses": [
-      "CHME-6968"
-    ]
-  },
   "94658": {
     "prerequisites": {
       "course": "ARCH 4770",
@@ -20949,6 +20930,63 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "94788": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2010",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94789": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2020",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94790": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2010",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2020",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4010",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4020",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
