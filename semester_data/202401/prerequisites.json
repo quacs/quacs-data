@@ -10984,6 +10984,9 @@
     }
   },
   "93153": {
+    "cross_list_courses": [
+      "MANE-4620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11318,6 +11321,9 @@
   },
   "93180": {},
   "93181": {
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11333,6 +11339,9 @@
     }
   },
   "93182": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13982,6 +13991,9 @@
     }
   },
   "93688": {
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13997,6 +14009,9 @@
     }
   },
   "93689": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15123,6 +15138,9 @@
     }
   },
   "93879": {
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15138,6 +15156,9 @@
     }
   },
   "93880": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16494,33 +16515,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "94165": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2530",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4030",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "campus": {
-        "must_be": [
-          "Hartford"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "94166": {
@@ -20402,6 +20396,9 @@
     }
   },
   "94744": {
+    "cross_list_courses": [
+      "ENGR-4720"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21048,5 +21045,33 @@
         ]
       }
     }
-  }
+  },
+  "94810": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "94811": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94812": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94813": {}
 }
