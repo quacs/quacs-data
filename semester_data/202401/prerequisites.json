@@ -5595,6 +5595,7 @@
       }
     }
   },
+  "91875": {},
   "91876": {
     "restrictions": {
       "level": {
@@ -9457,6 +9458,15 @@
     }
   },
   "92651": {},
+  "92652": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "92653": {
     "prerequisites": {
       "nested": [
@@ -14244,31 +14254,6 @@
       "type": "and"
     }
   },
-  "93718": {
-    "cross_list_courses": [
-      "CSCI-4530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "93721": {
     "restrictions": {
       "campus": {
@@ -15618,6 +15603,7 @@
       "type": "course"
     }
   },
+  "93924": {},
   "93935": {
     "restrictions": {
       "campus": {
@@ -18967,17 +18953,6 @@
       }
     }
   },
-  "94517": {},
-  "94518": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94519": {
     "restrictions": {
       "level": {
@@ -21009,5 +20984,40 @@
       }
     }
   },
-  "94802": {}
+  "94802": {},
+  "94803": {
+    "cross_list_courses": [
+      "ISYE-6370"
+    ]
+  },
+  "94804": {
+    "cross_list_courses": [
+      "ISYE-4370"
+    ]
+  },
+  "94805": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Information Technology"
+        ]
+      }
+    }
+  },
+  "94806": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94807": {}
 }
