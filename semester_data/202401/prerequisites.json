@@ -2759,24 +2759,9 @@
     }
   },
   "90299": {},
-  "90300": {
-    "cross_list_courses": [
-      "CSCI-4440"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
   "90302": {
     "prerequisites": {
       "course": "MATH 1020",
-      "type": "course"
-    }
-  },
-  "90303": {
-    "prerequisites": {
-      "course": "CSCI 2300",
       "type": "course"
     }
   },
@@ -5600,21 +5585,6 @@
           "Electrical Engineering"
         ]
       }
-    }
-  },
-  "91870": {
-    "cross_list_courses": [
-      "CSCI-4440"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
-  "91871": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
     }
   },
   "91876": {
@@ -12976,23 +12946,6 @@
       }
     }
   },
-  "93497": {},
-  "93498": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "93499": {
     "restrictions": {
       "classification": {
@@ -14289,24 +14242,6 @@
       "type": "and"
     }
   },
-  "93717": {
-    "cross_list_courses": [
-      "CSCI-6530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "93718": {
     "cross_list_courses": [
       "CSCI-4530"
@@ -15382,6 +15317,57 @@
     }
   },
   "93901": {},
+  "93902": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "93903": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "93904": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
   "93905": {
     "restrictions": {
       "level": {
@@ -20988,5 +20974,55 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "94791": {
+    "prerequisites": {
+      "course": "CSCI 4430",
+      "type": "course"
+    }
+  },
+  "94792": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94793": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    }
+  },
+  "94794": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94795": {},
+  "94796": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94797": {},
+  "94798": {},
+  "94799": {},
+  "94800": {}
 }
