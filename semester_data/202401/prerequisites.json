@@ -7887,12 +7887,26 @@
     }
   },
   "92458": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
     }
   },
   "92459": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -8153,12 +8167,26 @@
     }
   },
   "92476": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
     }
   },
   "92477": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ERTH-4400",
+      "ITWS-4400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -8173,7 +8201,11 @@
   },
   "92478": {
     "cross_list_courses": [
-      "CSCI-6400"
+      "CSCI-6400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
     ],
     "prerequisites": {
       "nested": [
@@ -8191,7 +8223,11 @@
   },
   "92479": {
     "cross_list_courses": [
-      "CSCI-4400"
+      "CSCI-4400",
+      "ERTH-4400",
+      "ERTH-6400",
+      "ITWS-4400",
+      "ITWS-6400"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -9273,6 +9309,11 @@
     }
   },
   "92636": {
+    "cross_list_courses": [
+      "CSCI-4520",
+      "CSCI-4850",
+      "ITWS-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9302,7 +9343,6 @@
       }
     }
   },
-  "92637": {},
   "92640": {
     "restrictions": {
       "classification": {
@@ -13928,6 +13968,11 @@
     }
   },
   "93683": {
+    "cross_list_courses": [
+      "CSCI-4520",
+      "CSCI-4850",
+      "ITWS-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19387,7 +19432,6 @@
       }
     }
   },
-  "94575": {},
   "94576": {},
   "94577": {
     "prerequisites": {
@@ -19502,6 +19546,8 @@
       "type": "or"
     }
   },
+  "94595": {},
+  "94596": {},
   "94599": {
     "cross_list_courses": [
       "CHEM-6620"
@@ -20346,24 +20392,6 @@
       "CHEM-6610"
     ]
   },
-  "94740": {
-    "cross_list_courses": [
-      "CHME-6660"
-    ],
-    "prerequisites": {
-      "course": "CHME 4030",
-      "type": "course"
-    }
-  },
-  "94741": {
-    "cross_list_courses": [
-      "CHME-4660"
-    ],
-    "prerequisites": {
-      "course": "CHME 4030",
-      "type": "course"
-    }
-  },
   "94742": {
     "prerequisites": {
       "course": "MANE 4070",
@@ -20457,7 +20485,11 @@
       "type": "course"
     }
   },
-  "94751": {},
+  "94751": {
+    "cross_list_courses": [
+      "MTLE-6963"
+    ]
+  },
   "94753": {
     "restrictions": {
       "level": {
@@ -21073,5 +21105,29 @@
       }
     }
   },
-  "94813": {}
+  "94815": {
+    "cross_list_courses": [
+      "CSCI-4850",
+      "ITWS-4500"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94816": {
+    "cross_list_courses": [
+      "CSCI-4520",
+      "ITWS-4500"
+    ]
+  }
 }
