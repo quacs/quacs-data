@@ -15821,7 +15821,22 @@
       "ERTH-1200"
     ]
   },
-  "93958": {},
+  "93958": {
+    "cross_list_courses": [
+      "MANE-6960"
+    ],
+    "prerequisites": {
+      "course": "MANE 2720",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "93959": {
     "cross_list_courses": [
       "PHIL-1110"
@@ -17492,43 +17507,11 @@
       "type": "and"
     }
   },
-  "94266": {
-    "cross_list_courses": [
-      "CHEM-4690",
-      "ERTH-6690"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "94267": {
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman"
-        ]
-      }
-    }
-  },
-  "94268": {
-    "cross_list_courses": [
-      "CHEM-4690",
-      "ERTH-4690"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -21049,6 +21032,19 @@
       "major": {
         "must_be": [
           "Undeclared Engineering"
+        ]
+      }
+    }
+  },
+  "94809": {
+    "cross_list_courses": [
+      "MANE-4960"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }

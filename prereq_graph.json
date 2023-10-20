@@ -9582,7 +9582,7 @@
     "prereqs": []
   },
   "MANE 6960": {
-    "title": "System Id - Learning From Data",
+    "title": "Compressible Flows",
     "prereqs": []
   },
   "MANE 6963": {
@@ -9866,8 +9866,10 @@
     ]
   },
   "MANE 4960": {
-    "title": "Intro Nonlinear Finite Element",
-    "prereqs": []
+    "title": "Compressible Flows",
+    "prereqs": [
+      "MANE 2720"
+    ]
   },
   "MANE 6400": {
     "title": "Analytic Dynamics",
@@ -14373,7 +14375,10 @@
   },
   "ERTH 6690": {
     "title": "Aqueous Geochemistry",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 1100",
+      "ERTH 1100"
+    ]
   },
   "ECSE 6200": {
     "title": "Semiconductor Devise Characterization",
