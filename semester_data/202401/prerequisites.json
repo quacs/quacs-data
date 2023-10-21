@@ -18178,7 +18178,6 @@
   "94336": {},
   "94337": {},
   "94338": {},
-  "94339": {},
   "94340": {
     "restrictions": {
       "level": {
@@ -21083,5 +21082,156 @@
       }
     }
   },
-  "94820": {}
+  "94820": {},
+  "94821": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 2500",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2540",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "94822": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94823": {},
+  "94824": {},
+  "94825": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94826": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94827": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    }
+  },
+  "94828": {},
+  "94829": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1030",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1040",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2380",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1170",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1180",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4120",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4140",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "94830": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94831": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1030",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
