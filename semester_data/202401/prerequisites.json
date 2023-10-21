@@ -6673,15 +6673,6 @@
       }
     }
   },
-  "92230": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "92234": {
     "restrictions": {
       "level": {
@@ -17805,33 +17796,6 @@
       "type": "or"
     }
   },
-  "94282": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1030",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1030",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1040",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94283": {
     "prerequisites": {
       "course": "STSO 2020",
@@ -18087,7 +18051,6 @@
       }
     }
   },
-  "94316": {},
   "94317": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -18189,20 +18152,6 @@
       "ITWS-6600"
     ],
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "94335": {
-    "restrictions": {
-      "degree": {
-        "must_be": [
-          "Master of Fine Arts"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -18669,12 +18618,6 @@
     }
   },
   "94455": {},
-  "94456": {
-    "prerequisites": {
-      "course": "ARTS 1200",
-      "type": "course"
-    }
-  },
   "94457": {
     "prerequisites": {
       "nested": [
@@ -21089,5 +21032,6 @@
       "ITWS-4500"
     ]
   },
-  "94817": {}
+  "94817": {},
+  "94818": {}
 }
