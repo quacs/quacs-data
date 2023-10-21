@@ -14376,6 +14376,22 @@
       "type": "course"
     }
   },
+  "93727": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "degree": {
+        "must_be": [
+          "Master of Fine Arts"
+        ]
+      }
+    }
+  },
   "93728": {
     "cross_list_courses": [
       "BIOL-6150"
@@ -21033,5 +21049,19 @@
     ]
   },
   "94817": {},
-  "94818": {}
+  "94818": {},
+  "94819": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
