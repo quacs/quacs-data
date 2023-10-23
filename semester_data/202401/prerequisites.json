@@ -5586,15 +5586,6 @@
       }
     }
   },
-  "91872": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "91875": {},
   "91876": {
     "restrictions": {
@@ -21193,5 +21184,19 @@
       "course": "COGS 2340",
       "type": "course"
     }
-  }
+  },
+  "94835": {
+    "prerequisites": {
+      "course": "MANE 4240",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "94836": {}
 }
