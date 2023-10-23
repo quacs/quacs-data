@@ -11,7 +11,6 @@
   "90006": {},
   "90007": {},
   "90008": {},
-  "90009": {},
   "90010": {
     "cross_list_courses": [
       "MGMT-6540"
@@ -19409,8 +19408,20 @@
       "type": "or"
     }
   },
-  "94595": {},
-  "94596": {},
+  "94595": {
+    "cross_list_courses": [
+      "CHEM-6965",
+      "ERTH-4965",
+      "ERTH-6965"
+    ]
+  },
+  "94596": {
+    "cross_list_courses": [
+      "CHEM-4965",
+      "ERTH-4965",
+      "ERTH-6965"
+    ]
+  },
   "94599": {
     "cross_list_courses": [
       "CHEM-6620"
@@ -19523,7 +19534,6 @@
       }
     }
   },
-  "94617": {},
   "94618": {
     "restrictions": {
       "major": {
@@ -20688,6 +20698,9 @@
     }
   },
   "94783": {
+    "cross_list_courses": [
+      "CHEM-6300"
+    ],
     "prerequisites": {
       "course": "CHEM 2260",
       "type": "course"
@@ -20708,7 +20721,11 @@
       "type": "and"
     }
   },
-  "94785": {},
+  "94785": {
+    "cross_list_courses": [
+      "CHEM-4300"
+    ]
+  },
   "94786": {
     "prerequisites": {
       "nested": [
@@ -20839,6 +20856,9 @@
   "94799": {},
   "94800": {},
   "94801": {
+    "cross_list_courses": [
+      "CHEM-4962"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20849,7 +20869,11 @@
       }
     }
   },
-  "94802": {},
+  "94802": {
+    "cross_list_courses": [
+      "CHEM-6962"
+    ]
+  },
   "94803": {
     "cross_list_courses": [
       "ISYE-6370"
@@ -21194,5 +21218,19 @@
       ],
       "type": "and"
     }
+  },
+  "94839": {
+    "cross_list_courses": [
+      "CHEM-4965",
+      "CHEM-6965",
+      "ERTH-6965"
+    ]
+  },
+  "94840": {
+    "cross_list_courses": [
+      "CHEM-4965",
+      "CHEM-6965",
+      "ERTH-4965"
+    ]
   }
 }
