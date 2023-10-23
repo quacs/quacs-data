@@ -1008,7 +1008,11 @@
       }
     }
   },
-  "90079": {},
+  "90079": {
+    "corequisites": [
+      "ERTH-1250"
+    ]
+  },
   "90080": {
     "prerequisites": {
       "nested": [
@@ -12334,6 +12338,23 @@
     }
   },
   "93427": {},
+  "93428": {
+    "cross_list_courses": [
+      "CHME-6961"
+    ]
+  },
+  "93429": {
+    "cross_list_courses": [
+      "CHME-4961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "93430": {
     "restrictions": {
       "campus": {
@@ -14437,6 +14458,9 @@
     }
   },
   "93732": {
+    "cross_list_courses": [
+      "ISCI-6510"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18696,8 +18720,16 @@
       }
     }
   },
-  "94470": {},
-  "94471": {},
+  "94470": {
+    "cross_list_courses": [
+      "ERTH-1510"
+    ]
+  },
+  "94471": {
+    "cross_list_courses": [
+      "ISCI-1510"
+    ]
+  },
   "94472": {
     "restrictions": {
       "level": {
@@ -18872,6 +18904,9 @@
     }
   },
   "94519": {
+    "cross_list_courses": [
+      "ISCI-4510"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19369,6 +19404,9 @@
     }
   },
   "94588": {
+    "corequisites": [
+      "ERTH-1250"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
