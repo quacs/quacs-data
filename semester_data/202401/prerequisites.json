@@ -5478,6 +5478,9 @@
   "91859": {},
   "91860": {},
   "91861": {
+    "cross_list_courses": [
+      "ARCH-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9283,7 +9286,6 @@
   "92636": {
     "cross_list_courses": [
       "CSCI-4520",
-      "CSCI-4850",
       "ITWS-4500"
     ],
     "prerequisites": {
@@ -12497,6 +12499,9 @@
     }
   },
   "93452": {
+    "cross_list_courses": [
+      "ARCH-6890"
+    ],
     "prerequisites": {
       "course": "ARCH 4860",
       "type": "course"
@@ -13970,7 +13975,6 @@
   "93683": {
     "cross_list_courses": [
       "CSCI-4520",
-      "CSCI-4850",
       "ITWS-4500"
     ],
     "prerequisites": {
@@ -16325,7 +16329,6 @@
       }
     }
   },
-  "94151": {},
   "94152": {
     "cross_list_courses": [
       "COMM-6730"
@@ -18820,17 +18823,8 @@
   "94495": {},
   "94496": {},
   "94498": {},
-  "94499": {},
-  "94500": {},
-  "94501": {
-    "cross_list_courses": [
-      "COMM-6780"
-    ]
-  },
   "94502": {
-    "cross_list_courses": [
-      "COMM-4780"
-    ]
+    "cross_list_courses": []
   },
   "94503": {
     "restrictions": {
@@ -21036,7 +21030,6 @@
   },
   "94815": {
     "cross_list_courses": [
-      "CSCI-4850",
       "ITWS-4500"
     ],
     "prerequisites": {
@@ -21284,5 +21277,72 @@
       "CHEM-6965",
       "ERTH-4965"
     ]
+  },
+  "94842": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "type": "course"
+    }
+  },
+  "94843": {},
+  "94844": {
+    "prerequisites": {
+      "course": "ARCH 6910",
+      "type": "course"
+    }
+  },
+  "94845": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94846": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94847": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
+  "94848": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94849": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94850": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
