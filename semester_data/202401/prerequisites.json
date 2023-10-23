@@ -14653,6 +14653,9 @@
     }
   },
   "93750": {
+    "cross_list_courses": [
+      "ARCH-4967"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -15501,15 +15504,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "93910": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
         ]
       }
     }
@@ -16606,15 +16600,6 @@
     }
   },
   "94168": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "94169": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -17878,7 +17863,11 @@
       "type": "or"
     }
   },
-  "94286": {},
+  "94286": {
+    "cross_list_courses": [
+      "ARCH-6961"
+    ]
+  },
   "94287": {
     "prerequisites": {
       "nested": [
@@ -18006,8 +17995,15 @@
   },
   "94300": {},
   "94301": {},
-  "94304": {},
+  "94304": {
+    "cross_list_courses": [
+      "ARCH-6962"
+    ]
+  },
   "94305": {
+    "cross_list_courses": [
+      "ARCH-4970"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18117,15 +18113,6 @@
       }
     }
   },
-  "94330": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94331": {
     "restrictions": {
       "level": {
@@ -18197,7 +18184,6 @@
     }
   },
   "94343": {},
-  "94344": {},
   "94345": {
     "prerequisites": {
       "nested": [
@@ -19267,16 +19253,6 @@
       }
     }
   },
-  "94562": {},
-  "94563": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94564": {
     "restrictions": {
       "classification": {
@@ -19335,15 +19311,6 @@
     }
   },
   "94570": {},
-  "94571": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
   "94572": {
     "restrictions": {
       "classification": {
@@ -19405,7 +19372,6 @@
       }
     }
   },
-  "94581": {},
   "94583": {},
   "94586": {},
   "94587": {
@@ -19838,15 +19804,6 @@
   },
   "94660": {},
   "94662": {},
-  "94663": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94664": {},
   "94665": {
     "restrictions": {
@@ -21344,5 +21301,99 @@
         ]
       }
     }
-  }
+  },
+  "94851": {},
+  "94852": {},
+  "94853": {},
+  "94854": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    }
+  },
+  "94855": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2520",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2330",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "94856": {},
+  "94857": {
+    "prerequisites": {
+      "course": "LGHT 4230",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94858": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4530",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4750",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "94859": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94860": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94861": {},
+  "94862": {},
+  "94863": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94864": {}
 }
