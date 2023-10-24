@@ -20236,26 +20236,6 @@
       }
     }
   },
-  "94564": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94565": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94566": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -20294,36 +20274,6 @@
     }
   },
   "94570": {},
-  "94572": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94573": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94574": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94576": {},
   "94577": {
     "prerequisites": {
@@ -20469,7 +20419,6 @@
   "94606": {},
   "94607": {},
   "94609": {},
-  "94611": {},
   "94612": {
     "prerequisites": {
       "nested": [
@@ -21009,17 +20958,6 @@
       ],
       "type": "and"
     },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94688": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -22655,5 +22593,11 @@
   },
   "94883": {},
   "94884": {},
-  "94885": {}
+  "94885": {},
+  "94886": {
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "type": "course"
+    }
+  }
 }
