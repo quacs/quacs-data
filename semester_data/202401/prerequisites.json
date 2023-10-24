@@ -5972,7 +5972,34 @@
       }
     }
   },
-  "91875": {},
+  "91875": {
+    "cross_list_courses": [
+      "CSCI-6971"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "91876": {
     "restrictions": {
       "level": {
@@ -9391,6 +9418,17 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Games & Simulation Arts & Sci",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "92528": {
@@ -10100,6 +10138,9 @@
   },
   "92651": {},
   "92652": {
+    "cross_list_courses": [
+      "CSCI-4971"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10810,6 +10851,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "92980": {
@@ -13028,8 +13079,42 @@
       }
     }
   },
-  "93431": {},
+  "93431": {
+    "cross_list_courses": [
+      "CSCI-6962"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "93432": {
+    "cross_list_courses": [
+      "CSCI-4962"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -14644,8 +14729,29 @@
       "type": "and"
     }
   },
-  "93675": {},
+  "93675": {
+    "cross_list_courses": [
+      "CSCI-6967"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "93676": {
+    "cross_list_courses": [
+      "CSCI-4967"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14654,8 +14760,38 @@
       }
     }
   },
-  "93677": {},
+  "93677": {
+    "cross_list_courses": [
+      "CSCI-6968"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "93678": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16111,6 +16247,9 @@
   },
   "93901": {},
   "93902": {
+    "cross_list_courses": [
+      "CSCI-6550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16123,9 +16262,22 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "93903": {
+    "cross_list_courses": [
+      "CSCI-4550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16400,7 +16552,28 @@
       "type": "course"
     }
   },
-  "93924": {},
+  "93924": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
   "93935": {
     "restrictions": {
       "campus": {
@@ -18264,8 +18437,29 @@
       }
     }
   },
-  "94261": {},
+  "94261": {
+    "cross_list_courses": [
+      "CSCI-6965"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "94262": {
+    "cross_list_courses": [
+      "CSCI-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19731,6 +19925,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "94535": {
@@ -19746,7 +19950,31 @@
       }
     }
   },
-  "94537": {},
+  "94537": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "94538": {
     "corequisites": [
       "BIOL-2120"
@@ -21496,6 +21724,9 @@
     }
   },
   "94784": {
+    "cross_list_courses": [
+      "CSCI-6270"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21508,6 +21739,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "94785": {
@@ -21516,6 +21757,9 @@
     ]
   },
   "94786": {
+    "cross_list_courses": [
+      "CSCI-4270"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21595,12 +21839,28 @@
     }
   },
   "94791": {
+    "cross_list_courses": [
+      "CSCI-6450"
+    ],
     "prerequisites": {
       "course": "CSCI 4430",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "94792": {
+    "cross_list_courses": [
+      "CSCI-4450"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21610,12 +21870,28 @@
     }
   },
   "94793": {
+    "cross_list_courses": [
+      "CSCI-6510"
+    ],
     "prerequisites": {
       "course": "CSCI 4210",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "94794": {
+    "cross_list_courses": [
+      "CSCI-4510"
+    ],
     "prerequisites": {
       "course": "CSCI 4210",
       "type": "course"
@@ -21628,8 +21904,29 @@
       }
     }
   },
-  "94795": {},
+  "94795": {
+    "cross_list_courses": [
+      "CSCI-6963"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "94796": {
+    "cross_list_courses": [
+      "CSCI-4963"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -21640,10 +21937,46 @@
       }
     }
   },
-  "94797": {},
-  "94798": {},
-  "94799": {},
-  "94800": {},
+  "94797": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "94798": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "94799": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "94800": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
   "94801": {
     "cross_list_courses": [
       "CHEM-4962"
@@ -22240,6 +22573,9 @@
     }
   },
   "94881": {
+    "cross_list_courses": [
+      "MATH-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22270,9 +22606,23 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science",
+          "Mathematics"
+        ]
+      }
     }
   },
   "94882": {
+    "cross_list_courses": [
+      "CSCI-4260"
+    ],
     "prerequisites": {
       "nested": [
         {
