@@ -15136,18 +15136,6 @@
       "type": "course"
     }
   },
-  "93713": {
-    "cross_list_courses": [
-      "MATH-6840"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "93715": {
     "prerequisites": {
       "nested": [
@@ -16693,8 +16681,17 @@
       }
     }
   },
-  "93943": {},
+  "93943": {
+    "cross_list_courses": [
+      "COGS-6960",
+      "CSCI-4960"
+    ]
+  },
   "93944": {
+    "cross_list_courses": [
+      "COGS-4960",
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16727,7 +16724,12 @@
       "ARTS-2700"
     ]
   },
-  "93949": {},
+  "93949": {
+    "cross_list_courses": [
+      "COGS-4960",
+      "COGS-6960"
+    ]
+  },
   "93950": {},
   "93951": {
     "corequisites": [
@@ -18200,9 +18202,7 @@
     }
   },
   "94241": {
-    "cross_list_courses": [
-      "CSCI-6840"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -19615,7 +19615,6 @@
     }
   },
   "94494": {},
-  "94495": {},
   "94496": {},
   "94498": {},
   "94502": {
@@ -22389,7 +22388,20 @@
   "94892": {
     "cross_list_courses": [
       "ARTS-6960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 2020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2380",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "94893": {},
   "94894": {
@@ -22811,5 +22823,6 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "94934": {}
 }
