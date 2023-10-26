@@ -11012,106 +11012,6 @@
       "type": "or"
     }
   },
-  "92994": {
-    "prerequisites": {
-      "course": "ARCH 5110",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92995": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92996": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92997": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92998": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6610",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "92999": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "93000": {
-    "corequisites": [
-      "ARCH-6610"
-    ],
-    "prerequisites": {
-      "course": "ARCH 5330",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "93001": {
     "prerequisites": {
       "nested": [
@@ -14819,6 +14719,11 @@
     }
   },
   "93679": {
+    "cross_list_courses": [
+      "CSCI-6969",
+      "ECSE-4490",
+      "ECSE-6490"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -17134,7 +17039,6 @@
       "type": "course"
     }
   },
-  "94117": {},
   "94118": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -17545,8 +17449,19 @@
       }
     }
   },
-  "94171": {},
+  "94171": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-6490"
+    ]
+  },
   "94172": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-4490"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18849,7 +18764,6 @@
       }
     }
   },
-  "94306": {},
   "94307": {
     "restrictions": {
       "level": {
@@ -20591,8 +20505,6 @@
       "type": "and"
     }
   },
-  "94669": {},
-  "94670": {},
   "94671": {},
   "94672": {
     "restrictions": {
@@ -20684,78 +20596,6 @@
       "classification": {
         "may_not_be": [
           "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94684": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6610",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94685": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6610",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "94686": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6610",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
           "Sophomore"
         ]
       }
@@ -22909,5 +22749,28 @@
       "course": "ARCH 2540",
       "type": "course"
     }
-  }
+  },
+  "94939": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "ECSE-4490",
+      "ECSE-6490"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "94940": {},
+  "94941": {},
+  "94942": {},
+  "94943": {},
+  "94944": {},
+  "94945": {},
+  "94946": {}
 }
