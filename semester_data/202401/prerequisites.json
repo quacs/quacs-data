@@ -2530,6 +2530,14 @@
           "Junior",
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Technology",
+          "Information Tech & Web Science"
+        ]
       }
     }
   },
@@ -6516,6 +6524,7 @@
   },
   "92036": {
     "cross_list_courses": [
+      "INQR-1220",
       "ITWS-1220"
     ],
     "restrictions": {
@@ -12030,6 +12039,7 @@
   },
   "93179": {
     "cross_list_courses": [
+      "INQR-1220",
       "ITWS-1220"
     ],
     "restrictions": {
@@ -14822,6 +14832,7 @@
   },
   "93682": {
     "cross_list_courses": [
+      "INQR-1220",
       "ITWS-1220"
     ],
     "restrictions": {
@@ -16279,6 +16290,9 @@
     }
   },
   "93904": {
+    "cross_list_courses": [
+      "CSCI-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19777,6 +19791,9 @@
   },
   "94529": {},
   "94533": {
+    "cross_list_courses": [
+      "CSCI-6230"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -19793,6 +19810,9 @@
     }
   },
   "94535": {
+    "cross_list_courses": [
+      "CSCI-4230"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -19806,6 +19826,9 @@
     }
   },
   "94537": {
+    "cross_list_courses": [
+      "CSCI-6961"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21422,12 +21445,20 @@
     }
   },
   "94780": {
+    "cross_list_courses": [
+      "CSCI-2700",
+      "CSCI-4970"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "type": "course"
     }
   },
   "94782": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-4970"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -21657,6 +21688,11 @@
     }
   },
   "94797": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
+      "CSCI-4970"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21667,6 +21703,11 @@
     }
   },
   "94798": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
+      "CSCI-4970"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21677,6 +21718,11 @@
     }
   },
   "94799": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
+      "CSCI-4970"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21687,6 +21733,11 @@
     }
   },
   "94800": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
+      "CSCI-4970"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22744,8 +22795,18 @@
       }
     }
   },
-  "94925": {},
-  "94926": {},
+  "94925": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
+  "94926": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
   "94927": {
     "cross_list_courses": [
       "ECSE-4965"
@@ -22827,6 +22888,25 @@
   "94935": {
     "prerequisites": {
       "course": "ENGR 2600",
+      "type": "course"
+    }
+  },
+  "94936": {
+    "corequisites": [
+      "ARCH-2830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2370",
+      "type": "course"
+    }
+  },
+  "94937": {},
+  "94938": {
+    "corequisites": [
+      "ARCH-2830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2540",
       "type": "course"
     }
   }
