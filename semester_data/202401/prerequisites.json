@@ -1273,7 +1273,6 @@
       }
     }
   },
-  "90097": {},
   "90098": {
     "restrictions": {
       "level": {
@@ -12055,24 +12054,6 @@
       "type": "and"
     }
   },
-  "93191": {
-    "corequisites": [
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "93192": {
     "corequisites": [
       "ARCH-4540"
@@ -16680,25 +16661,6 @@
       "type": "course"
     }
   },
-  "93954": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2360",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4740",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "93955": {
     "corequisites": [
       "ARCH-4540"
@@ -18363,24 +18325,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "94265": {
-    "corequisites": [
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "94267": {
@@ -22816,6 +22760,12 @@
   "94956": {
     "prerequisites": {
       "course": "ARCH 2830",
+      "type": "course"
+    }
+  },
+  "94957": {
+    "prerequisites": {
+      "course": "ARCH 4120",
       "type": "course"
     }
   }
