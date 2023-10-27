@@ -8845,10 +8845,6 @@
       "ITWS-4400",
       "ITWS-6400"
     ],
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10874,10 +10870,6 @@
     "cross_list_courses": [
       "CSCI-4320"
     ],
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -13021,13 +13013,6 @@
       "CSCI-4962"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -14710,6 +14695,10 @@
       "ECSE-4490",
       "ECSE-6490"
     ],
+    "prerequisites": {
+      "course": "ECSE 4480",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -16159,19 +16148,6 @@
     "cross_list_courses": [
       "CSCI-4550"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -19111,20 +19087,6 @@
       }
     }
   },
-  "94424": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
-      }
-    }
-  },
   "94426": {},
   "94427": {
     "cross_list_courses": [
@@ -19680,10 +19642,6 @@
     "cross_list_courses": [
       "CSCI-4230"
     ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21170,11 +21128,9 @@
       "MATH-6860"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -21316,19 +21272,6 @@
     "cross_list_courses": [
       "CSCI-4270"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21484,11 +21427,9 @@
       "CSCI-4963"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -21598,10 +21539,9 @@
   },
   "94806": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -22723,11 +22663,9 @@
       "ECSE-6490"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
