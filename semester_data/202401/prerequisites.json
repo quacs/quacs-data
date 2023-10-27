@@ -14230,6 +14230,9 @@
     }
   },
   "93638": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15611,6 +15614,9 @@
   },
   "93862": {},
   "93863": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15669,6 +15675,9 @@
     }
   },
   "93866": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16564,13 +16573,21 @@
     "cross_list_courses": [
       "COGS-6960",
       "CSCI-4960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
   },
   "93944": {
     "cross_list_courses": [
       "COGS-4960",
       "CSCI-4960"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -18364,6 +18381,9 @@
     }
   },
   "94276": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19225,7 +19245,7 @@
     ],
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Music"
         ]
       }
@@ -22150,22 +22170,6 @@
       }
     }
   },
-  "94878": {
-    "cross_list_courses": [
-      "MANE-6964"
-    ],
-    "prerequisites": {
-      "course": "MANE 4100",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "94879": {
     "cross_list_courses": [
       "MANE-4964"
@@ -22265,12 +22269,18 @@
   "94884": {},
   "94885": {},
   "94886": {
+    "cross_list_courses": [
+      "MATH-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
     }
   },
   "94887": {
+    "cross_list_courses": [
+      "PHIL-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
