@@ -2806,7 +2806,12 @@
       }
     }
   },
-  "90307": {},
+  "90307": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
   "90308": {},
   "90309": {
     "cross_list_courses": [
@@ -16628,7 +16633,11 @@
     "cross_list_courses": [
       "COGS-4960",
       "COGS-6960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
   },
   "93950": {},
   "93951": {
@@ -21173,7 +21182,20 @@
   "94776": {
     "cross_list_courses": [
       "MATH-4820"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4800",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4800",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "94777": {
     "prerequisites": {
