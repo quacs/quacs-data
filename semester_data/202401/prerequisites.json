@@ -9959,8 +9959,7 @@
   },
   "92636": {
     "cross_list_courses": [
-      "CSCI-4520",
-      "ITWS-4500"
+      "CSCI-4520"
     ],
     "prerequisites": {
       "nested": [
@@ -14725,8 +14724,7 @@
   },
   "93683": {
     "cross_list_courses": [
-      "CSCI-4520",
-      "ITWS-4500"
+      "CSCI-4520"
     ],
     "prerequisites": {
       "nested": [
@@ -19940,7 +19938,16 @@
     }
   },
   "94583": {},
-  "94586": {},
+  "94586": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci",
+          "Psychological Science"
+        ]
+      }
+    }
+  },
   "94587": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -21939,12 +21946,36 @@
     }
   },
   "94851": {},
-  "94852": {},
-  "94853": {},
+  "94852": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "94853": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "94854": {
     "prerequisites": {
       "course": "ARTS 2230",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "94855": {
@@ -21960,6 +21991,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "94856": {},
@@ -22021,7 +22059,15 @@
     }
   },
   "94861": {},
-  "94862": {},
+  "94862": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "94863": {
     "restrictions": {
       "level": {
@@ -22033,15 +22079,71 @@
   },
   "94864": {},
   "94865": {},
-  "94866": {},
-  "94867": {},
-  "94868": {},
-  "94869": {},
-  "94870": {},
-  "94872": {},
+  "94866": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "94867": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "94868": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "94869": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "94870": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "94872": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "94873": {},
   "94874": {},
-  "94876": {},
+  "94876": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "94877": {
     "restrictions": {
       "classification": {
@@ -22545,13 +22647,27 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
   },
   "94926": {
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
   },
   "94927": {
     "cross_list_courses": [
@@ -23001,6 +23117,24 @@
         },
         {
           "course": "ARCH 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "94973": {
+    "cross_list_courses": [
+      "ITWS-4500"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
           "type": "course"
         }
       ],
