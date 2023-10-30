@@ -3789,6 +3789,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
     }
   },
   "90522": {
@@ -7908,11 +7915,11 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ENVE 2110",
+          "course": "CHEM 1200",
           "type": "course"
         },
         {
-          "course": "CHEM 2250",
+          "course": "ENVE 2110",
           "type": "course"
         }
       ],
@@ -18102,6 +18109,20 @@
       }
     }
   },
+  "94236": {
+    "cross_list_courses": [
+      "MATP-6640"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "94237": {
     "cross_list_courses": [
       "ISYE-4330"
@@ -21187,20 +21208,10 @@
       }
     }
   },
-  "94773": {},
-  "94774": {
+  "94773": {
     "cross_list_courses": [
-      "MATP-6640"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
+      "CSCI-6966"
+    ]
   },
   "94775": {
     "cross_list_courses": [
@@ -22240,9 +22251,6 @@
     }
   },
   "94879": {
-    "cross_list_courses": [
-      "MANE-4964"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23295,6 +23303,18 @@
   },
   "94976": {},
   "94977": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "94978": {
+    "cross_list_courses": [
+      "ISYE-6550"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
