@@ -5398,6 +5398,15 @@
       }
     }
   },
+  "91515": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "91522": {
     "restrictions": {
       "level": {
@@ -18958,11 +18967,20 @@
   },
   "94283": {
     "cross_list_courses": [
-      "STSO-2610"
+      "ENGR-4610"
     ],
     "prerequisites": {
-      "course": "STSO 2020",
-      "type": "course"
+      "nested": [
+        {
+          "course": "STSO 2020",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -20628,7 +20646,9 @@
     }
   },
   "94604": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "ARTS-6961"
+    ],
     "prerequisites": {
       "course": "ARTS 2020",
       "type": "course"
@@ -22998,9 +23018,6 @@
   },
   "94897": {},
   "94898": {
-    "cross_list_courses": [
-      "STSO-4610"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -24046,5 +24063,23 @@
     }
   },
   "94987": {},
-  "94988": {}
+  "94988": {},
+  "94989": {
+    "cross_list_courses": [
+      "STSO-4610"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2020",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
