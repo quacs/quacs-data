@@ -12238,8 +12238,17 @@
       "BMED-4120"
     ],
     "prerequisites": {
-      "course": "BIOL 4110",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 4110",
+          "type": "course"
+        },
+        {
+          "course": "BMED 4110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -12634,15 +12643,7 @@
   "93400": {
     "cross_list_courses": [
       "COMM-2570"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "93403": {
     "cross_list_courses": [
@@ -19750,10 +19751,6 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHME 2100",
-          "type": "course"
-        },
-        {
           "course": "CHME 4040",
           "type": "course"
         },
@@ -19775,10 +19772,6 @@
   "94458": {
     "prerequisites": {
       "nested": [
-        {
-          "course": "CHME 2100",
-          "type": "course"
-        },
         {
           "course": "CHME 4040",
           "type": "course"
@@ -22315,14 +22308,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
     }
   },
   "94832": {
