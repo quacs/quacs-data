@@ -93,8 +93,21 @@
       "CHEM-4770"
     ],
     "prerequisites": {
-      "course": "BCBP 4760",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CHEM 4760",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4760",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4760",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "90020": {
@@ -118,8 +131,21 @@
       "CHEM-4770"
     ],
     "prerequisites": {
-      "course": "BIOL 4760",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BIOL 4760",
+          "type": "course"
+        },
+        {
+          "course": "BCBP 4760",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4760",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "90022": {
@@ -7709,19 +7735,6 @@
     "cross_list_courses": [
       "MGMT-4520"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 6190",
-          "type": "course"
-        },
-        {
-          "course": "MGMT 6310",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12792,8 +12805,21 @@
           "type": "course"
         },
         {
-          "course": "BIOL 4760",
-          "type": "course"
+          "nested": [
+            {
+              "course": "BIOL 4760",
+              "type": "course"
+            },
+            {
+              "course": "BCBP 4760",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -18394,19 +18420,6 @@
     }
   },
   "94238": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 6510",
-          "type": "course"
-        },
-        {
-          "course": "MGMT 6520",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
