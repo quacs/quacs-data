@@ -8142,6 +8142,21 @@
       }
     }
   },
+  "92370": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "92372": {},
   "92373": {
     "restrictions": {
@@ -15698,6 +15713,14 @@
           "type": "course"
         },
         {
+          "course": "IHSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
+          "type": "course"
+        },
+        {
           "course": "PHIL 1110",
           "type": "course"
         },
@@ -18716,27 +18739,52 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "INQR 1100",
+          "nested": [
+            {
+              "course": "INQR 1100",
+              "type": "course"
+            },
+            {
+              "course": "STSO 1100",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1110",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1240",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1250",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1320",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "IHSS 1100",
           "type": "course"
         },
         {
-          "course": "STSO 1100",
+          "course": "IHSS 1110",
           "type": "course"
         },
         {
-          "course": "INQR 1110",
+          "course": "IHSS 1240",
           "type": "course"
         },
         {
-          "course": "INQR 1240",
+          "course": "IHSS 1250",
           "type": "course"
         },
         {
-          "course": "INQR 1250",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1320",
+          "course": "IHSS 1320",
           "type": "course"
         }
       ],
@@ -18770,6 +18818,14 @@
           "type": "course"
         },
         {
+          "course": "IHSS 1150",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1160",
+          "type": "course"
+        },
+        {
           "course": "PHIL 1110",
           "type": "course"
         },
@@ -18795,6 +18851,13 @@
     "prerequisites": {
       "course": "STSO 2020",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society"
+        ]
+      }
     }
   },
   "94279": {
@@ -22341,13 +22404,6 @@
     "prerequisites": {
       "course": "MANE 4240",
       "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
     }
   },
   "94836": {},
@@ -22871,8 +22927,17 @@
       "STSO-4610"
     ],
     "prerequisites": {
-      "course": "INQR 1610",
-      "type": "course"
+      "nested": [
+        {
+          "course": "INQR 1610",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1610",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "94899": {
@@ -23905,5 +23970,6 @@
       }
     }
   },
-  "94987": {}
+  "94987": {},
+  "94988": {}
 }
