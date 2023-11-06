@@ -4238,12 +4238,25 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "BCBP 4760",
+          "course": "BIOL 4620",
           "type": "course"
         },
         {
-          "course": "BIOL 4620",
-          "type": "course"
+          "nested": [
+            {
+              "course": "BIOL 4760",
+              "type": "course"
+            },
+            {
+              "course": "BCBP 4760",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -19017,6 +19030,42 @@
         {
           "course": "INQR 1610",
           "type": "course"
+        },
+        {
+          "course": "IHSS 1100",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1220",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1250",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1320",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1350",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1570",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1580",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1610",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -20767,6 +20816,14 @@
         },
         {
           "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1100",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
           "type": "course"
         }
       ],
@@ -22889,7 +22946,25 @@
       "type": "or"
     }
   },
-  "94893": {},
+  "94893": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 1040",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2230",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "94894": {
     "cross_list_courses": [
       "ARTS-4960"
