@@ -7027,6 +7027,9 @@
     }
   },
   "92217": {
+    "cross_list_courses": [
+      "ITWS-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11644,7 +11647,7 @@
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -24175,5 +24178,32 @@
       }
     }
   },
-  "94992": {}
+  "94992": {},
+  "94993": {
+    "cross_list_courses": [
+      "ITWS-4370"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
