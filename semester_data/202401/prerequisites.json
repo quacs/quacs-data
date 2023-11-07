@@ -2356,15 +2356,33 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MATH 1500",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         },
         {
-          "course": "MATH 1520",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "90239": {
@@ -12600,15 +12618,33 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MATH 1500",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         },
         {
-          "course": "MATH 1520",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "93390": {},
@@ -16595,6 +16631,11 @@
       "type": "and"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Computer Science"
