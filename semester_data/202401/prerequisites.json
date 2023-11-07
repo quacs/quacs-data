@@ -2829,7 +2829,19 @@
       "type": "course"
     }
   },
-  "90308": {},
+  "90308": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "90309": {
     "cross_list_courses": [
       "PHIL-1110"
@@ -3968,7 +3980,9 @@
   "91001": {},
   "91036": {},
   "91047": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "PSYC-2100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -11377,6 +11391,17 @@
       }
     }
   },
+  "93060": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "93063": {
     "restrictions": {
       "classification": {
@@ -14017,6 +14042,7 @@
       }
     }
   },
+  "93534": {},
   "93536": {
     "prerequisites": {
       "nested": [
@@ -14112,6 +14138,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "93550": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -16958,6 +16995,7 @@
       }
     }
   },
+  "93982": {},
   "93994": {
     "restrictions": {
       "level": {
@@ -19319,7 +19357,6 @@
   },
   "94318": {},
   "94319": {},
-  "94320": {},
   "94321": {},
   "94322": {},
   "94323": {},
@@ -19765,16 +19802,6 @@
   "94441": {},
   "94442": {},
   "94443": {},
-  "94444": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "94446": {
     "prerequisites": {
       "nested": [
@@ -19813,6 +19840,13 @@
         "must_be": [
           "Freshman",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci",
+          "Music"
         ]
       }
     }
@@ -22412,6 +22446,22 @@
         {
           "course": "ARTS 4140",
           "type": "course"
+        },
+        {
+          "course": "IHSS 1030",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1040",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1170",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1180",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -22812,9 +22862,11 @@
   },
   "94879": {
     "restrictions": {
-      "level": {
+      "degree": {
         "must_be": [
-          "Graduate"
+          "Master of Engineering",
+          "Master of Science",
+          "Doctor of Philosophy"
         ]
       }
     }
