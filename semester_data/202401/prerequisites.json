@@ -8444,6 +8444,21 @@
       }
     }
   },
+  "92414": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "92415": {
     "restrictions": {
       "classification": {
@@ -14057,6 +14072,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "93532": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -19865,7 +19891,7 @@
   "94440": {
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       },
@@ -20962,6 +20988,22 @@
         },
         {
           "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "STSS 1100",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSH 1110",
           "type": "course"
         }
       ],
