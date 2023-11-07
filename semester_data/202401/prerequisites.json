@@ -12642,6 +12642,19 @@
             }
           ],
           "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
       "type": "or"
@@ -18474,6 +18487,7 @@
       "major": {
         "must_be": [
           "Business Analytics",
+          "Management (LSE)",
           "Management",
           "Supply Chain Management"
         ]
@@ -19850,13 +19864,14 @@
   },
   "94440": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
+      "level": {
+        "may_not_be": [
+          "Graduate"
         ]
       },
       "major": {
         "must_be": [
+          "Management (LSE)",
           "Management"
         ]
       }
