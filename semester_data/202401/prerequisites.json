@@ -10832,16 +10832,7 @@
     }
   },
   "92973": {},
-  "92975": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
+  "92975": {},
   "92976": {
     "corequisites": [
       "ARCH-2360",
@@ -12333,14 +12324,9 @@
   "93213": {},
   "93214": {},
   "93216": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
+    "cross_list_courses": [
+      "PHYS-6960"
+    ]
   },
   "93217": {
     "prerequisites": {
@@ -22675,6 +22661,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "campus": {
+        "may_not_be": [
+          "Troy"
+        ]
+      }
     }
   },
   "94839": {
@@ -24184,7 +24177,6 @@
       "MGMT-6600"
     ]
   },
-  "94982": {},
   "94983": {
     "cross_list_courses": [
       "PSYC-4720"
@@ -24316,5 +24308,17 @@
     }
   },
   "94996": {},
-  "94997": {}
+  "94997": {},
+  "94998": {
+    "cross_list_courses": [
+      "ASTR-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
