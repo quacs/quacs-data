@@ -8369,6 +8369,7 @@
   "92397": {
     "cross_list_courses": [
       "ASTR-4961",
+      "ASTR-6960",
       "PHYS-6963"
     ]
   },
@@ -20038,6 +20039,18 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Bioinformatics & Molec Biology",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology"
+        ]
+      }
     }
   },
   "94454": {
@@ -20298,6 +20311,7 @@
   },
   "94520": {
     "cross_list_courses": [
+      "ASTR-6960",
       "PHYS-4961",
       "PHYS-6963"
     ]
@@ -20346,6 +20360,7 @@
   "94526": {
     "cross_list_courses": [
       "ASTR-4961",
+      "ASTR-6960",
       "PHYS-4961"
     ]
   },
@@ -24410,5 +24425,19 @@
     "cross_list_courses": [
       "MTLE-4961"
     ]
+  },
+  "95001": {
+    "cross_list_courses": [
+      "ASTR-4961",
+      "PHYS-4961",
+      "PHYS-6963"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
