@@ -6520,9 +6520,14 @@
       "ITWS-1220"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
-          "Information Technology",
           "Information Tech & Web Science"
         ]
       }
@@ -11623,7 +11628,7 @@
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -11990,9 +11995,14 @@
       "ITWS-1220"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
-          "Information Technology",
           "Information Tech & Web Science"
         ]
       }
@@ -14917,6 +14927,12 @@
       "ITWS-1220"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Information Tech & Web Science"
