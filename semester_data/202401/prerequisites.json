@@ -11954,12 +11954,22 @@
       "type": "or"
     },
     "restrictions": {
-      "college": {
+      "major": {
         "must_be": [
-          "School of Architecture",
-          "Humanities, Arts & Soc Sci",
-          "School of Humanities & Soc Sci",
-          "Lally School of Mgt & Tech"
+          "Architecture",
+          "Business and Management",
+          "Business Analytics",
+          "Biotechnology & Health Econ",
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
         ]
       }
     }
@@ -19303,6 +19313,10 @@
         },
         {
           "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1110",
           "type": "course"
         }
       ],
