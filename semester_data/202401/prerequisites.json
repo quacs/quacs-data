@@ -3501,7 +3501,6 @@
       }
     }
   },
-  "90450": {},
   "90453": {
     "restrictions": {
       "level": {
@@ -20243,8 +20242,17 @@
       "ISCI-6961"
     ],
     "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -20264,10 +20272,6 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
-    "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21637,8 +21641,17 @@
       "ISCI-6961"
     ],
     "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -21658,10 +21671,6 @@
       "ENGR-6961",
       "ISCI-4961"
     ],
-    "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21679,8 +21688,17 @@
       "ISCI-6961"
     ],
     "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "classification": {
@@ -21700,10 +21718,6 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
-    "prerequisites": {
-      "course": "PHYS 1200",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -21825,8 +21839,17 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1200",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
