@@ -3483,7 +3483,6 @@
     }
   },
   "90455": {},
-  "90461": {},
   "90463": {
     "restrictions": {
       "level": {
@@ -13260,11 +13259,6 @@
       "ARCH-6966"
     ]
   },
-  "93455": {
-    "cross_list_courses": [
-      "MTLE-4961"
-    ]
-  },
   "93456": {
     "restrictions": {
       "classification": {
@@ -20857,11 +20851,9 @@
   },
   "94590": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -24580,16 +24572,6 @@
       }
     }
   },
-  "94999": {
-    "cross_list_courses": [
-      "MTLE-4961"
-    ]
-  },
-  "95000": {
-    "cross_list_courses": [
-      "MTLE-4961"
-    ]
-  },
   "95001": {
     "cross_list_courses": [
       "ASTR-4961",
@@ -24639,5 +24621,41 @@
   "95018": {},
   "95019": {},
   "95020": {},
-  "95021": {}
+  "95021": {},
+  "95022": {
+    "cross_list_courses": [
+      "MTLE-6961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "95023": {
+    "cross_list_courses": [
+      "MTLE-6961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "95024": {
+    "cross_list_courses": [
+      "MTLE-6961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
