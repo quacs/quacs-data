@@ -1992,14 +1992,6 @@
     }
   },
   "60082": {},
-  "60083": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "cross_list_courses": [
-      "ARCH-5380"
-    ]
-  },
   "60084": {
     "cross_list_courses": [
       "CHME-4150"
@@ -3229,7 +3221,6 @@
       "type": "course"
     }
   },
-  "60277": {},
   "60278": {},
   "60279": {},
   "60280": {
@@ -3285,15 +3276,6 @@
           "Information Tech & Web Science"
         ]
       }
-    }
-  },
-  "60286": {
-    "cross_list_courses": [
-      "ARCH-5140"
-    ],
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
     }
   },
   "60287": {
@@ -4391,15 +4373,6 @@
       }
     }
   },
-  "60440": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "60442": {
     "cross_list_courses": [
       "ENGR-4100",
@@ -4759,12 +4732,6 @@
       "type": "and"
     }
   },
-  "60866": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
   "60867": {
     "cross_list_courses": [
       "CSCI-6964"
@@ -4946,15 +4913,6 @@
     }
   },
   "61001": {},
-  "61005": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "61018": {
     "restrictions": {
       "level": {
@@ -5120,15 +5078,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "61063": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "61064": {
@@ -5777,15 +5726,6 @@
     }
   },
   "61283": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61295": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6912,25 +6852,6 @@
       }
     }
   },
-  "61477": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61478": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "61480": {},
   "61481": {
     "prerequisites": {
       "course": "MATH 2400",
@@ -6942,15 +6863,6 @@
           "Junior",
           "Sophomore",
           "Senior"
-        ]
-      }
-    }
-  },
-  "61482": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -10009,32 +9921,8 @@
       "type": "and"
     }
   },
-  "62269": {
-    "cross_list_courses": [
-      "CIVL-4020"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2330",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4330",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "62270": {},
   "62271": {},
-  "62272": {
-    "cross_list_courses": [
-      "ARCH-5100"
-    ]
-  },
-  "62273": {},
   "62274": {
     "corequisites": [
       "BIOL-1010"
@@ -10224,15 +10112,6 @@
       }
     }
   },
-  "62288": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62289": {
     "prerequisites": {
       "nested": [
@@ -10274,7 +10153,6 @@
       }
     }
   },
-  "62292": {},
   "62293": {
     "restrictions": {
       "level": {
@@ -10471,7 +10349,6 @@
       }
     }
   },
-  "62317": {},
   "62321": {
     "cross_list_courses": [
       "CSCI-4964"
@@ -10592,18 +10469,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "62332": {},
-  "62333": {},
-  "62334": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Building Sciences"
         ]
       }
     }
@@ -10939,60 +10804,6 @@
       "type": "and"
     }
   },
-  "62482": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62483": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62484": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "62485": {
     "cross_list_courses": [
       "BMED-6960"
@@ -11008,13 +10819,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "62488": {},
-  "62489": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
     }
   },
   "62490": {
@@ -11091,39 +10895,6 @@
       "type": "and"
     }
   },
-  "62496": {
-    "cross_list_courses": [
-      "ARCH-2150"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62497": {
-    "cross_list_courses": [
-      "ARCH-2330"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62498": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62500": {
     "restrictions": {
       "classification": {
@@ -11152,50 +10923,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "62510": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 5210",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 5170",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62511": {
-    "prerequisites": {
-      "course": "ARCH 5140",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62512": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -11755,161 +11482,6 @@
       }
     }
   },
-  "62739": {},
-  "62740": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
-  "62741": {
-    "cross_list_courses": [
-      "ARCH-5340"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2510",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2350",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "62742": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "62743": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "62744": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "62745": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62746": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62747": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62748": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62749": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "62750": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture"
-        ]
-      }
-    }
-  },
-  "62752": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "62753": {
-    "cross_list_courses": [
-      "ARCH-4560"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "62755": {
     "cross_list_courses": [
       "MANE-6710"
@@ -12031,19 +11603,6 @@
     }
   },
   "62771": {},
-  "62775": {},
-  "62776": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "62777": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
   "62778": {
     "corequisites": [
       "PHYS-1100"
@@ -12952,43 +12511,6 @@
       "type": "or"
     }
   },
-  "62923": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "62924": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "62925": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "62926": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "62927": {
-    "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
-    }
-  },
   "62928": {
     "restrictions": {
       "classification": {
@@ -13094,25 +12616,6 @@
       "type": "and"
     }
   },
-  "62934": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2360",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4740",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "62937": {
     "restrictions": {
       "classification": {
@@ -13139,20 +12642,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "62943": {
-    "cross_list_courses": [
-      "ARCH-6840",
-      "MANE-4963",
-      "MANE-6963"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman"
         ]
       }
     }
@@ -13412,12 +12901,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "62974": {
-    "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
     }
   },
   "62984": {},
@@ -13967,76 +13450,6 @@
       }
     }
   },
-  "63166": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "type": "course"
-    }
-  },
-  "63167": {},
-  "63168": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "63169": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "63170": {},
-  "63171": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63172": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63173": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63174": {
-    "cross_list_courses": [
-      "ARCH-4890",
-      "MANE-4963",
-      "MANE-6963"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63175": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63177": {
     "prerequisites": {
       "course": "BIOL 2120",
@@ -14104,7 +13517,6 @@
       "type": "and"
     }
   },
-  "63182": {},
   "63185": {},
   "63186": {
     "prerequisites": {
@@ -14356,21 +13768,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "63230": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "63231": {
@@ -15174,16 +14571,6 @@
       }
     }
   },
-  "63386": {},
-  "63387": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63390": {
     "prerequisites": {
       "course": "MANE 2710",
@@ -15453,22 +14840,6 @@
       }
     }
   },
-  "63410": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "63414": {
     "restrictions": {
       "level": {
@@ -15570,18 +14941,6 @@
       "course": "BIOL 4200",
       "type": "course"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63425": {
-    "cross_list_courses": [
-      "ARCH-4967"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17150,78 +16509,6 @@
       "PHYS-1100"
     ]
   },
-  "63885": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "63886": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "63887": {},
-  "63889": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
-  "63890": {
-    "prerequisites": {
-      "course": "ARCH 2530",
-      "type": "course"
-    }
-  },
-  "63891": {},
-  "63893": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "63894": {},
-  "63895": {
-    "cross_list_courses": [
-      "ARCH-4971"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63896": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "63897": {
-    "cross_list_courses": [
-      "ARCH-6962"
-    ]
-  },
   "63898": {
     "cross_list_courses": [
       "CSCI-4968",
@@ -17231,31 +16518,6 @@
     ],
     "prerequisites": {
       "course": "PHIL 2140",
-      "type": "course"
-    }
-  },
-  "63899": {},
-  "63901": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "63902": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "63906": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "63907": {
-    "prerequisites": {
-      "course": "ARCH 4770",
       "type": "course"
     }
   },
@@ -17270,31 +16532,10 @@
       }
     }
   },
-  "63912": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "63913": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
   "63917": {
     "cross_list_courses": [
       "MGMT-6961"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "63918": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -18044,7 +17285,6 @@
     }
   },
   "64059": {},
-  "64060": {},
   "64061": {
     "prerequisites": {
       "nested": [
@@ -18067,13 +17307,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "64062": {},
-  "64063": {
-    "prerequisites": {
-      "course": "ARCH 2360",
-      "type": "course"
     }
   },
   "64064": {
@@ -18134,25 +17367,7 @@
       }
     }
   },
-  "64072": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
   "64073": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "64075": {
-    "cross_list_courses": [
-      "ARCH-4970"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18243,7 +17458,6 @@
   "64090": {},
   "64091": {},
   "64092": {},
-  "64093": {},
   "64096": {
     "restrictions": {
       "level": {
@@ -18363,7 +17577,6 @@
       }
     }
   },
-  "64111": {},
   "64112": {
     "restrictions": {
       "classification": {
@@ -18552,48 +17765,12 @@
     }
   },
   "64133": {},
-  "64137": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "64138": {
-    "cross_list_courses": [
-      "ARCH-6380"
-    ]
-  },
-  "64139": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "64140": {
     "prerequisites": {
       "course": "CHEM 2250",
       "type": "course"
     }
   },
-  "64142": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "64143": {},
   "64144": {
     "restrictions": {
       "classification": {
@@ -19133,53 +18310,6 @@
       }
     }
   },
-  "64279": {
-    "cross_list_courses": [
-      "ARCH-6967"
-    ]
-  },
-  "64280": {
-    "cross_list_courses": [
-      "ARCH-4965"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "64281": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64282": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "64283": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -19196,17 +18326,11 @@
       }
     }
   },
-  "64284": {},
   "64287": {
     "prerequisites": {
       "course": "IHSS 2610",
       "type": "course"
     }
-  },
-  "64288": {
-    "cross_list_courses": [
-      "ARCH-6965"
-    ]
   },
   "64292": {
     "cross_list_courses": [
@@ -19604,13 +18728,6 @@
   },
   "64365": {},
   "64372": {},
-  "64383": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
-  "64384": {},
   "64388": {
     "restrictions": {
       "classification": {
@@ -19630,25 +18747,6 @@
   },
   "64390": {},
   "64391": {},
-  "64393": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "64394": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
-  "64395": {},
-  "64396": {},
-  "64397": {},
-  "64398": {},
-  "64399": {},
-  "64400": {},
-  "64401": {},
   "64402": {},
   "64404": {
     "restrictions": {
@@ -19677,21 +18775,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "64407": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "64413": {
@@ -20404,12 +19487,6 @@
     }
   },
   "64455": {},
-  "64456": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "type": "course"
-    }
-  },
   "64457": {
     "restrictions": {
       "classification": {
@@ -21055,75 +20132,6 @@
       }
     }
   },
-  "64513": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64514": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64515": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "type": "course"
-    }
-  },
-  "64517": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2510",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2350",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64520": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "type": "course"
-    }
-  },
-  "64521": {
-    "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
-    }
-  },
   "64523": {},
   "64524": {},
   "64525": {
@@ -21349,34 +20357,7 @@
       }
     }
   },
-  "64553": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2510",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2350",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "64559": {},
-  "64560": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "64561": {},
-  "64562": {},
-  "64563": {},
   "64564": {
     "restrictions": {
       "classification": {
@@ -22887,8 +21868,6 @@
       }
     }
   },
-  "64719": {},
-  "64720": {},
   "64722": {},
   "64723": {},
   "64724": {
@@ -23135,101 +22114,6 @@
       }
     }
   },
-  "64753": {},
-  "64754": {},
-  "64755": {},
-  "64756": {},
-  "64757": {},
-  "64758": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64761": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64762": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64763": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64764": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "64765": {},
   "64766": {},
   "64767": {
@@ -23296,25 +22180,6 @@
           "Graduate Student"
         ]
       }
-    }
-  },
-  "64771": {},
-  "64772": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "64774": {},
@@ -23521,37 +22386,6 @@
     }
   },
   "64797": {},
-  "64800": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "64803": {},
-  "64804": {
-    "prerequisites": {
-      "course": "ARCH 2530",
-      "type": "course"
-    }
-  },
-  "64805": {
-    "prerequisites": {
-      "course": "ARCH 2530",
-      "type": "course"
-    }
-  },
   "64807": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -23596,15 +22430,6 @@
       }
     }
   },
-  "64815": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64816": {},
   "64817": {},
   "64818": {},
@@ -23622,7 +22447,6 @@
       "CHEM-4964"
     ]
   },
-  "64830": {},
   "64831": {
     "restrictions": {
       "classification": {
@@ -23632,18 +22456,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "64832": {
-    "corequisites": [
-      "ARCH-6610"
-    ],
-    "cross_list_courses": [
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "course": "ARCH 5330",
-      "type": "course"
     }
   },
   "64833": {
@@ -23656,15 +22468,6 @@
     }
   },
   "64835": {},
-  "64836": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "64839": {
     "cross_list_courses": [
       "MATP-4910"
@@ -23716,7 +22519,6 @@
       }
     }
   },
-  "64842": {},
   "64849": {
     "restrictions": {
       "classification": {
@@ -23755,12 +22557,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "64864": {
-    "prerequisites": {
-      "course": "ARCH 4120",
-      "type": "course"
     }
   },
   "64867": {
