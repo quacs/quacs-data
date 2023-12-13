@@ -2684,6 +2684,46 @@
       "type": "course"
     }
   },
+  "60202": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "60203": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "60204": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Electronic Arts",
+          "Elect Media, Arts, & Comm",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "60205": {
+    "cross_list_courses": [
+      "ARTS-2020"
+    ]
+  },
   "60206": {
     "prerequisites": {
       "nested": [
@@ -3867,6 +3907,19 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "60384": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -6012,6 +6065,22 @@
           "Mechanical Engineering",
           "Industrial & Management Engr",
           "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "61318": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -9700,6 +9769,28 @@
       "type": "course"
     }
   },
+  "62253": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 4520",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "62254": {
     "cross_list_courses": [
       "LANG-1410"
@@ -10275,6 +10366,17 @@
       }
     }
   },
+  "62307": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "62308": {
     "restrictions": {
       "classification": {
@@ -10291,6 +10393,17 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "62310": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
@@ -11124,6 +11237,7 @@
       "type": "course"
     }
   },
+  "62526": {},
   "62528": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -11260,6 +11374,17 @@
   "62556": {},
   "62558": {},
   "62559": {},
+  "62562": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "62571": {
     "restrictions": {
       "level": {
@@ -11810,6 +11935,15 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "62756": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "62759": {
@@ -12522,6 +12656,7 @@
       }
     }
   },
+  "62900": {},
   "62901": {
     "prerequisites": {
       "nested": [
@@ -13604,6 +13739,21 @@
   },
   "63143": {},
   "63144": {},
+  "63145": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "63146": {
     "prerequisites": {
       "nested": [
@@ -13740,6 +13890,12 @@
     }
   },
   "63155": {},
+  "63156": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    }
+  },
   "63158": {
     "restrictions": {
       "major": {
@@ -13962,6 +14118,12 @@
       "type": "course"
     }
   },
+  "63188": {
+    "prerequisites": {
+      "course": "ARTS 1030",
+      "type": "course"
+    }
+  },
   "63193": {
     "restrictions": {
       "classification": {
@@ -14175,6 +14337,17 @@
       }
     }
   },
+  "63227": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63228": {
     "restrictions": {
       "classification": {
@@ -14319,6 +14492,31 @@
   "63264": {},
   "63274": {},
   "63285": {},
+  "63321": {
+    "prerequisites": {
+      "course": "ARTS 1380",
+      "type": "course"
+    }
+  },
+  "63322": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Music"
+        ]
+      }
+    }
+  },
   "63325": {
     "cross_list_courses": [
       "ECON-4170",
@@ -14549,6 +14747,7 @@
       }
     }
   },
+  "63361": {},
   "63362": {
     "cross_list_courses": [
       "CSCI-4600",
@@ -14571,6 +14770,19 @@
         "must_be": [
           "Information Technology",
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "63365": {
+    "cross_list_courses": [
+      "ARTS-2020"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -15006,6 +15218,24 @@
     "prerequisites": {
       "course": "LANG 2410",
       "type": "course"
+    }
+  },
+  "63393": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Electronic Arts"
+        ],
+        "must_be": [
+          "Electronic Arts"
+        ]
+      }
     }
   },
   "63395": {
@@ -15637,6 +15867,22 @@
       }
     }
   },
+  "63738": {},
+  "63740": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "63741": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "63742": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
   "63743": {
     "cross_list_courses": [
       "MATP-6910"
@@ -15693,6 +15939,36 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "63744": {
+    "cross_list_courses": [
+      "ARTS-6560"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "63745": {
+    "cross_list_courses": [
+      "ARTS-4560"
+    ],
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Troy"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "63747": {},
@@ -16004,6 +16280,50 @@
       }
     }
   },
+  "63782": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "63783": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "63784": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "63785": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "63786": {
     "prerequisites": {
       "nested": [
@@ -16027,6 +16347,18 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "63787": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Elect Media, Arts, & Comm",
+          "Music"
         ]
       }
     }
@@ -16440,6 +16772,20 @@
       "type": "and"
     }
   },
+  "63830": {},
+  "63831": {},
+  "63832": {},
+  "63833": {},
+  "63834": {},
+  "63835": {},
+  "63836": {},
+  "63837": {},
+  "63838": {},
+  "63839": {},
+  "63840": {},
+  "63841": {},
+  "63842": {},
+  "63844": {},
   "63847": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -17221,12 +17567,28 @@
       }
     }
   },
+  "63970": {
+    "prerequisites": {
+      "course": "ARTS 1020",
+      "type": "course"
+    }
+  },
+  "63971": {},
+  "63972": {},
+  "63973": {},
+  "63974": {},
+  "63975": {},
+  "63977": {},
+  "63978": {},
+  "63979": {},
+  "63980": {},
   "63982": {
     "prerequisites": {
       "course": "CSCI 1100",
       "type": "course"
     }
   },
+  "63983": {},
   "63984": {
     "cross_list_courses": [
       "GSAS-6200"
@@ -17280,6 +17642,18 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "63988": {
+    "prerequisites": {
+      "course": "ARTS 2210",
+      "type": "course"
+    }
+  },
+  "63989": {
+    "prerequisites": {
+      "course": "ARTS 4380",
+      "type": "course"
     }
   },
   "63990": {
@@ -18253,6 +18627,20 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "64192": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "64199": {},
@@ -19234,6 +19622,14 @@
       }
     }
   },
+  "64389": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    }
+  },
+  "64390": {},
+  "64391": {},
   "64393": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -19253,6 +19649,7 @@
   "64399": {},
   "64400": {},
   "64401": {},
+  "64402": {},
   "64404": {
     "restrictions": {
       "level": {
@@ -21022,6 +21419,25 @@
     }
   },
   "64568": {},
+  "64571": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "64572": {},
+  "64573": {},
+  "64574": {},
+  "64576": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "type": "course"
+    }
+  },
   "64577": {
     "prerequisites": {
       "nested": [
@@ -21492,6 +21908,7 @@
       }
     }
   },
+  "64607": {},
   "64608": {},
   "64609": {
     "restrictions": {
@@ -22219,6 +22636,11 @@
       }
     }
   },
+  "64694": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  },
   "64695": {
     "restrictions": {
       "level": {
@@ -22478,6 +22900,50 @@
     "cross_list_courses": [
       "CSCI-4975"
     ]
+  },
+  "64726": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64727": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64728": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "64729": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "64730": {},
   "64731": {},
