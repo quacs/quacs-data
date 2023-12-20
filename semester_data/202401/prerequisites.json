@@ -4930,6 +4930,15 @@
       }
     }
   },
+  "91462": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "91463": {
     "restrictions": {
       "level": {
@@ -5018,6 +5027,15 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "91475": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -6018,6 +6036,21 @@
       }
     }
   },
+  "91914": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "91920": {
     "restrictions": {
       "classification": {
@@ -6054,6 +6087,22 @@
   },
   "91926": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "91952": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -24451,6 +24500,41 @@
       "major": {
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "95052": {},
+  "95053": {},
+  "95054": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "95055": {},
+  "95056": {},
+  "95057": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "95058": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
