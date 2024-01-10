@@ -6464,11 +6464,6 @@
           "Freshman",
           "Sophomore"
         ]
-      },
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
       }
     }
   },
@@ -24438,7 +24433,15 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "95052": {},
   "95053": {},
