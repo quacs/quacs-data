@@ -2357,39 +2357,7 @@
       "type": "course"
     }
   },
-  "90238": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1520",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    }
-  },
+  "90238": {},
   "90239": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -24466,6 +24434,15 @@
       ],
       "type": "or"
     },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "95110": {
     "restrictions": {
       "level": {
         "must_be": [
