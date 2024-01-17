@@ -13124,9 +13124,7 @@
     }
   },
   "93453": {
-    "cross_list_courses": [
-      "ARCH-6966"
-    ]
+    "cross_list_courses": []
   },
   "93456": {
     "restrictions": {
@@ -18986,15 +18984,6 @@
       "type": "or"
     }
   },
-  "94288": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94289": {
     "restrictions": {
       "classification": {
@@ -19108,18 +19097,6 @@
   "94305": {
     "cross_list_courses": [
       "ARCH-4970"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "94307": {
-    "cross_list_courses": [
-      "ARCH-4960"
     ],
     "restrictions": {
       "level": {
@@ -22639,15 +22616,6 @@
       "type": "course"
     }
   },
-  "94845": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94846": {
     "restrictions": {
       "level": {
@@ -22661,16 +22629,6 @@
     "prerequisites": {
       "course": "CSCI 1100",
       "type": "course"
-    }
-  },
-  "94848": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
     }
   },
   "94849": {
@@ -22740,7 +22698,6 @@
       }
     }
   },
-  "94856": {},
   "94857": {
     "prerequisites": {
       "course": "LGHT 4230",
@@ -24466,6 +24423,16 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "95114": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
