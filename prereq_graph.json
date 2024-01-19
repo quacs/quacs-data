@@ -1391,9 +1391,7 @@
   },
   "ASTR 4960": {
     "title": "Astrophysics Of Galaxies",
-    "prereqs": [
-      "PHYS 4330"
-    ]
+    "prereqs": []
   },
   "ASTR 6900": {
     "title": "Astrophysics Seminar",
@@ -2562,10 +2560,7 @@
   },
   "ECSE 6460": {
     "title": "Multivariable Control Systems",
-    "prereqs": [
-      "ECSE 6400",
-      "MANE 6600"
-    ]
+    "prereqs": []
   },
   "ECSE 6510": {
     "title": "Intro Stoch Sign & Sys",
@@ -3684,11 +3679,7 @@
   },
   "ARTS 4961": {
     "title": "Net.art",
-    "prereqs": [
-      "ARTS 1020",
-      "ARTS 2230",
-      "GSAS 1040"
-    ]
+    "prereqs": []
   },
   "ARTS 4962": {
     "title": "Curatorial Theory & Practice",
@@ -3779,9 +3770,7 @@
   "BCBP 4770": {
     "title": "Molecular Biochem II",
     "prereqs": [
-      "BCBP 4760",
-      "BIOL 4760",
-      "CHEM 4760"
+      "BCBP 4760"
     ]
   },
   "BCBP 6210": {
@@ -3896,7 +3885,9 @@
   },
   "BMED 4600": {
     "title": "Biomedical Engr Design",
-    "prereqs": []
+    "prereqs": [
+      "BMED 4260"
+    ]
   },
   "BMED 6961": {
     "title": "Comm Bmed Inn/entrep Bus Fdmtl",
@@ -4105,7 +4096,9 @@
   },
   "CIVL 6320": {
     "title": "Adv Steel Design",
-    "prereqs": []
+    "prereqs": [
+      "CIVL 4070"
+    ]
   },
   "CIVL 6520": {
     "title": "Adv Found And Earth Struc",
@@ -4266,13 +4259,13 @@
   },
   "CSCI 4967": {
     "title": "Projects In Ml And Ai",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6360": {
     "title": "Parallel Computing",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 4210"
+    ]
   },
   "CSCI 6480": {
     "title": "Compiler Design Theory",
@@ -4638,10 +4631,7 @@
   },
   "ECSE 4962": {
     "title": "Fund Of Optoelectronics Tech",
-    "prereqs": [
-      "ECSE 2210",
-      "PHYS 2620"
-    ]
+    "prereqs": []
   },
   "ECSE 6260": {
     "title": "Semicond Power Devices",
@@ -5522,7 +5512,9 @@
   },
   "PHYS 6410": {
     "title": "Electrodynamics",
-    "prereqs": []
+    "prereqs": [
+      "PHYS 6210"
+    ]
   },
   "PHYS 6520": {
     "title": "Quantum Mechanics II",
@@ -5873,7 +5865,6 @@
   "ARCH 6610": {
     "title": "Graduate Architecture Design 3",
     "prereqs": [
-      "ARCH 5170",
       "ARCH 5210"
     ]
   },
@@ -6121,7 +6112,10 @@
   },
   "CSCI 6270": {
     "title": "Computational Vision",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300",
+      "MATH 2010"
+    ]
   },
   "CSCI 6840": {
     "title": "Num Solution Of Par Diff Eq",
@@ -6134,7 +6128,8 @@
   "ENGR 2350": {
     "title": "Embedded Control",
     "prereqs": [
-      "CSCI 1100"
+      "CSCI 1100",
+      "CSCI 1200"
     ]
   },
   "ENGR 2961": {
@@ -6388,6 +6383,8 @@
   "MGMT 2100": {
     "title": "Statistical Methods",
     "prereqs": [
+      "MATH 1010",
+      "MATH 1020",
       "MATH 1500",
       "MATH 1520"
     ]
@@ -7183,6 +7180,7 @@
   "MTLE 2100": {
     "title": "Structure Of Materials",
     "prereqs": [
+      "BMED 2100",
       "CHEM 1600",
       "ENGR 1600",
       "ISCI 1600",
@@ -7837,6 +7835,7 @@
   "CHME 4050": {
     "title": "Chemical Process Dsgn: Fdmtl",
     "prereqs": [
+      "CHME 2100",
       "CHME 4040",
       "CHME 4500"
     ]
@@ -8930,7 +8929,7 @@
   "MANE 4070": {
     "title": "Aerodynamics",
     "prereqs": [
-      "MANE 2110",
+      "MANE 2710",
       "MANE 2720"
     ]
   },
@@ -10029,9 +10028,7 @@
   },
   "ECSE 4965": {
     "title": "Intro To Robot Programming",
-    "prereqs": [
-      "CSCI 1100"
-    ]
+    "prereqs": []
   },
   "ECSE 6670": {
     "title": "Multiacc Cptr Comm Nets",
@@ -10113,7 +10110,11 @@
   },
   "MATP 6610": {
     "title": "Computational Optimization",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1100",
+      "ENGR 1100",
+      "MATH 2010"
+    ]
   },
   "MANE 4550": {
     "title": "Analy. Of Manuf. Process.",
@@ -10781,6 +10782,8 @@
     "title": "Rethinking Documentary:video Production",
     "prereqs": [
       "ARTS 1030",
+      "IHSS 1030",
+      "IHSS 1040",
       "INQR 1030",
       "INQR 1040"
     ]
@@ -11248,9 +11251,7 @@
   },
   "ECSE 4966": {
     "title": "Advance Device Concepts",
-    "prereqs": [
-      "ECSE 2210"
-    ]
+    "prereqs": []
   },
   "LANG 2430": {
     "title": "Chinese Iv",
@@ -11643,12 +11644,7 @@
   },
   "ECSE 4967": {
     "title": "Intro To Quantum Elec Devices",
-    "prereqs": [
-      "MATH 2010",
-      "MATH 2400",
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ITEC 4960": {
     "title": "Db & Application Security",
@@ -13265,7 +13261,11 @@
   },
   "PHYS 2210": {
     "title": "Quantum Physics I",
-    "prereqs": []
+    "prereqs": [
+      "MATH 1020",
+      "PHYS 1200",
+      "PHYS 1250"
+    ]
   },
   "PSYC 2004": {
     "title": "Developmn Psyc (at Maria Coll)",
@@ -13306,7 +13306,9 @@
   },
   "BMED 2540": {
     "title": "Biomechanics",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 1100"
+    ]
   },
   "BMED 4660": {
     "title": "Muscle Mechanics & Modeling",
@@ -13733,7 +13735,9 @@
   },
   "CSCI 6400": {
     "title": "Xinformatics",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200"
+    ]
   },
   "ENGR 4200": {
     "title": "Fortran Programming",
@@ -13744,7 +13748,6 @@
   "ENGR 4610": {
     "title": "Product Design And Innovation Design Studio 6",
     "prereqs": [
-      "ENGR 2020",
       "STSO 2020"
     ]
   },
@@ -13806,7 +13809,9 @@
   },
   "MATH 6660": {
     "title": "Stochastic Processes And Modeling",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2400"
+    ]
   },
   "MANE 6540": {
     "title": "Advanced Thermodynamics",
@@ -14071,7 +14076,9 @@
   },
   "CSCI 6230": {
     "title": "Cryptography And Network Security I",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300"
+    ]
   },
   "CSCI 6350": {
     "title": "Data Science",
@@ -14886,7 +14893,8 @@
     "title": "Comprehensive Design Studio 1",
     "prereqs": [
       "ARCH 2550",
-      "ARCH 2830"
+      "ARCH 2830",
+      "ARCH 4540"
     ]
   },
   "ARCH 4910": {
@@ -15521,10 +15529,8 @@
   "BIOL 4660": {
     "title": "The Biology Of Systems",
     "prereqs": [
-      "BCBP 4760",
       "BIOL 4620",
-      "BIOL 4760",
-      "CHEM 4760"
+      "BIOL 4760"
     ]
   },
   "BIOL 6650": {
@@ -15593,7 +15599,10 @@
   },
   "CSCI 6550": {
     "title": "Interactive Visualization",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300",
+      "CSCI 2600"
+    ]
   },
   "ECON 4310": {
     "title": "Law & Economics",
@@ -16052,6 +16061,7 @@
       "ENGR 1100",
       "MATH 2010",
       "MATH 2011",
+      "MATH 2012",
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1150"
@@ -16480,6 +16490,8 @@
   "PHIL 4500": {
     "title": "Bioethics",
     "prereqs": [
+      "IHSS 1110",
+      "IHSS 1150",
       "INQR 1110",
       "INQR 1150",
       "PHIL 1110",
@@ -17015,14 +17027,7 @@
   },
   "COGS 4880": {
     "title": "Language-endowed Intel Agents",
-    "prereqs": [
-      "CSCI 2110",
-      "CSCI 2200",
-      "CSCI 2300",
-      "CSCI 2500",
-      "CSCI 2600",
-      "CSCI 2700"
-    ]
+    "prereqs": []
   },
   "COGS 6880": {
     "title": "Language-endowed Intel Agents",
@@ -17290,6 +17295,11 @@
   "STSO 2300": {
     "title": "Environment And Society",
     "prereqs": [
+      "IHSS 1100",
+      "IHSS 1110",
+      "IHSS 1240",
+      "IHSS 1250",
+      "IHSS 1320",
       "INQR 1100",
       "INQR 1110",
       "INQR 1240",
@@ -17309,23 +17319,33 @@
   "STSO 4250": {
     "title": "Bioethics",
     "prereqs": [
+      "IHSS 1160",
+      "IHSS 4250",
       "INQR 1150",
       "INQR 1160",
       "PHIL 1110",
       "PHIL 4240",
       "STSO 2500",
       "STSO 2510",
-      "STSO 2520"
+      "STSO 2520",
+      "STSS 2500",
+      "STSS 2510",
+      "STSS 2520"
     ]
   },
   "STSO 4350": {
     "title": "Politics Of Design",
     "prereqs": [
       "STSO 2100",
+      "STSO 2210",
       "STSO 2300",
       "STSO 2500",
       "STSO 2520",
-      "STSS 2210"
+      "STSS 2100",
+      "STSS 2210",
+      "STSS 2300",
+      "STSS 2500",
+      "STSS 2520"
     ]
   },
   "STSO 4605": {
@@ -17337,7 +17357,6 @@
   "STSO 4970": {
     "title": "Dis Senior Project",
     "prereqs": [
-      "ENGR 2020",
       "STSO 2020"
     ]
   },
@@ -17520,12 +17539,8 @@
       "INQR 1570",
       "INQR 1580",
       "INQR 1610",
-      "STSH 1110",
       "STSO 1100",
-      "STSO 1110",
       "STSO 2520",
-      "STSS 1100",
-      "STSS 1110",
       "STSS 2520"
     ]
   },
@@ -17551,7 +17566,6 @@
   "STSO 4610": {
     "title": "Design And Innovation Studio C",
     "prereqs": [
-      "ENGR 2020",
       "STSO 2020"
     ]
   },
@@ -17714,7 +17728,7 @@
   "STSO 2020": {
     "title": "Design & Innovation Studio 3",
     "prereqs": [
-      "IHSS 2610"
+      "STSO 2610"
     ]
   },
   "STSO 4440": {
@@ -17831,15 +17845,14 @@
       "IHSS 1240",
       "INQR 1100",
       "INQR 1240",
-      "STSH 1100",
-      "STSH 1110",
       "STSO 1100",
       "STSO 2100",
       "STSO 2300",
       "STSO 2500",
       "STSO 2520",
-      "STSS 1100",
-      "STSS 2300"
+      "STSS 2100",
+      "STSS 2300",
+      "STSS 2500"
     ]
   },
   "STSO 4400": {
@@ -18240,9 +18253,7 @@
   },
   "MTLE 2040": {
     "title": "Programming For Engineers",
-    "prereqs": [
-      "ENGR 2600"
-    ]
+    "prereqs": []
   },
   "MANE 4620": {
     "title": "Manufact Process & Sys Lab II",
