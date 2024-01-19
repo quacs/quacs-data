@@ -21513,7 +21513,11 @@
       "type": "course"
     }
   },
-  "94751": {},
+  "94751": {
+    "cross_list_courses": [
+      "MTLE-6962"
+    ]
+  },
   "94753": {
     "restrictions": {
       "level": {
@@ -24440,6 +24444,23 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "95117": {
+    "cross_list_courses": [
+      "MTLE-4430"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
