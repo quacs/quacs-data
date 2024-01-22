@@ -16827,11 +16827,6 @@
     }
   },
   "93963": {},
-  "93964": {
-    "cross_list_courses": [
-      "MTLE-6960"
-    ]
-  },
   "93965": {
     "restrictions": {
       "level": {
@@ -21333,23 +21328,6 @@
       "MGMT-6690"
     ]
   },
-  "94755": {
-    "cross_list_courses": [
-      "MTLE-4960"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "94756": {
     "restrictions": {
       "classification": {
@@ -24241,6 +24219,32 @@
   "95118": {
     "cross_list_courses": [
       "ARCH-4967"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "95119": {
+    "cross_list_courses": [
+      "MTLE-6470"
+    ],
+    "prerequisites": {
+      "course": "ENGR 1600",
+      "type": "course"
+    }
+  },
+  "95120": {
+    "cross_list_courses": [
+      "MTLE-4470"
     ],
     "restrictions": {
       "classification": {
