@@ -2568,6 +2568,11 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Chemistry"
+        ]
       }
     }
   },
@@ -2845,6 +2850,9 @@
   },
   "65289": {},
   "65290": {
+    "cross_list_courses": [
+      "MGMT-6640"
+    ],
     "prerequisites": {
       "course": "MGMT 1100",
       "type": "course"
@@ -3550,6 +3558,11 @@
   },
   "65393": {},
   "65394": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3628,15 +3641,6 @@
   "65401": {},
   "65402": {},
   "65404": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "65405": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -3758,6 +3762,10 @@
     }
   },
   "65428": {
+    "cross_list_courses": [
+      "ENGR-6100",
+      "ITWS-6300"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -3769,6 +3777,10 @@
     }
   },
   "65429": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ITWS-6300"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4118,6 +4130,10 @@
     }
   },
   "65484": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ENGR-6100"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -4279,6 +4295,9 @@
   },
   "65648": {},
   "65822": {
+    "cross_list_courses": [
+      "MGMT-7770"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -4406,6 +4425,9 @@
     }
   },
   "65856": {
+    "cross_list_courses": [
+      "MGMT-4510"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4650,15 +4672,6 @@
     }
   },
   "66026": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "66028": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5486,6 +5499,11 @@
   },
   "66282": {},
   "66284": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -5586,6 +5604,9 @@
     }
   },
   "66293": {
+    "cross_list_courses": [
+      "MGMT-4310"
+    ],
     "prerequisites": {
       "course": "MGMT 6020",
       "type": "course"
@@ -6444,15 +6465,6 @@
       }
     }
   },
-  "66493": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "66494": {},
   "66495": {},
   "66496": {},
@@ -6591,15 +6603,6 @@
     }
   },
   "66643": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "66644": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -7682,6 +7685,9 @@
     }
   },
   "66945": {
+    "cross_list_courses": [
+      "MGMT-6550"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "type": "course"
@@ -7962,8 +7968,6 @@
       }
     }
   },
-  "66974": {},
-  "66975": {},
   "66977": {
     "restrictions": {
       "level": {
@@ -7993,24 +7997,6 @@
   },
   "66981": {},
   "66983": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "66985": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "66986": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -8227,6 +8213,9 @@
     }
   },
   "67060": {
+    "cross_list_courses": [
+      "MGMT-6380"
+    ],
     "prerequisites": {
       "course": "MGMT 2320",
       "type": "course"
@@ -8852,7 +8841,6 @@
       }
     }
   },
-  "67154": {},
   "67171": {
     "restrictions": {
       "classification": {
@@ -10035,6 +10023,9 @@
     }
   },
   "67406": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10299,6 +10290,9 @@
   "67446": {},
   "67447": {},
   "67448": {
+    "cross_list_courses": [
+      "MGMT-6800"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "type": "course"
@@ -10498,16 +10492,6 @@
     }
   },
   "67562": {},
-  "67563": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "67564": {
     "restrictions": {
       "classification": {
@@ -10530,6 +10514,9 @@
     }
   },
   "67631": {
+    "cross_list_courses": [
+      "MGMT-4080"
+    ],
     "prerequisites": {
       "course": "MGMT 4100",
       "type": "course"
@@ -11220,6 +11207,69 @@
     }
   },
   "67711": {},
+  "67712": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
   "67713": {},
   "67714": {
     "restrictions": {
@@ -11255,6 +11305,9 @@
     }
   },
   "67717": {
+    "cross_list_courses": [
+      "MGMT-7230"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11273,6 +11326,9 @@
     }
   },
   "67718": {
+    "cross_list_courses": [
+      "MGMT-4460"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -11289,6 +11345,9 @@
     }
   },
   "67719": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -11311,6 +11370,9 @@
     }
   },
   "67720": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11323,16 +11385,6 @@
           "Management",
           "Quant Finance & Risk Analytics",
           "Supply Chain Management"
-        ]
-      }
-    }
-  },
-  "67722": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -11448,6 +11500,9 @@
     }
   },
   "67801": {
+    "cross_list_courses": [
+      "MGMT-4470"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11502,6 +11557,9 @@
     }
   },
   "67803": {
+    "cross_list_courses": [
+      "MANE-4610"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -11530,6 +11588,9 @@
     }
   },
   "67804": {
+    "cross_list_courses": [
+      "MANE-4610"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -11803,6 +11864,11 @@
     }
   },
   "67821": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11822,6 +11888,11 @@
     }
   },
   "67822": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11841,6 +11912,11 @@
     }
   },
   "67823": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11860,6 +11936,11 @@
     }
   },
   "67824": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11879,6 +11960,11 @@
     }
   },
   "67826": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11898,6 +11984,11 @@
     }
   },
   "67827": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12441,16 +12532,6 @@
     }
   },
   "67907": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "67909": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -14220,15 +14301,6 @@
     }
   },
   "68260": {},
-  "68261": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68262": {
     "prerequisites": {
       "nested": [
@@ -14269,31 +14341,6 @@
     }
   },
   "68266": {},
-  "68267": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "68268": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68269": {
     "restrictions": {
       "level": {
@@ -14317,6 +14364,9 @@
   "68271": {},
   "68273": {},
   "68274": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14453,6 +14503,9 @@
     }
   },
   "68287": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -14512,7 +14565,6 @@
       }
     }
   },
-  "68390": {},
   "68391": {
     "restrictions": {
       "classification": {
@@ -14613,6 +14665,9 @@
     }
   },
   "68538": {
+    "cross_list_courses": [
+      "MGMT-6080"
+    ],
     "prerequisites": {
       "course": "MGMT 4100",
       "type": "course"
@@ -14719,6 +14774,9 @@
   },
   "68548": {},
   "68549": {
+    "cross_list_courses": [
+      "MGMT-6240"
+    ],
     "prerequisites": {
       "course": "MGMT 2320",
       "type": "course"
@@ -15510,7 +15568,11 @@
       }
     }
   },
-  "68644": {},
+  "68644": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "68645": {
     "prerequisites": {
       "course": "ENGR 6220",
@@ -15533,6 +15595,9 @@
   "68652": {},
   "68653": {},
   "68654": {
+    "cross_list_courses": [
+      "MGMT-4340"
+    ],
     "prerequisites": {
       "course": "MGMT 6310",
       "type": "course"
@@ -15552,18 +15617,16 @@
     }
   },
   "68656": {},
-  "68657": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68658": {},
-  "68659": {},
+  "68659": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "68660": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15864,15 +15927,6 @@
       "type": "course"
     }
   },
-  "68704": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68705": {
     "restrictions": {
       "level": {
@@ -16020,6 +16074,9 @@
     }
   },
   "68745": {
+    "cross_list_courses": [
+      "MGMT-6260"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16044,6 +16101,9 @@
     }
   },
   "68747": {
+    "cross_list_courses": [
+      "MGMT-4540"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16770,7 +16830,6 @@
       }
     }
   },
-  "68841": {},
   "68842": {
     "prerequisites": {
       "course": "ENGR 6200",
@@ -17121,15 +17180,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "68892": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -17637,15 +17687,6 @@
       "type": "course"
     }
   },
-  "68989": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68990": {},
   "68991": {
     "restrictions": {
@@ -17695,6 +17736,9 @@
     }
   },
   "68994": {
+    "cross_list_courses": [
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17711,16 +17755,6 @@
     }
   },
   "68997": {},
-  "68998": {},
-  "68999": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69000": {
     "restrictions": {
       "classification": {
@@ -18166,7 +18200,6 @@
       "type": "and"
     }
   },
-  "69081": {},
   "69083": {
     "restrictions": {
       "classification": {
@@ -18957,7 +18990,11 @@
     }
   },
   "69129": {},
-  "69130": {},
+  "69130": {
+    "cross_list_courses": [
+      "MGMT-6600"
+    ]
+  },
   "69131": {
     "restrictions": {
       "campus": {
@@ -19107,8 +19144,16 @@
       "type": "or"
     }
   },
-  "69142": {},
-  "69143": {},
+  "69142": {
+    "cross_list_courses": [
+      "MGMT-6600"
+    ]
+  },
+  "69143": {
+    "cross_list_courses": [
+      "ENGR-4440"
+    ]
+  },
   "69144": {
     "prerequisites": {
       "nested": [
@@ -19216,15 +19261,6 @@
           "Junior",
           "Sophomore",
           "Senior"
-        ]
-      }
-    }
-  },
-  "69153": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
         ]
       }
     }
@@ -19532,6 +19568,9 @@
     }
   },
   "69185": {
+    "cross_list_courses": [
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19541,6 +19580,9 @@
     }
   },
   "69187": {
+    "cross_list_courses": [
+      "ENGR-4710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19580,6 +19622,9 @@
     }
   },
   "69188": {
+    "cross_list_courses": [
+      "ENGR-4710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19620,28 +19665,6 @@
   "69189": {},
   "69190": {},
   "69191": {},
-  "69192": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "69195": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "69197": {
     "restrictions": {
       "major": {
@@ -19713,7 +19736,6 @@
       }
     }
   },
-  "69207": {},
   "69208": {
     "restrictions": {
       "major": {
@@ -20114,42 +20136,6 @@
       "type": "course"
     }
   },
-  "69239": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
-  "69240": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4100",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4200",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69241": {},
   "69242": {},
   "69243": {
@@ -20186,7 +20172,6 @@
       }
     }
   },
-  "69246": {},
   "69247": {
     "restrictions": {
       "classification": {
@@ -20362,17 +20347,6 @@
   "69266": {},
   "69267": {},
   "69268": {},
-  "69269": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "69270": {
     "restrictions": {
       "classification": {
@@ -20881,15 +20855,6 @@
   },
   "69317": {},
   "69318": {},
-  "69319": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69320": {
     "prerequisites": {
       "course": "MATH 2400",
@@ -21383,24 +21348,6 @@
       }
     }
   },
-  "69379": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
-  "69380": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
   "69381": {},
   "69382": {
     "corequisites": [
@@ -21797,7 +21744,6 @@
       }
     }
   },
-  "69458": {},
   "69462": {},
   "69463": {
     "prerequisites": {
@@ -21843,5 +21789,57 @@
         ]
       }
     }
+  },
+  "69472": {},
+  "69473": {
+    "cross_list_courses": [
+      "COGS-6230"
+    ],
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Troy"
+        ]
+      }
+    }
+  },
+  "69474": {
+    "cross_list_courses": [
+      "COGS-4230"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69475": {
+    "cross_list_courses": [
+      "BMED-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69476": {
+    "cross_list_courses": [
+      "MGMT-6961"
+    ]
+  },
+  "69477": {
+    "cross_list_courses": [
+      "ISYE-4440"
+    ]
   }
 }

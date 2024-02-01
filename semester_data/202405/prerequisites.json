@@ -429,17 +429,6 @@
       }
     }
   },
-  "19425": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "19429": {},
   "19430": {},
   "19432": {
@@ -453,17 +442,6 @@
     }
   },
   "19433": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "19435": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -525,16 +503,6 @@
       }
     }
   },
-  "19441": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "19442": {
     "restrictions": {
       "classification": {
@@ -566,16 +534,6 @@
     }
   },
   "19445": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "19446": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -821,17 +779,6 @@
       }
     }
   },
-  "19497": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "19499": {
     "restrictions": {
       "classification": {
@@ -881,6 +828,9 @@
     }
   },
   "19511": {
+    "cross_list_courses": [
+      "COMM-6880"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -896,6 +846,9 @@
     }
   },
   "19512": {
+    "cross_list_courses": [
+      "COMM-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -1242,6 +1195,10 @@
     }
   },
   "19543": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2077,26 +2034,9 @@
       }
     }
   },
-  "19631": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "19712": {
     "prerequisites": {
       "course": "MGMT 2300",
-      "type": "course"
-    }
-  },
-  "19713": {
-    "prerequisites": {
-      "course": "MGMT 1100",
       "type": "course"
     }
   },
@@ -2415,7 +2355,11 @@
       "type": "and"
     }
   },
-  "19729": {},
+  "19729": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ]
+  },
   "19730": {
     "prerequisites": {
       "nested": [
@@ -2675,7 +2619,6 @@
       "type": "course"
     }
   },
-  "19771": {},
   "19772": {
     "prerequisites": {
       "course": "ECSE 2610",
@@ -2718,7 +2661,6 @@
       "type": "and"
     }
   },
-  "19775": {},
   "19776": {
     "prerequisites": {
       "nested": [
@@ -3036,8 +2978,6 @@
   "19834": {},
   "19835": {},
   "19836": {},
-  "19837": {},
-  "19838": {},
   "19839": {},
   "19840": {},
   "19841": {},
@@ -3114,25 +3054,16 @@
       }
     }
   },
-  "19856": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BIOL 1015",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 1016",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
+  "19859": {
+    "cross_list_courses": [
+      "GSAS-4960"
+    ]
   },
-  "19859": {},
-  "19860": {},
-  "19861": {},
-  "19862": {},
+  "19860": {
+    "cross_list_courses": [
+      "ARTS-4960"
+    ]
+  },
   "19863": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -3150,16 +3081,8 @@
   },
   "19865": {
     "cross_list_courses": [
-      "ENGR-4960",
-      "STSO-4960"
+      "ENGR-4960"
     ]
-  },
-  "19866": {},
-  "19867": {
-    "prerequisites": {
-      "course": "GSAS 4540",
-      "type": "course"
-    }
   },
   "19868": {
     "restrictions": {
@@ -3176,41 +3099,13 @@
   "19870": {},
   "19871": {},
   "19872": {},
-  "19873": {},
-  "19874": {},
-  "19875": {},
-  "19876": {
+  "19873": {
     "cross_list_courses": [
-      "ENGR-4960",
-      "MANE-4960"
+      "PHIL-4500"
     ]
   },
   "19877": {},
   "19891": {},
-  "19893": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "IHSS 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "19898": {},
   "19905": {
     "prerequisites": {
@@ -3219,7 +3114,6 @@
     }
   },
   "19906": {},
-  "19907": {},
   "19908": {
     "restrictions": {
       "campus": {
@@ -3240,8 +3134,7 @@
   },
   "19910": {
     "cross_list_courses": [
-      "MANE-4960",
-      "STSO-4960"
+      "MANE-4960"
     ],
     "restrictions": {
       "classification": {
@@ -3284,48 +3177,10 @@
   "19922": {},
   "19923": {},
   "19924": {},
-  "19925": {},
-  "19926": {},
-  "19927": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "COGS 4330",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 4330",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHIL 2120",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2120",
-              "type": "course"
-            },
-            {
-              "course": "COGS 2120",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "or"
-    }
+  "19925": {
+    "cross_list_courses": [
+      "ARTS-2560"
+    ]
   },
   "19928": {
     "prerequisites": {
@@ -3361,15 +3216,18 @@
       "type": "course"
     }
   },
-  "19931": {},
-  "19932": {},
-  "19933": {},
-  "19934": {},
-  "19935": {},
-  "19936": {},
+  "19936": {
+    "cross_list_courses": [
+      "GSAS-2560"
+    ]
+  },
   "19937": {},
   "19938": {},
   "19939": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3382,19 +3240,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "19940": {},
-  "19941": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Communication",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "19942": {},
@@ -3410,7 +3255,6 @@
     }
   },
   "19945": {},
-  "19946": {},
   "19947": {},
   "19950": {},
   "19968": {
@@ -3498,5 +3342,370 @@
     "cross_list_courses": [
       "ENGR-4961"
     ]
-  }
+  },
+  "19971": {},
+  "19972": {
+    "prerequisites": {
+      "course": "MATH 2400",
+      "type": "course"
+    }
+  },
+  "19973": {},
+  "19974": {},
+  "19975": {
+    "prerequisites": {
+      "course": "ARTS 1020",
+      "type": "course"
+    }
+  },
+  "19976": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1492",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1492",
+          "type": "course"
+        },
+        {
+          "course": "LANG 1410",
+          "type": "course"
+        },
+        {
+          "course": "LANG 2410",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19978": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19980": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 1040",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1600",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2510",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2520",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2540",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19981": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 4540",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4540",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19982": {},
+  "19983": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19984": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "INQR 1100",
+              "type": "course"
+            },
+            {
+              "course": "STSO 1100",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1110",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1240",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1250",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1320",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "IHSS 1100",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1110",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1250",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1320",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19985": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19988": {},
+  "19989": {},
+  "19990": {},
+  "19992": {},
+  "19993": {},
+  "19994": {},
+  "19995": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1200",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "19996": {},
+  "19997": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "19998": {},
+  "20000": {},
+  "20001": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "20002": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "PSYC 1200",
+                  "type": "course"
+                },
+                {
+                  "course": "COGS 2120",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "CSCI 2300",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4150",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 4370",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "20003": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COMM 2520",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 1110",
+          "type": "course"
+        },
+        {
+          "course": "WRIT 2110",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Communication, Media, & Design"
+        ]
+      }
+    }
+  },
+  "20004": {}
 }
