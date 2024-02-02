@@ -18235,15 +18235,6 @@
       }
     }
   },
-  "69097": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69099": {
     "prerequisites": {
       "course": "CIVL 4080",
@@ -20810,19 +20801,6 @@
       }
     }
   },
-  "69314": {
-    "prerequisites": {
-      "course": "CIVL 2030",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69315": {},
   "69316": {
     "restrictions": {
@@ -21854,6 +21832,20 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "69480": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
