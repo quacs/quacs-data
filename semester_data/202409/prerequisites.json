@@ -13639,12 +13639,6 @@
       }
     }
   },
-  "68222": {
-    "prerequisites": {
-      "course": "CIVL 2030",
-      "type": "course"
-    }
-  },
   "68223": {
     "restrictions": {
       "classification": {
@@ -18250,19 +18244,6 @@
       }
     }
   },
-  "69098": {
-    "prerequisites": {
-      "course": "CIVL 2030",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69099": {
     "prerequisites": {
       "course": "CIVL 4080",
@@ -21841,5 +21822,40 @@
     "cross_list_courses": [
       "ISYE-4440"
     ]
+  },
+  "69478": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2030",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69479": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
