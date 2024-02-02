@@ -1028,25 +1028,6 @@
       "type": "course"
     }
   },
-  "19527": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BMED 2100",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2300",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2540",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "19528": {
     "prerequisites": {
       "course": "ENGR 2600",
@@ -2013,6 +1994,25 @@
     }
   },
   "19625": {},
+  "19627": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "19629": {
     "restrictions": {
       "classification": {
@@ -3181,33 +3181,6 @@
     "cross_list_courses": [
       "ARTS-2560"
     ]
-  },
-  "19928": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "COGS 4330",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 4330",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 4360",
-          "type": "course"
-        },
-        {
-          "course": "COGS 4360",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 4370",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
   },
   "19929": {},
   "19930": {
