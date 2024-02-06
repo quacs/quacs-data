@@ -20116,15 +20116,6 @@
       }
     }
   },
-  "69245": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69247": {
     "restrictions": {
       "classification": {
@@ -20226,26 +20217,6 @@
     }
   },
   "69257": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "69258": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "69259": {
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21233,7 +21204,6 @@
     }
   },
   "69375": {},
-  "69376": {},
   "69377": {
     "prerequisites": {
       "nested": [
@@ -21430,37 +21400,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "69405": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2100",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2300",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "69406": {},
@@ -21896,5 +21835,56 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "69490": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69491": {},
+  "69492": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69493": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69494": {}
 }
