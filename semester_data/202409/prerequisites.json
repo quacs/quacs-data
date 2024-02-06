@@ -21872,5 +21872,33 @@
     }
   },
   "69494": {},
-  "69495": {}
+  "69495": {},
+  "69496": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 2110",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  }
 }
