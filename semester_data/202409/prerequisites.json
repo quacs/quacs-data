@@ -16442,62 +16442,6 @@
       "type": "or"
     }
   },
-  "68793": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "INQR 1100",
-              "type": "course"
-            },
-            {
-              "course": "STSO 1100",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1110",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1240",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1250",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1320",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "IHSS 1100",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1250",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "68795": {},
   "68796": {},
   "68797": {},
@@ -21904,6 +21848,53 @@
           "Graduate Student"
         ]
       }
+    }
+  },
+  "69489": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2100",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
