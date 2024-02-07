@@ -18189,19 +18189,6 @@
       }
     }
   },
-  "69099": {
-    "prerequisites": {
-      "course": "CIVL 4080",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69100": {},
   "69101": {
     "prerequisites": {
@@ -18244,7 +18231,11 @@
       }
     }
   },
-  "69102": {},
+  "69102": {
+    "cross_list_courses": [
+      "CIVL-4960"
+    ]
+  },
   "69103": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -20383,12 +20374,6 @@
       "type": "course"
     }
   },
-  "69279": {
-    "prerequisites": {
-      "course": "COGS 2340",
-      "type": "course"
-    }
-  },
   "69280": {
     "restrictions": {
       "level": {
@@ -20396,21 +20381,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "69281": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 2540",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "69282": {
@@ -21897,6 +21867,48 @@
       "major": {
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "69497": {
+    "cross_list_courses": [
+      "CIVL-6960"
+    ]
+  },
+  "69498": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COGS 4420",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69499": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4070",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4080",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
