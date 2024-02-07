@@ -20873,28 +20873,6 @@
       }
     }
   },
-  "69349": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "course": "ITWS 1100",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
   "69350": {
     "restrictions": {
       "level": {
@@ -21899,6 +21877,31 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "69500": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69501": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
