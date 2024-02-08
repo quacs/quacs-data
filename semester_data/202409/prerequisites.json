@@ -15944,6 +15944,9 @@
   },
   "68686": {},
   "68687": {
+    "cross_list_courses": [
+      "MATH-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -20451,6 +20454,9 @@
   },
   "69277": {},
   "69278": {
+    "cross_list_courses": [
+      "PHIL-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -20669,6 +20675,9 @@
     }
   },
   "69305": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20679,16 +20688,27 @@
     }
   },
   "69306": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
+        ]
       }
     }
   },
   "69307": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20699,6 +20719,9 @@
     }
   },
   "69308": {
+    "cross_list_courses": [
+      "INQR-1140"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22111,6 +22134,22 @@
       "campus": {
         "must_be": [
           "Hartford"
+        ]
+      }
+    }
+  },
+  "69515": {
+    "prerequisites": {
+      "course": "MATH 4090",
+      "type": "course"
+    }
+  },
+  "69516": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
