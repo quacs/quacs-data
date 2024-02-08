@@ -1005,7 +1005,6 @@
   "65048": {},
   "65049": {},
   "65050": {},
-  "65051": {},
   "65052": {
     "prerequisites": {
       "course": "MGMT 1100",
@@ -8472,12 +8471,6 @@
       "type": "course"
     }
   },
-  "67082": {
-    "prerequisites": {
-      "course": "MGMT 1100",
-      "type": "course"
-    }
-  },
   "67083": {
     "prerequisites": {
       "nested": [
@@ -9102,12 +9095,6 @@
   "67197": {
     "prerequisites": {
       "course": "PHYS 1200",
-      "type": "course"
-    }
-  },
-  "67198": {
-    "prerequisites": {
-      "course": "BMED 2100",
       "type": "course"
     }
   },
@@ -10923,21 +10910,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "67671": {
-    "prerequisites": {
-      "course": "BMED 2540",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore",
-          "Senior"
         ]
       }
     }
@@ -21870,5 +21842,17 @@
   },
   "69502": {},
   "69503": {},
-  "69504": {}
+  "69504": {},
+  "69505": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "type": "course"
+    }
+  },
+  "69506": {
+    "prerequisites": {
+      "course": "BMED 2100",
+      "type": "course"
+    }
+  }
 }
