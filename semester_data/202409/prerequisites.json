@@ -2857,7 +2857,11 @@
       "type": "course"
     }
   },
-  "65291": {},
+  "65291": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ]
+  },
   "65292": {
     "prerequisites": {
       "course": "ENVE 4320",
@@ -3144,6 +3148,9 @@
   },
   "65321": {},
   "65322": {
+    "cross_list_courses": [
+      "PSYC-4110"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -4325,6 +4332,9 @@
     }
   },
   "65840": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4337,6 +4347,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "65841": {
@@ -11711,6 +11729,9 @@
   },
   "67810": {},
   "67811": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -12833,9 +12854,29 @@
     }
   },
   "68041": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
     }
   },
   "68042": {},
@@ -13521,6 +13562,9 @@
   },
   "68217": {},
   "68218": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13568,6 +13612,9 @@
     }
   },
   "68219": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13583,6 +13630,9 @@
     }
   },
   "68220": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13595,6 +13645,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "68221": {
@@ -14457,6 +14515,9 @@
   "68283": {},
   "68284": {},
   "68285": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -14466,6 +14527,9 @@
     }
   },
   "68286": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -14926,6 +14990,9 @@
     }
   },
   "68563": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -14935,6 +15002,9 @@
     }
   },
   "68565": {
+    "cross_list_courses": [
+      "PSYC-4110"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
@@ -14948,8 +15018,33 @@
       }
     }
   },
-  "68566": {},
-  "68567": {},
+  "68566": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ]
+  },
+  "68567": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
+      }
+    }
+  },
   "68568": {
     "restrictions": {
       "classification": {
@@ -15109,6 +15204,9 @@
     }
   },
   "68586": {
+    "cross_list_courses": [
+      "COGS-6964"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -15121,6 +15219,9 @@
   },
   "68587": {},
   "68588": {
+    "cross_list_courses": [
+      "COGS-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15659,6 +15760,10 @@
     }
   },
   "68667": {
+    "cross_list_courses": [
+      "COGS-4330",
+      "PSYC-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15681,6 +15786,10 @@
     }
   },
   "68668": {
+    "cross_list_courses": [
+      "COGS-4330",
+      "PSYC-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15693,9 +15802,22 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "68669": {
+    "cross_list_courses": [
+      "COGS-4330",
+      "PSYC-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15719,6 +15841,10 @@
     }
   },
   "68670": {
+    "cross_list_courses": [
+      "COGS-4330",
+      "PSYC-4330"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15731,6 +15857,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "68671": {},
@@ -16236,6 +16371,9 @@
   },
   "68773": {},
   "68776": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17340,6 +17478,9 @@
     }
   },
   "68971": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20729,12 +20870,25 @@
     }
   },
   "69330": {
+    "cross_list_courses": [
+      "COGS-6960"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
     }
   },
   "69331": {
+    "cross_list_courses": [
+      "PSYC-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20825,6 +20979,9 @@
     }
   },
   "69351": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20880,6 +21037,9 @@
     }
   },
   "69352": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21253,7 +21413,11 @@
       }
     }
   },
-  "69401": {},
+  "69401": {
+    "cross_list_courses": [
+      "PHIL-6960"
+    ]
+  },
   "69402": {},
   "69403": {},
   "69404": {
@@ -21847,7 +22011,18 @@
       }
     }
   },
-  "69502": {},
+  "69502": {
+    "cross_list_courses": [
+      "PHIL-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "69503": {},
   "69504": {},
   "69505": {
@@ -21911,6 +22086,33 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "69512": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "69513": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
+  "69514": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
     }
   }
 }
