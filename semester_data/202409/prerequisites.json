@@ -17527,7 +17527,6 @@
       }
     }
   },
-  "68980": {},
   "68981": {},
   "68982": {
     "restrictions": {
@@ -21853,6 +21852,51 @@
     "prerequisites": {
       "course": "BMED 2100",
       "type": "course"
+    }
+  },
+  "69507": {
+    "prerequisites": {
+      "course": "BMED 2300",
+      "type": "course"
+    }
+  },
+  "69508": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69509": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69510": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
