@@ -8945,28 +8945,6 @@
       "type": "course"
     }
   },
-  "67188": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 4520",
-          "type": "course"
-        },
-        {
-          "course": "COGS 4520",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "67189": {},
   "67190": {
     "restrictions": {
@@ -19640,7 +19618,6 @@
   },
   "69189": {},
   "69190": {},
-  "69191": {},
   "69197": {
     "restrictions": {
       "major": {
@@ -22093,6 +22070,7 @@
       "type": "and"
     }
   },
+  "69511": {},
   "69512": {
     "restrictions": {
       "campus": {
@@ -22180,5 +22158,39 @@
       }
     }
   },
-  "69519": {}
+  "69519": {},
+  "69521": {},
+  "69522": {},
+  "69523": {},
+  "69524": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "69525": {},
+  "69526": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "69527": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69528": {}
 }
