@@ -20220,30 +20220,6 @@
       "type": "course"
     }
   },
-  "69235": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
-  "69236": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
-  "69237": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
-  "69238": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "type": "course"
-    }
-  },
   "69243": {
     "restrictions": {
       "level": {
@@ -22478,5 +22454,36 @@
       }
     }
   },
-  "69541": {}
+  "69541": {},
+  "69543": {},
+  "69544": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69546": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COMM 2660",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2570",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2680",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
