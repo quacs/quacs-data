@@ -3054,7 +3054,6 @@
   "19869": {},
   "19870": {},
   "19871": {},
-  "19872": {},
   "19873": {
     "cross_list_courses": [
       "PHIL-4500"
@@ -3486,6 +3485,61 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "19986": {
+    "corequisites": [
+      "BIOL-2125"
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Bioinformatics & Molec Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
+  },
+  "19987": {
+    "corequisites": [
+      "BIOL-2120"
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biological Neuroscience",
+          "Biotechnology & Health Econ",
+          "Computational Biology",
+          "Chemical Engineering"
+        ]
+      }
     }
   },
   "19988": {},
