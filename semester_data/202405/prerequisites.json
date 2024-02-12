@@ -3273,12 +3273,6 @@
     ]
   },
   "19971": {},
-  "19972": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "type": "course"
-    }
-  },
   "19973": {},
   "19974": {},
   "19975": {
@@ -3646,6 +3640,15 @@
       }
     }
   },
+  "20006": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      }
+    }
+  },
   "20007": {
     "restrictions": {
       "campus": {
@@ -3655,5 +3658,11 @@
       }
     }
   },
-  "20008": {}
+  "20008": {},
+  "20009": {
+    "prerequisites": {
+      "course": "MATH 1020",
+      "type": "course"
+    }
+  }
 }

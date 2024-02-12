@@ -2626,29 +2626,12 @@
     }
   },
   "65250": {
-    "cross_list_courses": [
-      "ARTS-1020"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "65251": {
-    "cross_list_courses": [
-      "ARTS-1020"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Electronic Arts",
-          "Elect Media, Arts, & Comm",
-          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -14793,7 +14776,6 @@
       }
     }
   },
-  "68541": {},
   "68542": {
     "cross_list_courses": [
       "ARTS-2700"
@@ -15698,7 +15680,6 @@
   "68633": {},
   "68634": {},
   "68635": {},
-  "68636": {},
   "68637": {},
   "68638": {},
   "68639": {},
@@ -16364,7 +16345,6 @@
   "68758": {},
   "68759": {},
   "68760": {},
-  "68761": {},
   "68762": {},
   "68763": {},
   "68764": {
@@ -20264,7 +20244,6 @@
       "type": "course"
     }
   },
-  "69241": {},
   "69243": {
     "restrictions": {
       "level": {
@@ -22469,5 +22448,35 @@
       }
     }
   },
-  "69537": {}
+  "69537": {},
+  "69538": {
+    "prerequisites": {
+      "course": "ARTS 2380",
+      "type": "course"
+    }
+  },
+  "69539": {
+    "prerequisites": {
+      "course": "ARTS 1200",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69540": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69541": {}
 }
