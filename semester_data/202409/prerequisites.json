@@ -2611,6 +2611,9 @@
     }
   },
   "65250": {
+    "cross_list_courses": [
+      "ARTS-1020"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -2621,6 +2624,9 @@
     }
   },
   "65251": {
+    "cross_list_courses": [
+      "ARTS-1020"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -2632,7 +2638,11 @@
       }
     }
   },
-  "65252": {},
+  "65252": {
+    "cross_list_courses": [
+      "ARTS-2020"
+    ]
+  },
   "65253": {
     "prerequisites": {
       "nested": [
@@ -13460,6 +13470,9 @@
     }
   },
   "68194": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -13719,6 +13732,9 @@
     }
   },
   "68230": {
+    "cross_list_courses": [
+      "ARTS-2020"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -14348,7 +14364,6 @@
       "type": "course"
     }
   },
-  "68266": {},
   "68269": {
     "restrictions": {
       "level": {
@@ -14704,9 +14719,21 @@
     }
   },
   "68541": {},
-  "68542": {},
-  "68543": {},
-  "68544": {},
+  "68542": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "68543": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "68544": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
   "68545": {
     "prerequisites": {
       "nested": [
@@ -14763,6 +14790,9 @@
     }
   },
   "68546": {
+    "cross_list_courses": [
+      "ARTS-6560"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -14773,6 +14803,9 @@
     }
   },
   "68547": {
+    "cross_list_courses": [
+      "ARTS-4560"
+    ],
     "restrictions": {
       "campus": {
         "must_be": [
@@ -18153,18 +18186,6 @@
   },
   "69062": {},
   "69063": {},
-  "69064": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
-  "69065": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "type": "course"
-    }
-  },
   "69072": {},
   "69073": {},
   "69074": {
@@ -20711,7 +20732,11 @@
       }
     }
   },
-  "69309": {},
+  "69309": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  },
   "69310": {
     "restrictions": {
       "level": {
@@ -22208,5 +22233,11 @@
       "type": "or"
     }
   },
-  "69530": {}
+  "69530": {},
+  "69531": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "type": "course"
+    }
+  }
 }
