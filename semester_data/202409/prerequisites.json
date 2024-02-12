@@ -1941,6 +1941,9 @@
     ]
   },
   "65131": {
+    "cross_list_courses": [
+      "CHME-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1960,6 +1963,9 @@
     }
   },
   "65132": {
+    "cross_list_courses": [
+      "CHME-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2060,6 +2066,9 @@
     }
   },
   "65143": {
+    "cross_list_courses": [
+      "CHME-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2895,6 +2904,9 @@
     }
   },
   "65293": {
+    "cross_list_courses": [
+      "CHME-4040"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3769,19 +3781,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "65427": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Communication, Media, & Design",
-          "Design, Innovation and Society",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -8364,8 +8363,15 @@
       "type": "and"
     }
   },
-  "67074": {},
+  "67074": {
+    "cross_list_courses": [
+      "CHME-6430"
+    ]
+  },
   "67075": {
+    "cross_list_courses": [
+      "CHME-4430"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10649,6 +10655,9 @@
     }
   },
   "67638": {
+    "cross_list_courses": [
+      "CHEM-4710"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13320,6 +13329,9 @@
     }
   },
   "68104": {
+    "cross_list_courses": [
+      "CHME-4040"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15311,6 +15323,9 @@
     }
   },
   "68590": {
+    "cross_list_courses": [
+      "CHME-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15739,7 +15754,11 @@
     }
   },
   "68651": {},
-  "68652": {},
+  "68652": {
+    "cross_list_courses": [
+      "CHEM-6710"
+    ]
+  },
   "68653": {},
   "68654": {
     "cross_list_courses": [
@@ -16961,6 +16980,9 @@
     }
   },
   "68845": {
+    "cross_list_courses": [
+      "CHME-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17476,6 +17498,9 @@
     }
   },
   "68965": {
+    "cross_list_courses": [
+      "CHME-2010"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17789,12 +17814,18 @@
     }
   },
   "68987": {
+    "cross_list_courses": [
+      "CHME-6480"
+    ],
     "prerequisites": {
       "course": "CHME 4020",
       "type": "course"
     }
   },
   "68988": {
+    "cross_list_courses": [
+      "CHME-4480"
+    ],
     "prerequisites": {
       "course": "CHME 4020",
       "type": "course"
@@ -18256,7 +18287,6 @@
       "type": "course"
     }
   },
-  "69062": {},
   "69063": {},
   "69072": {},
   "69073": {},
@@ -19246,6 +19276,9 @@
     }
   },
   "69146": {
+    "cross_list_courses": [
+      "CHME-2010"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20428,6 +20461,9 @@
     }
   },
   "69273": {
+    "cross_list_courses": [
+      "CHEM-4750"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20901,8 +20937,15 @@
       }
     }
   },
-  "69322": {},
+  "69322": {
+    "cross_list_courses": [
+      "CHEM-6965"
+    ]
+  },
   "69323": {
+    "cross_list_courses": [
+      "CHEM-4965"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21510,7 +21553,11 @@
     ]
   },
   "69402": {},
-  "69403": {},
+  "69403": {
+    "cross_list_courses": [
+      "CHEM-6750"
+    ]
+  },
   "69404": {
     "restrictions": {
       "classification": {
@@ -22338,5 +22385,89 @@
       "course": "MGMT 1100",
       "type": "course"
     }
-  }
+  },
+  "69532": {},
+  "69533": {},
+  "69534": {},
+  "69535": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1030",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1040",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2380",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4140",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1170",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1180",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1030",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1040",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1170",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1180",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69536": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69537": {}
 }
