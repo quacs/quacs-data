@@ -4491,7 +4491,11 @@
       "type": "course"
     }
   },
-  "65859": {},
+  "65859": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ]
+  },
   "65861": {
     "restrictions": {
       "degree": {
@@ -9227,6 +9231,9 @@
     }
   },
   "67209": {
+    "cross_list_courses": [
+      "CSCI-6350"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9242,6 +9249,9 @@
     }
   },
   "67210": {
+    "cross_list_courses": [
+      "CSCI-4350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -9548,7 +9558,6 @@
       }
     }
   },
-  "67244": {},
   "67245": {
     "prerequisites": {
       "nested": [
@@ -9608,6 +9617,9 @@
   },
   "67248": {},
   "67249": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10681,6 +10693,9 @@
     }
   },
   "67645": {
+    "cross_list_courses": [
+      "CSCI-6250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10733,6 +10748,9 @@
     }
   },
   "67646": {
+    "cross_list_courses": [
+      "CSCI-4250"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11037,7 +11055,15 @@
       "type": "or"
     }
   },
+  "67675": {
+    "cross_list_courses": [
+      "CSCI-6971"
+    ]
+  },
   "67676": {
+    "cross_list_courses": [
+      "CSCI-4974"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -11292,8 +11318,15 @@
       }
     }
   },
-  "67713": {},
+  "67713": {
+    "cross_list_courses": [
+      "CSCI-6968"
+    ]
+  },
   "67714": {
+    "cross_list_courses": [
+      "CSCI-4971"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12545,6 +12578,9 @@
     }
   },
   "67902": {
+    "cross_list_courses": [
+      "CSCI-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14418,7 +14454,11 @@
       "type": "or"
     }
   },
-  "68260": {},
+  "68260": {
+    "cross_list_courses": [
+      "CSCI-6962"
+    ]
+  },
   "68262": {
     "cross_list_courses": [
       "BMED-6470"
@@ -16337,8 +16377,15 @@
       }
     }
   },
-  "68750": {},
+  "68750": {
+    "cross_list_courses": [
+      "CSCI-6963"
+    ]
+  },
   "68751": {
+    "cross_list_courses": [
+      "CSCI-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17828,6 +17875,9 @@
     }
   },
   "68983": {
+    "cross_list_courses": [
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19047,24 +19097,12 @@
     }
   },
   "69122": {
+    "cross_list_courses": [
+      "CSCI-6100"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
-    }
-  },
-  "69123": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "69124": {
@@ -19110,8 +19148,15 @@
       "type": "course"
     }
   },
-  "69127": {},
+  "69127": {
+    "cross_list_courses": [
+      "CSCI-6965"
+    ]
+  },
   "69128": {
+    "cross_list_courses": [
+      "CSCI-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19120,7 +19165,11 @@
       }
     }
   },
-  "69129": {},
+  "69129": {
+    "cross_list_courses": [
+      "CSCI-6966"
+    ]
+  },
   "69130": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -19172,6 +19221,9 @@
     }
   },
   "69135": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21027,8 +21079,16 @@
   "69333": {},
   "69334": {},
   "69335": {},
-  "69336": {},
-  "69337": {},
+  "69336": {
+    "cross_list_courses": [
+      "CSCI-6975"
+    ]
+  },
+  "69337": {
+    "cross_list_courses": [
+      "CSCI-4975"
+    ]
+  },
   "69338": {
     "restrictions": {
       "classification": {
@@ -21396,7 +21456,11 @@
       }
     }
   },
-  "69386": {},
+  "69386": {
+    "cross_list_courses": [
+      "CSCI-6960"
+    ]
+  },
   "69387": {
     "restrictions": {
       "level": {
@@ -22562,6 +22626,24 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "69561": {
+    "cross_list_courses": [
+      "CSCI-4100"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
