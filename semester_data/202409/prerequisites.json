@@ -7611,6 +7611,9 @@
   "66929": {},
   "66930": {},
   "66931": {
+    "cross_list_courses": [
+      "CSCI-2110"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12783,6 +12786,9 @@
     }
   },
   "68034": {
+    "cross_list_courses": [
+      "CSCI-2110"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20447,12 +20453,6 @@
   },
   "69263": {},
   "69264": {},
-  "69265": {
-    "prerequisites": {
-      "course": "PHYS 4100",
-      "type": "course"
-    }
-  },
   "69266": {},
   "69267": {},
   "69268": {},
@@ -22501,6 +22501,52 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "69556": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69559": {
+    "cross_list_courses": [
+      "ITWS-2110"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69560": {
+    "cross_list_courses": [
+      "ITWS-2110"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ITWS 1100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
