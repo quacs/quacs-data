@@ -634,6 +634,7 @@
       }
     }
   },
+  "19478": {},
   "19487": {},
   "19488": {
     "corequisites": [
@@ -1327,6 +1328,27 @@
           "Computational Biology"
         ]
       }
+    }
+  },
+  "19550": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "19551": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "19553": {
@@ -3759,5 +3781,6 @@
       "type": "course"
     }
   },
-  "20016": {}
+  "20016": {},
+  "20017": {}
 }
