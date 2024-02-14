@@ -2481,7 +2481,6 @@
       }
     }
   },
-  "65218": {},
   "65220": {},
   "65221": {},
   "65222": {},
@@ -8699,6 +8698,9 @@
     }
   },
   "67095": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -8963,6 +8965,12 @@
     }
   },
   "67184": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -9005,7 +9013,11 @@
       "type": "course"
     }
   },
-  "67189": {},
+  "67189": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ]
+  },
   "67190": {
     "restrictions": {
       "level": {
@@ -9241,7 +9253,10 @@
   },
   "67209": {
     "cross_list_courses": [
-      "CSCI-6350"
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350"
     ],
     "prerequisites": {
       "nested": [
@@ -9259,7 +9274,10 @@
   },
   "67210": {
     "cross_list_courses": [
-      "CSCI-4350"
+      "CSCI-4350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -9279,6 +9297,12 @@
     }
   },
   "67211": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-6350",
+      "ITWS-4350"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9294,6 +9318,12 @@
     }
   },
   "67212": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ITWS-4350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "type": "course"
@@ -11546,7 +11576,11 @@
   "67741": {},
   "67742": {},
   "67743": {},
-  "67794": {},
+  "67794": {
+    "cross_list_courses": [
+      "ERTH-1100"
+    ]
+  },
   "67795": {
     "prerequisites": {
       "course": "ERTH 1100",
@@ -12246,6 +12280,15 @@
   },
   "67840": {},
   "67841": {},
+  "67843": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "67844": {
     "restrictions": {
       "classification": {
@@ -14317,6 +14360,9 @@
     }
   },
   "68254": {
+    "cross_list_courses": [
+      "LANG-2410"
+    ],
     "prerequisites": {
       "course": "LANG 2410",
       "type": "course"
@@ -14566,6 +14612,9 @@
   },
   "68275": {},
   "68276": {
+    "cross_list_courses": [
+      "ISCI-6510"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17908,6 +17957,9 @@
     }
   },
   "68984": {
+    "cross_list_courses": [
+      "ERTH-1100"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -18260,6 +18312,9 @@
     }
   },
   "69037": {
+    "cross_list_courses": [
+      "ISCI-4510"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19362,6 +19417,9 @@
     }
   },
   "69148": {
+    "cross_list_courses": [
+      "ISYE-6620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19377,6 +19435,9 @@
     }
   },
   "69149": {
+    "cross_list_courses": [
+      "ISYE-4290"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -19683,8 +19744,15 @@
     }
   },
   "69178": {},
-  "69179": {},
+  "69179": {
+    "cross_list_courses": [
+      "ISYE-6960"
+    ]
+  },
   "69180": {
+    "cross_list_courses": [
+      "ISYE-4960"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20413,6 +20481,10 @@
     }
   },
   "69253": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20423,6 +20495,10 @@
     }
   },
   "69254": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20433,6 +20509,10 @@
     }
   },
   "69255": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20463,6 +20543,9 @@
     }
   },
   "69260": {
+    "cross_list_courses": [
+      "INQR-1610"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20478,6 +20561,9 @@
     }
   },
   "69261": {
+    "cross_list_courses": [
+      "INQR-1610"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20499,8 +20585,18 @@
   "69263": {},
   "69264": {},
   "69266": {},
-  "69267": {},
-  "69268": {},
+  "69267": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ]
+  },
+  "69268": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ]
+  },
   "69271": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -22537,6 +22633,9 @@
   "69541": {},
   "69548": {},
   "69549": {
+    "cross_list_courses": [
+      "LANG-4420"
+    ],
     "prerequisites": {
       "course": "LANG 1410",
       "type": "course"
