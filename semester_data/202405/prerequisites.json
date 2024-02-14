@@ -3034,12 +3034,6 @@
   },
   "19877": {},
   "19891": {},
-  "19905": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    }
-  },
   "19906": {},
   "19908": {
     "restrictions": {
@@ -3690,5 +3684,53 @@
     }
   },
   "20010": {},
-  "20011": {}
+  "20011": {},
+  "20013": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "20014": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
