@@ -2492,6 +2492,7 @@
     }
   },
   "19750": {},
+  "19752": {},
   "19753": {},
   "19755": {
     "restrictions": {
@@ -2706,6 +2707,9 @@
     }
   },
   "19786": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2734,6 +2738,9 @@
     }
   },
   "19787": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3679,6 +3686,25 @@
   "20008": {},
   "20010": {},
   "20011": {},
+  "20012": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "20013": {
     "prerequisites": {
       "nested": [
@@ -3732,5 +3758,6 @@
       "course": "MATH 1010",
       "type": "course"
     }
-  }
+  },
+  "20016": {}
 }
