@@ -10234,12 +10234,6 @@
       }
     }
   },
-  "67412": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
   "67413": {
     "prerequisites": {
       "nested": [
@@ -17653,9 +17647,7 @@
     }
   },
   "68965": {
-    "cross_list_courses": [
-      "CHME-2010"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -19412,24 +19404,6 @@
         },
         {
           "course": "ERTH 1200",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "69146": {
-    "cross_list_courses": [
-      "CHME-2010"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 1100",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 1100",
           "type": "course"
         }
       ],
@@ -22811,6 +22785,24 @@
     "prerequisites": {
       "course": "ARCH 2510",
       "type": "course"
+    }
+  },
+  "69573": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "69574": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
