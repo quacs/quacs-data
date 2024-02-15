@@ -2954,9 +2954,7 @@
     }
   },
   "65293": {
-    "cross_list_courses": [
-      "CHME-4040"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -13448,28 +13446,6 @@
       }
     }
   },
-  "68104": {
-    "cross_list_courses": [
-      "CHME-4040"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2020",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4020",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "68105": {
     "restrictions": {
       "campus": {
@@ -15470,6 +15446,9 @@
     }
   },
   "68589": {
+    "cross_list_courses": [
+      "BMED-6550"
+    ],
     "prerequisites": {
       "course": "BMED 2540",
       "type": "course"
@@ -15502,6 +15481,9 @@
     }
   },
   "68591": {
+    "cross_list_courses": [
+      "BMED-4550"
+    ],
     "prerequisites": {
       "course": "BMED 2540",
       "type": "course"
@@ -19447,21 +19429,6 @@
       }
     }
   },
-  "69150": {
-    "prerequisites": {
-      "course": "ECSE 2110",
-      "type": "course"
-    }
-  },
-  "69151": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69152": {
     "restrictions": {
       "classification": {
@@ -22788,6 +22755,9 @@
     }
   },
   "69573": {
+    "cross_list_courses": [
+      "BMED-6660"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22797,6 +22767,9 @@
     }
   },
   "69574": {
+    "cross_list_courses": [
+      "BMED-4660"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22804,5 +22777,53 @@
         ]
       }
     }
+  },
+  "69575": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69576": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "type": "course"
+    }
+  },
+  "69577": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69583": {
+    "corequisites": [
+      "ARCH-4820"
+    ]
   }
 }
