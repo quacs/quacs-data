@@ -1143,11 +1143,31 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology"
+        ]
+      }
     }
   },
   "65061": {
@@ -18087,12 +18107,6 @@
       }
     }
   },
-  "69002": {
-    "prerequisites": {
-      "course": "CHEM 2250",
-      "type": "course"
-    }
-  },
   "69003": {
     "restrictions": {
       "level": {
@@ -22793,5 +22807,11 @@
       }
     }
   },
-  "69570": {}
+  "69570": {},
+  "69571": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "type": "course"
+    }
+  }
 }

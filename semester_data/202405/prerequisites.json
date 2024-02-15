@@ -634,7 +634,12 @@
       }
     }
   },
-  "19478": {},
+  "19478": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "type": "course"
+    }
+  },
   "19487": {},
   "19488": {
     "corequisites": [
@@ -2238,7 +2243,29 @@
       "type": "and"
     }
   },
-  "19723": {},
+  "19723": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "19726": {
     "prerequisites": {
       "nested": [
@@ -2935,7 +2962,29 @@
       }
     }
   },
-  "19830": {},
+  "19830": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "19833": {},
   "19834": {},
   "19835": {},
@@ -3062,8 +3111,52 @@
     ]
   },
   "19877": {},
-  "19891": {},
-  "19906": {},
+  "19891": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "19906": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "19908": {
     "restrictions": {
       "campus": {
@@ -3782,5 +3875,10 @@
     }
   },
   "20016": {},
-  "20017": {}
+  "20017": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "type": "course"
+    }
+  }
 }
