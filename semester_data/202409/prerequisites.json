@@ -7748,15 +7748,6 @@
       }
     }
   },
-  "66934": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "66935": {},
   "66936": {},
   "66937": {
@@ -11173,11 +11164,6 @@
       "type": "course"
     }
   },
-  "67687": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "67688": {
     "corequisites": [
       "PHYS-1100"
@@ -13483,25 +13469,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "68109": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4540",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "68110": {
@@ -18018,25 +17985,6 @@
       "type": "and"
     }
   },
-  "68993": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4540",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "68994": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -20540,15 +20488,6 @@
       "type": "course"
     }
   },
-  "69272": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69273": {
     "cross_list_courses": [
       "CHEM-4750"
@@ -21079,7 +21018,6 @@
   },
   "69332": {},
   "69333": {},
-  "69334": {},
   "69335": {},
   "69336": {
     "cross_list_courses": [
@@ -22778,25 +22716,6 @@
       }
     }
   },
-  "69575": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4540",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69576": {
     "prerequisites": {
       "course": "ECSE 2110",
@@ -22830,5 +22749,41 @@
     "corequisites": [
       "MATH-1010"
     ]
-  }
+  },
+  "69587": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 5300",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 5310",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69588": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "69589": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69590": {
+    "prerequisites": {
+      "course": "CHEM 2260",
+      "type": "course"
+    }
+  },
+  "69591": {}
 }
