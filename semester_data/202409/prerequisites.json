@@ -11119,25 +11119,6 @@
       "CSCI-6971"
     ]
   },
-  "67676": {
-    "cross_list_courses": [
-      "CSCI-4974"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "67677": {
     "corequisites": [
       "BIOL-1010"
@@ -11291,11 +11272,6 @@
         ]
       }
     }
-  },
-  "67713": {
-    "cross_list_courses": [
-      "CSCI-6968"
-    ]
   },
   "67714": {
     "cross_list_courses": [
@@ -15158,9 +15134,6 @@
       }
     }
   },
-  "68573": {},
-  "68574": {},
-  "68575": {},
   "68576": {
     "restrictions": {
       "level": {
@@ -17819,6 +17792,13 @@
     "prerequisites": {
       "course": "STSO 2610",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Design, Innovation and Society"
+        ]
+      }
     }
   },
   "68997": {},
@@ -18866,7 +18846,6 @@
       "type": "and"
     }
   },
-  "69119": {},
   "69120": {
     "prerequisites": {
       "course": "ARCH 2510",
@@ -18997,7 +18976,6 @@
       }
     }
   },
-  "69136": {},
   "69137": {
     "corequisites": [
       "BIOL-1010"
@@ -19374,12 +19352,14 @@
   "69178": {},
   "69179": {
     "cross_list_courses": [
-      "ISYE-6960"
+      "ISYE-6960",
+      "MGMT-6960"
     ]
   },
   "69180": {
     "cross_list_courses": [
-      "ISYE-4960"
+      "ISYE-4960",
+      "MGMT-6960"
     ],
     "restrictions": {
       "classification": {
@@ -19392,6 +19372,10 @@
     }
   },
   "69181": {
+    "cross_list_courses": [
+      "ISYE-4960",
+      "ISYE-6960"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -20023,6 +20007,45 @@
       }
     }
   },
+  "69253": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "69254": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "69255": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "69263": {},
   "69264": {},
   "69266": {},
@@ -20030,13 +20053,29 @@
     "cross_list_courses": [
       "INQR-1100",
       "STSO-1100"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "69268": {
     "cross_list_courses": [
       "INQR-1100",
       "STSO-1100"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "69271": {
     "prerequisites": {
@@ -22516,7 +22555,24 @@
   "69666": {},
   "69667": {},
   "69668": {},
+  "69669": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "69670": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22526,6 +22582,10 @@
     }
   },
   "69671": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22602,6 +22662,52 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "69681": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69682": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69683": {},
+  "69684": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "type": "course"
+    }
+  },
+  "69685": {},
+  "69686": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
+  "69687": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
