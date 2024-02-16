@@ -20370,18 +20370,6 @@
       "type": "course"
     }
   },
-  "69273": {
-    "cross_list_courses": [
-      "CHEM-4750"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69274": {
     "prerequisites": {
       "nested": [
@@ -21355,11 +21343,6 @@
     ]
   },
   "69402": {},
-  "69403": {
-    "cross_list_courses": [
-      "CHEM-6750"
-    ]
-  },
   "69404": {
     "restrictions": {
       "classification": {
@@ -22677,11 +22660,6 @@
       "MATH-1010"
     ]
   },
-  "69612": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "69613": {
     "corequisites": [
       "PHYS-1100"
@@ -22844,6 +22822,52 @@
     ]
   },
   "69641": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "69642": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "69643": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "69644": {
+    "corequisites": [
+      "PHYS-1100"
+    ]
+  },
+  "69645": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 2100",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4040",
+          "type": "course"
+        },
+        {
+          "course": "CHME 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "69646": {
     "corequisites": [
       "PHYS-1100"
     ]
