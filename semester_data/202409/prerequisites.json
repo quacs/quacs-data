@@ -5693,6 +5693,9 @@
     }
   },
   "66285": {
+    "cross_list_courses": [
+      "ISYE-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6632,6 +6635,9 @@
     }
   },
   "66514": {
+    "cross_list_courses": [
+      "ISYE-6610"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9426,6 +9432,9 @@
     }
   },
   "67213": {
+    "cross_list_courses": [
+      "ISYE-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9459,6 +9468,9 @@
     }
   },
   "67214": {
+    "cross_list_courses": [
+      "ISYE-4210"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15766,6 +15778,9 @@
     }
   },
   "68663": {
+    "cross_list_courses": [
+      "ISYE-6360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15965,12 +15980,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "68685": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
     }
   },
   "68686": {},
@@ -16824,12 +16833,6 @@
           "Elect Media, Arts, & Comm"
         ]
       }
-    }
-  },
-  "68836": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
     }
   },
   "68837": {
@@ -18655,166 +18658,6 @@
     }
   },
   "69113": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69114": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69115": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69116": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69117": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69118": {
     "prerequisites": {
       "nested": [
         {
@@ -20923,18 +20766,6 @@
       "type": "course"
     }
   },
-  "69413": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "type": "course"
-    }
-  },
-  "69414": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "type": "course"
-    }
-  },
   "69415": {
     "restrictions": {
       "level": {
@@ -21523,7 +21354,11 @@
       "type": "and"
     }
   },
-  "69511": {},
+  "69511": {
+    "cross_list_courses": [
+      "ISYE-4360"
+    ]
+  },
   "69512": {
     "restrictions": {
       "campus": {
@@ -22129,12 +21964,6 @@
       "CHEM-4300"
     ]
   },
-  "69603": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "type": "course"
-    }
-  },
   "69604": {
     "prerequisites": {
       "course": "ARCH 4100",
@@ -22711,5 +22540,42 @@
         ]
       }
     }
-  }
+  },
+  "69688": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "69689": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "69690": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "69691": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "69692": {}
 }

@@ -3260,6 +3260,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "19942": {},
@@ -3438,6 +3447,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "19981": {
@@ -3473,6 +3489,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "19984": {
@@ -3676,7 +3701,12 @@
       "type": "and"
     }
   },
-  "19996": {},
+  "19996": {
+    "prerequisites": {
+      "course": "GSAS 2510",
+      "type": "course"
+    }
+  },
   "19997": {
     "restrictions": {
       "major": {
@@ -3701,6 +3731,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "20002": {
