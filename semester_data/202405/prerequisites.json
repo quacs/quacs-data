@@ -3886,5 +3886,25 @@
       "type": "course"
     }
   },
-  "20020": {}
+  "20020": {},
+  "20021": {},
+  "20022": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHME 4020",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2050",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }

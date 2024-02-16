@@ -910,30 +910,45 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65037": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65038": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65039": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65040": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65041": {
@@ -2117,9 +2132,7 @@
     }
   },
   "65143": {
-    "cross_list_courses": [
-      "CHME-4500"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -2356,6 +2369,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65188": {},
@@ -2369,6 +2385,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65191": {},
@@ -4128,12 +4147,18 @@
     }
   },
   "65467": {
+    "cross_list_courses": [
+      "CHEM-4440"
+    ],
     "prerequisites": {
       "course": "MATH 2400",
       "type": "course"
     }
   },
   "65468": {
+    "cross_list_courses": [
+      "CHEM-4030"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4588,12 +4613,18 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65864": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "65870": {
@@ -5781,12 +5812,18 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "66299": {
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "66301": {},
@@ -5912,6 +5949,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "66344": {
@@ -10177,24 +10217,6 @@
       "type": "and"
     }
   },
-  "67408": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "67409": {
     "cross_list_courses": [
       "BMED-6960"
@@ -10407,7 +10429,6 @@
     }
   },
   "67446": {},
-  "67447": {},
   "67448": {
     "cross_list_courses": [
       "MGMT-6800"
@@ -10453,6 +10474,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "67464": {
@@ -11012,6 +11036,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "67669": {
@@ -11128,16 +11155,6 @@
     }
   },
   "67680": {},
-  "67701": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "67702": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "67703": {
     "restrictions": {
       "classification": {
@@ -11207,6 +11224,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "67712": {
@@ -12441,12 +12461,6 @@
       }
     }
   },
-  "67872": {
-    "prerequisites": {
-      "course": "ARCH 4820",
-      "type": "course"
-    }
-  },
   "67881": {},
   "67883": {
     "cross_list_courses": [
@@ -12627,6 +12641,9 @@
     }
   },
   "68018": {
+    "cross_list_courses": [
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13132,6 +13149,19 @@
     "prerequisites": {
       "course": "ARTS 1030",
       "type": "course"
+    }
+  },
+  "68075": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "68077": {
@@ -15287,32 +15317,6 @@
       "type": "course"
     }
   },
-  "68590": {
-    "cross_list_courses": [
-      "CHME-4500"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2010",
-          "type": "course"
-        },
-        {
-          "course": "CHME 2020",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4010",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4020",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "68591": {
     "cross_list_courses": [
       "BMED-4550"
@@ -15749,6 +15753,21 @@
       }
     }
   },
+  "68655": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "68656": {},
   "68659": {
     "cross_list_courses": [
@@ -15931,35 +15950,10 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
-    ]
-  },
-  "68673": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "68674": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "68675": {
-    "corequisites": [
-      "ARCH-2540"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
+    "cross_list_courses": [
+      "PHYS-1110"
+    ]
   },
   "68676": {
     "prerequisites": {
@@ -16019,6 +16013,28 @@
     "prerequisites": {
       "course": "ARCH 2830",
       "type": "course"
+    }
+  },
+  "68691": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "68697": {},
@@ -16266,12 +16282,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "68752": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
     }
   },
   "68753": {
@@ -16730,6 +16740,9 @@
     }
   },
   "68825": {
+    "cross_list_courses": [
+      "CHEM-4020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17238,24 +17251,6 @@
   },
   "68893": {},
   "68897": {},
-  "68898": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "68899": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -17379,6 +17374,9 @@
   },
   "68961": {},
   "68962": {
+    "cross_list_courses": [
+      "CHEM-4030"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17398,6 +17396,9 @@
     }
   },
   "68963": {
+    "cross_list_courses": [
+      "CHEM-4020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17467,7 +17468,6 @@
       "type": "and"
     }
   },
-  "68967": {},
   "68968": {
     "prerequisites": {
       "course": "ERTH 1100",
@@ -17768,24 +17768,6 @@
           "Geology"
         ]
       }
-    }
-  },
-  "68987": {
-    "cross_list_courses": [
-      "CHME-6480"
-    ],
-    "prerequisites": {
-      "course": "CHME 4020",
-      "type": "course"
-    }
-  },
-  "68988": {
-    "cross_list_courses": [
-      "CHME-4480"
-    ],
-    "prerequisites": {
-      "course": "CHME 4020",
-      "type": "course"
     }
   },
   "68990": {},
@@ -18162,6 +18144,9 @@
     "corequisites": [
       "MATH-1010",
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ]
   },
   "69050": {
@@ -18897,24 +18882,6 @@
       "type": "course"
     }
   },
-  "69124": {
-    "cross_list_courses": [
-      "CSCI-6560"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69125": {
     "cross_list_courses": [
       "CSCI-4560"
@@ -19386,51 +19353,9 @@
       }
     }
   },
-  "69169": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69170": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69171": {
     "prerequisites": {
       "course": "ARCH 4100",
-      "type": "course"
-    }
-  },
-  "69174": {
-    "prerequisites": {
-      "course": "ARCH 4820",
       "type": "course"
     }
   },
@@ -19594,16 +19519,6 @@
         ]
       }
     }
-  },
-  "69189": {
-    "cross_list_courses": [
-      "CHME-6965"
-    ]
-  },
-  "69190": {
-    "cross_list_courses": [
-      "CHME-4965"
-    ]
   },
   "69197": {
     "restrictions": {
@@ -20725,9 +20640,6 @@
       }
     }
   },
-  "69367": {},
-  "69368": {},
-  "69369": {},
   "69372": {
     "corequisites": [
       "ARCH-2540"
@@ -20777,7 +20689,6 @@
       }
     }
   },
-  "69381": {},
   "69382": {
     "corequisites": [
       "ARCH-2540"
@@ -20994,7 +20905,6 @@
       }
     }
   },
-  "69416": {},
   "69420": {},
   "69421": {},
   "69422": {},
@@ -21081,7 +20991,6 @@
       }
     }
   },
-  "69445": {},
   "69452": {
     "restrictions": {
       "classification": {
@@ -22133,6 +22042,9 @@
   "69585": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69587": {
@@ -22165,12 +22077,19 @@
     }
   },
   "69590": {
+    "cross_list_courses": [
+      "CHEM-6300"
+    ],
     "prerequisites": {
       "course": "CHEM 2260",
       "type": "course"
     }
   },
-  "69591": {},
+  "69591": {
+    "cross_list_courses": [
+      "CHEM-4300"
+    ]
+  },
   "69603": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -22241,6 +22160,9 @@
   "69611": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69613": {
@@ -22251,6 +22173,9 @@
   "69614": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69615": {
@@ -22266,6 +22191,9 @@
   "69617": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69618": {
@@ -22276,11 +22204,17 @@
   "69619": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69620": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69621": {
@@ -22291,11 +22225,17 @@
   "69622": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69623": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69624": {
@@ -22306,6 +22246,9 @@
   "69625": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69626": {
@@ -22316,11 +22259,17 @@
   "69627": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69628": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69629": {
@@ -22331,11 +22280,17 @@
   "69630": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69631": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69632": {
@@ -22346,6 +22301,9 @@
   "69633": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69634": {
@@ -22356,6 +22314,9 @@
   "69635": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69636": {
@@ -22392,6 +22353,9 @@
   "69638": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69639": {
@@ -22402,6 +22366,9 @@
   "69640": {
     "corequisites": [
       "MATH-1010"
+    ],
+    "cross_list_courses": [
+      "PHYS-1100"
     ]
   },
   "69641": {
@@ -22585,6 +22552,56 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "69674": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "69675": {
+    "prerequisites": {
+      "course": "LITR 2110",
+      "type": "course"
+    }
+  },
+  "69676": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    }
+  },
+  "69677": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69678": {
+    "prerequisites": {
+      "course": "CSCI 2600",
+      "type": "course"
+    }
+  },
+  "69679": {
+    "prerequisites": {
+      "course": "CSCI 2600",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
