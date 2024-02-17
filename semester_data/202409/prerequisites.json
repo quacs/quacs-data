@@ -16266,28 +16266,6 @@
       }
     }
   },
-  "68753": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6400",
-          "type": "course"
-        },
-        {
-          "course": "MANE 6600",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "68754": {
     "prerequisites": {
       "course": "ARTS 1020",
@@ -19004,30 +18982,6 @@
           "Junior",
           "Sophomore",
           "Senior"
-        ]
-      }
-    }
-  },
-  "69157": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6400",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 6600",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -22577,5 +22531,35 @@
       }
     }
   },
-  "69692": {}
+  "69692": {},
+  "69693": {},
+  "69694": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69695": {},
+  "69696": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
