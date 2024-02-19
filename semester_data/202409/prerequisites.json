@@ -14936,56 +14936,6 @@
       "type": "or"
     }
   },
-  "68552": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        },
-        {
-          "course": "MATH 2400",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "68553": {
     "prerequisites": {
       "nested": [
@@ -17621,30 +17571,6 @@
           "Transportation Engineering"
         ]
       }
-    }
-  },
-  "68977": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 1020",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "68978": {
@@ -22549,6 +22475,25 @@
     "prerequisites": {
       "course": "ENGR 2600",
       "type": "course"
+    }
+  },
+  "69701": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69702": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
