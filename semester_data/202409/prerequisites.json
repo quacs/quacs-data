@@ -15595,6 +15595,44 @@
       "type": "and"
     }
   },
+  "68622": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2710",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "68623": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2710",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "68626": {},
   "68627": {},
   "68628": {},
@@ -18915,25 +18953,6 @@
       "type": "or"
     }
   },
-  "69160": {
-    "prerequisites": {
-      "course": "MANE 4070",
-      "type": "course"
-    }
-  },
-  "69161": {
-    "prerequisites": {
-      "course": "MANE 4070",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69162": {
     "prerequisites": {
       "nested": [
@@ -18999,16 +19018,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "69167": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -22492,6 +22501,21 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "69703": {
+    "prerequisites": {
+      "course": "MANE 4070",
+      "type": "course"
+    }
+  },
+  "69704": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
