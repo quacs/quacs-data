@@ -2733,7 +2733,15 @@
   "65252": {
     "cross_list_courses": [
       "ARTS-2020"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "65253": {
     "prerequisites": {
@@ -15204,6 +15212,11 @@
   },
   "68585": {
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Communication, Media, & Design",
@@ -16453,6 +16466,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Science & Technology Studies",
+          "Sustainability Studies"
+        ]
+      }
     }
   },
   "68792": {
@@ -18080,8 +18101,26 @@
       }
     }
   },
-  "69051": {},
-  "69052": {},
+  "69051": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69052": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "69053": {
     "cross_list_courses": [
       "COMM-2660"
@@ -19745,8 +19784,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -19932,8 +19970,10 @@
     },
     "restrictions": {
       "classification": {
-        "may_not_be": [
-          "Freshman"
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
         ]
       }
     }
@@ -20015,7 +20055,16 @@
     }
   },
   "69315": {},
-  "69317": {},
+  "69317": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "69320": {
     "prerequisites": {
       "course": "MATH 2400",
@@ -21317,6 +21366,13 @@
           "Junior",
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci",
+          "Music"
+        ]
       }
     }
   },
@@ -22426,7 +22482,15 @@
       }
     }
   },
-  "69692": {},
+  "69692": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "69693": {},
   "69694": {
     "restrictions": {
