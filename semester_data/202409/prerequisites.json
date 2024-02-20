@@ -16794,6 +16794,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "68834": {
@@ -19893,9 +19900,9 @@
   },
   "69285": {
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
@@ -21534,6 +21541,15 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
       }
     }
   },
@@ -21561,10 +21577,9 @@
       "COMM-4960"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
