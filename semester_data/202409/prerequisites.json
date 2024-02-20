@@ -2719,6 +2719,14 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
       }
     }
   },
@@ -13449,7 +13457,7 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Communication",
+          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -13719,8 +13727,7 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm",
+          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -16785,9 +16792,7 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm"
+          "Communication, Media, & Design"
         ]
       }
     }
@@ -18084,9 +18089,9 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Communication",
-          "Games & Simulation Arts & Sci",
-          "Information Tech & Web Science"
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -19913,8 +19918,8 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Games & Simulation Arts & Sci",
-          "Information Tech & Web Science"
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -21272,7 +21277,16 @@
       }
     }
   },
-  "69519": {},
+  "69519": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "69520": {
     "restrictions": {
       "major": {
@@ -21445,6 +21459,15 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -22569,6 +22592,88 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "69713": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69714": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69715": {
+    "cross_list_courses": [
+      "MANE-6964"
+    ]
+  },
+  "69716": {
+    "cross_list_courses": [
+      "MANE-4964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69717": {
+    "cross_list_courses": [
+      "MANE-6965"
+    ]
+  },
+  "69718": {
+    "cross_list_courses": [
+      "MANE-4965"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69719": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69720": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
