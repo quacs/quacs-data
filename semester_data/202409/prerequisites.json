@@ -22525,5 +22525,50 @@
         ]
       }
     }
+  },
+  "69711": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69712": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1600",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2530",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2350",
+              "type": "course"
+            },
+            {
+              "course": "MANE 4500",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
