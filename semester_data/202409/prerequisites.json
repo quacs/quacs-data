@@ -17778,6 +17778,21 @@
       }
     }
   },
+  "68985": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "68990": {},
   "68991": {
     "restrictions": {
@@ -18961,29 +18976,6 @@
       "ENGR-4440"
     ]
   },
-  "69144": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 1100",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1100",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 1010",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "69145": {
     "prerequisites": {
       "nested": [
@@ -19355,22 +19347,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "69204": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Environmental Science",
-          "Geology"
         ]
       }
     }
@@ -20730,16 +20706,6 @@
     "prerequisites": {
       "course": "ENVE 2110",
       "type": "course"
-    }
-  },
-  "69400": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Environmental Science",
-          "Geology"
-        ]
-      }
     }
   },
   "69401": {
