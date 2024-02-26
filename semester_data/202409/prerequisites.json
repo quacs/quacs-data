@@ -16577,6 +16577,49 @@
       "type": "and"
     }
   },
+  "68661": {
+    "cross_list_courses": [
+      "ITWS-6250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "68662": {
+    "cross_list_courses": [
+      "ITWS-4250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4500",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "68663": {
     "cross_list_courses": [
       "ISYE-6360"
