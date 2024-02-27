@@ -13606,20 +13606,15 @@
           "type": "course"
         },
         {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "type": "course"
-            }
-          ],
-          "type": "or"
+          "course": "ENGR 2600",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "68040": {
