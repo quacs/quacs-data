@@ -2300,7 +2300,44 @@
   "19729": {
     "cross_list_courses": [
       "STSO-4250"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2510",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2700",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2420",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "19730": {
     "prerequisites": {
@@ -3202,7 +3239,6 @@
       "GSAS-2560"
     ]
   },
-  "19937": {},
   "19938": {},
   "19939": {
     "cross_list_courses": [
@@ -3221,15 +3257,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychology"
-        ]
-      }
     }
   },
   "19942": {},
@@ -3381,6 +3408,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biology",
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "19980": {
@@ -3859,5 +3896,6 @@
     }
   },
   "20024": {},
-  "20025": {}
+  "20025": {},
+  "20026": {}
 }
