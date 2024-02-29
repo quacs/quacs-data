@@ -3063,9 +3063,6 @@
       }
     }
   },
-  "19859": {
-    "cross_list_courses": []
-  },
   "19863": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -3083,7 +3080,8 @@
   },
   "19865": {
     "cross_list_courses": [
-      "ENGR-4960"
+      "ENGR-4960",
+      "STSO-4960"
     ]
   },
   "19868": {
@@ -3171,7 +3169,8 @@
   },
   "19910": {
     "cross_list_courses": [
-      "MANE-4960"
+      "MANE-4960",
+      "STSO-4960"
     ],
     "restrictions": {
       "classification": {
@@ -3897,5 +3896,35 @@
   },
   "20024": {},
   "20025": {},
-  "20026": {}
+  "20026": {},
+  "20027": {
+    "cross_list_courses": [
+      "INQR-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "20028": {
+    "cross_list_courses": [
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "20029": {
+    "cross_list_courses": [
+      "ENGR-4960",
+      "MANE-4960"
+    ]
+  }
 }
