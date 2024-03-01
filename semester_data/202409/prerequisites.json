@@ -23203,30 +23203,6 @@
       }
     }
   },
-  "69573": {
-    "cross_list_courses": [
-      "BMED-6660"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
-  "69574": {
-    "cross_list_courses": [
-      "BMED-4660"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "69575": {
     "prerequisites": {
       "nested": [
@@ -24501,6 +24477,20 @@
     "prerequisites": {
       "course": "ASTR 2050",
       "type": "course"
+    }
+  },
+  "69731": {
+    "prerequisites": {
+      "course": "BMED 2540",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
     }
   }
 }
