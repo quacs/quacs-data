@@ -5051,15 +5051,6 @@
     }
   },
   "65988": {},
-  "65992": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "66004": {
     "restrictions": {
       "level": {
@@ -5858,15 +5849,6 @@
     }
   },
   "66263": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "66274": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -11054,19 +11036,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "67433": {
-    "prerequisites": {
-      "course": "ARCH 5210",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -17734,6 +17703,7 @@
       }
     }
   },
+  "68838": {},
   "68839": {
     "restrictions": {
       "level": {
@@ -24493,5 +24463,57 @@
       }
     }
   },
-  "69732": {}
+  "69732": {},
+  "69733": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4540",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69734": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69735": {
+    "corequisites": [
+      "ARCH-5380"
+    ]
+  },
+  "69736": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69737": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69738": {}
 }
