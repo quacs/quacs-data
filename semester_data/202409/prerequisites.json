@@ -1268,6 +1268,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "65065": {
@@ -9920,6 +9928,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
+        ]
+      }
     }
   },
   "67203": {
@@ -14812,6 +14828,17 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
     }
   },
   "68243": {
@@ -15103,6 +15130,17 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
     }
   },
   "68260": {
@@ -15501,6 +15539,17 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
     }
   },
   "68537": {
@@ -15712,6 +15761,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "68554": {
@@ -15733,6 +15790,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "68555": {
@@ -16086,7 +16151,8 @@
       },
       "major": {
         "must_be": [
-          "Aeronautical Engineering"
+          "Aeronautical Engineering",
+          "Aerospace Engineering"
         ]
       }
     }
@@ -16100,7 +16166,8 @@
       },
       "major": {
         "must_be": [
-          "Aeronautical Engineering"
+          "Aeronautical Engineering",
+          "Aerospace Engineering"
         ]
       }
     }
@@ -19972,6 +20039,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "69164": {
@@ -20103,7 +20178,12 @@
       }
     }
   },
-  "69182": {},
+  "69182": {
+    "prerequisites": {
+      "course": "MANE 1960",
+      "type": "course"
+    }
+  },
   "69183": {
     "restrictions": {
       "classification": {
@@ -24367,7 +24447,11 @@
   "69715": {
     "cross_list_courses": [
       "MANE-6964"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MANE 4480",
+      "type": "course"
+    }
   },
   "69716": {
     "cross_list_courses": [
@@ -24403,7 +24487,24 @@
       "ARCH-6965"
     ]
   },
-  "69722": {},
+  "69722": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
+    }
+  },
   "69723": {},
   "69724": {
     "restrictions": {
@@ -24414,7 +24515,12 @@
       }
     }
   },
-  "69725": {},
+  "69725": {
+    "prerequisites": {
+      "course": "MANE 2110",
+      "type": "course"
+    }
+  },
   "69726": {
     "cross_list_courses": [
       "ASTR-6963",
