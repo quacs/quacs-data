@@ -9916,6 +9916,9 @@
     }
   },
   "67202": {
+    "cross_list_courses": [
+      "MANE-4520"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11719,6 +11722,9 @@
     }
   },
   "67665": {
+    "cross_list_courses": [
+      "MANE-6710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14741,6 +14747,9 @@
     }
   },
   "68238": {
+    "cross_list_courses": [
+      "MANE-4280"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15118,6 +15127,9 @@
     }
   },
   "68259": {
+    "cross_list_courses": [
+      "ECSE-4090"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21326,6 +21338,9 @@
     ]
   },
   "69312": {
+    "cross_list_courses": [
+      "MANE-6140"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21359,6 +21374,9 @@
     }
   },
   "69313": {
+    "cross_list_courses": [
+      "MANE-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24357,21 +24375,18 @@
     }
   },
   "69709": {
+    "cross_list_courses": [
+      "MANE-6790"
+    ],
     "prerequisites": {
       "course": "MANE 4730",
       "type": "course"
     }
   },
   "69710": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "69711": {
+    "cross_list_courses": [
+      "MANE-4790"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24468,7 +24483,11 @@
   "69717": {
     "cross_list_courses": [
       "MANE-6965"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MANE 4080",
+      "type": "course"
+    }
   },
   "69718": {
     "cross_list_courses": [
@@ -24634,6 +24653,17 @@
     "prerequisites": {
       "course": "PHYS 2220",
       "type": "course"
+    }
+  },
+  "69741": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
