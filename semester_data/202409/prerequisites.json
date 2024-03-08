@@ -11494,54 +11494,8 @@
       "CSCI-6250"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 4020",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4050",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4260",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4800",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4100",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4150",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4200",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4210",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4800",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
+      "course": "CSCI 2300",
+      "type": "course"
     }
   },
   "67646": {
@@ -13885,6 +13839,9 @@
     }
   },
   "68075": {
+    "cross_list_courses": [
+      "CSCI-4340"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -16580,6 +16537,9 @@
     }
   },
   "68655": {
+    "cross_list_courses": [
+      "CSCI-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16912,6 +16872,9 @@
     }
   },
   "68691": {
+    "cross_list_courses": [
+      "CSCI-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24054,6 +24017,9 @@
     }
   },
   "69674": {
+    "cross_list_courses": [
+      "CSCI-6340"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
@@ -24124,7 +24090,12 @@
       }
     }
   },
-  "69683": {},
+  "69683": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
   "69684": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -24656,6 +24627,16 @@
   "69746": {
     "cross_list_courses": [
       "ARCH-4055"
+    ]
+  },
+  "69747": {
+    "cross_list_courses": [
+      "ARCH-6065"
+    ]
+  },
+  "69748": {
+    "cross_list_courses": [
+      "ARCH-4065"
     ]
   }
 }
