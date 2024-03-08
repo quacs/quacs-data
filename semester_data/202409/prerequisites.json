@@ -4873,11 +4873,6 @@
       "type": "course"
     }
   },
-  "65859": {
-    "cross_list_courses": [
-      "CSCI-6964"
-    ]
-  },
   "65861": {
     "restrictions": {
       "degree": {
@@ -6847,7 +6842,12 @@
       }
     }
   },
-  "66442": {},
+  "66442": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    }
+  },
   "66443": {
     "cross_list_courses": [
       "CIVL-6170"
@@ -10389,18 +10389,6 @@
     }
   },
   "67248": {},
-  "67249": {
-    "cross_list_courses": [
-      "CSCI-4964"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "67250": {},
   "67251": {
     "corequisites": [
@@ -11794,9 +11782,19 @@
     }
   },
   "67675": {
-    "cross_list_courses": [
-      "CSCI-6971"
-    ]
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "67679": {
     "restrictions": {
@@ -11960,18 +11958,6 @@
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
           "Transportation Engineering"
-        ]
-      }
-    }
-  },
-  "67714": {
-    "cross_list_courses": [
-      "CSCI-4971"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -15119,7 +15105,20 @@
   "68260": {
     "cross_list_courses": [
       "CSCI-6962"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "68262": {
     "cross_list_courses": [
@@ -16038,7 +16037,12 @@
       }
     }
   },
-  "68587": {},
+  "68587": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
   "68588": {
     "cross_list_courses": [
       "COGS-4962"
@@ -16823,7 +16827,15 @@
       "type": "course"
     }
   },
-  "68681": {},
+  "68681": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "68683": {
     "restrictions": {
       "classification": {
@@ -17147,7 +17159,11 @@
   "68750": {
     "cross_list_courses": [
       "CSCI-6963"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
   },
   "68751": {
     "cross_list_courses": [
@@ -17920,11 +17936,9 @@
   },
   "68870": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -19679,7 +19693,20 @@
   "69127": {
     "cross_list_courses": [
       "CSCI-6965"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "69128": {
     "cross_list_courses": [
@@ -19696,7 +19723,11 @@
   "69129": {
     "cross_list_courses": [
       "CSCI-6966"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
   },
   "69130": {
     "cross_list_courses": [
@@ -21472,7 +21503,14 @@
   "69337": {
     "cross_list_courses": [
       "CSCI-4975"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "69338": {
     "restrictions": {
@@ -21695,7 +21733,30 @@
     }
   },
   "69365": {},
-  "69366": {},
+  "69366": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4390",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 6390",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "69367": {},
   "69368": {},
   "69369": {},
@@ -21851,7 +21912,11 @@
   "69386": {
     "cross_list_courses": [
       "CSCI-6960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
   },
   "69388": {
     "restrictions": {
@@ -22128,7 +22193,20 @@
   "69462": {
     "cross_list_courses": [
       "ITWS-4850"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2660",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "69463": {
     "cross_list_courses": [
