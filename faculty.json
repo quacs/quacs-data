@@ -4489,11 +4489,12 @@
   "/stefan-radev": {
     "name": "Stefan Radev",
     "office": "Carnegie",
-    "office-hours": "Office Hours Wednesday 3:00 - 4:00PM Thursday 10:00 - 11:00AM",
+    "office-hours": "Office Hours Thursday 4:00 - 6:00PM",
     "orcid": "https://orcid.org/0000-0002-6702-9559",
     "portrait": "https://faculty.rpi.edu/sites/default/files/2023-08/Profile_Cropped.jpg",
     "primary-area": "Deep Learning and Probabilistic Modeling",
     "research": "My research follows two streams. The first focuses on developing new Bayesian methods through the emerging generation of generative neural networks. The second focuses on building and applying computational models of complex processes (e.g., cognition, disease outbreaks) to gain insights from data ( and sometimes Big Data ). These two streams converge at the BayesFlow framework for Bayesian inference with modern deep learning ( GitHub )( project page ), of which I am the core developer and maintainer. In the new computer age, modern Bayesian inference allows us to estimate, validate, and draw substantive conclusions from high-fidelity probabilistic models. Typical problems in Bayesian analysis are: Estimate the posterior distribution of hidden parameters from noisy data (i.e., inverse inference); Compare competing models in terms of their complexity and predictive performance; Emulate the observable behavior of a system or predict future behavior under uncertainty. However, despite their theoretical appeal and utility, Bayesian workflows are limited by severe computational bottlenecks: Analyzing even a single data set may already eat up days of computation, so that model validation and calibration become completely infeasible. BayesFlow addresses these challenges by training custom generative neural networks on model simulations. Researchers can then re-use and share these networks for any subsequent application of the model. Since the trained networks can perform inference almost instantaneously (typically well below one second), the upfront neural network training amortizes quickly. For instance, amortized inference allows us to test a model\u2019s ability to recover its parameters or assess its uncertainty calibration for different data set sizes in a matter of seconds, even though this may require the estimation of thousands of posterior distributions. If you are a student who wants to do research at the frontier of probabilistic modeling, drop me a mail or simply pass by my office.",
+    "teaching": "I teach courses revolving around computational modeling, probabilistic inference, and statistics.",
     "title": "Assistant Professor, Cognitive Science",
     "website": "https://bayesflow.org/"
   },
