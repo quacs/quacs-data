@@ -24964,5 +24964,29 @@
       "course": "PHIL 2140",
       "type": "course"
     }
+  },
+  "69751": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4070",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4080",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
