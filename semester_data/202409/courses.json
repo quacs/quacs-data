@@ -5918,7 +5918,7 @@
             "crn": 69530,
             "crse": 1040,
             "rem": 19,
-            "sec": "02",
+            "sec": "01",
             "subj": "ARTS",
             "timeslots": [
               {
@@ -5928,7 +5928,7 @@
                   "T",
                   "F"
                 ],
-                "instructor": "Nina Stanley",
+                "instructor": "TBA",
                 "location": "TBA",
                 "timeEnd": 1550,
                 "timeStart": 1400
@@ -5969,7 +5969,36 @@
                 "timeStart": 800
               }
             ],
-            "title": "Art History"
+            "title": "Art History",
+            "xl_rem": 45
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 25,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 69749,
+            "crse": 1050,
+            "rem": 25,
+            "sec": "02",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Nathan Scott Meltz",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Art History",
+            "xl_rem": 45
           }
         ],
         "subj": "ARTS",
@@ -39833,14 +39862,11 @@
               {
                 "dateEnd": "12/20",
                 "dateStart": "08/28",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Nina Stanley",
+                "days": [],
+                "instructor": "TBA",
                 "location": "TBA",
-                "timeEnd": 1550,
-                "timeStart": 1400
+                "timeEnd": -1,
+                "timeStart": -1
               }
             ],
             "title": "Introduction To Game Art"
@@ -53577,6 +53603,42 @@
         "title": "Linear Algebra"
       },
       {
+        "crse": 4140,
+        "id": "MATH-4140",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 150,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 69750,
+            "crse": 4140,
+            "rem": 150,
+            "sec": "01",
+            "subj": "MATH",
+            "timeslots": [
+              {
+                "dateEnd": "12/20",
+                "dateStart": "08/28",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Selmer Bringsjord",
+                "location": "TBA",
+                "timeEnd": 1750,
+                "timeStart": 1600
+              }
+            ],
+            "title": "Intermediate Logic",
+            "xl_rem": 150
+          }
+        ],
+        "subj": "MATH",
+        "title": "Intermediate Logic"
+      },
+      {
         "crse": 4200,
         "id": "MATH-4200",
         "sections": [
@@ -61611,7 +61673,7 @@
               }
             ],
             "title": "Intermediate Logic",
-            "xl_rem": 100
+            "xl_rem": 150
           }
         ],
         "subj": "PHIL",

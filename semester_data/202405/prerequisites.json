@@ -3685,6 +3685,9 @@
     }
   },
   "20002": {
+    "cross_list_courses": [
+      "COGS-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3968,5 +3971,32 @@
     }
   },
   "20032": {},
-  "20033": {}
+  "20033": {},
+  "20034": {
+    "cross_list_courses": [
+      "PSYC-4510"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    }
+  },
+  "20035": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "20036": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ]
+  }
 }

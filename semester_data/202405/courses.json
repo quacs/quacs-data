@@ -251,6 +251,70 @@
     "code": "ARTS",
     "courses": [
       {
+        "crse": 1050,
+        "id": "ARTS-1050",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 20,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 20035,
+            "crse": 1050,
+            "rem": 20,
+            "sec": "01",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "08/16",
+                "dateStart": "05/20",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Nathan Scott Meltz",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Art History",
+            "xl_rem": 45
+          },
+          {
+            "act": 0,
+            "attribute": "Communication Intensive",
+            "cap": 25,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 20036,
+            "crse": 1050,
+            "rem": 25,
+            "sec": "02",
+            "subj": "ARTS",
+            "timeslots": [
+              {
+                "dateEnd": "08/16",
+                "dateStart": "05/20",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Nathan Scott Meltz",
+                "location": "TBA",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "Art History",
+            "xl_rem": 45
+          }
+        ],
+        "subj": "ARTS",
+        "title": "Art History"
+      },
+      {
         "crse": 2210,
         "id": "ARTS-2210",
         "sections": [
@@ -851,7 +915,7 @@
                 ],
                 "instructor": "Charles Harold Martin",
                 "location": "TBA",
-                "timeEnd": 1050,
+                "timeEnd": 1005,
                 "timeStart": 800
               }
             ],
@@ -886,7 +950,7 @@
                 ],
                 "instructor": "Charles Harold Martin",
                 "location": "TBA",
-                "timeEnd": 1050,
+                "timeEnd": 1005,
                 "timeStart": 800
               }
             ],
@@ -2942,14 +3006,14 @@
         "id": "CHEM-1200",
         "sections": [
           {
-            "act": 0,
+            "act": 1,
             "attribute": "",
             "cap": 20,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 20012,
             "crse": 1200,
-            "rem": 20,
+            "rem": 19,
             "sec": "01",
             "subj": "CHEM",
             "timeslots": [
@@ -3620,6 +3684,44 @@
         "title": "Intro To Cognitive Science"
       },
       {
+        "crse": 4210,
+        "id": "COGS-4210",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 19,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 20034,
+            "crse": 4210,
+            "rem": 19,
+            "sec": "01",
+            "subj": "COGS",
+            "timeslots": [
+              {
+                "dateEnd": "08/16",
+                "dateStart": "05/20",
+                "days": [
+                  "M",
+                  "T",
+                  "R",
+                  "F"
+                ],
+                "instructor": "Lucy Cui",
+                "location": "TBA",
+                "timeEnd": 1005,
+                "timeStart": 800
+              }
+            ],
+            "title": "Cognitive Modeling",
+            "xl_rem": 19
+          }
+        ],
+        "subj": "COGS",
+        "title": "Cognitive Modeling"
+      },
+      {
         "crse": 4360,
         "id": "COGS-4360",
         "sections": [
@@ -3839,12 +3941,12 @@
           {
             "act": 0,
             "attribute": "Communication Intensive",
-            "cap": 0,
+            "cap": 19,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 19991,
             "crse": 2660,
-            "rem": 0,
+            "rem": 19,
             "sec": "01",
             "subj": "COMM",
             "timeslots": [
@@ -10682,7 +10784,8 @@
                 "timeStart": 800
               }
             ],
-            "title": "Cognitive Modeling"
+            "title": "Cognitive Modeling",
+            "xl_rem": 19
           }
         ],
         "subj": "PSYC",

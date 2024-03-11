@@ -3406,6 +3406,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "65331": {
@@ -9995,6 +10005,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "67210": {
@@ -11484,6 +11504,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "67646": {
@@ -12406,7 +12436,19 @@
       }
     }
   },
-  "67807": {},
+  "67807": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "67808": {
     "cross_list_courses": [
       "ECON-6190"
@@ -16518,6 +16560,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "68659": {
@@ -16827,7 +16879,9 @@
     }
   },
   "68687": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "MATH-4140"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "type": "course"
@@ -19644,12 +19698,32 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "69126": {
     "prerequisites": {
       "course": "CSCI 4210",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "69127": {
@@ -24063,6 +24137,16 @@
     "prerequisites": {
       "course": "CSCI 2300",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "69675": {
@@ -24678,5 +24762,19 @@
     "cross_list_courses": [
       "ARCH-4065"
     ]
+  },
+  "69749": {
+    "cross_list_courses": [
+      "ARTS-1050"
+    ]
+  },
+  "69750": {
+    "cross_list_courses": [
+      "PHIL-4140"
+    ],
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "type": "course"
+    }
   }
 }
