@@ -959,8 +959,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -974,8 +983,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -989,8 +1007,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -1004,8 +1031,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -1019,8 +1055,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -1034,8 +1079,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -3251,8 +3305,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -5220,8 +5283,21 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "BCBP 4760",
-          "type": "course"
+          "nested": [
+            {
+              "course": "BCBP 4760",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4760",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -6901,10 +6977,6 @@
     }
   },
   "66442": {
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "type": "course"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -7202,17 +7274,8 @@
       "ISYE-6610"
     ],
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "type": "course"
-        },
-        {
-          "course": "MATH 1020",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+      "course": "MATH 2010",
+      "type": "course"
     }
   },
   "66519": {
@@ -7864,8 +7927,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -11870,19 +11942,6 @@
     }
   },
   "67675": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4100",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 6100",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -11973,8 +12032,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -13128,8 +13196,17 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 1020",
@@ -13752,6 +13829,10 @@
             },
             {
               "course": "PHYS 1150",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
               "type": "course"
             }
           ],
@@ -15216,19 +15297,6 @@
     "cross_list_courses": [
       "CSCI-6962"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -16158,10 +16226,6 @@
     }
   },
   "68587": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -17264,10 +17328,6 @@
     "cross_list_courses": [
       "CSCI-6963"
     ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -17566,8 +17626,17 @@
           "type": "course"
         },
         {
-          "course": "PHYS 1100",
-          "type": "course"
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATH 2400",
@@ -19814,8 +19883,17 @@
       "CSCI-6100"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2210",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -19848,19 +19926,6 @@
     "cross_list_courses": [
       "CSCI-6965"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -19888,10 +19953,6 @@
     "cross_list_courses": [
       "CSCI-6966"
     ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -20344,12 +20405,7 @@
       }
     }
   },
-  "69182": {
-    "prerequisites": {
-      "course": "MANE 1960",
-      "type": "course"
-    }
-  },
+  "69182": {},
   "69183": {
     "restrictions": {
       "classification": {
@@ -21154,6 +21210,10 @@
             {
               "course": "PHYS 1150",
               "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
             }
           ],
           "type": "or"
@@ -21186,6 +21246,10 @@
             {
               "course": "PHYS 1150",
               "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "type": "course"
             }
           ],
           "type": "or"
@@ -21217,6 +21281,10 @@
             },
             {
               "course": "PHYS 1150",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
               "type": "course"
             }
           ],
@@ -21917,30 +21985,7 @@
     }
   },
   "69365": {},
-  "69366": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4150",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 4390",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 6390",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
+  "69366": {},
   "69367": {},
   "69368": {},
   "69369": {},
@@ -22097,10 +22142,6 @@
     "cross_list_courses": [
       "CSCI-6960"
     ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "type": "course"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -24402,12 +24443,7 @@
       }
     }
   },
-  "69683": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "type": "course"
-    }
-  },
+  "69683": {},
   "69684": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -24712,11 +24748,7 @@
   "69715": {
     "cross_list_courses": [
       "MANE-6964"
-    ],
-    "prerequisites": {
-      "course": "MANE 4480",
-      "type": "course"
-    }
+    ]
   },
   "69716": {
     "cross_list_courses": [
@@ -24733,11 +24765,7 @@
   "69717": {
     "cross_list_courses": [
       "MANE-6965"
-    ],
-    "prerequisites": {
-      "course": "MANE 4080",
-      "type": "course"
-    }
+    ]
   },
   "69718": {
     "cross_list_courses": [
@@ -24784,12 +24812,7 @@
       }
     }
   },
-  "69725": {
-    "prerequisites": {
-      "course": "MANE 2110",
-      "type": "course"
-    }
-  },
+  "69725": {},
   "69726": {
     "cross_list_courses": [
       "ASTR-6963",
@@ -24894,15 +24917,37 @@
   "69739": {
     "cross_list_courses": [
       "ECSE-4720"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 2220",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 4220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "69740": {
     "cross_list_courses": [
       "PHYS-4720"
     ],
     "prerequisites": {
-      "course": "PHYS 2220",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PHYS 2220",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 4220",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "69741": {
@@ -24966,19 +25011,6 @@
     }
   },
   "69751": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CIVL 4070",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 4080",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "classification": {
         "may_not_be": [

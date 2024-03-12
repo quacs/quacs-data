@@ -1972,9 +1972,7 @@
   },
   "CSCI 2960": {
     "title": "Intro To Competitive Prog",
-    "prereqs": [
-      "CSCI 1200"
-    ]
+    "prereqs": []
   },
   "CSCI 4000": {
     "title": "Intro To Oper Syst (exch)(",
@@ -2022,9 +2020,7 @@
   },
   "CSCI 4960": {
     "title": "Ai For Science",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6090": {
     "title": "Generic Software Design",
@@ -3256,7 +3252,8 @@
     "title": "Physics II",
     "prereqs": [
       "MATH 1020",
-      "PHYS 1100"
+      "PHYS 1100",
+      "PHYS 1110"
     ]
   },
   "PHYS 1360": {
@@ -3310,7 +3307,10 @@
   },
   "PHYS 4720": {
     "title": "Solid-state Physics",
-    "prereqs": []
+    "prereqs": [
+      "PHYS 2220",
+      "PHYS 4220"
+    ]
   },
   "PHYS 4940": {
     "title": "Readings In Phys",
@@ -4119,10 +4119,7 @@
   },
   "CIVL 6962": {
     "title": "Bridge Engineering",
-    "prereqs": [
-      "CIVL 4070",
-      "CIVL 4080"
-    ]
+    "prereqs": []
   },
   "COMM 1510": {
     "title": "Communication Theory And Practice",
@@ -4240,15 +4237,11 @@
   },
   "CSCI 4961": {
     "title": "Network Security And Defense",
-    "prereqs": [
-      "CSCI 4210"
-    ]
+    "prereqs": []
   },
   "CSCI 4963": {
     "title": "Reinforcement Learning",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4964": {
     "title": "Ml Open Source Open Science",
@@ -4256,16 +4249,11 @@
   },
   "CSCI 4965": {
     "title": "Ai For Conservation",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 2010"
-    ]
+    "prereqs": []
   },
   "CSCI 4966": {
     "title": "Programming In Haskell",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4967": {
     "title": "Projects In Ml And Ai",
@@ -4520,7 +4508,7 @@
     "prereqs": [
       "ECON 1200",
       "IHSS 1200",
-      "IHSS 1975"
+      "INQR 1200"
     ]
   },
   "ECON 4961": {
@@ -4894,12 +4882,7 @@
   },
   "LANG 4961": {
     "title": "Chinese Lang & Culture In Film",
-    "prereqs": [
-      "LANG 1410",
-      "LANG 2410",
-      "LANG 4420",
-      "LANG 4430"
-    ]
+    "prereqs": []
   },
   "LITR 2150": {
     "title": "Modern & Contemporary Lit",
@@ -5183,10 +5166,7 @@
   },
   "MTLE 4250": {
     "title": "Mechanical Properties Of Materials",
-    "prereqs": [
-      "ENGR 1600",
-      "MTLE 2100"
-    ]
+    "prereqs": []
   },
   "MTLE 4310": {
     "title": "Corrosion",
@@ -5292,7 +5272,9 @@
   },
   "MATH 4300": {
     "title": "Intro To Complex Variables",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010"
+    ]
   },
   "MATH 4500": {
     "title": "Meth Pde Of Math Physics",
@@ -6121,10 +6103,7 @@
   },
   "CSCI 4962": {
     "title": "Ml And Optimization",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 2010"
-    ]
+    "prereqs": []
   },
   "CSCI 6270": {
     "title": "Computational Vision",
@@ -7599,7 +7578,8 @@
   "ECSE 4720": {
     "title": "Solid State Physics",
     "prereqs": [
-      "PHYS 2220"
+      "PHYS 2220",
+      "PHYS 4220"
     ]
   },
   "ECSE 6250": {
@@ -8275,6 +8255,7 @@
   "CSCI 4100": {
     "title": "Machine Learning From Data",
     "prereqs": [
+      "CSCI 2210",
       "CSCI 2300"
     ]
   },
@@ -9307,6 +9288,8 @@
     "title": "Protein Structure Determin.",
     "prereqs": [
       "BCBP 4760",
+      "BIOL 4760",
+      "CHEM 4760",
       "MATH 1020",
       "PHYS 1200"
     ]
@@ -9341,9 +9324,7 @@
   },
   "CSCI 4969": {
     "title": "Information Retrieval",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4970": {
     "title": "Rcos",
@@ -9351,10 +9332,7 @@
   },
   "CSCI 4971": {
     "title": "Nlp With Deep Learning",
-    "prereqs": [
-      "CSCI 4100",
-      "CSCI 6100"
-    ]
+    "prereqs": []
   },
   "CSCI 4972": {
     "title": "Intermediate Formal Logic & Ai",
@@ -9918,9 +9896,7 @@
   },
   "MANE 4960": {
     "title": "Quantum Comput Applic For Eng",
-    "prereqs": [
-      "MANE 2110"
-    ]
+    "prereqs": []
   },
   "MANE 6400": {
     "title": "Analytic Dynamics",
@@ -10346,6 +10322,7 @@
       "CHEM 1100",
       "CHEM 1110",
       "PHYS 1100",
+      "PHYS 1110",
       "PHYS 1150"
     ]
   },
@@ -11529,15 +11506,11 @@
   },
   "MANE 4964": {
     "title": "Computational Reactor Design",
-    "prereqs": [
-      "MANE 4480"
-    ]
+    "prereqs": []
   },
   "MANE 4965": {
     "title": "Aerospace Propulsion Lab",
-    "prereqs": [
-      "MANE 4080"
-    ]
+    "prereqs": []
   },
   "MANE 4966": {
     "title": "Engr Biz & Tech Translation",
@@ -12047,6 +12020,7 @@
     "prereqs": [
       "MATH 1020",
       "PHYS 1100",
+      "PHYS 1110",
       "PHYS 1150"
     ]
   },
@@ -12571,7 +12545,8 @@
   "ISYE 4140": {
     "title": "Statistical Analysis",
     "prereqs": [
-      "ENGR 2600"
+      "ENGR 2600",
+      "MATP 4600"
     ]
   },
   "ISYE 4220": {
@@ -12604,8 +12579,7 @@
   "ISYE 4600": {
     "title": "Operations Research Methods",
     "prereqs": [
-      "ENGR 2600",
-      "MATH 1020"
+      "MATH 2010"
     ]
   },
   "ISYE 4750": {
@@ -13610,9 +13584,7 @@
   },
   "MANE 2960": {
     "title": "Mechanics 2",
-    "prereqs": [
-      "MANE 1960"
-    ]
+    "prereqs": []
   },
   "MANE 6760": {
     "title": "Finite Element Methods For Fluid Dynamics",
@@ -14072,9 +14044,7 @@
     "title": "Behavioral Neuroscience",
     "prereqs": [
       "COGS 2120",
-      "PHIL 2120",
-      "PSYC 1200",
-      "PSYC 2120"
+      "PSYC 1200"
     ]
   },
   "COGS 4420": {
@@ -14925,7 +14895,6 @@
   "COMM 4880": {
     "title": "Interactive Data Visualization",
     "prereqs": [
-      "CSCI 1010",
       "CSCI 1100"
     ]
   },
@@ -17070,7 +17039,8 @@
     "prereqs": [
       "ENGR 1100",
       "MATH 2400",
-      "PHYS 1100"
+      "PHYS 1100",
+      "PHYS 1110"
     ]
   },
   "BUSN 6107": {
