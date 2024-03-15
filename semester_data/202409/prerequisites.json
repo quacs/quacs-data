@@ -25246,5 +25246,34 @@
       "type": "course"
     }
   },
-  "69763": {}
+  "69763": {},
+  "69764": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69765": {}
 }
