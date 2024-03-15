@@ -9788,24 +9788,6 @@
       }
     }
   },
-  "67186": {
-    "cross_list_courses": [
-      "BIOL-6350"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BIOL 4620",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 4310",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "67187": {
     "prerequisites": {
       "course": "BIOL 2500",
@@ -12322,31 +12304,6 @@
           "Sophomore"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "67802": {
-    "cross_list_courses": [
-      "BIOL-4350"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BIOL 4620",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 4310",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -25215,5 +25172,13 @@
     "cross_list_courses": [
       "ARCH-6966"
     ]
-  }
+  },
+  "69754": {
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "type": "course"
+    }
+  },
+  "69755": {},
+  "69756": {}
 }
