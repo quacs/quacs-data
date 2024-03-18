@@ -3828,5 +3828,97 @@
       "PSYC-4510"
     ]
   },
-  "20038": {}
+  "20038": {},
+  "20039": {
+    "cross_list_courses": [
+      "COGS-4964",
+      "COGS-6964",
+      "CSCI-6964"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4430",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "20040": {
+    "cross_list_courses": [
+      "COGS-6964",
+      "CSCI-4964",
+      "CSCI-6964"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4430",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "20041": {
+    "cross_list_courses": [
+      "COGS-4964",
+      "COGS-6964",
+      "CSCI-4964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "20042": {
+    "cross_list_courses": [
+      "COGS-4964",
+      "CSCI-4964",
+      "CSCI-6964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }

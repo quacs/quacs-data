@@ -7050,27 +7050,6 @@
       }
     }
   },
-  "66438": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "66439": {
     "restrictions": {
       "major": {
@@ -24795,10 +24774,6 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHME 2100",
-          "type": "course"
-        },
-        {
           "course": "CHME 4040",
           "type": "course"
         },
@@ -24853,10 +24828,6 @@
     ],
     "prerequisites": {
       "nested": [
-        {
-          "course": "CHME 2100",
-          "type": "course"
-        },
         {
           "course": "CHME 4040",
           "type": "course"
@@ -25825,5 +25796,32 @@
     }
   },
   "69765": {},
-  "69766": {}
+  "69766": {},
+  "69767": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  }
 }
