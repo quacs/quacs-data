@@ -13925,7 +13925,84 @@
       }
     }
   },
-  "68031": {},
+  "68031": {
+    "cross_list_courses": [
+      "PHIL-4480"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 1110",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2100",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2400",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2500",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2600",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2830",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2960",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4130",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4140",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4260",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4300",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4310",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4420",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4500",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4960",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "68032": {},
   "68034": {
     "cross_list_courses": [
@@ -22751,6 +22828,13 @@
     "prerequisites": {
       "course": "MATH 1020",
       "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "69394": {
@@ -25740,5 +25824,6 @@
       "type": "and"
     }
   },
-  "69765": {}
+  "69765": {},
+  "69766": {}
 }
