@@ -5040,7 +5040,24 @@
   "65859": {
     "cross_list_courses": [
       "CSCI-6964"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "65861": {
     "restrictions": {
@@ -7166,6 +7183,10 @@
     }
   },
   "66442": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -12135,6 +12156,19 @@
     }
   },
   "67675": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -15565,6 +15599,19 @@
     "cross_list_courses": [
       "CSCI-6962"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -16494,6 +16541,10 @@
     }
   },
   "68587": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -17571,6 +17622,10 @@
     "cross_list_courses": [
       "CSCI-6963"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -20369,6 +20424,19 @@
     "cross_list_courses": [
       "CSCI-6965"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -20396,6 +20464,10 @@
     "cross_list_courses": [
       "CSCI-6966"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -22207,6 +22279,28 @@
     "cross_list_courses": [
       "CSCI-6975"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4390",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 6390",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -22608,6 +22702,10 @@
     "cross_list_courses": [
       "CSCI-6960"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -24950,27 +25048,55 @@
     }
   },
   "69681": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
   },
   "69682": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
   },
-  "69683": {},
+  "69683": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "type": "course"
+    }
+  },
   "69684": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -25002,42 +25128,10 @@
       }
     }
   },
-  "69688": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
-    }
-  },
-  "69689": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
-    }
-  },
-  "69690": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
-    }
-  },
-  "69691": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
-    }
-  },
+  "69688": {},
+  "69689": {},
+  "69690": {},
+  "69691": {},
   "69692": {
     "restrictions": {
       "classification": {
@@ -25472,11 +25566,9 @@
   },
   "69741": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
