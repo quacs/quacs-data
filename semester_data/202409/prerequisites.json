@@ -4453,11 +4453,6 @@
   },
   "65450": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -11667,10 +11662,6 @@
     "cross_list_courses": [
       "MGMT-4080"
     ],
-    "prerequisites": {
-      "course": "MGMT 4100",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -11907,8 +11898,17 @@
           "type": "course"
         },
         {
-          "course": "ENGR 4710",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ENGR 4710",
+              "type": "course"
+            },
+            {
+              "course": "MANE 4610",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -23250,9 +23250,9 @@
   "69486": {},
   "69487": {
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
@@ -24741,6 +24741,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Junior",
           "Senior"
         ]
       }
@@ -24796,6 +24797,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Junior",
           "Senior"
         ]
       }
