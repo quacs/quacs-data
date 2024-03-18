@@ -654,6 +654,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -661,7 +662,6 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science",
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
@@ -679,6 +679,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -686,7 +687,6 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science",
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
@@ -729,6 +729,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -736,7 +737,6 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science",
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
@@ -775,6 +775,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -782,7 +783,6 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science",
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
@@ -912,48 +912,63 @@
   "65035": {},
   "65036": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65037": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65038": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65039": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65040": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65041": {
     "prerequisites": {
@@ -2526,12 +2541,15 @@
   },
   "65187": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65188": {},
   "65189": {
@@ -2542,12 +2560,15 @@
   },
   "65190": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65191": {},
   "65192": {
@@ -4147,6 +4168,23 @@
           "Junior",
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
       }
     }
   },
@@ -4632,7 +4670,19 @@
       },
       "major": {
         "must_be": [
-          "Information Technology"
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -4987,6 +5037,11 @@
       "type": "course"
     }
   },
+  "65859": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ]
+  },
   "65861": {
     "restrictions": {
       "degree": {
@@ -5012,21 +5067,27 @@
   },
   "65863": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65864": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "65870": {
     "restrictions": {
@@ -5253,6 +5314,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -5260,7 +5322,6 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science",
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
@@ -6286,21 +6347,27 @@
   },
   "66298": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "66299": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "66300": {
     "prerequisites": {
@@ -6482,12 +6549,15 @@
   },
   "66343": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "66344": {
     "cross_list_courses": [
@@ -7381,7 +7451,27 @@
       }
     }
   },
-  "66651": {},
+  "66651": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
   "66652": {},
   "66653": {
     "prerequisites": {
@@ -10451,6 +10541,18 @@
     }
   },
   "67248": {},
+  "67249": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "67250": {},
   "67251": {
     "corequisites": [
@@ -11214,12 +11316,15 @@
   "67461": {},
   "67463": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "67464": {
     "restrictions": {
@@ -11800,12 +11905,15 @@
   },
   "67667": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "67669": {
     "restrictions": {
@@ -11986,12 +12094,15 @@
   },
   "67711": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "67712": {
     "prerequisites": {
@@ -12639,6 +12750,25 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
     }
   },
   "67822": {
@@ -12749,6 +12879,25 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
     }
   },
   "67826": {
@@ -12773,6 +12922,25 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
     }
   },
   "67827": {
@@ -16903,12 +17071,15 @@
   },
   "68671": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "68675": {
     "corequisites": [
@@ -19480,12 +19651,15 @@
   },
   "69048": {
     "corequisites": [
-      "MATH-1010",
       "PHYS-1101"
     ],
     "cross_list_courses": [
       "PHYS-1110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69050": {
     "restrictions": {
@@ -20263,7 +20437,26 @@
   "69143": {
     "cross_list_courses": [
       "ENGR-4440"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
   },
   "69145": {
     "prerequisites": {
@@ -20332,6 +20525,23 @@
           "Junior",
           "Sophomore",
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -20612,23 +20822,18 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
           "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Electric Power Engr",
-          "Information Tech & Web Science",
           "Materials Engineering",
           "Mechanical Engineering",
-          "Manufacturing Systems Engr",
           "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
+          "Nuclear Engineering"
         ]
       }
     }
@@ -20654,22 +20859,18 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
           "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Electric Power Engr",
-          "Information Tech & Web Science",
           "Materials Engineering",
           "Mechanical Engineering",
-          "Manufacturing Systems Engr",
           "Industrial & Management Engr",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
+          "Nuclear Engineering"
         ]
       }
     }
@@ -21319,8 +21520,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -23837,12 +24037,13 @@
     }
   },
   "69585": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69587": {
     "cross_list_courses": [
@@ -24049,6 +24250,23 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
       }
     }
   },
@@ -24098,12 +24316,13 @@
     }
   },
   "69611": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69613": {
     "corequisites": [
@@ -24111,12 +24330,13 @@
     ]
   },
   "69614": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69615": {
     "corequisites": [
@@ -24129,12 +24349,13 @@
     ]
   },
   "69617": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69618": {
     "corequisites": [
@@ -24142,20 +24363,22 @@
     ]
   },
   "69619": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69620": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69621": {
     "corequisites": [
@@ -24163,20 +24386,22 @@
     ]
   },
   "69622": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69623": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69624": {
     "corequisites": [
@@ -24184,12 +24409,13 @@
     ]
   },
   "69625": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69626": {
     "corequisites": [
@@ -24197,20 +24423,22 @@
     ]
   },
   "69627": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69628": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69629": {
     "corequisites": [
@@ -24218,20 +24446,22 @@
     ]
   },
   "69630": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69631": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69632": {
     "corequisites": [
@@ -24239,12 +24469,13 @@
     ]
   },
   "69633": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69634": {
     "corequisites": [
@@ -24252,12 +24483,13 @@
     ]
   },
   "69635": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69636": {
     "cross_list_courses": [
@@ -24294,12 +24526,13 @@
     ]
   },
   "69638": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69639": {
     "corequisites": [
@@ -24307,12 +24540,13 @@
     ]
   },
   "69640": {
-    "corequisites": [
-      "MATH-1010"
-    ],
     "cross_list_courses": [
       "PHYS-1100"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "type": "course"
+    }
   },
   "69641": {
     "corequisites": [
