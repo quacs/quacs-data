@@ -26653,11 +26653,6 @@
       "ECSE-4962"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -27300,6 +27295,33 @@
           "Nuclear Engineering"
         ]
       }
+    }
+  },
+  "69768": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2930",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2940",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 2950",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4970",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
