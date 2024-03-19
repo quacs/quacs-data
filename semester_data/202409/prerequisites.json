@@ -20968,7 +20968,26 @@
   },
   "69043": {},
   "69044": {},
-  "69045": {},
+  "69045": {
+    "cross_list_courses": [
+      "BIOL-6140"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4260",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ride 100",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "69046": {
     "cross_list_courses": [
       "BIOL-4140"
