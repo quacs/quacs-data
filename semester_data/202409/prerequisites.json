@@ -5208,6 +5208,7 @@
       }
     }
   },
+  "65823": {},
   "65835": {
     "restrictions": {
       "level": {
@@ -12978,7 +12979,7 @@
   },
   "67715": {
     "prerequisites": {
-      "course": "LANG 2420",
+      "course": "LANG 4420",
       "min_grade": "D",
       "type": "course"
     }
@@ -18827,6 +18828,11 @@
         },
         {
           "course": "IHSS 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
           "min_grade": "D",
           "type": "course"
         },
@@ -27322,6 +27328,15 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "69769": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
