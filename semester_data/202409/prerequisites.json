@@ -22405,96 +22405,6 @@
       }
     }
   },
-  "69215": {
-    "cross_list_courses": [
-      "ECON-6210"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "min_grade": null,
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": null,
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69216": {
-    "cross_list_courses": [
-      "ECON-6220"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69217": {
     "cross_list_courses": [
       "ECON-4270",
@@ -22657,30 +22567,6 @@
   "69222": {
     "cross_list_courses": [
       "ECON-4010"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "69223": {
-    "cross_list_courses": [
-      "ECON-4210"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "69224": {
-    "cross_list_courses": [
-      "ECON-4220"
     ],
     "restrictions": {
       "level": {
@@ -24582,7 +24468,15 @@
       }
     }
   },
-  "69486": {},
+  "69486": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "69487": {
     "restrictions": {
       "level": {
