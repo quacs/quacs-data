@@ -27196,5 +27196,37 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "69775": {
+    "cross_list_courses": [
+      "CHEM-6130"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69776": {
+    "cross_list_courses": [
+      "CHEM-4130"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
