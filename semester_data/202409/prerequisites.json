@@ -27228,5 +27228,69 @@
         ]
       }
     }
+  },
+  "69777": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "min_grade": "TR",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69778": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "TR",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
