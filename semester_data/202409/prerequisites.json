@@ -3788,6 +3788,11 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Computer Science",
@@ -19492,12 +19497,6 @@
         "must_be": [
           "Freshman",
           "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Elect Media, Arts, & Comm"
         ]
       }
     }
