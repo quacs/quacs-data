@@ -18221,16 +18221,6 @@
       "type": "course"
     }
   },
-  "68687": {
-    "cross_list_courses": [
-      "MATH-4140"
-    ],
-    "prerequisites": {
-      "course": "PHIL 2140",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "68689": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -26713,16 +26703,6 @@
       "ARTS-1050"
     ]
   },
-  "69750": {
-    "cross_list_courses": [
-      "PHIL-4140"
-    ],
-    "prerequisites": {
-      "course": "PHIL 2140",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "69751": {
     "restrictions": {
       "classification": {
@@ -27076,5 +27056,40 @@
       }
     }
   },
-  "69785": {}
+  "69785": {},
+  "69788": {
+    "cross_list_courses": [
+      "COGS-4961",
+      "COGS-6961",
+      "CSCI-4972"
+    ]
+  },
+  "69789": {
+    "cross_list_courses": [
+      "COGS-6961",
+      "CSCI-4972",
+      "PHIL-4961"
+    ]
+  },
+  "69790": {
+    "cross_list_courses": [
+      "COGS-4961",
+      "CSCI-4972",
+      "PHIL-4961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69791": {
+    "cross_list_courses": [
+      "COGS-4961",
+      "COGS-6961",
+      "PHIL-4961"
+    ]
+  }
 }
