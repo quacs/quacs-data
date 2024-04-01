@@ -20728,6 +20728,26 @@
       }
     }
   },
+  "69036": {
+    "cross_list_courses": [
+      "ERTH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "69037": {
     "cross_list_courses": [
       "ISCI-4510"
@@ -27107,5 +27127,6 @@
     ]
   },
   "69792": {},
-  "69793": {}
+  "69793": {},
+  "69794": {}
 }
