@@ -12688,6 +12688,20 @@
       "type": "or"
     }
   },
+  "67676": {
+    "cross_list_courses": [
+      "ECSE-4964",
+      "ECSE-6964",
+      "ISYE-6964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "67679": {
     "restrictions": {
       "classification": {
@@ -24534,6 +24548,13 @@
       "course": "BMED 2100",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "69507": {
@@ -26267,12 +26288,14 @@
   },
   "69695": {
     "cross_list_courses": [
+      "CSCI-6968",
       "ECSE-6964",
       "ISYE-6964"
     ]
   },
   "69696": {
     "cross_list_courses": [
+      "CSCI-6968",
       "ECSE-4964",
       "ISYE-6964"
     ],
@@ -26940,6 +26963,7 @@
   },
   "69773": {
     "cross_list_courses": [
+      "CSCI-6968",
       "ECSE-4964",
       "ECSE-6964"
     ]
@@ -27128,5 +27152,16 @@
   },
   "69792": {},
   "69793": {},
-  "69794": {}
+  "69794": {},
+  "69795": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
