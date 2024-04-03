@@ -21718,30 +21718,26 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
-          "Sophomore",
           "Senior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
         ]
       }
     }
@@ -23660,12 +23656,25 @@
       "ENGR-6961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
-          "Sophomore",
           "Senior"
         ]
       }
@@ -25537,22 +25546,26 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
-      "major": {
+      "classification": {
         "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Junior",
+          "Senior"
         ]
       }
     }
@@ -25578,23 +25591,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
         ]
       }
     }
@@ -26287,7 +26283,12 @@
   "69697": {
     "cross_list_courses": [
       "ECSE-6220"
-    ]
+    ],
+    "prerequisites": {
+      "course": "ECSE 2210",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "69698": {
     "cross_list_courses": [
@@ -26499,9 +26500,6 @@
         ]
       }
     }
-  },
-  "69721": {
-    "cross_list_courses": []
   },
   "69722": {
     "restrictions": {
