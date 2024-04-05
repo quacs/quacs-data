@@ -12407,31 +12407,6 @@
     "cross_list_courses": [
       "ENGR-6120"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4640",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 4710",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4610",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
