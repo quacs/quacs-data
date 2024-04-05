@@ -24430,11 +24430,9 @@
   },
   "69501": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26490,7 +26488,14 @@
       "ASTR-4963",
       "PHYS-4963",
       "PHYS-6963"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "69730": {
     "prerequisites": {
@@ -26664,11 +26669,9 @@
   },
   "69751": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
