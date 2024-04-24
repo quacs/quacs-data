@@ -14781,6 +14781,9 @@
     }
   },
   "68044": {
+    "cross_list_courses": [
+      "ARTS-1040"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -24746,7 +24749,19 @@
       "type": "or"
     }
   },
-  "69530": {},
+  "69530": {
+    "cross_list_courses": [
+      "GSAS-1040"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "69531": {
     "prerequisites": {
       "course": "MGMT 1100",
