@@ -20849,6 +20849,13 @@
       "type": "course"
     }
   },
+  "69059": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "69060": {
     "restrictions": {
       "classification": {
@@ -27195,5 +27202,45 @@
     }
   },
   "69820": {},
-  "69821": {}
+  "69821": {},
+  "69822": {
+    "cross_list_courses": [
+      "COGS-4330"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69823": {
+    "cross_list_courses": [
+      "PSYC-4330"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
