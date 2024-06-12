@@ -27193,5 +27193,42 @@
     "cross_list_courses": [
       "ECON-4380"
     ]
+  },
+  "69831": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "BMED 4250",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 2250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
