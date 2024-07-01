@@ -10483,7 +10483,8 @@
       "CSCI-4350",
       "CSCI-6350",
       "ERTH-4350",
-      "ERTH-6350"
+      "ERTH-6350",
+      "ITWS-6350"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -10492,6 +10493,13 @@
     }
   },
   "67185": {
+    "cross_list_courses": [
+      "CSCI-4350",
+      "CSCI-6350",
+      "ERTH-4350",
+      "ERTH-6350",
+      "ITWS-4350"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "D",
@@ -10763,7 +10771,8 @@
       "CSCI-6350",
       "ERTH-4350",
       "ERTH-6350",
-      "ITWS-4350"
+      "ITWS-4350",
+      "ITWS-6350"
     ],
     "prerequisites": {
       "nested": [
@@ -10786,7 +10795,8 @@
       "CSCI-4350",
       "ERTH-4350",
       "ERTH-6350",
-      "ITWS-4350"
+      "ITWS-4350",
+      "ITWS-6350"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -10811,7 +10821,8 @@
       "CSCI-4350",
       "CSCI-6350",
       "ERTH-6350",
-      "ITWS-4350"
+      "ITWS-4350",
+      "ITWS-6350"
     ],
     "prerequisites": {
       "nested": [
@@ -10834,7 +10845,8 @@
       "CSCI-4350",
       "CSCI-6350",
       "ERTH-4350",
-      "ITWS-4350"
+      "ITWS-4350",
+      "ITWS-6350"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -15323,10 +15335,9 @@
           "Hartford"
         ]
       },
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -18599,7 +18610,7 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "STSO 1110",
+          "course": "STSO 1100",
           "min_grade": "D",
           "type": "course"
         },
@@ -21673,6 +21684,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "69162": {
@@ -25708,11 +25726,6 @@
       "type": "course"
     }
   },
-  "69632": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "69633": {
     "cross_list_courses": [
       "PHYS-1100"
@@ -25771,22 +25784,12 @@
       "PHYS-1100"
     ]
   },
-  "69639": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "69641": {
     "corequisites": [
       "PHYS-1100"
     ]
   },
   "69642": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "69643": {
     "corequisites": [
       "PHYS-1100"
     ]
@@ -25875,11 +25878,6 @@
       "PHYS-1100"
     ]
   },
-  "69657": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "69658": {
     "corequisites": [
       "PHYS-1100"
@@ -25890,22 +25888,12 @@
       "PHYS-1100"
     ]
   },
-  "69660": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "69661": {
     "corequisites": [
       "PHYS-1100"
     ]
   },
   "69662": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "69663": {
     "corequisites": [
       "PHYS-1100"
     ]
@@ -27200,5 +27188,32 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "69832": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "69833": {},
+  "69834": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Science"
+        ]
+      }
+    }
+  },
+  "69835": {},
+  "69836": {}
 }
