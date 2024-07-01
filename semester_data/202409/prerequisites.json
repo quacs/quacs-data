@@ -1945,21 +1945,6 @@
     }
   },
   "65106": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12882,6 +12867,10 @@
     }
   },
   "67716": {
+    "cross_list_courses": [
+      "MGMT-7230",
+      "MGMT-7770"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12901,7 +12890,8 @@
   },
   "67717": {
     "cross_list_courses": [
-      "MGMT-7230"
+      "MGMT-7230",
+      "MGMT-7770"
     ],
     "restrictions": {
       "level": {
