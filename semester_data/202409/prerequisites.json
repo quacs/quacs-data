@@ -10735,7 +10735,11 @@
   },
   "67204": {},
   "67205": {},
-  "67206": {},
+  "67206": {
+    "cross_list_courses": [
+      "ARCH-5100"
+    ]
+  },
   "67207": {
     "corequisites": [
       "BIOL-1010"
@@ -11812,6 +11816,9 @@
     }
   },
   "67419": {
+    "cross_list_courses": [
+      "ARCH-2150"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12430,13 +12437,6 @@
     }
   },
   "67656": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "67657": {
     "prerequisites": {
       "course": "ARCH 4770",
       "min_grade": "D",
@@ -13712,13 +13712,6 @@
     }
   },
   "67829": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "67830": {
     "prerequisites": {
       "course": "ARCH 4780",
       "min_grade": "D",
@@ -18075,13 +18068,6 @@
       "type": "course"
     }
   },
-  "68680": {
-    "prerequisites": {
-      "course": "ARCH 2530",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "68681": {
     "restrictions": {
       "level": {
@@ -21756,26 +21742,6 @@
       }
     }
   },
-  "69169": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69170": {
     "corequisites": [
       "ARCH-2540"
@@ -23419,10 +23385,6 @@
     }
   },
   "69365": {},
-  "69366": {},
-  "69367": {},
-  "69368": {},
-  "69369": {},
   "69370": {
     "corequisites": [
       "ARCH-2540"
@@ -23484,26 +23446,6 @@
     }
   },
   "69373": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69374": {
     "corequisites": [
       "ARCH-2540"
     ],
@@ -24969,13 +24911,6 @@
       }
     }
   },
-  "69564": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "69565": {
     "prerequisites": {
       "course": "ARCH 4780",
@@ -25066,14 +25001,6 @@
       }
     }
   },
-  "69570": {},
-  "69571": {
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "69572": {
     "cross_list_courses": [
       "ECSE-4961",
@@ -25141,6 +25068,9 @@
     "corequisites": [
       "ARCH-4820"
     ],
+    "cross_list_courses": [
+      "ARCH-5320"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25198,26 +25128,6 @@
     }
   },
   "69581": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "69582": {
     "corequisites": [
       "ARCH-4820"
     ],
@@ -25360,63 +25270,7 @@
       "type": "and"
     }
   },
-  "69594": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69595": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69596": {
-    "prerequisites": {
-      "course": "ARCH 4780",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69597": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69598": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69599": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "69600": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69601": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69602": {
     "prerequisites": {
       "course": "ARCH 2830",
       "min_grade": "D",
@@ -26421,47 +26275,7 @@
     }
   },
   "69732": {},
-  "69733": {
-    "corequisites": [
-      "ARCH-4320",
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69734": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "69735": {
-    "corequisites": [
-      "ARCH-5380"
-    ]
-  },
-  "69736": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -27074,7 +26888,6 @@
     }
   },
   "69820": {},
-  "69821": {},
   "69822": {
     "cross_list_courses": [
       "COGS-4330"
@@ -27183,5 +26996,34 @@
     }
   },
   "69835": {},
-  "69836": {}
+  "69836": {},
+  "69837": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69838": {
+    "cross_list_courses": [
+      "ARCH-4320"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 5300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 5310",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
