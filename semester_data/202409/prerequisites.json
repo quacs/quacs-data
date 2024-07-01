@@ -5161,7 +5161,6 @@
       }
     }
   },
-  "65823": {},
   "65835": {
     "restrictions": {
       "level": {
@@ -12645,23 +12644,6 @@
       "type": "or"
     }
   },
-  "67675": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 6100",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "67676": {
     "cross_list_courses": [
       "ECSE-4964",
@@ -14933,6 +14915,11 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture"
         ]
       }
     }
@@ -26049,15 +26036,6 @@
       ],
       "type": "or"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "69682": {
     "restrictions": {
       "level": {
         "must_be": [
