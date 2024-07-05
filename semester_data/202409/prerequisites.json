@@ -27106,5 +27106,78 @@
       }
     }
   },
-  "69842": {}
+  "69842": {},
+  "69843": {
+    "cross_list_courses": [
+      "COMM-6420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69844": {
+    "cross_list_courses": [
+      "COMM-4420"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69845": {
+    "cross_list_courses": [
+      "COMM-6420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69846": {
+    "cross_list_courses": [
+      "COMM-4420"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "69847": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  }
 }
