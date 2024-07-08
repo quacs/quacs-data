@@ -4162,5 +4162,27 @@
         ]
       }
     }
+  },
+  "20115": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
