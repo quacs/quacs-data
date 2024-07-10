@@ -1945,6 +1945,21 @@
     }
   },
   "65106": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
