@@ -27272,5 +27272,39 @@
       }
     }
   },
-  "69859": {}
+  "69859": {},
+  "69860": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69861": {
+    "prerequisites": {
+      "course": "CHEM 2910",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "69862": {},
+  "69863": {},
+  "69864": {},
+  "69865": {},
+  "69866": {}
 }
