@@ -7900,7 +7900,6 @@
       }
     }
   },
-  "66522": {},
   "66524": {
     "restrictions": {
       "level": {
@@ -11449,7 +11448,6 @@
       }
     }
   },
-  "67270": {},
   "67272": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -11988,7 +11986,6 @@
     }
   },
   "67452": {},
-  "67453": {},
   "67455": {},
   "67457": {
     "restrictions": {
@@ -14773,7 +14770,6 @@
       }
     }
   },
-  "68042": {},
   "68043": {
     "prerequisites": {
       "course": "ARTS 1200",
@@ -27240,5 +27236,70 @@
   "69873": {},
   "69874": {},
   "69875": {},
-  "69880": {}
+  "69880": {},
+  "69884": {},
+  "69885": {},
+  "69886": {},
+  "69887": {},
+  "69888": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "PHYS 2160",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69889": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1150",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "69890": {
+    "prerequisites": {
+      "course": "PHYS 4160",
+      "min_grade": "D",
+      "type": "course"
+    }
+  }
 }
