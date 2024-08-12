@@ -18420,21 +18420,9 @@
       }
     }
   },
-  "68750": {
-    "cross_list_courses": [
-      "CSCI-6963",
-      "ECSE-4965",
-      "ECSE-6965"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "68751": {
     "cross_list_courses": [
-      "CSCI-4963",
+      "CSCI-4160",
       "ECSE-4965",
       "ECSE-6965"
     ],
@@ -21649,6 +21637,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -23527,6 +23516,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -25027,9 +25017,9 @@
       "ISCI-6961"
     ],
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       },
       "major": {
@@ -25327,6 +25317,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -25340,7 +25331,14 @@
       "ENGR-4961",
       "ENGR-6961",
       "ISCI-4961"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "69607": {
     "cross_list_courses": [
@@ -26828,7 +26826,7 @@
   "69801": {},
   "69810": {
     "cross_list_courses": [
-      "CSCI-4963",
+      "CSCI-4160",
       "CSCI-6963",
       "ECSE-6965"
     ],
@@ -26840,7 +26838,7 @@
   },
   "69811": {
     "cross_list_courses": [
-      "CSCI-4963",
+      "CSCI-4160",
       "CSCI-6963",
       "ECSE-4965"
     ],
@@ -27304,6 +27302,43 @@
       "nested": [
         {
           "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2210",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "69893": {
+    "cross_list_courses": [
+      "CSCI-6963",
+      "ECSE-4965",
+      "ECSE-6965"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
           "min_grade": "D",
           "type": "course"
         },
