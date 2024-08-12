@@ -14269,7 +14269,7 @@
   },
   "67902": {
     "cross_list_courses": [
-      "CSCI-4962"
+      "CSCI-4140"
     ],
     "restrictions": {
       "level": {
@@ -16429,26 +16429,6 @@
           "Nuclear Engineering & Science"
         ]
       }
-    }
-  },
-  "68260": {
-    "cross_list_courses": [
-      "CSCI-6962"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "68262": {
@@ -27314,6 +27294,36 @@
       "course": "PHYS 4160",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "69892": {
+    "cross_list_courses": [
+      "CSCI-6962"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2210",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
