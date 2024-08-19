@@ -5533,6 +5533,15 @@
       }
     }
   },
+  "65937": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "65939": {
     "restrictions": {
       "level": {
@@ -13902,11 +13911,6 @@
     }
   },
   "67840": {},
-  "67841": {
-    "cross_list_courses": [
-      "MGMT-4962"
-    ]
-  },
   "67842": {},
   "67843": {
     "restrictions": {
@@ -23970,11 +23974,6 @@
       }
     }
   },
-  "69472": {
-    "cross_list_courses": [
-      "MGMT-4961"
-    ]
-  },
   "69473": {
     "cross_list_courses": [
       "COGS-6230"
@@ -27387,6 +27386,26 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "69902": {
+    "cross_list_courses": [
+      "MGMT-4550"
+    ]
+  },
+  "69903": {
+    "cross_list_courses": [
+      "MGMT-4550"
+    ]
+  },
+  "69904": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
