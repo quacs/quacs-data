@@ -14215,15 +14215,7 @@
       }
     }
   },
-  "67881": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
+  "67881": {},
   "67883": {
     "cross_list_courses": [
       "BIOL-4110"
@@ -14533,6 +14525,9 @@
     }
   },
   "68029": {
+    "cross_list_courses": [
+      "ARTS-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27423,6 +27418,33 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "69908": {
+    "cross_list_courses": [
+      "GSAS-4510"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 4520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
