@@ -27409,5 +27409,25 @@
         ]
       }
     }
+  },
+  "69906": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
