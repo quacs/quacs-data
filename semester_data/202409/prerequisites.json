@@ -8112,6 +8112,15 @@
       }
     }
   },
+  "66658": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "66661": {
     "prerequisites": {
       "nested": [
@@ -8944,6 +8953,15 @@
       }
     }
   },
+  "66834": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "66837": {
     "restrictions": {
       "classification": {
@@ -9634,6 +9652,15 @@
     }
   },
   "67009": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "67018": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -13017,6 +13044,33 @@
           "Management",
           "Quant Finance & Risk Analytics",
           "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "67721": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -22621,14 +22675,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
-      }
     }
   },
   "69275": {
@@ -22661,14 +22707,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
-      }
     }
   },
   "69276": {
@@ -22701,14 +22739,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
-      }
     }
   },
   "69282": {
