@@ -6265,6 +6265,15 @@
       }
     }
   },
+  "66198": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "66200": {
     "restrictions": {
       "level": {
@@ -27419,6 +27428,20 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "69910": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "C",
+      "type": "course"
+    }
+  },
+  "69911": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "C",
+      "type": "course"
     }
   }
 }
