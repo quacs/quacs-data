@@ -27410,5 +27410,41 @@
       "min_grade": "C",
       "type": "course"
     }
+  },
+  "69916": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "69917": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student",
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
   }
 }
