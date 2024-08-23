@@ -19357,9 +19357,6 @@
   },
   "68838": {},
   "68839": {
-    "cross_list_courses": [
-      "ARCH-4970"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19734,11 +19731,6 @@
     }
   },
   "68893": {},
-  "68897": {
-    "cross_list_courses": [
-      "ARCH-6380"
-    ]
-  },
   "68898": {
     "corequisites": [
       "ARCH-2540"
@@ -25138,26 +25130,6 @@
       "type": "and"
     }
   },
-  "69581": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "69584": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -25279,13 +25251,6 @@
   "69603": {
     "prerequisites": {
       "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "69604": {
-    "prerequisites": {
-      "course": "ARCH 4100",
       "min_grade": "D",
       "type": "course"
     }
@@ -27397,13 +27362,6 @@
       }
     }
   },
-  "69910": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "min_grade": "C",
-      "type": "course"
-    }
-  },
   "69911": {
     "prerequisites": {
       "course": "ARCH 4770",
@@ -27428,6 +27386,15 @@
           "Graduate Student",
           "Junior",
           "Senior"
+        ]
+      }
+    }
+  },
+  "69918": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
