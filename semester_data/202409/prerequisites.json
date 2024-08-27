@@ -13941,6 +13941,15 @@
       }
     }
   },
+  "67849": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "67851": {
     "restrictions": {
       "campus": {
@@ -27045,7 +27054,6 @@
       }
     }
   },
-  "69853": {},
   "69854": {},
   "69855": {},
   "69859": {},
@@ -27398,5 +27406,16 @@
       "CSCI-6973",
       "ECSE-4973"
     ]
+  },
+  "69933": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
