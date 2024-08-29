@@ -4786,6 +4786,15 @@
       }
     }
   },
+  "65453": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "65456": {
     "restrictions": {
       "level": {
@@ -15439,6 +15448,16 @@
   },
   "68147": {},
   "68158": {},
+  "68185": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "68193": {
     "prerequisites": {
       "course": "ARTS 1380",
@@ -27399,5 +27418,16 @@
       }
     }
   },
-  "69949": {}
+  "69949": {},
+  "69951": {},
+  "69952": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
