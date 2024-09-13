@@ -27584,5 +27584,60 @@
       ],
       "type": "and"
     }
+  },
+  "70055": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "70062": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "70063": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "C",
+      "type": "course"
+    }
+  },
+  "70064": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "70096": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
