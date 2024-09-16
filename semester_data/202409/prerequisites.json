@@ -27631,5 +27631,31 @@
         ]
       }
     }
+  },
+  "70120": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6230",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6290",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
