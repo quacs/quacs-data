@@ -24079,5 +24079,178 @@
       }
     }
   },
-  "33432": {}
+  "33432": {},
+  "33433": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33434": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "INQR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "STSO 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1240",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1250",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1320",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "IHSS 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1240",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1250",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33435": {},
+  "33436": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33437": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33438": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33439": {}
 }
