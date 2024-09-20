@@ -19941,28 +19941,6 @@
       "type": "and"
     }
   },
-  "32625": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "32626": {},
   "32627": {},
   "32628": {},
@@ -22734,38 +22712,6 @@
       "type": "or"
     }
   },
-  "32912": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "32913": {
     "prerequisites": {
       "nested": [
@@ -24313,5 +24259,80 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "33449": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "TR",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33450": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33451": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33452": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33453": {},
+  "33454": {}
 }
