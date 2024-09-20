@@ -22320,15 +22320,6 @@
       }
     }
   },
-  "32870": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "32871": {},
   "32872": {},
   "32873": {
@@ -24334,5 +24325,31 @@
     }
   },
   "33453": {},
-  "33454": {}
+  "33454": {},
+  "33455": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33456": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
