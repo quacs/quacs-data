@@ -1,10 +1,33 @@
 {
+  "30002": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "30003": {},
   "30004": {},
   "30005": {},
   "30006": {},
   "30007": {},
   "30008": {},
+  "30009": {
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "30010": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "30011": {},
+  "30012": {},
   "30013": {
     "prerequisites": {
       "nested": [
@@ -1243,6 +1266,7 @@
     }
   },
   "30080": {},
+  "30081": {},
   "30082": {
     "restrictions": {
       "level": {
@@ -1294,6 +1318,13 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "30087": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "30088": {
@@ -2132,6 +2163,13 @@
       "type": "and"
     }
   },
+  "30117": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "30118": {
     "restrictions": {
       "major": {
@@ -2362,6 +2400,9 @@
   "30161": {},
   "30162": {},
   "30163": {},
+  "30165": {},
+  "30166": {},
+  "30167": {},
   "30168": {},
   "30169": {},
   "30170": {},
@@ -2407,6 +2448,53 @@
     }
   },
   "30202": {},
+  "30205": {},
+  "30206": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
+  "30207": {
+    "prerequisites": {
+      "course": "MGMT 1240",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Management",
+          "Management"
+        ]
+      }
+    }
+  },
+  "30208": {
+    "prerequisites": {
+      "course": "MGMT 1240",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Management",
+          "Management"
+        ]
+      }
+    }
+  },
   "30209": {
     "prerequisites": {
       "nested": [
@@ -2569,6 +2657,73 @@
       "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "30216": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
     }
   },
   "30217": {
@@ -3558,6 +3713,21 @@
   },
   "30350": {},
   "30351": {},
+  "30352": {
+    "prerequisites": {
+      "course": "MGMT 2100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "30353": {},
+  "30354": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "30355": {
     "restrictions": {
       "level": {
@@ -3587,6 +3757,8 @@
     }
   },
   "30359": {},
+  "30361": {},
+  "30362": {},
   "30363": {
     "restrictions": {
       "level": {
@@ -3835,6 +4007,7 @@
     }
   },
   "30416": {},
+  "30417": {},
   "30419": {},
   "30420": {
     "restrictions": {
@@ -3962,6 +4135,20 @@
       }
     }
   },
+  "30443": {
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Bus. Admin."
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "30446": {},
   "30447": {
     "restrictions": {
@@ -4041,6 +4228,7 @@
       }
     }
   },
+  "30495": {},
   "30499": {},
   "30501": {
     "restrictions": {
@@ -4126,6 +4314,15 @@
     }
   },
   "30511": {},
+  "30512": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "30513": {
     "prerequisites": {
       "course": "ECSE 4250",
@@ -4284,6 +4481,33 @@
       "type": "and"
     }
   },
+  "30576": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "30577": {},
   "30578": {
     "prerequisites": {
@@ -4434,6 +4658,23 @@
       "major": {
         "must_be": [
           "Biomedical Engineering"
+        ]
+      }
+    }
+  },
+  "30585": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
         ]
       }
     }
@@ -4785,6 +5026,23 @@
       }
     }
   },
+  "30653": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "30654": {
     "restrictions": {
       "level": {
@@ -4850,6 +5108,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "30689": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -5640,6 +5909,17 @@
       }
     }
   },
+  "30812": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "30816": {
     "restrictions": {
       "level": {
@@ -5737,21 +6017,6 @@
     }
   },
   "30838": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "30839": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -6120,6 +6385,17 @@
       }
     }
   },
+  "30877": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "30878": {
     "restrictions": {
       "level": {
@@ -6259,15 +6535,6 @@
     }
   },
   "30928": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "30929": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6496,6 +6763,31 @@
       }
     }
   },
+  "30956": {
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Bus. Admin.",
+          "Master of Engineering",
+          "Master of Science"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Systems Engr and Tech Mgmt",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
   "30957": {
     "prerequisites": {
       "course": "MTLE 2100",
@@ -6668,6 +6960,17 @@
       }
     }
   },
+  "30980": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "30991": {
     "restrictions": {
       "classification": {
@@ -6800,6 +7103,17 @@
       }
     }
   },
+  "31019": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "31020": {
     "restrictions": {
       "level": {
@@ -6918,6 +7232,17 @@
       }
     }
   },
+  "31048": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "31049": {},
   "31052": {
     "restrictions": {
@@ -6999,6 +7324,26 @@
       "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "31058": {
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Quant Finance & Risk Analytics"
+        ]
+      }
     }
   },
   "31059": {},
@@ -7523,6 +7868,31 @@
       }
     }
   },
+  "31130": {
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "31131": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "31132": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "31133": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -7725,6 +8095,13 @@
       }
     }
   },
+  "31148": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "31150": {},
   "31151": {
     "prerequisites": {
@@ -7873,6 +8250,17 @@
     }
   },
   "31161": {},
+  "31162": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "31163": {
     "restrictions": {
       "classification": {
@@ -7996,6 +8384,15 @@
     }
   },
   "31173": {},
+  "31174": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "31176": {
     "restrictions": {
       "level": {
@@ -8131,6 +8528,17 @@
       }
     }
   },
+  "31200": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "31201": {
     "restrictions": {
       "level": {
@@ -8160,6 +8568,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "31205": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -9636,6 +10055,8 @@
       }
     }
   },
+  "31340": {},
+  "31341": {},
   "31342": {
     "prerequisites": {
       "course": "BMED 2300",
@@ -10539,6 +10960,7 @@
       "type": "course"
     }
   },
+  "31557": {},
   "31558": {},
   "31559": {
     "corequisites": [
@@ -11393,6 +11815,73 @@
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
           "Transportation Engineering"
+        ]
+      }
+    }
+  },
+  "31686": {},
+  "31687": {
+    "prerequisites": {
+      "course": "MGMT 6100",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "31688": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "31690": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management",
+          "Tech Commercialization Entrepr"
+        ]
+      }
+    }
+  },
+  "31691": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management",
+          "Tech Commercialization Entrepr"
         ]
       }
     }
@@ -12371,6 +12860,91 @@
     }
   },
   "31862": {},
+  "31866": {},
+  "31867": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1520",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "31868": {},
+  "31869": {
+    "prerequisites": {
+      "course": "MGMT 2100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "31870": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "31871": {
     "prerequisites": {
       "course": "COMM 2660",
@@ -14080,6 +14654,15 @@
       "type": "and"
     }
   },
+  "32069": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "32070": {},
   "32071": {},
   "32072": {
@@ -15542,6 +16125,20 @@
       }
     }
   },
+  "32206": {
+    "prerequisites": {
+      "course": "MGMT 6520",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "32207": {},
   "32208": {
     "restrictions": {
@@ -15803,6 +16400,15 @@
         "must_be": [
           "Cognitive Science",
           "Psychological Science"
+        ]
+      }
+    }
+  },
+  "32224": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -17323,6 +17929,37 @@
       "type": "and"
     }
   },
+  "32432": {
+    "prerequisites": {
+      "course": "MGMT 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "32433": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "min_grade": "C",
+      "type": "course"
+    }
+  },
+  "32434": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
   "32435": {
     "prerequisites": {
       "nested": [
@@ -17338,6 +17975,68 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "32436": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6020",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6520",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Management",
+          "Quant Finance & Risk Analytics"
+        ]
+      }
+    }
+  },
+  "32437": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Management",
+          "Quant Finance & Risk Analytics"
+        ]
+      }
+    }
+  },
+  "32438": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management (LSE)",
+          "Management",
+          "Supply Chain Management"
+        ]
+      }
     }
   },
   "32439": {
@@ -17410,6 +18109,25 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "32443": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management (LSE)",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management",
+          "Tech Commercialization Entrepr"
         ]
       }
     }
@@ -18290,6 +19008,24 @@
       }
     }
   },
+  "32510": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "32511": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "32512": {},
   "32513": {
     "restrictions": {
@@ -18341,6 +19077,13 @@
   },
   "32517": {},
   "32518": {},
+  "32519": {
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "32520": {},
   "32521": {
     "prerequisites": {
@@ -18483,6 +19226,20 @@
       }
     }
   },
+  "32542": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "32549": {},
   "32550": {},
   "32554": {},
@@ -18546,6 +19303,21 @@
       }
     }
   },
+  "32563": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "32564": {},
   "32565": {
     "prerequisites": {
       "course": "CIVL 2050",
@@ -18553,6 +19325,39 @@
       "type": "course"
     }
   },
+  "32567": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "32568": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "32569": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Management (LSE)",
+          "Management"
+        ]
+      }
+    }
+  },
+  "32570": {},
+  "32571": {},
   "32572": {},
   "32573": {
     "prerequisites": {
@@ -19692,6 +20497,17 @@
       }
     }
   },
+  "32679": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "32680": {
     "restrictions": {
       "major": {
@@ -19799,6 +20615,7 @@
     }
   },
   "32698": {},
+  "32699": {},
   "32700": {},
   "32701": {
     "restrictions": {
@@ -19843,6 +20660,17 @@
     }
   },
   "32705": {},
+  "32706": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "32707": {},
   "32708": {
     "corequisites": [
@@ -19933,6 +20761,7 @@
     }
   },
   "32718": {},
+  "32719": {},
   "32726": {
     "prerequisites": {
       "course": "ARCH 2520",
@@ -19970,6 +20799,7 @@
       }
     }
   },
+  "32743": {},
   "32744": {
     "cross_list_courses": [
       "ECSE-4961",
@@ -20221,6 +21051,7 @@
       }
     }
   },
+  "32767": {},
   "32768": {
     "restrictions": {
       "classification": {
@@ -22543,6 +23374,8 @@
       }
     }
   },
+  "32970": {},
+  "32971": {},
   "32974": {
     "prerequisites": {
       "nested": [
@@ -23016,6 +23849,8 @@
   },
   "33403": {},
   "33425": {},
+  "33426": {},
+  "33428": {},
   "33429": {
     "prerequisites": {
       "course": "CIVL 2050",
@@ -23472,6 +24307,15 @@
       "min_grade": "D",
       "type": "course"
     },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33464": {
     "restrictions": {
       "level": {
         "must_be": [
