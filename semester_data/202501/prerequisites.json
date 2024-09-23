@@ -16778,20 +16778,6 @@
     }
   },
   "32273": {},
-  "32281": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32282": {
     "restrictions": {
       "classification": {
@@ -19634,7 +19620,6 @@
       "type": "course"
     }
   },
-  "32599": {},
   "32600": {
     "restrictions": {
       "classification": {
@@ -20066,7 +20051,6 @@
       "type": "or"
     }
   },
-  "32644": {},
   "32645": {
     "restrictions": {
       "classification": {
@@ -20176,7 +20160,6 @@
       }
     }
   },
-  "32663": {},
   "32664": {
     "prerequisites": {
       "nested": [
@@ -22165,15 +22148,6 @@
       }
     }
   },
-  "32863": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32864": {},
   "32865": {
     "restrictions": {
@@ -22335,7 +22309,6 @@
     }
   },
   "32879": {},
-  "32880": {},
   "32881": {},
   "32883": {
     "prerequisites": {
@@ -22366,7 +22339,6 @@
       }
     }
   },
-  "32891": {},
   "32892": {
     "prerequisites": {
       "nested": [
@@ -22402,28 +22374,6 @@
       "type": "or"
     }
   },
-  "32895": {},
-  "32896": {},
-  "32897": {},
-  "32898": {},
-  "32899": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "32900": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32901": {
     "restrictions": {
       "classification": {
@@ -22443,15 +22393,6 @@
     }
   },
   "32903": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "32904": {
     "restrictions": {
       "classification": {
         "must_be": [
@@ -23545,22 +23486,6 @@
   "33017": {},
   "33018": {},
   "33019": {},
-  "33020": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Design, Innovation and Society",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
-  },
   "33031": {},
   "33032": {},
   "33034": {
@@ -23604,15 +23529,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "33042": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
         ]
       }
     }
@@ -24350,5 +24266,88 @@
         ]
       }
     }
-  }
+  },
+  "33486": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33487": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33488": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1240",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1250",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1570",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1580",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 1220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 1100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33489": {}
 }
