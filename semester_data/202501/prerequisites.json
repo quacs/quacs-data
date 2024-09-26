@@ -23462,5 +23462,36 @@
       }
     }
   },
-  "33500": {}
+  "33500": {},
+  "33501": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 4260",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ride 100",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33502": {
+    "prerequisites": {
+      "course": "BIOL 4260",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
