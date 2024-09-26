@@ -16584,23 +16584,6 @@
   "32365": {},
   "32367": {},
   "32368": {},
-  "32370": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 2380",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "32371": {
     "restrictions": {
       "classification": {
@@ -23492,6 +23475,13 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33503": {
+    "prerequisites": {
+      "course": "BIOL 2120",
+      "min_grade": null,
+      "type": "course"
     }
   }
 }
