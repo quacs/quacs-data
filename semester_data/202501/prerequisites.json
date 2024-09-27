@@ -16884,8 +16884,23 @@
       }
     }
   },
-  "32391": {},
+  "32391": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-6490",
+      "MANE-4963",
+      "MANE-6963"
+    ]
+  },
   "32392": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-4490",
+      "MANE-4963",
+      "MANE-6963"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18389,6 +18404,13 @@
     }
   },
   "32509": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-4963"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19442,16 +19464,6 @@
     }
   },
   "32646": {},
-  "32647": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci",
-          "Psychological Science"
-        ]
-      }
-    }
-  },
   "32649": {},
   "32650": {
     "restrictions": {
@@ -19928,7 +19940,15 @@
       "type": "course"
     }
   },
-  "32698": {},
+  "32698": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "CSCI-6969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-6963"
+    ]
+  },
   "32699": {},
   "32700": {},
   "32701": {
@@ -23552,6 +23572,33 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "33510": {
+    "cross_list_courses": [
+      "CSCI-6969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-4963",
+      "MANE-6963"
+    ]
+  },
+  "33511": {
+    "cross_list_courses": [
+      "CSCI-4969",
+      "ECSE-4490",
+      "ECSE-6490",
+      "MANE-4963",
+      "MANE-6963"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
