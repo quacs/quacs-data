@@ -19517,13 +19517,6 @@
     }
   },
   "32612": {},
-  "32613": {
-    "prerequisites": {
-      "course": "MANE 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32614": {
     "prerequisites": {
       "nested": [
@@ -20731,7 +20724,6 @@
       "type": "or"
     }
   },
-  "32761": {},
   "32762": {
     "prerequisites": {
       "course": "MANE 4480",
@@ -24059,6 +24051,47 @@
   "33515": {
     "prerequisites": {
       "course": "ENGR 2090",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33516": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33517": {
+    "prerequisites": {
+      "course": "MANE 4500",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33518": {
+    "prerequisites": {
+      "course": "MANE 4500",
       "min_grade": "D",
       "type": "course"
     }
