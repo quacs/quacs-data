@@ -8101,15 +8101,6 @@
       }
     }
   },
-  "31160": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31161": {},
   "31162": {
     "restrictions": {
@@ -10267,6 +10258,9 @@
     }
   },
   "31365": {
+    "cross_list_courses": [
+      "ASTR-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10495,6 +10489,21 @@
   },
   "31401": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "31402": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -12591,6 +12600,16 @@
   "31799": {},
   "31802": {},
   "31804": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "31808": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -24432,6 +24451,44 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "33522": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33523": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33524": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33525": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
