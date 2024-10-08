@@ -14566,9 +14566,7 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Business and Management",
           "Cognitive Science",
-          "Economics",
           "Psychological Science"
         ]
       }
@@ -15876,6 +15874,17 @@
       }
     }
   },
+  "32144": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "32148": {
     "cross_list_courses": [
       "BMED-6480"
@@ -16729,6 +16738,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "32223": {
@@ -17076,8 +17093,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman",
-          "Sophomore"
+          "Freshman"
         ]
       }
     }
@@ -17208,6 +17224,15 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "32292": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -17432,7 +17457,15 @@
   "32373": {
     "cross_list_courses": [
       "COGS-2340"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "32374": {
     "cross_list_courses": [
@@ -19378,6 +19411,7 @@
   },
   "32496": {},
   "32497": {},
+  "32498": {},
   "32499": {},
   "32500": {},
   "32501": {},
@@ -22658,6 +22692,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "32893": {},
@@ -22965,6 +23007,15 @@
       "course": "PSYC 1200",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "32925": {
@@ -23058,6 +23109,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "32929": {},
@@ -24333,7 +24393,15 @@
       "type": "or"
     }
   },
-  "33453": {},
+  "33453": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "33454": {},
   "33455": {
     "restrictions": {
@@ -24368,7 +24436,23 @@
       "type": "course"
     }
   },
-  "33458": {},
+  "33458": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2310",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "33459": {},
   "33460": {},
   "33461": {
@@ -25527,6 +25611,34 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "33584": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33585": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33586": {},
+  "33587": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
