@@ -4005,6 +4005,49 @@
       "type": "and"
     }
   },
+  "30384": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 1960",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Information Technology",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science",
+          "Transportation Engineering"
+        ]
+      }
+    }
+  },
   "30385": {
     "prerequisites": {
       "nested": [
@@ -25209,6 +25252,77 @@
       "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "33579": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33580": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33581": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33582": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
