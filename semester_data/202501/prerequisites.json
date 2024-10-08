@@ -16528,11 +16528,6 @@
       "ECON-4430"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -19215,7 +19210,11 @@
       }
     }
   },
-  "32479": {},
+  "32479": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ]
+  },
   "32480": {
     "cross_list_courses": [
       "ARCH-6965"
@@ -19489,8 +19488,15 @@
       }
     }
   },
-  "32514": {},
+  "32514": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ]
+  },
   "32515": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -20341,6 +20347,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biotechnology & Health Econ"
+        ]
+      }
     }
   },
   "32626": {},
@@ -22610,8 +22623,15 @@
       "PHIL-6960"
     ]
   },
-  "32886": {},
+  "32886": {
+    "cross_list_courses": [
+      "WRIT-6410"
+    ]
+  },
   "32887": {
+    "cross_list_courses": [
+      "WRIT-4410"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23087,6 +23107,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "32942": {
@@ -23988,7 +24015,11 @@
       "type": "or"
     }
   },
-  "33435": {},
+  "33435": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ]
+  },
   "33436": {
     "prerequisites": {
       "nested": [
@@ -24101,9 +24132,9 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
@@ -24115,18 +24146,18 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
   },
   "33445": {
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
@@ -24394,6 +24425,43 @@
     }
   },
   "33470": {},
+  "33471": {
+    "cross_list_courses": [
+      "ECON-4360"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33473": {
+    "cross_list_courses": [
+      "ECON-6360"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 1200",
+          "min_grade": "TR",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "33475": {
     "restrictions": {
       "major": {
