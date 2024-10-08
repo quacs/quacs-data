@@ -3717,15 +3717,6 @@
       }
     }
   },
-  "30332": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "30333": {
     "restrictions": {
       "level": {
@@ -7471,15 +7462,6 @@
       "type": "and"
     }
   },
-  "31063": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31064": {
     "restrictions": {
       "classification": {
@@ -9661,25 +9643,6 @@
       }
     }
   },
-  "31280": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "31281": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "31284": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -11587,16 +11550,6 @@
     }
   },
   "31607": {},
-  "31611": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "31612": {
     "corequisites": [
       "ARCH-2360",
@@ -11738,16 +11691,6 @@
     }
   },
   "31671": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "31673": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -13906,21 +13849,6 @@
         "may_not_be": [
           "Freshman",
           "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "31950": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
           "Sophomore"
         ]
       },
@@ -23352,46 +23280,6 @@
     }
   },
   "32956": {
-    "corequisites": [
-      "ARCH-2530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2800",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "32957": {
-    "corequisites": [
-      "ARCH-2530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2800",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "32958": {
     "corequisites": [
       "ARCH-2530"
     ],
