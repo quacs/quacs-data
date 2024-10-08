@@ -1473,11 +1473,6 @@
       }
     }
   },
-  "30092": {
-    "corequisites": [
-      "ARCH-4820"
-    ]
-  },
   "30094": {
     "prerequisites": {
       "course": "CIVL 2630",
@@ -3483,13 +3478,6 @@
     ],
     "prerequisites": {
       "course": "ARCH 2370",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30286": {
-    "prerequisites": {
-      "course": "ARCH 2360",
       "min_grade": "D",
       "type": "course"
     }
@@ -8185,13 +8173,6 @@
     }
   },
   "31150": {},
-  "31151": {
-    "prerequisites": {
-      "course": "ASTR 2050",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "31152": {
     "cross_list_courses": [
       "BMED-4010"
@@ -8547,13 +8528,6 @@
         ]
       }
     }
-  },
-  "31189": {
-    "cross_list_courses": [
-      "ASTR-4961",
-      "ASTR-6960",
-      "PHYS-6963"
-    ]
   },
   "31190": {
     "restrictions": {
@@ -12045,30 +12019,6 @@
       "type": "course"
     }
   },
-  "31704": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31705": {
     "cross_list_courses": [
       "MATH-1520"
@@ -12521,7 +12471,11 @@
       "type": "course"
     }
   },
-  "31734": {},
+  "31734": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
   "31735": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -12589,11 +12543,6 @@
       "min_grade": "D",
       "type": "course"
     }
-  },
-  "31741": {
-    "cross_list_courses": [
-      "PHYS-6960"
-    ]
   },
   "31742": {
     "prerequisites": {
@@ -13832,23 +13781,6 @@
       "classification": {
         "may_not_be": [
           "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "31948": {},
-  "31949": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
           "Sophomore"
         ]
       },
@@ -18505,13 +18437,6 @@
       }
     }
   },
-  "32448": {
-    "prerequisites": {
-      "course": "ARCH 4520",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32449": {
     "cross_list_courses": [
       "ARCH-5150",
@@ -18697,9 +18622,6 @@
     }
   },
   "32464": {
-    "cross_list_courses": [
-      "PHYS-4962"
-    ],
     "prerequisites": {
       "course": "PHYS 2210",
       "min_grade": "D",
@@ -20135,13 +20057,6 @@
       }
     }
   },
-  "32610": {
-    "cross_list_courses": [
-      "ASTR-6960",
-      "PHYS-4961",
-      "PHYS-6963"
-    ]
-  },
   "32611": {
     "prerequisites": {
       "course": "CHME 2020",
@@ -20179,13 +20094,6 @@
   "32615": {
     "cross_list_courses": [
       "CHME-4011"
-    ]
-  },
-  "32616": {
-    "cross_list_courses": [
-      "ASTR-4961",
-      "ASTR-6960",
-      "PHYS-4961"
     ]
   },
   "32617": {
@@ -21023,23 +20931,6 @@
       "type": "course"
     }
   },
-  "32704": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4910",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4790",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "32705": {},
   "32706": {
     "restrictions": {
@@ -21866,6 +21757,9 @@
     }
   },
   "32798": {
+    "cross_list_courses": [
+      "CSCI-6450"
+    ],
     "prerequisites": {
       "course": "CSCI 4430",
       "min_grade": "D",
@@ -21873,6 +21767,9 @@
     }
   },
   "32799": {
+    "cross_list_courses": [
+      "CSCI-4450"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21946,6 +21843,9 @@
     }
   },
   "32813": {
+    "cross_list_courses": [
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23068,88 +22968,12 @@
   "32935": {},
   "32936": {},
   "32937": {},
-  "32938": {},
   "32939": {
     "cross_list_courses": [
       "ARCH-6967"
     ]
   },
   "32940": {},
-  "32941": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "32942": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "32943": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "32944": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "32945": {
     "prerequisites": {
       "course": "ARCH 4820",
@@ -23584,32 +23408,6 @@
   },
   "32984": {},
   "32985": {},
-  "32986": {
-    "cross_list_courses": [
-      "ASTR-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "32987": {
-    "cross_list_courses": [
-      "ASTR-4961",
-      "PHYS-4961",
-      "PHYS-6963"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32988": {},
   "32989": {
     "prerequisites": {
@@ -24876,6 +24674,9 @@
     ]
   },
   "33528": {
+    "cross_list_courses": [
+      "CSCI-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24893,6 +24694,9 @@
     }
   },
   "33529": {
+    "cross_list_courses": [
+      "CSCI-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24917,6 +24721,9 @@
     }
   },
   "33530": {
+    "cross_list_courses": [
+      "CSCI-6967"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24960,6 +24767,9 @@
     }
   },
   "33534": {
+    "cross_list_courses": [
+      "CSCI-6530"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24977,6 +24787,9 @@
     }
   },
   "33535": {
+    "cross_list_courses": [
+      "CSCI-4530"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25001,6 +24814,9 @@
     }
   },
   "33536": {
+    "cross_list_courses": [
+      "CSCI-6050"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -25008,15 +24824,29 @@
     }
   },
   "33537": {
+    "cross_list_courses": [
+      "CSCI-4050"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "33538": {},
-  "33539": {},
+  "33538": {
+    "cross_list_courses": [
+      "CSCI-6960"
+    ]
+  },
+  "33539": {
+    "cross_list_courses": [
+      "CSCI-6963"
+    ]
+  },
   "33540": {
+    "cross_list_courses": [
+      "CSCI-4963"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25027,8 +24857,15 @@
       }
     }
   },
-  "33541": {},
+  "33541": {
+    "cross_list_courses": [
+      "CSCI-6965"
+    ]
+  },
   "33542": {
+    "cross_list_courses": [
+      "CSCI-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25055,6 +24892,9 @@
     }
   },
   "33544": {
+    "cross_list_courses": [
+      "CSCI-4170"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25064,8 +24904,15 @@
       }
     }
   },
-  "33545": {},
+  "33545": {
+    "cross_list_courses": [
+      "CSCI-6971"
+    ]
+  },
   "33546": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25075,13 +24922,41 @@
       }
     }
   },
-  "33547": {},
-  "33548": {},
-  "33549": {},
-  "33550": {},
-  "33551": {},
-  "33552": {},
-  "33553": {},
+  "33547": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33548": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33549": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33550": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33551": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33552": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "33553": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
   "33554": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -25522,6 +25397,27 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "33589": {},
+  "33590": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33591": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
