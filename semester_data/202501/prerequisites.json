@@ -12977,51 +12977,6 @@
       "type": "course"
     }
   },
-  "31872": {
-    "cross_list_courses": [
-      "ECSE-6560"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2500",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering"
-        ]
-      }
-    }
-  },
-  "31873": {
-    "cross_list_courses": [
-      "ECSE-4560"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31874": {
     "cross_list_courses": [
       "COMM-2570"
@@ -14348,18 +14303,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "32043": {
-    "cross_list_courses": [
-      "ECSE-4966"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "32044": {
@@ -19954,9 +19897,6 @@
     }
   },
   "32595": {
-    "cross_list_courses": [
-      "ECSE-6210"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25502,6 +25442,59 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33601": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33602": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 4530",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
     }
   }
 }
