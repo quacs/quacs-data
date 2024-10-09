@@ -4723,50 +4723,6 @@
       }
     }
   },
-  "30584": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "BMED 4250",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 2250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biomedical Engineering"
-        ]
-      }
-    }
-  },
   "30585": {
     "restrictions": {
       "level": {
@@ -10087,7 +10043,6 @@
       "type": "course"
     }
   },
-  "31343": {},
   "31344": {
     "cross_list_courses": [
       "BMED-4460"
@@ -15462,7 +15417,6 @@
     }
   },
   "32120": {},
-  "32123": {},
   "32125": {
     "restrictions": {
       "classification": {
@@ -22172,15 +22126,6 @@
   },
   "32871": {},
   "32872": {},
-  "32873": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "32874": {
     "restrictions": {
       "classification": {
@@ -22195,15 +22140,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "32876": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
         ]
       }
     }
@@ -23976,7 +23912,6 @@
   },
   "33479": {},
   "33480": {},
-  "33481": {},
   "33483": {},
   "33484": {
     "cross_list_courses": [
@@ -24102,7 +24037,15 @@
   "33494": {
     "cross_list_courses": [
       "GSAS-1040"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "33496": {},
   "33497": {},
@@ -24911,7 +24854,16 @@
       "type": "and"
     }
   },
-  "33568": {},
+  "33568": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "33569": {
     "prerequisites": {
       "course": "ARTS 4070",
@@ -25426,6 +25378,65 @@
           "Biomedical Engineering"
         ]
       }
+    }
+  },
+  "33613": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33614": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33615": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "IHSS 1610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
