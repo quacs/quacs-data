@@ -8676,11 +8676,6 @@
       "type": "or"
     }
   },
-  "31230": {
-    "corequisites": [
-      "BIOL-1010"
-    ]
-  },
   "31231": {
     "corequisites": [
       "BIOL-1010"
@@ -12959,7 +12954,9 @@
     "cross_list_courses": [
       "BCBP-4660",
       "BCBP-6650",
-      "BIOL-6650"
+      "BIOL-6650",
+      "BMED-4670",
+      "BMED-6670"
     ],
     "prerequisites": {
       "nested": [
@@ -12981,7 +12978,9 @@
     "cross_list_courses": [
       "BCBP-4660",
       "BCBP-6650",
-      "BIOL-4660"
+      "BIOL-4660",
+      "BMED-4670",
+      "BMED-6670"
     ],
     "restrictions": {
       "level": {
@@ -12995,7 +12994,9 @@
     "cross_list_courses": [
       "BCBP-6650",
       "BIOL-4660",
-      "BIOL-6650"
+      "BIOL-6650",
+      "BMED-4670",
+      "BMED-6670"
     ],
     "prerequisites": {
       "nested": [
@@ -13032,7 +13033,9 @@
     "cross_list_courses": [
       "BCBP-4660",
       "BIOL-4660",
-      "BIOL-6650"
+      "BIOL-6650",
+      "BMED-4670",
+      "BMED-6670"
     ],
     "restrictions": {
       "level": {
@@ -19133,7 +19136,6 @@
   "32549": {},
   "32550": {},
   "32554": {},
-  "32555": {},
   "32559": {
     "cross_list_courses": [
       "PHYS-1150"
@@ -25359,6 +25361,13 @@
   "33625": {},
   "33626": {},
   "33627": {
+    "cross_list_courses": [
+      "BCBP-4660",
+      "BCBP-6650",
+      "BIOL-4660",
+      "BIOL-6650",
+      "BMED-6670"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25375,7 +25384,15 @@
       "type": "and"
     }
   },
-  "33628": {},
+  "33628": {
+    "cross_list_courses": [
+      "BCBP-4660",
+      "BCBP-6650",
+      "BIOL-4660",
+      "BIOL-6650",
+      "BMED-4670"
+    ]
+  },
   "33629": {
     "prerequisites": {
       "nested": [
@@ -25402,5 +25419,23 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "33630": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33631": {}
 }

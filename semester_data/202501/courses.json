@@ -8559,12 +8559,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 100,
+            "cap": 80,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 31226,
             "crse": 1010,
-            "rem": 100,
+            "rem": 80,
             "sec": "01",
             "subj": "BIOL",
             "timeslots": [
@@ -8586,12 +8586,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 100,
+            "cap": 80,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 31227,
             "crse": 1010,
-            "rem": 100,
+            "rem": 80,
             "sec": "02",
             "subj": "BIOL",
             "timeslots": [
@@ -8613,12 +8613,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 100,
+            "cap": 80,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 31228,
             "crse": 1010,
-            "rem": 100,
+            "rem": 80,
             "sec": "03",
             "subj": "BIOL",
             "timeslots": [
@@ -8640,12 +8640,12 @@
           {
             "act": 0,
             "attribute": "Introductory Level Course",
-            "cap": 100,
+            "cap": 80,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 33509,
             "crse": 1010,
-            "rem": 100,
+            "rem": 80,
             "sec": "04",
             "subj": "BIOL",
             "timeslots": [
@@ -8672,32 +8672,6 @@
         "crse": 1015,
         "id": "BIOL-1015",
         "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 64,
-            "credMax": 1.0,
-            "credMin": 1.0,
-            "crn": 31230,
-            "crse": 1015,
-            "rem": 64,
-            "sec": "02",
-            "subj": "BIOL",
-            "timeslots": [
-              {
-                "dateEnd": "04/23",
-                "dateStart": "01/06",
-                "days": [
-                  "M"
-                ],
-                "instructor": "Seemanti Ramanath, Georgi G. Shablovsky",
-                "location": "Walker Laboratory 5113",
-                "timeEnd": 1550,
-                "timeStart": 1300
-              }
-            ],
-            "title": "Introduction To Biology Laboratory"
-          },
           {
             "act": 0,
             "attribute": "",
@@ -11795,7 +11769,8 @@
                 "timeStart": 1400
               }
             ],
-            "title": "The Biology Of Systems"
+            "title": "The Biology Of Systems",
+            "xl_rem": 30
           }
         ],
         "subj": "BMED",
@@ -12079,7 +12054,8 @@
                 "timeStart": 1400
               }
             ],
-            "title": "The Biology Of Systems"
+            "title": "The Biology Of Systems",
+            "xl_rem": 30
           }
         ],
         "subj": "BMED",
@@ -20340,30 +20316,6 @@
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
-              }
-            ],
-            "title": "Undergraduate Thesis"
-          },
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 1,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 32555,
-            "crse": 4990,
-            "rem": 1,
-            "sec": "15",
-            "subj": "COGS",
-            "timeslots": [
-              {
-                "dateEnd": "04/23",
-                "dateStart": "01/06",
-                "days": [],
-                "instructor": "Bram Van Heuveln",
-                "location": "TBA",
-                "timeEnd": 801,
-                "timeStart": 800
               }
             ],
             "title": "Undergraduate Thesis"
@@ -32065,6 +32017,41 @@
         "title": "Intro To Geophysics"
       },
       {
+        "crse": 2140,
+        "id": "ERTH-2140",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "Data Intensive I",
+            "cap": 25,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 33630,
+            "crse": 2140,
+            "rem": 25,
+            "sec": "01",
+            "subj": "ERTH",
+            "timeslots": [
+              {
+                "dateEnd": "04/23",
+                "dateStart": "01/06",
+                "days": [
+                  "M",
+                  "R"
+                ],
+                "instructor": "Matthew Adam Pasek",
+                "location": "TBA",
+                "timeEnd": 1150,
+                "timeStart": 1000
+              }
+            ],
+            "title": "Intro To Geochemistry"
+          }
+        ],
+        "subj": "ERTH",
+        "title": "Intro To Geochemistry"
+      },
+      {
         "crse": 2610,
         "id": "ERTH-2610",
         "sections": [
@@ -32081,13 +32068,16 @@
             "subj": "ERTH",
             "timeslots": [
               {
-                "dateEnd": "",
-                "dateStart": "",
-                "days": [],
-                "instructor": "",
-                "location": "",
-                "timeEnd": -1,
-                "timeStart": -1
+                "dateEnd": "04/23",
+                "dateStart": "01/13",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Morgan Frederick Schaller",
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
               }
             ],
             "title": "Oceanography"
@@ -43299,6 +43289,41 @@
         ],
         "subj": "LGHT",
         "title": "Lighting Technologies And Applications"
+      },
+      {
+        "crse": 4960,
+        "id": "LGHT-4960",
+        "sections": [
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 15,
+            "credMax": 4.0,
+            "credMin": 4.0,
+            "crn": 33631,
+            "crse": 4960,
+            "rem": 15,
+            "sec": "01",
+            "subj": "LGHT",
+            "timeslots": [
+              {
+                "dateEnd": "04/23",
+                "dateStart": "01/06",
+                "days": [
+                  "T",
+                  "F"
+                ],
+                "instructor": "Ukwatte Lokuliyanage Indika Upendra Perera, Jean Paul Freyssinier",
+                "location": "Gurley Building",
+                "timeEnd": 1550,
+                "timeStart": 1400
+              }
+            ],
+            "title": "3d Painting For Lighting"
+          }
+        ],
+        "subj": "LGHT",
+        "title": "3d Painting For Lighting"
       },
       {
         "crse": 6760,
