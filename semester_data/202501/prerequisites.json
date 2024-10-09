@@ -8409,21 +8409,6 @@
       }
     }
   },
-  "31181": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31187": {
     "restrictions": {
       "level": {
@@ -15520,16 +15505,6 @@
       "type": "course"
     }
   },
-  "32143": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "32144": {
     "restrictions": {
       "classification": {
@@ -16766,16 +16741,6 @@
   "32267": {},
   "32268": {},
   "32269": {},
-  "32270": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "32271": {
     "restrictions": {
       "classification": {
@@ -16881,17 +16846,6 @@
       "classification": {
         "must_be": [
           "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "32315": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
           "Sophomore"
         ]
       }
@@ -25421,5 +25375,32 @@
       "type": "and"
     }
   },
-  "33628": {}
+  "33628": {},
+  "33629": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
