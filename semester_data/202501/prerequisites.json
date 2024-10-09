@@ -19942,7 +19942,6 @@
       "type": "course"
     }
   },
-  "32608": {},
   "32609": {
     "cross_list_courses": [
       "ISCI-4510"
@@ -25475,5 +25474,23 @@
         ]
       }
     }
-  }
+  },
+  "33605": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33606": {}
 }
