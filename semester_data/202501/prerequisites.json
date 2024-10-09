@@ -23529,16 +23529,6 @@
       "type": "course"
     }
   },
-  "33357": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "33403": {},
   "33425": {},
   "33426": {},
@@ -25450,6 +25440,32 @@
     }
   },
   "33603": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33604": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6230",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6290",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "may_not_be": [
