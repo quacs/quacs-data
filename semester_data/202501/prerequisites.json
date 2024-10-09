@@ -10221,29 +10221,6 @@
       "type": "and"
     }
   },
-  "31354": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "31355": {
-    "prerequisites": {
-      "course": "ARCH 6910",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31356": {
     "prerequisites": {
       "nested": [
@@ -15619,22 +15596,6 @@
   "32151": {},
   "32152": {},
   "32154": {},
-  "32155": {
-    "prerequisites": {
-      "course": "ARCH 6910",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "32156": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32158": {
     "restrictions": {
       "classification": {
@@ -18868,9 +18829,6 @@
       "STSO-2520"
     ]
   },
-  "32480": {
-    "cross_list_courses": []
-  },
   "32482": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -22010,6 +21968,11 @@
     "cross_list_courses": [
       "GSAS-6200"
     ],
+    "prerequisites": {
+      "course": "GSAS 4540",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -25343,6 +25306,9 @@
     }
   },
   "33613": {
+    "cross_list_courses": [
+      "BMED-6490"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25368,6 +25334,9 @@
     }
   },
   "33614": {
+    "cross_list_courses": [
+      "BMED-4490"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25423,5 +25392,16 @@
   "33619": {},
   "33620": {},
   "33621": {},
-  "33622": {}
+  "33622": {},
+  "33623": {},
+  "33624": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33625": {}
 }
