@@ -388,31 +388,6 @@
       }
     }
   },
-  "30037": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 4440",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer & Systems Engineering",
-          "Electrical Engineering"
-        ]
-      }
-    }
-  },
   "30038": {
     "prerequisites": {
       "nested": [
@@ -25495,6 +25470,17 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "33603": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
