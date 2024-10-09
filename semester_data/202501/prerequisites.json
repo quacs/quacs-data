@@ -21180,34 +21180,6 @@
       }
     }
   },
-  "32784": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "32785": {
-    "cross_list_courses": [],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "32786": {
     "prerequisites": {
       "nested": [
@@ -21498,16 +21470,6 @@
         ]
       }
     }
-  },
-  "32810": {
-    "cross_list_courses": [
-      "ISYE-6370"
-    ]
-  },
-  "32811": {
-    "cross_list_courses": [
-      "ISYE-4370"
-    ]
   },
   "32812": {
     "restrictions": {
@@ -25438,5 +25400,28 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "33616": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33617": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33618": {},
+  "33619": {},
+  "33620": {},
+  "33621": {},
+  "33622": {}
 }
