@@ -4445,15 +4445,6 @@
     }
   },
   "30514": {},
-  "30515": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "30516": {},
   "30517": {},
   "30521": {},
@@ -7550,15 +7541,6 @@
     }
   },
   "31088": {},
-  "31089": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31091": {
     "restrictions": {
       "level": {
@@ -7644,15 +7626,6 @@
     }
   },
   "31107": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "31108": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -11066,23 +11039,6 @@
       }
     }
   },
-  "31563": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1250",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "31564": {
     "restrictions": {
       "classification": {
@@ -12630,16 +12586,6 @@
         "may_not_be": [
           "Freshman",
           "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "31754": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
           "Sophomore"
         ]
       }
@@ -18252,18 +18198,6 @@
       }
     }
   },
-  "32441": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "32442": {
     "cross_list_courses": [
       "ISYE-4330"
@@ -18518,20 +18452,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "32464": {
-    "prerequisites": {
-      "course": "PHYS 2210",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
         ]
       }
     }
@@ -18995,21 +18915,7 @@
     ]
   },
   "32480": {
-    "cross_list_courses": [
-      "ARCH-6965"
-    ]
-  },
-  "32481": {
-    "cross_list_courses": [
-      "ARCH-4965"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
+    "cross_list_courses": []
   },
   "32482": {
     "cross_list_courses": [
@@ -20767,16 +20673,6 @@
   "32689": {},
   "32690": {},
   "32691": {},
-  "32692": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "32694": {},
   "32696": {
     "prerequisites": {
@@ -21298,63 +21194,6 @@
       }
     }
   },
-  "32773": {
-    "cross_list_courses": [
-      "ISYE-6600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ISYE 2210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 4110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "32774": {
-    "cross_list_courses": [
-      "ISYE-4210"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32776": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -21371,7 +21210,8 @@
   },
   "32783": {
     "cross_list_courses": [
-      "CSCI-6966"
+      "CSCI-6966",
+      "ISYE-4960"
     ],
     "restrictions": {
       "classification": {
@@ -22189,7 +22029,15 @@
       }
     }
   },
-  "32853": {},
+  "32853": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "32856": {
     "prerequisites": {
       "course": "LGHT 4230",
@@ -23180,6 +23028,7 @@
   "32968": {},
   "32969": {
     "cross_list_courses": [
+      "ISYE-4960",
       "ISYE-6550"
     ],
     "restrictions": {
@@ -25078,6 +24927,9 @@
     }
   },
   "33571": {
+    "cross_list_courses": [
+      "COGS-6640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25092,9 +24944,19 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "33572": {
+    "cross_list_courses": [
+      "COGS-4640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25225,6 +25087,9 @@
     }
   },
   "33583": {
+    "cross_list_courses": [
+      "ISYE-6760"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25492,5 +25357,75 @@
       "type": "and"
     }
   },
-  "33606": {}
+  "33606": {
+    "cross_list_courses": [
+      "CSCI-6966",
+      "ISYE-6550"
+    ]
+  },
+  "33607": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33608": {
+    "prerequisites": {
+      "course": "ISYE 4290",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33609": {
+    "cross_list_courses": [
+      "MATP-6620"
+    ]
+  },
+  "33611": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Engineering"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
+  },
+  "33612": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
+  }
 }
