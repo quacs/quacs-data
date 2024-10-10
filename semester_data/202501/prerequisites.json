@@ -6585,28 +6585,6 @@
       }
     }
   },
-  "30944": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "30945": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "30946": {
     "restrictions": {
       "classification": {
@@ -25396,6 +25374,9 @@
     }
   },
   "33630": {
+    "cross_list_courses": [
+      "CHEM-2540"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25423,6 +25404,27 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33633": {},
+  "33634": {
+    "cross_list_courses": [
+      "ERTH-2140"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
