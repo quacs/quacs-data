@@ -4707,9 +4707,6 @@
     }
   },
   "30583": {
-    "cross_list_courses": [
-      "MATH-4090"
-    ],
     "prerequisites": {
       "course": "MATH 2010",
       "min_grade": "D",
@@ -8556,6 +8553,9 @@
     }
   },
   "31222": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -11822,7 +11822,11 @@
       }
     }
   },
-  "31702": {},
+  "31702": {
+    "cross_list_courses": [
+      "LANG-1410"
+    ]
+  },
   "31703": {
     "prerequisites": {
       "course": "LANG 4430",
@@ -13551,6 +13555,30 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "31948": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ]
+  },
+  "31949": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       },
@@ -15337,8 +15365,6 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci",
           "Information Tech & Web Science"
         ]
@@ -19017,7 +19043,6 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -19468,24 +19493,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "32587": {
-    "cross_list_courses": [
-      "MATH-4090"
-    ],
-    "prerequisites": {
-      "course": "MATH 2010",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Mathematics",
-          "Mathematics"
-        ]
-      }
     }
   },
   "32588": {
@@ -21748,6 +21755,9 @@
     }
   },
   "32848": {
+    "cross_list_courses": [
+      "COMM-6964"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -21759,12 +21769,6 @@
       "COMM-4960"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -23723,9 +23727,37 @@
       }
     }
   },
-  "33479": {},
-  "33480": {},
-  "33483": {},
+  "33479": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33480": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33483": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "33484": {
     "cross_list_courses": [
       "COMM-6962"
@@ -23736,11 +23768,9 @@
       "COMM-4962"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -23750,11 +23780,9 @@
       "COMM-4540"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25242,6 +25270,9 @@
     }
   },
   "33615": {
+    "cross_list_courses": [
+      "COMM-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25259,6 +25290,9 @@
     }
   },
   "33616": {
+    "cross_list_courses": [
+      "COMM-4420"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25278,8 +25312,16 @@
   },
   "33618": {},
   "33619": {},
-  "33620": {},
-  "33621": {},
+  "33620": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ]
+  },
+  "33621": {
+    "cross_list_courses": [
+      "COMM-2660"
+    ]
+  },
   "33622": {},
   "33623": {},
   "33624": {
@@ -25370,5 +25412,17 @@
       "type": "and"
     }
   },
-  "33631": {}
+  "33631": {},
+  "33632": {
+    "cross_list_courses": [
+      "COMM-4690"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
