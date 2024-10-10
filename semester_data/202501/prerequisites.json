@@ -13133,13 +13133,6 @@
       "type": "course"
     }
   },
-  "31908": {
-    "prerequisites": {
-      "course": "ARCH 4510",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "31909": {
     "restrictions": {
       "major": {
@@ -18858,27 +18851,7 @@
       }
     }
   },
-  "32504": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "32505": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "32506": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -19997,11 +19970,6 @@
       }
     }
   },
-  "32656": {
-    "cross_list_courses": [
-      "CHEM-6966"
-    ]
-  },
   "32657": {
     "cross_list_courses": [
       "CHEM-4966"
@@ -21035,16 +21003,6 @@
     ],
     "prerequisites": {
       "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "32791": {
-    "cross_list_courses": [
-      "CHEM-6300"
-    ],
-    "prerequisites": {
-      "course": "CHEM 2260",
       "min_grade": "D",
       "type": "course"
     }
@@ -25370,6 +25328,40 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33638": {},
+  "33639": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33640": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 4110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4420",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
