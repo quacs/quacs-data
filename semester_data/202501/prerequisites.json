@@ -16407,28 +16407,6 @@
       "ISYE-6350"
     ]
   },
-  "32228": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "32229": {
     "cross_list_courses": [
       "CHEM-6140"
@@ -17573,31 +17551,6 @@
       "type": "and"
     }
   },
-  "32404": {
-    "cross_list_courses": [
-      "MANE-4740"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "32405": {
     "prerequisites": {
       "course": "MANE 4500",
@@ -18553,9 +18506,7 @@
     }
   },
   "32472": {
-    "cross_list_courses": [
-      "ENGR-4610"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "course": "STSO 2020",
       "min_grade": "D",
