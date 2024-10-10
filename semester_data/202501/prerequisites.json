@@ -25350,5 +25350,26 @@
   "33641": {},
   "33642": {},
   "33643": {},
-  "33644": {}
+  "33644": {},
+  "33650": {
+    "corequisites": [
+      "ARCH-2360",
+      "ARCH-2550"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2820",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2540",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
