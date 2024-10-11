@@ -11716,15 +11716,6 @@
       "type": "course"
     }
   },
-  "31696": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31698": {
     "prerequisites": {
       "course": "ARCH 5380",
@@ -16644,13 +16635,6 @@
       }
     }
   },
-  "32263": {
-    "prerequisites": {
-      "course": "ARCH 6910",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32264": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -19681,11 +19665,6 @@
   "32621": {
     "cross_list_courses": [
       "CSCI-6961"
-    ]
-  },
-  "32622": {
-    "corequisites": [
-      "BIOL-2120"
     ]
   },
   "32623": {
@@ -25520,6 +25499,38 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "33672": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33673": {},
+  "33674": {},
+  "33675": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33676": {
+    "corequisites": [
+      "ARCH-5210"
+    ]
+  },
+  "33677": {
+    "prerequisites": {
+      "course": "ARCH 5200",
+      "min_grade": "C",
+      "type": "course"
     }
   }
 }
