@@ -18015,6 +18015,9 @@
     }
   },
   "32446": {
+    "cross_list_courses": [
+      "CSCI-6840"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25356,5 +25359,123 @@
   "33651": {},
   "33652": {},
   "33653": {},
-  "33654": {}
+  "33654": {},
+  "33655": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33656": {},
+  "33657": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33658": {
+    "cross_list_courses": [
+      "MATH-6840"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33659": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33660": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33661": {},
+  "33662": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33663": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33664": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
