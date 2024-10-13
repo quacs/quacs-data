@@ -19677,7 +19677,6 @@
       "type": "and"
     }
   },
-  "32618": {},
   "32619": {
     "cross_list_courses": [
       "CSCI-6230"
@@ -20792,30 +20791,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "32760": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4290",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 6290",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "32762": {
-    "prerequisites": {
-      "course": "MANE 4480",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "32766": {
@@ -25586,6 +25561,7 @@
       }
     }
   },
+  "33680": {},
   "33681": {
     "prerequisites": {
       "course": "MANE 4070",
@@ -25598,6 +25574,48 @@
       "course": "MANE 4070",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "33683": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1960",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
