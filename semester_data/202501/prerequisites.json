@@ -6497,6 +6497,15 @@
       }
     }
   },
+  "30916": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "30918": {
     "restrictions": {
       "level": {
@@ -20953,20 +20962,6 @@
       "CHEM-6610"
     ]
   },
-  "32756": {
-    "prerequisites": {
-      "course": "MANE 4070",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32757": {
     "cross_list_courses": [
       "ENGR-4720",
@@ -21939,7 +21934,8 @@
   },
   "32865": {
     "cross_list_courses": [
-      "INQR-1100"
+      "INQR-1100",
+      "STSO-1100"
     ],
     "restrictions": {
       "classification": {
@@ -21951,7 +21947,8 @@
   },
   "32866": {
     "cross_list_courses": [
-      "INQR-1100"
+      "INQR-1100",
+      "STSO-1100"
     ],
     "restrictions": {
       "classification": {
@@ -21963,7 +21960,8 @@
   },
   "32867": {
     "cross_list_courses": [
-      "INQR-1100"
+      "INQR-1100",
+      "STSO-1100"
     ],
     "restrictions": {
       "classification": {
@@ -25978,6 +25976,45 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "33702": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33703": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33704": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
