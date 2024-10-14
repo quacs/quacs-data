@@ -17789,22 +17789,98 @@
   "32418": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
   },
   "32419": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
   },
   "32420": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
   },
   "32421": {
     "corequisites": [
       "BIOL-2120"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biochemistry & Biophysics",
+          "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Biomedical Engineering",
+          "Biotechnology & Health Econ",
+          "Computational Biology"
+        ]
+      }
+    }
   },
   "32422": {
     "prerequisites": {
@@ -25788,5 +25864,58 @@
   },
   "33689": {},
   "33692": {},
-  "33693": {}
+  "33693": {},
+  "33697": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "33698": {
+    "cross_list_courses": [
+      "COGS-6540",
+      "CSCI-4967"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COGS 4520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33699": {
+    "cross_list_courses": [
+      "COGS-4540",
+      "CSCI-4967"
+    ]
+  },
+  "33700": {
+    "cross_list_courses": [
+      "COGS-4540",
+      "COGS-6540"
+    ]
+  },
+  "33701": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
