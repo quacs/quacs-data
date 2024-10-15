@@ -26006,5 +26006,103 @@
       "type": "and"
     }
   },
-  "33710": {}
+  "33710": {},
+  "33711": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33712": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33713": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2530",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33714": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2530",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
