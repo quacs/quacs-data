@@ -11583,7 +11583,6 @@
   },
   "31684": {
     "cross_list_courses": [
-      "ENGR-4720",
       "MANE-4620"
     ],
     "prerequisites": {
@@ -11630,7 +11629,6 @@
   },
   "31685": {
     "cross_list_courses": [
-      "ENGR-4720",
       "MANE-4620"
     ],
     "prerequisites": {
@@ -12025,7 +12023,11 @@
   },
   "31710": {},
   "31711": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "CIVL-4240",
+      "CIVL-6660",
+      "MANE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14788,7 +14790,9 @@
     }
   },
   "32085": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16008,7 +16012,10 @@
     }
   },
   "32201": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "CIVL-6660",
+      "MANE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20891,8 +20898,7 @@
   },
   "32757": {
     "cross_list_courses": [
-      "ENGR-4720",
-      "MANE-4620"
+      "ENGR-4720"
     ],
     "prerequisites": {
       "nested": [
@@ -20912,8 +20918,7 @@
   },
   "32758": {
     "cross_list_courses": [
-      "ENGR-4720",
-      "MANE-4620"
+      "ENGR-4720"
     ],
     "prerequisites": {
       "nested": [
@@ -24025,6 +24030,9 @@
     }
   },
   "33516": {
+    "cross_list_courses": [
+      "CIVL-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25979,6 +25987,11 @@
     }
   },
   "33707": {
+    "cross_list_courses": [
+      "CIVL-6660",
+      "MANE-4240",
+      "MANE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25996,6 +26009,9 @@
     }
   },
   "33708": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26013,6 +26029,9 @@
     }
   },
   "33709": {
+    "cross_list_courses": [
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26031,6 +26050,10 @@
   },
   "33710": {},
   "33711": {
+    "cross_list_courses": [
+      "CIVL-6660",
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26055,6 +26078,11 @@
     }
   },
   "33712": {
+    "cross_list_courses": [
+      "CIVL-4240",
+      "CIVL-6660",
+      "MANE-4240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26079,6 +26107,10 @@
     }
   },
   "33713": {
+    "cross_list_courses": [
+      "MANE-4240",
+      "MANE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26104,6 +26136,11 @@
     }
   },
   "33714": {
+    "cross_list_courses": [
+      "CIVL-4240",
+      "MANE-4240",
+      "MANE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26162,6 +26199,16 @@
         "may_not_be": [
           "Freshman",
           "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33718": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
           "Sophomore"
         ]
       }
