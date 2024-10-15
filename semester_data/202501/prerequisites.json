@@ -15089,6 +15089,17 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
     }
   },
   "32107": {
@@ -19059,6 +19070,15 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
       }
     }
   },
@@ -20582,7 +20602,18 @@
       "ECSE-4490",
       "ECSE-6490",
       "MANE-6963"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
+    }
   },
   "32699": {},
   "32700": {
@@ -22267,7 +22298,18 @@
   "32922": {
     "cross_list_courses": [
       "ECSE-4965"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
+    }
   },
   "32923": {
     "cross_list_courses": [
@@ -25969,6 +26011,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "33707": {
@@ -25991,6 +26041,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "33708": {
@@ -26011,6 +26069,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "33709": {
@@ -26031,6 +26097,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Civil Engineering",
+          "Environmental Engineering"
+        ]
+      }
     }
   },
   "33710": {},
