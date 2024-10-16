@@ -706,7 +706,16 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Aerospace Engineering"
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Science"
         ]
       }
     }
@@ -2888,7 +2897,17 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Aerospace Engineering"
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Science",
+          "Materials Engineering"
         ]
       }
     }
@@ -10748,22 +10767,6 @@
       "type": "course"
     }
   },
-  "31363": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31364": {
     "prerequisites": {
       "course": "CSCI 1200",
@@ -13091,7 +13094,15 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Aerospace Engineering"
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Engineering Science"
         ]
       }
     }
@@ -14631,16 +14642,6 @@
       }
     }
   },
-  "32049": {
-    "cross_list_courses": [
-      "MATH-1020"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32050": {
     "prerequisites": {
       "course": "GSAS 4520",
@@ -15149,16 +15150,6 @@
           "Information Tech & Web Science"
         ]
       }
-    }
-  },
-  "32082": {
-    "cross_list_courses": [
-      "MATH-1020"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "32083": {
@@ -18334,16 +18325,6 @@
       "MATH-1010"
     ]
   },
-  "32429": {
-    "cross_list_courses": [
-      "MATH-1020"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32430": {
     "cross_list_courses": [
       "ISYE-4350"
@@ -18597,16 +18578,6 @@
           "Tech Commercialization Entrepr"
         ]
       }
-    }
-  },
-  "32444": {
-    "cross_list_courses": [
-      "MATH-1020"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "32445": {
@@ -20104,16 +20075,6 @@
   },
   "32596": {},
   "32597": {},
-  "32598": {
-    "cross_list_courses": [
-      "MATH-2400"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32600": {
     "restrictions": {
       "classification": {
@@ -20135,16 +20096,6 @@
     }
   },
   "32602": {},
-  "32603": {
-    "cross_list_courses": [
-      "MATH-2400"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32604": {
     "cross_list_courses": [
       "MATH-2010"
@@ -20158,26 +20109,6 @@
   "32605": {
     "cross_list_courses": [
       "MATH-2010"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "32606": {
-    "cross_list_courses": [
-      "MATH-2400"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "32607": {
-    "cross_list_courses": [
-      "MATH-2400"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -26897,6 +26828,50 @@
       "course": "MATH 1010",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "33734": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33735": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33736": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33737": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "33738": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
     }
   }
 }
