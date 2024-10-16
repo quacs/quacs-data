@@ -3854,31 +3854,6 @@
     "cross_list_courses": [
       "MATP-4820"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -18593,21 +18568,6 @@
     "cross_list_courses": [
       "CSCI-6840"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -25223,26 +25183,6 @@
     }
   },
   "33581": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -25266,21 +25206,6 @@
     "cross_list_courses": [
       "ISYE-6760"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATP 4700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -26848,6 +26773,10 @@
     }
   },
   "33736": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26857,6 +26786,10 @@
     }
   },
   "33737": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26866,6 +26799,10 @@
     }
   },
   "33738": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
