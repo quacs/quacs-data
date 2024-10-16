@@ -2451,7 +2451,6 @@
   "30161": {},
   "30162": {},
   "30163": {},
-  "30165": {},
   "30166": {},
   "30167": {},
   "30168": {},
@@ -11219,10 +11218,10 @@
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
-          "Bioinformatics & Molec Biology",
           "Biology",
           "Biology",
           "Biological Neuroscience",
+          "Biotechnology & Health Econ",
           "Computational Biology"
         ]
       }
@@ -19874,10 +19873,10 @@
       "major": {
         "must_be": [
           "Biochemistry & Biophysics",
-          "Bioinformatics & Molec Biology",
           "Biology",
           "Biology",
           "Biological Neuroscience",
+          "Biotechnology & Health Econ",
           "Computational Biology"
         ]
       }
@@ -24436,7 +24435,12 @@
   "33505": {
     "cross_list_courses": [
       "BIOL-6961"
-    ]
+    ],
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "33506": {
     "cross_list_courses": [
@@ -26825,6 +26829,28 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "33719": {
+    "cross_list_courses": [
+      "MTLE-6960"
+    ]
+  },
+  "33720": {
+    "cross_list_courses": [
+      "MTLE-4960"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
