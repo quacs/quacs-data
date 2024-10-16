@@ -125,9 +125,24 @@
       "CHEM-4770"
     ],
     "prerequisites": {
-      "course": "BCBP 4760",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "BCBP 4760",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4760",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4760",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "30017": {
@@ -494,6 +509,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -515,6 +531,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -551,6 +568,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -587,6 +605,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -613,6 +632,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -859,6 +879,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -1246,6 +1267,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -2104,46 +2126,6 @@
       "type": "course"
     }
   },
-  "30109": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30110": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30111": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30112": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "30113": {
     "prerequisites": {
       "nested": [
@@ -2805,6 +2787,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -3849,16 +3832,6 @@
       }
     }
   },
-  "30349": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "30350": {},
   "30351": {},
   "30352": {
@@ -4059,6 +4032,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -5392,36 +5366,6 @@
   "30704": {
     "prerequisites": {
       "course": "ARCH 4840",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30705": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30706": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "30707": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
       "min_grade": "D",
       "type": "course"
     }
@@ -9506,6 +9450,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -10417,6 +10362,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -11456,6 +11402,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -12024,6 +11971,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -12042,6 +11990,7 @@
           "Engr Principles in Tech. Educ.",
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
+          "Systems Engr and Tech Mgmt",
           "Transportation Engineering"
         ]
       }
@@ -12070,6 +12019,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -12088,6 +12038,7 @@
           "Engr Principles in Tech. Educ.",
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
+          "Systems Engr and Tech Mgmt",
           "Transportation Engineering"
         ]
       }
@@ -12783,26 +12734,6 @@
       }
     }
   },
-  "31739": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "31740": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "31742": {
     "prerequisites": {
       "course": "ARCH 4120",
@@ -12880,26 +12811,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "31751": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "31752": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "31753": {
@@ -13366,9 +13277,24 @@
           "type": "course"
         },
         {
-          "course": "BIOL 4760",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "BIOL 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BCBP 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -14586,6 +14512,7 @@
       "major": {
         "must_be": [
           "Aeronautical Engineering",
+          "Aerospace Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -20978,16 +20905,6 @@
       }
     }
   },
-  "32682": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32683": {},
   "32684": {},
   "32685": {
@@ -21092,16 +21009,6 @@
     }
   },
   "32707": {},
-  "32708": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "32709": {
     "corequisites": [
       "ARCH-2530"
@@ -22336,8 +22243,7 @@
   },
   "32865": {
     "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
+      "INQR-1100"
     ],
     "restrictions": {
       "classification": {
@@ -22349,8 +22255,7 @@
   },
   "32866": {
     "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
+      "INQR-1100"
     ],
     "restrictions": {
       "classification": {
@@ -22362,8 +22267,7 @@
   },
   "32867": {
     "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
+      "INQR-1100"
     ],
     "restrictions": {
       "classification": {
@@ -25831,9 +25735,24 @@
           "type": "course"
         },
         {
-          "course": "BCBP 4670",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "BCBP 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -26501,45 +26420,6 @@
       }
     }
   },
-  "33702": {
-    "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "33703": {
-    "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "33704": {
-    "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "33705": {
     "cross_list_courses": [
       "ASTR-4960"
@@ -26853,6 +26733,48 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33721": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33722": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33723": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33724": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33725": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33726": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
