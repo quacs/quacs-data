@@ -3109,6 +3109,13 @@
           "Junior",
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
       }
     }
   },
@@ -3438,6 +3445,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "30269": {
@@ -9281,12 +9297,36 @@
           "type": "course"
         },
         {
-          "course": "CSCI 4350",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "CSCI 4350",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ITWS 4350",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ERTH 4350",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "31239": {
@@ -20176,6 +20216,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "32620": {
@@ -21483,12 +21532,12 @@
         {
           "nested": [
             {
-              "course": "MATH 4100",
+              "course": "CSCI 2210",
               "min_grade": "D",
               "type": "course"
             },
             {
-              "course": "CSCI 2210",
+              "course": "MATH 2010",
               "min_grade": "D",
               "type": "course"
             }
@@ -21497,6 +21546,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "32794": {
@@ -24553,6 +24611,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33529": {
@@ -24605,6 +24672,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33531": {
@@ -24626,6 +24702,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33534": {
@@ -24683,6 +24768,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33537": {
@@ -24841,6 +24935,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33556": {
@@ -24858,6 +24960,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33557": {
@@ -24875,6 +24985,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33558": {
@@ -24892,6 +25010,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33559": {
@@ -24909,6 +25035,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33560": {
@@ -24926,6 +25060,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33561": {
@@ -24943,6 +25085,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33562": {
@@ -24960,6 +25110,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33563": {
@@ -24977,6 +25135,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33564": {
@@ -24994,6 +25160,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33565": {
@@ -25011,6 +25185,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33566": {
@@ -25028,6 +25210,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33567": {
@@ -25045,6 +25235,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "33568": {
