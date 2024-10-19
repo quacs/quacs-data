@@ -24937,12 +24937,22 @@
   },
   "33536": {
     "cross_list_courses": [
-      "CSCI-6050"
+      "CSCI-6972"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     },
     "restrictions": {
       "major": {
@@ -24953,11 +24963,6 @@
         ]
       }
     }
-  },
-  "33537": {
-    "cross_list_courses": [
-      "CSCI-4050"
-    ]
   },
   "33538": {
     "cross_list_courses": [
@@ -25953,6 +25958,9 @@
     ]
   },
   "33608": {
+    "cross_list_courses": [
+      "ISYE-6960"
+    ],
     "prerequisites": {
       "course": "ISYE 4290",
       "min_grade": "D",
@@ -26270,15 +26278,7 @@
       }
     }
   },
-  "33638": {
-    "cross_list_courses": [
-      "ARCH-6961"
-    ]
-  },
   "33639": {
-    "cross_list_courses": [
-      "ARCH-4966"
-    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27280,6 +27280,25 @@
       "major": {
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "33739": {
+    "cross_list_courses": [
+      "CSCI-4050"
+    ]
+  },
+  "33740": {
+    "cross_list_courses": [
+      "ISYE-4300"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
