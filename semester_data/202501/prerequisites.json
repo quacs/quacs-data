@@ -12710,6 +12710,26 @@
     "cross_list_courses": [
       "ECSE-6964"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -12725,11 +12745,6 @@
       "ECSE-4964"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -20131,10 +20146,14 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -21282,10 +21301,14 @@
       "ENGR-6961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "course": "PHYS 1200",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -21335,6 +21358,13 @@
       "ISCI-6961"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student",
+          "Junior",
+          "Senior"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21360,10 +21390,24 @@
     "cross_list_courses": [
       "ECSE-6962"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 2620",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
