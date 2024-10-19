@@ -20204,6 +20204,26 @@
     }
   },
   "32595": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 4840",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21430,6 +21450,11 @@
     "cross_list_courses": [
       "MANE-4961"
     ],
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21441,6 +21466,26 @@
     }
   },
   "32754": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22834,6 +22879,11 @@
     "cross_list_courses": [
       "ECSE-4965"
     ],
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "major": {
         "must_be": [
