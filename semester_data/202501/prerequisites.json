@@ -3448,6 +3448,9 @@
     }
   },
   "30267": {
+    "cross_list_courses": [
+      "MTLE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "min_grade": "D",
@@ -4645,6 +4648,9 @@
     }
   },
   "30513": {
+    "cross_list_courses": [
+      "ECSE-6300"
+    ],
     "prerequisites": {
       "course": "ECSE 4250",
       "min_grade": "D",
@@ -14321,6 +14327,9 @@
   "31977": {},
   "31978": {},
   "31979": {
+    "cross_list_courses": [
+      "ECSE-4780"
+    ],
     "prerequisites": {
       "course": "ECSE 4770",
       "min_grade": null,
@@ -21396,6 +21405,9 @@
     }
   },
   "32748": {
+    "cross_list_courses": [
+      "ECSE-6700"
+    ],
     "prerequisites": {
       "course": "ECSE 4770",
       "min_grade": null,
@@ -25926,6 +25938,9 @@
     }
   },
   "33599": {
+    "cross_list_courses": [
+      "ECSE-6110"
+    ],
     "prerequisites": {
       "course": "ECSE 2110",
       "min_grade": "D",
@@ -25933,6 +25948,9 @@
     }
   },
   "33600": {
+    "cross_list_courses": [
+      "ECSE-4110"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25995,6 +26013,9 @@
     }
   },
   "33603": {
+    "cross_list_courses": [
+      "MANE-6610"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27424,5 +27445,32 @@
     "corequisites": [
       "PHYS-1050"
     ]
+  },
+  "33746": {
+    "cross_list_courses": [
+      "ECSE-6420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6400",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "MANE 6600",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
