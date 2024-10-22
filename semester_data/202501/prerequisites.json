@@ -16077,7 +16077,15 @@
     }
   },
   "32151": {},
-  "32152": {},
+  "32152": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Engineering"
+        ]
+      }
+    }
+  },
   "32153": {},
   "32154": {},
   "32158": {
@@ -17189,11 +17197,53 @@
       "type": "course"
     }
   },
-  "32265": {},
-  "32266": {},
-  "32267": {},
-  "32268": {},
-  "32269": {},
+  "32265": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Architecture"
+        ]
+      }
+    }
+  },
+  "32266": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Humanities & Soc Sci"
+        ]
+      }
+    }
+  },
+  "32267": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "Information Technology",
+          "Undeclared School",
+          "Undergraduate Education Office"
+        ]
+      }
+    }
+  },
+  "32268": {
+    "restrictions": {
+      "college": {
+        "may_not_be": [
+          "Lally School of Mgt & Tech"
+        ]
+      }
+    }
+  },
+  "32269": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Science"
+        ]
+      }
+    }
+  },
   "32271": {
     "restrictions": {
       "classification": {
@@ -19741,7 +19791,15 @@
   },
   "32549": {},
   "32550": {},
-  "32554": {},
+  "32554": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "No School Designated"
+        ]
+      }
+    }
+  },
   "32556": {},
   "32559": {
     "cross_list_courses": [
