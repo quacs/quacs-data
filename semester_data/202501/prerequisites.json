@@ -12389,6 +12389,26 @@
           "Humanities, Arts & Soc Sci",
           "Lally School of Mgt & Tech"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Building Sciences",
+          "Business and Management",
+          "Business Analytics",
+          "Biotechnology & Health Econ",
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
+        ]
       }
     }
   },
@@ -12418,6 +12438,26 @@
           "Humanities, Arts & Soc Sci",
           "School of Humanities & Soc Sci",
           "Lally School of Mgt & Tech"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Building Sciences",
+          "Business and Management",
+          "Business Analytics",
+          "Biotechnology & Health Econ",
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
         ]
       }
     }
@@ -12488,6 +12528,25 @@
           "Humanities, Arts & Soc Sci",
           "School of Humanities & Soc Sci",
           "Lally School of Mgt & Tech"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Business and Management",
+          "Business Analytics",
+          "Biotechnology & Health Econ",
+          "Cognitive Science",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Economics",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society",
+          "Sustainability Studies"
         ]
       }
     }
@@ -14751,15 +14810,6 @@
         "must_be": [
           "Cognitive Science",
           "Psychological Science"
-        ]
-      }
-    }
-  },
-  "32047": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -19126,6 +19176,7 @@
     "restrictions": {
       "major": {
         "must_be": [
+          "Design, Innovation and Society",
           "Science, Tech & Society",
           "Sustainability Studies"
         ]
@@ -22438,9 +22489,6 @@
     }
   },
   "32848": {
-    "cross_list_courses": [
-      "COMM-6964"
-    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -24577,7 +24625,6 @@
     }
   },
   "33489": {},
-  "33490": {},
   "33491": {
     "cross_list_courses": [
       "ARTS-1380"
@@ -26291,12 +26338,35 @@
   "33620": {
     "cross_list_courses": [
       "COMM-2660"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   },
   "33621": {
     "cross_list_courses": [
       "COMM-2660"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "33622": {},
   "33623": {},
@@ -26413,18 +26483,6 @@
     }
   },
   "33631": {},
-  "33632": {
-    "cross_list_courses": [
-      "COMM-4690"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "33633": {},
   "33634": {
     "cross_list_courses": [
@@ -26458,22 +26516,6 @@
   },
   "33637": {
     "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "33639": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -27568,6 +27610,9 @@
   "33750": {},
   "33751": {},
   "33752": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27638,5 +27683,77 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "33753": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33754": {},
+  "33755": {}
 }
