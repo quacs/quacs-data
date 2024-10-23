@@ -20718,12 +20718,16 @@
   },
   "32652": {
     "cross_list_courses": [
-      "CHEM-6965"
+      "CHEM-6965",
+      "ERTH-4965",
+      "ERTH-6965"
     ]
   },
   "32653": {
     "cross_list_courses": [
-      "CHEM-4965"
+      "CHEM-4965",
+      "ERTH-4965",
+      "ERTH-6965"
     ]
   },
   "32654": {
@@ -22397,6 +22401,13 @@
         ]
       }
     }
+  },
+  "32842": {
+    "cross_list_courses": [
+      "CHEM-4965",
+      "CHEM-6965",
+      "ERTH-6965"
+    ]
   },
   "32844": {
     "prerequisites": {
@@ -27524,5 +27535,34 @@
       }
     }
   },
-  "33747": {}
+  "33747": {},
+  "33748": {
+    "cross_list_courses": [
+      "CHEM-4965",
+      "CHEM-6965",
+      "ERTH-4965"
+    ]
+  },
+  "33749": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
