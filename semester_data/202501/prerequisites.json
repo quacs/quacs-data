@@ -13590,23 +13590,6 @@
       }
     }
   },
-  "31893": {
-    "cross_list_courses": [
-      "CHME-6961"
-    ]
-  },
-  "31894": {
-    "cross_list_courses": [
-      "CHME-4961"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "31895": {
     "restrictions": {
       "campus": {
@@ -20139,70 +20122,6 @@
       "type": "or"
     }
   },
-  "32583": {
-    "cross_list_courses": [
-      "CHME-4050"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4500",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
-  "32584": {
-    "cross_list_courses": [
-      "CHME-4050"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4500",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "32585": {
     "cross_list_courses": [
       "ECSE-6141"
@@ -20688,7 +20607,6 @@
       }
     }
   },
-  "32638": {},
   "32641": {
     "prerequisites": {
       "course": "GSAS 4240",
@@ -27803,6 +27721,35 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33759": {
+    "prerequisites": {
+      "course": "CHME 4050",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33760": {
+    "cross_list_courses": [
+      "CHME-6660"
+    ],
+    "prerequisites": {
+      "course": "CHME 4030",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "33761": {},
+  "33762": {},
+  "33763": {
+    "cross_list_courses": [
+      "CHME-4660"
+    ],
+    "prerequisites": {
+      "course": "CHME 4030",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
