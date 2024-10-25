@@ -22607,6 +22607,9 @@
     }
   },
   "32875": {
+    "cross_list_courses": [
+      "MANE-4964"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24848,13 +24851,6 @@
       "type": "course"
     }
   },
-  "33519": {
-    "prerequisites": {
-      "course": "MANE 2710",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "33520": {
     "restrictions": {
       "classification": {
@@ -26904,7 +26900,11 @@
       }
     }
   },
-  "33689": {},
+  "33689": {
+    "cross_list_courses": [
+      "MANE-6964"
+    ]
+  },
   "33690": {},
   "33691": {},
   "33692": {},
@@ -27760,5 +27760,22 @@
     "cross_list_courses": [
       "CHME-4965"
     ]
+  },
+  "33765": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
