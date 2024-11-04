@@ -689,7 +689,9 @@
           "Electrical Engineering",
           "Undeclared Engineering",
           "Environmental Engineering",
-          "Engineering Science"
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -18758,15 +18760,6 @@
       }
     }
   },
-  "32445": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "32446": {
     "cross_list_courses": [
       "CSCI-6840"
@@ -24223,7 +24216,7 @@
   },
   "33458": {
     "cross_list_courses": [
-      "PSYC-6961"
+      "COGS-6960"
     ],
     "prerequisites": {
       "nested": [
@@ -24243,20 +24236,6 @@
   },
   "33459": {},
   "33460": {},
-  "33461": {
-    "cross_list_courses": [
-      "PSYC-4961"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "33462": {},
   "33463": {
     "prerequisites": {
@@ -27823,6 +27802,27 @@
       "course": "PHYS 2210",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "33775": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "33776": {
+    "cross_list_courses": [
+      "PSYC-4961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
