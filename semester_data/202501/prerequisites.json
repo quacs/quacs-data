@@ -18535,27 +18535,27 @@
     "prerequisites": {
       "nested": [
         {
+          "course": "ISYE 4140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "nested": [
-            {
-              "course": "ISYE 4140",
-              "min_grade": "D",
-              "type": "course"
-            },
             {
               "course": "MATP 4600",
               "min_grade": "D",
               "type": "course"
+            },
+            {
+              "course": "ISYE 4760",
+              "min_grade": "D",
+              "type": "course"
             }
           ],
-          "type": "or"
-        },
-        {
-          "course": "ISYE 4760",
-          "min_grade": "D",
-          "type": "course"
+          "type": "and"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "32432": {
@@ -19238,8 +19238,7 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Science, Tech & Society",
-          "Sustainability Studies"
+          "Design, Innovation and Society"
         ]
       }
     }
@@ -26095,7 +26094,14 @@
   "33609": {
     "cross_list_courses": [
       "MATP-6620"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "33611": {
     "restrictions": {
@@ -27417,6 +27423,11 @@
           "Junior",
           "Sophomore"
         ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
       }
     }
   },
@@ -27798,6 +27809,20 @@
   },
   "33771": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33772": {
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Doctor of Philosophy"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
