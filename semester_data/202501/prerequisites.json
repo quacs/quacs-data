@@ -7053,8 +7053,22 @@
   "30957": {
     "prerequisites": {
       "course": "MTLE 2100",
-      "min_grade": null,
+      "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate",
+          "Undergraduate"
+        ]
+      }
     }
   },
   "30958": {
@@ -24610,7 +24624,7 @@
     ],
     "prerequisites": {
       "course": "BIOL 2120",
-      "min_grade": null,
+      "min_grade": "D",
       "type": "course"
     }
   },
