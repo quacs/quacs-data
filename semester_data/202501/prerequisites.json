@@ -2873,7 +2873,9 @@
           "Undeclared Engineering",
           "Environmental Engineering",
           "Engineering Science",
-          "Materials Engineering"
+          "Materials Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -7786,6 +7788,15 @@
           "Sophomore"
         ]
       },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "31071": {
+    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -27824,5 +27835,16 @@
         ]
       }
     }
-  }
+  },
+  "33777": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33778": {}
 }
