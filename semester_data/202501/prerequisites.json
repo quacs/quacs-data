@@ -17231,7 +17231,7 @@
     "restrictions": {
       "college": {
         "must_be": [
-          "School of Humanities & Soc Sci"
+          "Humanities, Arts & Soc Sci"
         ]
       }
     }
@@ -22071,6 +22071,12 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
       }
     }
   },
@@ -22523,7 +22529,7 @@
   },
   "32865": {
     "cross_list_courses": [
-      "INQR-1100"
+      "STSO-1100"
     ],
     "restrictions": {
       "classification": {
@@ -22534,9 +22540,6 @@
     }
   },
   "32866": {
-    "cross_list_courses": [
-      "INQR-1100"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22546,9 +22549,6 @@
     }
   },
   "32867": {
-    "cross_list_courses": [
-      "INQR-1100"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -27822,6 +27822,19 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "33773": {
+    "cross_list_courses": [
+      "INQR-1100"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore"
         ]
       }
     }
