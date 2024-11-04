@@ -676,32 +676,6 @@
       }
     }
   },
-  "30047": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Information Tech & Web Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "30048": {
     "restrictions": {
       "major": {
@@ -19291,6 +19265,11 @@
           "type": "course"
         },
         {
+          "course": "STSO 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "course": "INQR 1110",
           "min_grade": "D",
           "type": "course"
@@ -27837,6 +27816,13 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "33774": {
+    "prerequisites": {
+      "course": "PHYS 2210",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
