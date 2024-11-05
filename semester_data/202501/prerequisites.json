@@ -22311,11 +22311,6 @@
       "COGS-4210"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -24402,11 +24397,13 @@
     }
   },
   "33475": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
-          "Communication",
-          "Elect Media, Arts, & Comm"
+          "Communication"
         ]
       }
     }
@@ -27986,5 +27983,10 @@
         ]
       }
     }
+  },
+  "33784": {
+    "cross_list_courses": [
+      "WRIT-2110"
+    ]
   }
 }
