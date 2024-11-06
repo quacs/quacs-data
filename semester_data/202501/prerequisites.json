@@ -18934,8 +18934,8 @@
   "32456": {
     "restrictions": {
       "campus": {
-        "must_be": [
-          "Hartford"
+        "may_not_be": [
+          "Troy"
         ]
       },
       "level": {
@@ -27972,6 +27972,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "campus": {
+        "may_not_be": [
+          "Troy"
+        ]
+      }
     }
   },
   "33782": {
