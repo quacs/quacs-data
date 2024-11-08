@@ -3439,15 +3439,7 @@
   "30269": {
     "cross_list_courses": [
       "PHIL-2100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "30270": {
     "cross_list_courses": [
@@ -4331,7 +4323,6 @@
       "type": "and"
     }
   },
-  "30440": {},
   "30441": {
     "prerequisites": {
       "nested": [
@@ -6928,15 +6919,7 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "30952": {
     "prerequisites": {
@@ -12514,15 +12497,7 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "31710": {},
   "31711": {
@@ -15238,15 +15213,7 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "32080": {
     "cross_list_courses": [
@@ -23658,15 +23625,7 @@
     "cross_list_courses": [
       "INQR-1220",
       "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "33036": {},
   "33037": {},
@@ -25693,13 +25652,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "33572": {
@@ -27885,6 +27837,36 @@
     "cross_list_courses": [
       "PSYC-4961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PSYC 2130",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 1100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -27992,5 +27974,14 @@
     }
   },
   "33788": {},
-  "33789": {}
+  "33789": {},
+  "33790": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
