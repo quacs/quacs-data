@@ -1000,9 +1000,29 @@
           "type": "course"
         },
         {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
       "type": "and"
@@ -2260,9 +2280,29 @@
           "type": "course"
         },
         {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": null,
+              "type": "course"
+            }
+          ],
+          "type": "and"
         }
       ],
       "type": "and"
@@ -16269,9 +16309,29 @@
   },
   "32187": {
     "prerequisites": {
-      "course": "MATH 2010",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
     }
   },
   "32188": {
@@ -16917,9 +16977,29 @@
   "32231": {},
   "32232": {
     "prerequisites": {
-      "course": "MATH 2010",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
     }
   },
   "32234": {
