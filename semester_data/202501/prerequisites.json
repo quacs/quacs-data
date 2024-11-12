@@ -20446,13 +20446,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biotechnology & Health Econ"
-        ]
-      }
     }
   },
   "32626": {},
@@ -24493,6 +24486,11 @@
           "course": "STSO 1100",
           "min_grade": "D",
           "type": "course"
+        },
+        {
+          "course": "STSO 1110",
+          "min_grade": "D",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -28002,6 +28000,35 @@
       "course": "CIVL 2670",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "33793": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33794": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33795": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
