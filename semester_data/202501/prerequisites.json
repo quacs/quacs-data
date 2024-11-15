@@ -13084,7 +13084,15 @@
   "31855": {},
   "31856": {},
   "31857": {},
-  "31860": {},
+  "31860": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "31861": {
     "prerequisites": {
       "nested": [
@@ -14074,7 +14082,15 @@
     }
   },
   "31951": {},
-  "31952": {},
+  "31952": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "31953": {},
   "31954": {},
   "31955": {},
@@ -15666,6 +15682,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "32114": {
@@ -19105,6 +19128,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "32467": {
@@ -20080,6 +20110,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "32588": {
@@ -20304,7 +20341,14 @@
   "32615": {
     "cross_list_courses": [
       "CHME-4011"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "32617": {
     "prerequisites": {
@@ -21587,11 +21631,6 @@
       "ISYE-4960"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -21927,15 +21966,7 @@
   "32816": {
     "cross_list_courses": [
       "MANE-4960"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "32817": {
     "restrictions": {
@@ -22033,7 +22064,14 @@
   "32828": {
     "cross_list_courses": [
       "ARTS-4140"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "32831": {
     "prerequisites": {
@@ -23431,6 +23469,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "32983": {
@@ -23874,7 +23919,15 @@
       }
     }
   },
-  "33439": {},
+  "33439": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "33440": {},
   "33441": {
     "restrictions": {
@@ -24164,7 +24217,15 @@
   },
   "33459": {},
   "33460": {},
-  "33462": {},
+  "33462": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "33463": {
     "prerequisites": {
       "course": "CIVL 4440",
@@ -25053,10 +25114,9 @@
       "CSCI-4170"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26636,10 +26696,9 @@
   },
   "33685": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26664,10 +26723,9 @@
       "CHME-6840"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26691,8 +26749,24 @@
   },
   "33690": {},
   "33691": {},
-  "33692": {},
-  "33693": {},
+  "33692": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "33693": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "33694": {},
   "33695": {},
   "33696": {},
@@ -26730,7 +26804,14 @@
     "cross_list_courses": [
       "COGS-4540",
       "CSCI-4967"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "33700": {
     "cross_list_courses": [
@@ -26950,10 +27031,9 @@
       "type": "and"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26980,10 +27060,9 @@
       "type": "and"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -27213,20 +27292,20 @@
   "33739": {
     "cross_list_courses": [
       "CSCI-4050"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "33740": {
     "cross_list_courses": [
       "ISYE-4300"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
