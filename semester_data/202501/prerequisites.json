@@ -19022,6 +19022,11 @@
           "course": "STSO 1110",
           "min_grade": "D",
           "type": "course"
+        },
+        {
+          "course": "STSH 1110",
+          "min_grade": "D",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -23708,6 +23713,11 @@
           "type": "course"
         },
         {
+          "course": "STSH 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "course": "INQR 1110",
           "min_grade": "D",
           "type": "course"
@@ -23866,7 +23876,15 @@
   },
   "33439": {},
   "33440": {},
-  "33441": {},
+  "33441": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "33442": {
     "prerequisites": {
       "course": "CIVL 2030",
@@ -24264,7 +24282,7 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Communication"
+          "Communication, Media, & Design"
         ]
       }
     }
@@ -24526,11 +24544,9 @@
       "BIOL-4310"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -24575,10 +24591,9 @@
       "BIOL-4961"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25585,11 +25600,9 @@
   },
   "33582": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26664,10 +26677,9 @@
       "MANE-6840"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -27867,6 +27879,16 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33801": {
+    "cross_list_courses": [
+      "CIVL-2670"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2530",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
