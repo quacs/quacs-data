@@ -28038,5 +28038,51 @@
       }
     }
   },
-  "33813": {}
+  "33813": {
+    "cross_list_courses": [
+      "BIOL-6962"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "BCBP 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4760",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 4760",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "33814": {
+    "cross_list_courses": [
+      "BIOL-4962"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
