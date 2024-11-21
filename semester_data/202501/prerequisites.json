@@ -21972,7 +21972,14 @@
   "32816": {
     "cross_list_courses": [
       "MANE-4960"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "32817": {
     "restrictions": {
@@ -27084,11 +27091,9 @@
   },
   "33715": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
