@@ -28094,5 +28094,72 @@
         ]
       }
     }
+  },
+  "33816": {
+    "cross_list_courses": [
+      "MATH-4100"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "33817": {
+    "cross_list_courses": [
+      "MATH-4100"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Mathematics"
+        ]
+      }
+    }
   }
 }
