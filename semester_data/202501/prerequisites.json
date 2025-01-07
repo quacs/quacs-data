@@ -22905,27 +22905,6 @@
       "type": "and"
     }
   },
-  "32961": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "32962": {
     "corequisites": [
       "ARCH-2360",
@@ -25826,8 +25805,16 @@
       "CHEM-4960"
     ]
   },
-  "33643": {},
-  "33644": {},
+  "33643": {
+    "cross_list_courses": [
+      "CHEM-6720"
+    ]
+  },
+  "33644": {
+    "cross_list_courses": [
+      "CHEM-4720"
+    ]
+  },
   "33645": {
     "corequisites": [
       "ARCH-4830"
@@ -27699,6 +27686,20 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "33859": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "C",
+      "type": "course"
+    }
+  },
+  "33860": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "C",
+      "type": "course"
     }
   }
 }
