@@ -17067,6 +17067,13 @@
       "course": "ARCH 4820",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "No School Designated"
+        ]
+      }
     }
   },
   "32255": {
@@ -19487,15 +19494,7 @@
   },
   "32549": {},
   "32550": {},
-  "32554": {
-    "restrictions": {
-      "college": {
-        "must_be": [
-          "No School Designated"
-        ]
-      }
-    }
-  },
+  "32554": {},
   "32556": {},
   "32559": {
     "cross_list_courses": [
@@ -27696,6 +27695,16 @@
     }
   },
   "33886": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "33888": {
     "restrictions": {
       "classification": {
         "may_not_be": [
