@@ -4441,13 +4441,6 @@
   },
   "23401": {},
   "23402": {},
-  "23403": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23404": {},
   "23405": {},
   "23409": {
@@ -4541,5 +4534,47 @@
         ]
       }
     }
-  }
+  },
+  "23483": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "23484": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23485": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23486": {},
+  "23487": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "23488": {}
 }
