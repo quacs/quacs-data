@@ -3826,45 +3826,6 @@
       }
     }
   },
-  "23357": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 1600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "23358": {
     "prerequisites": {
       "nested": [
@@ -4047,8 +4008,6 @@
   "23364": {},
   "23365": {},
   "23366": {},
-  "23367": {},
-  "23368": {},
   "23369": {},
   "23370": {
     "prerequisites": {
@@ -4092,7 +4051,6 @@
       "type": "and"
     }
   },
-  "23371": {},
   "23372": {
     "restrictions": {
       "major": {
@@ -4643,5 +4601,14 @@
       "type": "or"
     }
   },
-  "23490": {}
+  "23490": {},
+  "23491": {},
+  "23492": {
+    "prerequisites": {
+      "course": "ARTS 2230",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23493": {}
 }
