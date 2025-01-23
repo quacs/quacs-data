@@ -4086,53 +4086,6 @@
       }
     }
   },
-  "23376": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "PSYC 1200",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "COGS 2120",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "CSCI 2300",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 4150",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 4370",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23377": {
     "prerequisites": {
       "nested": [
@@ -4410,7 +4363,6 @@
     }
   },
   "23410": {},
-  "23411": {},
   "23423": {
     "restrictions": {
       "classification": {
@@ -4620,6 +4572,20 @@
   "23501": {
     "prerequisites": {
       "course": "LANG 1410",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23502": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23503": {
+    "prerequisites": {
+      "course": "PSYC 1200",
       "min_grade": "D",
       "type": "course"
     }
