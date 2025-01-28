@@ -17553,7 +17553,6 @@
   "73907": {},
   "73908": {},
   "73909": {},
-  "73910": {},
   "73911": {
     "prerequisites": {
       "course": "CSCI 1100",
@@ -18825,21 +18824,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "74026": {
-    "prerequisites": {
-      "course": "ARTS 2230",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "74027": {
@@ -23057,37 +23041,6 @@
       }
     }
   },
-  "74431": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74432": {
     "restrictions": {
       "major": {
@@ -25838,6 +25791,15 @@
     }
   },
   "75149": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75150": {
     "restrictions": {
       "level": {
         "must_be": [
