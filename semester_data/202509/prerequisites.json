@@ -23009,13 +23009,6 @@
       }
     }
   },
-  "74428": {
-    "prerequisites": {
-      "course": "MATH 4090",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74429": {
     "restrictions": {
       "classification": {
@@ -23052,9 +23045,6 @@
     }
   },
   "74433": {},
-  "74434": {},
-  "74435": {},
-  "74436": {},
   "74437": {
     "restrictions": {
       "classification": {
@@ -23065,7 +23055,6 @@
       }
     }
   },
-  "74438": {},
   "74439": {
     "restrictions": {
       "classification": {
@@ -25534,7 +25523,6 @@
       }
     }
   },
-  "74864": {},
   "74865": {},
   "74866": {
     "restrictions": {
@@ -25804,6 +25792,78 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "75151": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75152": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
