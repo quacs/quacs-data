@@ -13595,32 +13595,6 @@
       }
     }
   },
-  "73494": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "IHSS 1610",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "73495": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "73504": {},
   "73505": {
     "restrictions": {
@@ -25958,5 +25932,30 @@
         ]
       }
     }
-  }
+  },
+  "75159": {},
+  "75160": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75161": {},
+  "75162": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75163": {}
 }
