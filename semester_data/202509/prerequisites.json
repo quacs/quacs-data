@@ -19057,13 +19057,6 @@
       }
     }
   },
-  "74048": {
-    "prerequisites": {
-      "course": "ECON 2010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74049": {
     "restrictions": {
       "major": {
@@ -20953,28 +20946,6 @@
       }
     }
   },
-  "74223": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "74224": {
     "prerequisites": {
       "nested": [
@@ -21007,15 +20978,6 @@
     }
   },
   "74226": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "74227": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -22003,28 +21965,6 @@
   "74316": {},
   "74317": {},
   "74318": {},
-  "74319": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "74320": {
     "restrictions": {
       "classification": {
@@ -24850,7 +24790,6 @@
       "type": "or"
     }
   },
-  "74676": {},
   "74678": {
     "prerequisites": {
       "nested": [
@@ -25994,6 +25933,66 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "75166": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "TR",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75167": {
+    "prerequisites": {
+      "course": "ECON 6740",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "75168": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 6720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 6740",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
     }
   }
 }
