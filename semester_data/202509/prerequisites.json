@@ -25957,5 +25957,43 @@
       }
     }
   },
-  "75163": {}
+  "75163": {},
+  "75164": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75165": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2570",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
