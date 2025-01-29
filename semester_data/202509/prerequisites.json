@@ -22846,23 +22846,6 @@
       }
     }
   },
-  "74413": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "COGS 4420",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4150",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "74415": {
     "restrictions": {
       "level": {
@@ -24797,16 +24780,6 @@
   },
   "74634": {},
   "74637": {},
-  "74638": {},
-  "74639": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74640": {},
   "74641": {},
   "74642": {},
@@ -25663,15 +25636,6 @@
       }
     }
   },
-  "75110": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
   "75118": {
     "restrictions": {
       "classification": {
@@ -25948,6 +25912,51 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "75154": {},
+  "75155": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75156": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75157": {},
+  "75158": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
