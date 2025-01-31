@@ -24728,6 +24728,11 @@
     "prerequisites": {
       "nested": [
         {
+          "course": "BMED 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "nested": [
             {
               "course": "ENGR 2530",
@@ -24736,21 +24741,6 @@
             },
             {
               "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "BMED 4250",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 2250",
               "min_grade": "D",
               "type": "course"
             }
