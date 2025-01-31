@@ -27594,5 +27594,27 @@
   "34165": {},
   "34170": {},
   "34176": {},
-  "34177": {}
+  "34177": {},
+  "34183": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2120",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2500",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
