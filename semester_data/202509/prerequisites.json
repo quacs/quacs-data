@@ -4619,12 +4619,41 @@
   },
   "72428": {
     "prerequisites": {
-      "course": "MATH 2400",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CHEM 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1220",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 2020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   },
   "72429": {
+    "corequisites": [
+      "CHEM-4010",
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15725,9 +15754,34 @@
   },
   "73694": {
     "prerequisites": {
-      "course": "MATH 2400",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CHEM 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1220",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 2020",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   },
   "73695": {
@@ -18825,6 +18879,10 @@
   },
   "74037": {},
   "74038": {
+    "corequisites": [
+      "CHEM-4010",
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -23897,13 +23955,6 @@
       "type": "course"
     }
   },
-  "74548": {
-    "prerequisites": {
-      "course": "LITR 2110",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74549": {
     "prerequisites": {
       "course": "CSCI 4210",
@@ -26124,5 +26175,6 @@
         ]
       }
     }
-  }
+  },
+  "75206": {}
 }
