@@ -1141,23 +1141,6 @@
       "type": "and"
     }
   },
-  "23130": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATP 4600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23131": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -4702,6 +4685,13 @@
   "23511": {
     "prerequisites": {
       "course": "MATH 2010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "23512": {
+    "prerequisites": {
+      "course": "CSCI 1100",
       "min_grade": "D",
       "type": "course"
     }
