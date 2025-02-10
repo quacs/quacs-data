@@ -10298,7 +10298,11 @@
   },
   "73198": {},
   "73199": {},
-  "73200": {},
+  "73200": {
+    "cross_list_courses": [
+      "ARCH-5100"
+    ]
+  },
   "73201": {
     "corequisites": [
       "BIOL-1010"
@@ -11288,6 +11292,9 @@
     }
   },
   "73297": {
+    "cross_list_courses": [
+      "ARCH-2150"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22230,30 +22237,6 @@
           "Mechanical Engineering",
           "Industrial & Management Engr",
           "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "74395": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CIVL 2030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
