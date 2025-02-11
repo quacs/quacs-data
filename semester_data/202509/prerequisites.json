@@ -1838,6 +1838,9 @@
     }
   },
   "72097": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2386,6 +2389,9 @@
   },
   "72141": {},
   "72144": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -5045,6 +5051,9 @@
     }
   },
   "72497": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ],
     "prerequisites": {
       "course": "CSCI 2200",
       "min_grade": "D",
@@ -6548,6 +6557,12 @@
     }
   },
   "72741": {
+    "cross_list_courses": [
+      "ECSE-4480",
+      "ECSE-6470",
+      "MANE-4560",
+      "MANE-6120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6592,6 +6607,12 @@
     }
   },
   "72744": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-6470",
+      "MANE-4560",
+      "MANE-6120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10190,6 +10211,12 @@
   },
   "73185": {},
   "73186": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480",
+      "ECSE-6470",
+      "MANE-4560"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -10531,6 +10558,9 @@
   },
   "73209": {},
   "73210": {
+    "cross_list_courses": [
+      "CSCI-6390"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -10819,6 +10849,9 @@
   },
   "73241": {},
   "73242": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11827,6 +11860,12 @@
     }
   },
   "73365": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480",
+      "MANE-4560",
+      "MANE-6120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14303,6 +14342,9 @@
     }
   },
   "73583": {
+    "cross_list_courses": [
+      "CSCI-4390"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -16091,6 +16133,12 @@
   },
   "73747": {},
   "73749": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480",
+      "ECSE-6470",
+      "MANE-6120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17085,6 +17133,9 @@
     }
   },
   "73851": {
+    "cross_list_courses": [
+      "CSCI-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17373,6 +17424,9 @@
     }
   },
   "73874": {
+    "cross_list_courses": [
+      "CSCI-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17396,7 +17450,11 @@
       }
     }
   },
-  "73875": {},
+  "73875": {
+    "cross_list_courses": [
+      "CSCI-6973"
+    ]
+  },
   "73876": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -17411,7 +17469,11 @@
       "type": "course"
     }
   },
-  "73879": {},
+  "73879": {
+    "cross_list_courses": [
+      "CSCI-4973"
+    ]
+  },
   "73880": {},
   "73881": {
     "restrictions": {
@@ -17624,7 +17686,9 @@
   },
   "73901": {
     "cross_list_courses": [
-      "CSCI-4160"
+      "CSCI-4160",
+      "ECSE-4965",
+      "ECSE-6965"
     ],
     "restrictions": {
       "level": {
@@ -19298,6 +19362,9 @@
     }
   },
   "74053": {
+    "cross_list_courses": [
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20381,6 +20448,9 @@
     }
   },
   "74163": {
+    "cross_list_courses": [
+      "CSCI-6965"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20398,6 +20468,9 @@
     }
   },
   "74164": {
+    "cross_list_courses": [
+      "CSCI-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20407,6 +20480,9 @@
     }
   },
   "74165": {
+    "cross_list_courses": [
+      "CSCI-6966"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -20455,6 +20531,9 @@
     }
   },
   "74170": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20464,6 +20543,9 @@
     }
   },
   "74171": {
+    "cross_list_courses": [
+      "CSCI-6970"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -20618,33 +20700,6 @@
       "course": "CHME 2020",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "74180": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ISYE 4140",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "74181": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
     }
   },
   "74182": {
@@ -21882,6 +21937,9 @@
   "74293": {},
   "74294": {},
   "74295": {
+    "cross_list_courses": [
+      "CSCI-6975"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21909,6 +21967,9 @@
     }
   },
   "74296": {
+    "cross_list_courses": [
+      "CSCI-4975"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22300,6 +22361,9 @@
     }
   },
   "74332": {
+    "cross_list_courses": [
+      "CSCI-6960"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -22588,6 +22652,9 @@
     }
   },
   "74384": {
+    "cross_list_courses": [
+      "ITWS-4850"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22605,6 +22672,9 @@
     }
   },
   "74385": {
+    "cross_list_courses": [
+      "CSCI-4850"
+    ],
     "prerequisites": {
       "course": "CSCI 2500",
       "min_grade": "D",
@@ -24185,6 +24255,9 @@
     }
   },
   "74549": {
+    "cross_list_courses": [
+      "CSCI-6510"
+    ],
     "prerequisites": {
       "course": "CSCI 4210",
       "min_grade": "D",
@@ -24192,6 +24265,9 @@
     }
   },
   "74550": {
+    "cross_list_courses": [
+      "CSCI-4510"
+    ],
     "prerequisites": {
       "course": "CSCI 4210",
       "min_grade": "D",
@@ -24206,6 +24282,9 @@
     }
   },
   "74551": {
+    "cross_list_courses": [
+      "CSCI-6460"
+    ],
     "prerequisites": {
       "course": "CSCI 2600",
       "min_grade": "D",
@@ -24213,6 +24292,9 @@
     }
   },
   "74552": {
+    "cross_list_courses": [
+      "CSCI-4460"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24278,10 +24360,26 @@
       }
     }
   },
-  "74559": {},
-  "74560": {},
-  "74561": {},
-  "74562": {},
+  "74559": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ]
+  },
+  "74560": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ]
+  },
+  "74561": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ]
+  },
+  "74562": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ]
+  },
   "74563": {
     "restrictions": {
       "classification": {
@@ -24907,6 +25005,9 @@
     }
   },
   "74633": {
+    "cross_list_courses": [
+      "CSCI-4970"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24917,7 +25018,12 @@
   },
   "74634": {},
   "74637": {},
-  "74640": {},
+  "74640": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962"
+    ]
+  },
   "74641": {},
   "74642": {},
   "74643": {
@@ -24938,6 +25044,11 @@
   "74648": {},
   "74649": {},
   "74658": {
+    "cross_list_courses": [
+      "CSCI-4160",
+      "CSCI-6963",
+      "ECSE-6965"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -24945,6 +25056,11 @@
     }
   },
   "74659": {
+    "cross_list_courses": [
+      "CSCI-4160",
+      "CSCI-6963",
+      "ECSE-4965"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25371,7 +25487,9 @@
   },
   "74738": {
     "cross_list_courses": [
-      "CSCI-6963"
+      "CSCI-6963",
+      "ECSE-4965",
+      "ECSE-6965"
     ],
     "prerequisites": {
       "nested": [
@@ -26069,12 +26187,14 @@
   },
   "75157": {
     "cross_list_courses": [
-      "COGS-6962"
+      "COGS-6962",
+      "CSCI-4972"
     ]
   },
   "75158": {
     "cross_list_courses": [
-      "COGS-4962"
+      "COGS-4962",
+      "CSCI-4972"
     ],
     "restrictions": {
       "level": {
