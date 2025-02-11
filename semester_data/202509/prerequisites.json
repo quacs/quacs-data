@@ -26465,5 +26465,53 @@
         ]
       }
     }
+  },
+  "75220": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 6720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 6740",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "75221": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 6720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 6740",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
   }
 }

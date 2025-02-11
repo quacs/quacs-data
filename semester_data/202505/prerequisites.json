@@ -791,7 +791,6 @@
       }
     }
   },
-  "23116": {},
   "23117": {
     "prerequisites": {
       "nested": [
@@ -4052,7 +4051,6 @@
       }
     }
   },
-  "23378": {},
   "23379": {
     "restrictions": {
       "campus": {
@@ -4082,28 +4080,6 @@
   },
   "23383": {},
   "23384": {},
-  "23385": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23386": {
     "prerequisites": {
       "nested": [
@@ -4299,28 +4275,6 @@
       }
     }
   },
-  "23472": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23478": {
     "restrictions": {
       "campus": {
@@ -4391,6 +4345,10 @@
   },
   "23486": {},
   "23487": {
+    "cross_list_courses": [
+      "COGS-4961",
+      "CSCI-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4399,7 +4357,12 @@
       }
     }
   },
-  "23488": {},
+  "23488": {
+    "cross_list_courses": [
+      "COGS-6960",
+      "CSCI-4962"
+    ]
+  },
   "23489": {
     "prerequisites": {
       "nested": [
@@ -4477,8 +4440,6 @@
     }
   },
   "23493": {},
-  "23494": {},
-  "23495": {},
   "23496": {},
   "23497": {},
   "23498": {},
@@ -4679,5 +4640,18 @@
   "23513": {},
   "23514": {},
   "23515": {},
-  "23516": {}
+  "23516": {},
+  "23517": {
+    "cross_list_courses": [
+      "COGS-4961",
+      "COGS-6960"
+    ]
+  },
+  "23518": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  }
 }
