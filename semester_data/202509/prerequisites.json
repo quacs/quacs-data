@@ -23483,15 +23483,6 @@
       }
     }
   },
-  "74459": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74460": {
     "prerequisites": {
       "nested": [
@@ -24695,23 +24686,6 @@
     }
   },
   "74595": {},
-  "74596": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 2220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 4220",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "74597": {
     "prerequisites": {
       "nested": [
@@ -24830,7 +24804,6 @@
       }
     }
   },
-  "74614": {},
   "74615": {
     "prerequisites": {
       "nested": [
@@ -27189,5 +27162,20 @@
         ]
       }
     }
+  },
+  "75236": {
+    "cross_list_courses": [
+      "PHYS-6963"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75237": {
+    "cross_list_courses": [
+      "PHYS-4620"
+    ]
   }
 }
