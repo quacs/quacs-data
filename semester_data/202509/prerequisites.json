@@ -11357,23 +11357,6 @@
       "type": "and"
     }
   },
-  "73288": {
-    "cross_list_courses": [
-      "BMED-6960"
-    ]
-  },
-  "73289": {
-    "cross_list_courses": [
-      "BMED-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "73290": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -24652,21 +24635,6 @@
     }
   },
   "74587": {},
-  "74592": {
-    "prerequisites": {
-      "course": "BMED 2540",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "74593": {
     "restrictions": {
       "level": {
@@ -25176,33 +25144,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "74678": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BMED 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "74679": {
@@ -27177,5 +27118,60 @@
     "cross_list_courses": [
       "PHYS-4620"
     ]
+  },
+  "75238": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "ENGR 2250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75239": {},
+  "75241": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75242": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "75243": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
