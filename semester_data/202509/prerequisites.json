@@ -1404,8 +1404,7 @@
     "cross_list_courses": [
       "CIVL-6660",
       "MANE-4240",
-      "MANE-6660",
-      "MANE-6969"
+      "MANE-6660"
     ],
     "prerequisites": {
       "nested": [
@@ -1517,8 +1516,7 @@
     "cross_list_courses": [
       "CIVL-4240",
       "MANE-4240",
-      "MANE-6660",
-      "MANE-6969"
+      "MANE-6660"
     ],
     "restrictions": {
       "level": {
@@ -3773,8 +3771,7 @@
     "cross_list_courses": [
       "CIVL-4240",
       "CIVL-6660",
-      "MANE-6660",
-      "MANE-6969"
+      "MANE-6660"
     ],
     "prerequisites": {
       "nested": [
@@ -3880,8 +3877,7 @@
     "cross_list_courses": [
       "CIVL-4240",
       "CIVL-6660",
-      "MANE-4240",
-      "MANE-6969"
+      "MANE-4240"
     ],
     "restrictions": {
       "level": {
@@ -24722,8 +24718,15 @@
       }
     }
   },
-  "74580": {},
+  "74580": {
+    "cross_list_courses": [
+      "MANE-6964"
+    ]
+  },
   "74581": {
+    "cross_list_courses": [
+      "MANE-4964"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25936,23 +25939,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "74900": {
-    "cross_list_courses": [
-      "CIVL-4240",
-      "CIVL-6660",
-      "MANE-4240",
-      "MANE-6660"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
     }
   },
   "74907": {
@@ -27335,6 +27321,9 @@
     }
   },
   "75242": {
+    "cross_list_courses": [
+      "BMED-6660"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -27344,6 +27333,9 @@
     }
   },
   "75243": {
+    "cross_list_courses": [
+      "BMED-4660"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
