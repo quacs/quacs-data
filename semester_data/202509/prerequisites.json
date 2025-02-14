@@ -2619,27 +2619,8 @@
       "type": "course"
     }
   },
-  "72181": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "72182": {},
   "72183": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "72184": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5134,16 +5115,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "72501": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "72502": {
@@ -23839,15 +23810,6 @@
       "PHYS-1100"
     ]
   },
-  "74474": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74475": {
     "cross_list_courses": [
       "CHEM-6300"
@@ -24086,24 +24048,10 @@
       "type": "course"
     }
   },
-  "74496": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74497": {
     "corequisites": [
       "PHYS-1100"
     ]
-  },
-  "74498": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
   },
   "74499": {
     "corequisites": [
@@ -24190,22 +24138,12 @@
       }
     }
   },
-  "74510": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "74514": {
     "corequisites": [
       "PHYS-1100"
     ]
   },
   "74515": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "74517": {
     "corequisites": [
       "PHYS-1100"
     ]
@@ -24242,11 +24180,6 @@
         ]
       }
     }
-  },
-  "74519": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
   },
   "74520": {
     "corequisites": [
@@ -24298,27 +24231,12 @@
       "PHYS-1100"
     ]
   },
-  "74532": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
   "74534": {
     "corequisites": [
       "PHYS-1100"
     ]
   },
   "74535": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "74537": {
-    "corequisites": [
-      "PHYS-1100"
-    ]
-  },
-  "74538": {
     "corequisites": [
       "PHYS-1100"
     ]
@@ -25016,38 +24934,6 @@
       "course": "ARCH 4520",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "74624": {
-    "cross_list_courses": [
-      "CHEM-6130"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 1020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "74625": {
-    "cross_list_courses": [
-      "CHEM-4130"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "74626": {
@@ -27525,5 +27411,24 @@
   "75261": {},
   "75262": {},
   "75263": {},
-  "75264": {}
+  "75264": {},
+  "75265": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75266": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
