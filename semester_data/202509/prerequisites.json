@@ -20980,7 +20980,6 @@
       }
     }
   },
-  "74199": {},
   "74200": {
     "restrictions": {
       "level": {
@@ -27240,5 +27239,67 @@
   "75269": {},
   "75270": {},
   "75271": {},
-  "75272": {}
+  "75272": {},
+  "75273": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1960",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CIVL 1200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
