@@ -10374,6 +10374,31 @@
     }
   },
   "73190": {},
+  "73191": {
+    "cross_list_courses": [
+      "MTLE-4400"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "73192": {
     "prerequisites": {
       "course": "PHYS 1200",
@@ -19599,22 +19624,6 @@
       "type": "and"
     }
   },
-  "74056": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Environmental Science",
-          "Geology"
-        ]
-      }
-    }
-  },
   "74057": {
     "cross_list_courses": [
       "ARCH-6967"
@@ -23013,20 +23022,6 @@
       "type": "course"
     }
   },
-  "74419": {
-    "prerequisites": {
-      "course": "BMED 2100",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74420": {
     "prerequisites": {
       "course": "BMED 2300",
@@ -24865,21 +24860,6 @@
         "must_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "74681": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Environmental Science",
-          "Geology"
         ]
       }
     }
@@ -27293,5 +27273,130 @@
     "cross_list_courses": [
       "CHME-4960"
     ]
+  },
+  "75285": {
+    "cross_list_courses": [
+      "MTLE-4400"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75286": {
+    "prerequisites": {
+      "course": "BMED 2100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75287": {
+    "cross_list_courses": [
+      "ECSE-4960",
+      "ECSE-6960",
+      "MTLE-6960",
+      "PHYS-4961",
+      "PHYS-6961"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75288": {
+    "cross_list_courses": [
+      "ECSE-4960",
+      "ECSE-6960",
+      "MTLE-4960",
+      "PHYS-4961",
+      "PHYS-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75289": {
+    "cross_list_courses": [
+      "ECSE-4960",
+      "ECSE-6960",
+      "MTLE-4960",
+      "MTLE-6960",
+      "PHYS-6961"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75290": {
+    "cross_list_courses": [
+      "ECSE-4960",
+      "ECSE-6960",
+      "MTLE-4960",
+      "MTLE-6960",
+      "PHYS-4961"
+    ]
+  },
+  "75291": {
+    "cross_list_courses": [
+      "ECSE-6960",
+      "MTLE-4960",
+      "MTLE-6960",
+      "PHYS-4961",
+      "PHYS-6961"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75292": {
+    "cross_list_courses": [
+      "ECSE-4960",
+      "MTLE-4960",
+      "MTLE-6960",
+      "PHYS-4961",
+      "PHYS-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
