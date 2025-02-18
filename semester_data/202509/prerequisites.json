@@ -19236,6 +19236,10 @@
   "74030": {},
   "74034": {},
   "74035": {
+    "cross_list_courses": [
+      "ENGR-4963",
+      "ENGR-6964"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27042,8 +27046,17 @@
     }
   },
   "75256": {},
-  "75257": {},
+  "75257": {
+    "cross_list_courses": [
+      "ENGR-6964",
+      "ISYE-6900"
+    ]
+  },
   "75258": {
+    "cross_list_courses": [
+      "ENGR-4963",
+      "ISYE-6900"
+    ],
     "restrictions": {
       "level": {
         "may_not_be": [
@@ -27380,6 +27393,15 @@
       "course": "ASTR 2050",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "75294": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
