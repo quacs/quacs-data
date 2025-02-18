@@ -4896,6 +4896,9 @@
   },
   "72470": {},
   "72476": {
+    "cross_list_courses": [
+      "MGMT-7770"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -8145,15 +8148,6 @@
       }
     }
   },
-  "72946": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "72947": {
     "restrictions": {
       "level": {
@@ -8495,20 +8489,6 @@
       "major": {
         "must_be": [
           "Information Technology"
-        ]
-      }
-    }
-  },
-  "72993": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -11348,6 +11328,9 @@
     }
   },
   "73285": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11832,6 +11815,9 @@
     }
   },
   "73360": {
+    "cross_list_courses": [
+      "MGMT-4080"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12394,6 +12380,10 @@
     }
   },
   "73412": {
+    "cross_list_courses": [
+      "MGMT-7230",
+      "MGMT-7770"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12412,6 +12402,10 @@
     }
   },
   "73413": {
+    "cross_list_courses": [
+      "MGMT-7230",
+      "MGMT-7770"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12449,6 +12443,9 @@
     }
   },
   "73415": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12467,6 +12464,9 @@
     }
   },
   "73416": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15977,6 +15977,9 @@
   "73697": {},
   "73698": {},
   "73699": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16124,6 +16127,9 @@
     }
   },
   "73711": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16308,6 +16314,9 @@
     }
   },
   "73751": {
+    "cross_list_courses": [
+      "MGMT-6080"
+    ],
     "prerequisites": {
       "course": "MGMT 4100",
       "min_grade": "D",
@@ -17308,7 +17317,11 @@
       }
     }
   },
-  "73845": {},
+  "73845": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "73846": {
     "prerequisites": {
       "course": "ENGR 6220",
@@ -17354,8 +17367,15 @@
       "type": "or"
     }
   },
-  "73852": {},
+  "73852": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "73853": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27405,5 +27425,30 @@
       }
     }
   },
-  "75299": {}
+  "75299": {},
+  "75300": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75301": {},
+  "75302": {},
+  "75303": {},
+  "75304": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
