@@ -27266,5 +27266,23 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "75280": {},
+  "75281": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 6660",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 6660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
