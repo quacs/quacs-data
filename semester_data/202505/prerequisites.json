@@ -4754,5 +4754,22 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "23525": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 2120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }

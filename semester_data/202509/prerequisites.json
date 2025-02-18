@@ -4529,6 +4529,9 @@
     }
   },
   "72428": {
+    "cross_list_courses": [
+      "CHEM-4440"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6268,6 +6271,9 @@
     }
   },
   "72688": {
+    "cross_list_courses": [
+      "ISYE-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -7564,6 +7570,9 @@
     }
   },
   "72862": {
+    "cross_list_courses": [
+      "ISYE-6610"
+    ],
     "prerequisites": {
       "course": "MATH 2010",
       "min_grade": "D",
@@ -13882,6 +13891,9 @@
     }
   },
   "73545": {
+    "cross_list_courses": [
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27438,9 +27450,23 @@
     }
   },
   "75301": {},
-  "75302": {},
-  "75303": {},
+  "75302": {
+    "cross_list_courses": [
+      "ISYE-4961",
+      "ISYE-6961"
+    ]
+  },
+  "75303": {
+    "cross_list_courses": [
+      "ENGR-4964",
+      "ISYE-6961"
+    ]
+  },
   "75304": {
+    "cross_list_courses": [
+      "ENGR-4964",
+      "ISYE-4961"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27450,5 +27476,6 @@
         ]
       }
     }
-  }
+  },
+  "75305": {}
 }
