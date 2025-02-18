@@ -13411,9 +13411,7 @@
   },
   "73472": {
     "cross_list_courses": [
-      "ARCH-6840",
-      "MANE-4963",
-      "MANE-6963"
+      "ARCH-6840"
     ],
     "restrictions": {
       "classification": {
@@ -14395,9 +14393,7 @@
   },
   "73580": {
     "cross_list_courses": [
-      "ARCH-4890",
-      "MANE-4963",
-      "MANE-6963"
+      "ARCH-4890"
     ],
     "restrictions": {
       "level": {
@@ -20989,20 +20985,6 @@
       }
     }
   },
-  "74201": {
-    "cross_list_courses": [
-      "ARCH-4890",
-      "ARCH-6840",
-      "MANE-4963"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74202": {
     "cross_list_courses": [
       "CSCI-4600",
@@ -21863,13 +21845,6 @@
         ]
       }
     }
-  },
-  "74276": {
-    "cross_list_courses": [
-      "ARCH-4890",
-      "ARCH-6840",
-      "MANE-6963"
-    ]
   },
   "74280": {
     "restrictions": {
@@ -24318,15 +24293,6 @@
       "course": "ARCH 2530",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "74574": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "74575": {
@@ -27301,5 +27267,33 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "75274": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering"
+        ]
+      }
+    }
+  },
+  "75275": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2090",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75276": {}
 }
