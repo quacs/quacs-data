@@ -27295,5 +27295,23 @@
       "type": "and"
     }
   },
-  "75276": {}
+  "75276": {},
+  "75277": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75278": {}
 }
