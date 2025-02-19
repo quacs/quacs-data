@@ -13863,6 +13863,9 @@
     ]
   },
   "73554": {
+    "cross_list_courses": [
+      "ARTS-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17745,6 +17748,9 @@
     }
   },
   "73900": {
+    "cross_list_courses": [
+      "GSAS-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20778,6 +20784,8 @@
     "restrictions": {
       "major": {
         "must_be": [
+          "Architecture",
+          "Critical Game Design",
           "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
@@ -24641,6 +24649,9 @@
     }
   },
   "74753": {
+    "cross_list_courses": [
+      "GSAS-4510"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25217,6 +25228,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "75156": {
@@ -25687,7 +25706,11 @@
       }
     }
   },
-  "75206": {},
+  "75206": {
+    "cross_list_courses": [
+      "GSAS-6200"
+    ]
+  },
   "75207": {
     "cross_list_courses": [
       "LITR-4960"
@@ -27267,5 +27290,6 @@
       }
     }
   },
-  "75353": {}
+  "75353": {},
+  "75354": {}
 }
