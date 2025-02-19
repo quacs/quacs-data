@@ -12728,7 +12728,16 @@
       "type": "or"
     }
   },
-  "73446": {},
+  "73446": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "73447": {
     "cross_list_courses": [
       "PSYC-4730"
@@ -15039,7 +15048,6 @@
       "major": {
         "must_be": [
           "Communication, Media, & Design",
-          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -18908,7 +18916,19 @@
       }
     }
   },
-  "74028": {},
+  "74028": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "74029": {
     "prerequisites": {
       "course": "STSO 2020",
@@ -26063,7 +26083,15 @@
       "type": "or"
     }
   },
-  "75227": {},
+  "75227": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "75229": {
     "restrictions": {
       "classification": {
@@ -26775,7 +26803,11 @@
     }
   },
   "75299": {},
-  "75301": {},
+  "75301": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ]
+  },
   "75302": {
     "cross_list_courses": [
       "ISYE-4961",
