@@ -27291,5 +27291,32 @@
     }
   },
   "75353": {},
-  "75354": {}
+  "75354": {},
+  "75355": {},
+  "75356": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 6400",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "MANE 6600",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75357": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
