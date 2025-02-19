@@ -23380,38 +23380,6 @@
       }
     }
   },
-  "74483": {
-    "cross_list_courses": [
-      "ECSE-6810"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "74484": {
-    "cross_list_courses": [
-      "ECSE-4810"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74485": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -24741,20 +24709,6 @@
       }
     }
   },
-  "74762": {
-    "cross_list_courses": [
-      "ECSE-6963"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "74763": {
     "restrictions": {
       "level": {
@@ -24874,23 +24828,6 @@
   "74842": {},
   "74843": {},
   "74844": {},
-  "74848": {
-    "cross_list_courses": [
-      "ECSE-4963"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74863": {
     "restrictions": {
       "classification": {
@@ -27190,5 +27127,66 @@
         ]
       }
     }
-  }
+  },
+  "75323": {},
+  "75324": {},
+  "75325": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2410",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2500",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
+        ]
+      }
+    }
+  },
+  "75326": {},
+  "75327": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75328": {},
+  "75329": {},
+  "75330": {},
+  "75331": {},
+  "75332": {},
+  "75333": {},
+  "75334": {},
+  "75335": {},
+  "75336": {},
+  "75337": {},
+  "75338": {},
+  "75339": {},
+  "75340": {},
+  "75341": {},
+  "75342": {},
+  "75343": {},
+  "75344": {},
+  "75345": {},
+  "75346": {}
 }
