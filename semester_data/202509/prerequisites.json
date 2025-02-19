@@ -10921,17 +10921,6 @@
     }
   },
   "73251": {},
-  "73252": {},
-  "73253": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Architecture",
-          "Building Sciences"
-        ]
-      }
-    }
-  },
   "73254": {
     "restrictions": {
       "classification": {
@@ -18508,7 +18497,6 @@
       "type": "course"
     }
   },
-  "73954": {},
   "73955": {
     "prerequisites": {
       "nested": [
@@ -19317,26 +19305,6 @@
       "ERTH-1100"
     ]
   },
-  "74055": {
-    "cross_list_courses": [
-      "ERTH-6545"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "74057": {
     "cross_list_courses": [
       "ARCH-6967"
@@ -19672,26 +19640,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "74099": {
-    "cross_list_courses": [
-      "ERTH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "74100": {
@@ -20519,8 +20467,7 @@
   },
   "74185": {
     "cross_list_courses": [
-      "CIVL-4240",
-      "CIVL-6660"
+      "CIVL-4240"
     ],
     "prerequisites": {
       "nested": [
@@ -20540,7 +20487,6 @@
   },
   "74186": {
     "cross_list_courses": [
-      "CIVL-6660",
       "MANE-4240"
     ],
     "prerequisites": {
@@ -22356,7 +22302,6 @@
       }
     }
   },
-  "74381": {},
   "74383": {
     "restrictions": {
       "classification": {
@@ -23807,20 +23752,6 @@
       }
     }
   },
-  "74571": {
-    "cross_list_courses": [
-      "CIVL-4240",
-      "MANE-4240"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "74573": {
     "prerequisites": {
       "course": "ARCH 2530",
@@ -24812,7 +24743,6 @@
       }
     }
   },
-  "74823": {},
   "74827": {},
   "74834": {},
   "74842": {},
@@ -27318,5 +27248,7 @@
         ]
       }
     }
-  }
+  },
+  "75358": {},
+  "75359": {}
 }
