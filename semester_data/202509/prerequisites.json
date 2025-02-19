@@ -14424,23 +14424,6 @@
       "type": "course"
     }
   },
-  "73591": {
-    "cross_list_courses": [
-      "CSCI-4340"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "73593": {
     "restrictions": {
       "classification": {
@@ -22441,26 +22424,6 @@
       }
     }
   },
-  "74384": {
-    "cross_list_courses": [
-      "ITWS-4850"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 2660",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "74385": {
     "cross_list_courses": [
       "CSCI-4850"
@@ -23818,65 +23781,6 @@
       }
     }
   },
-  "74547": {
-    "cross_list_courses": [
-      "CSCI-6340"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "74549": {
-    "cross_list_courses": [
-      "CSCI-6510"
-    ],
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "74550": {
-    "cross_list_courses": [
-      "CSCI-4510"
-    ],
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "74551": {
-    "cross_list_courses": [
-      "CSCI-6460"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2600",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "74552": {
-    "cross_list_courses": [
-      "CSCI-4460"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74553": {
     "prerequisites": {
       "nested": [
@@ -24787,33 +24691,6 @@
       "course": "PHYS 4160",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "74737": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4100",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "74738": {
