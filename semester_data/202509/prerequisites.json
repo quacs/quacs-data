@@ -25532,8 +25532,50 @@
       }
     }
   },
-  "75190": {},
-  "75191": {},
+  "75190": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75191": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "75192": {
     "restrictions": {
       "level": {
@@ -25770,6 +25812,9 @@
     }
   },
   "75219": {
+    "cross_list_courses": [
+      "PSYC-4280"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27207,5 +27252,20 @@
         ]
       }
     }
-  }
+  },
+  "75352": {
+    "cross_list_courses": [
+      "COGS-4280"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "75353": {}
 }
