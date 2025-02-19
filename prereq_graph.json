@@ -4252,11 +4252,7 @@
   },
   "CSCI 4963": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 4100",
-      "CSCI 4160"
-    ]
+    "prereqs": []
   },
   "CSCI 4964": {
     "title": "Topics In Csci",
@@ -4279,9 +4275,7 @@
   },
   "CSCI 4967": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6360": {
     "title": "Parallel Computing",
@@ -9361,17 +9355,11 @@
   },
   "CSCI 4969": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 4480",
-      "ECSE 4480",
-      "MANE 4560"
-    ]
+    "prereqs": []
   },
   "CSCI 4970": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4971": {
     "title": "Topics Courses In Csci",
@@ -10929,7 +10917,11 @@
   },
   "CSCI 6500": {
     "title": "Distributed Computing Over The Internet",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 4210",
+      "CSCI 4220",
+      "CSCI 4430"
+    ]
   },
   "CSCI 6973": {
     "title": "Topics In Csci",
@@ -17183,6 +17175,8 @@
     "title": "Mod & Sim For Cyber-phys Sys",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -17195,7 +17189,12 @@
   },
   "ECSE 6170": {
     "title": "Mod & Sim For Cyber-phys Sys",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2400"
+    ]
   },
   "ENVE 6160": {
     "title": "Environmental Impact Analysis",
@@ -18917,6 +18916,14 @@
   "COGS 4280": {
     "title": "Canine Cogtn & Science Trning",
     "prereqs": []
+  },
+  "CSCI 4180": {
+    "title": "Trustworthy Machine Learning",
+    "prereqs": [
+      "CSCI 2210",
+      "CSCI 4100",
+      "CSCI 4390"
+    ]
   },
   "ENGR 4964": {
     "title": "Topics In Engr",
