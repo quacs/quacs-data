@@ -8814,15 +8814,6 @@
       }
     }
   },
-  "73055": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "73056": {
     "restrictions": {
       "level": {
@@ -8838,15 +8829,6 @@
       "college": {
         "must_be": [
           "School of Science"
-        ]
-      }
-    }
-  },
-  "73059": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -9313,15 +9295,6 @@
     }
   },
   "73107": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "73108": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -11229,26 +11202,6 @@
         },
         {
           "course": "MGMT 4110",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "73286": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
           "min_grade": "D",
           "type": "course"
         }
@@ -16568,16 +16521,6 @@
       }
     }
   },
-  "73788": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "73789": {
     "restrictions": {
       "classification": {
@@ -16590,17 +16533,6 @@
     }
   },
   "73790": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "73791": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -18821,26 +18753,6 @@
     }
   },
   "74014": {},
-  "74017": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "74019": {
     "corequisites": [
       "ARCH-5200"
@@ -21713,7 +21625,6 @@
       }
     }
   },
-  "74301": {},
   "74302": {},
   "74303": {},
   "74304": {},
@@ -21909,67 +21820,7 @@
     }
   },
   "74321": {},
-  "74322": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "74323": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "74324": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "74325": {
     "corequisites": [
       "ARCH-2540"
     ],
@@ -22023,26 +21874,6 @@
     }
   },
   "74328": {},
-  "74329": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "74330": {
     "restrictions": {
       "classification": {
@@ -22139,26 +21970,6 @@
     ]
   },
   "74346": {},
-  "74348": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "74349": {},
   "74350": {
     "prerequisites": {
@@ -24010,13 +23821,6 @@
       "ECSE-4964",
       "ECSE-6964"
     ]
-  },
-  "74623": {
-    "prerequisites": {
-      "course": "ARCH 4520",
-      "min_grade": "D",
-      "type": "course"
-    }
   },
   "74626": {
     "prerequisites": {
@@ -27250,5 +27054,105 @@
     }
   },
   "75358": {},
-  "75359": {}
+  "75359": {},
+  "75360": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75361": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75362": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75363": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75364": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
