@@ -5851,6 +5851,15 @@
       }
     }
   },
+  "72633": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72634": {
     "restrictions": {
       "level": {
@@ -27215,5 +27224,23 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "75380": {
+    "cross_list_courses": [
+      "BIOL-6960"
+    ]
+  },
+  "75381": {
+    "cross_list_courses": [
+      "BIOL-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75382": {}
 }
