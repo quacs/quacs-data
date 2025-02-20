@@ -27155,5 +27155,56 @@
         ]
       }
     }
+  },
+  "75377": {
+    "cross_list_courses": [
+      "CHME-6961"
+    ]
+  },
+  "75378": {
+    "cross_list_courses": [
+      "CHME-4961"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75379": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 1010",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
