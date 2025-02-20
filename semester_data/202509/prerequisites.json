@@ -19210,18 +19210,6 @@
       "ERTH-1100"
     ]
   },
-  "74058": {
-    "cross_list_courses": [
-      "ARCH-4965"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74059": {
     "corequisites": [
       "ARCH-4320",
@@ -27207,5 +27195,27 @@
     }
   },
   "75371": {},
-  "75372": {}
+  "75372": {},
+  "75373": {
+    "prerequisites": {
+      "course": "ARCH 2350",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75374": {
+    "prerequisites": {
+      "course": "ARCH 5210",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
