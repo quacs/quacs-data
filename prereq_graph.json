@@ -63,11 +63,7 @@
   },
   "ARCH 6990": {
     "title": "Master's Thesis",
-    "prereqs": [
-      "CSCI 2200",
-      "CSCI 2500",
-      "ECSE 2660"
-    ]
+    "prereqs": []
   },
   "ARTS 1300": {
     "title": "Basic Drawing",
@@ -346,11 +342,7 @@
   },
   "ENGR 1600": {
     "title": "Materials Science For Engineer",
-    "prereqs": [
-      "CHEM 1100",
-      "CHEM 1110",
-      "CHEM 1120"
-    ]
+    "prereqs": []
   },
   "ENGR 1940": {
     "title": "Readings In Engr",
@@ -387,7 +379,9 @@
   "ENGR 2530": {
     "title": "Strength Of Materials",
     "prereqs": [
-      "ENGR 1100"
+      "ENGR 1100",
+      "MANE 1010",
+      "MANE 1960"
     ]
   },
   "ENGR 2600": {
@@ -525,6 +519,8 @@
     "prereqs": [
       "ECSE 2010",
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "PHYS 1200",
       "PHYS 1250"
     ]
@@ -1161,6 +1157,8 @@
     "title": "Numerical Computing",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -1668,11 +1666,7 @@
   },
   "CHEM 1600": {
     "title": "Materials Science",
-    "prereqs": [
-      "CHEM 1100",
-      "CHEM 1110",
-      "CHEM 1120"
-    ]
+    "prereqs": []
   },
   "CHEM 2120": {
     "title": "Experimental Chemistry I:analytical Techniques",
@@ -1821,8 +1815,11 @@
   "CIVL 4240": {
     "title": "Finite Elements Method",
     "prereqs": [
-      "ENGR 2250",
-      "ENGR 2530"
+      "BMED 2540",
+      "ENGR 2530",
+      "MANE 2010",
+      "MANE 2110",
+      "MATH 2400"
     ]
   },
   "CIVL 4440": {
@@ -1861,7 +1858,10 @@
   },
   "CIVL 6660": {
     "title": "Finite Elements Method",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 2530",
+      "MATH 2400"
+    ]
   },
   "CIVL 6780": {
     "title": "Numer.model Failure Processes",
@@ -1984,9 +1984,7 @@
   },
   "CSCI 2960": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 1200"
-    ]
+    "prereqs": []
   },
   "CSCI 4000": {
     "title": "Computer Science Elective",
@@ -2035,9 +2033,7 @@
   },
   "CSCI 4960": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6090": {
     "title": "Generic Software Design",
@@ -2080,6 +2076,8 @@
     "prereqs": [
       "ECSE 1010",
       "ENGR 1100",
+      "MANE 1010",
+      "MANE 1960",
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1110",
@@ -2555,9 +2553,7 @@
   },
   "ECSE 4960": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "PHYS 4100"
-    ]
+    "prereqs": []
   },
   "ECSE 6050": {
     "title": "Advanced Electronic Circuits",
@@ -2711,10 +2707,7 @@
   },
   "ISCI 4961": {
     "title": "Topics In Isci",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ISCI 6002": {
     "title": "Consortia Course At Suny Alb.",
@@ -3113,7 +3106,9 @@
   "MATH 4100": {
     "title": "Linear Algebra",
     "prereqs": [
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "MATH 4200": {
@@ -3267,7 +3262,8 @@
     "prereqs": [
       "MATH 1020",
       "PHYS 1100",
-      "PHYS 1110"
+      "PHYS 1110",
+      "PHYS 1150"
     ]
   },
   "PHYS 1360": {
@@ -3621,7 +3617,8 @@
   "ARCH 4790": {
     "title": "Architectural Desgin Studio 7",
     "prereqs": [
-      "ARCH 4780"
+      "ARCH 4780",
+      "ARCH 4830"
     ]
   },
   "ARCH 4961": {
@@ -4246,9 +4243,7 @@
   },
   "CSCI 4961": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 4210"
-    ]
+    "prereqs": []
   },
   "CSCI 4963": {
     "title": "Topics In Csci",
@@ -4256,16 +4251,11 @@
   },
   "CSCI 4964": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2200"
-    ]
+    "prereqs": []
   },
   "CSCI 4965": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 2010"
-    ]
+    "prereqs": []
   },
   "CSCI 4966": {
     "title": "Topics In Csci",
@@ -4291,10 +4281,7 @@
   },
   "CSCI 6961": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 4100",
-      "CSCI 6100"
-    ]
+    "prereqs": []
   },
   "CSCI 6962": {
     "title": "Topics In Csci",
@@ -4344,6 +4331,8 @@
       "ENGR 1100",
       "ENGR 1200",
       "ENGR 1400",
+      "MANE 1010",
+      "MANE 1960",
       "PHYS 1200",
       "PHYS 1250"
     ]
@@ -5067,11 +5056,8 @@
   "MGMT 6840": {
     "title": "Practicum In Management",
     "prereqs": [
-      "MGMT 6020",
-      "MGMT 6040",
       "MGMT 6580",
-      "MGMT 7730",
-      "MGMT 7740"
+      "MGMT 7030"
     ]
   },
   "MGMT 6850": {
@@ -5185,6 +5171,8 @@
     "title": "Kinetics In Materials Systems",
     "prereqs": [
       "CHEM 1100",
+      "CHEM 1110",
+      "CHEM 1120",
       "MTLE 4100"
     ]
   },
@@ -5530,9 +5518,7 @@
   },
   "PHYS 4961": {
     "title": "Topics In Phys",
-    "prereqs": [
-      "PHYS 4100"
-    ]
+    "prereqs": []
   },
   "PHYS 6002": {
     "title": "Consortia Course At Suny Alb.",
@@ -6183,10 +6169,7 @@
   },
   "ENGR 4961": {
     "title": "Topics In Engr",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "DSES 4000": {
     "title": "Dses Elective",
@@ -6247,10 +6230,7 @@
   },
   "ECSE 4961": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ECSE 6010": {
     "title": "Network Theory",
@@ -6756,7 +6736,9 @@
     "title": "Biostatistics For Life Science Applications",
     "prereqs": [
       "ENGR 2600",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "BMED 4962": {
@@ -7864,6 +7846,7 @@
   "CHME 4050": {
     "title": "Chemical Process Dsgn: Fdmtl",
     "prereqs": [
+      "CHME 2100",
       "CHME 4040",
       "CHME 4500"
     ]
@@ -8286,6 +8269,7 @@
   "CSCI 4100": {
     "title": "Machine Learning From Data",
     "prereqs": [
+      "CSCI 2210",
       "CSCI 2300"
     ]
   },
@@ -8432,9 +8416,7 @@
   },
   "MTLE 4960": {
     "title": "Topics In Mtse",
-    "prereqs": [
-      "PHYS 4100"
-    ]
+    "prereqs": []
   },
   "PHIL 2962": {
     "title": "Topics In Phil",
@@ -8949,6 +8931,7 @@
     "prereqs": [
       "BMED 2540",
       "ENGR 2530",
+      "MANE 2010",
       "MATH 2400"
     ]
   },
@@ -8961,7 +8944,11 @@
   "MANE 4060": {
     "title": "Aerospace Struc & Materials",
     "prereqs": [
-      "ENGR 2530"
+      "ENGR 2530",
+      "MANE 2010",
+      "MANE 2110",
+      "MANE 2960",
+      "MANE 4070"
     ]
   },
   "MANE 4070": {
@@ -9008,7 +8995,11 @@
     "title": "Finite Elements Method",
     "prereqs": [
       "BMED 2540",
-      "ENGR 2530"
+      "ENGR 2530",
+      "MANE 2010",
+      "MANE 2110",
+      "MANE 2960",
+      "MATH 2400"
     ]
   },
   "MANE 4260": {
@@ -9023,7 +9014,9 @@
     "prereqs": [
       "CSCI 1100",
       "MANE 2110",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "MANE 4330": {
@@ -9162,7 +9155,10 @@
   },
   "MANE 6660": {
     "title": "Finite Elements Method",
-    "prereqs": []
+    "prereqs": [
+      "MANE 2110",
+      "MATH 2400"
+    ]
   },
   "MANE 6780": {
     "title": "Numerical Model Failure Proc M",
@@ -9539,7 +9535,8 @@
   "MANE 4400": {
     "title": "Nuclear Power Syst Engr",
     "prereqs": [
-      "MANE 2720"
+      "MANE 2720",
+      "MANE 4730"
     ]
   },
   "MANE 4440": {
@@ -10078,9 +10075,7 @@
   },
   "ECSE 4965": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "ECSE 6670": {
     "title": "Broadband & Optical Netwrkg",
@@ -10347,6 +10342,7 @@
     "prereqs": [
       "CHEM 1100",
       "CHEM 1110",
+      "CHEM 1120",
       "PHYS 1100",
       "PHYS 1110",
       "PHYS 1150"
@@ -10530,7 +10526,9 @@
   },
   "MGMT 6080": {
     "title": "Networks, Innovation And Value Creation I",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 4100"
+    ]
   },
   "MGMT 6941": {
     "title": "Independent Study",
@@ -10805,7 +10803,8 @@
     "title": "Mech Behavior Of Materials",
     "prereqs": [
       "BMED 2540",
-      "ENGR 2530"
+      "ENGR 2530",
+      "MANE 2010"
     ]
   },
   "MANE 6180": {
@@ -11072,7 +11071,10 @@
   },
   "COMM 4420": {
     "title": "Foundations Of Hci Usability",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 2020",
+      "IHSS 1610"
+    ]
   },
   "COMM 6280": {
     "title": "Rhetorical Analysis",
@@ -11286,11 +11288,7 @@
   },
   "CSCI 4975": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 4150",
-      "CSCI 4390",
-      "CSCI 6390"
-    ]
+    "prereqs": []
   },
   "ERTH 4570": {
     "title": "Solid Earth Geophysics",
@@ -11366,7 +11364,24 @@
   },
   "PHIL 4480": {
     "title": "Metaphysics And Consciousness",
-    "prereqs": []
+    "prereqs": [
+      "PHIL 1110",
+      "PHIL 2100",
+      "PHIL 2140",
+      "PHIL 2400",
+      "PHIL 2500",
+      "PHIL 2600",
+      "PHIL 2830",
+      "PHIL 2960",
+      "PHIL 4130",
+      "PHIL 4140",
+      "PHIL 4240",
+      "PHIL 4260",
+      "PHIL 4300",
+      "PHIL 4310",
+      "PHIL 4420",
+      "PHIL 4500"
+    ]
   },
   "PSYC 2100": {
     "title": "Critical Thinking",
@@ -11852,6 +11867,8 @@
     "title": "Robotics I",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -13024,7 +13041,9 @@
     "prereqs": [
       "ECSE 2410",
       "ECSE 2500",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "ECSE 6150": {
@@ -13707,7 +13726,8 @@
   "BMED 2300": {
     "title": "Bioimaging/ Bioinstrumentation",
     "prereqs": [
-      "PHYS 1200"
+      "PHYS 1200",
+      "PHYS 1250"
     ]
   },
   "BMED 6650": {
@@ -14130,7 +14150,9 @@
   },
   "CSCI 6350": {
     "title": "Data Science",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200"
+    ]
   },
   "CSCI 6430": {
     "title": "Programming Languages",
@@ -14149,7 +14171,9 @@
   },
   "ERTH 6350": {
     "title": "Data Science",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200"
+    ]
   },
   "ECON 6962": {
     "title": "Topics In Econ",
@@ -14185,7 +14209,9 @@
   },
   "ITWS 6350": {
     "title": "Data Science",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200"
+    ]
   },
   "IHSS 1008": {
     "title": "Consortia Course Sccc Or Acc",
@@ -14948,8 +14974,7 @@
     "title": "Comprehensive Design Studio 1",
     "prereqs": [
       "ARCH 2550",
-      "ARCH 2830",
-      "ARCH 4540"
+      "ARCH 2830"
     ]
   },
   "ARCH 4910": {
@@ -15068,6 +15093,8 @@
     "title": "Robotics I",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -15121,7 +15148,11 @@
   },
   "MANE 6230": {
     "title": "Adv. Manufacturing Proc & Sys",
-    "prereqs": []
+    "prereqs": [
+      "ENGR 4710",
+      "MANE 4610",
+      "MANE 4640"
+    ]
   },
   "STSH 6965": {
     "title": "Topics In Stsh",
@@ -15303,6 +15334,8 @@
       "ENGR 1100",
       "ENGR 1200",
       "ENGR 1400",
+      "MANE 1010",
+      "MANE 1960",
       "PHYS 1200",
       "PHYS 1250"
     ]
@@ -15502,11 +15535,7 @@
   },
   "ISCI 1600": {
     "title": "Materials Science",
-    "prereqs": [
-      "CHEM 1100",
-      "CHEM 1110",
-      "CHEM 1120"
-    ]
+    "prereqs": []
   },
   "LITR 4230": {
     "title": "Irish Literature",
@@ -15748,18 +15777,11 @@
   },
   "PHYS 1600": {
     "title": "Materials Science",
-    "prereqs": [
-      "CHEM 1100",
-      "CHEM 1110",
-      "CHEM 1120"
-    ]
+    "prereqs": []
   },
   "GSAS 2960": {
     "title": "Topics Course In Gsas",
-    "prereqs": [
-      "GSAS 2510",
-      "GSAS 2520"
-    ]
+    "prereqs": []
   },
   "GSAS 4520": {
     "title": "Game Development I",
@@ -16106,9 +16128,12 @@
     "title": "Numerical Methods And Programming For Engineers",
     "prereqs": [
       "ENGR 1100",
+      "MANE 1960",
+      "MANE 2010",
       "MATH 2400",
-      "PHYS 1200",
-      "PHYS 1250"
+      "PHYS 1100",
+      "PHYS 1110",
+      "PHYS 1150"
     ]
   },
   "MANE 2710": {
@@ -16124,9 +16149,10 @@
     "title": "Fluid Mechanics",
     "prereqs": [
       "ENGR 1100",
+      "MANE 1010",
+      "MANE 1960",
       "MATH 2010",
       "MATH 2011",
-      "MATH 2012",
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1110",
@@ -16205,12 +16231,7 @@
   },
   "GSAS 2961": {
     "title": "Topics Course In Gsas",
-    "prereqs": [
-      "ARTS 1020",
-      "ARTS 1220",
-      "COMM 2660",
-      "GSAS 1040"
-    ]
+    "prereqs": []
   },
   "LANG 4960": {
     "title": "Topics In Lang",
@@ -16678,6 +16699,7 @@
   "ENGR 6216": {
     "title": "Applied Analytics",
     "prereqs": [
+      "ENGR 6200",
       "ENGR 6215"
     ]
   },
@@ -16912,9 +16934,7 @@
   },
   "ARCH 4200": {
     "title": "Portfolio Development",
-    "prereqs": [
-      "ARCH 2830"
-    ]
+    "prereqs": []
   },
   "BCBP 4470": {
     "title": "Muscle And Cardiac Biology",
@@ -16973,7 +16993,8 @@
     "prereqs": [
       "ENGR 1100",
       "PHYS 1100",
-      "PHYS 1110"
+      "PHYS 1110",
+      "PHYS 1150"
     ]
   },
   "COGS 4430": {
@@ -17087,7 +17108,8 @@
       "ENGR 1100",
       "MATH 2400",
       "PHYS 1100",
-      "PHYS 1110"
+      "PHYS 1110",
+      "PHYS 1150"
     ]
   },
   "BUSN 6107": {
@@ -17321,7 +17343,7 @@
   "CHEM 4030": {
     "title": "Expr Chem III Abridg: Phys Mth",
     "prereqs": [
-      "CHEM 2210",
+      "CHEM 2120",
       "CHEM 2290",
       "CHEM 4410"
     ]
@@ -17333,8 +17355,10 @@
   "ECSE 4840": {
     "title": "Intro To Machine Learning",
     "prereqs": [
-      "ECSE 2500",
-      "MATH 2010"
+      "CSCI 1200",
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012"
     ]
   },
   "GSAS 6100": {
@@ -17405,8 +17429,10 @@
       "INQR 1240",
       "INQR 1250",
       "INQR 1320",
+      "STSH 1110",
       "STSO 1100",
-      "STSO 1110"
+      "STSO 1110",
+      "STSS 1110"
     ]
   },
   "STSO 2500": {
@@ -17438,6 +17464,7 @@
   "STSO 4350": {
     "title": "Politics Of Design",
     "prereqs": [
+      "STSH 2500",
       "STSO 2100",
       "STSO 2210",
       "STSO 2300",
