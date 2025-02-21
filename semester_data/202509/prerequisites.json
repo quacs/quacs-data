@@ -4450,6 +4450,9 @@
     }
   },
   "72396": {
+    "cross_list_courses": [
+      "CSCI-6800"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4539,6 +4542,9 @@
     }
   },
   "72400": {
+    "cross_list_courses": [
+      "MATH-6800"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24232,6 +24238,7 @@
       }
     }
   },
+  "74606": {},
   "74615": {
     "prerequisites": {
       "nested": [
@@ -26442,46 +26449,6 @@
     "cross_list_courses": [
       "BMED-4960"
     ]
-  },
-  "75250": {
-    "cross_list_courses": [
-      "MATH-4800"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "and"
-    }
   },
   "75251": {
     "corequisites": [
