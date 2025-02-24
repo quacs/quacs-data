@@ -1654,6 +1654,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "72063": {
@@ -2637,6 +2646,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "72146": {},
@@ -3723,7 +3741,6 @@
         "must_be": [
           "Computer Science",
           "Computer & Systems Engineering",
-          "Electrical Engineering",
           "Information Tech & Web Science"
         ]
       }
@@ -4848,6 +4865,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "72434": {},
@@ -5332,6 +5358,15 @@
       "course": "CSCI 4430",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "72499": {
@@ -6793,6 +6828,13 @@
           "Junior",
           "Senior"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
       }
     }
   },
@@ -7480,6 +7522,15 @@
       "course": "CSCI 4210",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "72816": {
@@ -10729,6 +10780,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "73204": {
@@ -10737,11 +10797,6 @@
       "ERTH-4350",
       "ERTH-6350"
     ],
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -10858,6 +10913,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "73211": {
@@ -12157,6 +12221,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "73370": {
@@ -14712,11 +14785,6 @@
     "cross_list_courses": [
       "CSCI-4390"
     ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -17736,6 +17804,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "73852": {
@@ -18002,21 +18079,6 @@
     "cross_list_courses": [
       "CSCI-4370"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -18030,7 +18092,41 @@
       "CSCI-6973",
       "ECSE-4973",
       "ECSE-6973"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
   },
   "73876": {
     "prerequisites": {
@@ -18051,7 +18147,14 @@
       "CSCI-4973",
       "ECSE-4973",
       "ECSE-6973"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "73880": {},
   "73881": {
@@ -19640,6 +19743,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74044": {
@@ -19668,6 +19780,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74045": {
@@ -20713,6 +20834,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74162": {
@@ -20720,6 +20850,15 @@
       "course": "CSCI 4210",
       "min_grade": null,
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74163": {
@@ -20740,6 +20879,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74164": {
@@ -22207,7 +22355,41 @@
   "74295": {
     "cross_list_courses": [
       "CSCI-6975"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4390",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 6390",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
   },
   "74296": {
     "cross_list_courses": [
@@ -22527,6 +22709,15 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74333": {
@@ -24512,7 +24703,16 @@
       "COGS-4962",
       "COGS-6962",
       "PHIL-4961"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
   },
   "74641": {},
   "74642": {},
@@ -24945,6 +25145,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "74740": {
@@ -27113,6 +27322,15 @@
       "course": "CSCI 2200",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75309": {
@@ -27130,10 +27348,59 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
-  "75310": {},
-  "75311": {},
+  "75310": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "75311": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
   "75312": {
     "cross_list_courses": [
       "CSCI-6040"
@@ -27142,6 +27409,15 @@
       "course": "CSCI 4020",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75313": {
@@ -27152,6 +27428,13 @@
       "course": "CSCI 4020",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "75314": {
@@ -27255,6 +27538,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75318": {
@@ -27329,6 +27621,15 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75321": {

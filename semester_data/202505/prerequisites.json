@@ -1719,6 +1719,9 @@
     }
   },
   "23170": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1733,6 +1736,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "23171": {
@@ -2384,7 +2395,32 @@
   "23204": {
     "cross_list_courses": [
       "CSCI-2960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23206": {
     "prerequisites": {
@@ -2849,6 +2885,9 @@
     }
   },
   "23246": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3182,7 +3221,32 @@
   "23279": {
     "cross_list_courses": [
       "CSCI-2960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23281": {},
   "23282": {},
@@ -3501,7 +3565,32 @@
   "23313": {
     "cross_list_courses": [
       "CSCI-2960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23318": {
     "prerequisites": {
@@ -3513,7 +3602,32 @@
   "23319": {
     "cross_list_courses": [
       "CSCI-2960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2700",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23320": {
     "restrictions": {
@@ -4785,6 +4899,9 @@
     }
   },
   "23526": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4799,9 +4916,20 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "23527": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4868,6 +4996,9 @@
     }
   },
   "23530": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4920,6 +5051,9 @@
     }
   },
   "23531": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
