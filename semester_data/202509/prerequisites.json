@@ -14199,7 +14199,14 @@
   "73553": {
     "cross_list_courses": [
       "GSAS-2510"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "73554": {
     "cross_list_courses": [
@@ -14373,14 +14380,7 @@
   "73561": {
     "cross_list_courses": [
       "GSAS-2510"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "73562": {
     "prerequisites": {
@@ -14920,7 +14920,14 @@
   "73613": {
     "cross_list_courses": [
       "GSAS-1600"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "73614": {
     "restrictions": {
@@ -15058,6 +15065,12 @@
       "COMM-2660"
     ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
           "Communication, Media, & Design",
@@ -15118,11 +15131,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Music"
         ]
       }
     }
@@ -15413,15 +15421,7 @@
   "73661": {
     "cross_list_courses": [
       "ARTS-2020"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "73662": {
     "prerequisites": {
@@ -16751,15 +16751,7 @@
   "73758": {
     "cross_list_courses": [
       "ARTS-6560"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
+    ]
   },
   "73759": {
     "cross_list_courses": [
@@ -17034,17 +17026,7 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Cognitive Science",
-          "Communication, Media, & Design",
-          "Design, Innovation and Society",
-          "Electronic Arts",
-          "Economics",
-          "Games & Simulation Arts & Sci",
-          "Music",
-          "Philosophy",
-          "Psychological Science",
-          "Science, Tech & Society",
-          "Sustainability Studies"
+          "Psychological Science"
         ]
       }
     }
@@ -17803,6 +17785,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "73859": {
@@ -17824,15 +17815,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
     }
   },
   "73860": {
@@ -18412,13 +18394,6 @@
       "course": "GSAS 4510",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "73920": {
@@ -18446,14 +18421,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Science & Technology Studies",
-          "Sustainability Studies"
-        ]
-      }
     }
   },
   "73921": {
@@ -19105,6 +19072,11 @@
   },
   "73960": {
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
       "major": {
         "must_be": [
           "Communication, Media, & Design"
@@ -20259,6 +20231,13 @@
         "must_be": [
           "Freshman",
           "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -21672,7 +21651,8 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Junior",
+          "Sophomore"
         ]
       },
       "major": {
@@ -21692,7 +21672,8 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Junior",
+          "Sophomore"
         ]
       }
     }
@@ -23057,16 +23038,7 @@
       }
     }
   },
-  "74432": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
+  "74432": {},
   "74433": {
     "cross_list_courses": [
       "GSAS-1600"
@@ -23078,26 +23050,6 @@
       "ARTS-6960"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "74439": {
-    "cross_list_courses": [
-      "ARTS-4500",
-      "ARTS-6960"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      },
       "major": {
         "must_be": [
           "Electronic Arts",
@@ -23106,6 +23058,12 @@
         ]
       }
     }
+  },
+  "74439": {
+    "cross_list_courses": [
+      "ARTS-4500",
+      "ARTS-6960"
+    ]
   },
   "74440": {
     "cross_list_courses": [
@@ -23276,12 +23234,6 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
       "major": {
         "must_be": [
           "Architecture",
@@ -24415,11 +24367,18 @@
     }
   },
   "74634": {},
-  "74637": {},
+  "74637": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972"
+    ]
+  },
   "74640": {
     "cross_list_courses": [
       "COGS-4962",
-      "COGS-6962"
+      "COGS-6962",
+      "PHIL-4961"
     ]
   },
   "74641": {},
@@ -25450,13 +25409,15 @@
   "75157": {
     "cross_list_courses": [
       "COGS-6962",
-      "CSCI-4972"
+      "CSCI-4972",
+      "PHIL-4961"
     ]
   },
   "75158": {
     "cross_list_courses": [
       "COGS-4962",
-      "CSCI-4972"
+      "CSCI-4972",
+      "PHIL-4961"
     ],
     "restrictions": {
       "level": {
@@ -25476,11 +25437,9 @@
       "COMM-4961"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25495,11 +25454,9 @@
       "COMM-4540"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25514,11 +25471,9 @@
       "COMM-4540"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25632,7 +25587,14 @@
   "75184": {
     "cross_list_courses": [
       "GSAS-2510"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "75185": {
     "cross_list_courses": [
@@ -25687,8 +25649,50 @@
       }
     }
   },
-  "75190": {},
-  "75191": {},
+  "75190": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75191": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "75192": {
     "restrictions": {
       "level": {
@@ -25803,7 +25807,14 @@
   "75206": {
     "cross_list_courses": [
       "GSAS-6200"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "75207": {
     "cross_list_courses": [
@@ -26554,7 +26565,6 @@
   "75261": {},
   "75262": {},
   "75263": {},
-  "75264": {},
   "75265": {
     "restrictions": {
       "classification": {
@@ -26909,7 +26919,15 @@
   "75301": {
     "cross_list_courses": [
       "STSO-2520"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
   },
   "75302": {
     "cross_list_courses": [
@@ -27669,5 +27687,14 @@
     }
   },
   "75382": {},
-  "75383": {}
+  "75383": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75384": {}
 }
