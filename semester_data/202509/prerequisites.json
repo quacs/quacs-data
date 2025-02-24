@@ -940,6 +940,9 @@
     }
   },
   "72027": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -992,6 +995,9 @@
     }
   },
   "72028": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3146,6 +3152,9 @@
   },
   "72237": {},
   "72238": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3382,6 +3391,9 @@
     }
   },
   "72272": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3556,6 +3568,9 @@
     }
   },
   "72284": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -5848,6 +5863,9 @@
     }
   },
   "72602": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9791,6 +9809,9 @@
     }
   },
   "73131": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10857,6 +10878,9 @@
     }
   },
   "73215": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11560,6 +11584,9 @@
     }
   },
   "73291": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13833,6 +13860,9 @@
     }
   },
   "73488": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13983,6 +14013,9 @@
     }
   },
   "73523": {
+    "cross_list_courses": [
+      "CSCI-4180"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19791,6 +19824,11 @@
     "cross_list_courses": [
       "CSCI-4960"
     ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -22416,7 +22454,12 @@
   "74332": {
     "cross_list_courses": [
       "CSCI-6960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "74333": {
     "restrictions": {
@@ -23926,8 +23969,18 @@
       }
     }
   },
-  "74554": {},
+  "74554": {
+    "prerequisites": {
+      "course": "CSCI 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74555": {
+    "cross_list_courses": [
+      "CSCI-2700",
+      "CSCI-4968"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -23940,6 +23993,10 @@
     ]
   },
   "74557": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-4968"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "D",
@@ -23962,21 +24019,29 @@
   },
   "74559": {
     "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
       "CSCI-4968"
     ]
   },
   "74560": {
     "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
       "CSCI-4968"
     ]
   },
   "74561": {
     "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
       "CSCI-4968"
     ]
   },
   "74562": {
     "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
       "CSCI-4968"
     ]
   },
@@ -26980,6 +27045,9 @@
   "75310": {},
   "75311": {},
   "75312": {
+    "cross_list_courses": [
+      "CSCI-6040"
+    ],
     "prerequisites": {
       "course": "CSCI 4020",
       "min_grade": "D",
@@ -26987,6 +27055,9 @@
     }
   },
   "75313": {
+    "cross_list_courses": [
+      "CSCI-4040"
+    ],
     "prerequisites": {
       "course": "CSCI 4020",
       "min_grade": "D",
@@ -27011,6 +27082,9 @@
     }
   },
   "75315": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27025,9 +27099,20 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75316": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27042,9 +27127,20 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "75317": {
+    "cross_list_courses": [
+      "CSCI-6962"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27116,6 +27212,9 @@
     }
   },
   "75320": {
+    "cross_list_courses": [
+      "CSCI-6500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27143,6 +27242,9 @@
     }
   },
   "75321": {
+    "cross_list_courses": [
+      "CSCI-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
