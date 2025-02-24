@@ -722,7 +722,13 @@
       }
     }
   },
-  "23111": {},
+  "23111": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "23112": {
     "prerequisites": {
       "nested": [
@@ -1453,6 +1459,26 @@
       }
     }
   },
+  "23143": {
+    "cross_list_courses": [
+      "COGS-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "GSAS 2540",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "23145": {
     "restrictions": {
       "campus": {
@@ -1616,6 +1642,9 @@
     }
   },
   "23166": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1643,6 +1672,9 @@
     }
   },
   "23167": {
+    "cross_list_courses": [
+      "MATH-4150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1805,6 +1837,9 @@
     }
   },
   "23175": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2902,6 +2937,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "23247": {
@@ -4220,6 +4263,9 @@
   },
   "23383": {},
   "23386": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4247,6 +4293,9 @@
     }
   },
   "23387": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4273,7 +4322,13 @@
       "type": "and"
     }
   },
-  "23389": {},
+  "23389": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "23392": {},
   "23394": {
     "prerequisites": {
@@ -4389,7 +4444,6 @@
   },
   "23401": {},
   "23402": {},
-  "23404": {},
   "23405": {},
   "23410": {},
   "23424": {},
@@ -4440,6 +4494,9 @@
     }
   },
   "23483": {
+    "cross_list_courses": [
+      "CSCI-4961"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4799,7 +4856,12 @@
     "cross_list_courses": [
       "COGS-4961",
       "COGS-6960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "23518": {
     "prerequisites": {
@@ -4944,6 +5006,14 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Information Tech & Web Science"
+        ]
+      }
     }
   },
   "23528": {
@@ -4969,6 +5039,9 @@
     }
   },
   "23529": {
+    "cross_list_courses": [
+      "CSCI-4260"
+    ],
     "prerequisites": {
       "nested": [
         {
