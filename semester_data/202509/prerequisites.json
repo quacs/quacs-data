@@ -5327,7 +5327,12 @@
   "72497": {
     "cross_list_courses": [
       "CSCI-6964"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 4430",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "72499": {
     "restrictions": {
@@ -7470,7 +7475,13 @@
       }
     }
   },
-  "72815": {},
+  "72815": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "72816": {
     "cross_list_courses": [
       "CIVL-6170"
@@ -11127,6 +11138,11 @@
     "cross_list_courses": [
       "CSCI-4964"
     ],
+    "prerequisites": {
+      "course": "CSCI 4430",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -20709,18 +20725,58 @@
   "74163": {
     "cross_list_courses": [
       "CSCI-6965"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "74164": {
     "cross_list_courses": [
       "CSCI-4965"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
         ]
       }
+    }
+  },
+  "74165": {
+    "cross_list_courses": [
+      "CSCI-6966"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "74166": {
@@ -20760,6 +20816,18 @@
       "campus": {
         "must_be": [
           "Hartford"
+        ]
+      }
+    }
+  },
+  "74170": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -27040,8 +27108,30 @@
       }
     }
   },
-  "75308": {},
-  "75309": {},
+  "75308": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75309": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "75310": {},
   "75311": {},
   "75312": {
