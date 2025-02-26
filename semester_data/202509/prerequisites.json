@@ -22970,14 +22970,7 @@
   "74390": {
     "cross_list_courses": [
       "COGS-6230"
-    ],
-    "restrictions": {
-      "campus": {
-        "must_be": [
-          "Troy"
-        ]
-      }
-    }
+    ]
   },
   "74391": {
     "cross_list_courses": [
@@ -26288,7 +26281,16 @@
   "75219": {
     "cross_list_courses": [
       "PSYC-4280"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
   },
   "75220": {
     "prerequisites": {
@@ -27852,7 +27854,16 @@
   "75352": {
     "cross_list_courses": [
       "COGS-4280"
-    ]
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      }
+    }
   },
   "75353": {},
   "75354": {},
