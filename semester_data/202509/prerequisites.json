@@ -21393,32 +21393,8 @@
     }
   },
   "74195": {},
-  "74196": {
-    "cross_list_courses": [
-      "ISYE-6960",
-      "MGMT-6960"
-    ]
-  },
-  "74197": {
-    "cross_list_courses": [
-      "ISYE-4960",
-      "MGMT-6960"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "74198": {
-    "cross_list_courses": [
-      "ISYE-4960",
-      "ISYE-6960"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27036,19 +27012,9 @@
   "75276": {},
   "75277": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
+      "course": "ENGR 2600",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "75278": {},
@@ -28278,5 +28244,28 @@
         ]
       }
     }
-  }
+  },
+  "75392": {
+    "cross_list_courses": [
+      "ISYE-6700"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75393": {
+    "cross_list_courses": [
+      "ISYE-4700"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75394": {}
 }
