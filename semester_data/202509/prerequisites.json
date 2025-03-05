@@ -11638,9 +11638,19 @@
           "type": "course"
         },
         {
-          "course": "MGMT 4110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MGMT 4110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 2510",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -12124,7 +12134,11 @@
       "type": "course"
     }
   },
-  "73363": {},
+  "73363": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
   "73364": {
     "prerequisites": {
       "nested": [
@@ -17842,9 +17856,19 @@
           "type": "course"
         },
         {
-          "course": "MGMT 4110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MGMT 4110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 2510",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
@@ -28169,7 +28193,11 @@
       }
     }
   },
-  "75384": {},
+  "75384": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
   "75386": {
     "cross_list_courses": [
       "ITWS-6961"
@@ -28267,5 +28295,14 @@
       }
     }
   },
-  "75394": {}
+  "75394": {
+    "cross_list_courses": [
+      "MGMT-1260"
+    ]
+  },
+  "75395": {
+    "cross_list_courses": [
+      "MGMT-1260"
+    ]
+  }
 }
