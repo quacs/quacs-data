@@ -9100,20 +9100,6 @@
       }
     }
   },
-  "73043": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Cognitive Science"
-        ]
-      }
-    }
-  },
   "73048": {
     "prerequisites": {
       "nested": [
@@ -12392,23 +12378,6 @@
     }
   },
   "73380": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "73381": {
     "prerequisites": {
       "nested": [
         {
@@ -17206,15 +17175,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "73781": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "73785": {
@@ -25783,23 +25743,6 @@
       }
     }
   },
-  "75159": {
-    "cross_list_courses": [
-      "COMM-6961"
-    ]
-  },
-  "75160": {
-    "cross_list_courses": [
-      "COMM-4961"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "75161": {
     "cross_list_courses": [
       "COMM-6962"
@@ -28393,5 +28336,37 @@
         ]
       }
     }
-  }
+  },
+  "75401": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75402": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
+        ]
+      }
+    }
+  },
+  "75403": {},
+  "75404": {
+    "prerequisites": {
+      "course": "ARCH 5140",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75405": {}
 }
