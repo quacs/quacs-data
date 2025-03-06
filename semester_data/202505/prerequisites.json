@@ -4566,7 +4566,37 @@
       "COGS-6960",
       "CSCI-4962",
       "GSAS-4960"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4430",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23489": {
     "cross_list_courses": [
@@ -4675,7 +4705,37 @@
       "COGS-4961",
       "COGS-6960",
       "CSCI-4962"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4430",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "23499": {},
   "23500": {
@@ -4900,9 +4960,34 @@
       "GSAS-4960"
     ],
     "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COGS 4430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4840",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4850",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "23518": {

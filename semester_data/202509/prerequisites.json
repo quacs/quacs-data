@@ -1049,13 +1049,6 @@
       "type": "and"
     }
   },
-  "72029": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "72030": {},
   "72031": {
     "corequisites": [
@@ -5502,15 +5495,6 @@
       }
     }
   },
-  "72527": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "72528": {
     "restrictions": {
       "level": {
@@ -7812,15 +7796,6 @@
           "Management",
           "Quant Finance & Risk Analytics",
           "Systems Engr and Tech Mgmt"
-        ]
-      }
-    }
-  },
-  "72841": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -11042,16 +11017,6 @@
       }
     }
   },
-  "73223": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "73224": {
     "restrictions": {
       "classification": {
@@ -11502,26 +11467,6 @@
       }
     }
   },
-  "73271": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "73272": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "73273": {
     "restrictions": {
       "classification": {
@@ -11713,20 +11658,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "73292": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "73293": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "73295": {
@@ -12528,16 +12459,6 @@
       "course": "ARCH 2830",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "73401": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
     }
   },
   "73404": {
@@ -14979,16 +14900,6 @@
       "type": "or"
     }
   },
-  "73607": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "73608": {
     "restrictions": {
       "classification": {
@@ -16444,21 +16355,6 @@
       }
     }
   },
-  "73702": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "73703": {
     "prerequisites": {
       "course": "BIOL 4200",
@@ -17719,13 +17615,6 @@
   "73839": {},
   "73840": {},
   "73841": {},
-  "73842": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "73843": {
     "prerequisites": {
       "course": "ENGR 6221",
@@ -22835,20 +22724,6 @@
       "type": "course"
     }
   },
-  "74352": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "74353": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74356": {
     "restrictions": {
       "level": {
@@ -24232,6 +24107,21 @@
     }
   },
   "74553": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 6100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -24249,8 +24139,7 @@
   },
   "74555": {
     "cross_list_courses": [
-      "CSCI-2700",
-      "CSCI-4968"
+      "CSCI-2700"
     ],
     "prerequisites": {
       "course": "CSCI 1100",
@@ -24265,8 +24154,7 @@
   },
   "74557": {
     "cross_list_courses": [
-      "CSCI-1700",
-      "CSCI-4968"
+      "CSCI-1700"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -24287,34 +24175,6 @@
         ]
       }
     }
-  },
-  "74559": {
-    "cross_list_courses": [
-      "CSCI-1700",
-      "CSCI-2700",
-      "CSCI-4968"
-    ]
-  },
-  "74560": {
-    "cross_list_courses": [
-      "CSCI-1700",
-      "CSCI-2700",
-      "CSCI-4968"
-    ]
-  },
-  "74561": {
-    "cross_list_courses": [
-      "CSCI-1700",
-      "CSCI-2700",
-      "CSCI-4968"
-    ]
-  },
-  "74562": {
-    "cross_list_courses": [
-      "CSCI-1700",
-      "CSCI-2700",
-      "CSCI-4968"
-    ]
   },
   "74563": {
     "restrictions": {
@@ -24669,7 +24529,22 @@
       "COGS-4962",
       "COGS-6962",
       "CSCI-4972"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "74640": {
     "cross_list_courses": [
@@ -24677,6 +24552,21 @@
       "COGS-6962",
       "PHIL-4961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -25334,15 +25224,6 @@
       }
     }
   },
-  "74816": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "74827": {},
   "74834": {},
   "74842": {},
@@ -25726,7 +25607,22 @@
       "COGS-6962",
       "CSCI-4972",
       "PHIL-4961"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "75158": {
     "cross_list_courses": [
@@ -25734,6 +25630,21 @@
       "CSCI-4972",
       "PHIL-4961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -28428,5 +28339,12 @@
       "PHYS-4110",
       "PHYS-6960"
     ]
+  },
+  "75416": {
+    "prerequisites": {
+      "course": "CSCI 2700",
+      "min_grade": "D",
+      "type": "course"
+    }
   }
 }
