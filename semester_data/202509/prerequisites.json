@@ -22640,12 +22640,67 @@
       "type": "or"
     }
   },
-  "74311": {},
-  "74312": {},
-  "74313": {},
-  "74314": {},
-  "74315": {},
-  "74316": {},
+  "74311": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Architecture"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Architecture"
+        ]
+      }
+    }
+  },
+  "74312": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Engineering"
+        ]
+      }
+    }
+  },
+  "74313": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "Humanities, Arts & Soc Sci"
+        ]
+      }
+    }
+  },
+  "74314": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "Information Technology",
+          "Undeclared School",
+          "Undergraduate Education Office"
+        ]
+      }
+    }
+  },
+  "74315": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "Lally School of Mgt & Tech"
+        ]
+      }
+    }
+  },
+  "74316": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Science"
+        ]
+      }
+    }
+  },
   "74317": {},
   "74318": {},
   "74320": {
