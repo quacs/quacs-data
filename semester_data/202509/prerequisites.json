@@ -14559,6 +14559,9 @@
     }
   },
   "73563": {
+    "cross_list_courses": [
+      "COGS-6310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -23169,7 +23172,6 @@
       "type": "or"
     }
   },
-  "74406": {},
   "74409": {
     "restrictions": {
       "classification": {
@@ -24679,28 +24681,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "74627": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "74630": {
@@ -28365,5 +28345,53 @@
       "MGMT-1260"
     ]
   },
-  "75396": {}
+  "75396": {},
+  "75397": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75398": {
+    "prerequisites": {
+      "course": "STSO 2520",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75399": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75400": {
+    "cross_list_courses": [
+      "PSYC-4310"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
