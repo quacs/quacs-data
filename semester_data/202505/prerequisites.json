@@ -912,6 +912,9 @@
     }
   },
   "23122": {
+    "cross_list_courses": [
+      "COMM-6880"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -919,6 +922,9 @@
     }
   },
   "23123": {
+    "cross_list_courses": [
+      "COMM-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4558,6 +4564,13 @@
         "must_be": [
           "Graduate"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Critical Game Design",
+          "Cognitive Science",
+          "Computer Science"
+        ]
       }
     }
   },
@@ -4671,7 +4684,15 @@
   "23490": {
     "cross_list_courses": [
       "ARTS-2230"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "23491": {
     "cross_list_courses": [
@@ -4693,7 +4714,14 @@
   "23496": {
     "cross_list_courses": [
       "GSAS-2520"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "23497": {
     "cross_list_courses": [
@@ -4770,6 +4798,15 @@
       "course": "PSYC 1200",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "23504": {
@@ -4998,7 +5035,19 @@
     }
   },
   "23519": {},
-  "23520": {},
+  "23520": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "23521": {},
   "23522": {
     "prerequisites": {
@@ -5328,5 +5377,10 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "23539": {
+    "cross_list_courses": [
+      "GSAS-2962"
+    ]
   }
 }
