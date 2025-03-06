@@ -20483,7 +20483,6 @@
   "74126": {},
   "74127": {},
   "74128": {},
-  "74129": {},
   "74130": {
     "restrictions": {
       "level": {
@@ -25941,33 +25940,6 @@
       "type": "or"
     }
   },
-  "75191": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2660",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "75192": {
     "restrictions": {
       "level": {
@@ -26189,7 +26161,9 @@
   "75213": {},
   "75214": {
     "cross_list_courses": [
-      "ASTR-4110"
+      "ASTR-4110",
+      "ASTR-6960",
+      "PHYS-6960"
     ],
     "prerequisites": {
       "course": "PHYS 4420",
@@ -26199,7 +26173,9 @@
   },
   "75216": {
     "cross_list_courses": [
-      "PHYS-4110"
+      "ASTR-6960",
+      "PHYS-4110",
+      "PHYS-6960"
     ],
     "prerequisites": {
       "course": "PHYS 4420",
@@ -28415,5 +28391,42 @@
         ]
       }
     }
+  },
+  "75412": {},
+  "75413": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "75414": {
+    "cross_list_courses": [
+      "ASTR-4110",
+      "ASTR-6960",
+      "PHYS-4110"
+    ]
+  },
+  "75415": {
+    "cross_list_courses": [
+      "ASTR-4110",
+      "PHYS-4110",
+      "PHYS-6960"
+    ]
   }
 }
