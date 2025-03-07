@@ -3157,9 +3157,6 @@
     }
   },
   "72236": {
-    "cross_list_courses": [
-      "ARTS-2020"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -13111,6 +13108,13 @@
       "course": "PSYC 1200",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Psychological Science"
+        ]
+      }
     }
   },
   "73448": {
@@ -15429,11 +15433,7 @@
       }
     }
   },
-  "73661": {
-    "cross_list_courses": [
-      "ARTS-2020"
-    ]
-  },
+  "73661": {},
   "73662": {
     "prerequisites": {
       "nested": [
@@ -18900,6 +18900,36 @@
       }
     }
   },
+  "73943": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "73944": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "73945": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "73946": {
     "restrictions": {
       "classification": {
@@ -21598,6 +21628,9 @@
     }
   },
   "74225": {
+    "cross_list_courses": [
+      "ECON-4010"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26733,6 +26766,12 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology"
+        ]
       }
     }
   },
@@ -28444,6 +28483,63 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "75429": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75430": {},
+  "75431": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75432": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75433": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75434": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75435": {
+    "cross_list_courses": [
+      "ECON-6010"
+    ],
+    "prerequisites": {
+      "course": "ECON 2010",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
