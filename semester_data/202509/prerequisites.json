@@ -2902,15 +2902,6 @@
     }
   },
   "72196": {},
-  "72197": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "72198": {},
   "72199": {},
   "72200": {
@@ -9342,6 +9333,7 @@
           "Biology",
           "Biology",
           "Biological Neuroscience",
+          "Biotechnology & Health Econ",
           "Computational Biology"
         ]
       }
@@ -28498,6 +28490,35 @@
       "course": "ECON 2010",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "75436": {
+    "cross_list_courses": [
+      "ERTH-6080"
+    ],
+    "prerequisites": {
+      "course": "ERTH 2140",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "75437": {
+    "cross_list_courses": [
+      "ERTH-4080"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
