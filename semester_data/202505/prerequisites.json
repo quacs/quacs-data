@@ -5390,7 +5390,23 @@
       "type": "course"
     }
   },
-  "23544": {},
+  "23544": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4620",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "23545": {
     "prerequisites": {
       "course": "MATH 1010",
