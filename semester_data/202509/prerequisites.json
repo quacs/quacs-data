@@ -2357,6 +2357,9 @@
     }
   },
   "72118": {
+    "cross_list_courses": [
+      "MANE-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11515,6 +11518,9 @@
     }
   },
   "73284": {
+    "cross_list_courses": [
+      "ECSE-6400"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20971,10 +20977,24 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -22561,10 +22581,24 @@
       "ENGR-6961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -23734,10 +23768,24 @@
       "ISCI-4961",
       "ISCI-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
-          "Graduate Student",
           "Junior",
           "Senior"
         ]
@@ -24159,7 +24207,20 @@
       "CSCI-6968",
       "ECSE-6964",
       "ISYE-6964"
-    ]
+    ],
+    "prerequisites": {
+      "course": "ECSE 2500",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
   },
   "74567": {
     "cross_list_courses": [
@@ -24426,7 +24487,14 @@
       "CSCI-6968",
       "ECSE-4964",
       "ECSE-6964"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "74626": {
     "prerequisites": {
@@ -27359,6 +27427,9 @@
     }
   },
   "75319": {
+    "cross_list_courses": [
+      "ECSE-6170"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27472,6 +27543,9 @@
     }
   },
   "75322": {
+    "cross_list_courses": [
+      "ECSE-4170"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27518,6 +27592,9 @@
   "75323": {},
   "75324": {},
   "75325": {
+    "cross_list_courses": [
+      "ECSE-6560"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27549,6 +27626,9 @@
   },
   "75326": {},
   "75327": {
+    "cross_list_courses": [
+      "ECSE-4560"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27568,8 +27648,24 @@
   "75336": {},
   "75337": {},
   "75338": {},
-  "75339": {},
-  "75340": {},
+  "75339": {
+    "cross_list_courses": [
+      "ECSE-6650"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "75340": {
+    "cross_list_courses": [
+      "ECSE-4963"
+    ]
+  },
   "75341": {},
   "75342": {},
   "75343": {},
@@ -27577,6 +27673,9 @@
   "75345": {},
   "75346": {},
   "75347": {
+    "cross_list_courses": [
+      "MANE-6620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27602,14 +27701,42 @@
       }
     }
   },
-  "75348": {},
-  "75349": {
+  "75348": {
+    "cross_list_courses": [
+      "ECSE-6967"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
-        "may_not_be": [
-          "Freshman",
+        "must_be": [
           "Junior",
-          "Sophomore"
+          "Senior"
+        ]
+      }
+    }
+  },
+  "75349": {
+    "cross_list_courses": [
+      "ECSE-4967"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -27649,6 +27776,9 @@
   "75354": {},
   "75355": {},
   "75356": {
+    "cross_list_courses": [
+      "ECSE-6440"
+    ],
     "prerequisites": {
       "nested": [
         {
