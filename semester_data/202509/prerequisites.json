@@ -12275,20 +12275,6 @@
       "type": "course"
     }
   },
-  "73378": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "73379": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "73380": {
     "prerequisites": {
       "nested": [
@@ -14609,13 +14595,6 @@
       "type": "course"
     }
   },
-  "73575": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "73576": {},
   "73577": {
     "restrictions": {
@@ -15931,7 +15910,6 @@
       }
     }
   },
-  "73682": {},
   "73683": {
     "prerequisites": {
       "course": "MANE 2710",
@@ -17906,13 +17884,6 @@
       "type": "course"
     }
   },
-  "73873": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "73874": {
     "cross_list_courses": [
       "CSCI-4370"
@@ -17973,13 +17944,6 @@
       "type": "course"
     }
   },
-  "73877": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "73879": {
     "cross_list_courses": [
       "CSCI-4973",
@@ -18003,13 +17967,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "73882": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "73883": {
@@ -20295,13 +20252,6 @@
       "type": "course"
     }
   },
-  "74121": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "74122": {},
   "74123": {},
   "74124": {},
@@ -20667,7 +20617,7 @@
     },
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Computer Science",
           "Computer & Systems Engineering",
           "Information Tech & Web Science"
@@ -21196,9 +21146,11 @@
       "type": "and"
     }
   },
-  "74192": {},
   "74193": {},
   "74194": {
+    "cross_list_courses": [
+      "LGHT-6845"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -21208,7 +21160,11 @@
       }
     }
   },
-  "74195": {},
+  "74195": {
+    "cross_list_courses": [
+      "LGHT-4830"
+    ]
+  },
   "74198": {
     "cross_list_courses": [],
     "restrictions": {
@@ -22827,6 +22783,9 @@
   "74386": {
     "corequisites": [
       "LGHT-6830"
+    ],
+    "cross_list_courses": [
+      "LGHT-4835"
     ]
   },
   "74387": {
@@ -24259,6 +24218,15 @@
       }
     }
   },
+  "74594": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74595": {},
   "74597": {
     "prerequisites": {
@@ -24284,16 +24252,6 @@
   },
   "74600": {},
   "74601": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "74602": {},
-  "74603": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -25093,13 +25051,6 @@
   "74755": {
     "prerequisites": {
       "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "74756": {
-    "prerequisites": {
-      "course": "ARCH 4770",
       "min_grade": "D",
       "type": "course"
     }
@@ -28305,6 +28256,9 @@
     "corequisites": [
       "LGHT-4835"
     ],
+    "cross_list_courses": [
+      "LGHT-6830"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -28621,5 +28575,28 @@
         ]
       }
     }
+  },
+  "75442": {
+    "corequisites": [
+      "ARCH-5380"
+    ],
+    "prerequisites": {
+      "course": "ARCH 6620",
+      "min_grade": "B",
+      "type": "course"
+    }
+  },
+  "75443": {
+    "corequisites": [
+      "LGHT-4830"
+    ],
+    "cross_list_courses": [
+      "LGHT-6835"
+    ]
+  },
+  "75444": {
+    "cross_list_courses": [
+      "LGHT-4840"
+    ]
   }
 }
