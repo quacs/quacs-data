@@ -24502,45 +24502,19 @@
     "cross_list_courses": [
       "COGS-4962",
       "COGS-6962",
-      "CSCI-4972"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-6961"
+    ]
   },
   "74640": {
     "cross_list_courses": [
       "COGS-4962",
       "COGS-6962",
-      "PHIL-4961"
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -24957,11 +24931,6 @@
       "nested": [
         {
           "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4100",
           "min_grade": "D",
           "type": "course"
         },
@@ -25574,29 +25543,18 @@
     "cross_list_courses": [
       "COGS-6962",
       "CSCI-4972",
-      "PHIL-4961"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
+    ]
   },
   "75158": {
     "cross_list_courses": [
       "COGS-4962",
       "CSCI-4972",
-      "PHIL-4961"
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
     ],
     "prerequisites": {
       "nested": [
@@ -28629,6 +28587,38 @@
       "course": "CIVL 2060",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "75447": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-4961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75448": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "PHIL-4961",
+      "PHIL-6961"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
