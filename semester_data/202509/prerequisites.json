@@ -11580,32 +11580,7 @@
   "73285": {
     "cross_list_courses": [
       "MGMT-6570"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MGMT 4110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2510",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
+    ]
   },
   "73287": {
     "corequisites": [
@@ -17657,32 +17632,7 @@
   "73853": {
     "cross_list_courses": [
       "MGMT-6570"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MGMT 4110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2510",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
+    ]
   },
   "73854": {
     "cross_list_courses": [
@@ -24482,7 +24432,27 @@
       "CSCI-4972",
       "CSCI-6967",
       "PHIL-6961"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "74640": {
     "cross_list_courses": [
@@ -24492,6 +24462,26 @@
       "PHIL-4961",
       "PHIL-6961"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -25523,7 +25513,27 @@
       "CSCI-6967",
       "PHIL-4961",
       "PHIL-6961"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "75158": {
     "cross_list_courses": [
