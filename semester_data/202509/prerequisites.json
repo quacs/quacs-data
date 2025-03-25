@@ -14446,29 +14446,9 @@
   },
   "73564": {
     "prerequisites": {
-      "nested": [
-        {
-          "course": "PHYS 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 4600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4700",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
+      "course": "PHYS 2210",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "73565": {
@@ -28613,6 +28593,33 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "75450": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
