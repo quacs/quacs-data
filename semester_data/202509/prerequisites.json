@@ -5044,6 +5044,9 @@
     }
   },
   "72450": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18979,8 +18982,15 @@
       }
     }
   },
-  "73963": {},
+  "73963": {
+    "cross_list_courses": [
+      "ARCH-6380"
+    ]
+  },
   "73964": {
+    "cross_list_courses": [
+      "ARCH-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -28596,6 +28606,9 @@
     }
   },
   "75450": {
+    "cross_list_courses": [
+      "ECSE-2050"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -28621,5 +28634,97 @@
       ],
       "type": "and"
     }
+  },
+  "75451": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Materials Engineering",
+          "Mechanics",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "75452": {
+    "cross_list_courses": [
+      "ARCH-6065"
+    ]
+  },
+  "75453": {
+    "cross_list_courses": [
+      "ARCH-4065"
+    ]
   }
 }
