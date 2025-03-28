@@ -23598,7 +23598,14 @@
   "74476": {
     "cross_list_courses": [
       "CHEM-4300"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "74477": {
     "corequisites": [
@@ -25324,10 +25331,9 @@
   },
   "75152": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -26385,6 +26391,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "75239": {
@@ -26749,7 +26762,15 @@
       "type": "and"
     }
   },
-  "75276": {},
+  "75276": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75277": {
     "prerequisites": {
       "course": "ENGR 2600",
@@ -27492,7 +27513,14 @@
   "75340": {
     "cross_list_courses": [
       "ECSE-4963"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "75341": {},
   "75342": {},
