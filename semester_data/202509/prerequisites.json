@@ -25001,15 +25001,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Computer & Systems Engineering",
-          "Information Tech & Web Science"
-        ]
-      }
     }
   },
   "74740": {
@@ -27371,15 +27362,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Computer & Systems Engineering",
-          "Information Tech & Web Science"
-        ]
-      }
     }
   },
   "75318": {
@@ -28841,5 +28823,16 @@
     "cross_list_courses": [
       "ARCH-4065"
     ]
+  },
+  "75454": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
