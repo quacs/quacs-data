@@ -26099,6 +26099,11 @@
           "course": "STSO 1110",
           "min_grade": "D",
           "type": "course"
+        },
+        {
+          "course": "STSO 1100",
+          "min_grade": "D",
+          "type": "course"
         }
       ],
       "type": "or"
@@ -27431,21 +27436,6 @@
     "cross_list_courses": [
       "MANE-6620"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 6600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27534,21 +27524,6 @@
     "cross_list_courses": [
       "ECSE-6440"
     ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 6600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -28322,7 +28297,15 @@
       }
     }
   },
-  "75430": {},
+  "75430": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75431": {
     "restrictions": {
       "level": {
