@@ -6220,6 +6220,15 @@
       }
     }
   },
+  "72648": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72650": {
     "restrictions": {
       "level": {
@@ -28156,6 +28165,11 @@
           "type": "course"
         },
         {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "course": "ARTS 2220",
           "min_grade": "D",
           "type": "course"
@@ -28387,7 +28401,32 @@
   "75438": {
     "cross_list_courses": [
       "GSAS-2255"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "75440": {
     "cross_list_courses": [
