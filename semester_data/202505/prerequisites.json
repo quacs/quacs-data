@@ -5275,5 +5275,32 @@
       "type": "course"
     }
   },
-  "23547": {}
+  "23547": {},
+  "23551": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "INQR 1492",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1492",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "LANG 1410",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "LANG 2410",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
