@@ -7611,6 +7611,9 @@
     }
   },
   "72824": {
+    "corequisites": [
+      "ARCH-6610"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11222,7 +11225,11 @@
       }
     }
   },
-  "73251": {},
+  "73251": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "73254": {
     "restrictions": {
       "classification": {
@@ -12208,31 +12215,6 @@
     }
   },
   "73375": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 4640",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 4710",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 4610",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -12393,7 +12375,11 @@
     }
   },
   "73394": {},
-  "73398": {},
+  "73398": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "73399": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -13316,8 +13302,7 @@
       "major": {
         "must_be": [
           "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering"
+          "Electrical Engineering"
         ]
       }
     }
@@ -13332,8 +13317,7 @@
       "major": {
         "must_be": [
           "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering"
+          "Electrical Engineering"
         ]
       }
     }
@@ -18039,9 +18023,6 @@
     }
   },
   "73899": {
-    "cross_list_courses": [
-      "ISYE-6960"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -20176,7 +20157,11 @@
   "74124": {},
   "74125": {},
   "74126": {},
-  "74128": {},
+  "74128": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "74130": {
     "restrictions": {
       "level": {
@@ -21464,26 +21449,6 @@
       }
     }
   },
-  "74240": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "74241": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "74242": {
     "restrictions": {
       "classification": {
@@ -22357,7 +22322,11 @@
       }
     }
   },
-  "74321": {},
+  "74321": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "74324": {
     "corequisites": [
       "ARCH-2540"
@@ -22410,7 +22379,11 @@
       }
     }
   },
-  "74328": {},
+  "74328": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "74330": {
     "restrictions": {
       "classification": {
@@ -22509,6 +22482,9 @@
   "74346": {},
   "74349": {},
   "74350": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
     "prerequisites": {
       "course": "ARCH 2530",
       "min_grade": "D",
@@ -22516,6 +22492,9 @@
     }
   },
   "74351": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
     "prerequisites": {
       "course": "ARCH 2530",
       "min_grade": "D",
@@ -22676,6 +22655,26 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "74384": {
+    "cross_list_courses": [
+      "ITWS-4850"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "74386": {
@@ -24063,6 +24062,9 @@
     }
   },
   "74573": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
     "prerequisites": {
       "course": "ARCH 2530",
       "min_grade": "D",
@@ -26554,31 +26556,6 @@
     ]
   },
   "75238": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "ENGR 2250",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -27716,6 +27693,9 @@
     ]
   },
   "75351": {
+    "corequisites": [
+      "ECSE-6110"
+    ],
     "cross_list_courses": [
       "ECSE-4966"
     ],
@@ -27792,7 +27772,11 @@
     }
   },
   "75358": {},
-  "75359": {},
+  "75359": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "75360": {
     "corequisites": [
       "ARCH-4820"
@@ -28155,9 +28139,6 @@
     }
   },
   "75390": {
-    "corequisites": [
-      "CIVL-6340"
-    ],
     "cross_list_courses": [
       "CIVL-6290"
     ],
@@ -28220,13 +28201,6 @@
   "75397": {
     "prerequisites": {
       "course": "ARCH 4100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "75398": {
-    "prerequisites": {
-      "course": "STSO 2520",
       "min_grade": "D",
       "type": "course"
     }
@@ -28656,9 +28630,6 @@
     }
   },
   "75440": {
-    "cross_list_courses": [
-      "ISYE-4230"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -29238,5 +29209,123 @@
       }
     }
   },
-  "75669": {}
+  "75669": {},
+  "75670": {},
+  "75671": {},
+  "75672": {},
+  "75673": {},
+  "75674": {},
+  "75675": {},
+  "75676": {},
+  "75677": {},
+  "75678": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75679": {},
+  "75680": {},
+  "75681": {},
+  "75682": {},
+  "75683": {},
+  "75684": {},
+  "75685": {},
+  "75686": {},
+  "75687": {},
+  "75688": {},
+  "75689": {},
+  "75690": {},
+  "75691": {},
+  "75692": {},
+  "75693": {},
+  "75694": {},
+  "75695": {},
+  "75696": {},
+  "75697": {},
+  "75698": {},
+  "75699": {},
+  "75700": {},
+  "75701": {},
+  "75702": {},
+  "75703": {},
+  "75704": {},
+  "75705": {},
+  "75706": {},
+  "75707": {},
+  "75708": {},
+  "75709": {},
+  "75710": {},
+  "75711": {},
+  "75712": {},
+  "75713": {},
+  "75714": {},
+  "75715": {},
+  "75716": {},
+  "75717": {},
+  "75718": {},
+  "75719": {},
+  "75720": {},
+  "75721": {},
+  "75722": {},
+  "75723": {},
+  "75724": {},
+  "75725": {},
+  "75726": {},
+  "75727": {},
+  "75728": {},
+  "75729": {},
+  "75730": {},
+  "75731": {},
+  "75732": {},
+  "75733": {},
+  "75734": {},
+  "75735": {},
+  "75736": {},
+  "75737": {},
+  "75739": {},
+  "75740": {},
+  "75741": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "75742": {},
+  "75743": {
+    "cross_list_courses": [
+      "CSCI-4850"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }

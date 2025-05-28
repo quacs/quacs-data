@@ -143,6 +143,7 @@
   "23021": {},
   "23022": {},
   "23023": {},
+  "23024": {},
   "23025": {
     "restrictions": {
       "level": {
@@ -1954,48 +1955,6 @@
       }
     }
   },
-  "23185": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATP 4600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2310",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BIOL 4200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "23186": {
     "prerequisites": {
       "nested": [
@@ -3091,30 +3050,6 @@
       "type": "course"
     }
   },
-  "23257": {
-    "prerequisites": {
-      "course": "CHEM 2250",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "23258": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 2230",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 2260",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "23259": {},
   "23261": {},
   "23262": {
@@ -3669,6 +3604,11 @@
   },
   "23321": {
     "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -4126,13 +4066,9 @@
     }
   },
   "23372": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
+    "cross_list_courses": [
+      "INQR-1220"
+    ]
   },
   "23375": {
     "prerequisites": {
@@ -4256,7 +4192,6 @@
   },
   "23390": {},
   "23391": {},
-  "23392": {},
   "23394": {
     "prerequisites": {
       "nested": [
@@ -4862,7 +4797,6 @@
       "type": "or"
     }
   },
-  "23519": {},
   "23520": {
     "cross_list_courses": [
       "ARTS-2960"
@@ -5280,5 +5214,29 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "23552": {},
+  "23554": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "23555": {
+    "cross_list_courses": [
+      "ITWS-1220"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "23563": {}
 }
