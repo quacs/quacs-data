@@ -13296,7 +13296,8 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Freshman",
+          "Sophomore"
         ]
       },
       "major": {
@@ -13311,7 +13312,8 @@
     "restrictions": {
       "classification": {
         "must_be": [
-          "Freshman"
+          "Freshman",
+          "Sophomore"
         ]
       },
       "major": {
@@ -29363,5 +29365,14 @@
       }
     }
   },
-  "75753": {}
+  "75753": {},
+  "75755": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
