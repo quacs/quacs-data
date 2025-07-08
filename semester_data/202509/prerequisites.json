@@ -19229,7 +19229,14 @@
   "74019": {
     "corequisites": [
       "ARCH-5200"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "74020": {
     "restrictions": {
@@ -22607,7 +22614,15 @@
       "CHEM-4964"
     ]
   },
-  "74373": {},
+  "74373": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74374": {
     "restrictions": {
       "classification": {
@@ -23553,6 +23568,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "74473": {
@@ -25144,16 +25166,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "74818": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -28016,10 +28028,9 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -28288,12 +28299,27 @@
       }
     }
   },
-  "75403": {},
+  "75403": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75404": {
     "prerequisites": {
       "course": "ARCH 5140",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "75405": {
@@ -28313,7 +28339,15 @@
       }
     }
   },
-  "75407": {},
+  "75407": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75408": {
     "corequisites": [
       "LGHT-4835"
@@ -29511,5 +29545,6 @@
         ]
       }
     }
-  }
+  },
+  "75781": {}
 }
