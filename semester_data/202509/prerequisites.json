@@ -28098,6 +28098,9 @@
     }
   },
   "75376": {
+    "cross_list_courses": [
+      "MGMT-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -29641,5 +29644,25 @@
     "corequisites": [
       "PHYS-1100"
     ]
+  },
+  "75789": {
+    "cross_list_courses": [
+      "MGMT-6510"
+    ],
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "75790": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
