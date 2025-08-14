@@ -9046,6 +9046,9 @@
     }
   },
   "73042": {
+    "cross_list_courses": [
+      "MGMT-4380"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16108,15 +16111,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "73695": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "73696": {
@@ -29303,5 +29297,79 @@
   "75798": {},
   "75799": {},
   "75800": {},
-  "75801": {}
+  "75801": {},
+  "75802": {
+    "cross_list_courses": [
+      "MGMT-6370"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75803": {
+    "cross_list_courses": [
+      "MGMT-6180"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75804": {
+    "cross_list_courses": [
+      "MGMT-4180"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6100",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75805": {
+    "cross_list_courses": [
+      "ITWS-6700"
+    ]
+  },
+  "75806": {
+    "cross_list_courses": [
+      "ITWS-4700"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
