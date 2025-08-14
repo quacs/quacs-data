@@ -14197,14 +14197,7 @@
   "73553": {
     "cross_list_courses": [
       "GSAS-2510"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "73554": {
     "cross_list_courses": [
@@ -15049,14 +15042,7 @@
   "73631": {
     "cross_list_courses": [
       "GSAS-2510"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "73632": {
     "restrictions": {
@@ -24441,6 +24427,9 @@
   },
   "74673": {},
   "74679": {
+    "cross_list_courses": [
+      "INQR-1060"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -24608,20 +24597,6 @@
   "74711": {},
   "74712": {},
   "74713": {
-    "restrictions": {
-      "degree": {
-        "must_be": [
-          "Doctor of Philosophy"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "74714": {
     "restrictions": {
       "degree": {
         "must_be": [
@@ -25458,88 +25433,6 @@
       }
     }
   },
-  "75153": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2380",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1170",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1180",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1170",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1180",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "75155": {
     "prerequisites": {
       "nested": [
@@ -25725,6 +25618,9 @@
     }
   },
   "75169": {
+    "cross_list_courses": [
+      "INQR-1060"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25773,14 +25669,7 @@
   "75184": {
     "cross_list_courses": [
       "GSAS-2510"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "75185": {
     "cross_list_courses": [
@@ -25824,15 +25713,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "75189": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "75190": {},
@@ -28025,13 +27905,6 @@
     ]
   },
   "75396": {},
-  "75397": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "75399": {
     "prerequisites": {
       "nested": [
@@ -29425,5 +29298,10 @@
       "type": "or"
     }
   },
-  "75796": {}
+  "75796": {},
+  "75797": {},
+  "75798": {},
+  "75799": {},
+  "75800": {},
+  "75801": {}
 }
