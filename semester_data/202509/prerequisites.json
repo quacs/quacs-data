@@ -3302,6 +3302,20 @@
       }
     }
   },
+  "72262": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72263": {
     "restrictions": {
       "level": {
@@ -4680,6 +4694,15 @@
     }
   },
   "72415": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72418": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6249,6 +6272,15 @@
     }
   },
   "72653": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72657": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -29331,23 +29363,6 @@
       }
     }
   },
-  "75805": {
-    "cross_list_courses": [
-      "ITWS-6700"
-    ]
-  },
-  "75806": {
-    "cross_list_courses": [
-      "ITWS-4700"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "75807": {
     "restrictions": {
       "classification": {
@@ -29389,6 +29404,77 @@
     }
   },
   "75811": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75812": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75813": {
+    "cross_list_courses": [
+      "CSCI-6971"
+    ],
+    "prerequisites": {
+      "course": "CSCI 4020",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science"
+        ]
+      }
+    }
+  },
+  "75814": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "75815": {
+    "cross_list_courses": [
+      "ITWS-6250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 4500",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75816": {
+    "cross_list_courses": [
+      "ITWS-4250"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
