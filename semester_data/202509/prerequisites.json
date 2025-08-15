@@ -26971,7 +26971,7 @@
           "type": "course"
         },
         {
-          "course": "ECSE 2660",
+          "course": "ECSE 2800",
           "min_grade": "D",
           "type": "course"
         }
@@ -26981,9 +26981,19 @@
   },
   "75310": {
     "prerequisites": {
-      "course": "CSCI 4210",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "75311": {
