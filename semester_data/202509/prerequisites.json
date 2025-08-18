@@ -22537,6 +22537,11 @@
           "type": "course"
         },
         {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "course": "ECSE 2660",
           "min_grade": "D",
           "type": "course"
@@ -24361,7 +24366,32 @@
       "CSCI-4160",
       "CSCI-6963",
       "ECSE-6965"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2210",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   },
   "74659": {
     "cross_list_courses": [
@@ -29449,13 +29479,6 @@
       "course": "CSCI 4020",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science"
-        ]
-      }
     }
   },
   "75814": {
