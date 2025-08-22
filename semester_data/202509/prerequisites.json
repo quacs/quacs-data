@@ -15362,6 +15362,9 @@
     }
   },
   "73663": {
+    "cross_list_courses": [
+      "MANE-2710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -29501,6 +29504,41 @@
     "cross_list_courses": [
       "ARTS-2960"
     ]
+  },
+  "75820": {
+    "cross_list_courses": [
+      "MANE-2710"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   },
   "75821": {},
   "75822": {},
