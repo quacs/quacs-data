@@ -1868,6 +1868,7 @@
           "Economics",
           "Elect Media, Arts, & Comm",
           "Games & Simulation Arts & Sci",
+          "Music",
           "Philosophy",
           "Psychological Science",
           "Science & Technology Studies",
@@ -1887,12 +1888,18 @@
           "Communication",
           "Design, Innovation and Society",
           "Games & Simulation Arts & Sci",
-          "Psychological Science"
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society"
         ]
       }
     }
   },
   "72080": {
+    "cross_list_courses": [
+      "MATH-2012"
+    ],
     "prerequisites": {
       "course": "MATH 1020",
       "min_grade": "D",
@@ -2610,7 +2617,23 @@
       }
     }
   },
-  "72141": {},
+  "72141": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Business and Management",
+          "Communication, Media, & Design",
+          "Communication",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society"
+        ]
+      }
+    }
+  },
   "72144": {
     "cross_list_courses": [
       "MATH-4800"
@@ -5274,7 +5297,24 @@
       "type": "course"
     }
   },
-  "72492": {},
+  "72492": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Business and Management",
+          "Communication, Media, & Design",
+          "Communication",
+          "Design, Innovation and Society",
+          "Games & Simulation Arts & Sci",
+          "Music",
+          "Philosophy",
+          "Psychological Science",
+          "Science, Tech & Society"
+        ]
+      }
+    }
+  },
   "72493": {
     "restrictions": {
       "level": {
