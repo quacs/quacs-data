@@ -639,9 +639,7 @@
   },
   "MGMT 4960": {
     "title": "Topics In Mgmt",
-    "prereqs": [
-      "MGMT 2320"
-    ]
+    "prereqs": []
   },
   "MGMT 6190": {
     "title": "Introduction To Accounting And Financial Management",
@@ -666,9 +664,7 @@
   "MGMT 6550": {
     "title": "Marketing Research",
     "prereqs": [
-      "MGMT 6100",
-      "MGMT 6510",
-      "MGMT 6520"
+      "MGMT 6100"
     ]
   },
   "MGMT 6710": {
@@ -850,7 +846,9 @@
   },
   "PSYC 4940": {
     "title": "Readings In Psyc",
-    "prereqs": []
+    "prereqs": [
+      "PSYC 1200"
+    ]
   },
   "PSYC 4960": {
     "title": "Topics In Psyc",
@@ -1643,16 +1641,11 @@
   },
   "CHME 6570": {
     "title": "Chemical & Phase Equilibria",
-    "prereqs": [
-      "CHME 2020",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "CHME 6610": {
     "title": "Math Methods In Chem Engr I",
-    "prereqs": [
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "CHME 6960": {
     "title": "Top In Chemical Engr",
@@ -1986,9 +1979,7 @@
   },
   "CSCI 2960": {
     "title": "Introduction To Competitive Programming",
-    "prereqs": [
-      "CSCI 1200"
-    ]
+    "prereqs": []
   },
   "CSCI 4000": {
     "title": "Computer Science Elective",
@@ -2037,9 +2028,7 @@
   },
   "CSCI 4960": {
     "title": "Knowledge Graph-Powered Hybrid Ai",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6090": {
     "title": "Generic Software Design",
@@ -2535,6 +2524,7 @@
     "title": "Computer Comm Networks",
     "prereqs": [
       "CSCI 2500",
+      "CSCI 2800",
       "ECSE 2610"
     ]
   },
@@ -2713,10 +2703,7 @@
   },
   "ISCI 4961": {
     "title": "Topics In Isci",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ISCI 6002": {
     "title": "Consortia Course At Suny Alb.",
@@ -2875,11 +2862,15 @@
   },
   "MGMT 6370": {
     "title": "Advanced Options, Futures And Derivatives Markets",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 6020"
+    ]
   },
   "MGMT 6510": {
     "title": "Financial Computation & Simul",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 6520"
+    ]
   },
   "MGMT 6560": {
     "title": "Introduction To Machine Learning Applications",
@@ -4087,9 +4078,7 @@
   },
   "CIVL 4962": {
     "title": "Top In Civil Engr",
-    "prereqs": [
-      "ENGR 2530"
-    ]
+    "prereqs": []
   },
   "CIVL 6170": {
     "title": "Mechanics Of Solids",
@@ -4238,6 +4227,8 @@
   "CSCI 4220": {
     "title": "Network Programming",
     "prereqs": [
+      "CSCI 2500",
+      "CSCI 2800",
       "CSCI 4210"
     ]
   },
@@ -4251,43 +4242,27 @@
   },
   "CSCI 4961": {
     "title": "Network Security And Defense",
-    "prereqs": [
-      "CSCI 4210"
-    ]
+    "prereqs": []
   },
   "CSCI 4963": {
     "title": "Computer Architecture",
-    "prereqs": [
-      "CSCI 2500",
-      "CSCI 2800",
-      "ECSE 2660"
-    ]
+    "prereqs": []
   },
   "CSCI 4964": {
     "title": "Software Verification",
-    "prereqs": [
-      "CSCI 4430"
-    ]
+    "prereqs": []
   },
   "CSCI 4965": {
     "title": "Ai For Conservation",
-    "prereqs": [
-      "CSCI 2300",
-      "MATH 2010"
-    ]
+    "prereqs": []
   },
   "CSCI 4966": {
     "title": "Network Resilience",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4967": {
     "title": "Advanced Operating Systems",
-    "prereqs": [
-      "CSCI 2800",
-      "CSCI 4210"
-    ]
+    "prereqs": []
   },
   "CSCI 6360": {
     "title": "Parallel Computing",
@@ -4303,10 +4278,7 @@
   },
   "CSCI 6961": {
     "title": "Machine Learning Seminar",
-    "prereqs": [
-      "CSCI 4100",
-      "CSCI 6100"
-    ]
+    "prereqs": []
   },
   "CSCI 6962": {
     "title": "Topics In Csci",
@@ -4639,6 +4611,7 @@
     "title": "Advanced Computer Systems",
     "prereqs": [
       "CSCI 2500",
+      "CSCI 2800",
       "ECSE 2660"
     ]
   },
@@ -5034,7 +5007,10 @@
   },
   "MGMT 6350": {
     "title": "Supply Chain Analytics",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 6100",
+      "MGMT 6460"
+    ]
   },
   "MGMT 6470": {
     "title": "Management of Quality, Processes, and Reliability",
@@ -5470,11 +5446,7 @@
   },
   "PHIL 4961": {
     "title": "Topics In Phil",
-    "prereqs": [
-      "CSCI 2200",
-      "CSCI 2300",
-      "PHIL 2140"
-    ]
+    "prereqs": []
   },
   "PHIL 4962": {
     "title": "Topics In Phil",
@@ -5905,7 +5877,9 @@
   },
   "ARCH 6610": {
     "title": "Graduate Architechure Design 3",
-    "prereqs": []
+    "prereqs": [
+      "ARCH 5210"
+    ]
   },
   "ARCH 6690": {
     "title": "Drawing Historic Structures",
@@ -6109,9 +6083,7 @@
   },
   "CIVL 4961": {
     "title": "Top In Civil Engr",
-    "prereqs": [
-      "CIVL 2030"
-    ]
+    "prereqs": []
   },
   "CIVL 6670": {
     "title": "Nonlinear Finite Element Methods",
@@ -6147,9 +6119,7 @@
   },
   "CSCI 4962": {
     "title": "Introduction To Research [Communication-Intensive]",
-    "prereqs": [
-      "CSCI 2200"
-    ]
+    "prereqs": []
   },
   "CSCI 6270": {
     "title": "Computational Vision",
@@ -6196,10 +6166,7 @@
   },
   "ENGR 4961": {
     "title": "Topics In Engr",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "DSES 4000": {
     "title": "Dses Elective",
@@ -6260,10 +6227,7 @@
   },
   "ECSE 4961": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ECSE 6010": {
     "title": "Network Theory",
@@ -7221,7 +7185,6 @@
   "MTLE 2100": {
     "title": "Struc Of Engr Materials",
     "prereqs": [
-      "BMED 2100",
       "CHEM 1600",
       "ENGR 1600",
       "ISCI 1600",
@@ -7972,9 +7935,7 @@
   },
   "CSCI 4968": {
     "title": "Algorithm Design & Modern Ml",
-    "prereqs": [
-      "CSCI 4020"
-    ]
+    "prereqs": []
   },
   "CSCI 6050": {
     "title": "Computability & Complexity",
@@ -9297,7 +9258,10 @@
   },
   "ARCH 6980": {
     "title": "Master's Project",
-    "prereqs": []
+    "prereqs": [
+      "ARCH 6630",
+      "ARCH 6750"
+    ]
   },
   "ARTS 1002": {
     "title": "Consortia Course At Suny Alb.",
@@ -9382,10 +9346,7 @@
   },
   "CSCI 4969": {
     "title": "Software Analysis & Debugging",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "prereqs": []
   },
   "CSCI 4970": {
     "title": "Topics In Csci",
@@ -9397,11 +9358,7 @@
   },
   "CSCI 4972": {
     "title": "Introduction To Logic-Based Ai",
-    "prereqs": [
-      "CSCI 2200",
-      "CSCI 2300",
-      "PHIL 2140"
-    ]
+    "prereqs": []
   },
   "CSCI 6970": {
     "title": "Professional Project",
@@ -9795,6 +9752,8 @@
   "ARCH 4330": {
     "title": "Structures 2",
     "prereqs": [
+      "ARCH 2330",
+      "ARCH 2350",
       "ARCH 2510"
     ]
   },
@@ -9902,9 +9861,7 @@
   },
   "ECSE 4964": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "ECSE 2500"
-    ]
+    "prereqs": []
   },
   "ECSE 6860": {
     "title": "Eval Methods Decision Making",
@@ -10110,11 +10067,7 @@
   },
   "ECSE 4965": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "CSCI 2210",
-      "CSCI 2300",
-      "MATH 4100"
-    ]
+    "prereqs": []
   },
   "ECSE 6670": {
     "title": "Broadband & Optical Netwrkg",
@@ -10566,7 +10519,9 @@
   },
   "MGMT 6080": {
     "title": "Networks, Innovation And Value Creation I",
-    "prereqs": []
+    "prereqs": [
+      "MGMT 4100"
+    ]
   },
   "MGMT 6941": {
     "title": "Independent Study",
@@ -10959,11 +10914,7 @@
   },
   "CSCI 6500": {
     "title": "Distributed Computing Over The Internet",
-    "prereqs": [
-      "CSCI 4210",
-      "CSCI 4220",
-      "CSCI 4430"
-    ]
+    "prereqs": []
   },
   "CSCI 6973": {
     "title": "Quantum Programming & Apps",
@@ -11325,11 +11276,7 @@
   },
   "CSCI 4975": {
     "title": "Deep Learning On Graphs",
-    "prereqs": [
-      "CSCI 4150",
-      "CSCI 4390",
-      "CSCI 6390"
-    ]
+    "prereqs": []
   },
   "ERTH 4570": {
     "title": "Solid Earth Geophysics",
@@ -11753,10 +11700,7 @@
   },
   "ECSE 4967": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "PHYS 1200",
-      "PHYS 1250"
-    ]
+    "prereqs": []
   },
   "ITEC 4960": {
     "title": "Db & Application Security",
@@ -11989,9 +11933,7 @@
   },
   "BIOL 6260": {
     "title": "Advanced Cell Biology",
-    "prereqs": [
-      "BIOL 2120"
-    ]
+    "prereqs": []
   },
   "BIOL 6520": {
     "title": "Biology Core Course II",
@@ -12606,11 +12548,7 @@
   },
   "COGS 4962": {
     "title": "Topics In Cogs",
-    "prereqs": [
-      "CSCI 2200",
-      "CSCI 2300",
-      "PHIL 2140"
-    ]
+    "prereqs": []
   },
   "COGS 4963": {
     "title": "Topics In Cogs",
@@ -12859,6 +12797,7 @@
   "CIVL 6290": {
     "title": "Freight Transportation Systems",
     "prereqs": [
+      "CIVL 2030",
       "CIVL 6250"
     ]
   },
@@ -14213,9 +14152,7 @@
   },
   "ERTH 6350": {
     "title": "Data Science",
-    "prereqs": [
-      "CSCI 1200"
-    ]
+    "prereqs": []
   },
   "ECON 6962": {
     "title": "Topics In Econ",
@@ -14246,14 +14183,13 @@
   "ITWS 4350": {
     "title": "Data Science",
     "prereqs": [
-      "CSCI 1200"
+      "CSCI 1200",
+      "CSCI 4380"
     ]
   },
   "ITWS 6350": {
     "title": "Data Science",
-    "prereqs": [
-      "CSCI 1200"
-    ]
+    "prereqs": []
   },
   "IHSS 1008": {
     "title": "Consortia Course Sccc Or Acc",
@@ -14696,7 +14632,9 @@
   },
   "ARCH 5300": {
     "title": "Materials And Construction Systems",
-    "prereqs": []
+    "prereqs": [
+      "ARCH 2350"
+    ]
   },
   "ARCH 5310": {
     "title": "Environmental & Ecological Sys",
@@ -14776,10 +14714,7 @@
   },
   "MANE 6600": {
     "title": "Systems Analysis Techniques",
-    "prereqs": [
-      "ECSE 2410",
-      "MANE 4500"
-    ]
+    "prereqs": []
   },
   "PHIL 4965": {
     "title": "Topics In Phil",
@@ -15003,7 +14938,9 @@
   },
   "ARCH 4780": {
     "title": "Architectural Design Studio 6",
-    "prereqs": []
+    "prereqs": [
+      "ARCH 4770"
+    ]
   },
   "ARCH 4820": {
     "title": "Comprehensive Design Studio 1",
@@ -15047,11 +14984,7 @@
   },
   "CHEM 2941": {
     "title": "Undergraduate Research Project",
-    "prereqs": [
-      "CSCI 2200",
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "prereqs": []
   },
   "CIVL 6360": {
     "title": "Timber Design",
@@ -15274,6 +15207,7 @@
   "CSCI 4500": {
     "title": "Distributed Computing Over The Internet",
     "prereqs": [
+      "CSCI 2800",
       "CSCI 4210",
       "CSCI 4220",
       "CSCI 4430"
@@ -15443,12 +15377,7 @@
   },
   "BIOL 6880": {
     "title": "The Global Environment",
-    "prereqs": [
-      "BIOL 1010",
-      "BIOL 1015",
-      "BIOL 2120",
-      "BIOL 2125"
-    ]
+    "prereqs": []
   },
   "BMED 4110": {
     "title": "Investigative Medicine I",
@@ -15508,9 +15437,7 @@
   },
   "CSCI 6040": {
     "title": "Approximation Algorithms",
-    "prereqs": [
-      "CSCI 4020"
-    ]
+    "prereqs": []
   },
   "ECON 4964": {
     "title": "Topics In Econ",
@@ -16235,10 +16162,7 @@
   },
   "BMED 6580": {
     "title": "Biomedical Fluid Mechanics",
-    "prereqs": [
-      "BMED 4250",
-      "ENGR 2250"
-    ]
+    "prereqs": []
   },
   "CSCI 2941": {
     "title": "Undergraduate Research Project",
@@ -16338,9 +16262,7 @@
   },
   "BIOL 6220": {
     "title": "Machine Learning For Environmental Biology",
-    "prereqs": [
-      "BIOL 4200"
-    ]
+    "prereqs": []
   },
   "BMED 6470": {
     "title": "Biostatistics For Life Science Applications",
@@ -17240,12 +17162,7 @@
   },
   "ECSE 6170": {
     "title": "Mod & Sim For Cyber-phys Sys",
-    "prereqs": [
-      "MATH 2010",
-      "MATH 2011",
-      "MATH 2012",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "ENVE 6160": {
     "title": "Environmental Impact Analysis",
@@ -17438,8 +17355,7 @@
       "INQR 1110",
       "INQR 1240",
       "INQR 1320",
-      "STSO 1100",
-      "STSO 1110"
+      "STSO 1100"
     ]
   },
   "STSO 2300": {
@@ -17787,7 +17703,8 @@
       "CSCI 2200",
       "CSCI 2300",
       "CSCI 2500",
-      "CSCI 2600"
+      "CSCI 2600",
+      "CSCI 2800"
     ]
   },
   "STSO 4600": {
@@ -17829,9 +17746,7 @@
   },
   "BIOL 6140": {
     "title": "Cytoskeletal Biology",
-    "prereqs": [
-      "BIOL 4260"
-    ]
+    "prereqs": []
   },
   "BIOL 6240": {
     "title": "Topics In Circadian Biology",
@@ -18122,9 +18037,7 @@
   },
   "ENVE 6710": {
     "title": "Adv Groundwater Hydrology",
-    "prereqs": [
-      "MATH 1020"
-    ]
+    "prereqs": []
   },
   "INQR 1030": {
     "title": "Behind The Tv Screen",
@@ -18248,14 +18161,7 @@
   },
   "MATP 6910": {
     "title": "Data Analytics Research",
-    "prereqs": [
-      "BIOL 4200",
-      "CSCI 4100",
-      "CSCI 6100",
-      "ITWS 4600",
-      "ITWS 6600",
-      "MATP 4400"
-    ]
+    "prereqs": []
   },
   "MANE 4290": {
     "title": "Radiation Transport Mthds",
@@ -18561,7 +18467,9 @@
   },
   "CHEM 4920": {
     "title": "Ldrshp In Chem: Mentoring 2",
-    "prereqs": []
+    "prereqs": [
+      "CHEM 4910"
+    ]
   },
   "CHEM 4930": {
     "title": "Chemistry Teaching Practicum",
@@ -19249,19 +19157,13 @@
   "STSO 4420": {
     "title": "History Of Medicine",
     "prereqs": [
-      "IHSS 1410",
-      "IHSS 1420",
-      "IHSS 1430",
       "INQR 1100",
-      "INQR 1410",
-      "INQR 1420",
-      "INQR 1430",
       "STSH 1110",
       "STSH 2500",
       "STSO 1100",
       "STSO 1110",
-      "STSO 2400",
       "STSO 2500",
+      "STSO 2520",
       "STSS 1110"
     ]
   },
