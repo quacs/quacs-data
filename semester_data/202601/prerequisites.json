@@ -10690,27 +10690,6 @@
       "type": "and"
     }
   },
-  "36210": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36211": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -12951,27 +12930,6 @@
   "36463": {},
   "36464": {},
   "36465": {},
-  "36466": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36467": {
     "restrictions": {
       "major": {
@@ -20826,70 +20784,7 @@
       "type": "and"
     }
   },
-  "37178": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37179": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "37180": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "37181": {
     "corequisites": [
       "ARCH-2360",
       "ARCH-2550"
@@ -23331,27 +23226,6 @@
     }
   },
   "37467": {},
-  "37468": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37469": {},
   "37470": {},
   "37471": {
@@ -23455,13 +23329,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "37479": {
-    "prerequisites": {
-      "course": "ARCH 4120",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "37480": {
@@ -24954,5 +24821,66 @@
       "type": "course"
     }
   },
-  "38063": {}
+  "38063": {},
+  "38064": {},
+  "38065": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38066": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38067": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38068": {
+    "prerequisites": {
+      "course": "ARCH 5380",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38069": {
+    "prerequisites": {
+      "course": "ARCH 5320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38070": {
+    "prerequisites": {
+      "course": "ARCH 6610",
+      "min_grade": "B",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
