@@ -24249,60 +24249,6 @@
       }
     }
   },
-  "37570": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2960",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "campus": {
-        "must_be": [
-          "Hartford"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37571": {
     "restrictions": {
       "classification": {
