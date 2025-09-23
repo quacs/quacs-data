@@ -6867,15 +6867,6 @@
     }
   },
   "35809": {},
-  "35810": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "35811": {
     "restrictions": {
       "level": {
@@ -10358,16 +10349,6 @@
       }
     }
   },
-  "36171": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "36172": {
     "prerequisites": {
       "nested": [
@@ -10613,23 +10594,6 @@
           "Computational Biology"
         ]
       }
-    }
-  },
-  "36208": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CIVL 4070",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 4080",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "36209": {
@@ -21025,30 +20989,6 @@
       "type": "course"
     }
   },
-  "37264": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CIVL 2030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 6250",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37265": {},
   "37266": {
     "restrictions": {
@@ -21482,20 +21422,6 @@
   "37291": {},
   "37292": {},
   "37293": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37294": {
-    "prerequisites": {
-      "course": "CIVL 4440",
-      "min_grade": "D",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -24570,6 +24496,7 @@
       "type": "course"
     }
   },
+  "37691": {},
   "37693": {},
   "37696": {},
   "37697": {},
@@ -24590,7 +24517,9 @@
   "37734": {},
   "37735": {},
   "37739": {},
+  "37744": {},
   "37745": {},
+  "37746": {},
   "37747": {},
   "37748": {},
   "37749": {},
@@ -24653,28 +24582,6 @@
   "37958": {},
   "37959": {},
   "37962": {},
-  "37965": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BIOL 1010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 2120",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 2500",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37967": {},
   "37973": {},
   "37976": {},
@@ -24692,6 +24599,7 @@
     }
   },
   "38002": {},
+  "38037": {},
   "38047": {},
   "38048": {},
   "38049": {},
@@ -24699,6 +24607,7 @@
   "38052": {},
   "38053": {},
   "38054": {},
+  "38055": {},
   "38057": {
     "restrictions": {
       "classification": {
@@ -24958,5 +24867,45 @@
   "38201": {},
   "38202": {},
   "38203": {},
-  "38204": {}
+  "38204": {},
+  "38205": {
+    "prerequisites": {
+      "course": "BIOL 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38206": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38207": {},
+  "38208": {},
+  "38209": {},
+  "38210": {},
+  "38211": {
+    "prerequisites": {
+      "course": "ARCH 5110",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38212": {},
+  "38213": {},
+  "38214": {},
+  "38215": {},
+  "38216": {}
 }
