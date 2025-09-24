@@ -20948,15 +20948,6 @@
   "37290": {},
   "37291": {},
   "37292": {},
-  "37293": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37298": {
     "restrictions": {
       "campus": {
@@ -22153,13 +22144,6 @@
     }
   },
   "37414": {},
-  "37415": {
-    "prerequisites": {
-      "course": "ISYE 4290",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "37416": {
     "restrictions": {
       "level": {
@@ -24356,5 +24340,47 @@
   "38215": {},
   "38216": {},
   "38217": {},
-  "38218": {}
+  "38218": {},
+  "38220": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 4010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 4150",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38221": {
+    "prerequisites": {
+      "course": "CIVL 6450",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
