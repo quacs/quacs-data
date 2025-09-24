@@ -6812,33 +6812,6 @@
     }
   },
   "35804": {},
-  "35805": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "35806": {
     "restrictions": {
       "level": {
@@ -18079,21 +18052,6 @@
       }
     }
   },
-  "36918": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Physics"
-        ]
-      }
-    }
-  },
   "36919": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -25034,6 +24992,142 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "38233": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38234": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38235": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38236": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38237": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38238": {
+    "cross_list_courses": [
+      "CIVL-6530"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2060",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 2630",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38239": {
+    "cross_list_courses": [
+      "CIVL-4530"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CIVL 2060",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CIVL 2630",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38240": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38241": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
