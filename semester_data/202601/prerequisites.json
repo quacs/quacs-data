@@ -24489,21 +24489,16 @@
   "37771": {},
   "37773": {},
   "37774": {},
-  "37777": {},
   "37780": {},
   "37782": {},
   "37783": {},
   "37784": {},
-  "37785": {},
-  "37786": {},
   "37788": {},
   "37789": {},
   "37791": {},
   "37793": {},
-  "37794": {},
   "37802": {},
   "37804": {},
-  "37810": {},
   "37813": {},
   "37821": {},
   "37822": {},
@@ -24519,18 +24514,14 @@
   "37869": {},
   "37870": {},
   "37891": {},
+  "37897": {},
   "37900": {},
   "37935": {},
-  "37937": {},
   "37942": {},
   "37948": {},
   "37950": {},
-  "37958": {},
-  "37959": {},
   "37962": {},
   "37967": {},
-  "37973": {},
-  "37976": {},
   "37986": {},
   "37990": {},
   "37997": {},
@@ -24548,8 +24539,6 @@
   "38037": {},
   "38047": {},
   "38048": {},
-  "38050": {},
-  "38052": {},
   "38053": {},
   "38054": {},
   "38055": {},
@@ -24893,5 +24882,160 @@
       }
     }
   },
-  "38222": {}
+  "38222": {},
+  "38223": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38224": {},
+  "38225": {},
+  "38226": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38227": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38228": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38229": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38230": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38231": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38232": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
