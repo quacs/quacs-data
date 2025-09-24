@@ -2396,6 +2396,7 @@
   "35146": {},
   "35147": {},
   "35149": {},
+  "35150": {},
   "35151": {},
   "35152": {},
   "35153": {
@@ -3200,6 +3201,36 @@
       "type": "course"
     }
   },
+  "35233": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
+        ]
+      }
+    }
+  },
   "35234": {
     "prerequisites": {
       "course": "ECSE 4250",
@@ -3277,6 +3308,54 @@
       "course": "ARCH 2370",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "35251": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "35252": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
     }
   },
   "35253": {
@@ -3411,6 +3490,8 @@
       }
     }
   },
+  "35267": {},
+  "35268": {},
   "35269": {},
   "35270": {},
   "35271": {},
@@ -3625,6 +3706,7 @@
   },
   "35333": {},
   "35334": {},
+  "35335": {},
   "35337": {},
   "35338": {
     "prerequisites": {
@@ -3867,6 +3949,36 @@
       }
     }
   },
+  "35349": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
+        ]
+      }
+    }
+  },
   "35350": {
     "restrictions": {
       "level": {
@@ -3938,6 +4050,30 @@
   },
   "35375": {},
   "35376": {},
+  "35377": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "35378": {
     "prerequisites": {
       "course": "MANE 4070",
@@ -4058,6 +4194,36 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "35390": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering"
         ]
       }
     }
@@ -4624,6 +4790,15 @@
       }
     }
   },
+  "35507": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "35508": {},
   "35509": {
     "restrictions": {
@@ -5127,6 +5302,54 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "35606": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "35607": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
         ]
       }
     }
@@ -6246,6 +6469,102 @@
       }
     }
   },
+  "35783": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "35784": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "35785": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
+  "35786": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
+    }
+  },
   "35787": {
     "restrictions": {
       "level": {
@@ -6683,6 +7002,7 @@
       }
     }
   },
+  "35846": {},
   "35850": {
     "restrictions": {
       "level": {
@@ -6999,6 +7319,123 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "35891": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4910",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "35892": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4910",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "35893": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4910",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
@@ -8095,6 +8532,15 @@
     }
   },
   "36019": {},
+  "36024": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "36025": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -10779,6 +11225,7 @@
       }
     }
   },
+  "36283": {},
   "36285": {
     "restrictions": {
       "classification": {
@@ -10821,6 +11268,7 @@
       }
     }
   },
+  "36291": {},
   "36293": {
     "corequisites": [
       "BIOL-1010"
@@ -12522,6 +12970,7 @@
       }
     }
   },
+  "36480": {},
   "36481": {},
   "36482": {},
   "36483": {},
@@ -16175,6 +16624,7 @@
       "type": "course"
     }
   },
+  "36802": {},
   "36803": {
     "prerequisites": {
       "nested": [
@@ -18840,6 +19290,15 @@
   },
   "37034": {},
   "37035": {},
+  "37039": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "37040": {},
   "37041": {
     "corequisites": [
@@ -20948,6 +21407,28 @@
   "37290": {},
   "37291": {},
   "37292": {},
+  "37295": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "37296": {},
+  "37297": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "37298": {
     "restrictions": {
       "campus": {
@@ -21796,6 +22277,7 @@
       }
     }
   },
+  "37381": {},
   "37382": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -22693,6 +23175,8 @@
     }
   },
   "37484": {},
+  "37485": {},
+  "37486": {},
   "37487": {
     "restrictions": {
       "level": {
@@ -22707,6 +23191,18 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "37489": {},
+  "37490": {},
+  "37491": {},
+  "37492": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
         ]
       }
     }
@@ -23776,6 +24272,7 @@
       }
     }
   },
+  "37607": {},
   "37615": {
     "restrictions": {
       "classification": {
@@ -23787,6 +24284,7 @@
     }
   },
   "37621": {},
+  "37622": {},
   "37623": {
     "restrictions": {
       "classification": {
@@ -23987,31 +24485,22 @@
   "37748": {},
   "37749": {},
   "37763": {},
-  "37764": {},
-  "37766": {},
   "37767": {},
-  "37770": {},
   "37771": {},
   "37773": {},
   "37774": {},
-  "37775": {},
-  "37776": {},
   "37777": {},
-  "37778": {},
   "37780": {},
   "37782": {},
   "37783": {},
   "37784": {},
   "37785": {},
   "37786": {},
-  "37787": {},
   "37788": {},
   "37789": {},
   "37791": {},
-  "37792": {},
   "37793": {},
   "37794": {},
-  "37795": {},
   "37802": {},
   "37804": {},
   "37810": {},
@@ -24029,15 +24518,11 @@
   "37868": {},
   "37869": {},
   "37870": {},
-  "37880": {},
-  "37881": {},
   "37891": {},
   "37900": {},
-  "37933": {},
   "37935": {},
   "37937": {},
   "37942": {},
-  "37947": {},
   "37948": {},
   "37950": {},
   "37958": {},
@@ -24063,7 +24548,6 @@
   "38037": {},
   "38047": {},
   "38048": {},
-  "38049": {},
   "38050": {},
   "38052": {},
   "38053": {},
@@ -24088,7 +24572,48 @@
       }
     }
   },
+  "38062": {
+    "corequisites": [
+      "ARCH-2830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2370",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38063": {},
   "38064": {},
+  "38065": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38066": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38067": {
+    "corequisites": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 4320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "38068": {
     "prerequisites": {
       "course": "ARCH 5380",
