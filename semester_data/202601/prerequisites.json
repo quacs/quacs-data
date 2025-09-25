@@ -612,6 +612,11 @@
     }
   },
   "35044": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -1072,6 +1077,11 @@
     }
   },
   "35067": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -1244,6 +1254,11 @@
     }
   },
   "35074": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -4097,8 +4112,17 @@
       "type": "course"
     }
   },
-  "35383": {},
+  "35383": {
+    "cross_list_courses": [
+      "ENGR-6100",
+      "ITWS-6300"
+    ]
+  },
   "35384": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ITWS-6300"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6442,6 +6466,10 @@
     }
   },
   "35781": {
+    "cross_list_courses": [
+      "ENGR-4100",
+      "ENGR-6100"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -7687,6 +7715,11 @@
     }
   },
   "35941": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -9548,15 +9581,6 @@
       }
     }
   },
-  "36106": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "36107": {},
   "36109": {
     "restrictions": {
@@ -11282,6 +11306,9 @@
     }
   },
   "36296": {
+    "cross_list_courses": [
+      "MANE-4620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11327,6 +11354,9 @@
     }
   },
   "36297": {
+    "cross_list_courses": [
+      "MANE-4620"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11983,6 +12013,9 @@
   },
   "36339": {},
   "36340": {
+    "cross_list_courses": [
+      "ENGR-2700"
+    ],
     "prerequisites": {
       "course": "MATH 1020",
       "min_grade": "D",
@@ -11990,6 +12023,9 @@
     }
   },
   "36341": {
+    "cross_list_courses": [
+      "ISYE-2210"
+    ],
     "prerequisites": {
       "course": "MATH 1020",
       "min_grade": "D",
@@ -12818,18 +12854,90 @@
       "type": "and"
     }
   },
-  "36454": {},
-  "36455": {},
-  "36456": {},
-  "36457": {},
-  "36458": {},
-  "36459": {},
-  "36460": {},
-  "36461": {},
-  "36462": {},
-  "36463": {},
-  "36464": {},
-  "36465": {},
+  "36454": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36455": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36456": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36457": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
+  "36458": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36459": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36460": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
+  "36461": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36462": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36463": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
+  "36464": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "36465": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
   "36467": {
     "restrictions": {
       "major": {
@@ -18305,6 +18413,13 @@
     }
   },
   "36945": {
+    "cross_list_courses": [
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18315,6 +18430,13 @@
     }
   },
   "36946": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19263,8 +19385,16 @@
       "BIOL-1010"
     ]
   },
-  "37042": {},
-  "37043": {},
+  "37042": {
+    "cross_list_courses": [
+      "ISYE-4555"
+    ]
+  },
+  "37043": {
+    "cross_list_courses": [
+      "ENGR-4555"
+    ]
+  },
   "37044": {
     "restrictions": {
       "level": {
@@ -19276,6 +19406,13 @@
   },
   "37045": {},
   "37046": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19286,6 +19423,13 @@
     }
   },
   "37047": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19295,6 +19439,13 @@
     }
   },
   "37048": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19306,6 +19457,13 @@
     }
   },
   "37049": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19348,6 +19506,9 @@
   },
   "37056": {},
   "37057": {
+    "cross_list_courses": [
+      "ENGR-4720"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19365,6 +19526,9 @@
     }
   },
   "37058": {
+    "cross_list_courses": [
+      "ENGR-4720"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19693,6 +19857,9 @@
     }
   },
   "37087": {
+    "cross_list_courses": [
+      "ISYE-6961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22816,7 +22983,6 @@
     }
   },
   "37442": {},
-  "37443": {},
   "37444": {},
   "37445": {},
   "37446": {
@@ -23546,34 +23712,6 @@
     }
   },
   "37520": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37521": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37522": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37523": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37524": {
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -24446,18 +24584,15 @@
   "37763": {},
   "37767": {},
   "37771": {},
-  "37773": {},
   "37774": {},
   "37780": {},
   "37782": {},
-  "37783": {},
   "37784": {},
   "37788": {},
   "37789": {},
   "37791": {},
   "37793": {},
   "37802": {},
-  "37804": {},
   "37807": {},
   "37813": {},
   "37821": {},
@@ -24476,7 +24611,6 @@
   "37891": {},
   "37897": {},
   "37900": {},
-  "37935": {},
   "37942": {},
   "37948": {},
   "37950": {},
@@ -25162,5 +25296,27 @@
       "min_grade": "D",
       "type": "course"
     }
-  }
+  },
+  "38253": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38254": {
+    "cross_list_courses": [
+      "ENGR-6963"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38255": {}
 }
