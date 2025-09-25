@@ -9367,7 +9367,6 @@
       }
     }
   },
-  "36074": {},
   "36075": {
     "restrictions": {
       "level": {
@@ -21435,14 +21434,6 @@
       "type": "or"
     }
   },
-  "37289": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37290": {},
   "37291": {},
   "37292": {},
   "37295": {
@@ -23797,73 +23788,6 @@
       "type": "or"
     }
   },
-  "37543": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "37544": {},
   "37545": {},
   "37546": {
@@ -24542,7 +24466,6 @@
   "37962": {},
   "37967": {},
   "37986": {},
-  "37990": {},
   "37997": {},
   "37998": {},
   "37999": {
@@ -25284,5 +25207,23 @@
         ]
       }
     }
-  }
+  },
+  "38265": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38266": {},
+  "38267": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38268": {}
 }
