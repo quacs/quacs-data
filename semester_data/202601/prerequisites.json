@@ -6063,6 +6063,9 @@
   "35713": {},
   "35714": {},
   "35715": {
+    "cross_list_courses": [
+      "ARCH-4880"
+    ],
     "prerequisites": {
       "course": "ARCH 6860",
       "min_grade": "C",
@@ -7979,6 +7982,9 @@
     }
   },
   "35958": {
+    "cross_list_courses": [
+      "ARCH-4020"
+    ],
     "prerequisites": {
       "course": "CIVL 2670",
       "min_grade": "D",
@@ -9187,6 +9193,9 @@
     }
   },
   "36057": {
+    "cross_list_courses": [
+      "CIVL-4020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11486,6 +11495,9 @@
     }
   },
   "36308": {
+    "cross_list_courses": [
+      "ARTS-1030"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -12690,6 +12702,9 @@
     }
   },
   "36443": {
+    "cross_list_courses": [
+      "ARCH-5330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -13428,6 +13443,9 @@
     }
   },
   "36526": {
+    "cross_list_courses": [
+      "ARTS-1030"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -15557,7 +15575,11 @@
       }
     }
   },
-  "36669": {},
+  "36669": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ]
+  },
   "36670": {
     "prerequisites": {
       "nested": [
@@ -16211,6 +16233,9 @@
   "36775": {},
   "36776": {},
   "36777": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -17208,6 +17233,9 @@
     }
   },
   "36848": {
+    "cross_list_courses": [
+      "ARCH-5150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18175,6 +18203,9 @@
   },
   "36931": {},
   "36932": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -18185,7 +18216,11 @@
       }
     }
   },
-  "36933": {},
+  "36933": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ]
+  },
   "36934": {
     "prerequisites": {
       "course": "CIVL 2670",
@@ -18717,6 +18752,9 @@
     }
   },
   "36979": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21566,9 +21604,21 @@
     }
   },
   "37314": {},
-  "37315": {},
-  "37316": {},
-  "37317": {},
+  "37315": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  },
+  "37316": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  },
+  "37317": {
+    "cross_list_courses": [
+      "ARTS-1380"
+    ]
+  },
   "37318": {
     "restrictions": {
       "major": {
@@ -22981,7 +23031,11 @@
       }
     }
   },
-  "37464": {},
+  "37464": {
+    "cross_list_courses": [
+      "ARCH-4590"
+    ]
+  },
   "37465": {
     "corequisites": [
       "ARCH-5210"
@@ -24267,6 +24321,9 @@
   "37683": {},
   "37684": {},
   "37687": {
+    "cross_list_courses": [
+      "ARCH-4330"
+    ],
     "prerequisites": {
       "course": "ARCH 5140",
       "min_grade": "D",
@@ -24568,6 +24625,9 @@
   "38179": {},
   "38180": {},
   "38181": {
+    "cross_list_courses": [
+      "ARCH-6890"
+    ],
     "prerequisites": {
       "course": "ARCH 4860",
       "min_grade": "D",
@@ -24715,24 +24775,7 @@
       "type": "course"
     }
   },
-  "38224": {},
   "38225": {},
-  "38226": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "38227": {
     "restrictions": {
       "classification": {
@@ -25269,6 +25312,23 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "38289": {},
+  "38290": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38291": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
