@@ -9933,6 +9933,9 @@
   "36133": {},
   "36134": {},
   "36135": {
+    "cross_list_courses": [
+      "BMED-6460"
+    ],
     "prerequisites": {
       "course": "BMED 2300",
       "min_grade": "D",
@@ -9940,6 +9943,9 @@
     }
   },
   "36136": {
+    "cross_list_courses": [
+      "BMED-4460"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11843,8 +11849,15 @@
       "type": "course"
     }
   },
-  "36321": {},
+  "36321": {
+    "cross_list_courses": [
+      "BMED-6440"
+    ]
+  },
   "36322": {
+    "cross_list_courses": [
+      "BMED-4440"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12721,6 +12734,9 @@
     }
   },
   "36437": {
+    "cross_list_courses": [
+      "BMED-6410"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -12736,6 +12752,9 @@
     }
   },
   "36438": {
+    "cross_list_courses": [
+      "BMED-4410"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14592,6 +14611,9 @@
     }
   },
   "36598": {
+    "cross_list_courses": [
+      "BIOL-6150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14609,6 +14631,9 @@
     }
   },
   "36599": {
+    "cross_list_courses": [
+      "BIOL-4150"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14884,6 +14909,9 @@
     }
   },
   "36627": {
+    "cross_list_courses": [
+      "BMED-6480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14921,6 +14949,9 @@
     }
   },
   "36628": {
+    "cross_list_courses": [
+      "BMED-4480"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16966,7 +16997,6 @@
       "type": "course"
     }
   },
-  "36829": {},
   "36830": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -21726,6 +21756,9 @@
   "37319": {},
   "37320": {},
   "37321": {
+    "cross_list_courses": [
+      "BIOL-6140"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21743,6 +21776,9 @@
     }
   },
   "37322": {
+    "cross_list_courses": [
+      "BIOL-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22776,6 +22812,9 @@
     }
   },
   "37419": {
+    "cross_list_courses": [
+      "BMED-6490"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22800,16 +22839,10 @@
       }
     }
   },
-  "37420": {},
-  "37421": {},
-  "37422": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
+  "37420": {
+    "cross_list_courses": [
+      "BMED-4490"
+    ]
   },
   "37423": {
     "restrictions": {
@@ -24141,8 +24174,15 @@
       }
     }
   },
-  "37601": {},
+  "37601": {
+    "cross_list_courses": [
+      "BIOL-6962"
+    ]
+  },
   "37602": {
+    "cross_list_courses": [
+      "BIOL-4962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24783,6 +24823,9 @@
   "38203": {},
   "38204": {},
   "38205": {
+    "cross_list_courses": [
+      "BIOL-6070"
+    ],
     "prerequisites": {
       "course": "BIOL 1010",
       "min_grade": "D",
@@ -24790,6 +24833,9 @@
     }
   },
   "38206": {
+    "cross_list_courses": [
+      "BIOL-4070"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25432,5 +25478,24 @@
   },
   "38292": {},
   "38293": {},
-  "38294": {}
+  "38294": {},
+  "38295": {},
+  "38296": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "38297": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  }
 }
