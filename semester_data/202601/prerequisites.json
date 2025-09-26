@@ -117,6 +117,10 @@
     }
   },
   "35015": {
+    "cross_list_courses": [
+      "BIOL-4770",
+      "CHEM-4770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -156,6 +160,10 @@
     }
   },
   "35017": {
+    "cross_list_courses": [
+      "BCBP-4770",
+      "CHEM-4770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -926,6 +934,10 @@
     }
   },
   "35059": {
+    "cross_list_courses": [
+      "BCBP-4770",
+      "BIOL-4770"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3527,6 +3539,11 @@
     }
   },
   "35282": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BCBP-6420",
+      "BIOL-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4524,6 +4541,9 @@
     }
   },
   "35488": {
+    "cross_list_courses": [
+      "BCBP-4310"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4533,6 +4553,9 @@
     }
   },
   "35489": {
+    "cross_list_courses": [
+      "BCBP-6310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8678,6 +8701,11 @@
     ]
   },
   "36038": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BIOL-4550",
+      "BIOL-6420"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -8687,6 +8715,11 @@
     }
   },
   "36039": {
+    "cross_list_courses": [
+      "BCBP-6420",
+      "BIOL-4550",
+      "BIOL-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8724,6 +8757,11 @@
     }
   },
   "36040": {
+    "cross_list_courses": [
+      "BCBP-4550",
+      "BCBP-6420",
+      "BIOL-4550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10185,6 +10223,10 @@
     }
   },
   "36151": {
+    "cross_list_courses": [
+      "ASTR-4240",
+      "PHYS-6962"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10202,6 +10244,10 @@
     }
   },
   "36152": {
+    "cross_list_courses": [
+      "PHYS-4240",
+      "PHYS-6962"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10620,7 +10666,6 @@
     }
   },
   "36212": {},
-  "36213": {},
   "36214": {
     "corequisites": [
       "ARCH-2360",
@@ -10869,6 +10914,13 @@
     }
   },
   "36226": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -10878,6 +10930,13 @@
     }
   },
   "36227": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12548,6 +12607,9 @@
     }
   },
   "36428": {
+    "cross_list_courses": [
+      "BCBP-4660"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12557,6 +12619,9 @@
     }
   },
   "36429": {
+    "cross_list_courses": [
+      "BIOL-6650"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12756,6 +12821,10 @@
     }
   },
   "36448": {
+    "cross_list_courses": [
+      "ASTR-4240",
+      "PHYS-4240"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13265,6 +13334,12 @@
     }
   },
   "36506": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14072,6 +14147,12 @@
     }
   },
   "36573": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -14295,6 +14376,9 @@
     }
   },
   "36586": {
+    "cross_list_courses": [
+      "BCBP-4710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14994,73 +15078,6 @@
     }
   },
   "36642": {},
-  "36643": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "36644": {
     "restrictions": {
       "classification": {
@@ -15830,6 +15847,9 @@
     }
   },
   "36687": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -15840,8 +15860,16 @@
       }
     }
   },
-  "36688": {},
-  "36689": {},
+  "36688": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "36689": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
   "36690": {},
   "36691": {
     "corequisites": [
@@ -17169,6 +17197,9 @@
     }
   },
   "36844": {
+    "cross_list_courses": [
+      "BCBP-4710"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17842,6 +17873,13 @@
     }
   },
   "36874": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17881,6 +17919,12 @@
     }
   },
   "36876": {
+    "cross_list_courses": [
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17958,6 +18002,13 @@
     }
   },
   "36895": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17967,6 +18018,12 @@
     }
   },
   "36896": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18272,6 +18329,9 @@
     }
   },
   "36938": {
+    "cross_list_courses": [
+      "ARTS-6040"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18421,16 +18481,6 @@
     "restrictions": {
       "classification": {
         "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "36952": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
           "Freshman",
           "Sophomore"
         ]
@@ -18841,8 +18891,15 @@
       }
     }
   },
-  "36990": {},
+  "36990": {
+    "cross_list_courses": [
+      "ARTS-6860"
+    ]
+  },
   "36991": {
+    "cross_list_courses": [
+      "ARTS-4860"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19848,6 +19905,9 @@
     }
   },
   "37094": {
+    "cross_list_courses": [
+      "ARTS-4040"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -19861,8 +19921,15 @@
       }
     }
   },
-  "37095": {},
+  "37095": {
+    "cross_list_courses": [
+      "ARTS-6140"
+    ]
+  },
   "37096": {
+    "cross_list_courses": [
+      "ARTS-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19879,6 +19946,9 @@
     }
   },
   "37098": {
+    "cross_list_courses": [
+      "ARTS-6640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19971,6 +20041,9 @@
     }
   },
   "37099": {
+    "cross_list_courses": [
+      "ARTS-4640"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20202,7 +20275,6 @@
     }
   },
   "37132": {},
-  "37133": {},
   "37135": {},
   "37136": {
     "restrictions": {
@@ -20752,8 +20824,23 @@
       }
     }
   },
-  "37187": {},
-  "37188": {},
+  "37187": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
+  "37188": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
   "37189": {
     "prerequisites": {
       "nested": [
@@ -20777,6 +20864,13 @@
     }
   },
   "37190": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21695,15 +21789,6 @@
       "type": "or"
     }
   },
-  "37327": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37328": {
     "restrictions": {
       "level": {
@@ -22424,7 +22509,11 @@
       "type": "course"
     }
   },
-  "37397": {},
+  "37397": {
+    "cross_list_courses": [
+      "PHYS-4961"
+    ]
+  },
   "37398": {
     "restrictions": {
       "classification": {
@@ -23240,7 +23329,11 @@
       }
     }
   },
-  "37497": {},
+  "37497": {
+    "cross_list_courses": [
+      "ASTR-4960"
+    ]
+  },
   "37498": {
     "prerequisites": {
       "nested": [
@@ -23751,6 +23844,9 @@
     }
   },
   "37547": {
+    "cross_list_courses": [
+      "ARTS-6920"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24182,7 +24278,11 @@
   },
   "37635": {},
   "37637": {},
-  "37638": {},
+  "37638": {
+    "cross_list_courses": [
+      "ARTS-4920"
+    ]
+  },
   "37639": {},
   "37643": {},
   "37644": {},
@@ -24521,7 +24621,6 @@
   "38084": {},
   "38085": {},
   "38086": {},
-  "38088": {},
   "38089": {},
   "38090": {},
   "38091": {},
@@ -25330,5 +25429,8 @@
       "min_grade": "D",
       "type": "course"
     }
-  }
+  },
+  "38292": {},
+  "38293": {},
+  "38294": {}
 }
