@@ -6158,15 +6158,6 @@
       }
     }
   },
-  "35720": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "35722": {
     "restrictions": {
       "level": {
@@ -15896,15 +15887,6 @@
       "ERTH-1200"
     ]
   },
-  "36697": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
   "36698": {
     "restrictions": {
       "classification": {
@@ -19785,29 +19767,11 @@
       }
     }
   },
-  "37088": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37089": {
     "restrictions": {
       "campus": {
         "must_be": [
           "Hartford"
-        ]
-      }
-    }
-  },
-  "37090": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -23134,25 +23098,6 @@
       "type": "and"
     }
   },
-  "37480": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37481": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "37482": {
     "restrictions": {
       "level": {
@@ -23432,15 +23377,6 @@
       }
     }
   },
-  "37504": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37505": {
     "prerequisites": {
       "nested": [
@@ -23494,17 +23430,6 @@
       "classification": {
         "may_not_be": [
           "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "37509": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
           "Sophomore"
         ]
       }
@@ -23812,16 +23737,6 @@
     }
   },
   "37552": {},
-  "37555": {},
-  "37556": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37557": {},
   "37558": {
     "restrictions": {
@@ -25255,6 +25170,97 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "38276": {
+    "prerequisites": {
+      "course": "MANE 4730",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38277": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38278": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38279": {},
+  "38280": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38281": {
+    "prerequisites": {
+      "course": "MANE 4070",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38282": {},
+  "38283": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38284": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38285": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38286": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
