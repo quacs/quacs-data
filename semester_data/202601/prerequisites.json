@@ -16648,13 +16648,6 @@
       "type": "or"
     }
   },
-  "36801": {
-    "prerequisites": {
-      "course": "MANE 2710",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "36802": {},
   "36803": {
     "prerequisites": {
@@ -23819,13 +23812,6 @@
     }
   },
   "37552": {},
-  "37554": {
-    "prerequisites": {
-      "course": "ENGR 2600",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "37555": {},
   "37556": {
     "restrictions": {
@@ -25203,5 +25189,72 @@
       "type": "course"
     }
   },
-  "38268": {}
+  "38268": {},
+  "38269": {},
+  "38270": {},
+  "38271": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38272": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38273": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38274": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2710",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38275": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2710",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
