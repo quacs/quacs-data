@@ -9206,110 +9206,6 @@
       "type": "course"
     }
   },
-  "36052": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "36053": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36054": {
     "prerequisites": {
       "nested": [
@@ -10316,20 +10212,6 @@
           "Information Tech & Web Science"
         ]
       }
-    }
-  },
-  "36149": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36150": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "36151": {
@@ -12691,20 +12573,6 @@
       }
     }
   },
-  "36425": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36426": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "36427": {
     "prerequisites": {
       "nested": [
@@ -13336,110 +13204,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "36500": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "36501": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "36502": {
@@ -20223,9 +19987,7 @@
     }
   },
   "37087": {
-    "cross_list_courses": [
-      "ISYE-6961"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24192,6 +23954,18 @@
       }
     }
   },
+  "37530": {
+    "cross_list_courses": [
+      "ISYE-4250"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "37536": {
     "prerequisites": {
       "nested": [
@@ -24841,6 +24615,7 @@
   "37679": {},
   "37680": {},
   "37681": {},
+  "37682": {},
   "37683": {},
   "37684": {},
   "37687": {
@@ -24876,7 +24651,9 @@
   "37733": {},
   "37734": {},
   "37735": {},
+  "37737": {},
   "37739": {},
+  "37742": {},
   "37744": {},
   "37745": {},
   "37746": {},
@@ -24899,8 +24676,10 @@
   "37802": {},
   "37807": {},
   "37813": {},
+  "37819": {},
   "37821": {},
   "37822": {},
+  "37823": {},
   "37825": {},
   "37826": {},
   "37834": {},
@@ -24912,12 +24691,14 @@
   "37851": {},
   "37855": {},
   "37862": {},
+  "37865": {},
   "37868": {},
   "37869": {},
   "37870": {},
   "37879": {},
   "37891": {},
   "37897": {},
+  "37899": {},
   "37900": {},
   "37903": {},
   "37912": {},
@@ -24926,7 +24707,9 @@
   "37948": {},
   "37950": {},
   "37957": {},
+  "37961": {},
   "37962": {},
+  "37966": {},
   "37967": {},
   "37986": {},
   "37997": {},
@@ -24941,6 +24724,7 @@
     }
   },
   "38002": {},
+  "38008": {},
   "38009": {},
   "38018": {},
   "38027": {},
@@ -25600,20 +25384,6 @@
       "type": "course"
     }
   },
-  "38254": {
-    "cross_list_courses": [
-      "ENGR-6963"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "38255": {},
   "38256": {},
   "38257": {},
@@ -26153,5 +25923,39 @@
   "38364": {},
   "38365": {},
   "38366": {},
-  "38367": {}
+  "38367": {},
+  "38368": {},
+  "38369": {},
+  "38370": {},
+  "38371": {},
+  "38372": {},
+  "38373": {},
+  "38374": {},
+  "38375": {},
+  "38376": {},
+  "38377": {},
+  "38378": {},
+  "38379": {},
+  "38380": {},
+  "38381": {},
+  "38382": {},
+  "38383": {},
+  "38384": {},
+  "38385": {},
+  "38386": {},
+  "38387": {},
+  "38388": {},
+  "38389": {},
+  "38390": {},
+  "38391": {},
+  "38392": {},
+  "38393": {},
+  "38394": {},
+  "38395": {},
+  "38396": {},
+  "38397": {},
+  "38398": {},
+  "38399": {},
+  "38400": {},
+  "38401": {}
 }
