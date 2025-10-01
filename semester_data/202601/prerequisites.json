@@ -8210,13 +8210,6 @@
       "type": "and"
     }
   },
-  "35969": {
-    "prerequisites": {
-      "course": "ENGR 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "35970": {
     "prerequisites": {
       "nested": [
@@ -26186,5 +26179,19 @@
       "type": "course"
     }
   },
-  "38309": {}
+  "38309": {},
+  "38310": {
+    "restrictions": {
+      "college": {
+        "must_be": [
+          "School of Engineering"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
+  }
 }
