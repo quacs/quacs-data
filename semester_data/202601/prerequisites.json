@@ -9327,15 +9327,6 @@
       "type": "or"
     }
   },
-  "36055": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "36056": {
     "prerequisites": {
       "course": "MANE 4030",
@@ -16051,33 +16042,6 @@
     }
   },
   "36678": {},
-  "36679": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "36680": {
     "restrictions": {
       "campus": {
@@ -22945,13 +22909,6 @@
       "type": "course"
     }
   },
-  "37386": {
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "37387": {
     "prerequisites": {
       "nested": [
@@ -24787,73 +24744,6 @@
       }
     }
   },
-  "37604": {
-    "cross_list_courses": [
-      "MATH-4100"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "37605": {
-    "cross_list_courses": [
-      "MATH-4100"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Mathematics"
-        ]
-      }
-    }
-  },
   "37606": {
     "restrictions": {
       "classification": {
@@ -26192,6 +26082,52 @@
           "Biomedical Engineering"
         ]
       }
+    }
+  },
+  "38311": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38312": {},
+  "38313": {},
+  "38314": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
