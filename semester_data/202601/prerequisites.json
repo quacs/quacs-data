@@ -18137,7 +18137,6 @@
       "type": "course"
     }
   },
-  "36905": {},
   "36906": {},
   "36907": {
     "cross_list_courses": [
@@ -19876,46 +19875,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "37081": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "37082": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "37083": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "37084": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
         ]
       }
     }
@@ -25945,6 +25904,164 @@
       "course": "CSCI 2700",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "38414": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38415": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38416": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38417": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4090",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38418": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4090",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38419": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38420": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38421": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38422": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38423": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2210",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38424": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
     }
   }
 }

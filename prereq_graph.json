@@ -6901,8 +6901,6 @@
   "CSCI 4260": {
     "title": "Graph Theory",
     "prereqs": [
-      "CSCI 1100",
-      "CSCI 1200",
       "CSCI 2200",
       "MATH 4090"
     ]
@@ -9335,7 +9333,10 @@
   },
   "CSCI 4190": {
     "title": "Decentralized Ai",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300",
+      "CSCI 2600"
+    ]
   },
   "CSCI 4969": {
     "title": "Topics In Csci",
@@ -17990,10 +17991,7 @@
   },
   "CSCI 6560": {
     "title": "Computational Geometry",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "prereqs": []
   },
   "ENGR 6961": {
     "title": "Topics In Engr",
@@ -19173,6 +19171,20 @@
   },
   "COMM 1250": {
     "title": "Acad Writing For Eng Lang Lrns",
+    "prereqs": []
+  },
+  "CSCI 4280": {
+    "title": "Graph Mining",
+    "prereqs": [
+      "CSCI 2300"
+    ]
+  },
+  "CSCI 6170": {
+    "title": "Projects In Ai & Machine Lrng",
+    "prereqs": []
+  },
+  "CSCI 6190": {
+    "title": "Decentralized Ai",
     "prereqs": []
   },
   "LGHT 6230": {
