@@ -12200,34 +12200,6 @@
       }
     }
   },
-  "36335": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
-  "36336": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
-  "36337": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
-  "36338": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
   "36339": {},
   "36340": {
     "cross_list_courses": [
@@ -12717,20 +12689,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "36423": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
-  "36424": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
     }
   },
   "36425": {
@@ -22909,65 +22867,11 @@
       "type": "course"
     }
   },
-  "37387": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "37388": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37389": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37390": {
     "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "37391": {
-    "cross_list_courses": [
-      "ISYE-6760"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -23239,9 +23143,7 @@
     ]
   },
   "37416": {
-    "cross_list_courses": [
-      "MATP-6620"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25008,9 +24910,11 @@
   "37847": {},
   "37849": {},
   "37855": {},
+  "37862": {},
   "37868": {},
   "37869": {},
   "37870": {},
+  "37879": {},
   "37891": {},
   "37897": {},
   "37900": {},
@@ -25035,6 +24939,10 @@
   },
   "38002": {},
   "38009": {},
+  "38018": {},
+  "38027": {},
+  "38030": {},
+  "38033": {},
   "38036": {},
   "38037": {},
   "38038": {},
@@ -26129,5 +26037,95 @@
       ],
       "type": "and"
     }
-  }
+  },
+  "38315": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38316": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38317": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38318": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38319": {},
+  "38320": {},
+  "38321": {},
+  "38322": {},
+  "38323": {},
+  "38324": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38325": {},
+  "38326": {},
+  "38327": {},
+  "38328": {},
+  "38329": {},
+  "38330": {},
+  "38331": {},
+  "38332": {},
+  "38333": {},
+  "38334": {},
+  "38335": {},
+  "38336": {},
+  "38337": {},
+  "38338": {},
+  "38339": {},
+  "38340": {},
+  "38341": {},
+  "38342": {},
+  "38343": {},
+  "38344": {}
 }
