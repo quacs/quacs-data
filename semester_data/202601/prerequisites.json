@@ -26143,5 +26143,115 @@
         ]
       }
     }
+  },
+  "38446": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38447": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4150",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38448": {},
+  "38449": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISCI 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38450": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38451": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ISCI 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
