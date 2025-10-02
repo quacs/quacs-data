@@ -17027,13 +17027,6 @@
       "type": "course"
     }
   },
-  "36830": {
-    "prerequisites": {
-      "course": "ENGR 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "36831": {
     "prerequisites": {
       "nested": [
@@ -26111,5 +26104,34 @@
   "38438": {},
   "38439": {},
   "38440": {},
-  "38441": {}
+  "38441": {},
+  "38443": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BMED 2540",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
+  }
 }
