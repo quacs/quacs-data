@@ -20307,18 +20307,6 @@
       }
     }
   },
-  "37131": {
-    "cross_list_courses": [
-      "MANE-4964"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37132": {},
   "37135": {
     "cross_list_courses": [
@@ -23332,11 +23320,6 @@
       }
     }
   },
-  "37484": {
-    "cross_list_courses": [
-      "MANE-6964"
-    ]
-  },
   "37485": {},
   "37486": {},
   "37487": {
@@ -26081,6 +26064,30 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "38431": {},
+  "38432": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38433": {
+    "prerequisites": {
+      "course": "CSCI 2600",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Senior"
         ]
       }
     }
