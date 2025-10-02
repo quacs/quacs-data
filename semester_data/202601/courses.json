@@ -36761,12 +36761,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 50,
+            "cap": 30,
             "credMax": 1.0,
             "credMin": 1.0,
             "crn": 35945,
             "crse": 1400,
-            "rem": 50,
+            "rem": 30,
             "sec": "04",
             "subj": "ENGR",
             "timeslots": [
@@ -36777,7 +36777,7 @@
                   "W"
                 ],
                 "instructor": "Jeffrey Phillip Morris",
-                "location": "Jonsson Engineering Center 3210",
+                "location": "Jonsson Engineering Center 3207",
                 "timeEnd": 1550,
                 "timeStart": 1400
               }
@@ -36787,12 +36787,12 @@
           {
             "act": 0,
             "attribute": "",
-            "cap": 30,
+            "cap": 50,
             "credMax": 1.0,
             "credMin": 1.0,
             "crn": 35946,
             "crse": 1400,
-            "rem": 30,
+            "rem": 50,
             "sec": "05",
             "subj": "ENGR",
             "timeslots": [
@@ -36803,7 +36803,7 @@
                   "R"
                 ],
                 "instructor": "Jeffrey Phillip Morris",
-                "location": "Jonsson Engineering Center 3207",
+                "location": "Jonsson Engineering Center 3210",
                 "timeEnd": 950,
                 "timeStart": 800
               }
@@ -56064,13 +56064,13 @@
                 "dateEnd": "05/08",
                 "dateStart": "01/12",
                 "days": [
-                  "M",
-                  "R"
+                  "T",
+                  "F"
                 ],
                 "instructor": "Ravishankar Sundararaman",
-                "location": "Russell Sage Laboratory 3510",
-                "timeEnd": 1450,
-                "timeStart": 1400
+                "location": "TBA",
+                "timeEnd": 950,
+                "timeStart": 800
               }
             ],
             "title": "Programming For Engineers"
@@ -56078,41 +56078,6 @@
         ],
         "subj": "MTLE",
         "title": "Programming For Engineers"
-      },
-      {
-        "crse": 2100,
-        "id": "MTLE-2100",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 40,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 36224,
-            "crse": 2100,
-            "rem": 40,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Wei Bao",
-                "location": "Amos Eaton Hall 216",
-                "timeEnd": 1350,
-                "timeStart": 1200
-              }
-            ],
-            "title": "Struc Of Engr Materials"
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Struc Of Engr Materials"
       },
       {
         "crse": 4100,
@@ -56169,13 +56134,13 @@
                 "dateEnd": "05/08",
                 "dateStart": "01/12",
                 "days": [
-                  "T",
-                  "F"
+                  "M",
+                  "R"
                 ],
                 "instructor": "Daniel Gall",
-                "location": "Folsom Library 107",
-                "timeEnd": 1150,
-                "timeStart": 1000
+                "location": "TBA",
+                "timeEnd": 1350,
+                "timeStart": 1200
               }
             ],
             "title": "Elec & Optical Prop Of Matls"
@@ -56207,10 +56172,32 @@
                   "T",
                   "F"
                 ],
-                "instructor": "TBA",
+                "instructor": "Rahmi Ozisik",
                 "location": "TBA",
                 "timeEnd": 1350,
                 "timeStart": 1200
+              },
+              {
+                "dateEnd": "05/08",
+                "dateStart": "01/12",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1250,
+                "timeStart": 900
+              },
+              {
+                "dateEnd": "05/08",
+                "dateStart": "01/12",
+                "days": [
+                  "W"
+                ],
+                "instructor": "TBA",
+                "location": "TBA",
+                "timeEnd": 1650,
+                "timeStart": 1400
               }
             ],
             "title": "Mechanical Properties Of Materials"
@@ -56218,128 +56205,6 @@
         ],
         "subj": "MTLE",
         "title": "Mechanical Properties Of Materials"
-      },
-      {
-        "crse": 4400,
-        "id": "MTLE-4400",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "Data Intensive II",
-            "cap": 10,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 36665,
-            "crse": 4400,
-            "rem": 10,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Chaitanya Kishore Ullal",
-                "location": "Carnegie Building 205",
-                "timeEnd": 1350,
-                "timeStart": 1200
-              },
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Materials Research Center 136",
-                "timeEnd": 1250,
-                "timeStart": 900
-              }
-            ],
-            "title": "Synthesis And Processing",
-            "xl_rem": 20
-          },
-          {
-            "act": 0,
-            "attribute": "Data Intensive II",
-            "cap": 10,
-            "credMax": 4.0,
-            "credMin": 4.0,
-            "crn": 36666,
-            "crse": 4400,
-            "rem": 10,
-            "sec": "02",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "M",
-                  "R"
-                ],
-                "instructor": "Chaitanya Kishore Ullal",
-                "location": "Carnegie Building 205",
-                "timeEnd": 1350,
-                "timeStart": 1200
-              },
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "W"
-                ],
-                "instructor": "TBA",
-                "location": "Materials Research Center 136",
-                "timeEnd": 1750,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Synthesis And Processing",
-            "xl_rem": 20
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Synthesis And Processing"
-      },
-      {
-        "crse": 4440,
-        "id": "MTLE-4440",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 30,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 37438,
-            "crse": 4440,
-            "rem": 30,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Daniel Gall",
-                "location": "Materials Research Center 136",
-                "timeEnd": 1520,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Thin Films",
-            "xl_rem": 30
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Thin Films"
       },
       {
         "crse": 4470,
@@ -56722,42 +56587,6 @@
         ],
         "subj": "MTLE",
         "title": "Matls Characterization"
-      },
-      {
-        "crse": 6440,
-        "id": "MTLE-6440",
-        "sections": [
-          {
-            "act": 0,
-            "attribute": "",
-            "cap": 30,
-            "credMax": 3.0,
-            "credMin": 3.0,
-            "crn": 37590,
-            "crse": 6440,
-            "rem": 30,
-            "sec": "01",
-            "subj": "MTLE",
-            "timeslots": [
-              {
-                "dateEnd": "05/08",
-                "dateStart": "01/12",
-                "days": [
-                  "T",
-                  "F"
-                ],
-                "instructor": "Daniel Gall",
-                "location": "Materials Research Center 136",
-                "timeEnd": 1520,
-                "timeStart": 1400
-              }
-            ],
-            "title": "Thin Films",
-            "xl_rem": 30
-          }
-        ],
-        "subj": "MTLE",
-        "title": "Thin Films"
       },
       {
         "crse": 6470,
