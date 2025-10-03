@@ -664,7 +664,9 @@
   "MGMT 6550": {
     "title": "Marketing Research",
     "prereqs": [
-      "MGMT 6100"
+      "MGMT 6100",
+      "MGMT 6510",
+      "MGMT 6520"
     ]
   },
   "MGMT 6710": {
@@ -2859,9 +2861,7 @@
   },
   "MGMT 6370": {
     "title": "Advanced Options, Futures And Derivatives Markets",
-    "prereqs": [
-      "MGMT 6020"
-    ]
+    "prereqs": []
   },
   "MGMT 6510": {
     "title": "Financial Computation & Simul",
@@ -3614,8 +3614,7 @@
   "ARCH 4790": {
     "title": "Architectural Desgin Studio 7",
     "prereqs": [
-      "ARCH 4780",
-      "ARCH 4830"
+      "ARCH 4780"
     ]
   },
   "ARCH 4961": {
@@ -5058,8 +5057,11 @@
   "MGMT 6840": {
     "title": "Practicum In Management",
     "prereqs": [
+      "MGMT 6020",
+      "MGMT 6040",
       "MGMT 6580",
-      "MGMT 7030"
+      "MGMT 7730",
+      "MGMT 7740"
     ]
   },
   "MGMT 6850": {
@@ -5882,6 +5884,7 @@
   "ARCH 6610": {
     "title": "Graduate Architechure Design 3",
     "prereqs": [
+      "ARCH 5170",
       "ARCH 5210"
     ]
   },
@@ -10518,9 +10521,7 @@
   },
   "MGMT 6080": {
     "title": "Networks, Innovation And Value Creation I",
-    "prereqs": [
-      "MGMT 4100"
-    ]
+    "prereqs": []
   },
   "MGMT 6941": {
     "title": "Independent Study",
@@ -11523,7 +11524,6 @@
   "MGMT 4380": {
     "title": "Derivatives Markets",
     "prereqs": [
-      "MGMT 2320",
       "MGMT 4320"
     ]
   },
@@ -14636,9 +14636,7 @@
   },
   "ARCH 5300": {
     "title": "Materials And Construction Systems",
-    "prereqs": [
-      "ARCH 2350"
-    ]
+    "prereqs": []
   },
   "ARCH 5310": {
     "title": "Environmental & Ecological Sys",
@@ -14947,7 +14945,8 @@
     "title": "Comprehensive Design Studio 1",
     "prereqs": [
       "ARCH 2550",
-      "ARCH 2830"
+      "ARCH 2830",
+      "ARCH 4540"
     ]
   },
   "ARCH 4910": {
@@ -18844,10 +18843,6 @@
       "LANG 1410"
     ]
   },
-  "ARCH 1940": {
-    "title": "Ugrad Independent Study",
-    "prereqs": []
-  },
   "ARTS 2255": {
     "title": "Ui Art",
     "prereqs": [
@@ -19062,14 +19057,6 @@
     "title": "Topics In Litr",
     "prereqs": []
   },
-  "MGMT 2941": {
-    "title": "Undergradute Research Project",
-    "prereqs": []
-  },
-  "MGMT 4225": {
-    "title": "Intro To Sports Management",
-    "prereqs": []
-  },
   "MATH 2941": {
     "title": "Undergraduate Research Project",
     "prereqs": []
@@ -19149,6 +19136,10 @@
   },
   "ADMN 7002": {
     "title": "Research Skills",
+    "prereqs": []
+  },
+  "ARCH 1940": {
+    "title": "Ugrad Independent Study",
     "prereqs": []
   },
   "ARCH 5325": {
