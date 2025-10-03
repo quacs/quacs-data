@@ -18527,48 +18527,6 @@
       }
     }
   },
-  "36966": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36967": {},
   "36968": {},
   "36969": {},
@@ -21692,15 +21650,6 @@
           "Freshman",
           "Junior",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "37332": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -26094,5 +26043,69 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "38458": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38459": {},
+  "38460": {},
+  "38461": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38462": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1040",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38463": {},
+  "38464": {},
+  "38466": {},
+  "38467": {}
 }
