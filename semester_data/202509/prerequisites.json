@@ -1307,6 +1307,81 @@
       "type": "and"
     }
   },
+  "72042": {},
+  "72043": {},
+  "72044": {},
+  "72045": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "72046": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "72047": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "72048": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "72049": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "72050": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "72051": {
     "prerequisites": {
       "nested": [
@@ -2356,6 +2431,11 @@
       "type": "course"
     }
   },
+  "72122": {
+    "corequisites": [
+      "ARCH-4820"
+    ]
+  },
   "72123": {
     "cross_list_courses": [
       "CHME-4150"
@@ -2694,6 +2774,15 @@
     }
   },
   "72168": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72169": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -3080,6 +3169,7 @@
       }
     }
   },
+  "72237": {},
   "72238": {
     "cross_list_courses": [
       "CSCI-2300"
@@ -3260,6 +3350,28 @@
       }
     }
   },
+  "72266": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Business Analytics"
+        ]
+      }
+    }
+  },
+  "72267": {},
+  "72268": {
+    "cross_list_courses": [
+      "MGMT-6640"
+    ],
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "72269": {
     "cross_list_courses": [
       "PHIL-1110"
@@ -3383,6 +3495,30 @@
       "major": {
         "must_be": [
           "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "72275": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Business Analytics",
+          "Management"
+        ]
+      }
+    }
+  },
+  "72276": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Business Analytics",
+          "Management"
         ]
       }
     }
@@ -3592,6 +3728,7 @@
     }
   },
   "72294": {},
+  "72296": {},
   "72297": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -3657,6 +3794,13 @@
           "Information Tech & Web Science"
         ]
       }
+    }
+  },
+  "72303": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "72304": {
@@ -4108,6 +4252,7 @@
       "type": "or"
     }
   },
+  "72363": {},
   "72364": {
     "restrictions": {
       "level": {
@@ -4271,6 +4416,13 @@
           "Nuclear Engineering"
         ]
       }
+    }
+  },
+  "72392": {
+    "prerequisites": {
+      "course": "MGMT 2100",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "72393": {
@@ -4497,6 +4649,15 @@
     }
   },
   "72411": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72412": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -4742,6 +4903,15 @@
       }
     }
   },
+  "72442": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72443": {
     "cross_list_courses": [
       "ENGR-4100",
@@ -4797,6 +4967,24 @@
       "course": "MANE 4070",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "72447": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72448": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "72449": {
@@ -4962,6 +5150,30 @@
     }
   },
   "72470": {},
+  "72476": {
+    "cross_list_courses": [
+      "MGMT-7770"
+    ],
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Bus. Admin."
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Administration",
+          "Management (LSE)",
+          "Management"
+        ]
+      }
+    }
+  },
   "72477": {
     "restrictions": {
       "level": {
@@ -5088,6 +5300,35 @@
       }
     }
   },
+  "72493": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Administration",
+          "Management (LSE)",
+          "Management",
+          "Tech Commercialization Entrepr"
+        ]
+      }
+    }
+  },
+  "72494": {
+    "cross_list_courses": [
+      "MGMT-4510"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72495": {
     "cross_list_courses": [
       "BMED-4010"
@@ -5113,10 +5354,40 @@
       "type": "and"
     }
   },
+  "72496": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "72497": {
     "cross_list_courses": [
       "CSCI-6964"
     ]
+  },
+  "72499": {
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Bus. Admin."
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72500": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "72502": {
     "corequisites": [
@@ -5150,6 +5421,15 @@
     }
   },
   "72509": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72511": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5313,6 +5593,15 @@
       }
     }
   },
+  "72551": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72553": {
     "restrictions": {
       "level": {
@@ -5375,6 +5664,7 @@
       }
     }
   },
+  "72563": {},
   "72564": {
     "cross_list_courses": [
       "BCBP-6870"
@@ -5532,6 +5822,15 @@
       "type": "and"
     }
   },
+  "72588": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72590": {
     "restrictions": {
       "level": {
@@ -5579,6 +5878,15 @@
     }
   },
   "72597": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72598": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5697,6 +6005,15 @@
     }
   },
   "72608": {},
+  "72609": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72612": {
     "restrictions": {
       "classification": {
@@ -5718,6 +6035,15 @@
     }
   },
   "72615": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72616": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6139,6 +6465,7 @@
       }
     }
   },
+  "72685": {},
   "72686": {
     "prerequisites": {
       "nested": [
@@ -6245,6 +6572,28 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "72695": {
+    "cross_list_courses": [
+      "MGMT-4310"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Quant Finance & Risk Analytics"
         ]
       }
     }
@@ -7304,6 +7653,41 @@
       }
     }
   },
+  "72824": {
+    "corequisites": [
+      "ARCH-6610"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72825": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72826": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72827": {
+    "cross_list_courses": [
+      "ARCH-6860"
+    ]
+  },
   "72828": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -7316,6 +7700,18 @@
           "Junior",
           "Sophomore",
           "Senior"
+        ]
+      }
+    }
+  },
+  "72829": {
+    "cross_list_courses": [
+      "ARCH-4860"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -7391,6 +7787,23 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "72839": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Systems Engr and Tech Mgmt"
         ]
       }
     }
@@ -7513,6 +7926,15 @@
     }
   },
   "72877": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72879": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -7928,6 +8350,15 @@
       }
     }
   },
+  "72933": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "72934": {
     "restrictions": {
       "level": {
@@ -7938,6 +8369,15 @@
     }
   },
   "72935": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "72936": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -8644,6 +9084,28 @@
       "type": "or"
     }
   },
+  "73042": {
+    "cross_list_courses": [
+      "MGMT-4380"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Quant Finance & Risk Analytics"
+        ]
+      }
+    }
+  },
   "73048": {
     "prerequisites": {
       "nested": [
@@ -8743,6 +9205,16 @@
       }
     }
   },
+  "73062": {
+    "cross_list_courses": [
+      "MGMT-6550"
+    ],
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73063": {
     "restrictions": {
       "level": {
@@ -8763,6 +9235,20 @@
   },
   "73065": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73067": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
@@ -9059,6 +9545,15 @@
       }
     }
   },
+  "73098": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73099": {
     "restrictions": {
       "level": {
@@ -9204,6 +9699,7 @@
       "type": "or"
     }
   },
+  "73110": {},
   "73111": {
     "prerequisites": {
       "course": "ENVE 2110",
@@ -9268,6 +9764,48 @@
   "73120": {},
   "73121": {},
   "73122": {},
+  "73123": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Administration",
+          "Business Analytics",
+          "Management (LSE)",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "73125": {
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73126": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73127": {
     "prerequisites": {
       "nested": [
@@ -9664,6 +10202,33 @@
           "Freshman"
         ]
       }
+    }
+  },
+  "73147": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 4110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "73149": {
@@ -10175,6 +10740,33 @@
       }
     }
   },
+  "73197": {
+    "cross_list_courses": [
+      "CIVL-4020"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2330",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4330",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73198": {},
+  "73199": {},
+  "73200": {
+    "cross_list_courses": [
+      "ARCH-5100"
+    ]
+  },
   "73201": {
     "corequisites": [
       "BIOL-1010"
@@ -10357,6 +10949,30 @@
     }
   },
   "73213": {},
+  "73214": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73215": {
     "cross_list_courses": [
       "CSCI-2200"
@@ -10429,6 +11045,17 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "73221": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
@@ -10590,6 +11217,7 @@
       }
     }
   },
+  "73241": {},
   "73242": {
     "cross_list_courses": [
       "CSCI-4964"
@@ -10686,6 +11314,11 @@
         ]
       }
     }
+  },
+  "73251": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
   },
   "73254": {
     "restrictions": {
@@ -10958,6 +11591,38 @@
       }
     }
   },
+  "73285": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ]
+  },
+  "73287": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73290": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73291": {
     "cross_list_courses": [
       "CSCI-2200"
@@ -11028,6 +11693,27 @@
       "type": "and"
     }
   },
+  "73297": {
+    "cross_list_courses": [
+      "ARCH-2150"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73298": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73300": {
     "restrictions": {
       "classification": {
@@ -11056,6 +11742,29 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "73308": {
+    "prerequisites": {
+      "course": "ARCH 5140",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73309": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -11091,6 +11800,16 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "73318": {
+    "cross_list_courses": [
+      "MGMT-6800"
+    ],
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "73320": {
@@ -11183,6 +11902,17 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "73333": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
@@ -11325,6 +12055,23 @@
       }
     }
   },
+  "73360": {
+    "cross_list_courses": [
+      "MGMT-4080"
+    ],
+    "prerequisites": {
+      "course": "MGMT 4100",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73361": {
     "restrictions": {
       "field_of_study": {
@@ -11351,6 +12098,40 @@
       "course": "CHEM 2030",
       "min_grade": null,
       "type": "course"
+    }
+  },
+  "73363": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
+  "73364": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6580",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 7030",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "degree": {
+        "must_be": [
+          "Master of Bus. Admin."
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "73365": {
@@ -11527,6 +12308,62 @@
       }
     }
   },
+  "73377": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2330",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73380": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73382": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "73384": {
     "cross_list_courses": [
       "MANE-6710"
@@ -11614,6 +12451,7 @@
     }
   },
   "73388": {},
+  "73390": {},
   "73392": {
     "cross_list_courses": [
       "ECSE-4964",
@@ -11640,6 +12478,11 @@
     }
   },
   "73394": {},
+  "73398": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
   "73404": {
     "restrictions": {
       "major": {
@@ -11796,6 +12639,111 @@
       "course": "LANG 4420",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "73412": {
+    "cross_list_courses": [
+      "MGMT-7230",
+      "MGMT-7770"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Administration",
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management",
+          "Tech Commercialization Entrepr"
+        ]
+      }
+    }
+  },
+  "73413": {
+    "cross_list_courses": [
+      "MGMT-7230",
+      "MGMT-7770"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management",
+          "Tech Commercialization Entrepr"
+        ]
+      }
+    }
+  },
+  "73414": {
+    "cross_list_courses": [
+      "MGMT-4460"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73415": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management (LSE)",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "73416": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
     }
   },
   "73417": {
@@ -11963,6 +12911,29 @@
     }
   },
   "73438": {},
+  "73439": {
+    "cross_list_courses": [
+      "MGMT-4470"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6100",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73440": {
     "cross_list_courses": [
       "ENGR-4710"
@@ -12382,6 +13353,30 @@
       "PHYS-1600"
     ]
   },
+  "73462": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "73463": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "73464": {
     "restrictions": {
       "classification": {
@@ -12611,6 +13606,20 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "73472": {
+    "cross_list_courses": [
+      "ARCH-6840",
+      "MANE-4150",
+      "MANE-6150"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
         ]
       }
     }
@@ -13560,6 +14569,81 @@
       "type": "and"
     }
   },
+  "73572": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "73573": {},
+  "73574": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "73576": {},
+  "73577": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73578": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73579": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73580": {
+    "cross_list_courses": [
+      "ARCH-4890",
+      "MANE-4150",
+      "MANE-6150"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73581": {
+    "cross_list_courses": [
+      "ARCH-4870"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Architectural Sciences"
+        ]
+      }
+    }
+  },
   "73582": {
     "prerequisites": {
       "course": "BIOL 2120",
@@ -13873,6 +14957,27 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "73618": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "73622": {
@@ -14729,6 +15834,16 @@
       }
     }
   },
+  "73680": {},
+  "73681": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73683": {
     "prerequisites": {
       "course": "MANE 2710",
@@ -15041,6 +16156,26 @@
   },
   "73697": {},
   "73698": {},
+  "73699": {
+    "cross_list_courses": [
+      "MGMT-4170"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
   "73701": {
     "cross_list_courses": [
       "ISCI-6510"
@@ -15116,6 +16251,35 @@
   "73707": {},
   "73708": {
     "cross_list_courses": []
+  },
+  "73711": {
+    "cross_list_courses": [
+      "MGMT-4190"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Analytics",
+          "Management (LSE)",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "73718": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "73719": {
     "cross_list_courses": [
@@ -15286,6 +16450,23 @@
       }
     }
   },
+  "73750": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "73751": {
+    "cross_list_courses": [
+      "MGMT-6080"
+    ],
+    "prerequisites": {
+      "course": "MGMT 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73752": {
     "prerequisites": {
       "nested": [
@@ -15434,6 +16615,16 @@
     }
   },
   "73760": {},
+  "73761": {
+    "cross_list_courses": [
+      "MGMT-6240"
+    ],
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73762": {
     "prerequisites": {
       "nested": [
@@ -15995,6 +17186,35 @@
       }
     }
   },
+  "73816": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6100",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6460",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "73817": {
     "restrictions": {
       "campus": {
@@ -16267,6 +17487,11 @@
       }
     }
   },
+  "73845": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
   "73846": {
     "prerequisites": {
       "course": "ENGR 6220",
@@ -16311,6 +17536,16 @@
       ],
       "type": "or"
     }
+  },
+  "73852": {
+    "cross_list_courses": [
+      "MGMT-6560"
+    ]
+  },
+  "73853": {
+    "cross_list_courses": [
+      "MGMT-6570"
+    ]
   },
   "73854": {
     "cross_list_courses": [
@@ -16466,6 +17701,79 @@
       }
     }
   },
+  "73863": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73864": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73865": {},
+  "73866": {},
+  "73867": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "73869": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73870": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "73871": {},
+  "73872": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73874": {
     "cross_list_courses": [
       "CSCI-4370"
@@ -16478,6 +17786,13 @@
       }
     }
   },
+  "73876": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "73880": {},
   "73881": {
     "restrictions": {
@@ -16487,6 +17802,23 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "73883": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "73884": {},
@@ -16555,6 +17887,62 @@
           "Mechanical Engineering",
           "Industrial & Management Engr",
           "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "73896": {
+    "cross_list_courses": [
+      "MGMT-6260"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "73897": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73898": {
+    "cross_list_courses": [
+      "MGMT-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6190",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6020",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -17338,6 +18726,11 @@
       "type": "and"
     }
   },
+  "73956": {
+    "cross_list_courses": [
+      "ARCH-5330"
+    ]
+  },
   "73957": {
     "cross_list_courses": [
       "COMM-2660"
@@ -17388,7 +18781,25 @@
       }
     }
   },
+  "73961": {},
   "73962": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "73963": {
+    "cross_list_courses": [
+      "ARCH-6380"
+    ]
+  },
+  "73964": {
+    "cross_list_courses": [
+      "ARCH-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17454,6 +18865,7 @@
   "73976": {},
   "73977": {},
   "73978": {},
+  "73979": {},
   "73980": {
     "restrictions": {
       "level": {
@@ -17616,6 +19028,18 @@
     }
   },
   "74014": {},
+  "74019": {
+    "corequisites": [
+      "ARCH-5200"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74020": {
     "restrictions": {
       "classification": {
@@ -18097,6 +19521,64 @@
       }
     }
   },
+  "74059": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74060": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74061": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74062": {
     "prerequisites": {
       "course": "STSO 2610",
@@ -18486,6 +19968,13 @@
     }
   },
   "74115": {},
+  "74116": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74117": {
     "prerequisites": {
       "course": "PSYC 1200",
@@ -18510,6 +19999,22 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "74120": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "74123": {},
+  "74124": {},
+  "74125": {},
+  "74126": {},
+  "74128": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
   },
   "74130": {
     "restrictions": {
@@ -18538,6 +20043,23 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "74133": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "74136": {
@@ -18896,6 +20418,15 @@
       "CSCI-6966"
     ]
   },
+  "74166": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
   "74167": {
     "restrictions": {
       "campus": {
@@ -19001,6 +20532,14 @@
         ]
       }
     }
+  },
+  "74176": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
   },
   "74177": {
     "cross_list_courses": [
@@ -19230,6 +20769,50 @@
       }
     }
   },
+  "74189": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74190": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "74191": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "74193": {},
   "74194": {
     "cross_list_courses": [
@@ -19248,6 +20831,36 @@
     "cross_list_courses": [
       "LGHT-4830"
     ]
+  },
+  "74198": {
+    "cross_list_courses": [
+      "ISYE-4700",
+      "ISYE-6700"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "74202": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "74203": {
     "restrictions": {
@@ -19292,6 +20905,18 @@
     }
   },
   "74207": {},
+  "74208": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management",
+          "Business Analytics"
+        ]
+      }
+    }
+  },
+  "74210": {},
   "74212": {
     "cross_list_courses": [
       "BMED-6590"
@@ -20136,6 +21761,8 @@
       }
     }
   },
+  "74292": {},
+  "74293": {},
   "74294": {},
   "74295": {
     "cross_list_courses": [
@@ -20455,6 +22082,31 @@
       }
     }
   },
+  "74321": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
+  "74324": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "74327": {
     "cross_list_courses": [
       "ECSE-4961",
@@ -20471,6 +22123,11 @@
         ]
       }
     }
+  },
+  "74328": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
   },
   "74330": {
     "restrictions": {
@@ -20557,6 +22214,28 @@
       "PHIL-6960"
     ]
   },
+  "74346": {},
+  "74349": {},
+  "74350": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2530",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "74351": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2530",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74356": {
     "restrictions": {
       "level": {
@@ -20622,6 +22301,15 @@
     "cross_list_courses": [
       "CHEM-4964"
     ]
+  },
+  "74373": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "74374": {
     "restrictions": {
@@ -20924,6 +22612,13 @@
       }
     }
   },
+  "74418": {
+    "prerequisites": {
+      "course": "MGMT 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74420": {
     "prerequisites": {
       "course": "BMED 2300",
@@ -21139,6 +22834,13 @@
           "Games & Simulation Arts & Sci"
         ]
       }
+    }
+  },
+  "74443": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
     }
   },
   "74446": {
@@ -21365,6 +23067,23 @@
       }
     }
   },
+  "74463": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "74465": {
     "cross_list_courses": [
       "ECSE-4961",
@@ -21398,6 +23117,113 @@
       }
     }
   },
+  "74466": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74467": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74468": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74469": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74470": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74471": {
     "cross_list_courses": [
       "PHYS-1100"
@@ -21406,6 +23232,30 @@
       "course": "MATH 1010",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "74472": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 5300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 5310",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "74473": {
@@ -21433,6 +23283,48 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "74477": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74478": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "74480": {
@@ -21911,6 +23803,16 @@
       }
     }
   },
+  "74573": {
+    "corequisites": [
+      "ARCH-2820"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2530",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74579": {
     "restrictions": {
       "level": {
@@ -21955,11 +23857,37 @@
     ]
   },
   "74587": {},
+  "74593": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "74594": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "74595": {},
+  "74599": {
+    "cross_list_courses": [
+      "ARCH-6870"
+    ]
+  },
+  "74600": {},
   "74604": {
     "cross_list_courses": [
       "ARTS-1050"
     ]
   },
+  "74606": {},
   "74615": {
     "prerequisites": {
       "nested": [
@@ -22076,6 +24004,13 @@
     }
   },
   "74620": {},
+  "74621": {
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "74622": {
     "cross_list_courses": [
       "CSCI-6968",
@@ -22141,6 +24076,7 @@
       }
     }
   },
+  "74631": {},
   "74632": {
     "restrictions": {
       "classification": {
@@ -22152,6 +24088,7 @@
       }
     }
   },
+  "74634": {},
   "74635": {},
   "74637": {
     "cross_list_courses": [
@@ -22171,8 +24108,10 @@
       "PHIL-6961"
     ]
   },
+  "74641": {},
   "74644": {},
   "74645": {},
+  "74646": {},
   "74648": {
     "restrictions": {
       "level": {
@@ -22285,6 +24224,27 @@
       }
     }
   },
+  "74687": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "74688": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "74689": {},
   "74690": {
     "cross_list_courses": [
       "COMM-6420"
@@ -22328,9 +24288,106 @@
       }
     }
   },
+  "74695": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "74696": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "74697": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "74698": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74699": {},
   "74700": {},
   "74701": {},
+  "74703": {},
   "74705": {
     "restrictions": {
       "level": {
@@ -22565,6 +24622,8 @@
   "74744": {},
   "74745": {},
   "74746": {},
+  "74747": {},
+  "74748": {},
   "74749": {
     "restrictions": {
       "classification": {
@@ -22576,6 +24635,27 @@
     }
   },
   "74750": {},
+  "74751": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74752": {},
   "74753": {
     "cross_list_courses": [
       "GSAS-4510"
@@ -22603,7 +24683,16 @@
       }
     }
   },
+  "74755": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "74757": {},
   "74758": {},
+  "74760": {},
   "74761": {
     "restrictions": {
       "classification": {
@@ -22649,6 +24738,9 @@
   },
   "74780": {},
   "74781": {},
+  "74787": {},
+  "74788": {},
+  "74790": {},
   "74795": {},
   "74796": {},
   "74797": {
@@ -22664,6 +24756,15 @@
   "74800": {},
   "74801": {},
   "74803": {},
+  "74804": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "74809": {
     "restrictions": {
       "major": {
@@ -22723,7 +24824,9 @@
       }
     }
   },
+  "74820": {},
   "74822": {},
+  "74824": {},
   "74825": {},
   "74827": {
     "restrictions": {
@@ -22735,6 +24838,7 @@
     }
   },
   "74829": {},
+  "74831": {},
   "74833": {},
   "74834": {},
   "74836": {},
@@ -22742,9 +24846,12 @@
   "74843": {},
   "74844": {},
   "74845": {},
+  "74849": {},
+  "74850": {},
   "74852": {},
   "74854": {},
   "74856": {},
+  "74862": {},
   "74863": {
     "restrictions": {
       "classification": {
@@ -22755,7 +24862,36 @@
       }
     }
   },
+  "74866": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "74867": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "74869": {},
+  "74870": {},
+  "74871": {},
   "74877": {},
   "74879": {},
   "74880": {},
@@ -22774,7 +24910,11 @@
       "type": "course"
     }
   },
+  "74901": {},
   "74902": {},
+  "74904": {},
+  "74905": {},
+  "74906": {},
   "74907": {
     "restrictions": {
       "classification": {
@@ -22785,12 +24925,41 @@
       }
     }
   },
+  "74908": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "74909": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "74910": {},
   "74911": {},
   "74913": {},
   "74916": {},
   "74919": {},
+  "74920": {},
   "74924": {},
   "74935": {},
+  "74936": {},
+  "74937": {},
+  "74938": {},
   "74939": {},
   "74940": {},
   "74941": {
@@ -22803,6 +24972,8 @@
       }
     }
   },
+  "74942": {},
+  "74943": {},
   "74944": {},
   "74946": {},
   "74947": {},
@@ -22810,6 +24981,7 @@
   "74951": {},
   "74952": {},
   "74953": {},
+  "74954": {},
   "74955": {},
   "74958": {},
   "74964": {},
@@ -22861,20 +25033,31 @@
   },
   "74973": {},
   "74975": {},
+  "74976": {},
   "74977": {},
   "74978": {},
+  "74979": {},
   "74980": {},
   "74984": {},
   "74985": {},
   "74987": {},
+  "74995": {},
+  "74996": {},
   "74999": {},
+  "75000": {},
+  "75001": {},
+  "75003": {},
   "75005": {},
   "75006": {},
+  "75007": {},
   "75008": {},
   "75009": {},
   "75011": {},
   "75012": {},
   "75013": {},
+  "75014": {},
+  "75015": {},
+  "75016": {},
   "75018": {},
   "75019": {},
   "75021": {},
@@ -22916,11 +25099,13 @@
   "75050": {},
   "75051": {},
   "75052": {},
+  "75053": {},
   "75054": {},
   "75055": {},
   "75056": {},
   "75057": {},
   "75058": {},
+  "75060": {},
   "75062": {},
   "75064": {},
   "75065": {},
@@ -22930,6 +25115,7 @@
   "75070": {},
   "75071": {},
   "75072": {},
+  "75073": {},
   "75076": {},
   "75083": {},
   "75085": {},
@@ -22955,6 +25141,7 @@
   },
   "75124": {},
   "75128": {},
+  "75133": {},
   "75135": {},
   "75138": {
     "prerequisites": {
@@ -24126,6 +26313,16 @@
       }
     }
   },
+  "75259": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75261": {},
   "75262": {},
   "75263": {},
   "75265": {
@@ -24430,6 +26627,53 @@
       "type": "course"
     }
   },
+  "75294": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75295": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Business Administration",
+          "Business Analytics",
+          "Management (LSE)",
+          "Management",
+          "Quant Finance & Risk Analytics",
+          "Supply Chain Management"
+        ]
+      }
+    }
+  },
+  "75296": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75298": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75299": {},
   "75301": {
     "cross_list_courses": [
       "STSO-2520"
@@ -24889,6 +27133,204 @@
       }
     }
   },
+  "75358": {},
+  "75359": {
+    "corequisites": [
+      "ARCH-2520"
+    ]
+  },
+  "75360": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75361": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75362": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75364": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75366": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75367": {
+    "corequisites": [
+      "ARCH-4320",
+      "ARCH-4540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2550",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75370": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "75371": {},
+  "75372": {},
+  "75374": {
+    "prerequisites": {
+      "course": "ARCH 5210",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75376": {
+    "cross_list_courses": [
+      "MGMT-4960"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6520",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75377": {
     "cross_list_courses": [
       "CHME-6961"
@@ -24967,6 +27409,12 @@
       }
     }
   },
+  "75384": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
+  "75385": {},
   "75386": {
     "cross_list_courses": [
       "ITWS-6961"
@@ -25078,6 +27526,7 @@
       "MGMT-1260"
     ]
   },
+  "75396": {},
   "75399": {
     "prerequisites": {
       "nested": [
@@ -25144,6 +27593,20 @@
     "cross_list_courses": [
       "COMM-4897"
     ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "75407": {
+    "prerequisites": {
+      "course": "ARCH 2350",
+      "min_grade": "D",
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -25533,6 +27996,13 @@
       "LGHT-4840"
     ]
   },
+  "75445": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "75446": {
     "cross_list_courses": [
       "ENVE-4370"
@@ -25698,6 +28168,16 @@
       }
     }
   },
+  "75452": {
+    "cross_list_courses": [
+      "ARCH-6065"
+    ]
+  },
+  "75453": {
+    "cross_list_courses": [
+      "ARCH-4065"
+    ]
+  },
   "75454": {
     "restrictions": {
       "classification": {
@@ -25761,6 +28241,8 @@
       }
     }
   },
+  "75459": {},
+  "75460": {},
   "75461": {
     "restrictions": {
       "classification": {
@@ -26053,6 +28535,15 @@
       }
     }
   },
+  "75679": {},
+  "75680": {},
+  "75681": {},
+  "75682": {},
+  "75683": {},
+  "75684": {},
+  "75685": {},
+  "75686": {},
+  "75687": {},
   "75688": {
     "cross_list_courses": [
       "MANE-1010"
@@ -26079,6 +28570,37 @@
       }
     }
   },
+  "75690": {},
+  "75691": {},
+  "75692": {},
+  "75693": {},
+  "75694": {},
+  "75695": {},
+  "75696": {},
+  "75697": {},
+  "75698": {},
+  "75699": {},
+  "75700": {},
+  "75701": {},
+  "75702": {},
+  "75703": {},
+  "75704": {},
+  "75705": {},
+  "75706": {},
+  "75707": {},
+  "75708": {},
+  "75709": {},
+  "75710": {},
+  "75711": {},
+  "75712": {},
+  "75713": {},
+  "75714": {},
+  "75715": {},
+  "75716": {},
+  "75717": {},
+  "75718": {},
+  "75719": {},
+  "75720": {},
   "75721": {},
   "75722": {},
   "75723": {},
@@ -26297,6 +28819,11 @@
       "PHYS-1100"
     ]
   },
+  "75789": {
+    "cross_list_courses": [
+      "MGMT-6510"
+    ]
+  },
   "75790": {
     "restrictions": {
       "classification": {
@@ -26342,6 +28869,26 @@
   "75799": {},
   "75800": {},
   "75801": {},
+  "75802": {
+    "cross_list_courses": [
+      "MGMT-6370"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 4320",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "75807": {
     "restrictions": {
       "classification": {
@@ -26563,6 +29110,10 @@
   "75847": {},
   "75848": {},
   "75849": {},
+  "75850": {},
+  "75851": {},
+  "75852": {},
+  "75853": {},
   "75854": {
     "restrictions": {
       "classification": {
@@ -26603,6 +29154,18 @@
   "75884": {},
   "75885": {},
   "75886": {},
+  "75887": {
+    "cross_list_courses": [
+      "ARCH-4590"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "75888": {
     "restrictions": {
       "level": {
@@ -26683,6 +29246,9 @@
   "75967": {},
   "75968": {},
   "75969": {},
+  "75970": {},
+  "75971": {},
+  "75972": {},
   "75973": {},
   "75974": {},
   "75975": {},
@@ -26698,10 +29264,19 @@
   "75985": {},
   "75986": {},
   "75987": {},
+  "75989": {},
+  "75990": {},
+  "75991": {},
+  "75992": {},
+  "75993": {},
   "75994": {},
   "75995": {},
   "75996": {},
   "75997": {},
+  "75998": {},
+  "75999": {},
+  "76000": {},
+  "76001": {},
   "76002": {},
   "76003": {},
   "76004": {},
@@ -26710,10 +29285,14 @@
   "76007": {},
   "76008": {},
   "76009": {},
+  "76010": {},
   "76011": {},
   "76012": {},
+  "76013": {},
+  "76015": {},
   "76016": {},
   "76017": {},
+  "76018": {},
   "76019": {},
   "76022": {},
   "76023": {},
@@ -26724,6 +29303,8 @@
   "76028": {},
   "76030": {},
   "76031": {},
+  "76032": {},
+  "76033": {},
   "76034": {
     "restrictions": {
       "level": {
@@ -26749,6 +29330,8 @@
   "76048": {},
   "76049": {},
   "76050": {},
+  "76051": {},
+  "76052": {},
   "76053": {},
   "76054": {},
   "76055": {},
@@ -26802,9 +29385,19 @@
   "76096": {},
   "76097": {},
   "76098": {},
+  "76099": {},
+  "76100": {},
+  "76101": {},
   "76102": {},
   "76103": {},
   "76104": {},
+  "76105": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "76106": {},
   "76107": {},
   "76108": {},
@@ -26840,6 +29433,7 @@
   },
   "76115": {},
   "76116": {},
+  "76118": {},
   "76122": {
     "restrictions": {
       "major": {

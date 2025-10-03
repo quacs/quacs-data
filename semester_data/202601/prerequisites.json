@@ -22598,16 +22598,6 @@
       "ISYE-6550"
     ]
   },
-  "37416": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37417": {
     "restrictions": {
       "college": {
@@ -26076,6 +26066,17 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "38452": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
