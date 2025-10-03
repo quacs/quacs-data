@@ -24124,7 +24124,6 @@
     }
   },
   "37665": {},
-  "37666": {},
   "37669": {},
   "37670": {
     "restrictions": {
@@ -24232,7 +24231,6 @@
   "37793": {},
   "37802": {},
   "37807": {},
-  "37813": {},
   "37819": {},
   "37821": {},
   "37822": {},
@@ -24260,7 +24258,6 @@
   "37891": {},
   "37897": {},
   "37899": {},
-  "37900": {},
   "37903": {},
   "37912": {},
   "37913": {},
@@ -24271,7 +24268,6 @@
   "37961": {},
   "37962": {},
   "37966": {},
-  "37967": {},
   "37986": {},
   "37997": {},
   "37998": {},
@@ -25980,6 +25976,123 @@
           "Senior"
         ]
       }
+    }
+  },
+  "38454": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38455": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2380",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1170",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1180",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1170",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1180",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38456": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38457": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 2380",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
