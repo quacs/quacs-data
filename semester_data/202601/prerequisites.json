@@ -22489,17 +22489,6 @@
       "type": "and"
     }
   },
-  "37411": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "37413": {
     "prerequisites": {
       "nested": [
@@ -23430,30 +23419,6 @@
     "cross_list_courses": [
       "ISYE-4250"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37536": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 6600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -26087,6 +26052,110 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "38474": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38475": {},
+  "38476": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38477": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38478": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38479": {
+    "prerequisites": {
+      "course": "ECSE 2210",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38480": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38481": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 2620",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
