@@ -26157,5 +26157,29 @@
       ],
       "type": "or"
     }
+  },
+  "38482": {
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38483": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2110",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   }
 }
