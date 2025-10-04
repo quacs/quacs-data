@@ -10944,38 +10944,6 @@
       }
     }
   },
-  "36228": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36229": {
     "cross_list_courses": [
       "MANE-4520"
@@ -11811,8 +11779,7 @@
   "36318": {},
   "36319": {
     "cross_list_courses": [
-      "CIVL-4240",
-      "CIVL-6660"
+      "CIVL-4240"
     ],
     "prerequisites": {
       "nested": [
@@ -15485,7 +15452,6 @@
   "36656": {
     "cross_list_courses": [
       "CIVL-4240",
-      "CIVL-6660",
       "MANE-6660"
     ],
     "prerequisites": {
@@ -23086,58 +23052,6 @@
       "type": "course"
     }
   },
-  "37478": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 1960",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37483": {
     "restrictions": {
       "level": {
@@ -23224,7 +23138,6 @@
   },
   "37498": {
     "cross_list_courses": [
-      "CIVL-6660",
       "MANE-4240",
       "MANE-6660"
     ],
@@ -23274,7 +23187,6 @@
   },
   "37499": {
     "cross_list_courses": [
-      "CIVL-6660",
       "MANE-4240"
     ],
     "prerequisites": {
@@ -23421,66 +23333,8 @@
   "37503": {
     "cross_list_courses": [
       "CIVL-4240",
-      "CIVL-6660",
       "MANE-4240"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37505": {
-    "cross_list_courses": [
-      "CIVL-4240",
-      "MANE-4240",
-      "MANE-6660"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2530",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "37506": {
-    "cross_list_courses": [
-      "CIVL-4240",
-      "MANE-4240"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2530",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -25867,18 +25721,6 @@
       }
     }
   },
-  "38429": {},
-  "38430": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "38431": {},
   "38432": {
     "restrictions": {
@@ -26273,5 +26115,51 @@
   "38463": {},
   "38464": {},
   "38466": {},
-  "38467": {}
+  "38467": {},
+  "38468": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38469": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38470": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38471": {},
+  "38472": {},
+  "38473": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
