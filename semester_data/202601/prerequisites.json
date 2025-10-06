@@ -16443,48 +16443,6 @@
       }
     }
   },
-  "36790": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATP 4600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2310",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BIOL 4200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "36791": {
     "prerequisites": {
       "nested": [
@@ -21316,18 +21274,6 @@
     }
   },
   "37300": {},
-  "37301": {
-    "cross_list_courses": [
-      "ECON-4360"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37302": {
     "restrictions": {
       "campus": {
@@ -21338,9 +21284,7 @@
     }
   },
   "37303": {
-    "cross_list_courses": [
-      "ECON-6360"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -22543,17 +22487,6 @@
       "type": "and"
     }
   },
-  "37442": {},
-  "37444": {
-    "cross_list_courses": [
-      "CHEM-6720"
-    ]
-  },
-  "37445": {
-    "cross_list_courses": [
-      "CHEM-4720"
-    ]
-  },
   "37446": {
     "corequisites": [
       "ARCH-4830"
@@ -23199,28 +23132,6 @@
   },
   "37537": {},
   "37538": {},
-  "37539": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "37540": {},
   "37541": {},
   "37544": {},
@@ -23560,6 +23471,7 @@
       }
     }
   },
+  "37626": {},
   "37627": {},
   "37628": {},
   "37631": {
@@ -23767,6 +23679,7 @@
   "37855": {},
   "37858": {},
   "37862": {},
+  "37863": {},
   "37865": {},
   "37868": {},
   "37869": {},
@@ -23784,9 +23697,7 @@
   "37948": {},
   "37950": {},
   "37957": {},
-  "37961": {},
   "37962": {},
-  "37966": {},
   "37986": {},
   "37997": {},
   "37998": {},
@@ -24462,7 +24373,6 @@
       "type": "course"
     }
   },
-  "38255": {},
   "38256": {},
   "38257": {},
   "38258": {},
@@ -26175,5 +26085,62 @@
         ]
       }
     }
-  }
+  },
+  "38510": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38511": {
+    "prerequisites": {
+      "course": "ECON 6860",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "38512": {
+    "cross_list_courses": [
+      "CHEM-6630"
+    ]
+  },
+  "38513": {
+    "cross_list_courses": [
+      "CHEM-4630"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38514": {},
+  "38515": {},
+  "38516": {},
+  "38517": {}
 }
