@@ -17245,39 +17245,6 @@
       "type": "or"
     }
   },
-  "36840": {
-    "cross_list_courses": [
-      "MGMT-4420"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 6020",
-          "min_grade": null,
-          "type": "course"
-        },
-        {
-          "course": "MGMT 6520",
-          "min_grade": null,
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Management",
-          "Quant Finance & Risk Analytics"
-        ]
-      }
-    }
-  },
   "36842": {
     "prerequisites": {
       "nested": [
@@ -18135,16 +18102,6 @@
   },
   "36902": {},
   "36903": {},
-  "36904": {
-    "cross_list_courses": [
-      "MGMT-6420"
-    ],
-    "prerequisites": {
-      "course": "MGMT 2320",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "36906": {},
   "36907": {
     "cross_list_courses": [
@@ -20320,28 +20277,6 @@
       }
     }
   },
-  "37150": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "37151": {
     "cross_list_courses": [
       "INQR-1220",
@@ -21244,28 +21179,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "37280": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "37282": {
@@ -22780,20 +22693,6 @@
       }
     }
   },
-  "37462": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37464": {
     "cross_list_courses": [
       "ARCH-4590"
@@ -23682,30 +23581,6 @@
   },
   "37643": {},
   "37644": {},
-  "37645": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 6040",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "MGMT 7730",
-          "min_grade": "C",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37646": {
     "restrictions": {
       "level": {
@@ -26119,6 +25994,184 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      }
+    }
+  },
+  "38498": {},
+  "38499": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38500": {},
+  "38501": {
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38502": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38503": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38504": {
+    "prerequisites": {
+      "course": "MGMT 6100",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38505": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "min_grade": "TR",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38506": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "min_grade": "TR",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38507": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38508": {
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38509": {
+    "prerequisites": {
+      "course": "MGMT 6020",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
