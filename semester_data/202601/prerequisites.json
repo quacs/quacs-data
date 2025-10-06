@@ -11493,34 +11493,6 @@
       }
     }
   },
-  "36304": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36305": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36306": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36307": {
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "36308": {
     "cross_list_courses": [
       "ARTS-1030"
@@ -17302,6 +17274,9 @@
     }
   },
   "36847": {
+    "cross_list_courses": [
+      "CSCI-6840"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19629,6 +19604,38 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "37068": {
+    "cross_list_courses": [
+      "MATH-6860"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "37069": {
+    "cross_list_courses": [
+      "MATH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 4800",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "37070": {
@@ -22853,6 +22860,9 @@
     }
   },
   "37458": {
+    "cross_list_courses": [
+      "MATH-6840"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25232,6 +25242,9 @@
     }
   },
   "38315": {
+    "cross_list_courses": [
+      "CSCI-4820"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25277,6 +25290,9 @@
     }
   },
   "38318": {
+    "cross_list_courses": [
+      "CSCI-6860"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25293,6 +25309,9 @@
   "38322": {},
   "38323": {},
   "38324": {
+    "cross_list_courses": [
+      "ISYE-6770"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25366,13 +25385,53 @@
   "38387": {},
   "38388": {},
   "38389": {},
-  "38390": {},
+  "38390": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Mathematics",
+          "Physics"
+        ]
+      }
+    }
+  },
   "38391": {},
   "38392": {},
-  "38393": {},
-  "38394": {},
+  "38393": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Mathematics",
+          "Physics"
+        ]
+      }
+    }
+  },
+  "38394": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Mathematics",
+          "Physics"
+        ]
+      }
+    }
+  },
   "38395": {},
-  "38396": {},
+  "38396": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Mathematics",
+          "Physics"
+        ]
+      }
+    }
+  },
   "38397": {},
   "38398": {},
   "38399": {},
@@ -25807,6 +25866,9 @@
     }
   },
   "38452": {
+    "cross_list_courses": [
+      "MATP-6640"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
