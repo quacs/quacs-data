@@ -5344,6 +5344,9 @@
     }
   },
   "35602": {
+    "cross_list_courses": [
+      "CHME-4170"
+    ],
     "restrictions": {
       "field_of_study": {
         "must_be": [
@@ -12193,7 +12196,11 @@
       }
     }
   },
-  "36363": {},
+  "36363": {
+    "cross_list_courses": [
+      "CHME-4170"
+    ]
+  },
   "36365": {},
   "36366": {},
   "36367": {},
@@ -13278,7 +13285,6 @@
       "type": "and"
     }
   },
-  "36503": {},
   "36504": {},
   "36505": {
     "prerequisites": {
@@ -14882,7 +14888,6 @@
       }
     }
   },
-  "36614": {},
   "36615": {
     "restrictions": {
       "classification": {
@@ -18104,8 +18109,16 @@
       "type": "or"
     }
   },
-  "36877": {},
-  "36878": {},
+  "36877": {
+    "cross_list_courses": [
+      "CHME-1100"
+    ]
+  },
+  "36878": {
+    "cross_list_courses": [
+      "CHME-1100"
+    ]
+  },
   "36879": {},
   "36881": {
     "restrictions": {
@@ -18706,28 +18719,6 @@
     "cross_list_courses": [
       "CHME-6011"
     ]
-  },
-  "36959": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 4020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 2050",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
   },
   "36960": {
     "cross_list_courses": [
@@ -23735,21 +23726,6 @@
       "type": "course"
     }
   },
-  "37550": {
-    "cross_list_courses": [
-      "CHME-6660"
-    ],
-    "prerequisites": {
-      "course": "CHME 4030",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37552": {
-    "cross_list_courses": [
-      "CHME-4660"
-    ]
-  },
   "37557": {},
   "37559": {
     "restrictions": {
@@ -24028,7 +24004,6 @@
       }
     }
   },
-  "37621": {},
   "37622": {},
   "37623": {
     "restrictions": {
@@ -26475,5 +26450,15 @@
       ],
       "type": "or"
     }
+  },
+  "38492": {
+    "cross_list_courses": [
+      "CHME-6960"
+    ]
+  },
+  "38493": {
+    "cross_list_courses": [
+      "CHME-4960"
+    ]
   }
 }
