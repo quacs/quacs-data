@@ -26223,36 +26223,6 @@
       "MGMT-6775"
     ]
   },
-  "38520": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MGMT 6580",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MGMT 7030",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "38521": {
     "prerequisites": {
       "nested": [
@@ -26422,6 +26392,9 @@
     }
   },
   "38538": {
+    "cross_list_courses": [
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26431,7 +26404,15 @@
     }
   },
   "38539": {
+    "cross_list_courses": [
+      "INQR-1220"
+    ],
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
       "major": {
         "must_be": [
           "Information Tech & Web Science"
