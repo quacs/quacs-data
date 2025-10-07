@@ -24630,8 +24630,16 @@
     }
   },
   "38292": {},
-  "38293": {},
-  "38294": {},
+  "38293": {
+    "cross_list_courses": [
+      "STSO-4340"
+    ]
+  },
+  "38294": {
+    "cross_list_courses": [
+      "PHIL-4300"
+    ]
+  },
   "38296": {
     "restrictions": {
       "major": {
@@ -24697,16 +24705,21 @@
       },
       "major": {
         "must_be": [
-          "Communication, Media, & Design",
-          "Communication",
-          "Elect Media, Arts, & Comm"
+          "Communication, Media, & Design"
         ]
       }
     }
   },
   "38301": {},
-  "38304": {},
+  "38304": {
+    "cross_list_courses": [
+      "ECON-6961"
+    ]
+  },
   "38305": {
+    "cross_list_courses": [
+      "COMM-4963"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -25425,6 +25438,9 @@
     }
   },
   "38453": {
+    "cross_list_courses": [
+      "ARTS-6130"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25435,6 +25451,9 @@
     }
   },
   "38454": {
+    "cross_list_courses": [
+      "ARTS-4130"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25444,6 +25463,9 @@
     }
   },
   "38455": {
+    "cross_list_courses": [
+      "ARTS-6250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25526,6 +25548,9 @@
     }
   },
   "38456": {
+    "cross_list_courses": [
+      "ARTS-4250"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26336,6 +26361,32 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "38538": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "38539": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Information Tech & Web Science"
+        ]
+      }
+    }
+  },
+  "38540": {},
+  "38541": {
+    "prerequisites": {
+      "course": "COMM 2660",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
