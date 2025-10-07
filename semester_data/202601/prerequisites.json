@@ -18819,6 +18819,9 @@
     }
   },
   "36988": {
+    "cross_list_courses": [
+      "ARTS-6160"
+    ],
     "prerequisites": {
       "course": "ARTS 2020",
       "min_grade": "D",
@@ -19986,6 +19989,9 @@
     }
   },
   "37124": {
+    "cross_list_courses": [
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25560,6 +25566,9 @@
     }
   },
   "38457": {
+    "cross_list_courses": [
+      "ARTS-6880"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25577,6 +25586,9 @@
     }
   },
   "38458": {
+    "cross_list_courses": [
+      "ARTS-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25585,13 +25597,20 @@
       }
     }
   },
-  "38459": {},
-  "38460": {},
-  "38461": {
+  "38459": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ]
+  },
+  "38460": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ],
     "restrictions": {
-      "level": {
+      "classification": {
         "must_be": [
-          "Graduate"
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
@@ -26045,6 +26064,9 @@
     }
   },
   "38506": {
+    "cross_list_courses": [
+      "ECON-6170"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26084,9 +26106,19 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Biotechnology & Health Econ"
+        ]
+      }
     }
   },
   "38507": {
+    "cross_list_courses": [
+      "ECON-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26252,6 +26284,9 @@
     }
   },
   "38523": {
+    "cross_list_courses": [
+      "INQR-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26324,7 +26359,16 @@
       "type": "or"
     }
   },
-  "38531": {},
+  "38531": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
   "38532": {
     "restrictions": {
       "classification": {
@@ -26343,8 +26387,15 @@
       }
     }
   },
-  "38534": {},
+  "38534": {
+    "cross_list_courses": [
+      "COMM-6567"
+    ]
+  },
   "38535": {
+    "cross_list_courses": [
+      "COMM-4567"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26353,8 +26404,15 @@
       }
     }
   },
-  "38536": {},
+  "38536": {
+    "cross_list_courses": [
+      "LITR-6826"
+    ]
+  },
   "38537": {
+    "cross_list_courses": [
+      "LITR-4826"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26387,6 +26445,64 @@
       "course": "COMM 2660",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "38542": {
+    "cross_list_courses": [
+      "ARTS-4160"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38543": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "38544": {},
+  "38545": {
+    "prerequisites": {
+      "course": "ECON 6800",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "38546": {
+    "prerequisites": {
+      "course": "ECON 6820",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
     }
   }
 }
