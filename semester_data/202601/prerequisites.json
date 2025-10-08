@@ -26441,5 +26441,59 @@
   "38569": {},
   "38570": {},
   "38571": {},
-  "38572": {}
+  "38572": {},
+  "38573": {},
+  "38574": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "CHEM 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1120",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1125",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "38575": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Senior"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Environmental Science",
+          "Geology",
+          "Hydrogeology"
+        ]
+      }
+    }
+  }
 }
