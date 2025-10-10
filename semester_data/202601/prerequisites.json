@@ -22106,43 +22106,6 @@
       }
     }
   },
-  "37410": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 2410",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37413": {
     "prerequisites": {
       "nested": [
@@ -26482,6 +26445,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "38580": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
