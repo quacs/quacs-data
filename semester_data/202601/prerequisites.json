@@ -5646,16 +5646,6 @@
       }
     }
   },
-  "35623": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "35624": {
     "restrictions": {
       "level": {
@@ -24739,17 +24729,6 @@
       "type": "or"
     }
   },
-  "38299": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "38300": {
     "restrictions": {
       "classification": {
@@ -24764,7 +24743,6 @@
       }
     }
   },
-  "38301": {},
   "38304": {
     "cross_list_courses": [
       "ECON-6961"
@@ -25453,7 +25431,11 @@
       }
     }
   },
-  "38444": {},
+  "38444": {
+    "cross_list_courses": [
+      "BMED-6960"
+    ]
+  },
   "38445": {
     "restrictions": {
       "level": {
@@ -25464,6 +25446,9 @@
     }
   },
   "38446": {
+    "cross_list_courses": [
+      "BMED-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26742,13 +26727,6 @@
       }
     }
   },
-  "38581": {
-    "prerequisites": {
-      "course": "PHYS 2210",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "38582": {
     "cross_list_courses": [
       "PHYS-4150"
@@ -27005,5 +26983,15 @@
   "38779": {},
   "38780": {},
   "38781": {},
-  "38782": {}
+  "38782": {},
+  "38783": {
+    "cross_list_courses": [
+      "COMM-6650"
+    ]
+  },
+  "38784": {
+    "cross_list_courses": [
+      "COMM-4650"
+    ]
+  }
 }
