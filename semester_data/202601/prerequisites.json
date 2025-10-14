@@ -18113,8 +18113,15 @@
       }
     }
   },
-  "36899": {},
+  "36899": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ]
+  },
   "36900": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -27010,5 +27017,41 @@
       "IHSS-1260"
     ]
   },
-  "38786": {}
+  "38786": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISCI 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 1600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
