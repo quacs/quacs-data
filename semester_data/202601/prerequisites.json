@@ -13,6 +13,9 @@
   "35006": {},
   "35007": {},
   "35008": {
+    "cross_list_courses": [
+      "MGMT-6540"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "min_grade": "D",
@@ -4522,6 +4525,9 @@
     ]
   },
   "35448": {
+    "cross_list_courses": [
+      "MGMT-4490"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21307,8 +21313,6 @@
       "type": "or"
     }
   },
-  "37291": {},
-  "37292": {},
   "37295": {
     "restrictions": {
       "classification": {
@@ -24978,11 +24982,24 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
+          "Applied Physics",
+          "Biochemistry & Biophysics",
           "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology",
           "Chemistry",
           "Computer Science",
+          "Environmental Science",
+          "Geology",
           "Mathematics",
           "Physics"
         ]
@@ -25001,11 +25018,24 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
+          "Applied Physics",
+          "Biochemistry & Biophysics",
           "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology",
           "Chemistry",
           "Computer Science",
+          "Environmental Science",
+          "Geology",
           "Mathematics",
           "Physics"
         ]
@@ -25022,11 +25052,24 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
+          "Applied Physics",
+          "Biochemistry & Biophysics",
           "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology",
           "Chemistry",
           "Computer Science",
+          "Environmental Science",
+          "Geology",
           "Mathematics",
           "Physics"
         ]
@@ -25044,11 +25087,24 @@
       "type": "course"
     },
     "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
       "major": {
         "must_be": [
+          "Applied Physics",
+          "Biochemistry & Biophysics",
           "Biology",
+          "Biology",
+          "Biological Neuroscience",
+          "Computational Biology",
           "Chemistry",
           "Computer Science",
+          "Environmental Science",
+          "Geology",
           "Mathematics",
           "Physics"
         ]
@@ -27009,6 +27065,61 @@
       "course": "ARTS 2230",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "38789": {
+    "cross_list_courses": [
+      "MGMT-6420"
+    ],
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "38790": {
+    "cross_list_courses": [
+      "MGMT-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6020",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6520",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38791": {},
+  "38793": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PSYC 2520",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
