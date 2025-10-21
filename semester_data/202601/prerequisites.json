@@ -26263,13 +26263,36 @@
       }
     }
   },
-  "38471": {},
+  "38471": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
+    }
+  },
   "38472": {
     "cross_list_courses": [
       "ISYE-4290",
       "ISYE-6620",
       "MANE-6964"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
+    }
   },
   "38473": {
     "cross_list_courses": [
@@ -26281,6 +26304,15 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
         ]
       }
     }
@@ -27126,6 +27158,17 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
+        ]
+      }
     }
   },
   "38577": {
@@ -27151,6 +27194,15 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Mechanical Engineering",
+          "Nuclear Engineering",
+          "Nuclear Engineering & Science"
         ]
       }
     }
@@ -27553,7 +27605,37 @@
       "CSCI-6964",
       "ECSE-4963",
       "ECSE-6963"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 4770",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2800",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2610",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   },
   "38797": {
     "cross_list_courses": [
