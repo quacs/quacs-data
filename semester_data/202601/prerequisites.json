@@ -19602,6 +19602,41 @@
     }
   },
   "37053": {
+    "cross_list_courses": [
+      "CSCI-4964",
+      "CSCI-6964",
+      "ECSE-6963"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 4770",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2800",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2610",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26278,6 +26313,11 @@
     }
   },
   "38477": {
+    "cross_list_courses": [
+      "CSCI-4964",
+      "CSCI-6964",
+      "ECSE-4963"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -27507,5 +27547,28 @@
     "cross_list_courses": [
       "MANE-6961"
     ]
+  },
+  "38796": {
+    "cross_list_courses": [
+      "CSCI-6964",
+      "ECSE-4963",
+      "ECSE-6963"
+    ]
+  },
+  "38797": {
+    "cross_list_courses": [
+      "CSCI-4964",
+      "ECSE-4963",
+      "ECSE-6963"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
   }
 }
