@@ -8782,7 +8782,18 @@
       }
     }
   },
-  "36030": {},
+  "36030": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "36031": {
     "prerequisites": {
       "course": "ARTS 1200",
@@ -11675,9 +11686,6 @@
     }
   },
   "36308": {
-    "cross_list_courses": [
-      "ARTS-1030"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -13724,9 +13732,6 @@
     }
   },
   "36526": {
-    "cross_list_courses": [
-      "ARTS-1030"
-    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -15752,16 +15757,7 @@
       }
     }
   },
-  "36663": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
+  "36663": {},
   "36667": {
     "prerequisites": {
       "nested": [
@@ -16561,6 +16557,9 @@
     }
   },
   "36787": {
+    "cross_list_courses": [
+      "COMM-6730"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18164,6 +18163,9 @@
   },
   "36879": {},
   "36881": {
+    "cross_list_courses": [
+      "COMM-4730"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18487,6 +18489,11 @@
   "36932": {
     "cross_list_courses": [
       "ARTS-2180"
+    ]
+  },
+  "36933": {
+    "cross_list_courses": [
+      "ARTS-2180"
     ],
     "restrictions": {
       "major": {
@@ -18497,11 +18504,6 @@
         ]
       }
     }
-  },
-  "36933": {
-    "cross_list_courses": [
-      "ARTS-2180"
-    ]
   },
   "36934": {
     "cross_list_courses": [
@@ -26113,20 +26115,21 @@
   "38459": {
     "cross_list_courses": [
       "ARTS-2960"
-    ]
-  },
-  "38460": {
-    "cross_list_courses": [
-      "ARTS-2960"
     ],
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
     }
+  },
+  "38460": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ]
   },
   "38462": {
     "prerequisites": {
@@ -26730,23 +26733,6 @@
       "classification": {
         "must_be": [
           "Graduate Student"
-        ]
-      }
-    }
-  },
-  "38512": {
-    "cross_list_courses": [
-      "CHEM-6630"
-    ]
-  },
-  "38513": {
-    "cross_list_courses": [
-      "CHEM-4630"
-    ],
-    "restrictions": {
-      "level": {
-        "may_not_be": [
-          "Graduate"
         ]
       }
     }
@@ -27678,5 +27664,7 @@
       "type": "course"
     }
   },
-  "38842": {}
+  "38842": {},
+  "38843": {},
+  "38844": {}
 }
