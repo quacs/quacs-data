@@ -16140,6 +16140,11 @@
         "must_be": [
           "Freshman"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Philosophy"
+        ]
       }
     }
   },
@@ -17414,6 +17419,9 @@
     }
   },
   "36839": {
+    "cross_list_courses": [
+      "ERTH-4810"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17588,6 +17596,9 @@
     }
   },
   "36849": {
+    "cross_list_courses": [
+      "CHEM-4810"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20343,6 +20354,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Philosophy",
+          "Psychology"
+        ]
+      }
     }
   },
   "37138": {},
@@ -27700,5 +27720,6 @@
   "38832": {},
   "38833": {},
   "38834": {},
-  "38835": {}
+  "38835": {},
+  "38836": {}
 }
