@@ -20541,53 +20541,6 @@
       "type": "or"
     }
   },
-  "37148": {
-    "cross_list_courses": [
-      "ECON-6220"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "37149": {
-    "cross_list_courses": [
-      "ECON-4220"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "37151": {
     "cross_list_courses": [
       "INQR-1220",
@@ -21579,28 +21532,6 @@
           "Hartford"
         ]
       }
-    }
-  },
-  "37303": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "37304": {
@@ -27036,13 +26967,6 @@
     }
   },
   "38540": {},
-  "38541": {
-    "prerequisites": {
-      "course": "COMM 2660",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "38542": {
     "cross_list_courses": [
       "ARTS-4160"
@@ -27789,5 +27713,6 @@
   "38864": {},
   "38865": {},
   "38866": {},
-  "38867": {}
+  "38867": {},
+  "38868": {}
 }
