@@ -20004,31 +20004,6 @@
       }
     }
   },
-  "37087": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Materials Engineering",
-          "Systems Engr and Tech Mgmt"
-        ]
-      }
-    }
-  },
   "37089": {
     "restrictions": {
       "campus": {
@@ -25846,6 +25821,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Fifth-Year",
           "Junior",
           "Senior"
         ]
@@ -27714,5 +27690,16 @@
     ]
   },
   "38952": {},
-  "38953": {}
+  "38953": {},
+  "38954": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
