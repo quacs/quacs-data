@@ -2530,16 +2530,6 @@
       "course": "MGMT 1240",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Business and Management",
-          "Business and Management",
-          "Management",
-          "Management"
-        ]
-      }
     }
   },
   "35181": {
@@ -2547,16 +2537,6 @@
       "course": "MGMT 1240",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Business and Management",
-          "Business and Management",
-          "Management",
-          "Management"
-        ]
-      }
     }
   },
   "35182": {
@@ -27055,14 +27035,19 @@
           "type": "or"
         },
         {
-          "course": "ERTH 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 1125",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ERTH 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ERTH 1125",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         }
       ],
       "type": "and"
