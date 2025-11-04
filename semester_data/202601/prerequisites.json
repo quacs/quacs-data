@@ -20108,7 +20108,14 @@
   "37105": {
     "cross_list_courses": [
       "MANE-4860"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "37106": {
     "prerequisites": {
@@ -23880,13 +23887,7 @@
       "type": "course"
     }
   },
-  "38068": {
-    "prerequisites": {
-      "course": "ARCH 5380",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
+  "38068": {},
   "38069": {
     "prerequisites": {
       "course": "ARCH 5320",
@@ -25682,7 +25683,15 @@
       "type": "and"
     }
   },
-  "38448": {},
+  "38448": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "38449": {
     "prerequisites": {
       "nested": [
@@ -27953,5 +27962,7 @@
       }
     }
   },
-  "38979": {}
+  "38979": {},
+  "38980": {},
+  "38981": {}
 }
