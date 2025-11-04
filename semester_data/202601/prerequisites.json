@@ -20781,7 +20781,6 @@
       "type": "and"
     }
   },
-  "37183": {},
   "37184": {
     "corequisites": [
       "ARCH-2360",
@@ -25434,7 +25433,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -25774,6 +25773,9 @@
     }
   },
   "38451": {
+    "cross_list_courses": [
+      "MTLE-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27803,5 +27805,185 @@
     }
   },
   "38961": {},
-  "38962": {}
+  "38962": {},
+  "38963": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38964": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38965": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38966": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38967": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38968": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38969": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38970": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38971": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38972": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38973": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38974": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38975": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38976": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "38977": {
+    "cross_list_courses": [
+      "MTLE-4250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ISCI 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
