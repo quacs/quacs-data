@@ -12162,15 +12162,6 @@
       "course": "MATH 2010",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
     }
   },
   "36333": {
@@ -19623,15 +19614,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
     }
   },
   "37055": {
@@ -19654,15 +19636,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
     }
   },
   "37056": {
@@ -24787,24 +24760,8 @@
       "PHIL-4300"
     ]
   },
-  "38296": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "38297": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
+  "38296": {},
+  "38297": {},
   "38298": {
     "prerequisites": {
       "nested": [
@@ -27984,6 +27941,16 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "38978": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
