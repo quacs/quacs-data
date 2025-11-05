@@ -16098,11 +16098,6 @@
         "must_be": [
           "Freshman"
         ]
-      },
-      "major": {
-        "must_be": [
-          "Philosophy"
-        ]
       }
     }
   },
@@ -24481,7 +24476,13 @@
   "38257": {},
   "38258": {},
   "38259": {},
-  "38260": {},
+  "38260": {
+    "prerequisites": {
+      "course": "WRIT 2330",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "38261": {
     "prerequisites": {
       "nested": [
