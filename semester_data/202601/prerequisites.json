@@ -27064,7 +27064,9 @@
   },
   "38582": {
     "cross_list_courses": [
-      "PHYS-4150"
+      "ASTR-6963",
+      "PHYS-4150",
+      "PHYS-6963"
     ],
     "prerequisites": {
       "course": "PHYS 2210",
@@ -27074,7 +27076,9 @@
   },
   "38583": {
     "cross_list_courses": [
-      "ASTR-4150"
+      "ASTR-4150",
+      "ASTR-6963",
+      "PHYS-6963"
     ],
     "prerequisites": {
       "course": "PHYS 2210",
@@ -27409,23 +27413,7 @@
     }
   },
   "38791": {},
-  "38793": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 2520",
-          "min_grade": null,
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": null,
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
+  "38793": {},
   "38794": {},
   "38795": {
     "cross_list_courses": [
@@ -27986,5 +27974,35 @@
         ]
       }
     }
+  },
+  "38983": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38984": {
+    "cross_list_courses": [
+      "ASTR-4150",
+      "PHYS-4150",
+      "PHYS-6963"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38985": {
+    "cross_list_courses": [
+      "ASTR-4150",
+      "ASTR-6963",
+      "PHYS-4150"
+    ]
   }
 }
