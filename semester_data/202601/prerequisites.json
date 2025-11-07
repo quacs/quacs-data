@@ -381,6 +381,9 @@
     }
   },
   "35036": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20171,10 +20174,9 @@
       "LGHT-4760"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -22454,7 +22456,14 @@
   "37420": {
     "cross_list_courses": [
       "BMED-4490"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "37423": {
     "restrictions": {
@@ -23589,7 +23598,14 @@
   "37638": {
     "cross_list_courses": [
       "ARTS-4920"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "37646": {
     "restrictions": {
@@ -24195,7 +24211,15 @@
       "type": "course"
     }
   },
-  "38225": {},
+  "38225": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "38227": {
     "restrictions": {
       "classification": {
@@ -26636,7 +26660,15 @@
     }
   },
   "38514": {},
-  "38515": {},
+  "38515": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "38516": {
     "cross_list_courses": [
       "MGMT-1260"
@@ -28016,5 +28048,87 @@
     "cross_list_courses": [
       "ASTR-4962"
     ]
+  },
+  "38988": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Physics",
+          "Electric Power Engr",
+          "Engineering Science",
+          "Materials Engineering",
+          "Mechanics",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
   }
 }
