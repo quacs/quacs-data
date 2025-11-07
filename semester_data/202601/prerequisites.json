@@ -22884,7 +22884,8 @@
   "37491": {},
   "37493": {
     "cross_list_courses": [
-      "COGS-6540"
+      "COGS-6540",
+      "CSCI-4545"
     ],
     "prerequisites": {
       "nested": [
@@ -22904,7 +22905,8 @@
   },
   "37494": {
     "cross_list_courses": [
-      "COGS-4540"
+      "COGS-4540",
+      "CSCI-4545"
     ],
     "restrictions": {
       "level": {
@@ -28161,6 +28163,17 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "38997": {
+    "cross_list_courses": [
+      "COGS-4540",
+      "COGS-6540"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
