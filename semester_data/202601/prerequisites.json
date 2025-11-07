@@ -24078,7 +24078,14 @@
   "38190": {
     "cross_list_courses": [
       "ISYE-4370"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "38191": {},
   "38192": {},
@@ -24845,21 +24852,8 @@
   },
   "38304": {
     "cross_list_courses": [
-      "ECON-6961"
+      "COMM-6963"
     ]
-  },
-  "38305": {
-    "cross_list_courses": [
-      "COMM-4963"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
   },
   "38307": {},
   "38308": {
@@ -28126,6 +28120,47 @@
           "Nuclear Engineering"
         ]
       }
+    }
+  },
+  "38992": {
+    "cross_list_courses": [
+      "COMM-4963"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "38993": {},
+  "38994": {},
+  "38996": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   }
 }
