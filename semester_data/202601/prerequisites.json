@@ -28012,5 +28012,35 @@
   },
   "39002": {},
   "39004": {},
-  "39006": {}
+  "39006": {},
+  "39008": {
+    "cross_list_courses": [
+      "ECSE-2050"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
