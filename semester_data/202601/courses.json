@@ -15441,14 +15441,14 @@
         "id": "BMED-2050",
         "sections": [
           {
-            "act": 30,
+            "act": 31,
             "attribute": "",
             "cap": 30,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 36828,
             "crse": 2050,
-            "rem": 0,
+            "rem": -1,
             "sec": "01",
             "subj": "BMED",
             "timeslots": [
@@ -25684,14 +25684,14 @@
         "id": "CIVL-4270",
         "sections": [
           {
-            "act": 51,
+            "act": 52,
             "attribute": "",
             "cap": 60,
             "credMax": 3.0,
             "credMin": 3.0,
             "crn": 35109,
             "crse": 4270,
-            "rem": 9,
+            "rem": 8,
             "sec": "01",
             "subj": "CIVL",
             "timeslots": [
@@ -30481,14 +30481,14 @@
             "xl_rem": 18
           },
           {
-            "act": 20,
+            "act": 21,
             "attribute": "Data Intensive I, Introductory Level Course",
             "cap": 24,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 35259,
             "crse": 1200,
-            "rem": 4,
+            "rem": 3,
             "sec": "03",
             "subj": "CSCI",
             "timeslots": [
@@ -30781,14 +30781,14 @@
             "xl_rem": 18
           },
           {
-            "act": 24,
+            "act": 23,
             "attribute": "Data Intensive I, Introductory Level Course",
             "cap": 24,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 36051,
             "crse": 1200,
-            "rem": 0,
+            "rem": 1,
             "sec": "09",
             "subj": "CSCI",
             "timeslots": [
@@ -43581,7 +43581,7 @@
               }
             ],
             "title": "Cptr Components & Oper",
-            "xl_rem": 21
+            "xl_rem": 20
           },
           {
             "act": 37,
@@ -43620,17 +43620,17 @@
               }
             ],
             "title": "Cptr Components & Oper",
-            "xl_rem": 21
+            "xl_rem": 20
           },
           {
-            "act": 28,
+            "act": 29,
             "attribute": "",
             "cap": 40,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 35089,
             "crse": 2610,
-            "rem": 12,
+            "rem": 11,
             "sec": "03",
             "subj": "ECSE",
             "timeslots": [
@@ -43659,7 +43659,7 @@
               }
             ],
             "title": "Cptr Components & Oper",
-            "xl_rem": 21
+            "xl_rem": 20
           }
         ],
         "subj": "ECSE",
@@ -59261,6 +59261,30 @@
               }
             ],
             "title": "Undergraduate Research Project"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 50,
+            "credMax": 4.0,
+            "credMin": 1.0,
+            "crn": 39026,
+            "crse": 2941,
+            "rem": 50,
+            "sec": "08",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "05/08",
+                "dateStart": "01/12",
+                "days": [],
+                "instructor": "Yunfeng Shi",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Undergraduate Research Project"
           }
         ],
         "subj": "MTLE",
@@ -59840,6 +59864,30 @@
                 "dateStart": "01/12",
                 "days": [],
                 "instructor": "Wei Bao",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Undergraduate Research Project"
+          },
+          {
+            "act": 1,
+            "attribute": "",
+            "cap": 50,
+            "credMax": 4.0,
+            "credMin": 1.0,
+            "crn": 39027,
+            "crse": 4941,
+            "rem": 49,
+            "sec": "09",
+            "subj": "MTLE",
+            "timeslots": [
+              {
+                "dateEnd": "05/08",
+                "dateStart": "01/12",
+                "days": [],
+                "instructor": "Yunfeng Shi",
                 "location": "TBA",
                 "timeEnd": -1,
                 "timeStart": -1
@@ -63617,7 +63665,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 34
+            "xl_rem": 35
           },
           {
             "act": 22,
@@ -63667,17 +63715,17 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 34
+            "xl_rem": 35
           },
           {
-            "act": 29,
+            "act": 28,
             "attribute": "Introductory Level Course",
             "cap": 30,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 35308,
             "crse": 2400,
-            "rem": 1,
+            "rem": 2,
             "sec": "03",
             "subj": "MATH",
             "timeslots": [
@@ -63717,7 +63765,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 34
+            "xl_rem": 35
           },
           {
             "act": 30,
@@ -63767,7 +63815,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 34
+            "xl_rem": 35
           },
           {
             "act": 29,
@@ -63817,7 +63865,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 4
+            "xl_rem": 3
           },
           {
             "act": 28,
@@ -63867,17 +63915,17 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 4
+            "xl_rem": 3
           },
           {
-            "act": 29,
+            "act": 30,
             "attribute": "Introductory Level Course",
             "cap": 30,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 35023,
             "crse": 2400,
-            "rem": 1,
+            "rem": 0,
             "sec": "07",
             "subj": "MATH",
             "timeslots": [
@@ -63917,7 +63965,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 4
+            "xl_rem": 3
           },
           {
             "act": 30,
@@ -63967,7 +64015,7 @@
               }
             ],
             "title": "Intro Diff Equations",
-            "xl_rem": 4
+            "xl_rem": 3
           },
           {
             "act": 30,
@@ -78219,7 +78267,7 @@
                 "days": [
                   "W"
                 ],
-                "instructor": "Michael Wisotzkey",
+                "instructor": "Benjamin Augustus Allman",
                 "location": "Darrin Communications Center 337",
                 "timeEnd": 1550,
                 "timeStart": 1400
@@ -79247,14 +79295,14 @@
             "title": "Physics I (s)"
           },
           {
-            "act": 47,
+            "act": 48,
             "attribute": "Data Intensive I",
             "cap": 48,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 37513,
             "crse": 1110,
-            "rem": 1,
+            "rem": 0,
             "sec": "02",
             "subj": "PHYS",
             "timeslots": [
@@ -79447,14 +79495,14 @@
             "title": "Physics I (s)"
           },
           {
-            "act": 42,
+            "act": 41,
             "attribute": "Data Intensive I",
             "cap": 48,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 37517,
             "crse": 1110,
-            "rem": 6,
+            "rem": 7,
             "sec": "06",
             "subj": "PHYS",
             "timeslots": [
@@ -84156,6 +84204,30 @@
             "cap": 10,
             "credMax": 16.0,
             "credMin": 1.0,
+            "crn": 39025,
+            "crse": 9990,
+            "rem": 10,
+            "sec": "15",
+            "subj": "PHYS",
+            "timeslots": [
+              {
+                "dateEnd": "05/08",
+                "dateStart": "01/12",
+                "days": [],
+                "instructor": "Edwin B. Fohtung",
+                "location": "TBA",
+                "timeEnd": -1,
+                "timeStart": -1
+              }
+            ],
+            "title": "Dissertation"
+          },
+          {
+            "act": 0,
+            "attribute": "",
+            "cap": 10,
+            "credMax": 16.0,
+            "credMin": 1.0,
             "crn": 35228,
             "crse": 9990,
             "rem": 10,
@@ -84381,14 +84453,14 @@
         "id": "PSYC-1200",
         "sections": [
           {
-            "act": 150,
+            "act": 149,
             "attribute": "",
             "cap": 160,
             "credMax": 4.0,
             "credMin": 4.0,
             "crn": 35063,
             "crse": 1200,
-            "rem": 10,
+            "rem": 11,
             "sec": "01",
             "subj": "PSYC",
             "timeslots": [
