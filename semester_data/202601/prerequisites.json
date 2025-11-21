@@ -10093,9 +10093,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ITWS 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "CSCI 1200",
@@ -14200,9 +14210,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ITWS 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "CSCI 1200",
@@ -19698,9 +19718,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ITWS 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "CSCI 1200",
@@ -20442,9 +20472,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ITWS 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "CSCI 1200",
