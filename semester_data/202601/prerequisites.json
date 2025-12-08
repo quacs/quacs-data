@@ -27999,5 +27999,27 @@
       }
     }
   },
-  "39047": {}
+  "39047": {},
+  "39048": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2710",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4730",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
