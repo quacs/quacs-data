@@ -25996,7 +25996,6 @@
       }
     }
   },
-  "38498": {},
   "38499": {
     "restrictions": {
       "classification": {
@@ -28020,6 +28019,20 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "39049": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
