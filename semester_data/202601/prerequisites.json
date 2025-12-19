@@ -12084,28 +12084,6 @@
       "type": "and"
     }
   },
-  "36332": {
-    "cross_list_courses": [
-      "ECSE-6964"
-    ],
-    "prerequisites": {
-      "course": "MATH 2010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "36333": {
-    "cross_list_courses": [
-      "ECSE-4964"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "36334": {
     "restrictions": {
       "classification": {
@@ -28041,5 +28019,38 @@
         ]
       }
     }
-  }
+  },
+  "39055": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "39056": {}
 }
