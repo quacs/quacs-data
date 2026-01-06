@@ -22203,27 +22203,6 @@
       "type": "course"
     }
   },
-  "37450": {
-    "corequisites": [
-      "ARCH-2360",
-      "ARCH-2550"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2820",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "37451": {},
   "37452": {},
   "37453": {},
@@ -22335,13 +22314,6 @@
     ],
     "prerequisites": {
       "course": "ARCH 5160",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "37473": {
-    "prerequisites": {
-      "course": "ARCH 5200",
       "min_grade": "D",
       "type": "course"
     }
@@ -28023,5 +27995,12 @@
   "39066": {},
   "39067": {},
   "39068": {},
-  "39069": {}
+  "39069": {},
+  "39071": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "D",
+      "type": "course"
+    }
+  }
 }
