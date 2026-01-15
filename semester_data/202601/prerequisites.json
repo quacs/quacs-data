@@ -5503,6 +5503,15 @@
       }
     }
   },
+  "35615": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "35616": {
     "restrictions": {
       "level": {
@@ -28039,5 +28048,28 @@
   "39110": {},
   "39111": {},
   "39112": {},
-  "39113": {}
+  "39113": {},
+  "39114": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "39115": {},
+  "39116": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "39117": {},
+  "39118": {}
 }
