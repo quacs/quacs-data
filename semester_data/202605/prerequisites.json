@@ -1880,58 +1880,6 @@
       }
     }
   },
-  "23772": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "23773": {
     "prerequisites": {
       "nested": [
@@ -2085,50 +2033,6 @@
             }
           ],
           "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23778": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23779": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
         }
       ],
       "type": "and"
@@ -2947,33 +2851,6 @@
       "type": "course"
     }
   },
-  "23856": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2530",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BMED 2540",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "23857": {
     "prerequisites": {
       "nested": [
@@ -3613,23 +3490,6 @@
   },
   "23915": {},
   "23916": {},
-  "23917": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 2530",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2960",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23918": {},
   "23919": {},
   "23920": {},
@@ -4064,68 +3924,6 @@
           "Games & Simulation Arts & Sci"
         ]
       }
-    }
-  },
-  "24025": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 1960",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1400",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CIVL 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "24026": {},
