@@ -20040,6 +20040,8 @@
   },
   "79076": {
     "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
       "ENGR-4961",
       "ENGR-6961",
       "ISCI-6961"
@@ -20119,7 +20121,6 @@
       "type": "course"
     }
   },
-  "79089": {},
   "79090": {},
   "79091": {},
   "79092": {
@@ -20474,15 +20475,6 @@
     }
   },
   "79136": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79137": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -20914,6 +20906,8 @@
   },
   "79172": {
     "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
       "ENGR-4961",
       "ISCI-4961",
       "ISCI-6961"
@@ -21146,6 +21140,8 @@
   },
   "79185": {
     "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
       "ENGR-6961",
       "ISCI-4961",
       "ISCI-6961"
@@ -21161,6 +21157,8 @@
   },
   "79186": {
     "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
       "ENGR-4961",
       "ENGR-6961",
       "ISCI-4961"
@@ -26497,6 +26495,54 @@
       "level": {
         "may_not_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80522": {
+    "cross_list_courses": [
+      "ECSE-6961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ]
+  },
+  "80523": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ENGR-4961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80524": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
+  "80525": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
