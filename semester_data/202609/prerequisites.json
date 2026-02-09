@@ -15171,22 +15171,6 @@
       }
     }
   },
-  "78556": {
-    "prerequisites": {
-      "course": "BIOL 4200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "78557": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78558": {
     "restrictions": {
       "classification": {
@@ -27043,5 +27027,53 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "80531": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80532": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80533": {},
+  "80534": {}
 }

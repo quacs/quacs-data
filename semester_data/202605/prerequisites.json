@@ -200,35 +200,6 @@
   "23631": {},
   "23632": {},
   "23633": {},
-  "23636": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "23637": {
-    "prerequisites": {
-      "course": "CHEM 2250",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23640": {},
   "23641": {
     "restrictions": {
@@ -1618,27 +1589,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "23746": {
-    "prerequisites": {
-      "course": "MATH 2400",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "may_not_be": [
-          "Chemical Engineering"
-        ]
-      }
-    }
-  },
-  "23747": {
-    "prerequisites": {
-      "course": "CHEM 2030",
-      "min_grade": null,
-      "type": "course"
     }
   },
   "23749": {
