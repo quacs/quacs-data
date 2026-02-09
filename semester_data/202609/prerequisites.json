@@ -19860,31 +19860,6 @@
   },
   "79015": {},
   "79016": {},
-  "79017": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Design, Innovation and Society",
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
-  },
-  "79018": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior"
-        ]
-      }
-    }
-  },
   "79019": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -20915,43 +20890,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "79133": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "79134": {
@@ -23846,166 +23784,6 @@
           "Graduate Student"
         ]
       }
-    }
-  },
-  "79657": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2210",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "79658": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSH 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "79659": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79660": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1240",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1250",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1320",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1250",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "79661": {
@@ -27196,6 +26974,74 @@
           "Freshman"
         ]
       }
+    }
+  },
+  "80527": {},
+  "80528": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80529": {},
+  "80530": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
