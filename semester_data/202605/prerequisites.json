@@ -1093,6 +1093,10 @@
     }
   },
   "23713": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1152,6 +1156,9 @@
     }
   },
   "23715": {
+    "cross_list_courses": [
+      "BMED-4010"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1437,6 +1444,9 @@
     }
   },
   "23740": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1540,6 +1550,9 @@
     }
   },
   "23744": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1592,6 +1605,9 @@
     }
   },
   "23749": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1663,6 +1679,9 @@
     }
   },
   "23762": {
+    "cross_list_courses": [
+      "BMED-4010"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2328,6 +2347,9 @@
     }
   },
   "23813": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2967,6 +2989,10 @@
   "23885": {},
   "23886": {},
   "23887": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2995,6 +3021,10 @@
     }
   },
   "23895": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3040,6 +3070,10 @@
     }
   },
   "23897": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3296,6 +3330,9 @@
     }
   },
   "23912": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3323,6 +3360,9 @@
     }
   },
   "23913": {
+    "cross_list_courses": [
+      "CSCI-4210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3363,15 +3403,6 @@
   "23923": {},
   "23925": {},
   "23929": {},
-  "23950": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "23990": {
     "restrictions": {
       "campus": {
@@ -3427,6 +3458,10 @@
     }
   },
   "23996": {
+    "cross_list_courses": [
+      "COGS-4700",
+      "PSYC-4700"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -3434,6 +3469,10 @@
     }
   },
   "23997": {
+    "cross_list_courses": [
+      "COGS-4700",
+      "PSYC-4700"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -3654,6 +3693,10 @@
     }
   },
   "24012": {
+    "cross_list_courses": [
+      "COGS-4700",
+      "PSYC-4700"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -3661,6 +3704,10 @@
     }
   },
   "24013": {
+    "cross_list_courses": [
+      "COGS-4700",
+      "PSYC-4700"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -3842,6 +3889,9 @@
     }
   },
   "24029": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3867,6 +3917,9 @@
     }
   },
   "24030": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3941,6 +3994,9 @@
     }
   },
   "24033": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3993,6 +4049,9 @@
     }
   },
   "24034": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4126,5 +4185,29 @@
     }
   },
   "24078": {},
-  "24081": {}
+  "24081": {},
+  "24082": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
