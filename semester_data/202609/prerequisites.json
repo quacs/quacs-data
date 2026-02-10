@@ -3427,6 +3427,9 @@
     }
   },
   "77285": {
+    "cross_list_courses": [
+      "ARCH-2330"
+    ],
     "prerequisites": {
       "course": "ARCH 2510",
       "min_grade": "D",
@@ -20184,8 +20187,16 @@
       "type": "course"
     }
   },
-  "79047": {},
-  "79048": {},
+  "79047": {
+    "cross_list_courses": [
+      "ARCH-2160"
+    ]
+  },
+  "79048": {
+    "cross_list_courses": [
+      "ARCH-2160"
+    ]
+  },
   "79049": {},
   "79050": {},
   "79051": {
@@ -22147,6 +22158,9 @@
   },
   "79267": {},
   "79268": {
+    "cross_list_courses": [
+      "ARCH-2330"
+    ],
     "prerequisites": {
       "course": "ARCH 2510",
       "min_grade": "D",
@@ -27085,5 +27099,86 @@
       }
     }
   },
-  "80536": {}
+  "80536": {
+    "cross_list_courses": [
+      "ARCH-2160"
+    ]
+  },
+  "80537": {},
+  "80538": {
+    "corequisites": [
+      "ARCH-2540"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2810",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2530",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80539": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80540": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80541": {
+    "prerequisites": {
+      "course": "ARCH 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80542": {},
+  "80543": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80544": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
