@@ -10007,28 +10007,6 @@
     }
   },
   "78095": {},
-  "78096": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 4150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MTLE 4200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MTLE 4250",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "78097": {
     "prerequisites": {
       "nested": [
@@ -14773,17 +14751,6 @@
       "type": "and"
     }
   },
-  "78534": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "78535": {
     "restrictions": {
       "campus": {
@@ -18561,16 +18528,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "78907": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "78908": {
@@ -24254,43 +24211,6 @@
   },
   "79705": {},
   "79706": {},
-  "79707": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 4150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MTLE 4200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MTLE 4250",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79708": {},
-  "79709": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79710": {},
   "79711": {},
   "79712": {},
@@ -27174,5 +27094,87 @@
       "min_grade": "D",
       "type": "course"
     }
+  },
+  "80551": {
+    "cross_list_courses": [
+      "MTLE-6961"
+    ]
+  },
+  "80552": {
+    "cross_list_courses": [
+      "MTLE-4961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80553": {
+    "cross_list_courses": [
+      "MTLE-6250"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ISCI 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80554": {
+    "cross_list_courses": [
+      "MTLE-4250"
+    ]
+  },
+  "80555": {
+    "cross_list_courses": [
+      "MTLE-6730"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80556": {
+    "cross_list_courses": [
+      "MTLE-4730"
+    ]
   }
 }
