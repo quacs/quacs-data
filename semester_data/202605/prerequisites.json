@@ -175,27 +175,6 @@
   "23626": {},
   "23627": {},
   "23628": {},
-  "23629": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "23630": {},
   "23631": {},
   "23632": {},
@@ -991,87 +970,6 @@
       "type": "and"
     }
   },
-  "23711": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 1960",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "CIVL 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ENGR 1400",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "23712": {
     "restrictions": {
       "campus": {
@@ -1402,27 +1300,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "23738": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
     }
   },
   "23740": {
@@ -2670,27 +2547,6 @@
     }
   },
   "23848": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "23849": {
     "restrictions": {
       "major": {
         "must_be": [
