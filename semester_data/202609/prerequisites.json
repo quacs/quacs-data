@@ -1718,6 +1718,9 @@
     }
   },
   "77089": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2259,6 +2262,9 @@
     }
   },
   "77134": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4885,7 +4891,11 @@
       "type": "course"
     }
   },
-  "77458": {},
+  "77458": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ]
+  },
   "77460": {
     "restrictions": {
       "degree": {
@@ -6327,6 +6337,10 @@
     }
   },
   "77680": {
+    "cross_list_courses": [
+      "ECSE-4480",
+      "ECSE-6470"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6371,6 +6385,10 @@
     }
   },
   "77683": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-6470"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -10259,6 +10277,9 @@
   },
   "78114": {},
   "78115": {
+    "cross_list_courses": [
+      "CSCI-6390"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -10551,6 +10572,9 @@
   },
   "78143": {},
   "78144": {
+    "cross_list_courses": [
+      "CSCI-4964"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11435,6 +11459,10 @@
     }
   },
   "78250": {
+    "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13474,8 +13502,23 @@
       }
     }
   },
-  "78426": {},
+  "78426": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ]
+  },
   "78427": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13733,6 +13776,9 @@
     }
   },
   "78449": {
+    "cross_list_courses": [
+      "CSCI-4390"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14284,6 +14330,12 @@
     }
   },
   "78515": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -14305,6 +14357,12 @@
   },
   "78517": {},
   "78518": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "degree": {
         "must_be": [
@@ -16363,6 +16421,9 @@
     ]
   },
   "78694": {
+    "cross_list_courses": [
+      "CSCI-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16610,6 +16671,9 @@
     }
   },
   "78715": {
+    "cross_list_courses": [
+      "CSCI-4370"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17549,9 +17613,7 @@
     ]
   },
   "78786": {
-    "cross_list_courses": [
-      "COMM-2660"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -17679,6 +17741,13 @@
     }
   },
   "78809": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18051,6 +18120,13 @@
     ]
   },
   "78851": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18073,6 +18149,12 @@
     }
   },
   "78852": {
+    "cross_list_courses": [
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600",
+      "MGMT-6600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18228,6 +18310,9 @@
     }
   },
   "78860": {
+    "cross_list_courses": [
+      "CSCI-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18289,6 +18374,13 @@
     }
   },
   "78864": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18625,26 +18717,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "78910": {
-    "cross_list_courses": [
-      "COMM-2660"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -19082,8 +19154,20 @@
       "type": "or"
     }
   },
-  "78952": {},
-  "78953": {},
+  "78952": {
+    "cross_list_courses": [
+      "CSCI-6966"
+    ]
+  },
+  "78953": {
+    "cross_list_courses": [
+      "BCBP-4600",
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
   "78954": {
     "restrictions": {
       "campus": {
@@ -19117,6 +19201,9 @@
     }
   },
   "78957": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19187,7 +19274,14 @@
       }
     }
   },
-  "78963": {},
+  "78963": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-6600"
+    ]
+  },
   "78964": {
     "cross_list_courses": [
       "ENGR-4440"
@@ -19437,18 +19531,13 @@
     }
   },
   "78979": {},
-  "78980": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "78981": {
+    "cross_list_courses": [
+      "CSCI-4600",
+      "ITWS-4600",
+      "ITWS-6600",
+      "MGMT-4600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19749,6 +19838,9 @@
     }
   },
   "78999": {
+    "cross_list_courses": [
+      "ECON-4010"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20237,8 +20329,15 @@
     ]
   },
   "79049": {},
-  "79050": {},
+  "79050": {
+    "cross_list_courses": [
+      "CSCI-6975"
+    ]
+  },
   "79051": {
+    "cross_list_courses": [
+      "CSCI-4975"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20599,7 +20698,11 @@
       }
     }
   },
-  "79080": {},
+  "79080": {
+    "cross_list_courses": [
+      "CSCI-6960"
+    ]
+  },
   "79081": {
     "restrictions": {
       "classification": {
@@ -20793,6 +20896,9 @@
     }
   },
   "79120": {
+    "cross_list_courses": [
+      "ITWS-4850"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22003,7 +22109,8 @@
   "79241": {},
   "79242": {
     "cross_list_courses": [
-      "CSCI-2700"
+      "CSCI-2700",
+      "CSCI-4700"
     ],
     "prerequisites": {
       "course": "CSCI 1100",
@@ -22013,7 +22120,8 @@
   },
   "79244": {
     "cross_list_courses": [
-      "CSCI-1700"
+      "CSCI-1700",
+      "CSCI-4700"
     ],
     "prerequisites": {
       "course": "CSCI 1200",
@@ -22342,7 +22450,13 @@
   "79275": {},
   "79276": {},
   "79278": {},
-  "79279": {},
+  "79279": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-6967"
+    ]
+  },
   "79280": {},
   "79281": {},
   "79282": {},
@@ -23482,12 +23596,16 @@
   },
   "79606": {
     "cross_list_courses": [
-      "COGS-6962"
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967"
     ]
   },
   "79607": {
     "cross_list_courses": [
-      "COGS-4962"
+      "COGS-4962",
+      "CSCI-4972",
+      "CSCI-6967"
     ],
     "restrictions": {
       "level": {
@@ -24541,6 +24659,9 @@
     }
   },
   "79739": {
+    "cross_list_courses": [
+      "CSCI-6500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24573,6 +24694,9 @@
     }
   },
   "79740": {
+    "cross_list_courses": [
+      "CSCI-4500"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25058,22 +25182,6 @@
       }
     }
   },
-  "79801": {
-    "prerequisites": {
-      "course": "ENGR 2600",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "79802": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79803": {},
   "79804": {},
   "79805": {},
@@ -25190,15 +25298,6 @@
       }
     }
   },
-  "79815": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79816": {
     "restrictions": {
       "classification": {
@@ -25239,6 +25338,10 @@
     }
   },
   "79821": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700"
+    ],
     "prerequisites": {
       "course": "CSCI 2700",
       "min_grade": "D",
@@ -25409,6 +25512,9 @@
     }
   },
   "79839": {
+    "cross_list_courses": [
+      "ECON-6010"
+    ],
     "prerequisites": {
       "course": "ECON 2010",
       "min_grade": "D",
@@ -25518,6 +25624,11 @@
     }
   },
   "79850": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26078,6 +26189,9 @@
   "80138": {},
   "80141": {},
   "80142": {
+    "cross_list_courses": [
+      "CSCI-4850"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26362,8 +26476,15 @@
       }
     }
   },
-  "80206": {},
+  "80206": {
+    "cross_list_courses": [
+      "CSCI-6971"
+    ]
+  },
   "80207": {
+    "cross_list_courses": [
+      "CSCI-4968"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27313,5 +27434,6 @@
   "80574": {},
   "80575": {},
   "80576": {},
-  "80577": {}
+  "80577": {},
+  "80578": {}
 }
