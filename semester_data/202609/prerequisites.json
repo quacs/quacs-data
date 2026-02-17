@@ -10006,7 +10006,11 @@
       }
     }
   },
-  "78061": {},
+  "78061": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ]
+  },
   "78063": {
     "restrictions": {
       "level": {
@@ -11547,6 +11551,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -12112,6 +12119,9 @@
   "78268": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -12763,6 +12773,9 @@
     }
   },
   "78322": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -13995,6 +14008,9 @@
     }
   },
   "78432": {
+    "cross_list_courses": [
+      "PSYC-4730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -14767,6 +14783,9 @@
     }
   },
   "78516": {
+    "cross_list_courses": [
+      "WRIT-2330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -16286,8 +16305,15 @@
       }
     }
   },
-  "78626": {},
+  "78626": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ]
+  },
   "78627": {
+    "cross_list_courses": [
+      "PSYC-4430"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -18465,6 +18491,9 @@
     }
   },
   "78839": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20979,151 +21008,6 @@
       }
     }
   },
-  "79063": {
-    "cross_list_courses": [
-      "PHIL-4500"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 4250",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "79064": {
-    "cross_list_courses": [
-      "STSO-4250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79065": {
     "restrictions": {
       "college": {
@@ -22507,6 +22391,9 @@
     }
   },
   "79205": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22514,6 +22401,9 @@
     }
   },
   "79206": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -23120,46 +23010,6 @@
   },
   "79295": {},
   "79296": {},
-  "79297": {
-    "cross_list_courses": [
-      "COGS-4330"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "79298": {
-    "cross_list_courses": [
-      "PSYC-4330"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79301": {},
   "79303": {
     "cross_list_courses": [
@@ -23870,13 +23720,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "79461": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "79462": {
@@ -24620,13 +24463,20 @@
     }
   },
   "79670": {
+    "cross_list_courses": [
+      "PHYS-6963"
+    ],
     "prerequisites": {
       "course": "PHYS 4100",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "79671": {},
+  "79671": {
+    "cross_list_courses": [
+      "PHYS-4620"
+    ]
+  },
   "79672": {
     "restrictions": {
       "level": {
@@ -24986,23 +24836,6 @@
       "CHME-4960"
     ]
   },
-  "79710": {},
-  "79711": {},
-  "79712": {},
-  "79713": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79714": {
     "prerequisites": {
       "course": "ASTR 2050",
@@ -25058,6 +24891,9 @@
   },
   "79719": {},
   "79720": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25575,27 +25411,6 @@
     }
   },
   "79779": {
-    "corequisites": [
-      "ARCH-4320",
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79780": {
     "corequisites": [
       "ARCH-4320",
       "ARCH-4540"
@@ -27820,23 +27635,6 @@
       "type": "and"
     }
   },
-  "80544": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "80545": {},
   "80546": {},
   "80547": {},
@@ -28403,6 +28201,25 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80608": {},
+  "80609": {},
+  "80610": {},
+  "80611": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80612": {},
+  "80613": {},
+  "80614": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
