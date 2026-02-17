@@ -985,6 +985,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -994,6 +997,9 @@
   "77031": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -1005,6 +1011,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -1014,6 +1023,9 @@
   "77033": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -2574,6 +2586,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -2833,7 +2848,11 @@
       }
     }
   },
-  "77212": {},
+  "77212": {
+    "cross_list_courses": [
+      "MTLE-6050"
+    ]
+  },
   "77213": {
     "prerequisites": {
       "nested": [
@@ -3167,13 +3186,20 @@
   },
   "77253": {},
   "77254": {
+    "cross_list_courses": [
+      "MGMT-6640"
+    ],
     "prerequisites": {
       "course": "MGMT 1100",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "77255": {},
+  "77255": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ]
+  },
   "77256": {
     "prerequisites": {
       "course": "ENVE 4320",
@@ -5078,6 +5104,9 @@
     }
   },
   "77455": {
+    "cross_list_courses": [
+      "MGMT-4510"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -5153,6 +5182,9 @@
   "77462": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -6414,6 +6446,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -6423,6 +6458,9 @@
   "77641": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -6611,6 +6649,9 @@
   "77682": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -8892,6 +8933,9 @@
     }
   },
   "77973": {
+    "cross_list_courses": [
+      "MGMT-6550"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "min_grade": "D",
@@ -11460,6 +11504,9 @@
     }
   },
   "78206": {
+    "cross_list_courses": [
+      "MGMT-6800"
+    ],
     "prerequisites": {
       "course": "MGMT 2430",
       "min_grade": "D",
@@ -12270,6 +12317,9 @@
     }
   },
   "78291": {
+    "cross_list_courses": [
+      "MGMT-4460"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -12490,6 +12540,9 @@
   },
   "78313": {},
   "78314": {
+    "cross_list_courses": [
+      "MGMT-4470"
+    ],
     "prerequisites": {
       "course": "MGMT 6100",
       "min_grade": "C",
@@ -13046,6 +13099,9 @@
     }
   },
   "78344": {
+    "cross_list_courses": [
+      "PHIL-4480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13742,6 +13798,9 @@
     }
   },
   "78423": {
+    "cross_list_courses": [
+      "PHIL-4480"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15731,6 +15790,9 @@
     }
   },
   "78585": {
+    "cross_list_courses": [
+      "MTLE-4050"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16213,6 +16275,9 @@
     }
   },
   "78625": {
+    "cross_list_courses": [
+      "PHIL-1110"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -17238,6 +17303,9 @@
     }
   },
   "78731": {
+    "cross_list_courses": [
+      "MGMT-6260"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17264,6 +17332,9 @@
     }
   },
   "78733": {
+    "cross_list_courses": [
+      "MGMT-4540"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19910,26 +19981,6 @@
       }
     }
   },
-  "78974": {
-    "corequisites": [
-      "ARCH-2540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2810",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2530",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "78975": {
     "prerequisites": {
       "course": "ARCH 4100",
@@ -20460,6 +20511,9 @@
     }
   },
   "79020": {
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20492,6 +20546,9 @@
     }
   },
   "79021": {
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20524,6 +20581,9 @@
     }
   },
   "79022": {
+    "cross_list_courses": [
+      "PHYS-1250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20920,6 +20980,9 @@
     }
   },
   "79063": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20992,6 +21055,9 @@
     }
   },
   "79064": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22311,6 +22377,9 @@
     }
   },
   "79188": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22323,6 +22392,9 @@
     ]
   },
   "79190": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22340,6 +22412,9 @@
     ]
   },
   "79193": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22352,6 +22427,9 @@
     ]
   },
   "79195": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22359,6 +22437,9 @@
     }
   },
   "79196": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22371,6 +22452,9 @@
     ]
   },
   "79198": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22388,6 +22472,9 @@
     ]
   },
   "79201": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22395,6 +22482,9 @@
     }
   },
   "79202": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22407,6 +22497,9 @@
     ]
   },
   "79204": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -22944,7 +23037,6 @@
       }
     }
   },
-  "79272": {},
   "79273": {
     "restrictions": {
       "classification": {
@@ -22958,12 +23050,22 @@
   },
   "79275": {},
   "79276": {},
-  "79278": {},
+  "79278": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-6961"
+    ]
+  },
   "79279": {
     "cross_list_courses": [
       "COGS-4962",
       "COGS-6962",
-      "CSCI-6967"
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
     ]
   },
   "79280": {},
@@ -23461,8 +23563,16 @@
   "79358": {},
   "79359": {},
   "79360": {},
-  "79361": {},
-  "79362": {},
+  "79361": {
+    "cross_list_courses": [
+      "MGMT-4550"
+    ]
+  },
+  "79362": {
+    "cross_list_courses": [
+      "MGMT-4550"
+    ]
+  },
   "79363": {
     "restrictions": {
       "classification": {
@@ -24121,14 +24231,18 @@
     "cross_list_courses": [
       "COGS-6962",
       "CSCI-4972",
-      "CSCI-6967"
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
     ]
   },
   "79607": {
     "cross_list_courses": [
       "COGS-4962",
       "CSCI-4972",
-      "CSCI-6967"
+      "CSCI-6967",
+      "PHIL-4961",
+      "PHIL-6961"
     ],
     "restrictions": {
       "level": {
@@ -24524,31 +24638,6 @@
   },
   "79673": {},
   "79674": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79675": {
-    "cross_list_courses": [
-      "BMED-6660"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "79676": {
-    "cross_list_courses": [
-      "BMED-4660"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25485,64 +25574,6 @@
       "type": "and"
     }
   },
-  "79777": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "cross_list_courses": [
-      "ARCH-4320",
-      "ARCH-5320"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79778": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "cross_list_courses": [
-      "ARCH-4320",
-      "ARCH-5320"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79779": {
     "corequisites": [
       "ARCH-4320",
@@ -25619,6 +25650,9 @@
     }
   },
   "79785": {
+    "cross_list_courses": [
+      "MGMT-4960"
+    ],
     "prerequisites": {
       "course": "MGMT 6520",
       "min_grade": "C",
@@ -26209,6 +26243,13 @@
     }
   },
   "79849": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26221,7 +26262,9 @@
     "cross_list_courses": [
       "COGS-4962",
       "COGS-6962",
-      "CSCI-4972"
+      "CSCI-4972",
+      "PHIL-4961",
+      "PHIL-6961"
     ],
     "restrictions": {
       "level": {
@@ -26946,7 +26989,11 @@
       "PHYS-1100"
     ]
   },
-  "80187": {},
+  "80187": {
+    "cross_list_courses": [
+      "MGMT-6510"
+    ]
+  },
   "80188": {
     "restrictions": {
       "classification": {
@@ -27492,13 +27539,6 @@
   "80488": {},
   "80489": {},
   "80490": {},
-  "80491": {
-    "prerequisites": {
-      "course": "ARCH 4770",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "80492": {},
   "80493": {},
   "80494": {},
@@ -27763,21 +27803,6 @@
       "type": "course"
     }
   },
-  "80540": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "80541": {
-    "prerequisites": {
-      "course": "ARCH 4100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "80542": {},
   "80543": {
     "prerequisites": {
       "nested": [
@@ -27820,6 +27845,9 @@
     "corequisites": [
       "PHYS-1101"
     ],
+    "cross_list_courses": [
+      "PHYS-1110"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -27829,6 +27857,9 @@
   "80550": {
     "corequisites": [
       "PHYS-1101"
+    ],
+    "cross_list_courses": [
+      "PHYS-1110"
     ],
     "prerequisites": {
       "course": "MATH 1010",
@@ -27949,6 +27980,9 @@
     }
   },
   "80562": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -27956,6 +27990,9 @@
     }
   },
   "80563": {
+    "cross_list_courses": [
+      "PHYS-1100"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
@@ -28286,5 +28323,86 @@
       "type": "course"
     }
   },
-  "80599": {}
+  "80599": {},
+  "80600": {},
+  "80601": {},
+  "80602": {
+    "prerequisites": {
+      "course": "BMED 2540",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80603": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80604": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BMED 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2530",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BMED 2540",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80605": {
+    "prerequisites": {
+      "course": "BMED 2540",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "80606": {
+    "corequisites": [
+      "ARCH-4820"
+    ]
+  },
+  "80607": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
