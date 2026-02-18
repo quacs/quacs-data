@@ -25161,31 +25161,6 @@
   "79755": {},
   "79756": {},
   "79757": {},
-  "79758": {
-    "cross_list_courses": [
-      "ECSE-6650"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "79759": {
-    "cross_list_courses": [
-      "ECSE-4963"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79760": {},
   "79761": {},
   "79762": {},
@@ -28169,6 +28144,32 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80638": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80639": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
