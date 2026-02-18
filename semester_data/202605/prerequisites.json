@@ -1308,9 +1308,7 @@
     }
   },
   "23741": {
-    "cross_list_courses": [
-      "MATH-4150"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -2206,21 +2204,6 @@
       "course": "PHYS 2210",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "23816": {
-    "prerequisites": {
-      "course": "MATH 2010",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Applied Mathematics",
-          "Mathematics"
-        ]
-      }
     }
   },
   "23817": {
@@ -3733,36 +3716,6 @@
       "type": "and"
     }
   },
-  "24032": {
-    "cross_list_courses": [
-      "CSCI-4260"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4090",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "24033": {
     "cross_list_courses": [
       "CSCI-2300"
@@ -3879,13 +3832,6 @@
     ],
     "prerequisites": {
       "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "24037": {
-    "prerequisites": {
-      "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
     }
