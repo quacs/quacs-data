@@ -3569,7 +3569,6 @@
   },
   "77285": {
     "cross_list_courses": [
-      "ARCH-2330",
       "ARCH-5140"
     ],
     "prerequisites": {
@@ -14763,6 +14762,11 @@
           "Freshman",
           "Sophomore"
         ]
+      },
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design"
+        ]
       }
     }
   },
@@ -18158,7 +18162,6 @@
     ]
   },
   "78786": {
-    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21671,21 +21674,6 @@
       }
     }
   },
-  "79148": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79149": {},
   "79150": {},
   "79151": {
@@ -22851,17 +22839,6 @@
     }
   },
   "79267": {},
-  "79268": {
-    "cross_list_courses": [
-      "ARCH-2330",
-      "ARCH-5140"
-    ],
-    "prerequisites": {
-      "course": "ARCH 2510",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "79269": {
     "cross_list_courses": [
       "CSCI-6968",
@@ -23553,15 +23530,6 @@
   "79393": {},
   "79394": {},
   "79395": {},
-  "79396": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79397": {
     "restrictions": {
       "major": {
@@ -23837,7 +23805,6 @@
   "79520": {},
   "79521": {},
   "79522": {},
-  "79523": {},
   "79524": {},
   "79525": {},
   "79526": {},
@@ -24026,15 +23993,6 @@
     }
   },
   "79602": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79603": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -26581,8 +26539,6 @@
   "80092": {},
   "80093": {},
   "80094": {},
-  "80095": {},
-  "80096": {},
   "80097": {},
   "80098": {},
   "80099": {},
@@ -26594,7 +26550,6 @@
   "80105": {},
   "80106": {},
   "80107": {},
-  "80108": {},
   "80109": {},
   "80110": {},
   "80111": {},
@@ -26800,33 +26755,6 @@
   },
   "80190": {},
   "80191": {},
-  "80192": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80193": {},
   "80194": {},
   "80195": {},
@@ -27068,7 +26996,6 @@
   "80242": {},
   "80243": {},
   "80244": {},
-  "80245": {},
   "80246": {
     "restrictions": {
       "classification": {
@@ -27821,7 +27748,15 @@
     "cross_list_courses": [
       "LITR-4826",
       "LITR-6826"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Communication, Media, & Design",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "80571": {
     "cross_list_courses": [
@@ -28238,5 +28173,68 @@
       }
     }
   },
-  "80624": {}
+  "80624": {},
+  "80625": {},
+  "80626": {},
+  "80627": {},
+  "80628": {},
+  "80629": {},
+  "80630": {
+    "prerequisites": {
+      "course": "MATH 2010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80631": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80632": {
+    "prerequisites": {
+      "course": "ARTS 1380",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80633": {
+    "prerequisites": {
+      "course": "ARTS 2380",
+      "min_grade": "D",
+      "type": "course"
+    }
+  }
 }
