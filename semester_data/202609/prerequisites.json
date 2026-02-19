@@ -17400,13 +17400,6 @@
       }
     }
   },
-  "78738": {
-    "prerequisites": {
-      "course": "ARTS 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "78739": {},
   "78740": {},
   "78741": {},
@@ -20512,41 +20505,6 @@
     }
   },
   "79020": {
-    "cross_list_courses": [
-      "PHYS-1250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 1020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79021": {
     "cross_list_courses": [
       "PHYS-1250"
     ],
@@ -27431,6 +27389,9 @@
     }
   },
   "80561": {
+    "cross_list_courses": [
+      "PHYS-6960"
+    ],
     "prerequisites": {
       "course": "PHYS 4220",
       "min_grade": "D",
@@ -28291,5 +28252,56 @@
       }
     }
   },
-  "80656": {}
+  "80656": {},
+  "80657": {},
+  "80658": {},
+  "80659": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80660": {
+    "cross_list_courses": [
+      "PHYS-4720"
+    ]
+  },
+  "80661": {
+    "cross_list_courses": [
+      "PHYS-4110",
+      "PHYS-6962"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4420",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80662": {
+    "cross_list_courses": [
+      "ASTR-4110",
+      "PHYS-6962"
+    ],
+    "prerequisites": {
+      "course": "PHYS 4420",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80663": {
+    "cross_list_courses": [
+      "ASTR-4110",
+      "PHYS-4110"
+    ]
+  }
 }
