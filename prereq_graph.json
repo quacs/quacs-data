@@ -4263,9 +4263,7 @@
   },
   "CSCI 4965": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4966": {
     "title": "Topics In Csci",
@@ -14134,7 +14132,9 @@
   "CSCI 4230": {
     "title": "Cryptography And Network Security I",
     "prereqs": [
-      "CSCI 2300"
+      "CSCI 2500",
+      "CSCI 2800",
+      "CSCI 4210"
     ]
   },
   "CSCI 4350": {
@@ -14146,7 +14146,9 @@
   },
   "CSCI 6230": {
     "title": "Cryptography And Network Security I",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300"
+    ]
   },
   "CSCI 6350": {
     "title": "Data Science",
@@ -15834,9 +15836,7 @@
   },
   "CSCI 6340": {
     "title": "Ontologies",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "ENGR 1700": {
     "title": "Introduction To Better World Engineering",
@@ -19385,6 +19385,17 @@
   },
   "COGS 6450": {
     "title": "Non-classical Logic",
+    "prereqs": []
+  },
+  "CSCI 4610": {
+    "title": "Computing & Quantum Computing",
+    "prereqs": [
+      "CSCI 2210",
+      "CSCI 2300"
+    ]
+  },
+  "CSCI 6610": {
+    "title": "Computing & Quantum Computing",
     "prereqs": []
   },
   "GSAS 2120": {

@@ -2357,6 +2357,13 @@
     }
   },
   "77128": {},
+  "77129": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "77130": {
     "restrictions": {
       "level": {
@@ -11935,11 +11942,6 @@
   "78270": {},
   "78272": {},
   "78274": {
-    "cross_list_courses": [
-      "ECSE-4964",
-      "ECSE-6964",
-      "ISYE-6964"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13354,6 +13356,15 @@
       }
     }
   },
+  "78393": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "78394": {
     "restrictions": {
       "classification": {
@@ -14065,6 +14076,15 @@
       "course": "ARTS 1030",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "78457": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "78459": {
@@ -20723,11 +20743,6 @@
     ]
   },
   "79049": {},
-  "79050": {
-    "cross_list_courses": [
-      "CSCI-6975"
-    ]
-  },
   "79051": {
     "cross_list_courses": [
       "CSCI-4975"
@@ -22343,6 +22358,13 @@
       }
     }
   },
+  "79235": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "79240": {
     "restrictions": {
       "level": {
@@ -22388,7 +22410,6 @@
   },
   "79247": {
     "cross_list_courses": [
-      "CSCI-6968",
       "ECSE-6964",
       "ISYE-6964"
     ],
@@ -22403,7 +22424,6 @@
   },
   "79248": {
     "cross_list_courses": [
-      "CSCI-6968",
       "ECSE-4964",
       "ISYE-6964"
     ],
@@ -22613,7 +22633,6 @@
   "79267": {},
   "79269": {
     "cross_list_courses": [
-      "CSCI-6968",
       "ECSE-4964",
       "ECSE-6964"
     ],
@@ -24643,16 +24662,6 @@
   "79728": {},
   "79729": {},
   "79730": {},
-  "79732": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79733": {
     "prerequisites": {
       "nested": [
@@ -24766,18 +24775,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "79740": {
-    "cross_list_courses": [
-      "CSCI-4500"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "79742": {},
@@ -26378,15 +26375,9 @@
       }
     }
   },
-  "80206": {
-    "cross_list_courses": [
-      "CSCI-6971"
-    ]
-  },
+  "80206": {},
   "80207": {
-    "cross_list_courses": [
-      "CSCI-4968"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -28350,6 +28341,189 @@
       "course": "MATH 2010",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "80686": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80687": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80688": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2800",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 2660",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80689": {
+    "prerequisites": {
+      "course": "CSCI 4210",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80690": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80691": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80692": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80693": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80694": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80695": {},
+  "80696": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
