@@ -3383,13 +3383,6 @@
       "type": "course"
     }
   },
-  "77267": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
   "77268": {
     "cross_list_courses": [
       "CSCI-2300"
@@ -11492,13 +11485,6 @@
       "type": "course"
     }
   },
-  "78207": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
-    }
-  },
   "78208": {},
   "78210": {
     "restrictions": {
@@ -11865,13 +11851,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "78252": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
     }
   },
   "78254": {
@@ -12716,6 +12695,9 @@
     }
   },
   "78320": {
+    "cross_list_courses": [
+      "ECON-6190"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12847,13 +12829,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "78330": {
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "C-",
-      "type": "course"
     }
   },
   "78331": {
@@ -13747,6 +13722,9 @@
     }
   },
   "78419": {
+    "cross_list_courses": [
+      "ECON-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19594,6 +19572,43 @@
       }
     }
   },
+  "78941": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1500",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 1020",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "78948": {
     "cross_list_courses": [
       "CSCI-6100"
@@ -20341,7 +20356,9 @@
     }
   },
   "78999": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "ECON-4010"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25002,14 +25019,6 @@
   "79753": {},
   "79754": {},
   "79755": {},
-  "79756": {},
-  "79757": {},
-  "79760": {},
-  "79761": {},
-  "79762": {},
-  "79763": {},
-  "79764": {},
-  "79765": {},
   "79766": {
     "cross_list_courses": [
       "ECSE-6967"
@@ -27580,6 +27589,9 @@
     }
   },
   "80585": {
+    "cross_list_courses": [
+      "ECON-6190"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27608,6 +27620,9 @@
     ]
   },
   "80589": {
+    "cross_list_courses": [
+      "ECON-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27661,6 +27676,9 @@
     }
   },
   "80592": {
+    "cross_list_courses": [
+      "ECON-6110"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27712,6 +27730,9 @@
     }
   },
   "80594": {
+    "cross_list_courses": [
+      "ECON-4110"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27847,7 +27868,6 @@
       }
     }
   },
-  "80608": {},
   "80609": {},
   "80610": {},
   "80611": {
@@ -28357,8 +28377,31 @@
     }
   },
   "80669": {
+    "cross_list_courses": [
+      "ECON-6010"
+    ],
     "prerequisites": {
       "course": "ECON 2010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80670": {
+    "corequisites": [
+      "ARCH-5380"
+    ],
+    "prerequisites": {
+      "course": "ARCH 6620",
+      "min_grade": "B",
+      "type": "course"
+    }
+  },
+  "80671": {
+    "corequisites": [
+      "ARCH-6630"
+    ],
+    "prerequisites": {
+      "course": "ARCH 6630",
       "min_grade": "D",
       "type": "course"
     }
