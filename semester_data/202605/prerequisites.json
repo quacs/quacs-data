@@ -179,7 +179,6 @@
   "23631": {},
   "23632": {},
   "23633": {},
-  "23640": {},
   "23641": {
     "restrictions": {
       "major": {
@@ -1278,9 +1277,6 @@
     }
   },
   "23740": {
-    "cross_list_courses": [
-      "CSCI-4210"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -1297,44 +1293,6 @@
             },
             {
               "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23741": {
-    "cross_list_courses": [],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CSCI 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 4090",
               "min_grade": "D",
               "type": "course"
             }
@@ -1385,9 +1343,6 @@
     }
   },
   "23744": {
-    "cross_list_courses": [
-      "CSCI-2600"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -1434,36 +1389,6 @@
           "course": "MATH 1010",
           "min_grade": "D",
           "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23749": {
-    "cross_list_courses": [
-      "CSCI-4210"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
         }
       ],
       "type": "and"
@@ -1743,33 +1668,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "23775": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2700",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "23777": {
@@ -2171,34 +2069,6 @@
       "type": "or"
     }
   },
-  "23813": {
-    "cross_list_courses": [
-      "CSCI-2600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
   "23814": {
     "prerequisites": {
       "course": "PHYS 2210",
@@ -2320,13 +2190,6 @@
       "type": "and"
     }
   },
-  "23821": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23823": {},
   "23824": {
     "restrictions": {
@@ -2403,13 +2266,6 @@
       "type": "and"
     }
   },
-  "23829": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23830": {
     "restrictions": {
       "campus": {
@@ -2447,33 +2303,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "23840": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2700",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "23841": {},
@@ -2627,60 +2456,6 @@
         },
         {
           "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "23864": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2700",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "23868": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2700",
           "min_grade": "D",
           "type": "course"
         }
@@ -3089,73 +2864,6 @@
           "Hartford"
         ]
       }
-    }
-  },
-  "23912": {
-    "cross_list_courses": [
-      "CSCI-4210"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23913": {
-    "cross_list_courses": [
-      "CSCI-4210"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23914": {
-    "prerequisites": {
-      "course": "CSCI 2200",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "23915": {},
@@ -3638,198 +3346,7 @@
       "type": "or"
     }
   },
-  "24029": {
-    "cross_list_courses": [
-      "CSCI-2600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "24030": {
-    "cross_list_courses": [
-      "CSCI-2600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
-  "24031": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "24033": {
-    "cross_list_courses": [
-      "CSCI-2300"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "24034": {
-    "cross_list_courses": [
-      "CSCI-2300"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "C-",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2800",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1020",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "24035": {
-    "cross_list_courses": [
-      "CSCI-4150"
-    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -3845,16 +3362,6 @@
   "24041": {
     "prerequisites": {
       "course": "CHEM 2250",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "24044": {
-    "cross_list_courses": [
-      "CSCI-4150"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
     }
@@ -3987,6 +3494,13 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "24089": {
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
