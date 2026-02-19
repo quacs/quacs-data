@@ -14563,11 +14563,6 @@
     }
   },
   "78490": {},
-  "78492": {
-    "cross_list_courses": [
-      "GSAS-2510"
-    ]
-  },
   "78493": {
     "restrictions": {
       "classification": {
@@ -17382,9 +17377,7 @@
     }
   },
   "78735": {
-    "cross_list_courses": [
-      "GSAS-4100"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21690,16 +21683,6 @@
       "type": "or"
     }
   },
-  "79155": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
   "79156": {
     "prerequisites": {
       "course": "MGMT 1100",
@@ -22126,28 +22109,6 @@
     "corequisites": [
       "PHYS-1100"
     ]
-  },
-  "79181": {
-    "cross_list_courses": [
-      "CHEM-6300"
-    ],
-    "prerequisites": {
-      "course": "CHEM 2260",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "79182": {
-    "cross_list_courses": [
-      "CHEM-4300"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
   },
   "79183": {
     "corequisites": [
@@ -24146,21 +24107,6 @@
       "type": "course"
     }
   },
-  "79627": {
-    "cross_list_courses": [
-      "GSAS-2510"
-    ]
-  },
-  "79628": {
-    "cross_list_courses": [
-      "GSAS-2510"
-    ]
-  },
-  "79629": {
-    "cross_list_courses": [
-      "GSAS-2510"
-    ]
-  },
   "79630": {
     "cross_list_courses": [
       "GSAS-2540"
@@ -24563,15 +24509,6 @@
         "must_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "79693": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -27599,6 +27536,9 @@
   "80576": {},
   "80578": {},
   "80580": {
+    "cross_list_courses": [
+      "ECON-6340"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27621,6 +27561,9 @@
     }
   },
   "80581": {
+    "cross_list_courses": [
+      "ECON-4340"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27682,11 +27625,6 @@
       ],
       "type": "or"
     }
-  },
-  "80586": {
-    "cross_list_courses": [
-      "GSAS-6200"
-    ]
   },
   "80587": {},
   "80588": {
@@ -28289,5 +28227,69 @@
         ]
       }
     }
-  }
+  },
+  "80645": {},
+  "80646": {},
+  "80647": {},
+  "80648": {
+    "prerequisites": {
+      "course": "CHEM 2250",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80649": {
+    "prerequisites": {
+      "course": "ARTS 1040",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80650": {},
+  "80651": {
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80652": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80653": {
+    "cross_list_courses": [
+      "COGS-6450"
+    ],
+    "prerequisites": {
+      "course": "PHIL 2140",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80654": {
+    "prerequisites": {
+      "course": "CHEM 2260",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80655": {
+    "cross_list_courses": [
+      "PHIL-4450"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80656": {}
 }
