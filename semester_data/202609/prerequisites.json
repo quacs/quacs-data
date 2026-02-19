@@ -25003,46 +25003,6 @@
       "type": "course"
     }
   },
-  "79738": {
-    "cross_list_courses": [
-      "ECSE-6170"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "nested": [
-                {
-                  "course": "MATH 2010",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "or"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79739": {
     "cross_list_courses": [
       "CSCI-6500"
@@ -25081,18 +25041,6 @@
   "79740": {
     "cross_list_courses": [
       "CSCI-4500"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79741": {
-    "cross_list_courses": [
-      "ECSE-4170"
     ],
     "restrictions": {
       "level": {
@@ -25183,26 +25131,6 @@
   "79767": {
     "cross_list_courses": [
       "ECSE-4967"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79768": {
-    "cross_list_courses": [
-      "ECSE-6140"
-    ]
-  },
-  "79769": {
-    "corequisites": [
-      "ECSE-6110"
-    ],
-    "cross_list_courses": [
-      "ECSE-4966"
     ],
     "restrictions": {
       "level": {
@@ -28171,5 +28099,13 @@
       ],
       "type": "or"
     }
-  }
+  },
+  "80640": {
+    "prerequisites": {
+      "course": "ECSE 6190",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80642": {}
 }
