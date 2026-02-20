@@ -2860,32 +2860,6 @@
       "MTLE-6050"
     ]
   },
-  "77213": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 2010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore",
-          "Senior"
-        ]
-      }
-    }
-  },
   "77214": {
     "restrictions": {
       "level": {
@@ -24516,16 +24490,6 @@
       "type": "or"
     }
   },
-  "79705": {
-    "cross_list_courses": [
-      "CHME-6960"
-    ]
-  },
-  "79706": {
-    "cross_list_courses": [
-      "CHME-4960"
-    ]
-  },
   "79714": {
     "prerequisites": {
       "course": "ASTR 2050",
@@ -24991,17 +24955,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "79787": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -26351,7 +26304,6 @@
       "type": "and"
     }
   },
-  "80213": {},
   "80214": {},
   "80215": {},
   "80217": {
@@ -28566,6 +28518,31 @@
   "80710": {
     "prerequisites": {
       "course": "MATH 4090",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80711": {
+    "cross_list_courses": [
+      "CHME-6960"
+    ]
+  },
+  "80712": {
+    "cross_list_courses": [
+      "CHME-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80713": {},
+  "80714": {
+    "prerequisites": {
+      "course": "ARTS 2230",
       "min_grade": "D",
       "type": "course"
     }
