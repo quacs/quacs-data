@@ -2364,15 +2364,6 @@
       "type": "course"
     }
   },
-  "77130": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77131": {
     "cross_list_courses": [
       "MATH-1500"
@@ -4094,6 +4085,9 @@
     }
   },
   "77361": {
+    "cross_list_courses": [
+      "CSCI-6800"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -4203,6 +4197,9 @@
     }
   },
   "77365": {
+    "cross_list_courses": [
+      "MATH-6800"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15733,33 +15730,6 @@
       "type": "course"
     }
   },
-  "78603": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "and"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "78604": {
     "cross_list_courses": [
       "MATP-6600"
@@ -16804,21 +16774,6 @@
       "course": "PHYS 2210",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "78700": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Junior",
-          "Senior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Mathematics"
-        ]
-      }
     }
   },
   "78701": {
@@ -20244,46 +20199,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "79001": {
-    "cross_list_courses": [
-      "MATH-2010"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "79002": {
-    "cross_list_courses": [
-      "MATH-2010"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "79003": {
-    "cross_list_courses": [
-      "MATH-2010"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "79004": {
-    "cross_list_courses": [
-      "MATH-2010"
-    ],
-    "prerequisites": {
-      "course": "MATH 1020",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "79005": {
@@ -27636,6 +27551,9 @@
     }
   },
   "80631": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -28545,6 +28463,47 @@
       "course": "ARTS 2230",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "80715": {},
+  "80716": {
+    "cross_list_courses": [
+      "MATH-4800"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
     }
   }
 }
