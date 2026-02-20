@@ -16109,13 +16109,6 @@
       "type": "course"
     }
   },
-  "78624": {
-    "prerequisites": {
-      "course": "ERTH 2210",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "78625": {
     "cross_list_courses": [
       "PHIL-1110"
@@ -16145,7 +16138,6 @@
       }
     }
   },
-  "78628": {},
   "78629": {},
   "78630": {
     "prerequisites": {
@@ -17044,13 +17036,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "78716": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "78718": {},
@@ -18653,7 +18638,8 @@
       "major": {
         "must_be": [
           "Environmental Science",
-          "Geology"
+          "Geology",
+          "Hydrogeology"
         ]
       }
     }
@@ -23494,23 +23480,6 @@
       }
     }
   },
-  "79462": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 4780",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 4830",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "79463": {},
   "79464": {},
   "79465": {},
@@ -25037,38 +25006,6 @@
       }
     }
   },
-  "79788": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BIOL 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79791": {},
   "79792": {
     "restrictions": {
@@ -25482,35 +25419,6 @@
     }
   },
   "79838": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79840": {
-    "cross_list_courses": [
-      "ERTH-6080"
-    ],
-    "prerequisites": {
-      "course": "ERTH 2140",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
-  "79841": {
-    "cross_list_courses": [
-      "ERTH-4080"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27709,8 +27617,21 @@
       "type": "course"
     }
   },
-  "80620": {},
+  "80620": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-6967",
+      "PHIL-4961"
+    ]
+  },
   "80621": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "PHIL-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27719,8 +27640,21 @@
       }
     }
   },
-  "80622": {},
+  "80622": {
+    "cross_list_courses": [
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-4961"
+    ]
+  },
   "80623": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "CSCI-4972",
+      "CSCI-6967",
+      "PHIL-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27729,7 +27663,14 @@
       }
     }
   },
-  "80624": {},
+  "80624": {
+    "cross_list_courses": [
+      "COGS-4962",
+      "COGS-6962",
+      "CSCI-4972",
+      "CSCI-6967"
+    ]
+  },
   "80625": {},
   "80626": {},
   "80627": {},
@@ -28576,6 +28517,48 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80707": {},
+  "80708": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80709": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1125",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology",
+          "Hydrogeology"
         ]
       }
     }
