@@ -5030,15 +5030,6 @@
       }
     }
   },
-  "77461": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77462": {
     "corequisites": [
       "PHYS-1101"
@@ -9353,15 +9344,6 @@
       "min_grade": "C",
       "type": "course"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "78032": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -22680,7 +22662,6 @@
     }
   },
   "79304": {},
-  "79305": {},
   "79306": {
     "restrictions": {
       "level": {
@@ -28635,6 +28616,28 @@
     "restrictions": {
       "level": {
         "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80729": {
+    "prerequisites": {
+      "course": "MGMT 2430",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80730": {},
+  "80731": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
           "Graduate"
         ]
       }
