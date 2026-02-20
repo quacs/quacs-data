@@ -16525,106 +16525,6 @@
       "type": "and"
     }
   },
-  "78669": {
-    "cross_list_courses": [
-      "MANE-4740"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "78670": {
-    "cross_list_courses": [
-      "MANE-4740"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "78671": {
-    "cross_list_courses": [
-      "MANE-4740"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "78672": {
-    "cross_list_courses": [
-      "MANE-4740"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "78675": {},
   "78676": {},
   "78677": {},
@@ -22282,6 +22182,7 @@
   },
   "79247": {
     "cross_list_courses": [
+      "CSCI-6970",
       "ECSE-6964",
       "ISYE-6964"
     ],
@@ -22296,6 +22197,7 @@
   },
   "79248": {
     "cross_list_courses": [
+      "CSCI-6970",
       "ECSE-4964",
       "ISYE-6964"
     ],
@@ -22505,6 +22407,7 @@
   "79267": {},
   "79269": {
     "cross_list_courses": [
+      "CSCI-6970",
       "ECSE-4964",
       "ECSE-6964"
     ],
@@ -22574,6 +22477,20 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "79274": {
+    "cross_list_courses": [
+      "ECSE-4964",
+      "ECSE-6964",
+      "ISYE-6964"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -28665,6 +28582,31 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80732": {
+    "corequisites": [
+      "ARCH-4820"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 2350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 2360",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
