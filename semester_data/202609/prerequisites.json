@@ -24218,6 +24218,13 @@
     }
   },
   "79685": {},
+  "79686": {
+    "cross_list_courses": [
+      "ENGR-6962",
+      "ISYE-4962",
+      "ISYE-6962"
+    ]
+  },
   "79688": {
     "restrictions": {
       "level": {
@@ -28504,6 +28511,133 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "80717": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2430",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80718": {
+    "prerequisites": {
+      "course": "MGMT 2320",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80719": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80720": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80721": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80722": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80723": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80725": {
+    "cross_list_courses": [
+      "ENGR-4963",
+      "ENGR-6962",
+      "ISYE-6962"
+    ]
+  },
+  "80726": {
+    "cross_list_courses": [
+      "ENGR-4963",
+      "ENGR-6962",
+      "ISYE-4962"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80727": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80728": {
+    "cross_list_courses": [
+      "ENGR-4963",
+      "ISYE-4962",
+      "ISYE-6962"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
