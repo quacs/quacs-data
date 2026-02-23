@@ -15502,7 +15502,11 @@
     }
   },
   "78560": {},
-  "78561": {},
+  "78561": {
+    "cross_list_courses": [
+      "COGS-2340"
+    ]
+  },
   "78562": {
     "cross_list_courses": [
       "MGMT-4190"
@@ -16677,15 +16681,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
     }
   },
   "78702": {
@@ -27251,7 +27246,11 @@
     }
   },
   "80609": {},
-  "80610": {},
+  "80610": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ]
+  },
   "80611": {
     "prerequisites": {
       "course": "ARCH 2830",
@@ -27259,8 +27258,32 @@
       "type": "course"
     }
   },
-  "80612": {},
-  "80613": {},
+  "80612": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
+    }
+  },
+  "80613": {
+    "cross_list_courses": [
+      "COGS-2340"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
+    }
+  },
   "80614": {
     "prerequisites": {
       "course": "PSYC 1200",
