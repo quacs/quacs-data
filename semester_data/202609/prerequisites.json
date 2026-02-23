@@ -24229,16 +24229,6 @@
       "type": "and"
     }
   },
-  "79697": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering"
-        ]
-      }
-    }
-  },
   "79698": {
     "cross_list_courses": [
       "MANE-6150"
@@ -28706,6 +28696,64 @@
   "80807": {
     "prerequisites": {
       "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80808": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2720",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 2110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80809": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80810": {
+    "prerequisites": {
+      "course": "MANE 2710",
       "min_grade": "D",
       "type": "course"
     }
