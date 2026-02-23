@@ -22137,15 +22137,6 @@
       "type": "course"
     }
   },
-  "79240": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79241": {},
   "79242": {
     "cross_list_courses": [
@@ -24380,8 +24371,6 @@
   },
   "79727": {},
   "79728": {},
-  "79729": {},
-  "79730": {},
   "79733": {
     "prerequisites": {
       "nested": [
@@ -24453,41 +24442,6 @@
           "Information Tech & Web Science"
         ]
       }
-    }
-  },
-  "79739": {
-    "cross_list_courses": [
-      "CSCI-6500"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4430",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 4210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2800",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4220",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "79742": {},
@@ -28476,7 +28430,6 @@
       "type": "course"
     }
   },
-  "80730": {},
   "80731": {
     "restrictions": {
       "classification": {
@@ -28744,6 +28697,17 @@
       "classification": {
         "may_not_be": [
           "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80815": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
           "Sophomore"
         ]
       }
