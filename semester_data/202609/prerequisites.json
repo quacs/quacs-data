@@ -1444,6 +1444,9 @@
     }
   },
   "77059": {
+    "cross_list_courses": [
+      "PSYC-2730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -4823,6 +4826,9 @@
     }
   },
   "77443": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -6300,7 +6306,11 @@
   "77643": {},
   "77644": {},
   "77645": {},
-  "77646": {},
+  "77646": {
+    "cross_list_courses": [
+      "PHIL-2140"
+    ]
+  },
   "77647": {
     "restrictions": {
       "level": {
@@ -13665,6 +13675,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Philosophy"
+        ]
+      }
     }
   },
   "78424": {},
@@ -14456,6 +14474,9 @@
   },
   "78509": {},
   "78510": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14473,6 +14494,9 @@
     }
   },
   "78511": {
+    "cross_list_courses": [
+      "PSYC-2310"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17016,7 +17040,6 @@
     }
   },
   "78735": {
-    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18283,6 +18306,9 @@
     }
   },
   "78853": {
+    "cross_list_courses": [
+      "PSYC-4370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -20505,6 +20531,9 @@
     }
   },
   "79045": {
+    "cross_list_courses": [
+      "COGS-6960"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -27237,6 +27266,9 @@
     ]
   },
   "80607": {
+    "cross_list_courses": [
+      "PSYC-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27292,13 +27324,35 @@
     }
   },
   "80615": {
+    "cross_list_courses": [
+      "PSYC-2730"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Psychological Science"
+        ]
+      }
     }
   },
-  "80616": {},
+  "80616": {
+    "cross_list_courses": [
+      "PHIL-2140"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Philosophy"
+        ]
+      }
+    }
+  },
   "80617": {},
   "80618": {},
   "80619": {
@@ -27782,7 +27836,12 @@
   "80664": {
     "cross_list_courses": [
       "PHYS-6530"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "80665": {
     "cross_list_courses": [
