@@ -22219,33 +22219,12 @@
       "type": "course"
     }
   },
-  "79250": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79251": {},
   "79252": {
     "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "79253": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Mechanical Engineering",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science"
         ]
       }
     }
@@ -24281,23 +24260,6 @@
       "course": "MANE 2710",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "79704": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 6660",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 6660",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "79714": {
@@ -28756,6 +28718,35 @@
       "course": "MANE 2710",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "80811": {},
+  "80812": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80813": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80814": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
