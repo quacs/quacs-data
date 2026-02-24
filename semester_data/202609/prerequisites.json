@@ -2146,15 +2146,6 @@
       }
     }
   },
-  "77109": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77110": {
     "cross_list_courses": [
       "ECSE-2610"
@@ -21114,37 +21105,6 @@
       }
     }
   },
-  "79134": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore",
-          "Senior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
   "79135": {
     "restrictions": {
       "level": {
@@ -24579,15 +24539,6 @@
     }
   },
   "79771": {},
-  "79772": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79773": {},
   "79774": {
     "corequisites": [
@@ -28817,5 +28768,17 @@
       }
     }
   },
-  "80816": {}
+  "80816": {},
+  "80817": {},
+  "80818": {},
+  "80819": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
