@@ -13838,7 +13838,6 @@
     "restrictions": {
       "major": {
         "must_be": [
-          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -14270,7 +14269,11 @@
       }
     }
   },
-  "78476": {},
+  "78476": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ]
+  },
   "78477": {
     "restrictions": {
       "campus": {
@@ -17054,6 +17057,9 @@
     }
   },
   "78735": {
+    "cross_list_courses": [
+      "GSAS-4961"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21275,7 +21281,11 @@
     }
   },
   "79149": {},
-  "79150": {},
+  "79150": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ]
+  },
   "79151": {
     "restrictions": {
       "major": {
@@ -26950,6 +26960,9 @@
     }
   },
   "80583": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -27103,6 +27116,9 @@
     }
   },
   "80593": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -27124,10 +27140,23 @@
     }
   },
   "80595": {
+    "cross_list_courses": [
+      "GSAS-2120"
+    ],
     "prerequisites": {
       "course": "ARTS 1040",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
     }
   },
   "80596": {
@@ -27702,9 +27731,22 @@
       }
     }
   },
-  "80645": {},
-  "80646": {},
-  "80647": {},
+  "80645": {
+    "cross_list_courses": [
+      "GSAS-4961",
+      "GSAS-6200"
+    ]
+  },
+  "80646": {
+    "cross_list_courses": [
+      "GSAS-2962"
+    ]
+  },
+  "80647": {
+    "cross_list_courses": [
+      "GSAS-2962"
+    ]
+  },
   "80648": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -27713,6 +27755,9 @@
     }
   },
   "80649": {
+    "cross_list_courses": [
+      "GSAS-2120"
+    ],
     "prerequisites": {
       "course": "ARTS 1040",
       "min_grade": "D",
@@ -28356,7 +28401,12 @@
       "type": "course"
     }
   },
-  "80715": {},
+  "80715": {
+    "cross_list_courses": [
+      "GSAS-4961",
+      "GSAS-6200"
+    ]
+  },
   "80716": {
     "cross_list_courses": [
       "MATH-4800"
