@@ -789,28 +789,6 @@
       "type": "and"
     }
   },
-  "23700": {
-    "cross_list_courses": [
-      "COMM-6880"
-    ],
-    "prerequisites": {
-      "course": "CSCI 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "23701": {
-    "cross_list_courses": [
-      "COMM-4880"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "23703": {
     "prerequisites": {
       "nested": [
@@ -971,27 +949,6 @@
       }
     }
   },
-  "23713": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4360"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23714": {
     "prerequisites": {
       "nested": [
@@ -1145,9 +1102,7 @@
     }
   },
   "23720": {
-    "cross_list_courses": [
-      "COGS-4420"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -1679,74 +1634,6 @@
       "type": "and"
     }
   },
-  "23780": {
-    "cross_list_courses": [],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23781": {
     "prerequisites": {
       "nested": [
@@ -2271,7 +2158,6 @@
     }
   },
   "23841": {},
-  "23842": {},
   "23843": {},
   "23844": {},
   "23845": {},
@@ -2352,7 +2238,6 @@
       }
     }
   },
-  "23862": {},
   "23869": {
     "restrictions": {
       "campus": {
@@ -2414,12 +2299,7 @@
       "GSAS-2560"
     ]
   },
-  "23886": {},
   "23887": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4360"
-    ],
     "prerequisites": {
       "nested": [
         {
@@ -2446,38 +2326,6 @@
       }
     }
   },
-  "23895": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4360"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biology",
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychology",
-          "Psychological Science"
-        ]
-      }
-    }
-  },
   "23896": {
     "prerequisites": {
       "nested": [
@@ -2495,175 +2343,8 @@
       "type": "or"
     }
   },
-  "23897": {
-    "cross_list_courses": [
-      "COGS-4360",
-      "PSYC-4360"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychology"
-        ]
-      }
-    }
-  },
-  "23898": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSH 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1240",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1250",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1320",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1240",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1250",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1320",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "23899": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23900": {},
   "23901": {},
-  "23902": {},
-  "23903": {},
-  "23904": {},
   "23905": {
     "prerequisites": {
       "nested": [
@@ -2755,7 +2436,6 @@
   "23920": {},
   "23923": {},
   "23925": {},
-  "23929": {},
   "23990": {
     "restrictions": {
       "campus": {
@@ -2775,61 +2455,8 @@
       }
     }
   },
-  "23995": {
-    "cross_list_courses": [
-      "CSCI-4961"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 2540",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23996": {
-    "cross_list_courses": [
-      "COGS-4700",
-      "PSYC-4700"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "23997": {
-    "cross_list_courses": [
-      "COGS-4700",
-      "PSYC-4700"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychology"
-        ]
-      }
-    }
-  },
-  "23998": {},
   "23999": {
     "cross_list_courses": [
-      "COGS-4961",
       "CSCI-4962",
       "GSAS-4960"
     ],
@@ -2846,111 +2473,6 @@
           "Computer Science"
         ]
       }
-    }
-  },
-  "24000": {
-    "cross_list_courses": [
-      "COGS-6960",
-      "CSCI-4962",
-      "GSAS-4960"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4840",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4850",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 4430",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "24001": {
-    "cross_list_courses": [],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2510",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2700",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1160",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 1110",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHIL 4240",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "24002": {
@@ -2995,7 +2517,6 @@
   },
   "24008": {
     "cross_list_courses": [
-      "COGS-4961",
       "COGS-6960",
       "CSCI-4962"
     ],
@@ -3036,43 +2557,10 @@
       "ARTS-4440"
     ]
   },
-  "24012": {
-    "cross_list_courses": [
-      "COGS-4700",
-      "PSYC-4700"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "24013": {
-    "cross_list_courses": [
-      "COGS-4700",
-      "PSYC-4700"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biological Neuroscience",
-          "Cognitive Science",
-          "Psychological Science"
-        ]
-      }
-    }
-  },
-  "24015": {},
   "24016": {},
   "24017": {},
   "24023": {
     "cross_list_courses": [
-      "COGS-4961",
       "COGS-6960",
       "GSAS-4960"
     ],
@@ -3157,7 +2645,6 @@
       "GSAS-2962"
     ]
   },
-  "24039": {},
   "24041": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -3166,33 +2653,6 @@
     }
   },
   "24045": {},
-  "24049": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1492",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1492",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "LANG 1410",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "LANG 2410",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "24050": {},
   "24052": {
     "restrictions": {
@@ -3347,6 +2807,146 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "24102": {},
+  "24103": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 4250",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "24104": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2510",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2700",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 4240",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
