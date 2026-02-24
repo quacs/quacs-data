@@ -142,7 +142,6 @@
   "23604": {},
   "23605": {},
   "23606": {},
-  "23607": {},
   "23608": {},
   "23609": {
     "restrictions": {
@@ -1225,28 +1224,6 @@
       "type": "and"
     }
   },
-  "23742": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23743": {
     "prerequisites": {
       "nested": [
@@ -1590,70 +1567,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "23777": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "INQR 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECON 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23781": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "23782": {
@@ -2160,7 +2073,6 @@
   "23841": {},
   "23843": {},
   "23844": {},
-  "23845": {},
   "23846": {
     "restrictions": {
       "major": {
@@ -2286,14 +2198,6 @@
       "ARTS-2560"
     ]
   },
-  "23883": {},
-  "23884": {
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23885": {
     "cross_list_courses": [
       "GSAS-2560"
@@ -2345,65 +2249,6 @@
   },
   "23900": {},
   "23901": {},
-  "23905": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "23907": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "PSYC 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 2120",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23908": {
     "restrictions": {
       "campus": {
@@ -2455,26 +2300,6 @@
       }
     }
   },
-  "23999": {
-    "cross_list_courses": [
-      "CSCI-4962",
-      "GSAS-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Critical Game Design",
-          "Cognitive Science",
-          "Computer Science"
-        ]
-      }
-    }
-  },
   "24002": {
     "restrictions": {
       "major": {
@@ -2517,7 +2342,6 @@
   },
   "24008": {
     "cross_list_courses": [
-      "COGS-6960",
       "CSCI-4962"
     ],
     "prerequisites": {
@@ -2561,7 +2385,6 @@
   "24017": {},
   "24023": {
     "cross_list_courses": [
-      "COGS-6960",
       "GSAS-4960"
     ],
     "prerequisites": {
@@ -2811,6 +2634,9 @@
   },
   "24102": {},
   "24103": {
+    "cross_list_courses": [
+      "PHIL-4500"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2883,6 +2709,9 @@
     }
   },
   "24104": {
+    "cross_list_courses": [
+      "STSO-4250"
+    ],
     "prerequisites": {
       "nested": [
         {

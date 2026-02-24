@@ -3775,7 +3775,6 @@
       }
     }
   },
-  "77314": {},
   "77316": {
     "restrictions": {
       "level": {
@@ -21473,8 +21472,15 @@
     }
   },
   "79165": {},
-  "79166": {},
+  "79166": {
+    "cross_list_courses": [
+      "COMM-6960"
+    ]
+  },
   "79167": {
+    "cross_list_courses": [
+      "COMM-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -24891,6 +24897,9 @@
     }
   },
   "79814": {
+    "cross_list_courses": [
+      "COMM-4540"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -26377,24 +26386,6 @@
   "80494": {},
   "80495": {},
   "80497": {},
-  "80498": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80499": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80501": {},
   "80502": {},
   "80504": {},
@@ -26833,15 +26824,10 @@
       "type": "course"
     }
   },
-  "80567": {},
-  "80568": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
+  "80567": {
+    "cross_list_courses": [
+      "COMM-6540"
+    ]
   },
   "80569": {
     "restrictions": {
@@ -28302,21 +28288,6 @@
       }
     }
   },
-  "80704": {},
-  "80705": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80706": {
     "restrictions": {
       "level": {
@@ -28867,5 +28838,14 @@
     }
   },
   "80823": {},
-  "80824": {}
+  "80824": {},
+  "80825": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  }
 }
