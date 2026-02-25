@@ -5,6 +5,7 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 	23755u32 => [0],
 	23900u32 => [2114],
 	24106u32 => [49152],
+	24105u32 => [6292513],
 	23923u32 => [49152],
 	23717u32 => [134230272],
 	23719u32 => [6292513],
@@ -81,13 +82,13 @@ pub static CRN_TIMES: Map<u32, [u64; BIT_VEC_LEN]> = phf_map! {
 	24028u32 => [8388608],
 	24102u32 => [33554564],
 	24103u32 => [134230272],
-	23861u32 => [786968],
 
 };
 pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
 	23755u32 => "ADMN-1824",
 	23900u32 => "ARTS-2210",
 	24106u32 => "ARTS-2550",
+	24105u32 => "ARTS-4070",
 	23923u32 => "ASTR-1520",
 	23717u32 => "BCBP-4760",
 	23719u32 => "BIOL-4200",
@@ -164,5 +165,4 @@ pub static CRN_COURSES: Map<u32, &'static str> = phf_map! {
 	24028u32 => "PSYC-4370",
 	24102u32 => "STSO-2520",
 	24103u32 => "STSO-4250",
-	23861u32 => "STSO-4600",
 };
