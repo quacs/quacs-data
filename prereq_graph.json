@@ -1841,22 +1841,15 @@
   },
   "CIVL 6310": {
     "title": "Adv Concrete Structures",
-    "prereqs": [
-      "CIVL 4080"
-    ]
+    "prereqs": []
   },
   "CIVL 6450": {
     "title": "Structural Dynamics",
-    "prereqs": [
-      "CIVL 4440"
-    ]
+    "prereqs": []
   },
   "CIVL 6660": {
     "title": "Finite Elements Method",
-    "prereqs": [
-      "ENGR 2530",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "CIVL 6780": {
     "title": "Numer.model Failure Processes",
@@ -2077,7 +2070,8 @@
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1110",
-      "PHYS 1150"
+      "PHYS 1150",
+      "ROBT 1010"
     ]
   },
   "ENGR 2250": {
@@ -2455,7 +2449,10 @@
   "ECSE 2410": {
     "title": "Signals And Systems",
     "prereqs": [
-      "ECSE 2010"
+      "ECSE 2010",
+      "MATH 2400",
+      "PHYS 1200",
+      "ROBT 1010"
     ]
   },
   "ECSE 2610": {
@@ -4347,7 +4344,8 @@
       "MANE 1010",
       "MANE 1960",
       "PHYS 1200",
-      "PHYS 1250"
+      "PHYS 1250",
+      "ROBT 1010"
     ]
   },
   "ENGR 4720": {
@@ -5920,7 +5918,11 @@
   "ARTS 2010": {
     "title": "Intermediate Video",
     "prereqs": [
-      "ARTS 1030"
+      "ARTS 1030",
+      "IHSS 1030",
+      "IHSS 1040",
+      "INQR 1030",
+      "INQR 1040"
     ]
   },
   "ARTS 2020": {
@@ -7491,9 +7493,7 @@
   },
   "CIVL 6510": {
     "title": "Advanced Geotechnical Engineering",
-    "prereqs": [
-      "CIVL 4150"
-    ]
+    "prereqs": []
   },
   "CIVL 6550": {
     "title": "Advanced Geoenv Engr",
@@ -11850,6 +11850,8 @@
     "title": "Robotics I",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -12819,10 +12821,7 @@
   },
   "CIVL 6290": {
     "title": "Freight Trans: Mgmt & Planning",
-    "prereqs": [
-      "CIVL 2030",
-      "CIVL 6250"
-    ]
+    "prereqs": []
   },
   "CIVL 6440": {
     "title": "Nonlinear Structural Analysis",
@@ -13442,10 +13441,8 @@
   "CIVL 6340": {
     "title": "Bedford Design Studio",
     "prereqs": [
-      "ARCH 4020",
-      "CIVL 4020",
-      "CIVL 6310",
-      "CIVL 6320"
+      "ARCH 6310",
+      "ARCH 6320"
     ]
   },
   "CIVL 6390": {
@@ -15071,12 +15068,7 @@
   },
   "ECSE 6470": {
     "title": "Robotics I",
-    "prereqs": [
-      "MATH 2010",
-      "MATH 2011",
-      "MATH 2012",
-      "MATH 2400"
-    ]
+    "prereqs": []
   },
   "IHSS 1310": {
     "title": "Cultures Of Sci Revolution",
@@ -15409,9 +15401,7 @@
   },
   "CIVL 6350": {
     "title": "Masonry Design",
-    "prereqs": [
-      "CIVL 4080"
-    ]
+    "prereqs": []
   },
   "COGS 2540": {
     "title": "Intro To Game Programming",
@@ -16094,8 +16084,8 @@
     "title": "Numerical Methods And Programming For Engineers",
     "prereqs": [
       "ENGR 1100",
+      "MANE 1010",
       "MANE 1960",
-      "MANE 2010",
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1110",
@@ -17355,11 +17345,10 @@
   "STSO 2100": {
     "title": "Investigating Society",
     "prereqs": [
-      "INQR 1100",
-      "INQR 1110",
-      "INQR 1240",
-      "INQR 1320",
-      "STSO 1100"
+      "STSO 2210",
+      "STSO 2300",
+      "STSO 2500",
+      "STSO 2520"
     ]
   },
   "STSO 2300": {
@@ -17991,12 +17980,7 @@
   },
   "COMM 4288": {
     "title": "Health Comm In Practice",
-    "prereqs": [
-      "COMM 2520",
-      "COMM 2660",
-      "WRIT 1110",
-      "WRIT 2110"
-    ]
+    "prereqs": []
   },
   "CSCI 4560": {
     "title": "Computational Geometry",
