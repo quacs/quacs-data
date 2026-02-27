@@ -166,6 +166,7 @@
   "23613": {},
   "23614": {},
   "23617": {},
+  "23618": {},
   "23620": {},
   "23622": {},
   "23623": {},
@@ -178,6 +179,7 @@
   "23631": {},
   "23632": {},
   "23633": {},
+  "23635": {},
   "23641": {
     "restrictions": {
       "major": {
@@ -281,6 +283,8 @@
       }
     }
   },
+  "23651": {},
+  "23652": {},
   "23653": {
     "restrictions": {
       "major": {
@@ -496,6 +500,17 @@
     }
   },
   "23674": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "23675": {
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -1352,6 +1367,7 @@
       "type": "course"
     }
   },
+  "23761": {},
   "23762": {
     "cross_list_courses": [],
     "prerequisites": {
@@ -1772,6 +1788,7 @@
       }
     }
   },
+  "23803": {},
   "23806": {},
   "23807": {
     "prerequisites": {
@@ -2098,6 +2115,7 @@
       "type": "or"
     }
   },
+  "23858": {},
   "23860": {
     "prerequisites": {
       "course": "ENGR 1100",
@@ -2135,6 +2153,15 @@
       "type": "course"
     }
   },
+  "23872": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "23873": {
     "prerequisites": {
       "course": "CHME 2020",
@@ -2169,6 +2196,9 @@
       }
     }
   },
+  "23891": {},
+  "23892": {},
+  "23893": {},
   "23896": {
     "prerequisites": {
       "nested": [
@@ -2441,6 +2471,25 @@
       "course": "CSCI 2700",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "24093": {
+    "cross_list_courses": [
+      "CSCI-1700",
+      "CSCI-2700",
+      "CSCI-4700"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2600",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Senior"
+        ]
+      }
     }
   },
   "24094": {
