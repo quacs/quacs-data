@@ -28880,5 +28880,29 @@
         ]
       }
     }
+  },
+  "80826": {
+    "prerequisites": {
+      "course": "ARCH 2830",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80827": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 4780",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 4830",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   }
 }
