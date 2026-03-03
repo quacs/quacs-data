@@ -22246,8 +22246,15 @@
       "type": "course"
     }
   },
-  "79251": {},
+  "79251": {
+    "cross_list_courses": [
+      "MANE-6965"
+    ]
+  },
   "79252": {
+    "cross_list_courses": [
+      "MANE-4965"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27327,16 +27334,6 @@
       }
     }
   },
-  "80617": {
-    "cross_list_courses": [
-      "PHIL-6962"
-    ]
-  },
-  "80618": {
-    "cross_list_courses": [
-      "PHIL-4962"
-    ]
-  },
   "80619": {
     "prerequisites": {
       "course": "COGS 2340",
@@ -28946,6 +28943,43 @@
     "restrictions": {
       "level": {
         "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80836": {
+    "cross_list_courses": [
+      "COGS-6335"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80837": {
+    "cross_list_courses": [
+      "PHIL-4335"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "may_not_be": [
           "Graduate"
         ]
       }
