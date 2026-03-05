@@ -28464,7 +28464,22 @@
       "ENGR-4963",
       "ENGR-6962",
       "ISYE-6962"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ISYE 4600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6460",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "80726": {
     "cross_list_courses": [
@@ -29535,6 +29550,20 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "80866": {
+    "prerequisites": {
+      "course": "CIVL 2030",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
