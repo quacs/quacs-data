@@ -2103,6 +2103,9 @@
     }
   },
   "77103": {
+    "cross_list_courses": [
+      "MANE-4530"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2171,6 +2174,9 @@
     }
   },
   "77108": {
+    "cross_list_courses": [
+      "MANE-6600"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -6385,7 +6391,9 @@
   "77680": {
     "cross_list_courses": [
       "ECSE-4480",
-      "ECSE-6470"
+      "ECSE-6470",
+      "MANE-4560",
+      "MANE-6120"
     ],
     "prerequisites": {
       "nested": [
@@ -6459,7 +6467,9 @@
   "77683": {
     "cross_list_courses": [
       "CSCI-4480",
-      "ECSE-6470"
+      "ECSE-6470",
+      "MANE-4560",
+      "MANE-6120"
     ],
     "prerequisites": {
       "nested": [
@@ -9982,6 +9992,9 @@
   },
   "78091": {
     "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480",
+      "ECSE-6470",
       "MANE-4560"
     ],
     "restrictions": {
@@ -11009,6 +11022,9 @@
     }
   },
   "78180": {
+    "cross_list_courses": [
+      "ECSE-6400"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -11552,7 +11568,9 @@
   "78250": {
     "cross_list_courses": [
       "CSCI-4480",
-      "ECSE-4480"
+      "ECSE-4480",
+      "MANE-4560",
+      "MANE-6120"
     ],
     "restrictions": {
       "level": {
@@ -11638,6 +11656,9 @@
     }
   },
   "78259": {
+    "cross_list_courses": [
+      "MANE-6230"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12930,7 +12951,9 @@
   },
   "78347": {
     "cross_list_courses": [
-      "ARCH-6840"
+      "ARCH-6840",
+      "MANE-4150",
+      "MANE-6150"
     ],
     "restrictions": {
       "classification": {
@@ -13879,7 +13902,9 @@
   },
   "78446": {
     "cross_list_courses": [
-      "ARCH-4890"
+      "ARCH-4890",
+      "MANE-4150",
+      "MANE-6150"
     ],
     "restrictions": {
       "level": {
@@ -14975,6 +15000,9 @@
     }
   },
   "78530": {
+    "cross_list_courses": [
+      "ECSE-4440"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15631,6 +15659,9 @@
   "78599": {},
   "78600": {
     "cross_list_courses": [
+      "CSCI-4480",
+      "ECSE-4480",
+      "ECSE-6470",
       "MANE-6120"
     ],
     "prerequisites": {
@@ -24070,6 +24101,8 @@
   },
   "79698": {
     "cross_list_courses": [
+      "ARCH-4890",
+      "ARCH-6840",
       "MANE-6150"
     ],
     "prerequisites": {
@@ -24090,6 +24123,8 @@
   },
   "79699": {
     "cross_list_courses": [
+      "ARCH-4890",
+      "ARCH-6840",
       "MANE-4150"
     ],
     "restrictions": {
@@ -28702,8 +28737,15 @@
       }
     }
   },
-  "80820": {},
+  "80820": {
+    "cross_list_courses": [
+      "MANE-6963"
+    ]
+  },
   "80821": {
+    "cross_list_courses": [
+      "ENGR-6230"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
