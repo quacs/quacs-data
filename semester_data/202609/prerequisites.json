@@ -15606,15 +15606,6 @@
       }
     }
   },
-  "78587": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78588": {},
   "78589": {
     "restrictions": {
@@ -27354,7 +27345,6 @@
       }
     }
   },
-  "80635": {},
   "80636": {},
   "80637": {
     "restrictions": {
@@ -29356,10 +29346,183 @@
     }
   },
   "80888": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
     "prerequisites": {
       "course": "MATH 1010",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "80889": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80890": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80891": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80892": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80893": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80894": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80895": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80896": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80897": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80898": {
+    "cross_list_courses": [
+      "MATH-4910"
+    ],
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80899": {
+    "cross_list_courses": [
+      "MATH-2910"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2910",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
