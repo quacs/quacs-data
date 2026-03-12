@@ -11806,15 +11806,6 @@
       "type": "and"
     }
   },
-  "78267": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78268": {
     "corequisites": [
       "PHYS-1101"
@@ -15732,7 +15723,16 @@
       }
     }
   },
-  "78605": {},
+  "78605": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci",
+          "Music"
+        ]
+      }
+    }
+  },
   "78606": {},
   "78607": {},
   "78608": {
@@ -22199,7 +22199,15 @@
   "79261": {
     "cross_list_courses": [
       "ARTS-1050"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "79262": {
     "cross_list_courses": [
@@ -29523,6 +29531,121 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "80900": {},
+  "80901": {
+    "prerequisites": {
+      "course": "ARTS 1380",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80902": {
+    "cross_list_courses": [
+      "ARTS-6640"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2380",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1030",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1170",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1180",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4120",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 4140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1170",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1180",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1030",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80903": {
+    "cross_list_courses": [
+      "ARTS-4640"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }

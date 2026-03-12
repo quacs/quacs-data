@@ -1115,27 +1115,35 @@
       "type": "and"
     }
   },
-  "23720": {
+  "23721": {
+    "cross_list_courses": [
+      "CSCI-2963"
+    ],
     "prerequisites": {
       "nested": [
         {
-          "course": "GSAS 2540",
+          "course": "CSCI 2200",
           "min_grade": "D",
           "type": "course"
         },
         {
-          "course": "CSCI 2300",
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4210",
           "min_grade": "D",
           "type": "course"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
-  },
-  "23721": {
-    "cross_list_courses": [
-      "CSCI-2963"
-    ]
   },
   "23722": {
     "restrictions": {
@@ -2255,38 +2263,6 @@
     }
   },
   "24016": {},
-  "24023": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4150",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COGS 4430",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4840",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 4850",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "24026": {},
   "24027": {
     "prerequisites": {
@@ -2500,7 +2476,22 @@
   "24099": {
     "cross_list_courses": [
       "CSCI-4963"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ITWS 1100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "24100": {
     "restrictions": {
