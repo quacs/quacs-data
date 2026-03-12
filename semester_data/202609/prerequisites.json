@@ -27616,6 +27616,9 @@
   },
   "80650": {},
   "80651": {
+    "cross_list_courses": [
+      "PSYC-4460"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -29332,5 +29335,24 @@
   "80883": {},
   "80884": {},
   "80885": {},
-  "80886": {}
+  "80886": {},
+  "80887": {
+    "cross_list_courses": [
+      "PSYC-4460"
+    ],
+    "prerequisites": {
+      "course": "PSYC 1200",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Philosophy",
+          "Psychological Science"
+        ]
+      }
+    }
+  }
 }
