@@ -24728,19 +24728,6 @@
       }
     }
   },
-  "79814": {
-    "cross_list_courses": [
-      "COMM-4540",
-      "STSO-4710"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79816": {
     "restrictions": {
       "classification": {
@@ -26654,12 +26641,6 @@
       "type": "course"
     }
   },
-  "80567": {
-    "cross_list_courses": [
-      "COMM-6540",
-      "STSO-4710"
-    ]
-  },
   "80569": {
     "restrictions": {
       "classification": {
@@ -26712,7 +26693,6 @@
   "80574": {},
   "80575": {},
   "80576": {},
-  "80578": {},
   "80580": {
     "cross_list_courses": [
       "ECON-6340"
@@ -28870,12 +28850,6 @@
       }
     }
   },
-  "80838": {
-    "cross_list_courses": [
-      "COMM-4540",
-      "COMM-6540"
-    ]
-  },
   "80839": {
     "cross_list_courses": [
       "COMM-4897",
@@ -29645,6 +29619,47 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80904": {
+    "cross_list_courses": [
+      "COGS-6430"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "COGS 4420",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80905": {
+    "cross_list_courses": [
+      "COGS-4430"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "80906": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
