@@ -22295,17 +22295,6 @@
       "type": "course"
     }
   },
-  "79245": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "79247": {
     "cross_list_courses": [
       "CSCI-6970",
@@ -24189,7 +24178,27 @@
       "ENGR-6962",
       "ISYE-4962",
       "ISYE-6962"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ISYE 4600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISYE 6610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6460",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "79688": {
     "restrictions": {
@@ -24641,6 +24650,31 @@
     "cross_list_courses": [
       "ECSE-6967"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1260",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
@@ -26192,7 +26226,13 @@
   },
   "80247": {},
   "80248": {},
-  "80249": {},
+  "80249": {
+    "prerequisites": {
+      "course": "ENGR 2530",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
   "80250": {},
   "80251": {},
   "80252": {},
@@ -27673,15 +27713,40 @@
       "ECSE-4966"
     ],
     "prerequisites": {
-      "course": "ECSE 6190",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ECSE 4110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4965",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 6190",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "80642": {
     "cross_list_courses": [
       "ECSE-6180"
-    ]
+    ],
+    "prerequisites": {
+      "course": "ECSE 2110",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "80643": {
     "prerequisites": {
@@ -28434,7 +28499,22 @@
   "80699": {
     "cross_list_courses": [
       "ECSE-6968"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2050",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
   },
   "80700": {
     "cross_list_courses": [
@@ -28734,6 +28814,11 @@
       "ISYE-4962",
       "ISYE-6962"
     ],
+    "prerequisites": {
+      "course": "ride 100",
+      "min_grade": null,
+      "type": "course"
+    },
     "restrictions": {
       "level": {
         "may_not_be": [
@@ -29048,7 +29133,12 @@
   "80817": {
     "cross_list_courses": [
       "ECSE-6969"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MATH 2010",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "80818": {
     "cross_list_courses": [
@@ -29131,6 +29221,21 @@
   },
   "80828": {},
   "80829": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1190",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
