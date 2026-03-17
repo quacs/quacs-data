@@ -25259,6 +25259,21 @@
     }
   },
   "79843": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISYE 4140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -27536,7 +27551,23 @@
   "80626": {},
   "80627": {},
   "80628": {},
-  "80629": {},
+  "80629": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATP 6600",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "MATP 6610",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "80630": {
     "prerequisites": {
       "nested": [
@@ -28049,7 +28080,12 @@
   "80660": {
     "cross_list_courses": [
       "PHYS-4720"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHYS 6510",
+      "min_grade": "B-",
+      "type": "course"
+    }
   },
   "80661": {
     "cross_list_courses": [
@@ -28077,12 +28113,22 @@
     "cross_list_courses": [
       "ASTR-4110",
       "PHYS-4110"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHYS 6410",
+      "min_grade": "B-",
+      "type": "course"
+    }
   },
   "80664": {
     "cross_list_courses": [
       "PHYS-6530"
-    ]
+    ],
+    "prerequisites": {
+      "course": "PHYS 4100",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "80665": {
     "cross_list_courses": [
@@ -28759,7 +28805,27 @@
       "ENGR-4963",
       "ENGR-6962",
       "ISYE-6962"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ISYE 4600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISYE 6610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6460",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "80726": {
     "cross_list_courses": [
@@ -28767,6 +28833,11 @@
       "ENGR-6962",
       "ISYE-4962"
     ],
+    "prerequisites": {
+      "course": "ride 100",
+      "min_grade": null,
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "may_not_be": [
