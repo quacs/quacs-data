@@ -30219,5 +30219,67 @@
         ]
       }
     }
+  },
+  "80907": {
+    "cross_list_courses": [
+      "BMED-6560"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2120",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "80908": {
+    "cross_list_courses": [
+      "BMED-4560"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHYS 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 2120",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   }
 }
