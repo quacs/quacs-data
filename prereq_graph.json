@@ -1987,7 +1987,9 @@
   },
   "CSCI 2960": {
     "title": "Introduction To Competitive Programming",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300"
+    ]
   },
   "CSCI 4000": {
     "title": "Computer Science Elective",
@@ -2040,7 +2042,11 @@
   },
   "CSCI 4960": {
     "title": "Security & Privacy Of Ml",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 4100",
+      "CSCI 4150",
+      "CSCI 6100"
+    ]
   },
   "CSCI 6090": {
     "title": "Generic Software Design",
@@ -4290,7 +4296,10 @@
   },
   "CSCI 4961": {
     "title": "Network Security And Defense",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2800",
+      "CSCI 4210"
+    ]
   },
   "CSCI 4963": {
     "title": "Introduction To Machine Learning",
@@ -6173,7 +6182,11 @@
   },
   "CSCI 4962": {
     "title": "Cloud Computing",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 2300",
+      "CSCI 2800",
+      "CSCI 4210"
+    ]
   },
   "CSCI 6270": {
     "title": "Computational Vision",
@@ -14216,9 +14229,7 @@
   "CSCI 4230": {
     "title": "Cryptography And Network Security I",
     "prereqs": [
-      "CSCI 2500",
-      "CSCI 2800",
-      "CSCI 4210"
+      "CSCI 2300"
     ]
   },
   "CSCI 4350": {
@@ -14230,9 +14241,7 @@
   },
   "CSCI 6230": {
     "title": "Cryptography And Network Security I",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6350": {
     "title": "Data Science",
