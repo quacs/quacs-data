@@ -6669,14 +6669,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
     }
   },
   "77681": {
@@ -19610,7 +19602,12 @@
   "78952": {
     "cross_list_courses": [
       "CSCI-6966"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "78953": {
     "cross_list_courses": [
@@ -22724,7 +22721,27 @@
       "COGS-6962",
       "CSCI-6967",
       "PHIL-4961"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "79280": {},
   "79281": {},
@@ -26237,7 +26254,37 @@
   "80206": {
     "cross_list_courses": [
       "CSCI-6968"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 2800",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2500",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
   },
   "80208": {
     "prerequisites": {
@@ -28375,16 +28422,6 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Computer Science",
-          "Computer & Systems Engineering",
-          "Information Technology",
-          "Information Tech & Web Science"
-        ]
-      }
     }
   },
   "80675": {
@@ -28394,7 +28431,15 @@
       "type": "course"
     }
   },
-  "80676": {},
+  "80676": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "80677": {
     "prerequisites": {
       "course": "CSCI 2300",
@@ -28520,17 +28565,10 @@
     }
   },
   "80689": {
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "min_grade": "D",
-      "type": "course"
-    },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -28622,7 +28660,12 @@
   "80695": {
     "cross_list_courses": [
       "CSCI-6965"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "80696": {
     "cross_list_courses": [
