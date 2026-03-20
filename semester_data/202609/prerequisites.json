@@ -28830,7 +28830,6 @@
       }
     }
   },
-  "80713": {},
   "80714": {
     "prerequisites": {
       "course": "ARTS 2230",
@@ -30418,6 +30417,23 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80909": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHME 2010",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
