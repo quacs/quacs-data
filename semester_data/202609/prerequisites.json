@@ -16217,6 +16217,7 @@
       "type": "and"
     }
   },
+  "78631": {},
   "78634": {
     "restrictions": {
       "level": {
@@ -30292,6 +30293,17 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80918": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
