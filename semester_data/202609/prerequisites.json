@@ -2869,15 +2869,6 @@
   },
   "77184": {},
   "77186": {},
-  "77187": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77188": {
     "restrictions": {
       "level": {
@@ -2915,15 +2906,6 @@
     }
   },
   "77192": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77193": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -3019,7 +3001,6 @@
       }
     }
   },
-  "77210": {},
   "77211": {
     "restrictions": {
       "level": {
@@ -3174,15 +3155,6 @@
   },
   "77234": {},
   "77235": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77237": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -4098,15 +4070,6 @@
     }
   },
   "77342": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77343": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -5834,15 +5797,6 @@
       }
     }
   },
-  "77564": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77565": {
     "restrictions": {
       "level": {
@@ -5975,15 +5929,6 @@
     }
   },
   "77585": {},
-  "77586": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77588": {
     "restrictions": {
       "level": {
@@ -6029,25 +5974,7 @@
       }
     }
   },
-  "77595": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77596": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77598": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6774,15 +6701,6 @@
       }
     }
   },
-  "77687": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77688": {
     "restrictions": {
       "level": {
@@ -6982,11 +6900,6 @@
   },
   "77727": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -7745,15 +7658,6 @@
     }
   },
   "77807": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "77810": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -23004,6 +22908,7 @@
     "restrictions": {
       "classification": {
         "must_be": [
+          "Fifth-Year",
           "Junior",
           "Senior"
         ]
@@ -26633,7 +26538,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -27170,7 +27075,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -27830,6 +27735,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "80642": {
@@ -29225,7 +29137,6 @@
       }
     }
   },
-  "80816": {},
   "80817": {
     "cross_list_courses": [
       "ECSE-6969"
@@ -30348,6 +30259,53 @@
       "min_grade": "C",
       "type": "course"
     },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80915": {
+    "cross_list_courses": [
+      "MANE-6962",
+      "MGMT-6962"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2050",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80916": {
+    "cross_list_courses": [
+      "MANE-4220",
+      "MGMT-6962"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80917": {
+    "cross_list_courses": [
+      "MANE-4220",
+      "MANE-6962"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
