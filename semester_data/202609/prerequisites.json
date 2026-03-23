@@ -13776,15 +13776,7 @@
       "type": "or"
     }
   },
-  "78422": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
+  "78422": {},
   "78423": {
     "cross_list_courses": [
       "PHIL-4480"
@@ -15772,18 +15764,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "78570": {
-    "cross_list_courses": [
-      "GSAS-2540"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
         ]
       }
     }
@@ -21646,23 +21626,6 @@
   },
   "79162": {},
   "79165": {},
-  "79166": {
-    "cross_list_courses": [
-      "COMM-6960"
-    ]
-  },
-  "79167": {
-    "cross_list_courses": [
-      "COMM-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79168": {
     "prerequisites": {
       "nested": [
@@ -23904,11 +23867,6 @@
       "type": "course"
     }
   },
-  "79630": {
-    "cross_list_courses": [
-      "GSAS-2540"
-    ]
-  },
   "79631": {
     "prerequisites": {
       "course": "ARTS 2230",
@@ -25185,36 +25143,6 @@
     }
   },
   "79817": {},
-  "79818": {
-    "cross_list_courses": [
-      "ARTS-2255"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2660",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79821": {
     "cross_list_courses": [
       "CSCI-1700",
@@ -25387,36 +25315,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "79842": {
-    "cross_list_courses": [
-      "GSAS-2255"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "COMM 2660",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2220",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "79843": {
@@ -26172,7 +26070,6 @@
   "80195": {},
   "80196": {},
   "80197": {},
-  "80198": {},
   "80199": {
     "cross_list_courses": [
       "MGMT-6370"
@@ -27315,7 +27212,6 @@
       "type": "or"
     }
   },
-  "80587": {},
   "80588": {
     "cross_list_courses": [
       "GSAS-4960"
@@ -28914,6 +28810,9 @@
     }
   },
   "80717": {
+    "cross_list_courses": [
+      "MGMT-6180"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -30434,6 +30333,35 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "80910": {
+    "cross_list_courses": [
+      "WRIT-6750"
+    ]
+  },
+  "80911": {
+    "cross_list_courses": [
+      "WRIT-4750"
+    ]
+  },
+  "80912": {},
+  "80913": {},
+  "80914": {
+    "cross_list_courses": [
+      "MGMT-4180"
+    ],
+    "prerequisites": {
+      "course": "MGMT 6100",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
