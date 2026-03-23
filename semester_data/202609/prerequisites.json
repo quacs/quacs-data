@@ -14564,23 +14564,14 @@
   },
   "78486": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Fifth-Year",
-          "Junior",
-          "Sophomore",
-          "Senior"
-        ]
-      },
       "degree": {
         "must_be": [
           "Doctor of Philosophy"
         ]
       },
       "level": {
-        "may_not_be": [
-          "Undergraduate"
+        "must_be": [
+          "Graduate"
         ]
       },
       "major": {
@@ -22297,11 +22288,9 @@
       "CHME-4962"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -28114,7 +28103,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -28489,7 +28478,7 @@
   "80691": {
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -28664,7 +28653,7 @@
   "80708": {
     "restrictions": {
       "classification": {
-        "may_not_be": [
+        "must_be": [
           "Freshman",
           "Sophomore"
         ]
@@ -29180,7 +29169,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -29430,13 +29419,8 @@
       "PHIL-4335"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -29449,7 +29433,15 @@
     ]
   },
   "80840": {},
-  "80841": {},
+  "80841": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "80843": {
     "restrictions": {
       "classification": {
@@ -30240,9 +30232,9 @@
       "COGS-4430"
     ],
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
