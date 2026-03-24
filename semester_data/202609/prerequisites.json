@@ -13072,13 +13072,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Cognitive Science"
-        ]
-      }
     }
   },
   "78345": {},
@@ -16397,7 +16390,6 @@
     }
   },
   "78648": {},
-  "78649": {},
   "78651": {},
   "78652": {},
   "78653": {},
@@ -20209,15 +20201,6 @@
       }
     }
   },
-  "79005": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79006": {
     "restrictions": {
       "classification": {
@@ -21325,7 +21308,6 @@
       }
     }
   },
-  "79149": {},
   "79150": {
     "cross_list_courses": [
       "GSAS-1600"
@@ -26590,11 +26572,6 @@
       "ISCI-6961"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -30304,6 +30281,20 @@
           "Freshman",
           "Junior",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "80919": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "may_not_be": [
+          "Graduate"
         ]
       }
     }
