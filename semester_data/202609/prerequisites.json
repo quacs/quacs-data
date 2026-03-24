@@ -26533,7 +26533,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -26934,8 +26934,7 @@
   },
   "80570": {
     "cross_list_courses": [
-      "LITR-4826",
-      "LITR-6826"
+      "LITR-4826"
     ],
     "restrictions": {
       "major": {
@@ -26948,21 +26947,8 @@
   },
   "80571": {
     "cross_list_courses": [
-      "LITR-4826",
-      "LITR-6826"
-    ]
-  },
-  "80572": {
-    "cross_list_courses": [
       "LITR-4826"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
+    ]
   },
   "80573": {},
   "80574": {},
@@ -28794,7 +28780,7 @@
     },
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -29122,10 +29108,9 @@
       "CSCI-6961"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -30294,6 +30279,15 @@
       },
       "level": {
         "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80920": {
+    "restrictions": {
+      "level": {
+        "must_be": [
           "Graduate"
         ]
       }
