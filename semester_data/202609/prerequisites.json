@@ -8841,7 +8841,6 @@
       }
     }
   },
-  "77969": {},
   "77970": {
     "restrictions": {
       "college": {
@@ -9210,15 +9209,6 @@
     }
   },
   "78007": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "78008": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -10677,15 +10667,6 @@
   },
   "78130": {},
   "78131": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "78132": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -14276,7 +14257,6 @@
       }
     }
   },
-  "78469": {},
   "78470": {
     "prerequisites": {
       "nested": [
@@ -22424,7 +22404,6 @@
       }
     }
   },
-  "79267": {},
   "79269": {
     "cross_list_courses": [
       "CSCI-6970",
@@ -27895,6 +27874,9 @@
     }
   },
   "80652": {
+    "cross_list_courses": [
+      "CHEM-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -30361,6 +30343,16 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "80925": {
+    "cross_list_courses": [
+      "CHEM-6540"
+    ],
+    "prerequisites": {
+      "course": "CHEM 4410",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
