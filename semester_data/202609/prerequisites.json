@@ -20538,16 +20538,6 @@
       }
     }
   },
-  "79045": {
-    "cross_list_courses": [
-      "COGS-6960"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "79047": {
     "cross_list_courses": [
       "ARCH-2160"
@@ -27312,18 +27302,6 @@
       "ARCH-4820"
     ]
   },
-  "80607": {
-    "cross_list_courses": [
-      "PSYC-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80609": {},
   "80610": {
     "cross_list_courses": [
@@ -30258,6 +30236,131 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80921": {
+    "cross_list_courses": [
+      "ECON-4530",
+      "MATP-4530",
+      "PSYC-4530"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80922": {
+    "cross_list_courses": [
+      "COGS-6530",
+      "MATP-4530",
+      "PSYC-4530"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2310",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 4570",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80923": {
+    "cross_list_courses": [
+      "COGS-6530",
+      "ECON-4530",
+      "PSYC-4530"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2310",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 4570",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80924": {
+    "cross_list_courses": [
+      "COGS-6530",
+      "ECON-4530",
+      "MATP-4530"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECON 4570",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PSYC 2310",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
