@@ -3314,9 +3314,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "ITWS 2110",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "ITWS 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "CSCI 1200",
@@ -29052,12 +29062,14 @@
   },
   "80820": {
     "cross_list_courses": [
+      "ISYE-6966",
       "MANE-6963"
     ]
   },
   "80821": {
     "cross_list_courses": [
-      "ENGR-6230"
+      "ENGR-6230",
+      "ISYE-6966"
     ],
     "restrictions": {
       "level": {
@@ -30372,5 +30384,25 @@
       }
     }
   },
-  "80927": {}
+  "80927": {},
+  "80928": {
+    "cross_list_courses": [
+      "ENGR-6230",
+      "MANE-6963"
+    ]
+  },
+  "80929": {
+    "prerequisites": {
+      "course": "ARCH 6680",
+      "min_grade": "C",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
