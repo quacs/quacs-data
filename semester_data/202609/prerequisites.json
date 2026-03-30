@@ -2159,19 +2159,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "PHYS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
+          "course": "ECSE 2010",
           "min_grade": "D",
           "type": "course"
         },
         {
           "nested": [
             {
-              "course": "ECSE 2010",
+              "course": "MATH 2400",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1200",
               "min_grade": "D",
               "type": "course"
             },
@@ -2181,10 +2181,10 @@
               "type": "course"
             }
           ],
-          "type": "or"
+          "type": "and"
         }
       ],
-      "type": "and"
+      "type": "or"
     }
   },
   "77100": {
@@ -28120,6 +28120,9 @@
     }
   },
   "80675": {
+    "cross_list_courses": [
+      "CSCI-6220"
+    ],
     "prerequisites": {
       "course": "CSCI 4020",
       "min_grade": "D",
@@ -28127,6 +28130,9 @@
     }
   },
   "80676": {
+    "cross_list_courses": [
+      "CSCI-4030"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -28223,6 +28229,9 @@
     }
   },
   "80688": {
+    "cross_list_courses": [
+      "CSCI-6360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -28260,6 +28269,9 @@
     }
   },
   "80689": {
+    "cross_list_courses": [
+      "CSCI-4320"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -28269,6 +28281,9 @@
     }
   },
   "80690": {
+    "cross_list_courses": [
+      "CSCI-6610"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -28286,6 +28301,9 @@
     }
   },
   "80691": {
+    "cross_list_courses": [
+      "CSCI-4610"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
