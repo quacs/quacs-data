@@ -1,25 +1,4 @@
 {
-  "23585": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "23586": {
     "prerequisites": {
       "nested": [
@@ -290,27 +269,6 @@
   },
   "23651": {},
   "23652": {},
-  "23653": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "23654": {
     "prerequisites": {
       "nested": [
@@ -644,47 +602,6 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "23693": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1960",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
         ]
       }
     }
@@ -1888,23 +1805,6 @@
   "23891": {},
   "23892": {},
   "23893": {},
-  "23896": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 4540",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "23900": {},
   "23901": {},
   "23908": {
@@ -2303,13 +2203,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "24105": {
-    "prerequisites": {
-      "course": "ARTS 2230",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "24106": {},
