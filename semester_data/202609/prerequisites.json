@@ -27141,9 +27141,19 @@
       "GSAS-2120"
     ],
     "prerequisites": {
-      "course": "ARTS 1040",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     },
     "restrictions": {
       "major": {
@@ -27852,9 +27862,19 @@
       "GSAS-2120"
     ],
     "prerequisites": {
-      "course": "ARTS 1040",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   },
   "80650": {},
@@ -30438,5 +30458,23 @@
   },
   "80930": {},
   "80934": {},
-  "80935": {}
+  "80935": {},
+  "80936": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "80937": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
