@@ -13857,9 +13857,29 @@
   },
   "78431": {
     "prerequisites": {
-      "course": "PHYS 2210",
-      "min_grade": "D",
-      "type": "course"
+      "nested": [
+        {
+          "course": "PHYS 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
     }
   },
   "78432": {
@@ -29293,36 +29313,6 @@
       "COMM-4897",
       "COMM-6897"
     ]
-  },
-  "80840": {},
-  "80841": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "80843": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "80844": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
   },
   "80855": {
     "prerequisites": {
