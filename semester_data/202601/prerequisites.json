@@ -6984,7 +6984,8 @@
   },
   "35833": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2010",
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -7289,7 +7290,8 @@
   },
   "35883": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2010",
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -28346,5 +28348,25 @@
   },
   "39273": {},
   "39275": {},
-  "39276": {}
+  "39276": {},
+  "39278": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
