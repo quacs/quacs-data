@@ -26758,53 +26758,10 @@
       }
     }
   },
-  "80553": {
-    "cross_list_courses": [
-      "MTLE-6250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ISCI 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1600",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "80554": {
-    "cross_list_courses": [
-      "MTLE-4250"
-    ]
-  },
   "80555": {
     "cross_list_courses": [
+      "CSCI-4730",
+      "CSCI-6730",
       "MTLE-6730"
     ],
     "prerequisites": {
@@ -26815,6 +26772,8 @@
   },
   "80556": {
     "cross_list_courses": [
+      "CSCI-4730",
+      "CSCI-6730",
       "MTLE-4730"
     ]
   },
@@ -30479,5 +30438,24 @@
         ]
       }
     }
+  },
+  "80939": {
+    "cross_list_courses": [
+      "CSCI-6730",
+      "MTLE-4730",
+      "MTLE-6730"
+    ],
+    "prerequisites": {
+      "course": "ENGR 2600",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "80940": {
+    "cross_list_courses": [
+      "CSCI-4730",
+      "MTLE-4730",
+      "MTLE-6730"
+    ]
   }
 }
