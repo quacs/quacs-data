@@ -1627,43 +1627,6 @@
       }
     }
   },
-  "23828": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "23830": {
     "restrictions": {
       "campus": {
@@ -1722,13 +1685,6 @@
     }
   },
   "23858": {},
-  "23860": {
-    "prerequisites": {
-      "course": "ENGR 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "23869": {
     "restrictions": {
       "campus": {
