@@ -4882,6 +4882,7 @@
       }
     }
   },
+  "77420": {},
   "77422": {
     "restrictions": {
       "level": {
@@ -8293,6 +8294,15 @@
     }
   },
   "77889": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "77890": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -30532,6 +30542,36 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80946": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80947": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "80948": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
