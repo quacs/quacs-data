@@ -22205,13 +22205,6 @@
       }
     }
   },
-  "79241": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "79242": {
     "cross_list_courses": [
       "CSCI-2700",
@@ -24434,43 +24427,6 @@
             },
             {
               "course": "CSCI 4210",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79728": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2965",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4100",
               "min_grade": "D",
               "type": "course"
             }
@@ -30567,6 +30523,48 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
+        ]
+      }
+    }
+  },
+  "80949": {
+    "cross_list_courses": [
+      "CSCI-6230"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4210",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "80950": {
+    "cross_list_courses": [
+      "CSCI-4230"
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
