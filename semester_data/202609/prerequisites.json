@@ -11207,7 +11207,7 @@
       "nested": [
         {
           "course": "ARCH 2810",
-          "min_grade": "C",
+          "min_grade": "D",
           "type": "course"
         },
         {
@@ -16900,7 +16900,7 @@
       "nested": [
         {
           "course": "ARCH 2810",
-          "min_grade": "C",
+          "min_grade": "D",
           "type": "course"
         },
         {
@@ -20751,7 +20751,7 @@
       "nested": [
         {
           "course": "ARCH 2810",
-          "min_grade": "C",
+          "min_grade": "D",
           "type": "course"
         },
         {
@@ -23063,7 +23063,7 @@
       "nested": [
         {
           "course": "ARCH 2810",
-          "min_grade": "C",
+          "min_grade": "D",
           "type": "course"
         },
         {
@@ -26683,7 +26683,7 @@
       "nested": [
         {
           "course": "ARCH 2810",
-          "min_grade": "C",
+          "min_grade": "D",
           "type": "course"
         },
         {
@@ -29087,7 +29087,14 @@
   "80818": {
     "cross_list_courses": [
       "ECSE-4969"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "80819": {
     "cross_list_courses": [
@@ -30142,7 +30149,6 @@
     ]
   },
   "80912": {},
-  "80913": {},
   "80914": {
     "cross_list_courses": [
       "MGMT-4180"
@@ -30569,5 +30575,17 @@
       }
     }
   },
-  "80951": {}
+  "80951": {},
+  "80953": {},
+  "80954": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
