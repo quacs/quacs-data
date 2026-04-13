@@ -5492,58 +5492,6 @@
     }
   },
   "77520": {},
-  "77521": {
-    "cross_list_courses": [
-      "BCBP-6870"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "BCBP 4760",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "BIOL 4760",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 4760",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "77522": {
-    "cross_list_courses": [
-      "BCBP-4870"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "77523": {
     "prerequisites": {
       "nested": [
@@ -30249,7 +30197,6 @@
   },
   "80921": {
     "cross_list_courses": [
-      "ECON-4530",
       "MATP-4530",
       "PSYC-4530"
     ],
@@ -30261,47 +30208,9 @@
       }
     }
   },
-  "80922": {
-    "cross_list_courses": [
-      "COGS-6530",
-      "MATP-4530",
-      "PSYC-4530"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PSYC 2310",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECON 4570",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MGMT 2100",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80923": {
     "cross_list_courses": [
       "COGS-6530",
-      "ECON-4530",
       "PSYC-4530"
     ],
     "prerequisites": {
@@ -30338,7 +30247,6 @@
   "80924": {
     "cross_list_courses": [
       "COGS-6530",
-      "ECON-4530",
       "MATP-4530"
     ],
     "prerequisites": {
@@ -30587,5 +30495,7 @@
         ]
       }
     }
-  }
+  },
+  "80962": {},
+  "80963": {}
 }
