@@ -15881,28 +15881,6 @@
       "type": "or"
     }
   },
-  "78609": {
-    "cross_list_courses": [
-      "ARTS-6560"
-    ]
-  },
-  "78610": {
-    "cross_list_courses": [
-      "ARTS-4560"
-    ],
-    "restrictions": {
-      "campus": {
-        "must_be": [
-          "Troy"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78612": {
     "cross_list_courses": [
       "MGMT-6240"
@@ -30535,6 +30513,16 @@
         "must_be": [
           "Cognitive Science",
           "Psychological Science"
+        ]
+      }
+    }
+  },
+  "80973": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
         ]
       }
     }
