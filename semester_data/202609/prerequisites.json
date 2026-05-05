@@ -26627,19 +26627,6 @@
   "80546": {},
   "80547": {},
   "80548": {},
-  "80549": {
-    "corequisites": [
-      "PHYS-1101"
-    ],
-    "cross_list_courses": [
-      "PHYS-1110"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "80550": {
     "corequisites": [
       "PHYS-1101"
@@ -26723,16 +26710,6 @@
     ],
     "prerequisites": {
       "course": "PHYS 2210",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "80562": {
-    "cross_list_courses": [
-      "PHYS-1100"
-    ],
-    "prerequisites": {
-      "course": "MATH 1010",
       "min_grade": "D",
       "type": "course"
     }
@@ -30559,5 +30536,14 @@
     }
   },
   "80983": {},
-  "80984": {}
+  "80984": {},
+  "80985": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
