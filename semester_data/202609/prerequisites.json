@@ -19885,7 +19885,11 @@
     }
   },
   "78990": {},
-  "78991": {},
+  "78991": {
+    "cross_list_courses": [
+      "GSAS-2610"
+    ]
+  },
   "78992": {},
   "78993": {
     "prerequisites": {
@@ -21048,15 +21052,6 @@
     "cross_list_courses": [
       "ECON-4280"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "79132": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -26899,28 +26894,6 @@
       }
     }
   },
-  "80590": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "80591": {
     "prerequisites": {
       "nested": [
@@ -27746,7 +27719,11 @@
       "type": "or"
     }
   },
-  "80650": {},
+  "80650": {
+    "cross_list_courses": [
+      "ARTS-2610"
+    ]
+  },
   "80651": {
     "cross_list_courses": [
       "PSYC-4460"
@@ -30544,6 +30521,28 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "80987": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECON 1200",
+          "min_grade": "TR",
+          "type": "course"
+        },
+        {
+          "course": "INQR 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "IHSS 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
