@@ -28593,6 +28593,9 @@
     }
   },
   "80731": {
+    "cross_list_courses": [
+      "ECON-6960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -30067,13 +30070,8 @@
   },
   "80919": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -30550,6 +30548,20 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "80991": {
+    "cross_list_courses": [
+      "MGMT-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
         ]
       }
     }
