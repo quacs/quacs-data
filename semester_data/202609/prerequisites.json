@@ -12521,31 +12521,6 @@
       "ARTS-1050"
     ]
   },
-  "78320": {
-    "cross_list_courses": [
-      "ECON-6190"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "78321": {
     "restrictions": {
       "classification": {
@@ -13568,18 +13543,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "78419": {
-    "cross_list_courses": [
-      "ECON-4190"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "78420": {
@@ -15273,76 +15236,6 @@
             },
             {
               "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "78544": {
-    "cross_list_courses": [
-      "ECON-6280"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATP 4600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2310",
               "min_grade": "D",
               "type": "course"
             }
@@ -20999,18 +20892,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "79129": {
-    "cross_list_courses": [
-      "ECON-4280"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "79135": {
@@ -26791,51 +26672,6 @@
       "type": "or"
     }
   },
-  "80592": {
-    "cross_list_courses": [
-      "ECON-6110"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "80593": {
     "cross_list_courses": [
       "GSAS-1600"
@@ -26844,18 +26680,6 @@
       "major": {
         "must_be": [
           "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "80594": {
-    "cross_list_courses": [
-      "ECON-4110"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
