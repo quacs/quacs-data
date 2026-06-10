@@ -9994,6 +9994,15 @@
       }
     }
   },
+  "78081": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "78083": {
     "restrictions": {
       "classification": {
@@ -18230,43 +18239,6 @@
       }
     }
   },
-  "78858": {
-    "cross_list_courses": [
-      "ECON-6360"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "78859": {
-    "cross_list_courses": [
-      "ECON-4360"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "78860": {
     "cross_list_courses": [
       "CSCI-4960"
@@ -19864,39 +19836,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "78997": {
-    "cross_list_courses": [
-      "ECON-4290",
-      "ECON-6290"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biotechnology & Health Econ"
-        ]
-      }
     }
   },
   "78998": {
@@ -23987,20 +23926,6 @@
       }
     }
   },
-  "79721": {
-    "cross_list_courses": [
-      "ENGR-6964",
-      "ISYE-4961",
-      "ISYE-6961"
-    ]
-  },
-  "79722": {
-    "cross_list_courses": [
-      "ENGR-4964",
-      "ENGR-6964",
-      "ISYE-6961"
-    ]
-  },
   "79723": {
     "cross_list_courses": [
       "ENGR-4964",
@@ -26110,20 +26035,6 @@
   },
   "80513": {},
   "80516": {},
-  "80518": {
-    "cross_list_courses": [
-      "ENGR-4964",
-      "ISYE-4961",
-      "ISYE-6961"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80520": {
     "cross_list_courses": [
       "BIOL-6050"
@@ -26378,6 +26289,7 @@
       "MTLE-4730"
     ]
   },
+  "80557": {},
   "80558": {},
   "80559": {
     "cross_list_courses": [
@@ -30107,28 +30019,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "80987": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "80988": {},
