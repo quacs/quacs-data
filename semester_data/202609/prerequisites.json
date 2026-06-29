@@ -21269,13 +21269,6 @@
       "type": "and"
     }
   },
-  "79177": {
-    "prerequisites": {
-      "course": "ARCH 2830",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "79178": {
     "cross_list_courses": [
       "PHYS-1100"
@@ -23134,6 +23127,11 @@
         "must_be": [
           "Freshman"
         ]
+      },
+      "major": {
+        "may_not_be": [
+          "Games & Simulation Arts & Sci"
+        ]
       }
     }
   },
@@ -24087,7 +24085,6 @@
     }
   },
   "79771": {},
-  "79773": {},
   "79774": {
     "corequisites": [
       "ARCH-2520"
@@ -26223,6 +26220,11 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Design, Innovation and Society"
         ]
       }
     }
@@ -29310,15 +29312,6 @@
       }
     }
   },
-  "80906": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "80907": {
     "cross_list_courses": [
       "BMED-6560"
@@ -30053,5 +30046,22 @@
       "type": "and"
     }
   },
-  "81000": {}
+  "81000": {},
+  "81001": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "81002": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  }
 }
