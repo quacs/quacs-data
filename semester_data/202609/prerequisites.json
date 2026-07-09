@@ -24345,11 +24345,6 @@
     "cross_list_courses": [
       "ARCH-2350"
     ],
-    "prerequisites": {
-      "course": "ARCH 2350",
-      "min_grade": "D",
-      "type": "course"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -24812,7 +24807,6 @@
         "must_be": [
           "Aeronautical Engineering",
           "Aerospace Engineering",
-          "Materials Engineering",
           "Mechanical Engineering",
           "Nuclear Engineering"
         ]
@@ -24831,7 +24825,6 @@
         "must_be": [
           "Aeronautical Engineering",
           "Aerospace Engineering",
-          "Materials Engineering",
           "Mechanical Engineering",
           "Nuclear Engineering"
         ]
@@ -24850,7 +24843,6 @@
         "must_be": [
           "Aeronautical Engineering",
           "Aerospace Engineering",
-          "Materials Engineering",
           "Mechanical Engineering",
           "Nuclear Engineering"
         ]
@@ -25159,7 +25151,6 @@
         "must_be": [
           "Aeronautical Engineering",
           "Aerospace Engineering",
-          "Materials Engineering",
           "Mechanical Engineering",
           "Nuclear Engineering"
         ]
@@ -30076,5 +30067,15 @@
       "type": "course"
     }
   },
-  "81003": {}
+  "81003": {},
+  "81004": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
