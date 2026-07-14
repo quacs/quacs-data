@@ -14949,6 +14949,11 @@
           "type": "course"
         },
         {
+          "course": "MANE 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
           "nested": [
             {
               "nested": [
@@ -26119,14 +26124,7 @@
   "80583": {
     "cross_list_courses": [
       "GSAS-1600"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "80585": {
     "cross_list_courses": [
@@ -26190,14 +26188,7 @@
   "80593": {
     "cross_list_courses": [
       "GSAS-1600"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "80595": {
     "cross_list_courses": [
@@ -27107,7 +27098,23 @@
       }
     }
   },
-  "80668": {},
+  "80668": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Mechanical Engineering"
+        ]
+      }
+    }
+  },
   "80669": {
     "cross_list_courses": [
       "ECON-6010"
@@ -29857,5 +29864,6 @@
       }
     }
   },
-  "81005": {}
+  "81005": {},
+  "81006": {}
 }
