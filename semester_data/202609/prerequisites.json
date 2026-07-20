@@ -7352,9 +7352,6 @@
     }
   },
   "77759": {
-    "cross_list_courses": [
-      "ARCH-4321"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19514,11 +19511,6 @@
       }
     }
   },
-  "78979": {
-    "cross_list_courses": [
-      "LGHT-4830"
-    ]
-  },
   "78981": {
     "cross_list_courses": [
       "CSCI-4600",
@@ -20502,14 +20494,6 @@
       "type": "or"
     }
   },
-  "79121": {
-    "corequisites": [
-      "LGHT-6830"
-    ],
-    "cross_list_courses": [
-      "LGHT-4835"
-    ]
-  },
   "79122": {
     "restrictions": {
       "classification": {
@@ -21022,35 +21006,6 @@
     }
   },
   "79173": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "cross_list_courses": [
-      "ARCH-4320",
-      "ARCH-5320"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2360",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "79174": {
     "corequisites": [
       "ARCH-4820"
     ],
@@ -24123,33 +24078,6 @@
       }
     }
   },
-  "79813": {
-    "corequisites": [
-      "LGHT-4835"
-    ],
-    "cross_list_courses": [
-      "LGHT-6830"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "79816": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "79817": {},
   "79821": {
     "cross_list_courses": [
@@ -24362,14 +24290,6 @@
         ]
       }
     }
-  },
-  "79845": {
-    "corequisites": [
-      "LGHT-4830"
-    ],
-    "cross_list_courses": [
-      "LGHT-6835"
-    ]
   },
   "79846": {
     "cross_list_courses": [
@@ -29618,11 +29538,6 @@
       }
     }
   },
-  "80976": {
-    "cross_list_courses": [
-      "ARCH-6320"
-    ]
-  },
   "80977": {
     "cross_list_courses": [
       "ARCH-6444"
@@ -29840,6 +29755,48 @@
   "81005": {},
   "81006": {},
   "81007": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81008": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81009": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81010": {
     "restrictions": {
       "level": {
         "must_be": [
