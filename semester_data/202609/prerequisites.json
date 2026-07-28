@@ -22373,7 +22373,6 @@
   },
   "79393": {},
   "79394": {},
-  "79395": {},
   "79398": {},
   "79401": {
     "restrictions": {
@@ -23760,7 +23759,6 @@
       }
     }
   },
-  "79771": {},
   "79774": {
     "corequisites": [
       "ARCH-2520"
@@ -29726,6 +29724,23 @@
     }
   },
   "81010": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81011": {
+    "cross_list_courses": [
+      "ARCH-6960"
+    ]
+  },
+  "81012": {
+    "cross_list_courses": [
+      "ARCH-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
