@@ -3221,28 +3221,6 @@
       }
     }
   },
-  "77257": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CHME 2020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHME 4020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "77259": {
     "prerequisites": {
       "nested": [
@@ -29769,6 +29747,15 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "81016": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
         ]
       }
     }
