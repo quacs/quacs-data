@@ -1246,7 +1246,8 @@
   "77050": {
     "cross_list_courses": [
       "ENVE-4710",
-      "ENVE-6710"
+      "ENVE-6710",
+      "ERTH-6710"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -1255,6 +1256,11 @@
     }
   },
   "77051": {
+    "cross_list_courses": [
+      "ENVE-4710",
+      "ENVE-6710",
+      "ERTH-4710"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9682,7 +9688,8 @@
   "78045": {
     "cross_list_courses": [
       "ENVE-6710",
-      "ERTH-4710"
+      "ERTH-4710",
+      "ERTH-6710"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -20302,7 +20309,8 @@
   "79086": {
     "cross_list_courses": [
       "ENVE-4710",
-      "ERTH-4710"
+      "ERTH-4710",
+      "ERTH-6710"
     ],
     "restrictions": {
       "level": {
@@ -23895,40 +23903,6 @@
     "corequisites": [
       "ARCH-2520"
     ]
-  },
-  "79775": {
-    "corequisites": [
-      "ARCH-4820"
-    ],
-    "cross_list_courses": [
-      "ARCH-4320",
-      "ARCH-5320"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ARCH 2360",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ARCH 5310",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
   },
   "79776": {
     "corequisites": [
@@ -29778,6 +29752,17 @@
           "Freshman"
         ]
       }
+    }
+  },
+  "81017": {
+    "cross_list_courses": [
+      "ARCH-2350",
+      "ARCH-5300"
+    ],
+    "prerequisites": {
+      "course": "ARCH 2510",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
