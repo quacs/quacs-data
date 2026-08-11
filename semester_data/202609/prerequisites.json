@@ -14185,11 +14185,6 @@
       }
     }
   },
-  "78484": {
-    "corequisites": [
-      "ERTH-1100"
-    ]
-  },
   "78485": {
     "restrictions": {
       "classification": {
@@ -28926,6 +28921,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Senior"
+        ]
+      }
     }
   },
   "80916": {
@@ -29682,5 +29684,22 @@
     }
   },
   "81020": {},
-  "81021": {}
+  "81021": {},
+  "81022": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1220",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
