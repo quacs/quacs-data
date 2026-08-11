@@ -3197,7 +3197,6 @@
       }
     }
   },
-  "77253": {},
   "77254": {
     "cross_list_courses": [
       "MGMT-6640"
@@ -19025,16 +19024,6 @@
       "type": "or"
     }
   },
-  "78952": {
-    "cross_list_courses": [
-      "CSCI-6966"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "78953": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -19072,18 +19061,6 @@
       "campus": {
         "must_be": [
           "Hartford"
-        ]
-      }
-    }
-  },
-  "78957": {
-    "cross_list_courses": [
-      "CSCI-4966"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -23835,56 +23812,6 @@
   "79753": {},
   "79754": {},
   "79755": {},
-  "79766": {
-    "cross_list_courses": [
-      "ECSE-6967"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1260",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "79767": {
-    "cross_list_courses": [
-      "ECSE-4967"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "79770": {
     "cross_list_courses": [
       "COGS-4280"
@@ -27357,28 +27284,6 @@
       }
     }
   },
-  "80695": {
-    "cross_list_courses": [
-      "CSCI-6965"
-    ],
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "80696": {
-    "cross_list_courses": [
-      "CSCI-4965"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "80697": {},
   "80699": {
     "cross_list_courses": [
@@ -29764,5 +29669,18 @@
       "min_grade": "D",
       "type": "course"
     }
-  }
+  },
+  "81018": {},
+  "81019": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "81020": {},
+  "81021": {}
 }
