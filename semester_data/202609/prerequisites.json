@@ -11830,11 +11830,6 @@
     }
   },
   "78276": {},
-  "78280": {
-    "corequisites": [
-      "ARCH-2520"
-    ]
-  },
   "78282": {
     "restrictions": {
       "major": {
@@ -18117,27 +18112,6 @@
     }
   },
   "78862": {
-    "corequisites": [
-      "ARCH-4320",
-      "ARCH-4540"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 2550",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 2830",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "78863": {
     "corequisites": [
       "ARCH-4320",
       "ARCH-4540"
@@ -29706,6 +29680,15 @@
         }
       ],
       "type": "or"
+    }
+  },
+  "81023": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
