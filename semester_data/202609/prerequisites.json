@@ -4247,6 +4247,9 @@
     }
   },
   "77367": {
+    "cross_list_courses": [
+      "MANE-6966"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -29259,58 +29262,6 @@
       }
     }
   },
-  "80999": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 1960",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MANE 1010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "81000": {
     "restrictions": {
       "major": {
@@ -29517,6 +29468,18 @@
           "Graduate Student"
         ]
       },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81028": {
+    "cross_list_courses": [
+      "MANE-4220"
+    ],
+    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
