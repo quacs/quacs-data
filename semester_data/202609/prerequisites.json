@@ -5021,86 +5021,6 @@
       "type": "course"
     }
   },
-  "77458": {
-    "cross_list_courses": [
-      "CSCI-6964"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2800",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4210",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2011",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2012",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2965",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2210",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "77460": {
     "restrictions": {
       "degree": {
@@ -10675,7 +10595,7 @@
   "78143": {},
   "78144": {
     "cross_list_courses": [
-      "CSCI-4964"
+      "CSCI-4620"
     ],
     "restrictions": {
       "level": {
@@ -20513,23 +20433,6 @@
       }
     }
   },
-  "79154": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "GSAS 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "WRIT 2330",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "79156": {
     "prerequisites": {
       "course": "MGMT 1100",
@@ -29534,5 +29437,15 @@
       }
     }
   },
-  "81044": {}
+  "81044": {},
+  "81045": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81046": {}
 }
