@@ -25988,9 +25988,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "MATP 6600",
-          "min_grade": "C",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATP 6600",
+              "min_grade": "C",
+              "type": "course"
+            },
+            {
+              "course": "ISYE 6780",
+              "min_grade": "C",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "MATP 6610",
@@ -25999,6 +26009,13 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "80630": {
@@ -29447,5 +29464,26 @@
       }
     }
   },
-  "81046": {}
+  "81046": {},
+  "81048": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81049": {},
+  "81050": {},
+  "81051": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81052": {}
 }
