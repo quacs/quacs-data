@@ -11422,7 +11422,11 @@
       "type": "course"
     }
   },
-  "78248": {},
+  "78248": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
   "78249": {
     "prerequisites": {
       "nested": [
@@ -23608,7 +23612,11 @@
     }
   },
   "79791": {},
-  "79793": {},
+  "79793": {
+    "cross_list_courses": [
+      "IHSS-1260"
+    ]
+  },
   "79794": {},
   "79795": {
     "cross_list_courses": [
@@ -23652,8 +23660,16 @@
       }
     }
   },
-  "79803": {},
-  "79804": {},
+  "79803": {
+    "cross_list_courses": [
+      "MGMT-1260"
+    ]
+  },
+  "79804": {
+    "cross_list_courses": [
+      "MGMT-1260"
+    ]
+  },
   "79806": {
     "prerequisites": {
       "nested": [
@@ -27672,9 +27688,9 @@
   "80824": {},
   "80825": {
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Graduate Student"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -29485,5 +29501,6 @@
       }
     }
   },
-  "81052": {}
+  "81052": {},
+  "81053": {}
 }
