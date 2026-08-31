@@ -3302,7 +3302,7 @@
   },
   "77263": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -14047,6 +14047,26 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "78494": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "78499": {},
@@ -27207,6 +27227,9 @@
     }
   },
   "80718": {
+    "cross_list_courses": [
+      "MGMT-6420"
+    ],
     "prerequisites": {
       "course": "MGMT 2320",
       "min_grade": "D",
@@ -29502,5 +29525,46 @@
     }
   },
   "81052": {},
-  "81053": {}
+  "81053": {},
+  "81054": {
+    "cross_list_courses": [
+      "MGMT-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6020",
+          "min_grade": null,
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6520",
+          "min_grade": null,
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81055": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Chemistry"
+        ]
+      }
+    }
+  }
 }
