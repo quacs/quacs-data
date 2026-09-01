@@ -7751,7 +7751,7 @@
   },
   "77839": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -24972,11 +24972,6 @@
   "80218": {},
   "80219": {
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -25146,6 +25141,26 @@
   "80340": {},
   "80341": {},
   "80342": {},
+  "80350": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "80355": {},
   "80356": {},
   "80357": {},
@@ -29566,5 +29581,7 @@
         ]
       }
     }
-  }
+  },
+  "81056": {},
+  "81057": {}
 }
