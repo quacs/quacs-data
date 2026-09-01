@@ -4417,6 +4417,9 @@
     }
   },
   "77392": {
+    "cross_list_courses": [
+      "CHEM-4440"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7068,7 +7071,7 @@
   },
   "77752": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -8490,6 +8493,26 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "77954": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   },
   "77957": {
@@ -13145,6 +13168,9 @@
     }
   },
   "78413": {
+    "cross_list_courses": [
+      "CHEM-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27001,7 +27027,6 @@
       }
     }
   },
-  "80697": {},
   "80699": {
     "cross_list_courses": [
       "ECSE-6968"
@@ -29596,6 +29621,13 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "81059": {
+    "prerequisites": {
+      "course": "ARCH 4770",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
