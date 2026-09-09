@@ -14884,7 +14884,11 @@
       }
     }
   },
-  "78537": {},
+  "78537": {
+    "cross_list_courses": [
+      "ARCH-6963"
+    ]
+  },
   "78538": {
     "restrictions": {
       "level": {
@@ -29641,6 +29645,76 @@
     }
   },
   "81046": {},
+  "81047": {
+    "cross_list_courses": [
+      "CSCI-6964"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "ECSE 2660",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2800",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2965",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 2210",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "81048": {
     "restrictions": {
       "level": {
@@ -29879,5 +29953,53 @@
   "81089": {},
   "81090": {},
   "81091": {},
-  "81092": {}
+  "81092": {},
+  "81093": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81094": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81095": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81096": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81097": {
+    "cross_list_courses": [
+      "ARCH-4963"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  }
 }
