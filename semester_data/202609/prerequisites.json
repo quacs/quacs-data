@@ -29925,6 +29925,23 @@
       }
     }
   },
+  "81080": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 2950",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 4970",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "81081": {},
   "81082": {},
   "81083": {},
@@ -30001,5 +30018,6 @@
         ]
       }
     }
-  }
+  },
+  "81099": {}
 }
