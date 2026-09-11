@@ -1589,7 +1589,7 @@
   },
   "77074": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -7079,6 +7079,7 @@
   },
   "77752": {
     "cross_list_courses": [
+      "MATH-2011",
       "MATH-2012"
     ],
     "prerequisites": {
@@ -7099,7 +7100,7 @@
   },
   "77754": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2012"
     ],
     "prerequisites": {
       "course": "MATH 1020",
@@ -8505,7 +8506,8 @@
   },
   "77954": {
     "cross_list_courses": [
-      "MATH-2010"
+      "MATH-2010",
+      "MATH-2011"
     ],
     "prerequisites": {
       "nested": [
@@ -25286,6 +25288,26 @@
       "type": "and"
     }
   },
+  "80351": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "80355": {},
   "80356": {},
   "80357": {},
@@ -30089,5 +30111,73 @@
       }
     }
   },
-  "81111": {}
+  "81111": {},
+  "81112": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81113": {},
+  "81114": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81115": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81116": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "81117": {
+    "cross_list_courses": [
+      "MATH-2010",
+      "MATH-2012"
+    ],
+    "prerequisites": {
+      "course": "MATH 1020",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "81118": {
+    "cross_list_courses": [
+      "MATH-2010"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2011",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  }
 }
