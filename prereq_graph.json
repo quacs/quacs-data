@@ -1164,7 +1164,10 @@
       "MATH 2010",
       "MATH 2011",
       "MATH 2012",
-      "MATH 2400"
+      "MATH 2100",
+      "MATH 2400",
+      "MATH 2965",
+      "MATH 4600"
     ]
   },
   "MATH 4960": {
@@ -1539,7 +1542,9 @@
     "title": "Principles Of Ecology",
     "prereqs": [
       "BIOL 1010",
-      "BIOL 2120"
+      "BIOL 2120",
+      "BIOL 2160",
+      "ERTH 2160"
     ]
   },
   "BIOL 6002": {
@@ -1951,7 +1956,11 @@
     "title": "Math Fndtns Of Machine Lrning",
     "prereqs": [
       "CSCI 2200",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "CSCI 2300": {
@@ -2027,7 +2036,10 @@
       "MATH 2010",
       "MATH 2011",
       "MATH 2012",
-      "MATH 2400"
+      "MATH 2100",
+      "MATH 2400",
+      "MATH 2965",
+      "MATH 4600"
     ]
   },
   "CSCI 4960": {
@@ -2084,7 +2096,8 @@
       "MATH 2400",
       "PHYS 1100",
       "PHYS 1110",
-      "PHYS 1150"
+      "PHYS 1150",
+      "ROBT 1010"
     ]
   },
   "ENGR 2250": {
@@ -2462,7 +2475,10 @@
   "ECSE 2410": {
     "title": "Signals And Systems",
     "prereqs": [
-      "ECSE 2010"
+      "ECSE 2010",
+      "MATH 2400",
+      "PHYS 1200",
+      "ROBT 1010"
     ]
   },
   "ECSE 2610": {
@@ -2515,7 +2531,10 @@
   },
   "ECSE 4490": {
     "title": "Mobile Robotics & Planning",
-    "prereqs": []
+    "prereqs": [
+      "MATH 2010",
+      "MATH 2012"
+    ]
   },
   "ECSE 4500": {
     "title": "Distributed Systems & Sensors Network",
@@ -2717,9 +2736,7 @@
   },
   "ISCI 4961": {
     "title": "Topics In Isci",
-    "prereqs": [
-      "PHYS 1200"
-    ]
+    "prereqs": []
   },
   "ISCI 6002": {
     "title": "Consortia Course At Suny Alb.",
@@ -3132,7 +3149,9 @@
     "prereqs": [
       "MATH 2010",
       "MATH 2011",
-      "MATH 2012"
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "MATH 4200": {
@@ -3560,9 +3579,7 @@
   },
   "WRIT 4960": {
     "title": "Topics In Writ",
-    "prereqs": [
-      "WRIT 2330"
-    ]
+    "prereqs": []
   },
   "USAF 0060": {
     "title": "Leadership Lab",
@@ -4012,8 +4029,9 @@
   "CHEM 2540": {
     "title": "Intro To Geochemistry",
     "prereqs": [
-      "ERTH 1100",
-      "ERTH 1200"
+      "CHEM 1100",
+      "CHEM 1110",
+      "CHEM 1120"
     ]
   },
   "CHEM 4420": {
@@ -4128,16 +4146,11 @@
   },
   "CIVL 6320": {
     "title": "Adv Steel Design",
-    "prereqs": [
-      "CIVL 4070"
-    ]
+    "prereqs": []
   },
   "CIVL 6520": {
     "title": "Adv Found And Earth Struc",
-    "prereqs": [
-      "CIVL 4010",
-      "CIVL 4150"
-    ]
+    "prereqs": []
   },
   "CIVL 6680": {
     "title": "Finite Element Programmi",
@@ -4282,24 +4295,15 @@
   },
   "CSCI 4963": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4964": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2500",
-      "CSCI 2800",
-      "ECSE 2610",
-      "ECSE 4770"
-    ]
+    "prereqs": []
   },
   "CSCI 4965": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 4966": {
     "title": "Topics In Csci",
@@ -4307,9 +4311,7 @@
   },
   "CSCI 4967": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300"
-    ]
+    "prereqs": []
   },
   "CSCI 6360": {
     "title": "Parallel Computing",
@@ -4380,7 +4382,8 @@
       "MANE 1010",
       "MANE 1960",
       "PHYS 1200",
-      "PHYS 1250"
+      "PHYS 1250",
+      "ROBT 1010"
     ]
   },
   "ENGR 4720": {
@@ -4507,8 +4510,9 @@
   "ERTH 2140": {
     "title": "Intro To Geochemistry",
     "prereqs": [
-      "ERTH 1100",
-      "ERTH 1200"
+      "CHEM 1100",
+      "CHEM 1110",
+      "CHEM 1120"
     ]
   },
   "ERTH 4070": {
@@ -4689,11 +4693,7 @@
   },
   "ECSE 4962": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "ECSE 2050",
-      "ECSE 2210",
-      "PHYS 2620"
-    ]
+    "prereqs": []
   },
   "ECSE 6260": {
     "title": "Semicond Power Devices",
@@ -5284,7 +5284,11 @@
     "prereqs": [
       "CSCI 1100",
       "ENGR 1100",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "MATP 6620": {
@@ -5321,6 +5325,8 @@
   "MATH 4010": {
     "title": "Abstract Algebra",
     "prereqs": [
+      "MATH 2100",
+      "MATH 2965",
       "MATH 4090"
     ]
   },
@@ -5339,14 +5345,24 @@
   "MATH 4300": {
     "title": "Intro To Complex Variables",
     "prereqs": [
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2965",
+      "MATH 4600"
     ]
   },
   "MATH 4500": {
     "title": "Methods Of Partial Diff Eq",
     "prereqs": [
       "MATH 2010",
-      "MATH 2400"
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2400",
+      "MATH 2965",
+      "MATH 4600"
     ]
   },
   "MATH 4740": {
@@ -5561,6 +5577,7 @@
       "MATH 2011",
       "MATH 2012",
       "MATH 2400",
+      "MATH 4600",
       "PHYS 2210"
     ]
   },
@@ -6171,10 +6188,7 @@
   },
   "CSCI 4962": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 2300",
-      "CSCI 2600"
-    ]
+    "prereqs": []
   },
   "CSCI 6270": {
     "title": "Computational Vision",
@@ -6221,9 +6235,7 @@
   },
   "ENGR 4961": {
     "title": "Topics In Engr",
-    "prereqs": [
-      "PHYS 1200"
-    ]
+    "prereqs": []
   },
   "DSES 4000": {
     "title": "Dses Elective",
@@ -6288,9 +6300,7 @@
   },
   "ECSE 4961": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "PHYS 1200"
-    ]
+    "prereqs": []
   },
   "ECSE 6010": {
     "title": "Network Theory",
@@ -6910,10 +6920,7 @@
   },
   "CIVL 6530": {
     "title": "Adv Seepage, Drainage, Grndwtr",
-    "prereqs": [
-      "CIVL 2060",
-      "CIVL 2630"
-    ]
+    "prereqs": []
   },
   "COMM 4300": {
     "title": "Communication Internship",
@@ -7891,6 +7898,8 @@
     "title": "Ai For Biomedical Applications",
     "prereqs": [
       "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
       "MATH 2400"
     ]
   },
@@ -8044,7 +8053,7 @@
   "ERTH 4750": {
     "title": "Gis In The Sciences",
     "prereqs": [
-      "CSCI 1100",
+      "ERTH 1100",
       "ERTH 1125",
       "ERTH 1200"
     ]
@@ -8920,12 +8929,7 @@
   },
   "ECSE 4963": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "CSCI 2500",
-      "CSCI 2800",
-      "ECSE 2610",
-      "ECSE 4770"
-    ]
+    "prereqs": []
   },
   "ITEC 4100": {
     "title": "ITEC Capstone Experience",
@@ -9421,11 +9425,7 @@
   },
   "CSCI 4969": {
     "title": "Topics In Csci",
-    "prereqs": [
-      "CSCI 4480",
-      "ECSE 4480",
-      "ECSE 6470"
-    ]
+    "prereqs": []
   },
   "CSCI 4970": {
     "title": "Topics In Csci",
@@ -10151,10 +10151,7 @@
   },
   "ECSE 4965": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "ECSE 4110",
-      "ECSE 6110"
-    ]
+    "prereqs": []
   },
   "ECSE 6670": {
     "title": "Broadband & Optical Netwrkg",
@@ -11621,7 +11618,8 @@
   "MATH 4090": {
     "title": "Foundations Of Analysis",
     "prereqs": [
-      "MATH 2010"
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "MANE 4964": {
@@ -11790,11 +11788,7 @@
   },
   "ECSE 4967": {
     "title": "Topics In Ecse",
-    "prereqs": [
-      "MATH 2010",
-      "MATH 2400",
-      "PHYS 1200"
-    ]
+    "prereqs": []
   },
   "ITEC 4960": {
     "title": "Db & Application Security",
@@ -12399,10 +12393,9 @@
   "ARCH 6360": {
     "title": "Interdisciplinary Research Studio",
     "prereqs": [
-      "ARCH 6250",
       "ARCH 6310",
       "ARCH 6320",
-      "ARCH 6340"
+      "ARCH 6350"
     ]
   },
   "ARCH 6830": {
@@ -12808,6 +12801,7 @@
     "title": "Managing It Resources",
     "prereqs": [
       "CSCI 1200",
+      "CSCI 2110",
       "ITWS 2110"
     ]
   },
@@ -13528,8 +13522,6 @@
   "CIVL 6340": {
     "title": "Bedford Design Studio",
     "prereqs": [
-      "ARCH 4020",
-      "CIVL 4020",
       "CIVL 6310",
       "CIVL 6320"
     ]
@@ -13905,7 +13897,9 @@
   },
   "CSCI 6400": {
     "title": "Xinformatics",
-    "prereqs": []
+    "prereqs": [
+      "CSCI 1200"
+    ]
   },
   "ENGR 4200": {
     "title": "Fortran Programming",
@@ -15367,7 +15361,11 @@
     "title": "Intro To Data Mathematics",
     "prereqs": [
       "CSCI 1100",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2011",
+      "MATH 2012",
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "MATH 4840": {
@@ -15520,12 +15518,16 @@
     "prereqs": [
       "CSCI 2210",
       "CSCI 2300",
-      "MATH 2010"
+      "MATH 2010",
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "CSCI 4510": {
     "title": "Dist Systems & Algorithms",
     "prereqs": [
+      "CSCI 2300",
+      "CSCI 2600",
       "CSCI 2800",
       "CSCI 4210"
     ]
@@ -15769,8 +15771,8 @@
   "GSAS 4510": {
     "title": "Experimental Game Design",
     "prereqs": [
-      "CSCI 4540",
-      "GSAS 4540"
+      "GSAS 2520",
+      "GSAS 4520"
     ]
   },
   "GSAS 4540": {
@@ -18273,7 +18275,24 @@
   },
   "ARTS 4140": {
     "title": "Queer Ecologies",
-    "prereqs": []
+    "prereqs": [
+      "ARTS 1020",
+      "ARTS 1030",
+      "ARTS 1040",
+      "ARTS 1200",
+      "ARTS 1220",
+      "ARTS 2020",
+      "ARTS 2380",
+      "ARTS 4120",
+      "ARTS 4240",
+      "ARTS 4640",
+      "D",
+      "IHSS 1030",
+      "IHSS 1040",
+      "INQR 1030",
+      "INQR 1040",
+      "INQR 1180"
+    ]
   },
   "ARTS 6140": {
     "title": "Queer Ecologies",
@@ -18569,7 +18588,8 @@
     "prereqs": [
       "CSCI 2210",
       "CSCI 2300",
-      "MATH 4100"
+      "MATH 2100",
+      "MATH 2965"
     ]
   },
   "CSCI 4160": {
@@ -19418,9 +19438,7 @@
   },
   "MATH 2965": {
     "title": "Topics In Math",
-    "prereqs": [
-      "MATH 1020"
-    ]
+    "prereqs": []
   },
   "MANE 4967": {
     "title": "Topics In Mane",
