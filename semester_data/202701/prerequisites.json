@@ -585,90 +585,6 @@
       }
     }
   },
-  "40038": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1960",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
-  "40039": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1960",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "40040": {
     "prerequisites": {
       "course": "MATH 1010",
@@ -1408,33 +1324,6 @@
       "type": "course"
     }
   },
-  "40079": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Design, Innovation and Society",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Engineering Science",
-          "Information Tech & Web Science",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "40080": {
     "prerequisites": {
       "course": "PHYS 2210",
@@ -2103,33 +1992,6 @@
             }
           ],
           "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "40097": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "PHYS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1250",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
         }
       ],
       "type": "and"
@@ -3759,55 +3621,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "40330": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1960",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
-        ]
-      }
     }
   },
   "40331": {
@@ -8284,79 +8097,6 @@
         "must_be": [
           "Aeronautical Engineering",
           "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
-        ]
-      }
-    }
-  },
-  "41009": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "PHYS 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1150",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 1010",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
           "Biomedical Engineering",
           "Chemical Engineering",
           "Civil Engineering",
@@ -17196,35 +16936,6 @@
       }
     }
   },
-  "41843": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Decision Sciences & Engr Syst",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Electric Power Engr",
-          "Engineering Science",
-          "Information Technology",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Manufacturing Systems Engr",
-          "Industrial & Management Engr",
-          "Engr Principles in Tech. Educ.",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science",
-          "Transportation Engineering"
-        ]
-      }
-    }
-  },
   "41844": {},
   "41845": {},
   "41846": {
@@ -25187,6 +24898,147 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "43638": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "43639": {},
+  "43640": {},
+  "43641": {},
+  "43642": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1960",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ROBT 1010",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "CIVL 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "43643": {
+    "prerequisites": {
+      "course": "MATH 1010",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
