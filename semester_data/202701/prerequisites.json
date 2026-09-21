@@ -2039,6 +2039,33 @@
       "type": "and"
     }
   },
+  "40097": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "40098": {},
   "40099": {
     "prerequisites": {
@@ -16332,26 +16359,6 @@
       }
     }
   },
-  "41795": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "41796": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41797": {
     "prerequisites": {
       "nested": [
@@ -17003,38 +17010,7 @@
     }
   },
   "41878": {},
-  "41879": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "41880": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "41881": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "41882": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -17058,7 +17034,6 @@
     }
   },
   "41884": {},
-  "41885": {},
   "41886": {},
   "41887": {
     "prerequisites": {
@@ -18808,16 +18783,6 @@
       }
     }
   },
-  "42076": {},
-  "42077": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42078": {
     "prerequisites": {
       "nested": [
@@ -19549,7 +19514,6 @@
       "type": "or"
     }
   },
-  "42139": {},
   "42140": {
     "prerequisites": {
       "nested": [
@@ -20726,7 +20690,6 @@
       }
     }
   },
-  "42503": {},
   "42504": {},
   "42505": {},
   "42506": {},
@@ -21305,15 +21268,6 @@
       }
     }
   },
-  "42692": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42693": {
     "restrictions": {
       "level": {
@@ -21384,7 +21338,6 @@
     }
   },
   "42709": {},
-  "42710": {},
   "42711": {
     "prerequisites": {
       "nested": [
@@ -21530,113 +21483,9 @@
   "42782": {},
   "42783": {},
   "42784": {},
-  "42785": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Computational Biology",
-          "Chemistry",
-          "Computer Science",
-          "Environmental Science",
-          "Geology",
-          "Mathematics",
-          "Physics"
-        ]
-      }
-    }
-  },
   "42786": {},
   "42787": {},
-  "42788": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Computational Biology",
-          "Chemistry",
-          "Computer Science",
-          "Environmental Science",
-          "Geology",
-          "Mathematics",
-          "Physics"
-        ]
-      }
-    }
-  },
-  "42789": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Computational Biology",
-          "Chemistry",
-          "Computer Science",
-          "Environmental Science",
-          "Geology",
-          "Mathematics",
-          "Physics"
-        ]
-      }
-    }
-  },
   "42790": {},
-  "42791": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Applied Physics",
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Computational Biology",
-          "Chemistry",
-          "Computer Science",
-          "Environmental Science",
-          "Geology",
-          "Mathematics",
-          "Physics"
-        ]
-      }
-    }
-  },
   "42792": {},
   "42793": {},
   "42794": {},
@@ -22308,19 +22157,6 @@
       }
     }
   },
-  "42856": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Mechanical Engineering",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science"
-        ]
-      }
-    }
-  },
   "42857": {
     "restrictions": {
       "major": {
@@ -22988,24 +22824,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "42942": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Mechanical Engineering",
-          "Nuclear Engineering",
-          "Nuclear Engineering & Science"
         ]
       }
     }
@@ -24240,7 +24058,6 @@
       }
     }
   },
-  "43431": {},
   "43432": {},
   "43433": {},
   "43434": {},
@@ -24850,5 +24667,6 @@
         ]
       }
     }
-  }
+  },
+  "43651": {}
 }
