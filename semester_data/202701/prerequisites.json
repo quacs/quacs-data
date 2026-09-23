@@ -3206,6 +3206,9 @@
     "corequisites": [
       "ARCH-2830"
     ],
+    "cross_list_courses": [
+      "ARCH-2360"
+    ],
     "prerequisites": {
       "course": "ARCH 2370",
       "min_grade": "D",
@@ -5592,6 +5595,9 @@
   "40688": {},
   "40689": {},
   "40690": {
+    "cross_list_courses": [
+      "ARCH-4880"
+    ],
     "prerequisites": {
       "course": "ARCH 6860",
       "min_grade": "C",
@@ -7245,6 +7251,9 @@
     }
   },
   "40921": {
+    "cross_list_courses": [
+      "ARCH-4020"
+    ],
     "prerequisites": {
       "course": "CIVL 2670",
       "min_grade": "D",
@@ -7808,6 +7817,9 @@
   },
   "40990": {},
   "40991": {
+    "cross_list_courses": [
+      "ARTS-6200"
+    ],
     "prerequisites": {
       "course": "ARTS 1200",
       "min_grade": "D",
@@ -8334,6 +8346,9 @@
     }
   },
   "41016": {
+    "cross_list_courses": [
+      "CIVL-4020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8801,7 +8816,11 @@
       }
     }
   },
-  "41078": {},
+  "41078": {
+    "cross_list_courses": [
+      "ARCH-2370"
+    ]
+  },
   "41079": {
     "corequisites": [
       "ARCH-2530"
@@ -8846,13 +8865,20 @@
     "corequisites": [
       "ARCH-2810"
     ],
+    "cross_list_courses": [
+      "ARCH-2530"
+    ],
     "prerequisites": {
       "course": "ARCH 2520",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "41082": {},
+  "41082": {
+    "cross_list_courses": [
+      "ARCH-5390"
+    ]
+  },
   "41083": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -9618,35 +9644,6 @@
       }
     }
   },
-  "41148": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BIOL 1010",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 1010",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biochemistry & Biophysics",
-          "Biology",
-          "Biology",
-          "Biological Neuroscience",
-          "Biotechnology & Health Econ",
-          "Computational Biology"
-        ]
-      }
-    }
-  },
   "41149": {
     "corequisites": [
       "ARCH-2360",
@@ -9700,6 +9697,10 @@
   "41153": {
     "corequisites": [
       "ARCH-2830"
+    ],
+    "cross_list_courses": [
+      "ARCH-2550",
+      "ARCH-5170"
     ],
     "prerequisites": {
       "course": "ARCH 2540",
@@ -11609,6 +11610,9 @@
   },
   "41354": {},
   "41355": {
+    "cross_list_courses": [
+      "ARCH-5110"
+    ],
     "prerequisites": {
       "course": "ARCH 2150",
       "min_grade": "D",
@@ -11616,6 +11620,9 @@
     }
   },
   "41356": {
+    "cross_list_courses": [
+      "ARCH-5330"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -13967,7 +13974,11 @@
       "type": "and"
     }
   },
-  "41558": {},
+  "41558": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ]
+  },
   "41559": {
     "prerequisites": {
       "nested": [
@@ -14178,6 +14189,9 @@
     }
   },
   "41573": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -14188,11 +14202,23 @@
       }
     }
   },
-  "41574": {},
-  "41575": {},
+  "41574": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
+  "41575": {
+    "cross_list_courses": [
+      "ARTS-2700"
+    ]
+  },
   "41576": {
     "corequisites": [
       "ARCH-2830"
+    ],
+    "cross_list_courses": [
+      "ARCH-2550",
+      "ARCH-5170"
     ],
     "prerequisites": {
       "course": "ARCH 2540",
@@ -14513,6 +14539,9 @@
     "corequisites": [
       "ARCH-2810"
     ],
+    "cross_list_courses": [
+      "ARCH-2530"
+    ],
     "prerequisites": {
       "course": "ARCH 2520",
       "min_grade": "D",
@@ -14534,6 +14563,9 @@
   "41651": {},
   "41652": {},
   "41653": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -15392,6 +15424,9 @@
     }
   },
   "41714": {
+    "cross_list_courses": [
+      "ARCH-5150"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16197,8 +16232,15 @@
     }
   },
   "41783": {},
-  "41784": {},
+  "41784": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ]
+  },
   "41785": {
+    "cross_list_courses": [
+      "ARTS-2180"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -16260,6 +16302,9 @@
     }
   },
   "41790": {
+    "cross_list_courses": [
+      "ARTS-6040"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16650,6 +16695,9 @@
     }
   },
   "41829": {
+    "cross_list_courses": [
+      "ARTS-6160"
+    ],
     "prerequisites": {
       "course": "ARTS 2020",
       "min_grade": "D",
@@ -16666,8 +16714,15 @@
       }
     }
   },
-  "41831": {},
+  "41831": {
+    "cross_list_courses": [
+      "ARTS-6860"
+    ]
+  },
   "41832": {
+    "cross_list_courses": [
+      "ARTS-4860"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16930,6 +16985,10 @@
     "corequisites": [
       "ARCH-2830"
     ],
+    "cross_list_courses": [
+      "ARCH-2550",
+      "ARCH-5170"
+    ],
     "prerequisites": {
       "course": "ARCH 2540",
       "min_grade": "D",
@@ -16939,6 +16998,9 @@
   "41863": {
     "corequisites": [
       "ARCH-2810"
+    ],
+    "cross_list_courses": [
+      "ARCH-2530"
     ],
     "prerequisites": {
       "course": "ARCH 2520",
@@ -17359,6 +17421,9 @@
     }
   },
   "41914": {
+    "cross_list_courses": [
+      "ARTS-4040"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17368,6 +17433,9 @@
     }
   },
   "41915": {
+    "cross_list_courses": [
+      "ARTS-6140"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17455,6 +17523,9 @@
     }
   },
   "41916": {
+    "cross_list_courses": [
+      "ARTS-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17464,6 +17535,9 @@
     }
   },
   "41917": {
+    "cross_list_courses": [
+      "ARTS-6260"
+    ],
     "prerequisites": {
       "course": "ARTS 1200",
       "min_grade": "D",
@@ -19227,6 +19301,10 @@
     "corequisites": [
       "ARCH-4830"
     ],
+    "cross_list_courses": [
+      "ARCH-4325",
+      "ARCH-5325"
+    ],
     "prerequisites": {
       "course": "ARCH 4320",
       "min_grade": "D",
@@ -19525,6 +19603,10 @@
     "corequisites": [
       "ARCH-4830"
     ],
+    "cross_list_courses": [
+      "ARCH-4325",
+      "ARCH-5325"
+    ],
     "prerequisites": {
       "course": "ARCH 4320",
       "min_grade": "D",
@@ -19600,21 +19682,35 @@
       }
     }
   },
-  "42156": {},
+  "42156": {
+    "cross_list_courses": [
+      "ARCH-4590"
+    ]
+  },
   "42157": {
     "corequisites": [
       "ARCH-5210"
     ]
   },
   "42158": {
+    "cross_list_courses": [
+      "ARCH-4100"
+    ],
     "prerequisites": {
       "course": "ARCH 5100",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "42159": {},
+  "42159": {
+    "cross_list_courses": [
+      "ARCH-6969"
+    ]
+  },
   "42160": {
+    "cross_list_courses": [
+      "ARCH-4969"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -19626,6 +19722,9 @@
   "42161": {
     "corequisites": [
       "ARCH-5210"
+    ],
+    "cross_list_courses": [
+      "ARCH-2550"
     ],
     "prerequisites": {
       "course": "ARCH 5160",
@@ -20411,6 +20510,9 @@
   "42288": {},
   "42289": {},
   "42291": {
+    "cross_list_courses": [
+      "ARCH-4330"
+    ],
     "prerequisites": {
       "course": "ARCH 5140",
       "min_grade": "D",
@@ -20601,6 +20703,9 @@
     "corequisites": [
       "ARCH-2830"
     ],
+    "cross_list_courses": [
+      "ARCH-2360"
+    ],
     "prerequisites": {
       "course": "ARCH 2370",
       "min_grade": "D",
@@ -20611,14 +20716,25 @@
     "corequisites": [
       "ARCH-4830"
     ],
+    "cross_list_courses": [
+      "ARCH-4325",
+      "ARCH-5325"
+    ],
     "prerequisites": {
       "course": "ARCH 4320",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "42500": {},
+  "42500": {
+    "cross_list_courses": [
+      "ARCH-4550"
+    ]
+  },
   "42501": {
+    "cross_list_courses": [
+      "ARCH-4325"
+    ],
     "prerequisites": {
       "course": "ARCH 5320",
       "min_grade": "D",
@@ -20727,6 +20843,9 @@
   "42598": {},
   "42599": {},
   "42600": {
+    "cross_list_courses": [
+      "ARCH-6890"
+    ],
     "prerequisites": {
       "course": "ARCH 4860",
       "min_grade": "D",
@@ -20782,7 +20901,11 @@
   "42615": {},
   "42616": {},
   "42617": {},
-  "42618": {},
+  "42618": {
+    "cross_list_courses": [
+      "ARCH-6060"
+    ]
+  },
   "42619": {},
   "42620": {},
   "42621": {},
@@ -20839,6 +20962,9 @@
     }
   },
   "42641": {
+    "cross_list_courses": [
+      "ARCH-4060"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21241,8 +21367,6 @@
   "42696": {},
   "42697": {},
   "42698": {},
-  "42699": {},
-  "42700": {},
   "42704": {},
   "42705": {
     "prerequisites": {
@@ -21873,6 +21997,9 @@
     }
   },
   "42843": {
+    "cross_list_courses": [
+      "ARTS-6130"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -21884,6 +22011,9 @@
     }
   },
   "42844": {
+    "cross_list_courses": [
+      "ARTS-4130"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -21893,6 +22023,9 @@
     }
   },
   "42845": {
+    "cross_list_courses": [
+      "ARTS-6250"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21980,6 +22113,9 @@
     }
   },
   "42846": {
+    "cross_list_courses": [
+      "ARTS-4250"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22015,6 +22151,9 @@
     }
   },
   "42849": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22025,8 +22164,15 @@
       }
     }
   },
-  "42850": {},
+  "42850": {
+    "cross_list_courses": [
+      "ARTS-2960"
+    ]
+  },
   "42851": {
+    "cross_list_courses": [
+      "ARTS-6050"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22627,6 +22773,9 @@
   },
   "42907": {},
   "42908": {
+    "cross_list_courses": [
+      "ARTS-4160"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23011,6 +23160,9 @@
   "43144": {},
   "43147": {},
   "43148": {
+    "cross_list_courses": [
+      "GSAS-4115"
+    ],
     "prerequisites": {
       "course": "ARTS 2230",
       "min_grade": "D",
@@ -23018,6 +23170,9 @@
     }
   },
   "43149": {
+    "cross_list_courses": [
+      "ARTS-4115"
+    ],
     "prerequisites": {
       "course": "ARTS 2230",
       "min_grade": "D",
@@ -24444,7 +24599,11 @@
       }
     }
   },
-  "43635": {},
+  "43635": {
+    "cross_list_courses": [
+      "ARCH-2370"
+    ]
+  },
   "43638": {
     "restrictions": {
       "major": {
@@ -24592,6 +24751,121 @@
   },
   "43656": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43657": {
+    "prerequisites": {
+      "course": "BIOL 4200",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43658": {},
+  "43660": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ECON 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "INQR 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "IHSS 1200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43661": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43662": {
+    "cross_list_courses": [
+      "ARTS-4050"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43663": {
+    "cross_list_courses": [
+      "ARTS-4200"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43664": {
+    "cross_list_courses": [
+      "ARTS-4260"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
