@@ -663,6 +663,11 @@
     }
   },
   "40041": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -2349,15 +2354,6 @@
   "40142": {},
   "40143": {},
   "40144": {},
-  "40145": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "40157": {
     "restrictions": {
       "level": {
@@ -3196,15 +3192,6 @@
     }
   },
   "40237": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "40238": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -4439,21 +4426,6 @@
           "Management",
           "Quant Finance & Risk Analytics",
           "Supply Chain Management"
-        ]
-      }
-    }
-  },
-  "40486": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -6149,7 +6121,12 @@
       "type": "course"
     }
   },
-  "40768": {},
+  "40768": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
   "40769": {
     "prerequisites": {
       "nested": [
@@ -6319,15 +6296,6 @@
   "40781": {},
   "40782": {},
   "40783": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "40786": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -6552,15 +6520,6 @@
     }
   },
   "40838": {},
-  "40840": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "40841": {
     "restrictions": {
       "classification": {
@@ -6574,6 +6533,9 @@
   },
   "40842": {},
   "40845": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -7026,6 +6988,11 @@
     }
   },
   "40906": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -7637,15 +7604,6 @@
       }
     }
   },
-  "40950": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "40951": {
     "restrictions": {
       "classification": {
@@ -7810,6 +7768,10 @@
     }
   },
   "40985": {
+    "cross_list_courses": [
+      "COGS-4610",
+      "PSYC-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -7817,6 +7779,10 @@
     }
   },
   "40986": {
+    "cross_list_courses": [
+      "COGS-4610",
+      "PSYC-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -10818,7 +10784,12 @@
       }
     }
   },
-  "41248": {},
+  "41248": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
   "41249": {},
   "41250": {
     "cross_list_courses": [
@@ -11882,12 +11853,48 @@
   "41368": {},
   "41369": {},
   "41370": {},
-  "41371": {},
-  "41372": {},
-  "41373": {},
-  "41374": {},
-  "41375": {},
-  "41376": {},
+  "41371": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "41372": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
+  "41373": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "41374": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "41375": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
+  "41376": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
   "41377": {},
   "41378": {},
   "41379": {
@@ -12890,7 +12897,12 @@
       "type": "and"
     }
   },
-  "41471": {},
+  "41471": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
   "41472": {
     "prerequisites": {
       "nested": [
@@ -13463,16 +13475,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "41507": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
         ]
       }
     }
@@ -14808,6 +14810,9 @@
     }
   },
   "41659": {
+    "cross_list_courses": [
+      "COGS-6880"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14858,6 +14863,9 @@
     }
   },
   "41660": {
+    "cross_list_courses": [
+      "COGS-4880"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16119,6 +16127,9 @@
     }
   },
   "41735": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -16657,7 +16668,6 @@
       "type": "and"
     }
   },
-  "41799": {},
   "41800": {
     "restrictions": {
       "classification": {
@@ -17813,6 +17823,9 @@
     }
   },
   "41918": {
+    "cross_list_courses": [
+      "COGS-6210"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
@@ -17820,6 +17833,9 @@
     }
   },
   "41919": {
+    "cross_list_courses": [
+      "COGS-4210"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17912,6 +17928,10 @@
     }
   },
   "41932": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18098,6 +18118,10 @@
     }
   },
   "41950": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18107,6 +18131,10 @@
     }
   },
   "41951": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18116,6 +18144,10 @@
     }
   },
   "41952": {
+    "cross_list_courses": [
+      "COGS-4610",
+      "PSYC-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -18132,6 +18164,10 @@
     }
   },
   "41953": {
+    "cross_list_courses": [
+      "COGS-4610",
+      "PSYC-4610"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -18148,6 +18184,10 @@
     }
   },
   "41954": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18165,6 +18205,10 @@
     }
   },
   "41955": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18191,6 +18235,10 @@
     }
   },
   "41956": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18208,6 +18256,10 @@
     }
   },
   "41957": {
+    "cross_list_courses": [
+      "COGS-4360",
+      "PSYC-4360"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18507,6 +18559,10 @@
   "42009": {},
   "42010": {},
   "42011": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18515,7 +18571,12 @@
       }
     }
   },
-  "42012": {},
+  "42012": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ]
+  },
   "42013": {},
   "42014": {},
   "42015": {
@@ -18692,6 +18753,9 @@
     }
   },
   "42047": {
+    "cross_list_courses": [
+      "STSO-2520"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -18699,90 +18763,6 @@
           "Senior"
         ]
       }
-    }
-  },
-  "42048": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSO 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSS 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42049": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "INQR 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 2520",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "42050": {
@@ -19792,15 +19772,6 @@
       }
     }
   },
-  "42130": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "42133": {
     "cross_list_courses": [
       "BMED-6810"
@@ -20114,8 +20085,15 @@
       }
     }
   },
-  "42172": {},
+  "42172": {
+    "cross_list_courses": [
+      "COGS-6540"
+    ]
+  },
   "42173": {
+    "cross_list_courses": [
+      "COGS-4540"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20419,6 +20397,10 @@
     }
   },
   "42192": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20428,6 +20410,10 @@
     }
   },
   "42193": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20437,6 +20423,10 @@
     }
   },
   "42194": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -20529,6 +20519,10 @@
     }
   },
   "42209": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -20841,16 +20835,6 @@
       }
     }
   },
-  "42276": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "42277": {
     "restrictions": {
       "classification": {
@@ -20877,7 +20861,6 @@
   "42284": {},
   "42285": {},
   "42286": {},
-  "42287": {},
   "42288": {},
   "42289": {},
   "42291": {
@@ -21599,8 +21582,15 @@
       }
     }
   },
-  "42677": {},
+  "42677": {
+    "cross_list_courses": [
+      "PSYC-4960"
+    ]
+  },
   "42678": {
+    "cross_list_courses": [
+      "COGS-4960"
+    ],
     "prerequisites": {
       "course": "PSYC 1200",
       "min_grade": "D",
@@ -22826,15 +22816,6 @@
       }
     }
   },
-  "42875": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42876": {
     "restrictions": {
       "level": {
@@ -23075,6 +23056,10 @@
     }
   },
   "42895": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -23084,6 +23069,10 @@
     }
   },
   "42896": {
+    "cross_list_courses": [
+      "INQR-1100",
+      "STSO-1100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -23118,6 +23107,10 @@
   },
   "42902": {},
   "42905": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -23127,6 +23120,10 @@
     }
   },
   "42906": {
+    "cross_list_courses": [
+      "INQR-1220",
+      "ITWS-1220"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -23154,8 +23151,6 @@
       }
     }
   },
-  "42909": {},
-  "42910": {},
   "42911": {
     "prerequisites": {
       "course": "ECON 6800",
@@ -23620,7 +23615,11 @@
   "43193": {},
   "43194": {},
   "43195": {},
-  "43196": {},
+  "43196": {
+    "cross_list_courses": [
+      "COGS-2120"
+    ]
+  },
   "43197": {
     "prerequisites": {
       "course": "COMM 2660",
@@ -24886,6 +24885,11 @@
     ]
   },
   "43638": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -24906,9 +24910,27 @@
       }
     }
   },
-  "43639": {},
-  "43640": {},
-  "43641": {},
+  "43639": {
+    "cross_list_courses": [
+      "ENGR-1600",
+      "ISCI-1600",
+      "PHYS-1600"
+    ]
+  },
+  "43640": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "PHYS-1600"
+    ]
+  },
+  "43641": {
+    "cross_list_courses": [
+      "CHEM-1600",
+      "ENGR-1600",
+      "ISCI-1600"
+    ]
+  },
   "43642": {
     "prerequisites": {
       "nested": [
@@ -25015,6 +25037,9 @@
   },
   "43649": {},
   "43650": {
+    "cross_list_courses": [
+      "COMM-4897"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25024,8 +25049,20 @@
     }
   },
   "43651": {},
-  "43653": {},
-  "43654": {},
+  "43653": {
+    "cross_list_courses": [
+      "BCBP-4240",
+      "BCBP-6240",
+      "BIOL-6240"
+    ]
+  },
+  "43654": {
+    "cross_list_courses": [
+      "BCBP-4240",
+      "BCBP-6240",
+      "BIOL-4240"
+    ]
+  },
   "43655": {
     "prerequisites": {
       "course": "ECON 2020",
@@ -25043,13 +25080,21 @@
     }
   },
   "43657": {
+    "cross_list_courses": [
+      "BIOL-6220"
+    ],
     "prerequisites": {
       "course": "BIOL 4200",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "43658": {},
+  "43658": {
+    "cross_list_courses": [
+      "BIOL-4220"
+    ]
+  },
+  "43659": {},
   "43660": {
     "prerequisites": {
       "nested": [
@@ -25157,8 +25202,19 @@
       }
     }
   },
-  "43665": {},
+  "43665": {
+    "cross_list_courses": [
+      "BCBP-6240",
+      "BIOL-4240",
+      "BIOL-6240"
+    ]
+  },
   "43666": {
+    "cross_list_courses": [
+      "BCBP-4240",
+      "BIOL-4240",
+      "BIOL-6240"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25391,6 +25447,7 @@
       "type": "and"
     }
   },
+  "43674": {},
   "43675": {
     "prerequisites": {
       "nested": [
@@ -25459,6 +25516,58 @@
       "course": "PHYS 2210",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "43682": {},
+  "43683": {
+    "prerequisites": {
+      "course": "CSCI 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43684": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43685": {
+    "cross_list_courses": [
+      "COMM-6897"
+    ]
+  },
+  "43686": {},
+  "43687": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
     }
   }
 }
