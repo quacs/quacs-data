@@ -452,6 +452,9 @@
     }
   },
   "40033": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1000,6 +1003,9 @@
     }
   },
   "40057": {
+    "cross_list_courses": [
+      "CSCI-4800"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1104,6 +1110,9 @@
     }
   },
   "40062": {
+    "cross_list_courses": [
+      "ECSE-2010"
+    ],
     "prerequisites": {
       "course": "MATH 2400",
       "min_grade": "D",
@@ -1181,6 +1190,9 @@
     }
   },
   "40065": {
+    "cross_list_courses": [
+      "ECSE-2010"
+    ],
     "prerequisites": {
       "course": "MATH 2400",
       "min_grade": "D",
@@ -1210,6 +1222,9 @@
   },
   "40066": {},
   "40067": {
+    "cross_list_courses": [
+      "ECSE-2050"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -1425,6 +1440,9 @@
     }
   },
   "40084": {
+    "cross_list_courses": [
+      "ECSE-2610"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -1440,6 +1458,9 @@
     }
   },
   "40085": {
+    "cross_list_courses": [
+      "ECSE-2610"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -2408,6 +2429,9 @@
     }
   },
   "40174": {
+    "cross_list_courses": [
+      "CHEM-1200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2781,47 +2805,6 @@
       }
     }
   },
-  "40211": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2800",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "40212": {
     "prerequisites": {
       "nested": [
@@ -2855,6 +2838,9 @@
     }
   },
   "40213": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -2913,74 +2899,10 @@
       "type": "course"
     }
   },
-  "40215": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2012",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2100",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 4600",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2965",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 4600",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "40216": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3264,6 +3186,9 @@
     }
   },
   "40247": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3271,6 +3196,9 @@
     }
   },
   "40248": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3278,6 +3206,9 @@
     }
   },
   "40249": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3285,6 +3216,9 @@
     }
   },
   "40250": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3292,6 +3226,9 @@
     }
   },
   "40251": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3299,6 +3236,9 @@
     }
   },
   "40252": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3306,6 +3246,9 @@
     }
   },
   "40253": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -3661,6 +3604,9 @@
     }
   },
   "40329": {
+    "cross_list_courses": [
+      "CHEM-4120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3826,8 +3772,16 @@
       "type": "course"
     }
   },
-  "40368": {},
-  "40369": {},
+  "40368": {
+    "cross_list_courses": [
+      "CHEM-1100"
+    ]
+  },
+  "40369": {
+    "cross_list_courses": [
+      "CHEM-1100"
+    ]
+  },
   "40370": {
     "prerequisites": {
       "course": "CHEM 2250",
@@ -3846,6 +3800,9 @@
     }
   },
   "40373": {
+    "cross_list_courses": [
+      "CHEM-2240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -3863,6 +3820,9 @@
     }
   },
   "40374": {
+    "cross_list_courses": [
+      "CHEM-2240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4053,6 +4013,9 @@
     }
   },
   "40430": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4104,7 +4067,11 @@
       "type": "and"
     }
   },
-  "40434": {},
+  "40434": {
+    "cross_list_courses": [
+      "CHME-6440"
+    ]
+  },
   "40435": {
     "restrictions": {
       "level": {
@@ -4288,6 +4255,9 @@
   },
   "40477": {},
   "40478": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4361,6 +4331,9 @@
     }
   },
   "40482": {
+    "cross_list_courses": [
+      "CHEM-1200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -4878,6 +4851,9 @@
     }
   },
   "40581": {
+    "cross_list_courses": [
+      "CHME-4170"
+    ],
     "restrictions": {
       "field_of_study": {
         "must_be": [
@@ -5614,6 +5590,9 @@
     }
   },
   "40692": {
+    "cross_list_courses": [
+      "ECSE-2610"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "D",
@@ -7193,6 +7172,9 @@
     }
   },
   "40919": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -7200,6 +7182,9 @@
     }
   },
   "40920": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7547,6 +7532,9 @@
     }
   },
   "40944": {
+    "cross_list_courses": [
+      "CHEM-2240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -7783,6 +7771,11 @@
     }
   },
   "40987": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ITWS-6400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "D",
@@ -7790,6 +7783,11 @@
     }
   },
   "40988": {
+    "cross_list_courses": [
+      "CSCI-4400",
+      "CSCI-6400",
+      "ITWS-4400"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "D",
@@ -8016,52 +8014,6 @@
       }
     }
   },
-  "41003": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 4350",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ITWS 4350",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ERTH 4350",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41004": {
-    "prerequisites": {
-      "course": "CSCI 1200",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41005": {
     "restrictions": {
       "level": {
@@ -8214,6 +8166,9 @@
     }
   },
   "41011": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -8221,6 +8176,9 @@
     }
   },
   "41012": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8273,6 +8231,9 @@
     }
   },
   "41013": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -8421,6 +8382,9 @@
     }
   },
   "41021": {
+    "cross_list_courses": [
+      "CHME-4400"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -8430,6 +8394,9 @@
     }
   },
   "41022": {
+    "cross_list_courses": [
+      "CSCI-1200"
+    ],
     "prerequisites": {
       "course": "CSCI 1100",
       "min_grade": "C-",
@@ -8573,13 +8540,6 @@
           "Graduate"
         ]
       }
-    }
-  },
-  "41041": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
     }
   },
   "41042": {
@@ -9061,6 +9021,9 @@
     }
   },
   "41092": {
+    "cross_list_courses": [
+      "CSCI-4520"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9180,6 +9143,9 @@
     }
   },
   "41098": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9217,6 +9183,9 @@
     }
   },
   "41099": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9254,6 +9223,9 @@
     }
   },
   "41100": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9322,6 +9294,9 @@
   },
   "41103": {},
   "41104": {
+    "cross_list_courses": [
+      "ECSE-6050"
+    ],
     "prerequisites": {
       "course": "ECSE 2050",
       "min_grade": "D",
@@ -9329,6 +9304,9 @@
     }
   },
   "41105": {
+    "cross_list_courses": [
+      "ECSE-4050"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -9544,6 +9522,9 @@
     }
   },
   "41135": {
+    "cross_list_courses": [
+      "CSCI-2200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9728,57 +9709,6 @@
       "type": "course"
     }
   },
-  "41154": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2500",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2800",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ECSE 2660",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41155": {
-    "prerequisites": {
-      "course": "CSCI 4210",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41156": {
     "restrictions": {
       "classification": {
@@ -9883,6 +9813,9 @@
     ]
   },
   "41162": {
+    "cross_list_courses": [
+      "ECSE-2050"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -9955,6 +9888,9 @@
     }
   },
   "41165": {
+    "cross_list_courses": [
+      "MANE-4520"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11033,7 +10969,11 @@
       }
     }
   },
-  "41265": {},
+  "41265": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
   "41266": {
     "prerequisites": {
       "course": "MATH 1020",
@@ -11205,7 +11145,11 @@
       }
     }
   },
-  "41289": {},
+  "41289": {
+    "cross_list_courses": [
+      "CHME-4170"
+    ]
+  },
   "41291": {},
   "41292": {},
   "41293": {},
@@ -11610,25 +11554,6 @@
           "Hartford"
         ]
       },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "41346": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "41347": {
-    "restrictions": {
       "level": {
         "must_be": [
           "Graduate"
@@ -12064,6 +11989,9 @@
     }
   },
   "41408": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12116,6 +12044,9 @@
     }
   },
   "41409": {
+    "cross_list_courses": [
+      "CSCI-2300"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12168,6 +12099,9 @@
     }
   },
   "41410": {
+    "cross_list_courses": [
+      "CHEM-2240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12359,6 +12293,9 @@
     }
   },
   "41429": {
+    "cross_list_courses": [
+      "CHEM-4610"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12488,6 +12425,9 @@
   },
   "41446": {},
   "41447": {
+    "cross_list_courses": [
+      "ECON-4190"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -12497,6 +12437,9 @@
     }
   },
   "41448": {
+    "cross_list_courses": [
+      "ECON-6190"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12890,13 +12833,10 @@
       "type": "and"
     }
   },
-  "41471": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ]
-  },
   "41472": {
+    "cross_list_courses": [
+      "CSCI-4520"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13272,6 +13212,9 @@
     }
   },
   "41493": {
+    "cross_list_courses": [
+      "ECSE-4090"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13300,6 +13243,9 @@
     }
   },
   "41494": {
+    "cross_list_courses": [
+      "CHME-2020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13472,7 +13418,11 @@
       }
     }
   },
-  "41508": {},
+  "41508": {
+    "cross_list_courses": [
+      "CHEM-1100"
+    ]
+  },
   "41509": {
     "restrictions": {
       "classification": {
@@ -13719,6 +13669,9 @@
     }
   },
   "41538": {
+    "cross_list_courses": [
+      "ECON-6270"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -13768,6 +13721,9 @@
     }
   },
   "41539": {
+    "cross_list_courses": [
+      "ECON-4270"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14274,8 +14230,15 @@
     }
   },
   "41562": {},
-  "41563": {},
+  "41563": {
+    "cross_list_courses": [
+      "CHEM-6140"
+    ]
+  },
   "41564": {
+    "cross_list_courses": [
+      "CHEM-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14868,6 +14831,9 @@
     }
   },
   "41662": {
+    "cross_list_courses": [
+      "ECON-6280"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -14935,6 +14901,9 @@
     }
   },
   "41663": {
+    "cross_list_courses": [
+      "ECON-4280"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15490,6 +15459,9 @@
     }
   },
   "41707": {
+    "cross_list_courses": [
+      "ERTH-4810"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15664,6 +15636,9 @@
     }
   },
   "41715": {
+    "cross_list_courses": [
+      "CHEM-4810"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15901,31 +15876,6 @@
       }
     }
   },
-  "41728": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "STSS 4980",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "STSO 4980",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Science, Tech & Society",
-          "Sustainability Studies"
-        ]
-      }
-    }
-  },
   "41729": {
     "prerequisites": {
       "course": "STSO 2020",
@@ -16132,35 +16082,6 @@
       }
     }
   },
-  "41736": {
-    "cross_list_courses": [
-      "BCBP-4600",
-      "ITWS-4600",
-      "ITWS-6600",
-      "MGMT-4600",
-      "MGMT-6600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ITWS 4350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 4350",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "41737": {
     "prerequisites": {
       "nested": [
@@ -16178,36 +16099,16 @@
       "type": "and"
     }
   },
-  "41738": {
+  "41739": {
     "cross_list_courses": [
-      "ITWS-4600",
-      "ITWS-6600",
-      "MGMT-4600",
-      "MGMT-6600"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ITWS 4350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4350",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ERTH 4350",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
+      "CHME-1100"
+    ]
   },
-  "41739": {},
-  "41740": {},
+  "41740": {
+    "cross_list_courses": [
+      "CHME-1100"
+    ]
+  },
   "41741": {},
   "41743": {
     "prerequisites": {
@@ -16799,6 +16700,9 @@
     }
   },
   "41818": {
+    "cross_list_courses": [
+      "ECON-6270"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16913,6 +16817,9 @@
     }
   },
   "41823": {
+    "cross_list_courses": [
+      "CHEM-1200"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -16935,6 +16842,9 @@
     }
   },
   "41826": {
+    "cross_list_courses": [
+      "CHEM-6620"
+    ],
     "prerequisites": {
       "course": "CHEM 2260",
       "min_grade": "D",
@@ -16942,6 +16852,9 @@
     }
   },
   "41827": {
+    "cross_list_courses": [
+      "CHEM-4620"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17324,8 +17237,16 @@
       }
     }
   },
-  "41884": {},
-  "41886": {},
+  "41884": {
+    "cross_list_courses": [
+      "ECSE-6963"
+    ]
+  },
+  "41886": {
+    "cross_list_courses": [
+      "CHEM-6610"
+    ]
+  },
   "41887": {
     "prerequisites": {
       "nested": [
@@ -17449,32 +17370,6 @@
       }
     }
   },
-  "41897": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "41898": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "41899": {
     "prerequisites": {
       "course": "CHEM 1120",
@@ -17483,6 +17378,9 @@
     }
   },
   "41900": {
+    "cross_list_courses": [
+      "CHEM-2240"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17513,53 +17411,10 @@
       "type": "course"
     }
   },
-  "41903": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2965",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41904": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41905": {
+    "cross_list_courses": [
+      "CHME-2020"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -17646,33 +17501,6 @@
           "Hartford"
         ]
       }
-    }
-  },
-  "41911": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ITWS 2110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
     }
   },
   "41912": {},
@@ -17922,8 +17750,7 @@
   },
   "41932": {
     "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
+      "INQR-1100"
     ],
     "restrictions": {
       "classification": {
@@ -18022,6 +17849,9 @@
     }
   },
   "41946": {
+    "cross_list_courses": [
+      "ECON-6290"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18050,36 +17880,10 @@
       }
     }
   },
-  "41947": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biotechnology & Health Econ"
-        ]
-      }
-    }
-  },
   "41948": {
+    "cross_list_courses": [
+      "ECON-4290"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -18089,6 +17893,9 @@
     }
   },
   "41949": {
+    "cross_list_courses": [
+      "ECON-6380"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -18314,33 +18121,6 @@
       "type": "and"
     }
   },
-  "41971": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ITWS 2110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 2110",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "course": "CSCI 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "41972": {
     "corequisites": [
       "ARCH-2360",
@@ -18363,15 +18143,6 @@
     }
   },
   "41973": {},
-  "41974": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41975": {
     "cross_list_courses": [
       "BCBP-4600",
@@ -18782,15 +18553,6 @@
       }
     }
   },
-  "42052": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42053": {
     "prerequisites": {
       "nested": [
@@ -18993,7 +18755,6 @@
       "type": "or"
     }
   },
-  "42067": {},
   "42068": {
     "restrictions": {
       "major": {
@@ -19051,37 +18812,6 @@
     "cross_list_courses": [
       "BIOL-4310"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42074": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECON 1200",
-          "min_grade": "TR",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1200",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42075": {
     "restrictions": {
       "level": {
         "must_be": [
@@ -19198,59 +18928,6 @@
       }
     }
   },
-  "42086": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42087": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42088": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42089": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42090": {},
-  "42091": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42092": {
     "prerequisites": {
       "nested": [
@@ -19298,12 +18975,35 @@
       "type": "and"
     }
   },
-  "42093": {},
-  "42094": {},
-  "42095": {},
-  "42096": {},
-  "42097": {},
+  "42093": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "42094": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "42095": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "42096": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
+  "42097": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
   "42098": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19329,6 +19029,9 @@
     }
   },
   "42099": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19354,6 +19057,9 @@
     }
   },
   "42100": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19379,6 +19085,9 @@
     }
   },
   "42101": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19404,6 +19113,9 @@
     }
   },
   "42102": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19429,6 +19141,9 @@
     }
   },
   "42103": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19454,6 +19169,9 @@
     }
   },
   "42104": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19479,6 +19197,9 @@
     }
   },
   "42105": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19504,6 +19225,9 @@
     }
   },
   "42106": {
+    "cross_list_courses": [
+      "CSCI-2600"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19872,6 +19596,9 @@
   },
   "42141": {},
   "42142": {
+    "cross_list_courses": [
+      "CHEM-4120"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19944,15 +19671,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "42154": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "42155": {
@@ -20080,12 +19798,14 @@
   },
   "42172": {
     "cross_list_courses": [
-      "COGS-6540"
+      "COGS-6540",
+      "CSCI-4545"
     ]
   },
   "42173": {
     "cross_list_courses": [
-      "COGS-4540"
+      "COGS-4540",
+      "CSCI-4545"
     ],
     "restrictions": {
       "level": {
@@ -20507,20 +20227,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "42209": {
-    "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore"
         ]
       }
     }
@@ -21749,7 +21455,11 @@
       "type": "and"
     }
   },
-  "42709": {},
+  "42709": {
+    "cross_list_courses": [
+      "CSCI-1100"
+    ]
+  },
   "42711": {
     "prerequisites": {
       "nested": [
@@ -21768,6 +21478,9 @@
     }
   },
   "42712": {
+    "cross_list_courses": [
+      "CSCI-4820"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21808,6 +21521,9 @@
     }
   },
   "42715": {
+    "cross_list_courses": [
+      "CSCI-6860"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -21902,6 +21618,9 @@
   "42793": {},
   "42794": {},
   "42795": {
+    "cross_list_courses": [
+      "CSCI-2800"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "C-",
@@ -21909,6 +21628,9 @@
     }
   },
   "42796": {
+    "cross_list_courses": [
+      "CSCI-2800"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "C-",
@@ -21916,6 +21638,9 @@
     }
   },
   "42797": {
+    "cross_list_courses": [
+      "CSCI-2800"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "C-",
@@ -21923,6 +21648,9 @@
     }
   },
   "42798": {
+    "cross_list_courses": [
+      "CSCI-2800"
+    ],
     "prerequisites": {
       "course": "CSCI 1200",
       "min_grade": "C-",
@@ -21935,45 +21663,10 @@
   "42802": {},
   "42803": {},
   "42804": {},
-  "42805": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 4210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2500",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42806": {
-    "prerequisites": {
-      "course": "CSCI 2700",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42807": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42808": {
+    "cross_list_courses": [
+      "CSCI-6190"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -21988,32 +21681,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "42809": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42810": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 4090",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
     }
   },
   "42811": {
@@ -22041,118 +21708,6 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "42812": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42813": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42814": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42815": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42816": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2210",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2965",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42817": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42820": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "42821": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42822": {},
-  "42823": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "42825": {
@@ -22551,55 +22106,6 @@
     }
   },
   "42852": {},
-  "42854": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 2600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CSCI 2800",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CSCI 4210",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
-  "42855": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42857": {
     "restrictions": {
       "major": {
@@ -22640,8 +22146,15 @@
       }
     }
   },
-  "42860": {},
+  "42860": {
+    "cross_list_courses": [
+      "ECSE-6962"
+    ]
+  },
   "42861": {
+    "cross_list_courses": [
+      "ECSE-4962"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22656,6 +22169,9 @@
     }
   },
   "42862": {
+    "cross_list_courses": [
+      "ECSE-4963"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -22868,6 +22384,9 @@
     }
   },
   "42883": {
+    "cross_list_courses": [
+      "ECON-6170"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22907,58 +22426,12 @@
         }
       ],
       "type": "and"
-    }
-  },
-  "42884": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biotechnology & Health Econ"
-        ]
-      }
     }
   },
   "42885": {
+    "cross_list_courses": [
+      "ECON-4170"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23048,23 +22521,9 @@
       }
     }
   },
-  "42895": {
-    "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "42896": {
     "cross_list_courses": [
-      "INQR-1100",
-      "STSO-1100"
+      "INQR-1100"
     ],
     "restrictions": {
       "classification": {
@@ -23098,7 +22557,11 @@
       "type": "or"
     }
   },
-  "42902": {},
+  "42902": {
+    "cross_list_courses": [
+      "COMM-6567"
+    ]
+  },
   "42905": {
     "cross_list_courses": [
       "INQR-1220",
@@ -23112,25 +22575,6 @@
       }
     }
   },
-  "42906": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
-        ]
-      }
-    }
-  },
   "42907": {},
   "42908": {
     "cross_list_courses": [
@@ -23140,34 +22584,6 @@
       "level": {
         "must_be": [
           "Graduate"
-        ]
-      }
-    }
-  },
-  "42911": {
-    "prerequisites": {
-      "course": "ECON 6800",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      }
-    }
-  },
-  "42912": {
-    "prerequisites": {
-      "course": "ECON 6820",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
         ]
       }
     }
@@ -23558,18 +22974,6 @@
   "43153": {},
   "43154": {},
   "43155": {},
-  "43156": {},
-  "43157": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "43158": {},
   "43159": {},
   "43160": {},
@@ -23739,20 +23143,25 @@
   "43300": {},
   "43301": {},
   "43302": {
+    "cross_list_courses": [
+      "CSCI-6250"
+    ],
     "prerequisites": {
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
     }
   },
-  "43303": {},
   "43304": {},
   "43305": {},
   "43306": {},
   "43307": {},
   "43308": {},
-  "43309": {},
-  "43310": {},
+  "43310": {
+    "cross_list_courses": [
+      "CSCI-4966"
+    ]
+  },
   "43311": {},
   "43312": {},
   "43313": {
@@ -24035,6 +23444,9 @@
     }
   },
   "43346": {
+    "cross_list_courses": [
+      "ECSE-2100"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24139,13 +23551,6 @@
       "type": "and"
     }
   },
-  "43354": {
-    "prerequisites": {
-      "course": "CSCI 2300",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "43355": {},
   "43356": {},
   "43357": {},
@@ -24153,6 +23558,9 @@
   "43361": {},
   "43363": {},
   "43365": {
+    "cross_list_courses": [
+      "ECSE-2050"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25020,6 +24428,9 @@
   "43646": {},
   "43647": {},
   "43648": {
+    "cross_list_courses": [
+      "COMM-4567"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25089,6 +24500,9 @@
   },
   "43659": {},
   "43660": {
+    "cross_list_courses": [
+      "ECON-6220"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25146,6 +24560,9 @@
     }
   },
   "43661": {
+    "cross_list_courses": [
+      "ECON-4220"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25562,5 +24979,23 @@
         ]
       }
     }
+  },
+  "43689": {},
+  "43690": {
+    "cross_list_courses": [
+      "ECON-4270"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43691": {
+    "cross_list_courses": [
+      "ECON-4380"
+    ]
   }
 }
