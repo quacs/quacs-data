@@ -12120,6 +12120,9 @@
   },
   "41411": {},
   "41412": {
+    "cross_list_courses": [
+      "ECSE-4780"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -13721,9 +13724,7 @@
     }
   },
   "41539": {
-    "cross_list_courses": [
-      "ECON-4270"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -14830,88 +14831,6 @@
       }
     }
   },
-  "41662": {
-    "cross_list_courses": [
-      "ECON-6280"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 2600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MGMT 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATP 4600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PSYC 2310",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41663": {
-    "cross_list_courses": [
-      "ECON-4280"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41664": {
     "prerequisites": {
       "nested": [
@@ -14986,6 +14905,9 @@
     }
   },
   "41669": {
+    "cross_list_courses": [
+      "ECSE-6490"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15003,6 +14925,9 @@
     }
   },
   "41670": {
+    "cross_list_courses": [
+      "ECSE-4490"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15263,6 +15188,9 @@
     }
   },
   "41685": {
+    "cross_list_courses": [
+      "ECSE-6660"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -15285,6 +15213,9 @@
     }
   },
   "41686": {
+    "cross_list_courses": [
+      "ECSE-4660"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -16497,6 +16428,9 @@
     }
   },
   "41791": {
+    "cross_list_courses": [
+      "ECSE-6141"
+    ],
     "prerequisites": {
       "course": "ECSE 2110",
       "min_grade": "D",
@@ -16504,6 +16438,9 @@
     }
   },
   "41792": {
+    "cross_list_courses": [
+      "ECSE-4141"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -16695,58 +16632,6 @@
         "may_not_be": [
           "Freshman",
           "Sophomore"
-        ]
-      }
-    }
-  },
-  "41818": {
-    "cross_list_courses": [
-      "ECON-6270"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "ECON 1200",
-              "min_grade": "TR",
-              "type": "course"
-            },
-            {
-              "course": "IHSS 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "INQR 1200",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 1010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 1500",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biotechnology & Health Econ"
         ]
       }
     }
@@ -17224,6 +17109,9 @@
     }
   },
   "41883": {
+    "cross_list_courses": [
+      "ECSE-6700"
+    ],
     "prerequisites": {
       "course": "ECSE 4770",
       "min_grade": null,
@@ -17239,6 +17127,8 @@
   },
   "41884": {
     "cross_list_courses": [
+      "CSCI-4964",
+      "CSCI-6964",
       "ECSE-6963"
     ]
   },
@@ -18537,20 +18427,6 @@
       "course": "CIVL 2030",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "42051": {
-    "prerequisites": {
-      "course": "ECON 6730",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "42053": {
@@ -21272,30 +21148,6 @@
     }
   },
   "42675": {},
-  "42676": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42677": {
-    "cross_list_courses": [
-      "PSYC-4960"
-    ]
-  },
-  "42678": {
-    "cross_list_courses": [
-      "COGS-4960"
-    ],
-    "prerequisites": {
-      "course": "PSYC 1200",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "42679": {},
   "42680": {},
   "42681": {},
@@ -21408,8 +21260,6 @@
     }
   },
   "42696": {},
-  "42697": {},
-  "42698": {},
   "42704": {},
   "42705": {
     "prerequisites": {
@@ -22170,6 +22020,8 @@
   },
   "42862": {
     "cross_list_courses": [
+      "CSCI-4964",
+      "CSCI-6964",
       "ECSE-4963"
     ],
     "restrictions": {
@@ -22212,6 +22064,9 @@
     }
   },
   "42864": {
+    "cross_list_courses": [
+      "ECSE-6210"
+    ],
     "prerequisites": {
       "course": "ECSE 2210",
       "min_grade": "D",
@@ -22219,6 +22074,9 @@
     }
   },
   "42865": {
+    "cross_list_courses": [
+      "ECSE-4210"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -22230,6 +22088,9 @@
     }
   },
   "42866": {
+    "cross_list_courses": [
+      "ECSE-6370"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22534,7 +22395,11 @@
     }
   },
   "42897": {},
-  "42898": {},
+  "42898": {
+    "cross_list_courses": [
+      "ECSE-4370"
+    ]
+  },
   "42899": {
     "prerequisites": {
       "nested": [
@@ -23025,13 +22890,6 @@
     }
   },
   "43199": {
-    "prerequisites": {
-      "course": "PHIL 2140",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "43200": {
     "prerequisites": {
       "course": "PHIL 2140",
       "min_grade": "D",
@@ -24997,5 +24855,27 @@
     "cross_list_courses": [
       "ECON-4380"
     ]
+  },
+  "43692": {},
+  "43693": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43694": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43695": {
+    "prerequisites": {
+      "course": "MANE 2710",
+      "min_grade": "D",
+      "type": "course"
+    }
   }
 }
