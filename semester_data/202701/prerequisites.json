@@ -6259,12 +6259,6 @@
       "type": "course"
     }
   },
-  "40768": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ]
-  },
   "40769": {
     "prerequisites": {
       "nested": [
@@ -10988,12 +10982,6 @@
       }
     }
   },
-  "41248": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ]
-  },
   "41249": {},
   "41250": {
     "cross_list_courses": [
@@ -13458,18 +13446,6 @@
       ],
       "type": "and"
     },
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "41489": {
-    "cross_list_courses": [
-      "ARCH-4332"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17458,15 +17434,6 @@
       "type": "or"
     }
   },
-  "41889": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41890": {
     "cross_list_courses": [
       "MGMT-6690"
@@ -18158,8 +18125,7 @@
   },
   "41950": {
     "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
+      "INQR-1220"
     ],
     "restrictions": {
       "classification": {
@@ -18171,8 +18137,7 @@
   },
   "41951": {
     "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
+      "INQR-1220"
     ],
     "restrictions": {
       "classification": {
@@ -18541,8 +18506,7 @@
   "42010": {},
   "42011": {
     "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
+      "INQR-1220"
     ],
     "restrictions": {
       "classification": {
@@ -18551,12 +18515,6 @@
         ]
       }
     }
-  },
-  "42012": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ]
   },
   "42013": {},
   "42014": {},
@@ -20339,39 +20297,12 @@
   },
   "42192": {
     "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
+      "INQR-1220"
     ],
     "restrictions": {
       "classification": {
         "must_be": [
           "Freshman"
-        ]
-      }
-    }
-  },
-  "42193": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
-  "42194": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Information Tech & Web Science"
         ]
       }
     }
@@ -22062,140 +21993,6 @@
       }
     }
   },
-  "42835": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42837": {
-    "cross_list_courses": [
-      "MTLE-6520"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 4100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MTLE 4150",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42838": {
-    "cross_list_courses": [
-      "MTLE-4520"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42839": {
-    "cross_list_courses": [
-      "MTLE-6470"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ENGR 1600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "PHYS 1600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ISCI 1600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CHEM 1600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2100",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42840": {
-    "cross_list_courses": [
-      "MTLE-4470"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42841": {
-    "cross_list_courses": [
-      "MTLE-4250",
-      "MTLE-6250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ISCI 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1600",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "42842": {
     "cross_list_courses": [
       "MATP-6640"
@@ -22864,19 +22661,6 @@
     "cross_list_courses": [
       "COMM-6567"
     ]
-  },
-  "42905": {
-    "cross_list_courses": [
-      "INQR-1220",
-      "ITWS-1220"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
   },
   "42907": {},
   "42908": {
@@ -23650,47 +23434,6 @@
           "Sophomore"
         ]
       }
-    }
-  },
-  "43336": {
-    "cross_list_courses": [
-      "MTLE-4250",
-      "MTLE-6250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MTLE 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "ENGR 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ISCI 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "PHYS 1600",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1600",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
     }
   },
   "43337": {
@@ -25435,11 +25178,6 @@
       "type": "and"
     }
   },
-  "43708": {
-    "cross_list_courses": [
-      "ARCH-6330"
-    ]
-  },
   "43709": {
     "cross_list_courses": [
       "MATH-4140"
@@ -25467,7 +25205,6 @@
   },
   "43711": {
     "cross_list_courses": [
-      "MTLE-4250",
       "MTLE-6250"
     ],
     "restrictions": {
@@ -25480,7 +25217,6 @@
   },
   "43712": {
     "cross_list_courses": [
-      "MTLE-4250",
       "MTLE-6250"
     ],
     "restrictions": {
@@ -26034,6 +25770,69 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "43754": {},
+  "43755": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "STSO 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSH 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSO 2520",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2210",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "STSS 2520",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
