@@ -18605,15 +18605,6 @@
     }
   },
   "42044": {},
-  "42045": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman"
-        ]
-      }
-    }
-  },
   "42046": {
     "prerequisites": {
       "nested": [
@@ -22761,17 +22752,6 @@
       }
     }
   },
-  "42944": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "42949": {},
   "42950": {},
   "42951": {},
@@ -25470,37 +25450,6 @@
       }
     }
   },
-  "43726": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ECSE 6600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 6600",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ECSE 6400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "43727": {},
   "43728": {},
   "43729": {
@@ -26001,6 +25950,132 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      }
+    }
+  },
+  "43761": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1960",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ROBT 1010",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "CIVL 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ENGR 1400",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1200",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1250",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "43762": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "43767": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43768": {
+    "prerequisites": {
+      "course": "MGMT 1240",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Business and Management",
+          "Business and Management"
         ]
       }
     }
