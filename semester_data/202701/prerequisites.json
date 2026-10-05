@@ -4107,9 +4107,7 @@
   "40421": {},
   "40424": {},
   "40426": {
-    "cross_list_courses": [
-      "PSYC-2100"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -11029,13 +11027,6 @@
       "type": "and"
     }
   },
-  "41251": {
-    "prerequisites": {
-      "course": "ENGR 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "41252": {
     "cross_list_courses": [
       "BMED-6440"
@@ -13930,16 +13921,6 @@
       "major": {
         "may_not_be": [
           "Biotechnology & Health Econ"
-        ]
-      }
-    }
-  },
-  "41539": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -18099,9 +18080,7 @@
     }
   },
   "41949": {
-    "cross_list_courses": [
-      "ECON-6380"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -21426,11 +21405,6 @@
     }
   },
   "42675": {},
-  "42679": {
-    "cross_list_courses": [
-      "PHIL-2100"
-    ]
-  },
   "42680": {
     "cross_list_courses": [
       "MANE-6380"
@@ -21579,15 +21553,6 @@
     }
   },
   "42706": {},
-  "42707": {
-    "restrictions": {
-      "college": {
-        "must_be": [
-          "School of Engineering"
-        ]
-      }
-    }
-  },
   "42708": {
     "prerequisites": {
       "nested": [
@@ -21951,38 +21916,6 @@
     "cross_list_courses": [
       "MANE-1010"
     ]
-  },
-  "42833": {
-    "cross_list_courses": [
-      "BMED-4010"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BMED 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biomedical Engineering"
-        ]
-      }
-    }
   },
   "42842": {
     "cross_list_courses": [
@@ -22650,7 +22583,7 @@
   },
   "42902": {
     "cross_list_courses": [
-      "COMM-6567"
+      "COMM-4567"
     ]
   },
   "42907": {},
@@ -23011,7 +22944,6 @@
     }
   },
   "43152": {},
-  "43153": {},
   "43155": {},
   "43158": {},
   "43159": {},
@@ -24000,7 +23932,6 @@
   "43548": {},
   "43549": {},
   "43551": {},
-  "43552": {},
   "43555": {},
   "43559": {},
   "43560": {},
@@ -24430,18 +24361,6 @@
   "43645": {},
   "43646": {},
   "43647": {},
-  "43648": {
-    "cross_list_courses": [
-      "COMM-4567"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "43649": {},
   "43650": {
     "cross_list_courses": [
@@ -25023,11 +24942,6 @@
       }
     }
   },
-  "43691": {
-    "cross_list_courses": [
-      "ECON-4380"
-    ]
-  },
   "43692": {},
   "43693": {
     "prerequisites": {
@@ -25399,27 +25313,6 @@
       }
     }
   },
-  "43722": {
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
-          "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Mechanical Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
-        ]
-      }
-    }
-  },
   "43724": {
     "prerequisites": {
       "course": "ECSE 2610",
@@ -25485,7 +25378,6 @@
   },
   "43732": {},
   "43733": {},
-  "43734": {},
   "43735": {},
   "43736": {
     "prerequisites": {
@@ -25642,7 +25534,6 @@
       "type": "or"
     }
   },
-  "43743": {},
   "43744": {
     "prerequisites": {
       "course": "ARCH 5200",
@@ -25651,17 +25542,6 @@
     }
   },
   "43745": {},
-  "43746": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "43747": {
     "cross_list_courses": [
       "STSO-4610"
@@ -26076,6 +25956,142 @@
         "must_be": [
           "Business and Management",
           "Business and Management"
+        ]
+      }
+    }
+  },
+  "43769": {
+    "cross_list_courses": [
+      "COMM-4567"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior",
+          "Sophomore",
+          "Senior"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Communication, Media, & Design",
+          "Games & Simulation Arts & Sci",
+          "Science & Technology Studies"
+        ]
+      }
+    }
+  },
+  "43770": {
+    "cross_list_courses": [
+      "BMED-6520"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BMED 4500",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43771": {
+    "cross_list_courses": [
+      "BMED-4520"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      }
+    }
+  },
+  "43772": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43773": {
+    "prerequisites": {
+      "course": "ENGR 1100",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Biomedical Engineering"
+        ]
+      }
+    }
+  },
+  "43774": {},
+  "43775": {},
+  "43776": {},
+  "43777": {},
+  "43778": {},
+  "43779": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43780": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 1200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43781": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Cognitive Science"
         ]
       }
     }
