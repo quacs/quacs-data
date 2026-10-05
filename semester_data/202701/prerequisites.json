@@ -3905,25 +3905,6 @@
       "type": "course"
     }
   },
-  "40371": {
-    "cross_list_courses": [
-      "ENGR-6100",
-      "ITWS-6300"
-    ]
-  },
-  "40372": {
-    "cross_list_courses": [
-      "ENGR-4100",
-      "ITWS-6300"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "40373": {
     "cross_list_courses": [
       "CHEM-2240"
@@ -4107,7 +4088,9 @@
   "40421": {},
   "40424": {},
   "40426": {
-    "cross_list_courses": [],
+    "cross_list_courses": [
+      "PHIL-2100"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -5005,6 +4988,9 @@
     }
   },
   "40582": {
+    "cross_list_courses": [
+      "CHME-4160"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -5027,6 +5013,9 @@
     }
   },
   "40583": {
+    "cross_list_courses": [
+      "CHME-4160"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -12383,18 +12372,6 @@
     }
   },
   "41411": {},
-  "41412": {
-    "cross_list_courses": [
-      "ECSE-4780"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41413": {
     "cross_list_courses": [
       "CSCI-4600",
@@ -18080,7 +18057,6 @@
     }
   },
   "41949": {
-    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -18111,6 +18087,11 @@
         "must_be": [
           "Freshman"
         ]
+      },
+      "major": {
+        "may_not_be": [
+          "Information Tech & Web Science"
+        ]
       }
     }
   },
@@ -18122,6 +18103,11 @@
       "classification": {
         "must_be": [
           "Freshman"
+        ]
+      },
+      "major": {
+        "may_not_be": [
+          "Information Tech & Web Science"
         ]
       }
     }
@@ -23005,8 +22991,16 @@
       "type": "course"
     }
   },
-  "43203": {},
-  "43204": {},
+  "43203": {
+    "cross_list_courses": [
+      "CHEM-6960"
+    ]
+  },
+  "43204": {
+    "cross_list_courses": [
+      "CHEM-4960"
+    ]
+  },
   "43205": {
     "restrictions": {
       "level": {
@@ -25298,8 +25292,23 @@
       "type": "and"
     }
   },
-  "43720": {},
+  "43720": {
+    "cross_list_courses": [
+      "ECSE-6961",
+      "ENGR-4962",
+      "ENGR-6962",
+      "ISCI-4961",
+      "ISCI-6961"
+    ]
+  },
   "43721": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ENGR-4962",
+      "ENGR-6962",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
     "restrictions": {
       "classification": {
         "must_be": [
@@ -25343,8 +25352,24 @@
       }
     }
   },
-  "43727": {},
-  "43728": {},
+  "43727": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4962",
+      "ENGR-6962",
+      "ISCI-6961"
+    ]
+  },
+  "43728": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4962",
+      "ENGR-6962",
+      "ISCI-4961"
+    ]
+  },
   "43729": {
     "prerequisites": {
       "nested": [
@@ -25370,6 +25395,10 @@
     }
   },
   "43731": {
+    "cross_list_courses": [
+      "CSCI-4420",
+      "MATH-4030"
+    ],
     "prerequisites": {
       "course": "PHIL 2140",
       "min_grade": "D",
@@ -25541,7 +25570,11 @@
       "type": "course"
     }
   },
-  "43745": {},
+  "43745": {
+    "cross_list_courses": [
+      "COGS-2340"
+    ]
+  },
   "43747": {
     "cross_list_courses": [
       "STSO-4610"
@@ -26036,12 +26069,39 @@
       }
     }
   },
-  "43774": {},
+  "43774": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
   "43775": {},
-  "43776": {},
-  "43777": {},
-  "43778": {},
+  "43776": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
+  "43777": {
+    "cross_list_courses": [
+      "PHIL-2100"
+    ]
+  },
+  "43778": {
+    "cross_list_courses": [
+      "COGS-2340"
+    ],
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
+    }
+  },
   "43779": {
+    "cross_list_courses": [
+      "COGS-6640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26059,6 +26119,9 @@
     }
   },
   "43780": {
+    "cross_list_courses": [
+      "COGS-4640"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -26092,6 +26155,126 @@
       "major": {
         "must_be": [
           "Cognitive Science"
+        ]
+      }
+    }
+  },
+  "43782": {
+    "cross_list_courses": [
+      "MATH-4030",
+      "PHIL-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43783": {
+    "cross_list_courses": [
+      "CSCI-4420",
+      "PHIL-4420"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "PHIL 2140",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43784": {
+    "cross_list_courses": [
+      "COGS-6960"
+    ]
+  },
+  "43785": {
+    "cross_list_courses": [
+      "COGS-4960"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43786": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-6962",
+      "ISCI-4961",
+      "ISCI-6961"
+    ]
+  },
+  "43787": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4962",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43788": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "43789": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "43790": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "43791": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Games & Simulation Arts & Sci"
         ]
       }
     }
