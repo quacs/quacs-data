@@ -6377,7 +6377,6 @@
       }
     }
   },
-  "40775": {},
   "40776": {
     "restrictions": {
       "level": {
@@ -11950,15 +11949,6 @@
       }
     }
   },
-  "41362": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41363": {
     "restrictions": {
       "classification": {
@@ -12066,7 +12056,11 @@
     ]
   },
   "41377": {},
-  "41378": {},
+  "41378": {
+    "cross_list_courses": [
+      "GSAS-2540"
+    ]
+  },
   "41379": {
     "cross_list_courses": [
       "ARTS-4510",
@@ -13583,7 +13577,11 @@
       "type": "or"
     }
   },
-  "41502": {},
+  "41502": {
+    "cross_list_courses": [
+      "GSAS-2540"
+    ]
+  },
   "41504": {},
   "41506": {
     "restrictions": {
@@ -14423,11 +14421,6 @@
       "ISYE-6350"
     ]
   },
-  "41563": {
-    "cross_list_courses": [
-      "CHEM-6140"
-    ]
-  },
   "41564": {
     "cross_list_courses": [
       "CHEM-4140"
@@ -14880,7 +14873,6 @@
       "type": "and"
     }
   },
-  "41633": {},
   "41634": {
     "prerequisites": {
       "nested": [
@@ -14924,7 +14916,6 @@
   "41649": {},
   "41650": {},
   "41651": {},
-  "41652": {},
   "41653": {
     "cross_list_courses": [
       "ARTS-2180"
@@ -15071,7 +15062,6 @@
       "type": "and"
     }
   },
-  "41665": {},
   "41666": {
     "prerequisites": {
       "course": "GSAS 4510",
@@ -16409,7 +16399,6 @@
   },
   "41761": {},
   "41762": {},
-  "41763": {},
   "41764": {
     "cross_list_courses": [
       "CIVL-2060"
@@ -16932,16 +16921,6 @@
       "type": "or"
     }
   },
-  "41821": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "41822": {
     "restrictions": {
       "major": {
@@ -16976,28 +16955,6 @@
         }
       ],
       "type": "or"
-    }
-  },
-  "41826": {
-    "cross_list_courses": [
-      "CHEM-6620"
-    ],
-    "prerequisites": {
-      "course": "CHEM 2260",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "41827": {
-    "cross_list_courses": [
-      "CHEM-4620"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "41828": {
@@ -17256,7 +17213,6 @@
     }
   },
   "41856": {},
-  "41858": {},
   "41859": {
     "restrictions": {
       "classification": {
@@ -17473,19 +17429,6 @@
       "type": "course"
     }
   },
-  "41896": {
-    "cross_list_courses": [
-      "CSCI-6966",
-      "ISYE-4960"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41899": {
     "prerequisites": {
       "course": "CHEM 1120",
@@ -17619,7 +17562,6 @@
       }
     }
   },
-  "41912": {},
   "41913": {
     "prerequisites": {
       "course": "ARTS 2230",
@@ -17638,108 +17580,6 @@
   "41914": {
     "cross_list_courses": [
       "ARTS-4040"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "41915": {
-    "cross_list_courses": [
-      "ARTS-6140"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2380",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 4120",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 4240",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 4640",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "D",
-          "min_grade": null,
-          "type": "course"
-        },
-        {
-          "course": "INQR 1180",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "41916": {
-    "cross_list_courses": [
-      "ARTS-4140"
     ],
     "restrictions": {
       "level": {
@@ -18347,15 +18187,6 @@
   },
   "41979": {},
   "41980": {},
-  "41981": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41982": {
     "cross_list_courses": [
       "ITWS-4370"
@@ -19546,12 +19377,6 @@
       ],
       "type": "and"
     }
-  },
-  "42126": {
-    "cross_list_courses": [
-      "CSCI-6966",
-      "ISYE-6550"
-    ]
   },
   "42127": {},
   "42128": {
@@ -21045,23 +20870,6 @@
   "42610": {},
   "42611": {},
   "42612": {},
-  "42613": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ISYE 2210",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ENGR 2700",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "42614": {},
   "42615": {},
   "42616": {},
@@ -21530,7 +21338,6 @@
     }
   },
   "42696": {},
-  "42704": {},
   "42705": {
     "prerequisites": {
       "course": "ARTS 1380",
@@ -21917,24 +21724,8 @@
       }
     }
   },
-  "42843": {
-    "cross_list_courses": [
-      "ARTS-6130"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Fifth-Year",
-          "Junior",
-          "Senior"
-        ]
-      }
-    }
-  },
   "42844": {
-    "cross_list_courses": [
-      "ARTS-4130"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22991,16 +22782,6 @@
       "type": "course"
     }
   },
-  "43203": {
-    "cross_list_courses": [
-      "CHEM-6960"
-    ]
-  },
-  "43204": {
-    "cross_list_courses": [
-      "CHEM-4960"
-    ]
-  },
   "43205": {
     "restrictions": {
       "level": {
@@ -23121,7 +22902,6 @@
       "ITWS-4960"
     ]
   },
-  "43306": {},
   "43307": {},
   "43308": {},
   "43310": {
@@ -23749,7 +23529,6 @@
       }
     }
   },
-  "43408": {},
   "43416": {},
   "43417": {},
   "43418": {},
@@ -24074,49 +23853,7 @@
     }
   },
   "43629": {
-    "cross_list_courses": [
-      "ENVE-2110"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CIVL 2050",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "CHEM 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1120",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "43630": {
-    "cross_list_courses": [
-      "ENVE-2110"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -26244,6 +25981,9 @@
     }
   },
   "43788": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -26253,6 +25993,9 @@
     }
   },
   "43789": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -26262,6 +26005,9 @@
     }
   },
   "43790": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -26271,10 +26017,86 @@
     }
   },
   "43791": {
+    "cross_list_courses": [
+      "GSAS-1600"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
           "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "43792": {},
+  "43793": {},
+  "43794": {},
+  "43796": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43797": {},
+  "43798": {},
+  "43799": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARTS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "GSAS 1040",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ARTS 2220",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "COMM 2660",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43800": {},
+  "43801": {},
+  "43802": {},
+  "43803": {},
+  "43804": {},
+  "43805": {
+    "prerequisites": {
+      "course": "CHEM 2260",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43806": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "43807": {},
+  "43808": {
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
         ]
       }
     }
