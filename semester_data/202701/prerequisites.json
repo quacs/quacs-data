@@ -156,9 +156,7 @@
     }
   },
   "40016": {
-    "cross_list_courses": [
-      "MATP-6610"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -3599,18 +3597,6 @@
       "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "40300": {
-    "cross_list_courses": [
-      "MATP-4820"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "40301": {},
@@ -8669,7 +8655,8 @@
   "41017": {
     "cross_list_courses": [
       "ARTS-4510",
-      "GSAS-4510"
+      "GSAS-4510",
+      "GSAS-6961"
     ],
     "prerequisites": {
       "nested": [
@@ -10749,114 +10736,6 @@
       }
     }
   },
-  "41240": {
-    "cross_list_courses": [
-      "MATP-4400"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2012",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            },
-            {
-              "course": "MATH 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2965",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41241": {
-    "cross_list_courses": [
-      "MATP-4400"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "CSCI 1100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "nested": [
-            {
-              "course": "MATH 2010",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "nested": [
-                {
-                  "course": "MATH 2011",
-                  "min_grade": "D",
-                  "type": "course"
-                },
-                {
-                  "course": "MATH 2012",
-                  "min_grade": "D",
-                  "type": "course"
-                }
-              ],
-              "type": "and"
-            },
-            {
-              "course": "MATH 2100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "MATH 2965",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Biology",
-          "Mathematics"
-        ]
-      }
-    }
-  },
   "41244": {
     "cross_list_courses": [
       "MATH-1520"
@@ -11973,7 +11852,12 @@
       "ERTH-1200"
     ]
   },
-  "41354": {},
+  "41354": {
+    "cross_list_courses": [
+      "ARTS-1040",
+      "GSAS-1040"
+    ]
+  },
   "41355": {
     "cross_list_courses": [
       "ARCH-5110"
@@ -12166,7 +12050,8 @@
   "41379": {
     "cross_list_courses": [
       "ARTS-4510",
-      "ARTS-6400"
+      "ARTS-6400",
+      "GSAS-6961"
     ],
     "prerequisites": {
       "nested": [
@@ -13418,13 +13303,6 @@
       }
     }
   },
-  "41492": {
-    "prerequisites": {
-      "course": "ARTS 1380",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "41493": {
     "cross_list_courses": [
       "ECSE-4090"
@@ -14242,7 +14120,12 @@
       "type": "and"
     }
   },
-  "41552": {},
+  "41552": {
+    "cross_list_courses": [
+      "ARTS-1040",
+      "GSAS-1040"
+    ]
+  },
   "41553": {
     "prerequisites": {
       "course": "MGMT 6520",
@@ -17029,9 +16912,14 @@
     }
   },
   "41830": {
+    "cross_list_courses": [
+      "ARTS-2230"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
           "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
@@ -17404,31 +17292,6 @@
       "MGMT-6690"
     ]
   },
-  "41891": {
-    "cross_list_courses": [
-      "BMED-4010"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "BMED 2100",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2300",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "BMED 2540",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "41892": {
     "prerequisites": {
       "nested": [
@@ -17481,9 +17344,7 @@
     }
   },
   "41897": {
-    "cross_list_courses": [
-      "MATH-6860"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17493,9 +17354,7 @@
     }
   },
   "41898": {
-    "cross_list_courses": [
-      "MATH-4820"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "nested": [
         {
@@ -18875,6 +18734,10 @@
     }
   },
   "42068": {
+    "cross_list_courses": [
+      "ARTS-1040",
+      "GSAS-1040"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -19300,6 +19163,10 @@
     }
   },
   "42107": {
+    "cross_list_courses": [
+      "ARTS-1040",
+      "GSAS-1040"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -19314,15 +19181,6 @@
       "course": "ARTS 2230",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "42109": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "42110": {
@@ -21446,13 +21304,6 @@
     }
   },
   "42696": {},
-  "42705": {
-    "prerequisites": {
-      "course": "ARTS 1380",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "42706": {},
   "42708": {
     "prerequisites": {
@@ -21486,97 +21337,11 @@
       "CSCI-1100"
     ]
   },
-  "42711": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MATH 2400",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42712": {
-    "cross_list_courses": [
-      "CSCI-4820"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MATH 4800",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "CSCI 4800",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42713": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42714": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42715": {
-    "cross_list_courses": [
-      "CSCI-6860"
-    ],
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "42716": {},
   "42717": {},
   "42718": {},
   "42719": {},
   "42720": {},
-  "42721": {
-    "cross_list_courses": [
-      "ISYE-6770"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42722": {},
   "42723": {},
   "42724": {},
@@ -21849,9 +21614,7 @@
     ]
   },
   "42842": {
-    "cross_list_courses": [
-      "MATP-6640"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -24127,15 +23890,6 @@
       "type": "course"
     }
   },
-  "43632": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "43633": {
     "restrictions": {
       "level": {
@@ -24928,7 +24682,8 @@
   "43696": {
     "cross_list_courses": [
       "ARTS-6400",
-      "GSAS-4510"
+      "GSAS-4510",
+      "GSAS-6961"
     ],
     "prerequisites": {
       "course": "ARTS 1020",
@@ -25262,8 +25017,8 @@
   "43720": {
     "cross_list_courses": [
       "ECSE-6961",
-      "ENGR-4962",
-      "ENGR-6962",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961",
       "ISCI-6961"
     ]
@@ -25271,8 +25026,8 @@
   "43721": {
     "cross_list_courses": [
       "ECSE-4961",
-      "ENGR-4962",
-      "ENGR-6962",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961",
       "ISCI-6961"
     ],
@@ -25323,8 +25078,8 @@
     "cross_list_courses": [
       "ECSE-4961",
       "ECSE-6961",
-      "ENGR-4962",
-      "ENGR-6962",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-6961"
     ]
   },
@@ -25332,8 +25087,8 @@
     "cross_list_courses": [
       "ECSE-4961",
       "ECSE-6961",
-      "ENGR-4962",
-      "ENGR-6962",
+      "ENGR-4961",
+      "ENGR-6961",
       "ISCI-4961"
     ]
   },
@@ -26041,7 +25796,6 @@
       "PHIL-2100"
     ]
   },
-  "43775": {},
   "43776": {
     "cross_list_courses": [
       "PHIL-2100"
@@ -26185,31 +25939,6 @@
       }
     }
   },
-  "43786": {
-    "cross_list_courses": [
-      "ECSE-4961",
-      "ECSE-6961",
-      "ENGR-6962",
-      "ISCI-4961",
-      "ISCI-6961"
-    ]
-  },
-  "43787": {
-    "cross_list_courses": [
-      "ECSE-4961",
-      "ECSE-6961",
-      "ENGR-4962",
-      "ISCI-4961",
-      "ISCI-6961"
-    ],
-    "restrictions": {
-      "level": {
-        "may_not_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "43788": {
     "cross_list_courses": [
       "GSAS-1600"
@@ -26258,9 +25987,31 @@
       }
     }
   },
-  "43792": {},
-  "43793": {},
-  "43794": {},
+  "43792": {
+    "cross_list_courses": [
+      "ARTS-2230"
+    ]
+  },
+  "43793": {
+    "cross_list_courses": [
+      "ARTS-2230"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
+  "43794": {
+    "cross_list_courses": [
+      "ARTS-2230"
+    ]
+  },
   "43796": {
     "restrictions": {
       "level": {
@@ -26299,8 +26050,16 @@
       "type": "or"
     }
   },
-  "43800": {},
-  "43801": {},
+  "43800": {
+    "cross_list_courses": [
+      "GSAS-2540"
+    ]
+  },
+  "43801": {
+    "cross_list_courses": [
+      "GSAS-2540"
+    ]
+  },
   "43802": {},
   "43803": {},
   "43804": {},
@@ -26623,6 +26382,358 @@
       "level": {
         "must_be": [
           "Graduate"
+        ]
+      }
+    }
+  },
+  "43843": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "43844": {},
+  "43846": {},
+  "43847": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "course": "MATH 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2965",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43848": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2965",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 4600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43849": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2965",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43850": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2012",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2100",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 4600",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            },
+            {
+              "nested": [
+                {
+                  "course": "MATH 2965",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 4600",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "and"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43851": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 4800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4800",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43852": {},
+  "43853": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATP 4600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43854": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43855": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 2600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Junior"
+        ]
+      }
+    }
+  },
+  "43856": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43857": {},
+  "43858": {
+    "cross_list_courses": [
+      "ARTS-4510",
+      "ARTS-6400",
+      "GSAS-4510"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43859": {},
+  "43860": {
+    "prerequisites": {
+      "course": "PHYS 2210",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43861": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-6961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
+  "43862": {
+    "cross_list_courses": [
+      "ECSE-4961",
+      "ECSE-6961",
+      "ENGR-4961",
+      "ISCI-4961",
+      "ISCI-6961"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
     }
