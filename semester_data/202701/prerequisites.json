@@ -1,11 +1,4 @@
 {
-  "40001": {
-    "prerequisites": {
-      "course": "MGMT 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "40002": {},
   "40003": {},
   "40004": {},
@@ -1264,7 +1257,11 @@
       }
     }
   },
-  "40066": {},
+  "40066": {
+    "cross_list_courses": [
+      "ERTH-1200"
+    ]
+  },
   "40067": {
     "cross_list_courses": [
       "ECSE-2050"
@@ -14471,9 +14468,7 @@
     "corequisites": [
       "ARCH-4325"
     ],
-    "cross_list_courses": [
-      "ARCH-6620"
-    ],
+    "cross_list_courses": [],
     "prerequisites": {
       "course": "ARCH 4820",
       "min_grade": "D",
@@ -15163,50 +15158,6 @@
     }
   },
   "41678": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41679": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "41680": {
     "prerequisites": {
       "nested": [
         {
@@ -16857,6 +16808,9 @@
     }
   },
   "41822": {
+    "cross_list_courses": [
+      "ERTH-1200"
+    ],
     "restrictions": {
       "major": {
         "must_be": [
@@ -17230,9 +17184,6 @@
     ]
   },
   "41877": {
-    "cross_list_courses": [
-      "ENVE-4960"
-    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -20695,25 +20646,6 @@
       "type": "course"
     }
   },
-  "42502": {
-    "cross_list_courses": [
-      "ARCH-4830"
-    ],
-    "prerequisites": {
-      "course": "ARCH 6610",
-      "min_grade": "B",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "42504": {},
   "42505": {},
   "42506": {},
@@ -20856,21 +20788,6 @@
   "42626": {},
   "42627": {},
   "42628": {},
-  "42629": {
-    "prerequisites": {
-      "course": "ARCH 5110",
-      "min_grade": "D",
-      "type": "course"
-    },
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "42630": {},
   "42631": {},
   "42632": {},
@@ -21177,50 +21094,6 @@
     "cross_list_courses": [
       "MANE-4460"
     ]
-  },
-  "42682": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "MANE 2710",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 2720",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "MANE 4730",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    }
-  },
-  "42684": {
-    "cross_list_courses": [
-      "MANE-6790"
-    ],
-    "prerequisites": {
-      "course": "MANE 4730",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
-  "42685": {
-    "cross_list_courses": [
-      "MANE-4790"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
   },
   "42686": {
     "restrictions": {
@@ -21602,16 +21475,6 @@
     ]
   },
   "42830": {
-    "cross_list_courses": [
-      "MANE-1010"
-    ]
-  },
-  "42831": {
-    "cross_list_courses": [
-      "MANE-1010"
-    ]
-  },
-  "42832": {
     "cross_list_courses": [
       "MANE-1010"
     ]
@@ -22343,58 +22206,6 @@
   "42935": {},
   "42936": {},
   "42937": {},
-  "42938": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
-  "42939": {
-    "prerequisites": {
-      "nested": [
-        {
-          "nested": [
-            {
-              "course": "CHEM 1100",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1110",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "CHEM 1120",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        },
-        {
-          "nested": [
-            {
-              "course": "ERTH 1200",
-              "min_grade": "D",
-              "type": "course"
-            },
-            {
-              "course": "ERTH 1125",
-              "min_grade": "D",
-              "type": "course"
-            }
-          ],
-          "type": "or"
-        }
-      ],
-      "type": "and"
-    }
-  },
   "42941": {
     "restrictions": {
       "level": {
@@ -22717,7 +22528,6 @@
   "43181": {},
   "43182": {},
   "43183": {},
-  "43184": {},
   "43185": {},
   "43186": {},
   "43187": {},
@@ -23274,7 +23084,9 @@
   },
   "43367": {
     "cross_list_courses": [
-      "ENVE-6960"
+      "CHEM-4690",
+      "ERTH-4690",
+      "ERTH-6690"
     ]
   },
   "43370": {
@@ -24548,7 +24360,6 @@
       "PHYS-4961"
     ]
   },
-  "43680": {},
   "43681": {
     "prerequisites": {
       "course": "PHYS 2210",
@@ -24773,30 +24584,6 @@
         "must_be": [
           "Business and Management",
           "Business and Management"
-        ]
-      }
-    }
-  },
-  "43711": {
-    "cross_list_courses": [
-      "MTLE-6250"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "43712": {
-    "cross_list_courses": [
-      "MTLE-6250"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -25091,8 +24878,18 @@
       "type": "course"
     }
   },
-  "43732": {},
-  "43733": {},
+  "43732": {
+    "cross_list_courses": [
+      "COGS-6440",
+      "PHIL-4440"
+    ]
+  },
+  "43733": {
+    "cross_list_courses": [
+      "COGS-6440",
+      "PHIL-4440"
+    ]
+  },
   "43735": {},
   "43736": {
     "prerequisites": {
@@ -26380,6 +26177,9 @@
     }
   },
   "43843": {
+    "cross_list_courses": [
+      "ISYE-6760"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -26955,6 +26755,298 @@
           "Sophomore"
         ]
       }
+    }
+  },
+  "43875": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43876": {
+    "cross_list_courses": [
+      "CHEM-4690",
+      "ENVE-4960",
+      "ERTH-6690"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43877": {
+    "cross_list_courses": [
+      "ENVE-4960",
+      "ERTH-4690",
+      "ERTH-6690"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1120",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
+  "43878": {
+    "cross_list_courses": [
+      "CHEM-4690",
+      "ENVE-4960",
+      "ERTH-4690"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43879": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ERTH 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43880": {
+    "cross_list_courses": [
+      "ISCI-1510"
+    ]
+  },
+  "43881": {
+    "cross_list_courses": [
+      "ERTH-1510"
+    ]
+  },
+  "43882": {
+    "cross_list_courses": [
+      "ERTH-6545"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CHEM 1100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ERTH 1200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43883": {
+    "restrictions": {
+      "campus": {
+        "must_be": [
+          "Hartford"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43884": {},
+  "43885": {
+    "cross_list_courses": [
+      "ERTH-4540"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43886": {},
+  "43887": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Environmental Science",
+          "Geology"
+        ]
+      }
+    }
+  },
+  "43888": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "43889": {
+    "cross_list_courses": [
+      "MATP-6620"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43890": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43891": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43892": {
+    "prerequisites": {
+      "course": "MANE 1010",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43893": {},
+  "43894": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43895": {},
+  "43896": {},
+  "43897": {},
+  "43898": {},
+  "43899": {},
+  "43900": {},
+  "43901": {},
+  "43902": {},
+  "43903": {},
+  "43904": {},
+  "43905": {},
+  "43906": {},
+  "43907": {},
+  "43908": {},
+  "43909": {},
+  "43910": {},
+  "43911": {
+    "cross_list_courses": [
+      "PHIL-4440"
+    ],
+    "restrictions": {
+      "level": {
+        "may_not_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43912": {
+    "cross_list_courses": [
+      "ISYE-6961"
+    ]
+  },
+  "43913": {
+    "cross_list_courses": [
+      "ISYE-4961"
+    ],
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "43915": {},
+  "43916": {},
+  "43917": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
