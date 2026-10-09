@@ -1428,13 +1428,6 @@
       }
     }
   },
-  "40078": {
-    "prerequisites": {
-      "course": "MGMT 1100",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "40080": {
     "prerequisites": {
       "course": "PHYS 2210",
@@ -16435,41 +16428,6 @@
       }
     }
   },
-  "41790": {
-    "cross_list_courses": [
-      "ARTS-6040"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1040",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
   "41791": {
     "cross_list_courses": [
       "ECSE-6141"
@@ -17391,18 +17349,6 @@
         "must_be": [
           "Electronic Arts",
           "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
-  },
-  "41914": {
-    "cross_list_courses": [
-      "ARTS-4040"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
         ]
       }
     }
@@ -21251,150 +21197,6 @@
     "cross_list_courses": [
       "MANE-1010"
     ]
-  },
-  "42844": {
-    "cross_list_courses": [],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42845": {
-    "cross_list_courses": [
-      "ARTS-6250"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 1020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 1200",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2020",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2380",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2220",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "GSAS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1170",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "INQR 1180",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1030",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1040",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1170",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "IHSS 1180",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42846": {
-    "cross_list_courses": [
-      "ARTS-4250"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42847": {
-    "cross_list_courses": [
-      "ARTS-6880"
-    ],
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARTS 2380",
-          "min_grade": "D",
-          "type": "course"
-        },
-        {
-          "course": "ARTS 2020",
-          "min_grade": "D",
-          "type": "course"
-        }
-      ],
-      "type": "or"
-    }
-  },
-  "42848": {
-    "cross_list_courses": [
-      "ARTS-4880"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
   },
   "42851": {
     "cross_list_courses": [
@@ -26942,6 +26744,63 @@
       }
     }
   },
+  "43925": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 2320",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43926": {},
+  "43927": {},
+  "43929": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MGMT 6190",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "MGMT 6020",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43931": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
   "43932": {
     "restrictions": {
       "major": {
@@ -27244,6 +27103,57 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "43961": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student",
+          "Junior",
+          "Senior"
+        ]
+      }
+    }
+  },
+  "43962": {},
+  "43963": {},
+  "43965": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MTLE 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4200",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MTLE 4250",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    }
+  },
+  "43966": {
+    "prerequisites": {
+      "course": "MGMT 1100",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43967": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
