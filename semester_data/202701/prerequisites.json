@@ -14222,9 +14222,7 @@
     ]
   },
   "41564": {
-    "cross_list_courses": [
-      "CHEM-4140"
-    ],
+    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -22644,7 +22642,6 @@
   },
   "43381": {},
   "43382": {},
-  "43384": {},
   "43387": {},
   "43388": {
     "restrictions": {
@@ -25562,6 +25559,9 @@
     }
   },
   "43827": {
+    "cross_list_courses": [
+      "CSCI-6530"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25579,6 +25579,9 @@
     }
   },
   "43828": {
+    "cross_list_courses": [
+      "CSCI-4530"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -25588,6 +25591,9 @@
     }
   },
   "43829": {
+    "cross_list_courses": [
+      "CSCI-6550"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -25602,6 +25608,33 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "43830": {
+    "cross_list_courses": [
+      "CSCI-4550"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   },
   "43831": {
@@ -26992,6 +27025,43 @@
     }
   },
   "43948": {},
+  "43949": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ECSE 2410",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "nested": [
+                {
+                  "course": "MATH 2010",
+                  "min_grade": "D",
+                  "type": "course"
+                },
+                {
+                  "course": "MATH 2011",
+                  "min_grade": "D",
+                  "type": "course"
+                }
+              ],
+              "type": "or"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "and"
+        }
+      ],
+      "type": "and"
+    }
+  },
   "43950": {
     "prerequisites": {
       "course": "GSAS 6110",
@@ -27308,6 +27378,13 @@
         }
       ],
       "type": "and"
+    }
+  },
+  "43980": {
+    "prerequisites": {
+      "course": "CSCI 2700",
+      "min_grade": "D",
+      "type": "course"
     }
   }
 }
