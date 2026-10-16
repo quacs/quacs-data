@@ -12277,7 +12277,16 @@
     "cross_list_courses": [
       "ARTS-1040",
       "GSAS-1040"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "41355": {
     "cross_list_courses": [
@@ -12466,7 +12475,14 @@
   "41378": {
     "cross_list_courses": [
       "GSAS-2540"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "41379": {
     "cross_list_courses": [
@@ -14599,11 +14615,6 @@
       "type": "and"
     }
   },
-  "41558": {
-    "cross_list_courses": [
-      "ARTS-2180"
-    ]
-  },
   "41559": {
     "cross_list_courses": [
       "PSYC-4350"
@@ -14709,7 +14720,6 @@
     ]
   },
   "41564": {
-    "cross_list_courses": [],
     "restrictions": {
       "level": {
         "must_be": [
@@ -15185,20 +15195,6 @@
   "41649": {},
   "41650": {},
   "41651": {},
-  "41653": {
-    "cross_list_courses": [
-      "ARTS-2180"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci",
-          "Music"
-        ]
-      }
-    }
-  },
   "41657": {
     "restrictions": {
       "classification": {
@@ -16813,25 +16809,6 @@
     }
   },
   "41783": {},
-  "41784": {
-    "cross_list_courses": [
-      "ARTS-2180"
-    ]
-  },
-  "41785": {
-    "cross_list_courses": [
-      "ARTS-2180"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci",
-          "Music"
-        ]
-      }
-    }
-  },
   "41786": {
     "cross_list_courses": [
       "CIVL-4080"
@@ -19399,15 +19376,7 @@
     "cross_list_courses": [
       "ARTS-1040",
       "GSAS-1040"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "42108": {
     "prerequisites": {
@@ -21013,6 +20982,9 @@
     }
   },
   "42601": {
+    "cross_list_courses": [
+      "LGHT-4960"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -23288,7 +23260,6 @@
       }
     }
   },
-  "43432": {},
   "43433": {},
   "43434": {},
   "43440": {},
@@ -23547,7 +23518,6 @@
       }
     }
   },
-  "43621": {},
   "43622": {},
   "43624": {
     "prerequisites": {
@@ -25329,7 +25299,15 @@
       }
     }
   },
-  "43759": {},
+  "43759": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "43760": {
     "restrictions": {
       "classification": {
@@ -25828,7 +25806,14 @@
   "43801": {
     "cross_list_courses": [
       "GSAS-2540"
-    ]
+    ],
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
   },
   "43802": {},
   "43803": {},
@@ -28005,6 +27990,32 @@
       }
     }
   },
-  "43995": {},
-  "43996": {}
+  "43995": {
+    "cross_list_courses": [
+      "LGHT-6230"
+    ],
+    "prerequisites": {
+      "course": "LGHT 4230",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "43996": {},
+  "43998": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "BIOL 2120",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "BIOL 4200",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  }
 }
