@@ -17890,18 +17890,6 @@
     }
   },
   "41926": {},
-  "41927": {
-    "cross_list_courses": [
-      "LGHT-4760"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "41928": {
     "prerequisites": {
       "nested": [
@@ -17918,11 +17906,6 @@
       ],
       "type": "or"
     }
-  },
-  "41929": {
-    "cross_list_courses": [
-      "LGHT-6770"
-    ]
   },
   "41930": {
     "cross_list_courses": [
@@ -18828,6 +18811,9 @@
     }
   },
   "42055": {
+    "cross_list_courses": [
+      "PSYC-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -19659,11 +19645,6 @@
         ]
       }
     }
-  },
-  "42135": {
-    "cross_list_courses": [
-      "LGHT-6760"
-    ]
   },
   "42136": {
     "cross_list_courses": [
@@ -21040,15 +21021,7 @@
       }
     }
   },
-  "42602": {
-    "cross_list_courses": [
-      "LGHT-4770"
-    ]
-  },
-  "42603": {},
-  "42604": {},
   "42605": {},
-  "42606": {},
   "42607": {
     "cross_list_courses": [
       "ISYE-6370"
@@ -21107,30 +21080,6 @@
     "cross_list_courses": [
       "ARCH-4060"
     ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
-  "42643": {
-    "prerequisites": {
-      "nested": [
-        {
-          "course": "ARCH 6630",
-          "min_grade": "C",
-          "type": "course"
-        },
-        {
-          "course": "ARCH 6750",
-          "min_grade": "C",
-          "type": "course"
-        }
-      ],
-      "type": "and"
-    },
     "restrictions": {
       "level": {
         "must_be": [
@@ -22677,7 +22626,15 @@
   "43276": {},
   "43277": {},
   "43278": {},
-  "43279": {},
+  "43279": {
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Freshman"
+        ]
+      }
+    }
+  },
   "43280": {},
   "43281": {},
   "43282": {},
@@ -24982,6 +24939,9 @@
     }
   },
   "43740": {
+    "cross_list_courses": [
+      "PSYC-4410"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -24996,6 +24956,14 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Cognitive Science",
+          "Psychology"
+        ]
+      }
     }
   },
   "43741": {
@@ -25128,15 +25096,7 @@
   "43752": {
     "cross_list_courses": [
       "INQR-1100"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
+    ]
   },
   "43753": {
     "restrictions": {
@@ -25780,14 +25740,7 @@
   "43789": {
     "cross_list_courses": [
       "GSAS-1600"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "43790": {
     "cross_list_courses": [
@@ -25804,14 +25757,7 @@
   "43791": {
     "cross_list_courses": [
       "GSAS-1600"
-    ],
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Games & Simulation Arts & Sci"
-        ]
-      }
-    }
+    ]
   },
   "43792": {
     "cross_list_courses": [
@@ -28009,5 +27955,56 @@
       }
     }
   },
-  "43990": {}
+  "43990": {},
+  "43991": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43992": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ARCH 6630",
+          "min_grade": "C",
+          "type": "course"
+        },
+        {
+          "course": "ARCH 6750",
+          "min_grade": "C",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43993": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "43995": {},
+  "43996": {}
 }
