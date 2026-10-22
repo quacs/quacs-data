@@ -10785,17 +10785,6 @@
       }
     }
   },
-  "41204": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "41206": {
     "restrictions": {
       "classification": {
@@ -17020,7 +17009,6 @@
   "41810": {},
   "41811": {},
   "41812": {},
-  "41813": {},
   "41814": {
     "restrictions": {
       "level": {
@@ -17478,9 +17466,7 @@
   "41878": {},
   "41884": {
     "cross_list_courses": [
-      "CSCI-4964",
       "CSCI-4966",
-      "CSCI-6964",
       "CSCI-6966",
       "ECSE-6963"
     ]
@@ -18317,9 +18303,7 @@
   "41973": {},
   "41974": {
     "cross_list_courses": [
-      "CSCI-4964",
       "CSCI-4966",
-      "CSCI-6964",
       "ECSE-4963",
       "ECSE-6963"
     ],
@@ -20296,15 +20280,6 @@
       "type": "or"
     }
   },
-  "42204": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42205": {
     "cross_list_courses": [
       "CHME-4060"
@@ -21773,9 +21748,7 @@
   },
   "42862": {
     "cross_list_courses": [
-      "CSCI-4964",
       "CSCI-4966",
-      "CSCI-6964",
       "CSCI-6966",
       "ECSE-4963"
     ],
@@ -22441,20 +22414,12 @@
   },
   "43156": {
     "cross_list_courses": [
-      "CSCI-4966",
-      "CSCI-6964",
-      "CSCI-6966",
-      "ECSE-4963",
-      "ECSE-6963"
+      "CSCI-6964"
     ]
   },
   "43157": {
     "cross_list_courses": [
-      "CSCI-4964",
-      "CSCI-4966",
-      "CSCI-6966",
-      "ECSE-4963",
-      "ECSE-6963"
+      "CSCI-4964"
     ],
     "restrictions": {
       "classification": {
@@ -22637,8 +22602,6 @@
   "43307": {},
   "43309": {
     "cross_list_courses": [
-      "CSCI-4964",
-      "CSCI-6964",
       "CSCI-6966",
       "ECSE-4963",
       "ECSE-6963"
@@ -24905,6 +24868,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "43738": {
@@ -24947,6 +24919,15 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "may_not_be": [
+          "Biological Neuroscience",
+          "Cognitive Science",
+          "Psychological Science"
+        ]
+      }
     }
   },
   "43740": {
@@ -25450,6 +25431,9 @@
     }
   },
   "43762": {
+    "cross_list_courses": [
+      "MANE-6610"
+    ],
     "restrictions": {
       "classification": {
         "may_not_be": [
@@ -27698,6 +27682,9 @@
     }
   },
   "43946": {
+    "cross_list_courses": [
+      "ECSE-6420"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -27722,6 +27709,9 @@
     }
   },
   "43947": {
+    "cross_list_courses": [
+      "MANE-4966"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -27730,7 +27720,11 @@
       }
     }
   },
-  "43948": {},
+  "43948": {
+    "cross_list_courses": [
+      "MANE-6966"
+    ]
+  },
   "43949": {
     "prerequisites": {
       "nested": [
@@ -28402,6 +28396,51 @@
   },
   "44058": {
     "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44059": {},
+  "44060": {},
+  "44061": {},
+  "44062": {},
+  "44063": {},
+  "44064": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44065": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44066": {
+    "cross_list_courses": [
+      "ARTS-6860"
+    ]
+  },
+  "44067": {
+    "cross_list_courses": [
+      "ARTS-4860"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
       "level": {
         "must_be": [
           "Graduate"
