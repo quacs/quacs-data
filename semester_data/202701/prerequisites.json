@@ -2658,7 +2658,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -2697,7 +2698,8 @@
           "Engineering Science",
           "Materials Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -15314,13 +15316,6 @@
       }
     }
   },
-  "41668": {
-    "prerequisites": {
-      "course": "GSAS 2520",
-      "min_grade": "D",
-      "type": "course"
-    }
-  },
   "41669": {
     "cross_list_courses": [
       "CSCI-4971",
@@ -17135,9 +17130,6 @@
     }
   },
   "41829": {
-    "cross_list_courses": [
-      "ARTS-6160"
-    ],
     "prerequisites": {
       "course": "ARTS 2020",
       "min_grade": "D",
@@ -21237,6 +21229,9 @@
   "42671": {},
   "42672": {},
   "42674": {
+    "cross_list_courses": [
+      "GSAS-6963"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -22111,18 +22106,6 @@
     ]
   },
   "42907": {},
-  "42908": {
-    "cross_list_courses": [
-      "ARTS-4160"
-    ],
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "42913": {
     "cross_list_courses": [
       "ISYE-4500"
@@ -24515,6 +24498,13 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43715": {
@@ -24821,7 +24811,7 @@
     ],
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Cognitive Science",
           "Philosophy"
         ]
@@ -24871,7 +24861,7 @@
     },
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Biological Neuroscience",
           "Cognitive Science",
           "Psychological Science"
@@ -24922,7 +24912,7 @@
     },
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Biological Neuroscience",
           "Cognitive Science",
           "Psychological Science"
@@ -26294,7 +26284,8 @@
   "43835": {},
   "43836": {
     "cross_list_courses": [
-      "CSCI-6968"
+      "CSCI-6968",
+      "ISYE-6968"
     ],
     "restrictions": {
       "major": {
@@ -26306,7 +26297,8 @@
   },
   "43837": {
     "cross_list_courses": [
-      "CSCI-4968"
+      "CSCI-4968",
+      "ISYE-6968"
     ],
     "restrictions": {
       "classification": {
@@ -28425,37 +28417,96 @@
       }
     }
   },
-  "44066": {
+  "44073": {
     "cross_list_courses": [
-      "ARTS-6860"
+      "GSAS-4270"
     ]
   },
-  "44067": {
+  "44074": {
     "cross_list_courses": [
-      "ARTS-4860"
-    ],
+      "CSCI-4968",
+      "CSCI-6968"
+    ]
+  },
+  "44075": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ECSE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1960",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MANE 1010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "ROBT 1010",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 2400",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
-      "classification": {
+      "major": {
         "must_be": [
-          "Graduate Student"
-        ]
-      },
-      "level": {
-        "must_be": [
-          "Graduate"
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Industrial & Management Engr",
+          "Nuclear Engineering"
         ]
       }
-    }
-  },
-  "44068": {},
-  "44069": {},
-  "44070": {},
-  "44071": {},
-  "44072": {
-    "prerequisites": {
-      "course": "GSAS 4240",
-      "min_grade": "D",
-      "type": "course"
     }
   }
 }
