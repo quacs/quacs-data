@@ -9262,6 +9262,16 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "41042": {
@@ -12150,11 +12160,44 @@
       "CSCI-6962",
       "ECSE-6967"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "nested": [
+            {
+              "course": "CSCI 4100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 4160",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
           "Junior",
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
         ]
       }
     }
@@ -15049,6 +15092,20 @@
       "type": "course"
     }
   },
+  "41605": {},
+  "41606": {},
+  "41607": {},
+  "41608": {},
+  "41609": {},
+  "41610": {},
+  "41611": {},
+  "41612": {},
+  "41613": {},
+  "41614": {},
+  "41615": {},
+  "41616": {},
+  "41617": {},
+  "41618": {},
   "41619": {},
   "41620": {
     "restrictions": {
@@ -15161,6 +15218,8 @@
   "41649": {},
   "41650": {},
   "41651": {},
+  "41654": {},
+  "41656": {},
   "41657": {
     "restrictions": {
       "classification": {
@@ -16560,15 +16619,7 @@
       }
     }
   },
-  "41756": {
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      }
-    }
-  },
+  "41756": {},
   "41757": {
     "restrictions": {
       "level": {
@@ -17461,7 +17512,32 @@
       "CSCI-4966",
       "CSCI-6966",
       "ECSE-6963"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4770",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "41886": {
     "cross_list_courses": [
@@ -17587,15 +17663,6 @@
       "course": "MATH 1020",
       "min_grade": "D",
       "type": "course"
-    }
-  },
-  "41897": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
     }
   },
   "41899": {
@@ -18428,6 +18495,7 @@
     }
   },
   "42003": {},
+  "42004": {},
   "42005": {
     "cross_list_courses": [
       "ENGR-2300"
@@ -19104,6 +19172,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42087": {
@@ -19111,6 +19189,16 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42088": {
@@ -19118,6 +19206,16 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42089": {
@@ -19125,12 +19223,37 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42090": {
     "cross_list_courses": [
       "CSCI-6965"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 4020",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
   },
   "42091": {
     "cross_list_courses": [
@@ -20407,6 +20530,7 @@
       }
     }
   },
+  "42228": {},
   "42229": {
     "restrictions": {
       "level": {
@@ -21263,7 +21387,13 @@
       "type": "or"
     }
   },
-  "42675": {},
+  "42675": {
+    "cross_list_courses": [
+      "ARTS-2960",
+      "ARTS-2961",
+      "GSAS-2961"
+    ]
+  },
   "42680": {
     "cross_list_courses": [
       "MANE-6380"
@@ -21471,6 +21601,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42806": {
@@ -21514,6 +21654,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "42809": {
@@ -21534,11 +21684,39 @@
     "cross_list_courses": [
       "CSCI-6963"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4390",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "classification": {
         "must_be": [
           "Junior",
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
         ]
       }
     }
@@ -21558,7 +21736,22 @@
   "42822": {
     "cross_list_courses": [
       "CSCI-6967"
-    ]
+    ],
+    "prerequisites": {
+      "course": "CSCI 2300",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
   },
   "42823": {
     "cross_list_courses": [
@@ -21684,6 +21877,14 @@
         "must_be": [
           "Junior",
           "Senior"
+        ]
+      },
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
         ]
       }
     }
@@ -22398,7 +22599,32 @@
   "43156": {
     "cross_list_courses": [
       "CSCI-6964"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4150",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4390",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
   },
   "43157": {
     "cross_list_courses": [
@@ -22588,7 +22814,42 @@
       "CSCI-6966",
       "ECSE-4963",
       "ECSE-6963"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2500",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2800",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 2610",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ECSE 4770",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
   },
   "43313": {
     "restrictions": {
@@ -25476,6 +25737,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43765": {
@@ -26046,6 +26317,16 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43817": {
@@ -26066,6 +26347,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43818": {
@@ -26101,6 +26392,16 @@
         }
       ],
       "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43820": {
@@ -26108,6 +26409,16 @@
       "course": "CSCI 2300",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43822": {
@@ -26140,6 +26451,16 @@
       "course": "CSCI 4430",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43825": {
@@ -26150,6 +26471,16 @@
       "course": "CSCI 2600",
       "min_grade": "D",
       "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43826": {
@@ -26182,6 +26513,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43828": {
@@ -26214,6 +26555,16 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
   },
   "43830": {
@@ -26280,17 +26631,76 @@
       }
     }
   },
-  "43834": {},
-  "43835": {},
+  "43834": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 2300",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Robotics Engineering"
+        ]
+      }
+    }
+  },
+  "43835": {
+    "prerequisites": {
+      "course": "CSCI 2200",
+      "min_grade": "D",
+      "type": "course"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
+  },
   "43836": {
     "cross_list_courses": [
       "CSCI-6968",
       "ISYE-6968"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4020",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 2300",
+          "min_grade": "A-",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
     "restrictions": {
       "major": {
         "must_be": [
-          "Computer Science"
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
         ]
       }
     }
@@ -26313,7 +26723,37 @@
   "43838": {
     "cross_list_courses": [
       "CSCI-6969"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "CSCI 4100",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4160",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 4390",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
+    }
   },
   "43839": {
     "cross_list_courses": [
@@ -26932,7 +27372,22 @@
       "MANE-4963",
       "MANE-6963",
       "ROBT-4020"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2012",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "43874": {
     "cross_list_courses": [
@@ -28175,12 +28630,16 @@
   },
   "43988": {
     "cross_list_courses": [
-      "ARTS-2961"
+      "ARTS-2961",
+      "GSAS-2960",
+      "GSAS-2961"
     ]
   },
   "43989": {
     "cross_list_courses": [
-      "ARTS-2960"
+      "ARTS-2960",
+      "GSAS-2960",
+      "GSAS-2961"
     ],
     "restrictions": {
       "major": {
@@ -28529,6 +28988,23 @@
         }
       ],
       "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Computer Science",
+          "Computer & Systems Engineering",
+          "Information Tech & Web Science",
+          "Robotics Engineering"
+        ]
+      }
     }
+  },
+  "44077": {
+    "cross_list_courses": [
+      "ARTS-2960",
+      "ARTS-2961",
+      "GSAS-2960"
+    ]
   }
 }
