@@ -7191,6 +7191,7 @@
       "major": {
         "must_be": [
           "Business Analytics",
+          "Management",
           "Quant Finance & Risk Analytics"
         ]
       }
@@ -12368,7 +12369,7 @@
     ],
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Communication, Media, & Design",
           "Electronic Arts",
           "Games & Simulation Arts & Sci"
@@ -12602,7 +12603,9 @@
     ],
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -12877,12 +12880,35 @@
   },
   "41418": {},
   "41420": {
+    "cross_list_courses": [
+      "ECON-4570"
+    ],
     "prerequisites": {
       "nested": [
         {
-          "course": "MATH 2010",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "nested": [
@@ -15341,6 +15367,7 @@
   "41650": {},
   "41651": {},
   "41654": {},
+  "41655": {},
   "41656": {},
   "41657": {
     "restrictions": {
@@ -15735,13 +15762,6 @@
       "ECSE-4660"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -18143,13 +18163,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "may_not_be": [
-          "Biotechnology & Health Econ"
-        ]
-      }
     }
   },
   "41948": {
@@ -19040,7 +19053,7 @@
     ],
     "prerequisites": {
       "course": "BIOL 2120",
-      "min_grade": null,
+      "min_grade": "D",
       "type": "course"
     }
   },
@@ -21978,11 +21991,9 @@
       "ECSE-4210"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -22279,7 +22290,14 @@
   "42898": {
     "cross_list_courses": [
       "ECSE-4370"
-    ]
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
   },
   "42899": {
     "prerequisites": {
@@ -22305,7 +22323,8 @@
   },
   "42902": {
     "cross_list_courses": [
-      "COMM-4567"
+      "COMM-4567",
+      "COMM-6567"
     ]
   },
   "42907": {},
@@ -23150,26 +23169,10 @@
       "type": "and"
     },
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior",
-          "Sophomore"
-        ]
-      },
       "major": {
         "must_be": [
-          "Aeronautical Engineering",
-          "Aerospace Engineering",
-          "Biomedical Engineering",
-          "Chemical Engineering",
-          "Civil Engineering",
           "Computer & Systems Engineering",
-          "Electrical Engineering",
-          "Undeclared Engineering",
-          "Environmental Engineering",
-          "Materials Engineering",
-          "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Electrical Engineering"
         ]
       }
     }
@@ -24717,12 +24720,6 @@
         "may_not_be": [
           "Non-Degree Seeking"
         ]
-      },
-      "major": {
-        "must_be": [
-          "Business and Management",
-          "Business and Management"
-        ]
       }
     }
   },
@@ -24806,7 +24803,8 @@
       "classification": {
         "must_be": [
           "Junior",
-          "Sophomore"
+          "Sophomore",
+          "Senior"
         ]
       },
       "major": {
@@ -25211,7 +25209,7 @@
       "major": {
         "must_be": [
           "Cognitive Science",
-          "Psychology"
+          "Psychological Science"
         ]
       }
     }
@@ -25693,11 +25691,9 @@
       "MANE-6610"
     ],
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Junior",
-          "Sophomore"
+      "level": {
+        "must_be": [
+          "Graduate"
         ]
       }
     }
@@ -25831,14 +25827,17 @@
       "major": {
         "must_be": [
           "Business and Management",
-          "Business and Management"
+          "Business Analytics",
+          "Fin, Markets & Emerge Tech",
+          "Marketing and Advanced Comp"
         ]
       }
     }
   },
   "43769": {
     "cross_list_courses": [
-      "COMM-4567"
+      "COMM-4567",
+      "COMM-6567"
     ],
     "restrictions": {
       "classification": {
@@ -25864,9 +25863,19 @@
     "prerequisites": {
       "nested": [
         {
-          "course": "CHEM 1100",
-          "min_grade": "D",
-          "type": "course"
+          "nested": [
+            {
+              "course": "CHEM 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CHEM 1110",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
         },
         {
           "course": "BMED 4500",
@@ -25882,9 +25891,9 @@
       "BMED-4520"
     ],
     "restrictions": {
-      "classification": {
+      "level": {
         "must_be": [
-          "Graduate Student"
+          "Graduate"
         ]
       }
     }
@@ -25909,7 +25918,7 @@
     },
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
           "Biomedical Engineering"
         ]
       }
@@ -26201,7 +26210,9 @@
     ],
     "restrictions": {
       "major": {
-        "may_not_be": [
+        "must_be": [
+          "Communication, Media, & Design",
+          "Electronic Arts",
           "Games & Simulation Arts & Sci"
         ]
       }
@@ -26251,7 +26262,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -26304,11 +26315,6 @@
       "ECSE-4770"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -27088,13 +27094,6 @@
         }
       ],
       "type": "and"
-    },
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Junior"
-        ]
-      }
     }
   },
   "43858": {
@@ -27588,7 +27587,7 @@
     ],
     "restrictions": {
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -28232,13 +28231,8 @@
       "type": "course"
     },
     "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
-        "may_not_be": [
+        "must_be": [
           "Graduate"
         ]
       }
@@ -28407,7 +28401,11 @@
       }
     }
   },
-  "43962": {},
+  "43962": {
+    "cross_list_courses": [
+      "MTLE-6960"
+    ]
+  },
   "43963": {
     "cross_list_courses": [
       "MTLE-6440"
@@ -29056,7 +29054,6 @@
       }
     }
   },
-  "44082": {},
   "44083": {},
   "44084": {
     "restrictions": {
@@ -29099,6 +29096,159 @@
       "course": "PHYS 4170",
       "min_grade": "D",
       "type": "course"
+    }
+  },
+  "44088": {
+    "cross_list_courses": [
+      "MANE-6070"
+    ],
+    "prerequisites": {
+      "course": "MANE 4070",
+      "min_grade": "D",
+      "type": "course"
+    }
+  },
+  "44089": {
+    "cross_list_courses": [
+      "MANE-4130"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44090": {},
+  "44091": {
+    "cross_list_courses": [
+      "ECON-4570"
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "MATH 2010",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2011",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2012",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATH 2100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "ENGR 2600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MGMT 2100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATP 4600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PSYC 2310",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "BIOL 4200",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Economics"
+        ]
+      }
+    }
+  },
+  "44092": {
+    "cross_list_courses": [
+      "MTLE-4430"
+    ],
+    "restrictions": {
+      "classification": {
+        "must_be": [
+          "Graduate Student"
+        ]
+      },
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44093": {
+    "cross_list_courses": [
+      "COMM-4567"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44094": {},
+  "44095": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44096": {},
+  "44097": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44098": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
     }
   }
 }
