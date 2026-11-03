@@ -7444,15 +7444,6 @@
       }
     }
   },
-  "40862": {
-    "restrictions": {
-      "level": {
-        "must_be": [
-          "Graduate"
-        ]
-      }
-    }
-  },
   "40863": {
     "restrictions": {
       "level": {
@@ -21422,7 +21413,12 @@
   "42689": {
     "cross_list_courses": [
       "MANE-6960"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MANE 4480",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "42690": {
     "cross_list_courses": [
@@ -21922,6 +21918,41 @@
       "ISYE-6620",
       "MANE-6964"
     ],
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "ENGR 2600",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "MATP 4600",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "nested": [
+            {
+              "course": "MANE 2110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "CSCI 1100",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    },
     "restrictions": {
       "major": {
         "must_be": [
@@ -21964,11 +21995,6 @@
       "ECSE-4963"
     ],
     "restrictions": {
-      "classification": {
-        "must_be": [
-          "Graduate Student"
-        ]
-      },
       "level": {
         "must_be": [
           "Graduate"
@@ -22324,7 +22350,8 @@
   "42902": {
     "cross_list_courses": [
       "COMM-4567",
-      "COMM-6567"
+      "COMM-6567",
+      "GSAS-4567"
     ]
   },
   "42907": {},
@@ -23083,16 +23110,6 @@
       }
     }
   },
-  "43337": {
-    "restrictions": {
-      "classification": {
-        "may_not_be": [
-          "Freshman",
-          "Sophomore"
-        ]
-      }
-    }
-  },
   "43338": {},
   "43339": {},
   "43340": {},
@@ -23216,7 +23233,23 @@
       "type": "course"
     }
   },
-  "43356": {},
+  "43356": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 2110",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CSCI 1100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
+  },
   "43357": {},
   "43359": {},
   "43361": {},
@@ -25837,7 +25870,8 @@
   "43769": {
     "cross_list_courses": [
       "COMM-4567",
-      "COMM-6567"
+      "COMM-6567",
+      "GSAS-4567"
     ],
     "restrictions": {
       "classification": {
@@ -28032,7 +28066,12 @@
   "43936": {
     "cross_list_courses": [
       "MANE-6962"
-    ]
+    ],
+    "prerequisites": {
+      "course": "MANE 2720",
+      "min_grade": "D",
+      "type": "course"
+    }
   },
   "43937": {
     "cross_list_courses": [
@@ -28074,6 +28113,9 @@
     }
   },
   "43942": {
+    "cross_list_courses": [
+      "MGMT-6968"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -28124,7 +28166,27 @@
       "ECSE-6490",
       "MANE-6963",
       "ROBT-4020"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MATH 2010",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2012",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MATH 2100",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "43945": {
     "cross_list_courses": [
@@ -28185,7 +28247,22 @@
   "43948": {
     "cross_list_courses": [
       "MANE-6966"
-    ]
+    ],
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "MANE 4350",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "MANE 4470",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
+    }
   },
   "43949": {
     "prerequisites": {
@@ -29212,7 +29289,8 @@
   },
   "44093": {
     "cross_list_courses": [
-      "COMM-4567"
+      "COMM-4567",
+      "GSAS-4567"
     ],
     "restrictions": {
       "level": {
@@ -29243,6 +29321,66 @@
     }
   },
   "44098": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44099": {
+    "cross_list_courses": [
+      "CHME-6840"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44100": {
+    "cross_list_courses": [
+      "MANE-6840"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44101": {
+    "cross_list_courses": [
+      "COMM-4567",
+      "COMM-6567"
+    ]
+  },
+  "44102": {
+    "cross_list_courses": [
+      "MANE-6968"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44103": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44104": {
     "restrictions": {
       "level": {
         "must_be": [
