@@ -8053,7 +8053,19 @@
       "type": "course"
     }
   },
-  "40930": {},
+  "40930": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "40931": {
     "cross_list_courses": [
       "BMED-4010"
@@ -8548,7 +8560,19 @@
       }
     }
   },
-  "40990": {},
+  "40990": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Architecture",
+          "Communication, Media, & Design",
+          "Design, Innovation and Society",
+          "Electronic Arts",
+          "Games & Simulation Arts & Sci"
+        ]
+      }
+    }
+  },
   "40991": {
     "cross_list_courses": [
       "ARTS-6200"
@@ -11136,6 +11160,7 @@
       "major": {
         "must_be": [
           "Business Analytics",
+          "Management",
           "Quant Finance & Risk Analytics",
           "Supply Chain Management"
         ]
@@ -29493,5 +29518,17 @@
       }
     }
   },
-  "44109": {}
+  "44109": {},
+  "44110": {},
+  "44111": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  }
 }
