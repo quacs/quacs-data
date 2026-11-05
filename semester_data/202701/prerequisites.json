@@ -3321,7 +3321,8 @@
       "ARCH-2830"
     ],
     "cross_list_courses": [
-      "ARCH-2360"
+      "ARCH-2360",
+      "ARCH-5310"
     ],
     "prerequisites": {
       "course": "ARCH 2370",
@@ -10431,6 +10432,9 @@
       "ARCH-2360",
       "ARCH-2550"
     ],
+    "cross_list_courses": [
+      "ARCH-5210"
+    ],
     "prerequisites": {
       "nested": [
         {
@@ -11519,6 +11523,9 @@
   "41256": {
     "corequisites": [
       "ARCH-4325"
+    ],
+    "cross_list_courses": [
+      "ARCH-6620"
     ],
     "prerequisites": {
       "course": "ARCH 4820",
@@ -14877,6 +14884,9 @@
     ]
   },
   "41564": {
+    "cross_list_courses": [
+      "CHEM-4140"
+    ],
     "restrictions": {
       "level": {
         "must_be": [
@@ -17016,15 +17026,6 @@
         }
       ],
       "type": "or"
-    },
-    "restrictions": {
-      "major": {
-        "must_be": [
-          "Communication, Media, & Design",
-          "Electronic Arts",
-          "Games & Simulation Arts & Sci"
-        ]
-      }
     }
   },
   "41783": {},
@@ -20071,6 +20072,9 @@
   "42157": {
     "corequisites": [
       "ARCH-5210"
+    ],
+    "cross_list_courses": [
+      "ARCH-2360"
     ]
   },
   "42158": {
@@ -21061,7 +21065,8 @@
       "ARCH-2830"
     ],
     "cross_list_courses": [
-      "ARCH-2360"
+      "ARCH-2360",
+      "ARCH-5310"
     ],
     "prerequisites": {
       "course": "ARCH 2370",
@@ -25435,6 +25440,9 @@
     }
   },
   "43744": {
+    "cross_list_courses": [
+      "ARCH-2830"
+    ],
     "prerequisites": {
       "course": "ARCH 5200",
       "min_grade": "D",
@@ -29521,6 +29529,40 @@
   "44109": {},
   "44110": {},
   "44111": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Junior",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "44112": {
+    "cross_list_courses": [
+      "CHEM-6140"
+    ]
+  },
+  "44113": {
+    "restrictions": {
+      "classification": {
+        "may_not_be": [
+          "Freshman",
+          "Sophomore"
+        ]
+      }
+    }
+  },
+  "44114": {
+    "cross_list_courses": [
+      "ARCH-4830"
+    ],
+    "prerequisites": {
+      "course": "ARCH 6610",
+      "min_grade": "B",
+      "type": "course"
+    },
     "restrictions": {
       "classification": {
         "may_not_be": [
