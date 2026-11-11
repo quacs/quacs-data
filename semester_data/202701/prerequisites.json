@@ -11420,7 +11420,8 @@
   "41250": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -13651,7 +13652,8 @@
   "41476": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -14653,7 +14655,8 @@
   "41550": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -19164,7 +19167,8 @@
   "42078": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -20161,7 +20165,8 @@
   "42176": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -20210,7 +20215,8 @@
   "42177": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -20259,7 +20265,8 @@
   "42178": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -20308,7 +20315,8 @@
   "42179": {
     "cross_list_courses": [
       "CIVL-4240",
-      "MANE-4240"
+      "MANE-4240",
+      "MANE-6971"
     ],
     "prerequisites": {
       "nested": [
@@ -23364,7 +23372,6 @@
   },
   "43357": {},
   "43359": {},
-  "43361": {},
   "43363": {},
   "43365": {
     "cross_list_courses": [
@@ -29574,6 +29581,46 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "44121": {
+    "cross_list_courses": [
+      "CIVL-4240",
+      "MANE-4240"
+    ],
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44122": {
+    "prerequisites": {
+      "nested": [
+        {
+          "course": "ENGR 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "CHEM 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "ISCI 1600",
+          "min_grade": "D",
+          "type": "course"
+        },
+        {
+          "course": "PHYS 1600",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "or"
     }
   }
 }
