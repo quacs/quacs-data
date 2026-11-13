@@ -1447,6 +1447,33 @@
       }
     }
   },
+  "40079": {
+    "restrictions": {
+      "major": {
+        "must_be": [
+          "Aeronautical Engineering",
+          "Aerospace Engineering",
+          "Biomedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer & Systems Engineering",
+          "Decision Sciences & Engr Syst",
+          "Design, Innovation and Society",
+          "Electrical Engineering",
+          "Undeclared Engineering",
+          "Environmental Engineering",
+          "Engineering Science",
+          "Information Tech & Web Science",
+          "Materials Engineering",
+          "Mechanical Engineering",
+          "Manufacturing Systems Engr",
+          "Industrial & Management Engr",
+          "Engr Principles in Tech. Educ.",
+          "Nuclear Engineering"
+        ]
+      }
+    }
+  },
   "40080": {
     "prerequisites": {
       "course": "PHYS 2210",
@@ -1638,7 +1665,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -1730,7 +1758,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -1822,7 +1851,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -1914,7 +1944,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -1996,7 +2027,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -2078,7 +2110,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -2607,7 +2640,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -2878,7 +2912,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -3208,7 +3243,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -3867,7 +3903,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -7819,7 +7856,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -8153,7 +8191,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -8203,7 +8242,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -8988,6 +9028,7 @@
           "Engr Principles in Tech. Educ.",
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
+          "Robotics Engineering",
           "Transportation Engineering"
         ]
       }
@@ -9820,6 +9861,7 @@
           "Engr Principles in Tech. Educ.",
           "Nuclear Engineering",
           "Nuclear Engineering & Science",
+          "Robotics Engineering",
           "Transportation Engineering"
         ]
       }
@@ -12514,23 +12556,7 @@
       }
     }
   },
-  "41365": {
-    "cross_list_courses": [
-      "BIOL-4130"
-    ],
-    "restrictions": {
-      "classification": {
-        "must_be": [
-          "Senior"
-        ]
-      },
-      "major": {
-        "must_be": [
-          "Biomedical Engineering"
-        ]
-      }
-    }
-  },
+  "41365": {},
   "41366": {
     "cross_list_courses": [
       "ENGR-1600",
@@ -18690,7 +18716,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -24037,7 +24064,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -25718,7 +25746,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -28911,7 +28940,8 @@
           "Materials Engineering",
           "Mechanical Engineering",
           "Industrial & Management Engr",
-          "Nuclear Engineering"
+          "Nuclear Engineering",
+          "Robotics Engineering"
         ]
       }
     }
@@ -29398,6 +29428,47 @@
           "Graduate"
         ]
       }
+    }
+  },
+  "44127": {
+    "restrictions": {
+      "level": {
+        "must_be": [
+          "Graduate"
+        ]
+      }
+    }
+  },
+  "44128": {
+    "prerequisites": {
+      "nested": [
+        {
+          "nested": [
+            {
+              "course": "PHYS 1100",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1110",
+              "min_grade": "D",
+              "type": "course"
+            },
+            {
+              "course": "PHYS 1150",
+              "min_grade": "D",
+              "type": "course"
+            }
+          ],
+          "type": "or"
+        },
+        {
+          "course": "MATH 1020",
+          "min_grade": "D",
+          "type": "course"
+        }
+      ],
+      "type": "and"
     }
   }
 }
